@@ -34,9 +34,6 @@ jobs:
         run: npm run build
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          # Enable the Pages site on the first run so the workflow needs no manual settings change.
-          enablement: true
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
