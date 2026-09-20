@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "evidenceRegions": "graphrag/evidence-regions.json",
+  "graphrag": [
+    {
+      "id": "countries-health-wealth",
+      "title": "Countries · Health and Wealth",
+      "filename": "countries_health_wealth_2025.png",
+      "image": "graphrag/countries/image.png",
+      "kg": "graphrag/countries/readable-kg.json",
+      "qa": "graphrag/countries/qa-examples.json",
+      "width": 4000,
+      "height": 2653,
+      "sha256": "7f79d2b5e877f8d79ff6b171f1cbc6699fc760dafad81c6dc933ce6a5c0d6bc9"
+    },
+    {
+      "id": "case2-opinionseer",
+      "title": "Case2 · Radial Bar and Ternary Scatter",
+      "filename": "case2_final.png",
+      "image": "graphrag/case2/image.png",
+      "kg": "graphrag/case2/readable-kg.json",
+      "qa": "graphrag/case2/qa-examples.json",
+      "width": 1940,
+      "height": 1304,
+      "sha256": "1c7aeb55a145759648e2bf3edf29f3995f9eb7479548596f5111c57c0cd191ef"
+    }
+  ],
+  "pa": [
+    {
+      "id": "gapminder",
+      "title": "Gapminder World Health Chart 2025",
+      "shortTitle": "Gapminder",
+      "filename": "Gapminder_world_health_chart_2025.csv",
+      "source": "pa/gapminder/source/data.csv",
+      "modes": {
+        "agentic": {
+          "generationId": "971e482de71b45b69bbb33046b890962",
+          "image": "pa/gapminder/agentic/image.png",
+          "preview": "pa/gapminder/agentic/preview.webp",
+          "context": "pa/gapminder/agentic/context.json",
+          "code": "pa/gapminder/agentic/generated-code.py",
+          "assessment": "pa/gapminder/agentic/visual-assessment.json",
+          "report": "pa/gapminder/agentic/report.json",
+          "width": 4004,
+          "height": 6704,
+          "sha256": "61f8ef99f9d9508c0afffa0d7929b15932580532fbe5e447beaa5af1982ae7b9",
+          "qualityScore": 0.7399
+        },
+        "native": {
+          "generationId": "58528121e7d1427cbb7e697970e87213",
+          "image": "pa/gapminder/native/image.png",
+          "context": "pa/gapminder/native/context.json",
+          "option": "pa/gapminder/native/option.json",
+          "report": "pa/gapminder/native/report.json",
+          "width": 1600,
+          "height": 1000,
+          "sha256": "6d3ac168cf8ce87690487aa159fb3831d5f9613da0f5882cafec3cb2bd8a1661"
+        }
+      }
+    },
+    {
+      "id": "case2",
+      "title": "Case2 KG · Radial Bar and Ternary Scatter",
+      "shortTitle": "Case2 KG",
+      "filename": "kg(1).json",
+      "source": "pa/case2/source/kg.json",
+      "modes": {
+        "agentic": {
+          "generationId": "2237855e979445268d33e4eacb322d89",
+          "image": "pa/case2/agentic/image.png",
+          "context": "pa/case2/agentic/context.json",
+          "code": "pa/case2/agentic/generated-code.py",
+          "assessment": "pa/case2/agentic/visual-assessment.json",
+          "report": "pa/case2/agentic/report.json",
+          "width": 1705,
+          "height": 1540,
+          "sha256": "75ac8a644838381e4aeee6522725c9289e70574cbd0d4f9cf45878dfdadc758b",
+          "qualityScore": 0.8167
+        },
+        "native": {
+          "generationId": "14760e6a9ca743a8b47127b6a4e98b3a",
+          "image": "pa/case2/native/image.png",
+          "context": "pa/case2/native/context.json",
+          "option": "pa/case2/native/option.json",
+          "report": "pa/case2/native/report.json",
+          "width": 1600,
+          "height": 1000,
+          "sha256": "5add9e3654c4926724cbd466cf6d8f01e191d10053e1fcd2421c3252ddeb670e"
+        }
+      }
+    }
+  ]
+}

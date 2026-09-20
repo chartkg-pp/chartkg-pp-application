@@ -1,0 +1,2072 @@
+{
+  "contract": "chartkg-evidence-regions:v1",
+  "fixtures": {
+    "1c7aeb55a145759648e2bf3edf29f3995f9eb7479548596f5111c57c0cd191ef": {
+      "sourceWidth": 1940,
+      "sourceHeight": 1304,
+      "markRegions": {
+        "bar_1": {
+          "x": 86.64948,
+          "y": 51.91718,
+          "width": 3.09278,
+          "height": 5.67485,
+          "method": "mask_bbox"
+        },
+        "bar_10": {
+          "x": 83.86598,
+          "y": 36.27301,
+          "width": 5.46392,
+          "height": 7.51534,
+          "method": "mask_bbox"
+        },
+        "bar_11": {
+          "x": 87.68041,
+          "y": 35.81288,
+          "width": 2.26804,
+          "height": 5.52147,
+          "method": "mask_bbox"
+        },
+        "bar_12": {
+          "x": 88.19588,
+          "y": 34.58589,
+          "width": 3.29897,
+          "height": 6.44172,
+          "method": "mask_bbox"
+        },
+        "bar_13": {
+          "x": 84.89691,
+          "y": 31.05828,
+          "width": 3.40206,
+          "height": 6.13497,
+          "method": "mask_bbox"
+        },
+        "bar_14": {
+          "x": 82.21649,
+          "y": 32.59202,
+          "width": 4.63918,
+          "height": 6.90184,
+          "method": "mask_bbox"
+        },
+        "bar_15": {
+          "x": 86.23711,
+          "y": 28.45092,
+          "width": 4.74227,
+          "height": 7.51534,
+          "method": "mask_bbox"
+        },
+        "bar_16": {
+          "x": 84.38144,
+          "y": 21.08896,
+          "width": 6.49485,
+          "height": 9.66258,
+          "method": "mask_bbox"
+        },
+        "bar_17": {
+          "x": 80.15464,
+          "y": 28.45092,
+          "width": 4.84536,
+          "height": 7.20859,
+          "method": "mask_bbox"
+        },
+        "bar_18": {
+          "x": 82.62887,
+          "y": 26.15031,
+          "width": 4.2268,
+          "height": 6.59509,
+          "method": "mask_bbox"
+        },
+        "bar_19": {
+          "x": 77.8866,
+          "y": 27.22393,
+          "width": 3.40206,
+          "height": 4.7546,
+          "method": "mask_bbox"
+        },
+        "bar_2": {
+          "x": 89.3299,
+          "y": 51.7638,
+          "width": 1.75258,
+          "height": 5.67485,
+          "method": "mask_bbox"
+        },
+        "bar_20": {
+          "x": 75.41237,
+          "y": 24.76994,
+          "width": 3.29897,
+          "height": 4.1411,
+          "method": "mask_bbox"
+        },
+        "bar_21": {
+          "x": 75.92784,
+          "y": 23.84969,
+          "width": 3.19588,
+          "height": 3.83436,
+          "method": "mask_bbox"
+        },
+        "bar_22": {
+          "x": 72.83505,
+          "y": 22.77607,
+          "width": 0.72165,
+          "height": 1.07362,
+          "method": "mask_bbox"
+        },
+        "bar_23": {
+          "x": 72.21649,
+          "y": 22.46933,
+          "width": 0.72165,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_24": {
+          "x": 71.70103,
+          "y": 22.16258,
+          "width": 0.72165,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_25": {
+          "x": 71.18557,
+          "y": 21.85583,
+          "width": 0.72165,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_26": {
+          "x": 69.94845,
+          "y": 20.16871,
+          "width": 3.40206,
+          "height": 2.91411,
+          "method": "mask_bbox"
+        },
+        "bar_27": {
+          "x": 70.6701,
+          "y": 21.54908,
+          "width": 0.72165,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_28": {
+          "x": 37.47423,
+          "y": 47.92945,
+          "width": 0.61856,
+          "height": 1.53374,
+          "method": "mask_bbox"
+        },
+        "bar_29": {
+          "x": 37.37113,
+          "y": 48.84969,
+          "width": 0.61856,
+          "height": 1.38037,
+          "method": "mask_bbox"
+        },
+        "bar_3": {
+          "x": 90.6701,
+          "y": 51.45706,
+          "width": 2.06186,
+          "height": 5.9816,
+          "method": "mask_bbox"
+        },
+        "bar_30": {
+          "x": 37.26804,
+          "y": 49.61656,
+          "width": 0.61856,
+          "height": 1.38037,
+          "method": "mask_bbox"
+        },
+        "bar_31": {
+          "x": 36.34021,
+          "y": 47.6227,
+          "width": 1.4433,
+          "height": 5.21472,
+          "method": "mask_bbox"
+        },
+        "bar_32": {
+          "x": 35.92784,
+          "y": 52.22393,
+          "width": 0.61856,
+          "height": 2.60736,
+          "method": "mask_bbox"
+        },
+        "bar_33": {
+          "x": 36.13402,
+          "y": 52.3773,
+          "width": 1.13402,
+          "height": 5.06135,
+          "method": "mask_bbox"
+        },
+        "bar_34": {
+          "x": 35.82474,
+          "y": 54.52454,
+          "width": 0.61856,
+          "height": 2.76074,
+          "method": "mask_bbox"
+        },
+        "bar_35": {
+          "x": 36.75258,
+          "y": 56.21166,
+          "width": 0.61856,
+          "height": 1.22699,
+          "method": "mask_bbox"
+        },
+        "bar_36": {
+          "x": 36.4433,
+          "y": 57.1319,
+          "width": 0.61856,
+          "height": 1.22699,
+          "method": "mask_bbox"
+        },
+        "bar_37": {
+          "x": 36.75258,
+          "y": 57.1319,
+          "width": 0.61856,
+          "height": 1.22699,
+          "method": "mask_bbox"
+        },
+        "bar_38": {
+          "x": 36.13402,
+          "y": 57.1319,
+          "width": 0.61856,
+          "height": 2.45399,
+          "method": "mask_bbox"
+        },
+        "bar_39": {
+          "x": 36.85567,
+          "y": 57.7454,
+          "width": 0.61856,
+          "height": 3.06748,
+          "method": "mask_bbox"
+        },
+        "bar_4": {
+          "x": 86.13402,
+          "y": 47.31595,
+          "width": 2.37113,
+          "height": 5.52147,
+          "method": "mask_bbox"
+        },
+        "bar_40": {
+          "x": 36.54639,
+          "y": 58.81902,
+          "width": 0.61856,
+          "height": 1.99387,
+          "method": "mask_bbox"
+        },
+        "bar_41": {
+          "x": 36.23711,
+          "y": 59.27914,
+          "width": 0.61856,
+          "height": 2.76074,
+          "method": "mask_bbox"
+        },
+        "bar_42": {
+          "x": 36.95876,
+          "y": 60.19939,
+          "width": 0.61856,
+          "height": 1.99387,
+          "method": "mask_bbox"
+        },
+        "bar_43": {
+          "x": 35.20619,
+          "y": 63.42025,
+          "width": 0.61856,
+          "height": 1.38037,
+          "method": "mask_bbox"
+        },
+        "bar_44": {
+          "x": 36.03093,
+          "y": 61.73313,
+          "width": 2.06186,
+          "height": 5.3681,
+          "method": "mask_bbox"
+        },
+        "bar_45": {
+          "x": 35.41237,
+          "y": 62.03988,
+          "width": 1.4433,
+          "height": 5.3681,
+          "method": "mask_bbox"
+        },
+        "bar_46": {
+          "x": 30.87629,
+          "y": 68.17485,
+          "width": 3.60825,
+          "height": 6.90184,
+          "method": "mask_bbox"
+        },
+        "bar_47": {
+          "x": 33.14433,
+          "y": 67.8681,
+          "width": 2.16495,
+          "height": 5.82822,
+          "method": "mask_bbox"
+        },
+        "bar_48": {
+          "x": 34.07216,
+          "y": 66.33436,
+          "width": 5.05155,
+          "height": 6.90184,
+          "method": "mask_bbox"
+        },
+        "bar_49": {
+          "x": 35.20619,
+          "y": 72.6227,
+          "width": 2.26804,
+          "height": 5.3681,
+          "method": "mask_bbox"
+        },
+        "bar_5": {
+          "x": 87.78351,
+          "y": 46.54908,
+          "width": 3.09278,
+          "height": 5.9816,
+          "method": "mask_bbox"
+        },
+        "bar_50": {
+          "x": 33.65979,
+          "y": 73.08282,
+          "width": 3.19588,
+          "height": 6.13497,
+          "method": "mask_bbox"
+        },
+        "bar_51": {
+          "x": 35.82474,
+          "y": 70.78221,
+          "width": 4.53608,
+          "height": 6.90184,
+          "method": "mask_bbox"
+        },
+        "bar_52": {
+          "x": 39.63918,
+          "y": 75.07669,
+          "width": 2.37113,
+          "height": 4.60123,
+          "method": "mask_bbox"
+        },
+        "bar_53": {
+          "x": 39.12371,
+          "y": 75.53681,
+          "width": 2.37113,
+          "height": 4.7546,
+          "method": "mask_bbox"
+        },
+        "bar_54": {
+          "x": 57.26804,
+          "y": 93.4816,
+          "width": 0.92784,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_55": {
+          "x": 57.78351,
+          "y": 93.63497,
+          "width": 1.23711,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_56": {
+          "x": 57.16495,
+          "y": 93.94172,
+          "width": 3.50515,
+          "height": 1.99387,
+          "method": "mask_bbox"
+        },
+        "bar_57": {
+          "x": 58.60825,
+          "y": 93.78834,
+          "width": 1.23711,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_58": {
+          "x": 59.43299,
+          "y": 93.94172,
+          "width": 1.23711,
+          "height": 0.92025,
+          "method": "mask_bbox"
+        },
+        "bar_59": {
+          "x": 60.36082,
+          "y": 94.09509,
+          "width": 3.50515,
+          "height": 1.38037,
+          "method": "mask_bbox"
+        },
+        "bar_6": {
+          "x": 89.94845,
+          "y": 45.93558,
+          "width": 2.26804,
+          "height": 6.13497,
+          "method": "mask_bbox"
+        },
+        "bar_60": {
+          "x": 75.61856,
+          "y": 87.65337,
+          "width": 0.82474,
+          "height": 1.22699,
+          "method": "mask_bbox"
+        },
+        "bar_61": {
+          "x": 76.03093,
+          "y": 87.34663,
+          "width": 0.72165,
+          "height": 1.07362,
+          "method": "mask_bbox"
+        },
+        "bar_62": {
+          "x": 76.34021,
+          "y": 86.8865,
+          "width": 0.82474,
+          "height": 1.22699,
+          "method": "mask_bbox"
+        },
+        "bar_63": {
+          "x": 76.75258,
+          "y": 86.42638,
+          "width": 0.82474,
+          "height": 1.22699,
+          "method": "mask_bbox"
+        },
+        "bar_64": {
+          "x": 77.16495,
+          "y": 86.11963,
+          "width": 0.72165,
+          "height": 1.07362,
+          "method": "mask_bbox"
+        },
+        "bar_65": {
+          "x": 77.47423,
+          "y": 85.81288,
+          "width": 0.72165,
+          "height": 1.07362,
+          "method": "mask_bbox"
+        },
+        "bar_66": {
+          "x": 86.64948,
+          "y": 57.1319,
+          "width": 3.50515,
+          "height": 5.52147,
+          "method": "mask_bbox"
+        },
+        "bar_67": {
+          "x": 89.63918,
+          "y": 57.1319,
+          "width": 1.4433,
+          "height": 5.67485,
+          "method": "mask_bbox"
+        },
+        "bar_68": {
+          "x": 90.6701,
+          "y": 57.1319,
+          "width": 1.13402,
+          "height": 5.82822,
+          "method": "mask_bbox"
+        },
+        "bar_7": {
+          "x": 85.20619,
+          "y": 41.18098,
+          "width": 5.25773,
+          "height": 7.05521,
+          "method": "mask_bbox"
+        },
+        "bar_8": {
+          "x": 89.2268,
+          "y": 38.88037,
+          "width": 5.46392,
+          "height": 7.66871,
+          "method": "mask_bbox"
+        },
+        "bar_9": {
+          "x": 93.24742,
+          "y": 37.96012,
+          "width": 3.09278,
+          "height": 7.05521,
+          "method": "mask_bbox"
+        },
+        "point_10": {
+          "x": 62.21957,
+          "y": 47.63807,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_12": {
+          "x": 61.5645,
+          "y": 49.12653,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_14": {
+          "x": 64.47652,
+          "y": 49.59783,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_15": {
+          "x": 62.86026,
+          "y": 49.59812,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_17": {
+          "x": 58.33186,
+          "y": 50.09093,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_18": {
+          "x": 71.26134,
+          "y": 50.3399,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_19": {
+          "x": 61.23949,
+          "y": 50.60744,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_2": {
+          "x": 66.74384,
+          "y": 39.80927,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_20": {
+          "x": 55.25696,
+          "y": 50.79599,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_21": {
+          "x": 68.02706,
+          "y": 50.82216,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_22": {
+          "x": 65.44989,
+          "y": 50.82797,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_24": {
+          "x": 60.2785,
+          "y": 51.06208,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_25": {
+          "x": 69.16682,
+          "y": 51.57416,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_27": {
+          "x": 58.70051,
+          "y": 52.40123,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_28": {
+          "x": 57.5246,
+          "y": 52.79305,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_30": {
+          "x": 62.3714,
+          "y": 53.01591,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_31": {
+          "x": 55.26385,
+          "y": 53.028,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_33": {
+          "x": 68.995,
+          "y": 54.49729,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_34": {
+          "x": 54.44329,
+          "y": 54.50925,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_35": {
+          "x": 60.11053,
+          "y": 54.74414,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_39": {
+          "x": 52.19533,
+          "y": 55.2259,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_40": {
+          "x": 58.65545,
+          "y": 55.22801,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_41": {
+          "x": 57.67777,
+          "y": 55.72502,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_42": {
+          "x": 72.2201,
+          "y": 55.72775,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_43": {
+          "x": 66.73567,
+          "y": 55.96721,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_45": {
+          "x": 56.5543,
+          "y": 56.70203,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_46": {
+          "x": 54.44877,
+          "y": 56.94928,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_47": {
+          "x": 51.87444,
+          "y": 57.18712,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_48": {
+          "x": 50.57359,
+          "y": 57.43652,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_5": {
+          "x": 64.48104,
+          "y": 43.71986,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_50": {
+          "x": 61.71642,
+          "y": 57.93625,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_51": {
+          "x": 53.49263,
+          "y": 58.41031,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_52": {
+          "x": 52.31383,
+          "y": 58.49006,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_53": {
+          "x": 60.26764,
+          "y": 59.16224,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_54": {
+          "x": 49.92912,
+          "y": 59.1652,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_55": {
+          "x": 48.47779,
+          "y": 59.63357,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_56": {
+          "x": 45.56519,
+          "y": 59.86905,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_57": {
+          "x": 52.6771,
+          "y": 60.36934,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_58": {
+          "x": 56.0602,
+          "y": 60.37047,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_59": {
+          "x": 44.74294,
+          "y": 60.87378,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_60": {
+          "x": 47.01975,
+          "y": 61.10731,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_61": {
+          "x": 59.29766,
+          "y": 61.1116,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_62": {
+          "x": 49.59767,
+          "y": 62.07199,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_64": {
+          "x": 52.82932,
+          "y": 62.33981,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_66": {
+          "x": 51.21673,
+          "y": 62.57415,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_67": {
+          "x": 43.7836,
+          "y": 62.57421,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_69": {
+          "x": 46.04204,
+          "y": 63.06808,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_7": {
+          "x": 61.08186,
+          "y": 45.9366,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_70": {
+          "x": 59.1332,
+          "y": 63.55927,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_72": {
+          "x": 54.1275,
+          "y": 64.28558,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_73": {
+          "x": 44.16995,
+          "y": 64.77275,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_74": {
+          "x": 43.79669,
+          "y": 66.23635,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_76": {
+          "x": 42.80567,
+          "y": 66.98532,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_8": {
+          "x": 65.28656,
+          "y": 47.38821,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        },
+        "point_9": {
+          "x": 66.42169,
+          "y": 47.39695,
+          "width": 1.54639,
+          "height": 2.30061,
+          "method": "ternary_value_projection"
+        }
+      },
+      "viewRegions": {
+        "radial_stacked_bar": {
+          "x": 30.47629,
+          "y": 19.56871,
+          "width": 66.26391,
+          "height": 76.96688,
+          "method": "mask_union"
+        },
+        "ternary_scatter": {
+          "x": 42.40567,
+          "y": 39.20927,
+          "width": 31.76082,
+          "height": 30.67666,
+          "method": "projection_union"
+        }
+      }
+    },
+    "7f79d2b5e877f8d79ff6b171f1cbc6699fc760dafad81c6dc933ce6a5c0d6bc9": {
+      "sourceWidth": 4000,
+      "sourceHeight": 2653,
+      "markRegions": {
+        "point_1": {
+          "x": 94.33249,
+          "y": 8.15538,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_10": {
+          "x": 81.31886,
+          "y": 13.9445,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_100": {
+          "x": 59.48025,
+          "y": 38.00049,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_101": {
+          "x": 59.2545,
+          "y": 38.48095,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_102": {
+          "x": 64.51321,
+          "y": 38.98521,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_103": {
+          "x": 45.45363,
+          "y": 39.19588,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_104": {
+          "x": 52.24731,
+          "y": 39.20236,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_105": {
+          "x": 57.67701,
+          "y": 39.22173,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_106": {
+          "x": 50.60997,
+          "y": 40.6187,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_107": {
+          "x": 39.27707,
+          "y": 40.88299,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_108": {
+          "x": 51.45425,
+          "y": 40.88306,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_109": {
+          "x": 48.50986,
+          "y": 40.88325,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_11": {
+          "x": 88.084,
+          "y": 13.95161,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_110": {
+          "x": 21.04836,
+          "y": 41.10071,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_111": {
+          "x": 46.39104,
+          "y": 41.1225,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_112": {
+          "x": 48.58677,
+          "y": 42.12952,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_113": {
+          "x": 32.52259,
+          "y": 42.543,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_114": {
+          "x": 60.85709,
+          "y": 42.80717,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_115": {
+          "x": 54.26519,
+          "y": 42.80904,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_116": {
+          "x": 41.00837,
+          "y": 44.24647,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_117": {
+          "x": 38.43443,
+          "y": 44.46573,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_118": {
+          "x": 31.34789,
+          "y": 44.52077,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_119": {
+          "x": 59.85747,
+          "y": 44.99445,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_12": {
+          "x": 82.3749,
+          "y": 14.67609,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_120": {
+          "x": 42.3563,
+          "y": 45.11448,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_121": {
+          "x": 41.13441,
+          "y": 45.18307,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_122": {
+          "x": 36.55555,
+          "y": 45.18429,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_123": {
+          "x": 60.46591,
+          "y": 45.20975,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_124": {
+          "x": 34.82122,
+          "y": 46.39092,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_125": {
+          "x": 22.38693,
+          "y": 47.56765,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_126": {
+          "x": 24.30613,
+          "y": 48.29095,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_127": {
+          "x": 45.31893,
+          "y": 48.79163,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_128": {
+          "x": 43.78856,
+          "y": 49.53844,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_129": {
+          "x": 28.32572,
+          "y": 50.40444,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_130": {
+          "x": 56.97702,
+          "y": 50.74159,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_131": {
+          "x": 31.40721,
+          "y": 51.43988,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_132": {
+          "x": 61.66526,
+          "y": 52.21104,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_133": {
+          "x": 35.00697,
+          "y": 52.42082,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_134": {
+          "x": 55.95369,
+          "y": 53.38728,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_135": {
+          "x": 33.72749,
+          "y": 53.55534,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_136": {
+          "x": 51.65482,
+          "y": 53.87062,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_137": {
+          "x": 37.18961,
+          "y": 54.10941,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_138": {
+          "x": 48.59278,
+          "y": 54.15652,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_139": {
+          "x": 35.72699,
+          "y": 54.27854,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_14": {
+          "x": 91.92332,
+          "y": 15.15176,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_140": {
+          "x": 30.59516,
+          "y": 55.60134,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_141": {
+          "x": 45.43483,
+          "y": 56.03687,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_142": {
+          "x": 40.44807,
+          "y": 56.05652,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_143": {
+          "x": 19.0818,
+          "y": 57.21145,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_144": {
+          "x": 30.91611,
+          "y": 57.28518,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_145": {
+          "x": 18.31819,
+          "y": 57.64195,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_146": {
+          "x": 32.96714,
+          "y": 57.76217,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_147": {
+          "x": 30.37066,
+          "y": 58.16991,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_148": {
+          "x": 41.477,
+          "y": 58.26274,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_149": {
+          "x": 44.83597,
+          "y": 58.6291,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_150": {
+          "x": 45.54779,
+          "y": 58.66846,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_151": {
+          "x": 30.54437,
+          "y": 60.05053,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_152": {
+          "x": 42.94196,
+          "y": 60.14006,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_153": {
+          "x": 28.03589,
+          "y": 60.43331,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_154": {
+          "x": 26.88843,
+          "y": 61.68495,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_155": {
+          "x": 36.42972,
+          "y": 62.98271,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_156": {
+          "x": 21.03114,
+          "y": 63.03275,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_157": {
+          "x": 39.2251,
+          "y": 63.99068,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_158": {
+          "x": 20.72868,
+          "y": 64.49666,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_159": {
+          "x": 9.21226,
+          "y": 64.95265,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_16": {
+          "x": 81.78343,
+          "y": 16.11037,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_160": {
+          "x": 34.90804,
+          "y": 65.48444,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_161": {
+          "x": 21.33766,
+          "y": 65.64965,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_162": {
+          "x": 56.98008,
+          "y": 65.93934,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_163": {
+          "x": 19.45731,
+          "y": 66.13151,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_164": {
+          "x": 29.40806,
+          "y": 66.39591,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_165": {
+          "x": 29.22955,
+          "y": 66.65973,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_166": {
+          "x": 52.15938,
+          "y": 67.38428,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_167": {
+          "x": 22.42873,
+          "y": 70.74904,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_168": {
+          "x": 31.69867,
+          "y": 71.71158,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_169": {
+          "x": 28.22998,
+          "y": 74.01706,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_170": {
+          "x": 6.38262,
+          "y": 77.9398,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_171": {
+          "x": 14.09096,
+          "y": 80.84935,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_18": {
+          "x": 75.10399,
+          "y": 16.35707,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_19": {
+          "x": 81.67138,
+          "y": 16.59503,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_2": {
+          "x": 86.10583,
+          "y": 10.82279,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_20": {
+          "x": 83.7865,
+          "y": 16.59706,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_21": {
+          "x": 79.97321,
+          "y": 16.59721,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_22": {
+          "x": 76.79101,
+          "y": 17.31726,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_23": {
+          "x": 77.44549,
+          "y": 17.31745,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_24": {
+          "x": 84.66328,
+          "y": 17.55906,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_25": {
+          "x": 91.45024,
+          "y": 17.7958,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_26": {
+          "x": 76.1839,
+          "y": 18.27858,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_27": {
+          "x": 73.48367,
+          "y": 18.75964,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_28": {
+          "x": 78.65485,
+          "y": 18.76118,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_29": {
+          "x": 81.47196,
+          "y": 19.17914,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_3": {
+          "x": 77.10695,
+          "y": 11.32226,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_30": {
+          "x": 69.60593,
+          "y": 19.24394,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_31": {
+          "x": 79.18001,
+          "y": 19.74821,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_32": {
+          "x": 66.12408,
+          "y": 20.64216,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_33": {
+          "x": 61.4564,
+          "y": 20.65911,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_34": {
+          "x": 83.62097,
+          "y": 20.94985,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_35": {
+          "x": 77.4303,
+          "y": 21.40418,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_36": {
+          "x": 62.34835,
+          "y": 21.88464,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_37": {
+          "x": 63.29018,
+          "y": 22.08069,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_38": {
+          "x": 67.91023,
+          "y": 22.39031,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_39": {
+          "x": 72.9623,
+          "y": 22.84531,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_4": {
+          "x": 80.95112,
+          "y": 11.7861,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_40": {
+          "x": 58.87481,
+          "y": 23.78522,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_41": {
+          "x": 51.77818,
+          "y": 23.8146,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_42": {
+          "x": 76.65247,
+          "y": 24.28886,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_43": {
+          "x": 74.80584,
+          "y": 24.28986,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_44": {
+          "x": 75.66517,
+          "y": 24.5293,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_45": {
+          "x": 84.8675,
+          "y": 24.74511,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_46": {
+          "x": 50.4214,
+          "y": 24.77251,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_47": {
+          "x": 74.44614,
+          "y": 25.25215,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_48": {
+          "x": 85.78535,
+          "y": 25.46653,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_49": {
+          "x": 57.56744,
+          "y": 25.73286,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_5": {
+          "x": 77.03957,
+          "y": 12.8889,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_50": {
+          "x": 64.16441,
+          "y": 26.91164,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_51": {
+          "x": 67.95445,
+          "y": 26.93467,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_52": {
+          "x": 70.80275,
+          "y": 27.1759,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_53": {
+          "x": 58.69955,
+          "y": 27.89946,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_54": {
+          "x": 72.47514,
+          "y": 27.94488,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_55": {
+          "x": 80.65228,
+          "y": 27.94674,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_56": {
+          "x": 68.54532,
+          "y": 28.137,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_57": {
+          "x": 62.41825,
+          "y": 28.37597,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_58": {
+          "x": 66.4691,
+          "y": 28.37996,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_59": {
+          "x": 46.78087,
+          "y": 28.83569,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_6": {
+          "x": 78.86119,
+          "y": 13.22759,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_60": {
+          "x": 74.65367,
+          "y": 28.85936,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_61": {
+          "x": 56.46544,
+          "y": 28.92133,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_62": {
+          "x": 56.20004,
+          "y": 29.10587,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_63": {
+          "x": 77.29205,
+          "y": 29.34263,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_64": {
+          "x": 33.91764,
+          "y": 29.67555,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_65": {
+          "x": 71.87476,
+          "y": 29.82436,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_66": {
+          "x": 72.3322,
+          "y": 29.84495,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_67": {
+          "x": 74.69449,
+          "y": 30.06119,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_68": {
+          "x": 63.92667,
+          "y": 30.06367,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_69": {
+          "x": 65.53494,
+          "y": 30.12592,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_7": {
+          "x": 81.91255,
+          "y": 13.23161,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_70": {
+          "x": 44.16682,
+          "y": 30.52087,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_71": {
+          "x": 58.51293,
+          "y": 30.54266,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_72": {
+          "x": 35.49459,
+          "y": 30.68716,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_73": {
+          "x": 59.80149,
+          "y": 30.73685,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_74": {
+          "x": 51.65661,
+          "y": 30.76172,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_76": {
+          "x": 68.12258,
+          "y": 30.78072,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_77": {
+          "x": 71.97598,
+          "y": 30.7852,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_78": {
+          "x": 73.99123,
+          "y": 31.26686,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_79": {
+          "x": 51.47566,
+          "y": 31.50563,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_8": {
+          "x": 77.21346,
+          "y": 13.27974,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_80": {
+          "x": 55.02196,
+          "y": 31.50605,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_81": {
+          "x": 45.79945,
+          "y": 32.68298,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_82": {
+          "x": 69.26928,
+          "y": 33.16618,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_83": {
+          "x": 72.88574,
+          "y": 33.42675,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_84": {
+          "x": 67.18858,
+          "y": 33.92148,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_85": {
+          "x": 81.74802,
+          "y": 33.98275,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_86": {
+          "x": 67.94621,
+          "y": 34.15153,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_87": {
+          "x": 68.22168,
+          "y": 35.85766,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_88": {
+          "x": 56.83109,
+          "y": 36.19643,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_89": {
+          "x": 39.93807,
+          "y": 36.26748,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_9": {
+          "x": 93.4824,
+          "y": 13.47069,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_90": {
+          "x": 19.21183,
+          "y": 36.31568,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_91": {
+          "x": 57.25494,
+          "y": 36.3621,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_92": {
+          "x": 34.75671,
+          "y": 36.60283,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_93": {
+          "x": 60.37413,
+          "y": 37.25182,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_94": {
+          "x": 53.81555,
+          "y": 37.49306,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_95": {
+          "x": 55.26437,
+          "y": 37.51645,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_96": {
+          "x": 73.99941,
+          "y": 37.51786,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_97": {
+          "x": 45.45456,
+          "y": 37.73299,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_98": {
+          "x": 49.74839,
+          "y": 37.78242,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        },
+        "point_99": {
+          "x": 66.21819,
+          "y": 37.99814,
+          "width": 1.2,
+          "height": 1.80927,
+          "method": "axis_value_projection"
+        }
+      },
+      "viewRegions": {
+        "bubblechart": {
+          "x": 5.98262,
+          "y": 7.55538,
+          "width": 89.94987,
+          "height": 75.70324,
+          "method": "projection_union"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6260 @@
+{
+  "metadata": {
+    "contract_ref": "readable-kg:v2",
+    "ontology_ref": "chartkg-plus-plus-schema:v1.8",
+    "mode": "construction_only",
+    "verification_status": "unverified",
+    "production_write": false,
+    "run_id": "core-v8-construction_only-20260910T054036Z",
+    "run_status": "partial",
+    "source_ref": "artifact://s1-three-stage/1c7aeb55a1457596",
+    "source_sha256": "1c7aeb55a145759648e2bf3edf29f3995f9eb7479548596f5111c57c0cd191ef",
+    "scope_ref": "scope:1c7aeb55a1457596",
+    "snapshot_ref": "runs/core-v8-construction_only-20260910T054036Z/summaries/construction-kg-resume-20260912T071230Z.json",
+    "revision_ref": "construction-kg-revision:4bcab0ab899177046c9f",
+    "snapshot_hash": "067ba486317925809df91eaa5e84fda068a83639cd227df29580dee150740bae"
+  },
+  "entities": [
+    {
+      "id": "chart",
+      "type": "Complex_Chart",
+      "properties": {}
+    },
+    {
+      "id": "radial_stacked_bar",
+      "type": "View",
+      "properties": {
+        "chartType": "radial_stacked_bar"
+      }
+    },
+    {
+      "id": "ternary_scatter",
+      "type": "View",
+      "properties": {
+        "chartType": "ternary_scatter"
+      }
+    },
+    {
+      "id": "bar_group",
+      "type": "Graphical_Mark_Group",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "point_group",
+      "type": "Graphical_Mark_Group",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "bar_1",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_10",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_11",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_12",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_13",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_14",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_15",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_16",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_17",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_18",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_19",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_2",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_20",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_21",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_22",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_23",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_24",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_25",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_26",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_27",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_28",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_29",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_3",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_30",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_31",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_32",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_33",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_34",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_35",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_36",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_37",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_38",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_39",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_4",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_40",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_41",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_42",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_43",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_44",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_45",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_46",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_47",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_48",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_49",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_5",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_50",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_51",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_52",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_53",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_54",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_55",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_56",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_57",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_58",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_59",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_6",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_60",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_61",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_62",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_63",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_64",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_65",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_66",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_67",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_68",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_7",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_8",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "bar_9",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Bar"
+      }
+    },
+    {
+      "id": "point_1",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_10",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_11",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_12",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_13",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_14",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_15",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_16",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_17",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_18",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_19",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_2",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_20",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_21",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_22",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_23",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_24",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_25",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_26",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_27",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_28",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_29",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_3",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_30",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_31",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_32",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_33",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_34",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_35",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_36",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_37",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_38",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_39",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_4",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_40",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_41",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_42",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_43",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_44",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_45",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_46",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_47",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_48",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_49",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_5",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_50",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_51",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_52",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_53",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_54",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_55",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_56",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_57",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_58",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_59",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_6",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_60",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_61",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_62",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_63",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_64",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_65",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_66",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_67",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_68",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_69",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_7",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_70",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_71",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_72",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_73",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_74",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_75",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_76",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_77",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_78",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_8",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_9",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "angular_position",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "angularPosition"
+      }
+    },
+    {
+      "id": "color",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "color"
+      }
+    },
+    {
+      "id": "color_bar_group",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "color"
+      }
+    },
+    {
+      "id": "height",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "height"
+      }
+    },
+    {
+      "id": "nPosition",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "nPosition"
+      }
+    },
+    {
+      "id": "pPosition",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "pPosition"
+      }
+    },
+    {
+      "id": "uPosition",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "uPosition"
+      }
+    },
+    {
+      "id": "rgb_140_210_198",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            140,
+            210,
+            198
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_140_210_198_color",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            140,
+            210,
+            198
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_189_185_218",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            189,
+            185,
+            218
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_189_185_218_color",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            189,
+            185,
+            218
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_255_255_178",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            255,
+            255,
+            178
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_255_255_178_color",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            255,
+            255,
+            178
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "Negative",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "Negative",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "Positive",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "Positive",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "Uncertainty",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "Uncertainty",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "gender",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "gender",
+        "variableType": "Categorical"
+      }
+    },
+    {
+      "id": "gender_color_point_group",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "gender",
+        "variableType": "Categorical"
+      }
+    },
+    {
+      "id": "number_of_customers",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "number of customers",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "Female",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "Female"
+      }
+    },
+    {
+      "id": "Female_gender_value",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "Female"
+      }
+    },
+    {
+      "id": "Male",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "Male"
+      }
+    },
+    {
+      "id": "Male_gender_value",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "Male"
+      }
+    },
+    {
+      "id": "NONE",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "NONE"
+      }
+    },
+    {
+      "id": "NONE_gender_value",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "NONE"
+      }
+    },
+    {
+      "id": "bar_group_bas_Female",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "bar_group",
+        "scopeMode": "single_category_breakdown",
+        "selection": {
+          "valueRef": "Female",
+          "variableRef": "gender"
+        },
+        "viewRef": "radial_stacked_bar"
+      }
+    },
+    {
+      "id": "bar_group_bas_Male",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "bar_group",
+        "scopeMode": "single_category_breakdown",
+        "selection": {
+          "valueRef": "Male",
+          "variableRef": "gender"
+        },
+        "viewRef": "radial_stacked_bar"
+      }
+    },
+    {
+      "id": "bar_group_bas_NONE",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "bar_group",
+        "scopeMode": "single_category_breakdown",
+        "selection": {
+          "valueRef": "NONE",
+          "variableRef": "gender"
+        },
+        "viewRef": "radial_stacked_bar"
+      }
+    },
+    {
+      "id": "bar_group_bas_all",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "bar_group",
+        "scopeMode": "global",
+        "viewRef": "radial_stacked_bar"
+      }
+    },
+    {
+      "id": "point_group_bas_Female",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "point_group",
+        "scopeMode": "single_category_breakdown",
+        "selection": {
+          "valueRef": "Female_gender_value",
+          "variableRef": "gender_color_point_group"
+        },
+        "viewRef": "ternary_scatter"
+      }
+    },
+    {
+      "id": "point_group_bas_Male",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "point_group",
+        "scopeMode": "single_category_breakdown",
+        "selection": {
+          "valueRef": "Male_gender_value",
+          "variableRef": "gender_color_point_group"
+        },
+        "viewRef": "ternary_scatter"
+      }
+    },
+    {
+      "id": "point_group_bas_NONE",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "point_group",
+        "scopeMode": "single_category_breakdown",
+        "selection": {
+          "valueRef": "NONE_gender_value",
+          "variableRef": "gender_color_point_group"
+        },
+        "viewRef": "ternary_scatter"
+      }
+    },
+    {
+      "id": "point_group_bas_all",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "groupRef": "point_group",
+        "scopeMode": "global",
+        "viewRef": "ternary_scatter"
+      }
+    },
+    {
+      "id": "Distribution",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The bar marks along the circumference are gathered into separated distinct groups (primarily in the positive and negative opinion sectors) with prominent empty angular gaps between the groups.",
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "Clustering"
+      }
+    },
+    {
+      "id": "Distribution_2",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The Female customer opinion points form an elongated continuous curved band across the ternary domain from higher Negative values through moderate Uncertainty towards Positive values.",
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      }
+    },
+    {
+      "id": "Distribution_3",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Points in the ternary plot form an elongated band-like arrangement spanning along the Negative-Uncertainty and Uncertainty-Positive legs.",
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      }
+    },
+    {
+      "id": "Distribution_4",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The NONE category points form an elongated, curved band across the ternary coordinate frame spanning from high Negative/low Uncertainty up toward moderate Uncertainty and down toward high Positive.",
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      }
+    },
+    {
+      "id": "Distribution_5",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The point marks form an elongated inverted V-shaped band across the ternary domain of Negative, Positive, and Uncertainty, extending from low Positive / high Negative through elevated Uncertainty to high Positive / low Negative.",
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      }
+    },
+    {
+      "id": "Extreme",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The bar segment bar_16 in the upper-right Positive opinion sector has the greatest visible height encoding number of customers among all Female bar segments.",
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "bar_16"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_10",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Mark point_78 exhibits the maximum visible Negative coordinate among the marks in the NONE category.",
+        "measure": [
+          {
+            "variable": "Negative"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_78"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_2",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The bar segment bar_8 has the greatest visible height encoding the number of customers among all Male bar marks in the scope.",
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "bar_8"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_3",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Mark bar_7 exhibits the maximum bar height encoding the number of customers within the gender=NONE breakdown.",
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "bar_7"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_4",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Bar segment bar_16 exhibits the maximum radial height (number of customers) among all bar marks across the BAS.",
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "bar_16"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_5",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Point point_1 has the maximum visible Uncertainty value among the Male points.",
+        "measure": [
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_1"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_6",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Point point_44 has the maximum visible Positive value among the Male points.",
+        "measure": [
+          {
+            "variable": "Positive"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_44"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_7",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Point point_71 has the maximum visible Negative value among the Male points.",
+        "measure": [
+          {
+            "variable": "Negative"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_71"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_8",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Mark point_63 exhibits the maximum visible Positive coordinate among the marks in the NONE category.",
+        "measure": [
+          {
+            "variable": "Positive"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_63"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_9",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Mark point_7 exhibits the maximum visible Uncertainty coordinate among the marks in the NONE category.",
+        "measure": [
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_7"
+        ]
+      }
+    },
+    {
+      "id": "Comparison",
+      "type": "Relational_Pattern",
+      "properties": {
+        "description": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure.",
+        "patternType": "Comparison",
+        "subtype": "ComparableCorrespondence"
+      }
+    },
+    {
+      "id": "Correspondence",
+      "type": "Relational_Pattern",
+      "properties": {
+        "description": "Existing single-view analyses correspond to the same grounded semantic anchor.",
+        "patternType": "Correspondence",
+        "subtype": "SharedSemanticAnchor"
+      }
+    },
+    {
+      "id": "Correspondence_2",
+      "type": "Relational_Pattern",
+      "properties": {
+        "description": "Existing single-view analyses correspond to the same grounded semantic anchor.",
+        "patternType": "Correspondence",
+        "subtype": "SharedSemanticAnchor"
+      }
+    },
+    {
+      "id": "Correspondence_3",
+      "type": "Relational_Pattern",
+      "properties": {
+        "description": "Existing single-view analyses correspond to the same grounded semantic anchor.",
+        "patternType": "Correspondence",
+        "subtype": "SharedSemanticAnchor"
+      }
+    },
+    {
+      "id": "ExtremumComparison",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing the maximum Negative values between the Male and NONE subgroups, the NONE category point reaches a higher Negative coordinate towards the bottom-left vertex than the Male maximum.",
+        "measure": [
+          {
+            "variable": "Negative"
+          }
+        ],
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": [
+          "Extreme_10"
+        ]
+      }
+    },
+    {
+      "id": "ExtremumComparison_2",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing the maximum Positive values between the Male and NONE subgroups, the NONE category point reaches a higher Positive coordinate towards the bottom-right vertex than the Male maximum.",
+        "measure": [
+          {
+            "variable": "Positive"
+          }
+        ],
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": [
+          "Extreme_8"
+        ]
+      }
+    },
+    {
+      "id": "ExtremumComparison_3",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing the maximum Uncertainty values between the Male and NONE subgroups, the Male category point reaches a higher Uncertainty coordinate towards the top vertex than the NONE maximum.",
+        "measure": [
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": [
+          "Extreme_5"
+        ]
+      }
+    },
+    {
+      "id": "ExtremumComparison_4",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "bar_group_bas_all",
+        "description": "Among the gender categories, the maximum bar segment for Female exhibits a greater radial height than the maximum bar segments for Male and NONE.",
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": [
+          "Extreme"
+        ]
+      }
+    },
+    {
+      "id": "Similarity",
+      "type": "Relational_Pattern",
+      "properties": {
+        "commonFeature": "continuous curved band across the ternary domain from higher Negative values through moderate Uncertainty towards higher Positive values",
+        "comparisonFamily": "Distribution",
+        "comparisonFeature": "cluster_structure",
+        "description": "Across all gender categories (Female, Male, NONE), the customer opinion points share a similar band-like cluster structure, forming an elongated curved distribution across the ternary coordinate domain from higher Negative values through moderate Uncertainty towards higher Positive values.",
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "patternType": "Similarity",
+        "subtype": "SimilarDistribution"
+      }
+    },
+    {
+      "id": "insight_Comparison_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male",
+            "variable": "gender"
+          },
+          {
+            "valueRef": "NONE",
+            "variable": "gender"
+          },
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          },
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          },
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "The Male and NONE gender categories exhibit comparable cross-view correspondence structures, linking customer count measurements in the radial stacked bar view to Negative, Positive, and Uncertainty coordinates in the ternary scatter view."
+      }
+    },
+    {
+      "id": "insight_Correspondence_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "NONE",
+            "variable": "gender"
+          },
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          },
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "For the shared gender category NONE, the radial stacked bar view features a bar mark with the maximum radial height of 80.2 px encoding number of customers, while in the ternary scatter view, observed points form a curved band spanning from high Negative and low Uncertainty to moderate Uncertainty and high Positive, including individual point marks exhibiting the category maximums for Negative, Positive, and Uncertainty coordinates (the latter reaching 0.5006826134805336)."
+      }
+    },
+    {
+      "id": "insight_Correspondence_2",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male",
+            "variable": "gender"
+          },
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          },
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "For Male across both views, a bar mark in the radial stacked bar chart exhibits the maximum visible number of customers with a radial height of 79.9 px, while in the ternary scatter plot, the Male points form an elongated band-like distribution spanning along the Negative-Uncertainty and Uncertainty-Positive legs, alongside distinct point marks reaching the respective maximum values for Uncertainty, Positive, and Negative."
+      }
+    },
+    {
+      "id": "insight_Correspondence_3",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Female",
+            "variable": "gender"
+          },
+          {
+            "valueRef": "Female_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          },
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "For Female customers across the observed population, opinion points in the ternary scatter view form an elongated continuous curved band extending from higher Negative values through moderate Uncertainty towards Positive values, while in the radial stacked bar view, the bar segment in the upper-right Positive opinion sector has the greatest visible height encoding number of customers among Female segments, with a radial height of 93.9 px."
+      }
+    },
+    {
+      "id": "insight_Distribution_1",
+      "type": "Insight",
+      "properties": {
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "Across the observed marks measuring number of customers, the bar marks along the circumference are clustered into separated distinct groups, primarily in the positive and negative opinion sectors, with prominent empty angular gaps between the groups."
+      }
+    },
+    {
+      "id": "insight_Distribution_2",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Female_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "For the Female customer opinion points, observations form an elongated curved band across the ternary domain defined by Negative, Uncertainty, and Positive values, extending from higher Negative values through moderate Uncertainty toward Positive values within the observed population."
+      }
+    },
+    {
+      "id": "insight_Distribution_3",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "For observations where gender is Male, the distribution across Negative, Positive, and Uncertainty forms an elongated band-like arrangement spanning along the Negative-Uncertainty and Uncertainty-Positive legs in the ternary plot."
+      }
+    },
+    {
+      "id": "insight_Distribution_4",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "Among the observed points where gender is NONE, the distribution forms an elongated, curved band across the ternary coordinate frame defined by Negative, Positive, and Uncertainty, extending from high Negative and low Uncertainty toward moderate Uncertainty and toward high Positive, with some unresolved regions noted in the observed population."
+      }
+    },
+    {
+      "id": "insight_Distribution_5",
+      "type": "Insight",
+      "properties": {
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "Across the ternary coordinate space of Negative, Positive, and Uncertainty, the observed point marks form an elongated inverted V-shaped band extending from high Negative and low Positive values through elevated Uncertainty toward high Positive and low Negative values."
+      }
+    },
+    {
+      "id": "insight_Extreme_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Female",
+            "variable": "gender"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "Among observed Female members, the bar reaching the maximum encoded number of customers has a radial height of 93.9 px."
+      }
+    },
+    {
+      "id": "insight_Extreme_10",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          }
+        ],
+        "statement": "Among the observed points with gender NONE, a point mark reaches the maximum Negative value."
+      }
+    },
+    {
+      "id": "insight_Extreme_2",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male",
+            "variable": "gender"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "Among the observed Male marks, the bar segment with the maximum number of customers has a radial height of 79.9 px."
+      }
+    },
+    {
+      "id": "insight_Extreme_3",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "NONE",
+            "variable": "gender"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "Among observed members within the gender NONE category, the bar mark encoding the maximum number of customers reaches a radial height of 80.2 px."
+      }
+    },
+    {
+      "id": "insight_Extreme_4",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Female",
+            "variable": "gender"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "Among the observed marks, the Female bar segment reaches the maximum number of customers, with a radial height of 93.9 px."
+      }
+    },
+    {
+      "id": "insight_Extreme_5",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "Among the observed members where gender is Male, a point mark has the maximum Uncertainty."
+      }
+    },
+    {
+      "id": "insight_Extreme_6",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Positive"
+          }
+        ],
+        "statement": "Among the observed Male points, a point mark achieves the maximum Positive value."
+      }
+    },
+    {
+      "id": "insight_Extreme_7",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          }
+        ],
+        "statement": "Among the observed Male points, an individual point reaches the maximum Negative value."
+      }
+    },
+    {
+      "id": "insight_Extreme_8",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Positive"
+          }
+        ],
+        "statement": "Among the observed marks with gender NONE, a point mark reaches the maximum Positive value."
+      }
+    },
+    {
+      "id": "insight_Extreme_9",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "Among the observed points where gender is NONE, the point with the maximum Uncertainty reaches a value of 0.5006826134805336."
+      }
+    },
+    {
+      "id": "insight_ExtremumComparison_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          },
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          }
+        ],
+        "statement": "Among the compared gender groups NONE and Male, the NONE category attains the highest maximum Negative coordinate, exceeding the maximum observed in the Male group."
+      }
+    },
+    {
+      "id": "insight_ExtremumComparison_2",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          },
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Positive"
+          }
+        ],
+        "statement": "Between the observed Male and NONE gender groups, the NONE group exhibits the higher maximum Positive value, with its maximum point reaching a higher Positive level than the maximum point observed in the Male group."
+      }
+    },
+    {
+      "id": "insight_ExtremumComparison_3",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          },
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "Among the observed points in the Male and NONE gender groups, the Male category exhibits the highest maximum Uncertainty, surpassing the maximum Uncertainty of 0.5006826134805336 observed for the point in the NONE group."
+      }
+    },
+    {
+      "id": "insight_ExtremumComparison_4",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Female",
+            "variable": "gender"
+          },
+          {
+            "valueRef": "Male",
+            "variable": "gender"
+          },
+          {
+            "valueRef": "NONE",
+            "variable": "gender"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "number_of_customers"
+          }
+        ],
+        "statement": "Female is the visually supported global number of customers maximum from the subgroup comparisons across gender breakdowns. The maximum Female bar segment has a radial height of 93.9 px, surpassing the maximum bar segments for NONE at 80.2 px and Male at 79.9 px."
+      }
+    },
+    {
+      "id": "insight_Similarity_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "Female_gender_value",
+            "variable": "gender_color_point_group"
+          },
+          {
+            "valueRef": "Male_gender_value",
+            "variable": "gender_color_point_group"
+          },
+          {
+            "valueRef": "NONE_gender_value",
+            "variable": "gender_color_point_group"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "Negative"
+          },
+          {
+            "variable": "Positive"
+          },
+          {
+            "variable": "Uncertainty"
+          }
+        ],
+        "statement": "Across the Female, Male, and NONE gender categories, customer opinion points exhibit a similar band-like cluster structure, each forming an elongated continuous curved distribution across the ternary domain from higher Negative values through moderate Uncertainty towards higher Positive values."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "COMPOSED_WITH",
+      "source": "radial_stacked_bar",
+      "target": "ternary_scatter",
+      "properties": {
+        "compositePattern": "Overlay",
+        "compositeSubtype": "CoAxis"
+      }
+    },
+    {
+      "type": "HAS_VIEW",
+      "source": "chart",
+      "target": "radial_stacked_bar"
+    },
+    {
+      "type": "HAS_VIEW",
+      "source": "chart",
+      "target": "ternary_scatter"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison",
+      "target": "Correspondence"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison",
+      "target": "Correspondence_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence",
+      "target": "Distribution_4"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence",
+      "target": "Extreme_10"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence",
+      "target": "Extreme_3"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence",
+      "target": "Extreme_8"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence",
+      "target": "Extreme_9"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence_2",
+      "target": "Distribution_3"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence_2",
+      "target": "Extreme_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence_2",
+      "target": "Extreme_5"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence_2",
+      "target": "Extreme_6"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence_2",
+      "target": "Extreme_7"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence_3",
+      "target": "Distribution_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Correspondence_3",
+      "target": "Extreme"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison",
+      "target": "Extreme_10"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison",
+      "target": "Extreme_7"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison_2",
+      "target": "Extreme_6"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison_2",
+      "target": "Extreme_8"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison_3",
+      "target": "Extreme_5"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison_3",
+      "target": "Extreme_9"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison_4",
+      "target": "Extreme"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison_4",
+      "target": "Extreme_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ExtremumComparison_4",
+      "target": "Extreme_3"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Distribution_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Distribution_3"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Distribution_4"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "radial_stacked_bar",
+      "target": "bar_group"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "ternary_scatter",
+      "target": "point_group"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "angular_position"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "color_bar_group"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "height"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "color"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "nPosition"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "pPosition"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "uPosition"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_140_210_198_color"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_189_185_218_color"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_255_255_178_color"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_bar_group",
+      "target": "rgb_140_210_198"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_bar_group",
+      "target": "rgb_189_185_218"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_bar_group",
+      "target": "rgb_255_255_178"
+    },
+    {
+      "type": "ENCODES",
+      "source": "color",
+      "target": "gender_color_point_group"
+    },
+    {
+      "type": "ENCODES",
+      "source": "color_bar_group",
+      "target": "gender"
+    },
+    {
+      "type": "ENCODES",
+      "source": "height",
+      "target": "number_of_customers"
+    },
+    {
+      "type": "ENCODES",
+      "source": "nPosition",
+      "target": "Negative"
+    },
+    {
+      "type": "ENCODES",
+      "source": "pPosition",
+      "target": "Positive"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_140_210_198",
+      "target": "NONE"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_140_210_198_color",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_189_185_218",
+      "target": "Female"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_189_185_218_color",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_255_255_178",
+      "target": "Male"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_255_255_178_color",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "ENCODES",
+      "source": "uPosition",
+      "target": "Uncertainty"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "Female",
+      "target": "gender"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "Female_gender_value",
+      "target": "gender_color_point_group"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "Male",
+      "target": "gender"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "Male_gender_value",
+      "target": "gender_color_point_group"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "NONE",
+      "target": "gender"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "NONE_gender_value",
+      "target": "gender_color_point_group"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_1",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_10",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_11",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_12",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_13",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_14",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_15",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_16",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_17",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_18",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_19",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_2",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_20",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_21",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_22",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_23",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_24",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_25",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_26",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_27",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_28",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_29",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_3",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_30",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_31",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_32",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_33",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_34",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_35",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_36",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_37",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_38",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_39",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_4",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_40",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_41",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_42",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_43",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_44",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_45",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_46",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_47",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_48",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_49",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_5",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_50",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_51",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_52",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_53",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_54",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_55",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_56",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_57",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_58",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_59",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_6",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_60",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_61",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_62",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_63",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_64",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_65",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_66",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_67",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_68",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_7",
+      "target": "NONE"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_8",
+      "target": "Male"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "bar_9",
+      "target": "Female"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_1",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_10",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_10",
+      "target": "Negative",
+      "properties": {
+        "value": 0.21498241964064818
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_10",
+      "target": "Positive",
+      "properties": {
+        "value": 0.31545305321405576
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_10",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.46956452714529606
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_11",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_12",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_12",
+      "target": "Negative",
+      "properties": {
+        "value": 0.24428814828262652
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_12",
+      "target": "Positive",
+      "properties": {
+        "value": 0.31336953890646196
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_12",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.44234231281091174
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_14",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_14",
+      "target": "Negative",
+      "properties": {
+        "value": 0.17866994606106745
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_14",
+      "target": "Positive",
+      "properties": {
+        "value": 0.38760736003715834
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_14",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.4337226939017742
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_15",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_15",
+      "target": "Negative",
+      "properties": {
+        "value": 0.21747867659811748
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_15",
+      "target": "Positive",
+      "properties": {
+        "value": 0.34880397780292094
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_15",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.4337173455989618
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_17",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_17",
+      "target": "Negative",
+      "properties": {
+        "value": 0.3307005116113349
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_17",
+      "target": "Positive",
+      "properties": {
+        "value": 0.24459498423034948
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_17",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.42470450415831584
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_18",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_18",
+      "target": "Negative",
+      "properties": {
+        "value": 0.022536087977421126
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_18",
+      "target": "Positive",
+      "properties": {
+        "value": 0.5573129442419166
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_18",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.4201509677806625
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_19",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_19",
+      "target": "Negative",
+      "properties": {
+        "value": 0.2656000315717672
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_19",
+      "target": "Positive",
+      "properties": {
+        "value": 0.31914195951984653
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_19",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.41525800890838627
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_2",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_2",
+      "target": "Negative",
+      "properties": {
+        "value": 0.03494211452449919
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_2",
+      "target": "Positive",
+      "properties": {
+        "value": 0.3523129946556475
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_2",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.6127448908198533
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_20",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_20",
+      "target": "Negative",
+      "properties": {
+        "value": 0.4109599389113916
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_20",
+      "target": "Positive",
+      "properties": {
+        "value": 0.17723034496814605
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_20",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.4118097161204626
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_21",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_21",
+      "target": "Negative",
+      "properties": {
+        "value": 0.10458999839303212
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_21",
+      "target": "Positive",
+      "properties": {
+        "value": 0.48407901459660546
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_21",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.41133098701036264
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_22",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_22",
+      "target": "Negative",
+      "properties": {
+        "value": 0.16652057582473256
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_22",
+      "target": "Positive",
+      "properties": {
+        "value": 0.42225468456698567
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_22",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.411224739608282
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_24",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_24",
+      "target": "Negative",
+      "properties": {
+        "value": 0.2928204842558112
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_24",
+      "target": "Positive",
+      "properties": {
+        "value": 0.3002362607040222
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_24",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.4069432550401666
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_25",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_25",
+      "target": "Negative",
+      "properties": {
+        "value": 0.08408399983641007
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_25",
+      "target": "Positive",
+      "properties": {
+        "value": 0.5183382510124479
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_25",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.39757774915114197
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_26",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_27",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_27",
+      "target": "Negative",
+      "properties": {
+        "value": 0.3429234836129627
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_27",
+      "target": "Positive",
+      "properties": {
+        "value": 0.2746249904389558
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_27",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.38245152594808174
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_28",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_28",
+      "target": "Negative",
+      "properties": {
+        "value": 0.374730936325007
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_28",
+      "target": "Positive",
+      "properties": {
+        "value": 0.24998340537873032
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_28",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.37528565829626315
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_3",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_30",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_30",
+      "target": "Negative",
+      "properties": {
+        "value": 0.2603927462237906
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_30",
+      "target": "Positive",
+      "properties": {
+        "value": 0.3683974706636447
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_30",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.3712097831125647
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_31",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_31",
+      "target": "Negative",
+      "properties": {
+        "value": 0.43115464155926664
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_31",
+      "target": "Positive",
+      "properties": {
+        "value": 0.19785673726210873
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_31",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.37098862117862486
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_33",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_33",
+      "target": "Negative",
+      "properties": {
+        "value": 0.11487368142204057
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_33",
+      "target": "Positive",
+      "properties": {
+        "value": 0.5410094217681793
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_33",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.3441168968097803
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_34",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_34",
+      "target": "Negative",
+      "properties": {
+        "value": 0.4643678481049054
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_34",
+      "target": "Positive",
+      "properties": {
+        "value": 0.1917340384562909
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_34",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.34389811343880416
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_35",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_35",
+      "target": "Negative",
+      "properties": {
+        "value": 0.3304405724762256
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_35",
+      "target": "Positive",
+      "properties": {
+        "value": 0.32995708144729696
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_35",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.33960234607647766
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_36",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_39",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_39",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5248782733914557
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_39",
+      "target": "Positive",
+      "properties": {
+        "value": 0.1443302721015287
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_39",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.33079145450701586
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_40",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_40",
+      "target": "Negative",
+      "properties": {
+        "value": 0.36979078846304503
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_40",
+      "target": "Positive",
+      "properties": {
+        "value": 0.29945643766069663
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_40",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.33075277387625857
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_41",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_41",
+      "target": "Negative",
+      "properties": {
+        "value": 0.39779827845849813
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_41",
+      "target": "Positive",
+      "properties": {
+        "value": 0.2805387020448977
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_41",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.3216630194966046
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_42",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_42",
+      "target": "Negative",
+      "properties": {
+        "value": 0.04866332408259344
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_42",
+      "target": "Positive",
+      "properties": {
+        "value": 0.6297235213032556
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_42",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.3216131546141512
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_43",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_43",
+      "target": "Negative",
+      "properties": {
+        "value": 0.1825281822007705
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_43",
+      "target": "Positive",
+      "properties": {
+        "value": 0.500238098262695
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_43",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.3172337195365347
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_44",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_45",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_45",
+      "target": "Negative",
+      "properties": {
+        "value": 0.43368480886042493
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_45",
+      "target": "Positive",
+      "properties": {
+        "value": 0.26252062498951234
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_45",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.30379456615006317
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_46",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_46",
+      "target": "Negative",
+      "properties": {
+        "value": 0.48649372890388476
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_46",
+      "target": "Positive",
+      "properties": {
+        "value": 0.21423366319797188
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_46",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.2992726078981436
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_47",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_47",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5504728672133054
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_47",
+      "target": "Positive",
+      "properties": {
+        "value": 0.15460436748345174
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_47",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.29492276530324313
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_48",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_48",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5839808694784643
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_48",
+      "target": "Positive",
+      "properties": {
+        "value": 0.12565752582343404
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_48",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.2903616046981019
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_49",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_5",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_5",
+      "target": "Negative",
+      "properties": {
+        "value": 0.12494360138408289
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_5",
+      "target": "Positive",
+      "properties": {
+        "value": 0.3338320108601761
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_5",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.5412243877557412
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_50",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_50",
+      "target": "Negative",
+      "properties": {
+        "value": 0.3210013199402093
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_50",
+      "target": "Positive",
+      "properties": {
+        "value": 0.397776714359658
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_50",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.2812219657001327
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_51",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_51",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5227778484671872
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_51",
+      "target": "Positive",
+      "properties": {
+        "value": 0.20467025956499674
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_51",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.27255189196781626
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_52",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_52",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5518082219234987
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_52",
+      "target": "Positive",
+      "properties": {
+        "value": 0.17709837910919968
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_52",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.2710933989673019
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_53",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_53",
+      "target": "Negative",
+      "properties": {
+        "value": 0.3669694735683756
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_53",
+      "target": "Positive",
+      "properties": {
+        "value": 0.37423057923554814
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_53",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.25879994719607624
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_54",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_54",
+      "target": "Negative",
+      "properties": {
+        "value": 0.6152233186673935
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_54",
+      "target": "Positive",
+      "properties": {
+        "value": 0.12603077668203466
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_54",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.258745904650572
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_55",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_55",
+      "target": "Negative",
+      "properties": {
+        "value": 0.6543420774818576
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_55",
+      "target": "Positive",
+      "properties": {
+        "value": 0.09547811519549265
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_55",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.25017980732265
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_56",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_56",
+      "target": "Negative",
+      "properties": {
+        "value": 0.7264213410770931
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_56",
+      "target": "Positive",
+      "properties": {
+        "value": 0.027705467854057697
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_56",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.2458731910688492
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_57",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_57",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5602286251197122
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_57",
+      "target": "Positive",
+      "properties": {
+        "value": 0.20304788723520706
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_57",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.236723487645081
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_58",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_58",
+      "target": "Negative",
+      "properties": {
+        "value": 0.47901100511997385
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_58",
+      "target": "Positive",
+      "properties": {
+        "value": 0.28428629139642436
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_58",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.236702703483602
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_59",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_59",
+      "target": "Negative",
+      "properties": {
+        "value": 0.7553285114376993
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_59",
+      "target": "Positive",
+      "properties": {
+        "value": 0.017173793525019576
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_59",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.22749769503728134
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_6",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_60",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_60",
+      "target": "Negative",
+      "properties": {
+        "value": 0.7027925795403865
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_60",
+      "target": "Positive",
+      "properties": {
+        "value": 0.07398071670440631
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_60",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.22322670375520737
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_61",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_61",
+      "target": "Negative",
+      "properties": {
+        "value": 0.4080404679284082
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_61",
+      "target": "Positive",
+      "properties": {
+        "value": 0.36881131093800423
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_61",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.2231482211335878
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_62",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_62",
+      "target": "Negative",
+      "properties": {
+        "value": 0.6496965610968685
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_62",
+      "target": "Positive",
+      "properties": {
+        "value": 0.14471957097390342
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_62",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.20558386792922834
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_63",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_64",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_64",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5745481376250202
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_64",
+      "target": "Positive",
+      "properties": {
+        "value": 0.22476611292501836
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_64",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.20068574944996165
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_66",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_66",
+      "target": "Negative",
+      "properties": {
+        "value": 0.6154039207578615
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_66",
+      "target": "Positive",
+      "properties": {
+        "value": 0.18819625471054813
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_66",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.19639982453159055
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_67",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_67",
+      "target": "Negative",
+      "properties": {
+        "value": 0.7938729688103985
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_67",
+      "target": "Positive",
+      "properties": {
+        "value": 0.009728233967299493
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_67",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.19639879722230202
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_69",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_69",
+      "target": "Negative",
+      "properties": {
+        "value": 0.7441532032536033
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_69",
+      "target": "Positive",
+      "properties": {
+        "value": 0.06848031670329702
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_69",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.18736648004309964
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_7",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_7",
+      "target": "Negative",
+      "properties": {
+        "value": 0.2267782124254013
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_7",
+      "target": "Positive",
+      "properties": {
+        "value": 0.27253917409406536
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_7",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.5006826134805336
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_70",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_70",
+      "target": "Negative",
+      "properties": {
+        "value": 0.4343164230595483
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_70",
+      "target": "Positive",
+      "properties": {
+        "value": 0.38730059120971505
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_70",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.17838298573073708
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_71",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_72",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_72",
+      "target": "Negative",
+      "properties": {
+        "value": 0.5611278047844999
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_72",
+      "target": "Positive",
+      "properties": {
+        "value": 0.2737725390085757
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_72",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.16509965620692468
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_73",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_73",
+      "target": "Negative",
+      "properties": {
+        "value": 0.8046515697117856
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_73",
+      "target": "Positive",
+      "properties": {
+        "value": 0.03915865297384047
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_73",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.1561897773143741
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_74",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_74",
+      "target": "Negative",
+      "properties": {
+        "value": 0.8269641828689828
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_74",
+      "target": "Positive",
+      "properties": {
+        "value": 0.043613618607106885
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_74",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.12942219852391057
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_75",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_76",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_76",
+      "target": "Negative",
+      "properties": {
+        "value": 0.8575904339915948
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_76",
+      "target": "Positive",
+      "properties": {
+        "value": 0.026685248378168658
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_76",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.1157243176302365
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_77",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_78",
+      "target": "NONE_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_8",
+      "target": "Female_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_8",
+      "target": "Negative",
+      "properties": {
+        "value": 0.1390651364907367
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_8",
+      "target": "Positive",
+      "properties": {
+        "value": 0.3868005082751651
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_8",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.4741343552340984
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_9",
+      "target": "Male_gender_value"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_9",
+      "target": "Negative",
+      "properties": {
+        "value": 0.11189036845757744
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_9",
+      "target": "Positive",
+      "properties": {
+        "value": 0.41413511103148243
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_9",
+      "target": "Uncertainty",
+      "properties": {
+        "value": 0.47397452051094013
+      }
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Distribution",
+      "target": "bar_group_bas_all"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Distribution_2",
+      "target": "point_group_bas_Female"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Distribution_3",
+      "target": "point_group_bas_Male"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Distribution_4",
+      "target": "point_group_bas_NONE"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Distribution_5",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme",
+      "target": "bar_group_bas_Female"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_10",
+      "target": "point_group_bas_NONE"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_2",
+      "target": "bar_group_bas_Male"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_3",
+      "target": "bar_group_bas_NONE"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_4",
+      "target": "bar_group_bas_all"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_5",
+      "target": "point_group_bas_Male"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_6",
+      "target": "point_group_bas_Male"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_7",
+      "target": "point_group_bas_Male"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_8",
+      "target": "point_group_bas_NONE"
+    },
+    {
+      "type": "HAS_SCOPE",
+      "source": "Extreme_9",
+      "target": "point_group_bas_NONE"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_12"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_15"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_16"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_21"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_22"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_26"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_3"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_31"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_32"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_34"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_38"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_41"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_43"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_46"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_50"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_53"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_56"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_6"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_68"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Female",
+      "target": "bar_9"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_11"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_13"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_18"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_2"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_23"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_24"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_25"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_27"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_33"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_36"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_40"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_45"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_47"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_49"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_5"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_60"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_61"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_62"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_63"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_64"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_65"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_67"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_Male",
+      "target": "bar_8"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_1"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_10"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_14"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_17"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_19"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_20"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_28"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_29"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_30"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_35"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_37"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_39"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_4"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_42"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_44"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_48"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_51"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_52"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_54"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_55"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_57"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_58"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_59"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_66"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_NONE",
+      "target": "bar_7"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_1"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_10"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_11"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_12"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_13"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_14"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_15"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_16"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_17"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_18"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_19"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_2"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_20"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_21"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_22"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_23"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_24"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_25"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_26"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_27"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_28"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_29"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_3"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_30"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_31"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_32"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_33"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_34"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_35"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_36"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_37"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_38"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_39"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_4"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_40"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_41"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_42"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_43"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_44"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_45"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_46"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_47"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_48"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_49"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_5"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_50"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_51"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_52"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_53"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_54"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_55"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_56"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_57"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_58"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_59"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_6"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_60"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_61"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_62"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_63"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_64"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_65"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_66"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_67"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_68"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_7"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_8"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "bar_group_bas_all",
+      "target": "bar_9"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_10"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_14"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_15"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_17"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_20"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_25"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_27"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_3"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_31"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_41"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_45"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_5"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_51"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_54"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_56"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_59"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_61"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_66"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_70"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_72"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_74"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_75"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Female",
+      "target": "point_8"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_1"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_11"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_12"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_18"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_34"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_39"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_44"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_47"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_48"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_50"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_55"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_57"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_6"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_71"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_Male",
+      "target": "point_9"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_19"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_2"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_21"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_22"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_24"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_26"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_28"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_30"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_33"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_35"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_36"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_40"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_42"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_43"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_46"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_49"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_52"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_53"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_58"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_60"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_62"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_63"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_64"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_67"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_69"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_7"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_73"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_76"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_77"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_NONE",
+      "target": "point_78"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_1"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_10"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_11"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_12"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_13"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_14"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_15"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_16"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_17"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_18"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_19"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_2"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_20"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_21"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_22"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_23"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_24"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_25"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_26"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_27"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_28"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_29"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_3"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_30"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_31"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_32"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_33"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_34"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_35"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_36"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_37"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_38"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_39"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_4"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_40"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_41"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_42"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_43"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_44"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_45"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_46"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_47"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_48"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_49"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_5"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_50"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_51"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_52"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_53"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_54"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_55"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_56"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_57"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_58"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_59"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_6"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_60"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_61"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_62"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_63"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_64"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_65"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_66"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_67"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_68"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_69"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_7"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_70"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_71"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_72"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_73"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_74"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_75"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_76"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_77"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_78"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_8"
+    },
+    {
+      "type": "CONTAINS",
+      "source": "point_group_bas_all",
+      "target": "point_9"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Comparison_1",
+      "target": "Comparison"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Correspondence_1",
+      "target": "Correspondence"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Correspondence_2",
+      "target": "Correspondence_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Correspondence_3",
+      "target": "Correspondence_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_1",
+      "target": "Distribution"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_2",
+      "target": "Distribution_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_3",
+      "target": "Distribution_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_4",
+      "target": "Distribution_4"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_5",
+      "target": "Distribution_5"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_1",
+      "target": "Extreme"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_10",
+      "target": "Extreme_10"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_2",
+      "target": "Extreme_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_3",
+      "target": "Extreme_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_4",
+      "target": "Extreme_4"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_5",
+      "target": "Extreme_5"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_6",
+      "target": "Extreme_6"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_7",
+      "target": "Extreme_7"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_8",
+      "target": "Extreme_8"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_9",
+      "target": "Extreme_9"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_ExtremumComparison_1",
+      "target": "ExtremumComparison"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_ExtremumComparison_2",
+      "target": "ExtremumComparison_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_ExtremumComparison_3",
+      "target": "ExtremumComparison_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_ExtremumComparison_4",
+      "target": "ExtremumComparison_4"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Similarity_1",
+      "target": "Similarity"
+    },
+    {
+      "type": "INFERRED_FROM",
+      "source": "Extreme_4",
+      "target": "ExtremumComparison_4"
+    }
+  ]
+}

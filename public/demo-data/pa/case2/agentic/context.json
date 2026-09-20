@@ -1,0 +1,1727 @@
+{
+  "schema": "kg-chart-context:v1",
+  "chart": {
+    "id": "chart",
+    "type": "Complex_Chart",
+    "properties": {}
+  },
+  "variables": [
+    {
+      "id": "gender",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "gender",
+        "variableType": "Categorical"
+      }
+    },
+    {
+      "id": "gender_color_point_group",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "gender",
+        "variableType": "Categorical"
+      }
+    },
+    {
+      "id": "Negative",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "Negative",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "number_of_customers",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "number of customers",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "Positive",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "Positive",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "Uncertainty",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "Uncertainty",
+        "variableType": "Quantitative"
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "radial_stacked_bar",
+      "properties": {
+        "chartType": "radial_stacked_bar"
+      },
+      "mark_groups": [
+        {
+          "id": "bar_group",
+          "properties": {
+            "markType": "Bar"
+          },
+          "visual_attributes": [
+            {
+              "id": "angular_position",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "angularPosition"
+              },
+              "encodes": [],
+              "values": []
+            },
+            {
+              "id": "color_bar_group",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "color"
+              },
+              "encodes": [
+                {
+                  "id": "gender",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "gender",
+                    "variableType": "Categorical"
+                  }
+                }
+              ],
+              "values": [
+                {
+                  "id": "rgb_140_210_198",
+                  "type": "Visual_Attribute_Value",
+                  "properties": {
+                    "value": {
+                      "fill_rgb": [
+                        140,
+                        210,
+                        198
+                      ],
+                      "kind": "color"
+                    }
+                  },
+                  "encodes": [
+                    {
+                      "id": "NONE",
+                      "type": "Variable_Value",
+                      "properties": {
+                        "value": "NONE"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "rgb_189_185_218",
+                  "type": "Visual_Attribute_Value",
+                  "properties": {
+                    "value": {
+                      "fill_rgb": [
+                        189,
+                        185,
+                        218
+                      ],
+                      "kind": "color"
+                    }
+                  },
+                  "encodes": [
+                    {
+                      "id": "Female",
+                      "type": "Variable_Value",
+                      "properties": {
+                        "value": "Female"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "rgb_255_255_178",
+                  "type": "Visual_Attribute_Value",
+                  "properties": {
+                    "value": {
+                      "fill_rgb": [
+                        255,
+                        255,
+                        178
+                      ],
+                      "kind": "color"
+                    }
+                  },
+                  "encodes": [
+                    {
+                      "id": "Male",
+                      "type": "Variable_Value",
+                      "properties": {
+                        "value": "Male"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "height",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "height"
+              },
+              "encodes": [
+                {
+                  "id": "number_of_customers",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "number of customers",
+                    "variableType": "Quantitative"
+                  }
+                }
+              ],
+              "values": []
+            }
+          ],
+          "records": [
+            {
+              "mark_id": "bar_1",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 48.12349293063011
+              }
+            },
+            {
+              "mark_id": "bar_2",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 21.18811471262825
+              }
+            },
+            {
+              "mark_id": "bar_3",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 28.843875038015312
+              }
+            },
+            {
+              "mark_id": "bar_4",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 28.960162441192267
+              }
+            },
+            {
+              "mark_id": "bar_5",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 41.19544630554776
+              }
+            },
+            {
+              "mark_id": "bar_6",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 22.77387751496667
+              }
+            },
+            {
+              "mark_id": "bar_7",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 80.19252992398731
+              }
+            },
+            {
+              "mark_id": "bar_8",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 79.89759243469302
+              }
+            },
+            {
+              "mark_id": "bar_9",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 29.871295015885494
+              }
+            },
+            {
+              "mark_id": "bar_10",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 80.46757841201389
+              }
+            },
+            {
+              "mark_id": "bar_11",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 9.08640248050665
+              }
+            },
+            {
+              "mark_id": "bar_12",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 29.13584309356156
+              }
+            },
+            {
+              "mark_id": "bar_13",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 28.33275423751627
+              }
+            },
+            {
+              "mark_id": "bar_14",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 60.91543842351075
+              }
+            },
+            {
+              "mark_id": "bar_15",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 55.366434829608465
+              }
+            },
+            {
+              "mark_id": "bar_16",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 93.86573219321349
+              }
+            },
+            {
+              "mark_id": "bar_17",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 61.2055676426549
+              }
+            },
+            {
+              "mark_id": "bar_18",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 41.20074284344298
+              }
+            },
+            {
+              "mark_id": "bar_19",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 22.31935195739294
+              }
+            },
+            {
+              "mark_id": "bar_20",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 16.200642067413753
+              }
+            },
+            {
+              "mark_id": "bar_21",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 9.811644883771635
+              }
+            },
+            {
+              "mark_id": "bar_22",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 2.264957117343897
+              }
+            },
+            {
+              "mark_id": "bar_23",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 2.1458968543904575
+              }
+            },
+            {
+              "mark_id": "bar_24",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 2.0942342519448403
+              }
+            },
+            {
+              "mark_id": "bar_25",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 2.0415057023856775
+              }
+            },
+            {
+              "mark_id": "bar_26",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 9.958488355192003
+              }
+            },
+            {
+              "mark_id": "bar_27",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 1.9877865772821792
+              }
+            },
+            {
+              "mark_id": "bar_28",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 3.004698289414023
+              }
+            },
+            {
+              "mark_id": "bar_29",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.4012877700834565
+              }
+            },
+            {
+              "mark_id": "bar_30",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.26118575026004
+              }
+            },
+            {
+              "mark_id": "bar_31",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 9.561455311124746
+              }
+            },
+            {
+              "mark_id": "bar_32",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 3.118892812134959
+              }
+            },
+            {
+              "mark_id": "bar_33",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 8.600777382250044
+              }
+            },
+            {
+              "mark_id": "bar_34",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 1.7756433111210868
+              }
+            },
+            {
+              "mark_id": "bar_35",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 1.0380881285810233
+              }
+            },
+            {
+              "mark_id": "bar_36",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 1.0836818719616872
+              }
+            },
+            {
+              "mark_id": "bar_37",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 1.0847090252262888
+              }
+            },
+            {
+              "mark_id": "bar_38",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 1.6828329249072453
+              }
+            },
+            {
+              "mark_id": "bar_39",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.6826070907229678
+              }
+            },
+            {
+              "mark_id": "bar_40",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 2.070581430450545
+              }
+            },
+            {
+              "mark_id": "bar_41",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 3.3091274767142522
+              }
+            },
+            {
+              "mark_id": "bar_42",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.6358194222881934
+              }
+            },
+            {
+              "mark_id": "bar_43",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 2.200112925222129
+              }
+            },
+            {
+              "mark_id": "bar_44",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 22.247234970505133
+              }
+            },
+            {
+              "mark_id": "bar_45",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 8.577568388682948
+              }
+            },
+            {
+              "mark_id": "bar_46",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 42.50690721871604
+              }
+            },
+            {
+              "mark_id": "bar_47",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 15.340425950806093
+              }
+            },
+            {
+              "mark_id": "bar_48",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 73.62476279119471
+              }
+            },
+            {
+              "mark_id": "bar_49",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 9.132637874686793
+              }
+            },
+            {
+              "mark_id": "bar_50",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 28.958120721692012
+              }
+            },
+            {
+              "mark_id": "bar_51",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 61.40953345250398
+              }
+            },
+            {
+              "mark_id": "bar_52",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 9.69959763220811
+              }
+            },
+            {
+              "mark_id": "bar_53",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 9.747664673409531
+              }
+            },
+            {
+              "mark_id": "bar_54",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.228388816495226
+              }
+            },
+            {
+              "mark_id": "bar_55",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.9536200684751748
+              }
+            },
+            {
+              "mark_id": "bar_56",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 9.829663648518363
+              }
+            },
+            {
+              "mark_id": "bar_57",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.532335291699667
+              }
+            },
+            {
+              "mark_id": "bar_58",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 2.108444321848822
+              }
+            },
+            {
+              "mark_id": "bar_59",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 7.924383364538755
+              }
+            },
+            {
+              "mark_id": "bar_60",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 2.519624731990234
+              }
+            },
+            {
+              "mark_id": "bar_61",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 1.908324220717816
+              }
+            },
+            {
+              "mark_id": "bar_62",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 2.3322231953836194
+              }
+            },
+            {
+              "mark_id": "bar_63",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 2.221885846186467
+              }
+            },
+            {
+              "mark_id": "bar_64",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 1.7644341315526617
+              }
+            },
+            {
+              "mark_id": "bar_65",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 1.725489675781489
+              }
+            },
+            {
+              "mark_id": "bar_66",
+              "values": {
+                "gender": "NONE",
+                "number_of_customers": 54.677101402808546
+              }
+            },
+            {
+              "mark_id": "bar_67",
+              "values": {
+                "gender": "Male",
+                "number_of_customers": 15.29571261182366
+              }
+            },
+            {
+              "mark_id": "bar_68",
+              "values": {
+                "gender": "Female",
+                "number_of_customers": 9.201119954529645
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ternary_scatter",
+      "properties": {
+        "chartType": "ternary_scatter"
+      },
+      "mark_groups": [
+        {
+          "id": "point_group",
+          "properties": {
+            "markType": "Point"
+          },
+          "visual_attributes": [
+            {
+              "id": "color",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "color"
+              },
+              "encodes": [
+                {
+                  "id": "gender_color_point_group",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "gender",
+                    "variableType": "Categorical"
+                  }
+                }
+              ],
+              "values": [
+                {
+                  "id": "rgb_140_210_198_color",
+                  "type": "Visual_Attribute_Value",
+                  "properties": {
+                    "value": {
+                      "fill_rgb": [
+                        140,
+                        210,
+                        198
+                      ],
+                      "kind": "color"
+                    }
+                  },
+                  "encodes": [
+                    {
+                      "id": "NONE_gender_value",
+                      "type": "Variable_Value",
+                      "properties": {
+                        "value": "NONE"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "rgb_189_185_218_color",
+                  "type": "Visual_Attribute_Value",
+                  "properties": {
+                    "value": {
+                      "fill_rgb": [
+                        189,
+                        185,
+                        218
+                      ],
+                      "kind": "color"
+                    }
+                  },
+                  "encodes": [
+                    {
+                      "id": "Female_gender_value",
+                      "type": "Variable_Value",
+                      "properties": {
+                        "value": "Female"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "rgb_255_255_178_color",
+                  "type": "Visual_Attribute_Value",
+                  "properties": {
+                    "value": {
+                      "fill_rgb": [
+                        255,
+                        255,
+                        178
+                      ],
+                      "kind": "color"
+                    }
+                  },
+                  "encodes": [
+                    {
+                      "id": "Male_gender_value",
+                      "type": "Variable_Value",
+                      "properties": {
+                        "value": "Male"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nPosition",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "nPosition"
+              },
+              "encodes": [
+                {
+                  "id": "Negative",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "Negative",
+                    "variableType": "Quantitative"
+                  }
+                }
+              ],
+              "values": []
+            },
+            {
+              "id": "pPosition",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "pPosition"
+              },
+              "encodes": [
+                {
+                  "id": "Positive",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "Positive",
+                    "variableType": "Quantitative"
+                  }
+                }
+              ],
+              "values": []
+            },
+            {
+              "id": "uPosition",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "uPosition"
+              },
+              "encodes": [
+                {
+                  "id": "Uncertainty",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "Uncertainty",
+                    "variableType": "Quantitative"
+                  }
+                }
+              ],
+              "values": []
+            }
+          ],
+          "records": [
+            {
+              "mark_id": "point_1",
+              "values": {
+                "gender_color_point_group": "Male"
+              }
+            },
+            {
+              "mark_id": "point_2",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.03494211452449919,
+                "Positive": 0.3523129946556475,
+                "Uncertainty": 0.6127448908198533
+              },
+              "derived": {
+                "ternary_x": 0.6586854400655742,
+                "ternary_y": 0.5306526414891152,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_3",
+              "values": {
+                "gender_color_point_group": "Female"
+              }
+            },
+            {
+              "mark_id": "point_4",
+              "values": {}
+            },
+            {
+              "mark_id": "point_5",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.12494360138408289,
+                "Positive": 0.3338320108601761,
+                "Uncertainty": 0.5412243877557412
+              },
+              "derived": {
+                "ternary_x": 0.6044442047380466,
+                "ternary_y": 0.46871406894415124,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_6",
+              "values": {
+                "gender_color_point_group": "Male"
+              }
+            },
+            {
+              "mark_id": "point_7",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.2267782124254013,
+                "Positive": 0.27253917409406536,
+                "Uncertainty": 0.5006826134805336
+              },
+              "derived": {
+                "ternary_x": 0.522880480834332,
+                "ternary_y": 0.43360386250732696,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_8",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.1390651364907367,
+                "Positive": 0.3868005082751651,
+                "Uncertainty": 0.4741343552340984
+              },
+              "derived": {
+                "ternary_x": 0.6238676858922141,
+                "ternary_y": 0.41061239643968445,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_9",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.11189036845757744,
+                "Positive": 0.41413511103148243,
+                "Uncertainty": 0.47397452051094013
+              },
+              "derived": {
+                "ternary_x": 0.6511223712869525,
+                "ternary_y": 0.4104739755090226,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_10",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.21498241964064818,
+                "Positive": 0.31545305321405576,
+                "Uncertainty": 0.46956452714529606
+              },
+              "derived": {
+                "ternary_x": 0.5502353167867038,
+                "ternary_y": 0.406654809223854,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_11",
+              "values": {
+                "gender_color_point_group": "Male"
+              }
+            },
+            {
+              "mark_id": "point_12",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.24428814828262652,
+                "Positive": 0.31336953890646196,
+                "Uncertainty": 0.44234231281091174
+              },
+              "derived": {
+                "ternary_x": 0.5345406953119177,
+                "ternary_y": 0.3830796800630122,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_13",
+              "values": {}
+            },
+            {
+              "mark_id": "point_14",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.17866994606106745,
+                "Positive": 0.38760736003715834,
+                "Uncertainty": 0.4337226939017742
+              },
+              "derived": {
+                "ternary_x": 0.6044687069880454,
+                "ternary_y": 0.37561487111675845,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_15",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.21747867659811748,
+                "Positive": 0.34880397780292094,
+                "Uncertainty": 0.4337173455989618
+              },
+              "derived": {
+                "ternary_x": 0.5656626506024017,
+                "ternary_y": 0.3756102393506557,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_16",
+              "values": {}
+            },
+            {
+              "mark_id": "point_17",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.3307005116113349,
+                "Positive": 0.24459498423034948,
+                "Uncertainty": 0.42470450415831584
+              },
+              "derived": {
+                "ternary_x": 0.4569472363095073,
+                "ternary_y": 0.36780488970277514,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_18",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.022536087977421126,
+                "Positive": 0.5573129442419166,
+                "Uncertainty": 0.4201509677806625
+              },
+              "derived": {
+                "ternary_x": 0.7673884281322476,
+                "ternary_y": 0.3638614115226708,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_19",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.2656000315717672,
+                "Positive": 0.31914195951984653,
+                "Uncertainty": 0.41525800890838627
+              },
+              "derived": {
+                "ternary_x": 0.5267709639740397,
+                "ternary_y": 0.3596239848396072,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_20",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.4109599389113916,
+                "Positive": 0.17723034496814605,
+                "Uncertainty": 0.4118097161204626
+              },
+              "derived": {
+                "ternary_x": 0.3831352030283772,
+                "ternary_y": 0.3566376756855785,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_21",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.10458999839303212,
+                "Positive": 0.48407901459660546,
+                "Uncertainty": 0.41133098701036264
+              },
+              "derived": {
+                "ternary_x": 0.6897445081017866,
+                "ternary_y": 0.3562230841147009,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_22",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.16652057582473256,
+                "Positive": 0.42225468456698567,
+                "Uncertainty": 0.411224739608282
+              },
+              "derived": {
+                "ternary_x": 0.6278670543711264,
+                "ternary_y": 0.3561310711654129,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_23",
+              "values": {}
+            },
+            {
+              "mark_id": "point_24",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.2928204842558112,
+                "Positive": 0.3002362607040222,
+                "Uncertainty": 0.4069432550401666
+              },
+              "derived": {
+                "ternary_x": 0.5037078882241055,
+                "ternary_y": 0.3524231967635141,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_25",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.08408399983641007,
+                "Positive": 0.5183382510124479,
+                "Uncertainty": 0.39757774915114197
+              },
+              "derived": {
+                "ternary_x": 0.7171271255880189,
+                "ternary_y": 0.34431243074432594,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_26",
+              "values": {
+                "gender_color_point_group": "NONE"
+              }
+            },
+            {
+              "mark_id": "point_27",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.3429234836129627,
+                "Positive": 0.2746249904389558,
+                "Uncertainty": 0.38245152594808174
+              },
+              "derived": {
+                "ternary_x": 0.46585075341299653,
+                "ternary_y": 0.3312127371871621,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_28",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.374730936325007,
+                "Positive": 0.24998340537873032,
+                "Uncertainty": 0.37528565829626315
+              },
+              "derived": {
+                "ternary_x": 0.43762623452686167,
+                "ternary_y": 0.32500691376053,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_29",
+              "values": {}
+            },
+            {
+              "mark_id": "point_30",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.2603927462237906,
+                "Positive": 0.3683974706636447,
+                "Uncertainty": 0.3712097831125647
+              },
+              "derived": {
+                "ternary_x": 0.554002362219927,
+                "ternary_y": 0.32147710230879273,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_31",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.43115464155926664,
+                "Positive": 0.19785673726210873,
+                "Uncertainty": 0.37098862117862486
+              },
+              "derived": {
+                "ternary_x": 0.38335104785142105,
+                "ternary_y": 0.32128557045565065,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_32",
+              "values": {}
+            },
+            {
+              "mark_id": "point_33",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.11487368142204057,
+                "Positive": 0.5410094217681793,
+                "Uncertainty": 0.3441168968097803
+              },
+              "derived": {
+                "ternary_x": 0.7130678701730694,
+                "ternary_y": 0.29801397450873796,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_34",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.4643678481049054,
+                "Positive": 0.1917340384562909,
+                "Uncertainty": 0.34389811343880416
+              },
+              "derived": {
+                "ternary_x": 0.3636830951756928,
+                "ternary_y": 0.2978245025515469,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_35",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.3304405724762256,
+                "Positive": 0.32995708144729696,
+                "Uncertainty": 0.33960234607647766
+              },
+              "derived": {
+                "ternary_x": 0.4997582544855357,
+                "ternary_y": 0.2941042588870242,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_36",
+              "values": {
+                "gender_color_point_group": "NONE"
+              }
+            },
+            {
+              "mark_id": "point_37",
+              "values": {}
+            },
+            {
+              "mark_id": "point_38",
+              "values": {}
+            },
+            {
+              "mark_id": "point_39",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.5248782733914557,
+                "Positive": 0.1443302721015287,
+                "Uncertainty": 0.33079145450701586
+              },
+              "derived": {
+                "ternary_x": 0.3097259993550366,
+                "ternary_y": 0.2864738029578801,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_40",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.36979078846304503,
+                "Positive": 0.29945643766069663,
+                "Uncertainty": 0.33075277387625857
+              },
+              "derived": {
+                "ternary_x": 0.4648328245988258,
+                "ternary_y": 0.28644030454900987,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_41",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.39779827845849813,
+                "Positive": 0.2805387020448977,
+                "Uncertainty": 0.3216630194966046
+              },
+              "derived": {
+                "ternary_x": 0.4413702117931998,
+                "ternary_y": 0.27856834634206856,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_42",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.04866332408259344,
+                "Positive": 0.6297235213032556,
+                "Uncertainty": 0.3216131546141512
+              },
+              "derived": {
+                "ternary_x": 0.7905300986103311,
+                "ternary_y": 0.2785251620871073,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_43",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.1825281822007705,
+                "Positive": 0.500238098262695,
+                "Uncertainty": 0.3172337195365347
+              },
+              "derived": {
+                "ternary_x": 0.6588549580309623,
+                "ternary_y": 0.27473246005566676,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_44",
+              "values": {
+                "gender_color_point_group": "Male"
+              }
+            },
+            {
+              "mark_id": "point_45",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.43368480886042493,
+                "Positive": 0.26252062498951234,
+                "Uncertainty": 0.30379456615006317
+              },
+              "derived": {
+                "ternary_x": 0.41441790806454376,
+                "ternary_y": 0.2630938118176267,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_46",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.48649372890388476,
+                "Positive": 0.21423366319797188,
+                "Uncertainty": 0.2992726078981436
+              },
+              "derived": {
+                "ternary_x": 0.36386996714704356,
+                "ternary_y": 0.2591776810966117,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_47",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.5504728672133054,
+                "Positive": 0.15460436748345174,
+                "Uncertainty": 0.29492276530324313
+              },
+              "derived": {
+                "ternary_x": 0.30206575013507325,
+                "ternary_y": 0.2554106069069643,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_48",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.5839808694784643,
+                "Positive": 0.12565752582343404,
+                "Uncertainty": 0.2903616046981019
+              },
+              "derived": {
+                "ternary_x": 0.27083832817248493,
+                "ternary_y": 0.2514605259521712,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_49",
+              "values": {
+                "gender_color_point_group": "NONE"
+              }
+            },
+            {
+              "mark_id": "point_50",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.3210013199402093,
+                "Positive": 0.397776714359658,
+                "Uncertainty": 0.2812219657001327
+              },
+              "derived": {
+                "ternary_x": 0.5383876972097243,
+                "ternary_y": 0.24354536639851096,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_51",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.5227778484671872,
+                "Positive": 0.20467025956499674,
+                "Uncertainty": 0.27255189196781626
+              },
+              "derived": {
+                "ternary_x": 0.34094620554890476,
+                "ternary_y": 0.2360368622936407,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_52",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.5518082219234987,
+                "Positive": 0.17709837910919968,
+                "Uncertainty": 0.2710933989673019
+              },
+              "derived": {
+                "ternary_x": 0.31264507859285057,
+                "ternary_y": 0.2347737703039535,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_53",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.3669694735683756,
+                "Positive": 0.37423057923554814,
+                "Uncertainty": 0.25879994719607624
+              },
+              "derived": {
+                "ternary_x": 0.5036305528335863,
+                "ternary_y": 0.22412732876987332,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_54",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.6152233186673935,
+                "Positive": 0.12603077668203466,
+                "Uncertainty": 0.258745904650572
+              },
+              "derived": {
+                "ternary_x": 0.2554037290073206,
+                "ternary_y": 0.22408052655258143,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_55",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.6543420774818576,
+                "Positive": 0.09547811519549265,
+                "Uncertainty": 0.25017980732265
+              },
+              "derived": {
+                "ternary_x": 0.2205680188568176,
+                "ternary_y": 0.21666206865531096,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_56",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.7264213410770931,
+                "Positive": 0.027705467854057697,
+                "Uncertainty": 0.2458731910688492
+              },
+              "derived": {
+                "ternary_x": 0.1506420633884823,
+                "ternary_y": 0.21293242957516856,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_57",
+              "values": {
+                "gender_color_point_group": "Male",
+                "Negative": 0.5602286251197122,
+                "Positive": 0.20304788723520706,
+                "Uncertainty": 0.236723487645081
+              },
+              "derived": {
+                "ternary_x": 0.32140963105774745,
+                "ternary_y": 0.20500855397309178,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_58",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.47901100511997385,
+                "Positive": 0.28428629139642436,
+                "Uncertainty": 0.236702703483602
+              },
+              "derived": {
+                "ternary_x": 0.40263764313822525,
+                "ternary_y": 0.20499055436125463,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_59",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.7553285114376993,
+                "Positive": 0.017173793525019576,
+                "Uncertainty": 0.22749769503728134
+              },
+              "derived": {
+                "ternary_x": 0.13092264104366022,
+                "ternary_y": 0.1970187832046906,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_60",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.7027925795403865,
+                "Positive": 0.07398071670440631,
+                "Uncertainty": 0.22322670375520737
+              },
+              "derived": {
+                "ternary_x": 0.18559406858200994,
+                "ternary_y": 0.19331999625507268,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_61",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.4080404679284082,
+                "Positive": 0.36881131093800423,
+                "Uncertainty": 0.2231482211335878
+              },
+              "derived": {
+                "ternary_x": 0.480385421504798,
+                "ternary_y": 0.1932520283109945,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_62",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.6496965610968685,
+                "Positive": 0.14471957097390342,
+                "Uncertainty": 0.20558386792922834
+              },
+              "derived": {
+                "ternary_x": 0.24751150493851753,
+                "ternary_y": 0.17804085223497662,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_63",
+              "values": {
+                "gender_color_point_group": "NONE"
+              }
+            },
+            {
+              "mark_id": "point_64",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.5745481376250202,
+                "Positive": 0.22476611292501836,
+                "Uncertainty": 0.20068574944996165
+              },
+              "derived": {
+                "ternary_x": 0.32510898764999907,
+                "ternary_y": 0.17379895720118566,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_65",
+              "values": {}
+            },
+            {
+              "mark_id": "point_66",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.6154039207578615,
+                "Positive": 0.18819625471054813,
+                "Uncertainty": 0.19639982453159055
+              },
+              "derived": {
+                "ternary_x": 0.2863961669763433,
+                "ternary_y": 0.17008723734316356,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_67",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.7938729688103985,
+                "Positive": 0.009728233967299493,
+                "Uncertainty": 0.19639879722230202
+              },
+              "derived": {
+                "ternary_x": 0.1079276325784505,
+                "ternary_y": 0.1700863476672222,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_68",
+              "values": {}
+            },
+            {
+              "mark_id": "point_69",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.7441532032536033,
+                "Positive": 0.06848031670329702,
+                "Uncertainty": 0.18736648004309964
+              },
+              "derived": {
+                "ternary_x": 0.16216355672484684,
+                "ternary_y": 0.16226413153499433,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_70",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.4343164230595483,
+                "Positive": 0.38730059120971505,
+                "Uncertainty": 0.17838298573073708
+              },
+              "derived": {
+                "ternary_x": 0.47649208407508337,
+                "ternary_y": 0.15448419724573526,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_71",
+              "values": {
+                "gender_color_point_group": "Male"
+              }
+            },
+            {
+              "mark_id": "point_72",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.5611278047844999,
+                "Positive": 0.2737725390085757,
+                "Uncertainty": 0.16509965620692468
+              },
+              "derived": {
+                "ternary_x": 0.35632236711203796,
+                "ternary_y": 0.14298049643127392,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_73",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.8046515697117856,
+                "Positive": 0.03915865297384047,
+                "Uncertainty": 0.1561897773143741
+              },
+              "derived": {
+                "ternary_x": 0.1172535416310275,
+                "ternary_y": 0.13526431496568236,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_74",
+              "values": {
+                "gender_color_point_group": "Female",
+                "Negative": 0.8269641828689828,
+                "Positive": 0.043613618607106885,
+                "Uncertainty": 0.12942219852391057
+              },
+              "derived": {
+                "ternary_x": 0.10832471786906214,
+                "ternary_y": 0.1120829117353394,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_75",
+              "values": {
+                "gender_color_point_group": "Female"
+              }
+            },
+            {
+              "mark_id": "point_76",
+              "values": {
+                "gender_color_point_group": "NONE",
+                "Negative": 0.8575904339915948,
+                "Positive": 0.026685248378168658,
+                "Uncertainty": 0.1157243176302365
+              },
+              "derived": {
+                "ternary_x": 0.0845474071932869,
+                "ternary_y": 0.10022019890340418,
+                "derivation": "x=Positive+0.5*Uncertainty; y=sqrt(3)/2*Uncertainty"
+              }
+            },
+            {
+              "mark_id": "point_77",
+              "values": {
+                "gender_color_point_group": "NONE"
+              }
+            },
+            {
+              "mark_id": "point_78",
+              "values": {
+                "gender_color_point_group": "NONE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composition": [
+    {
+      "source": "radial_stacked_bar",
+      "target": "ternary_scatter",
+      "properties": {
+        "compositePattern": "Overlay",
+        "compositeSubtype": "CoAxis"
+      }
+    }
+  ]
+}

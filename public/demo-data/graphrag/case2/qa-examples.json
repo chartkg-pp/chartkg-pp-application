@@ -1,0 +1,1190 @@
+{
+  "caseId": "case2-opinionseer",
+  "sourceProject": "ChartKG++GraphRAG",
+  "revisionId": "construction-kg-revision:4bcab0ab899177046c9f",
+  "examples": [
+    {
+      "id": "case2-opinionseer-example-1",
+      "question": "Give an overview of the main findings.",
+      "origin": "backend/tests/test_analysis.py",
+      "suggested": true,
+      "turn": {
+        "answer": "Across the observed marks measuring number of customers, the bar marks along the circumference are clustered into separated distinct groups, primarily in the positive and negative opinion sectors, with prominent empty angular gaps between the groups. [G5]",
+        "citationIds": [
+          "G5"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-global",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [],
+          "communityIds": [
+            "community:2:Correspondence",
+            "community:7:ExtremumComparison_4",
+            "community:1:Comparison",
+            "community:8:Similarity",
+            "community:14:point_group_bas_Male",
+            "community:15:point_group_bas_NONE"
+          ],
+          "expandedEntityIds": [
+            "Comparison",
+            "Correspondence_2",
+            "ExtremumComparison_4",
+            "Extreme_4",
+            "bar_group_bas_all",
+            "Distribution",
+            "insight_Distribution_1",
+            "Similarity",
+            "Distribution_2",
+            "Distribution_3",
+            "Correspondence",
+            "Distribution_4",
+            "Extreme",
+            "Extreme_10",
+            "insight_Comparison_1",
+            "insight_Correspondence_1",
+            "Extreme_3",
+            "Extreme_8",
+            "Extreme_9",
+            "Extreme_2",
+            "insight_ExtremumComparison_4",
+            "insight_Similarity_1",
+            "Extreme_5",
+            "Extreme_6",
+            "Extreme_7",
+            "insight_Correspondence_2",
+            "insight_Extreme_4",
+            "Correspondence_3",
+            "insight_Distribution_2",
+            "insight_Distribution_3",
+            "insight_Distribution_4",
+            "insight_Extreme_1",
+            "ExtremumComparison",
+            "insight_Extreme_10"
+          ],
+          "relationIds": [
+            "relation:4:COMPOSED_OF:Comparison:Correspondence_2",
+            "relation:684:INFERRED_FROM:Extreme_4:ExtremumComparison_4",
+            "relation:372:HAS_SCOPE:Extreme_4:bar_group_bas_all",
+            "relation:363:HAS_SCOPE:Distribution:bar_group_bas_all",
+            "relation:664:DERIVED_FROM:insight_Distribution_1:Distribution",
+            "relation:26:COMPOSED_OF:Similarity:Distribution_2",
+            "relation:27:COMPOSED_OF:Similarity:Distribution_3",
+            "relation:5:COMPOSED_OF:Correspondence:Distribution_4",
+            "relation:23:COMPOSED_OF:ExtremumComparison_4:Extreme",
+            "relation:6:COMPOSED_OF:Correspondence:Extreme_10",
+            "relation:3:COMPOSED_OF:Comparison:Correspondence",
+            "relation:660:DERIVED_FROM:insight_Comparison_1:Comparison",
+            "relation:661:DERIVED_FROM:insight_Correspondence_1:Correspondence",
+            "relation:7:COMPOSED_OF:Correspondence:Extreme_3",
+            "relation:8:COMPOSED_OF:Correspondence:Extreme_8",
+            "relation:9:COMPOSED_OF:Correspondence:Extreme_9",
+            "relation:24:COMPOSED_OF:ExtremumComparison_4:Extreme_2",
+            "relation:25:COMPOSED_OF:ExtremumComparison_4:Extreme_3",
+            "relation:682:DERIVED_FROM:insight_ExtremumComparison_4:ExtremumComparison_4",
+            "relation:28:COMPOSED_OF:Similarity:Distribution_4",
+            "relation:683:DERIVED_FROM:insight_Similarity_1:Similarity",
+            "relation:10:COMPOSED_OF:Correspondence_2:Distribution_3",
+            "relation:11:COMPOSED_OF:Correspondence_2:Extreme_2",
+            "relation:12:COMPOSED_OF:Correspondence_2:Extreme_5",
+            "relation:13:COMPOSED_OF:Correspondence_2:Extreme_6",
+            "relation:14:COMPOSED_OF:Correspondence_2:Extreme_7",
+            "relation:662:DERIVED_FROM:insight_Correspondence_2:Correspondence_2",
+            "relation:673:DERIVED_FROM:insight_Extreme_4:Extreme_4",
+            "relation:15:COMPOSED_OF:Correspondence_3:Distribution_2",
+            "relation:665:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+            "relation:666:DERIVED_FROM:insight_Distribution_3:Distribution_3",
+            "relation:667:DERIVED_FROM:insight_Distribution_4:Distribution_4",
+            "relation:16:COMPOSED_OF:Correspondence_3:Extreme",
+            "relation:669:DERIVED_FROM:insight_Extreme_1:Extreme",
+            "relation:17:COMPOSED_OF:ExtremumComparison:Extreme_10",
+            "relation:670:DERIVED_FROM:insight_Extreme_10:Extreme_10"
+          ],
+          "paths": [
+            {
+              "source": "Comparison",
+              "target": "Correspondence_2",
+              "nodeIds": [
+                "Comparison",
+                "Correspondence_2"
+              ],
+              "relationIds": [
+                "relation:4:COMPOSED_OF:Comparison:Correspondence_2"
+              ],
+              "hops": [
+                {
+                  "from": "Comparison",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence_2",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "ExtremumComparison_4",
+              "target": "insight_Distribution_1",
+              "nodeIds": [
+                "ExtremumComparison_4",
+                "Extreme_4",
+                "bar_group_bas_all",
+                "Distribution",
+                "insight_Distribution_1"
+              ],
+              "relationIds": [
+                "relation:684:INFERRED_FROM:Extreme_4:ExtremumComparison_4",
+                "relation:372:HAS_SCOPE:Extreme_4:bar_group_bas_all",
+                "relation:363:HAS_SCOPE:Distribution:bar_group_bas_all",
+                "relation:664:DERIVED_FROM:insight_Distribution_1:Distribution"
+              ],
+              "hops": [
+                {
+                  "from": "ExtremumComparison_4",
+                  "relation": "INFERRED_FROM",
+                  "to": "Extreme_4",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Extreme_4",
+                  "relation": "HAS_SCOPE",
+                  "to": "bar_group_bas_all",
+                  "direction": "forward"
+                },
+                {
+                  "from": "bar_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Distribution",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Distribution",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Distribution_1",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "ExtremumComparison_4",
+              "target": "Extreme_4",
+              "nodeIds": [
+                "ExtremumComparison_4",
+                "Extreme_4"
+              ],
+              "relationIds": [
+                "relation:684:INFERRED_FROM:Extreme_4:ExtremumComparison_4"
+              ],
+              "hops": [
+                {
+                  "from": "ExtremumComparison_4",
+                  "relation": "INFERRED_FROM",
+                  "to": "Extreme_4",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Distribution_2",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_2"
+              ],
+              "relationIds": [
+                "relation:26:COMPOSED_OF:Similarity:Distribution_2"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_2",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Distribution_3",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_3"
+              ],
+              "relationIds": [
+                "relation:27:COMPOSED_OF:Similarity:Distribution_3"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_3",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Correspondence",
+              "target": "Distribution_4",
+              "nodeIds": [
+                "Correspondence",
+                "Distribution_4"
+              ],
+              "relationIds": [
+                "relation:5:COMPOSED_OF:Correspondence:Distribution_4"
+              ],
+              "hops": [
+                {
+                  "from": "Correspondence",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_4",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "ExtremumComparison_4",
+              "target": "Extreme",
+              "nodeIds": [
+                "ExtremumComparison_4",
+                "Extreme"
+              ],
+              "relationIds": [
+                "relation:23:COMPOSED_OF:ExtremumComparison_4:Extreme"
+              ],
+              "hops": [
+                {
+                  "from": "ExtremumComparison_4",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Correspondence",
+              "target": "Extreme_10",
+              "nodeIds": [
+                "Correspondence",
+                "Extreme_10"
+              ],
+              "relationIds": [
+                "relation:6:COMPOSED_OF:Correspondence:Extreme_10"
+              ],
+              "hops": [
+                {
+                  "from": "Correspondence",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme_10",
+                  "direction": "forward"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "Comparison",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "Correspondence",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "ExtremumComparison_4",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "Similarity",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "Correspondence_2",
+              "type": "Relational_Pattern",
+              "score": 0.344602,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "insight_Distribution_1",
+              "type": "Insight",
+              "score": 0.337323,
+              "lexicalScore": 0.0,
+              "distance": 2.53,
+              "hops": 4
+            },
+            {
+              "entityId": "Extreme_4",
+              "type": "Basic_Pattern",
+              "score": 0.336841,
+              "lexicalScore": 0.0,
+              "distance": 0.58,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution_2",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution_3",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution_4",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Extreme",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Extreme_10",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "case2-opinionseer-example-2",
+      "question": "What does the knowledge graph show about radial stacked bar?",
+      "origin": "analysis.suggestedQuestions",
+      "suggested": true,
+      "turn": {
+        "answer": "Across the observed marks measuring number of customers, the bar marks along the circumference are clustered into separated distinct groups, primarily in the positive and negative opinion sectors, with prominent empty angular gaps between the groups. [G5]",
+        "citationIds": [
+          "G5"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "radial_stacked_bar"
+          ],
+          "communityIds": [
+            "community:7:ExtremumComparison_4",
+            "community:8:Similarity",
+            "community:2:Correspondence",
+            "community:1:Comparison",
+            "community:4:ExtremumComparison",
+            "community:5:ExtremumComparison_2"
+          ],
+          "expandedEntityIds": [
+            "radial_stacked_bar",
+            "insight_Distribution_1",
+            "Extreme_4",
+            "ExtremumComparison_4",
+            "insight_Correspondence_2",
+            "insight_Correspondence_1",
+            "Extreme_2",
+            "Extreme",
+            "Extreme_3",
+            "insight_Comparison_1",
+            "insight_Extreme_2",
+            "insight_Extreme_4",
+            "insight_Extreme_1",
+            "Distribution",
+            "insight_ExtremumComparison_4",
+            "Correspondence_2",
+            "Correspondence",
+            "Correspondence_3",
+            "insight_Extreme_3",
+            "Comparison"
+          ],
+          "relationIds": [
+            "relation:664:DERIVED_FROM:insight_Distribution_1:Distribution",
+            "relation:673:DERIVED_FROM:insight_Extreme_4:Extreme_4",
+            "relation:684:INFERRED_FROM:Extreme_4:ExtremumComparison_4",
+            "relation:23:COMPOSED_OF:ExtremumComparison_4:Extreme",
+            "relation:24:COMPOSED_OF:ExtremumComparison_4:Extreme_2",
+            "relation:25:COMPOSED_OF:ExtremumComparison_4:Extreme_3",
+            "relation:682:DERIVED_FROM:insight_ExtremumComparison_4:ExtremumComparison_4",
+            "relation:662:DERIVED_FROM:insight_Correspondence_2:Correspondence_2",
+            "relation:661:DERIVED_FROM:insight_Correspondence_1:Correspondence",
+            "relation:11:COMPOSED_OF:Correspondence_2:Extreme_2",
+            "relation:671:DERIVED_FROM:insight_Extreme_2:Extreme_2",
+            "relation:16:COMPOSED_OF:Correspondence_3:Extreme",
+            "relation:669:DERIVED_FROM:insight_Extreme_1:Extreme",
+            "relation:672:DERIVED_FROM:insight_Extreme_3:Extreme_3",
+            "relation:7:COMPOSED_OF:Correspondence:Extreme_3",
+            "relation:660:DERIVED_FROM:insight_Comparison_1:Comparison"
+          ],
+          "paths": [],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Distribution_1",
+              "type": "Insight",
+              "score": 0.289269,
+              "lexicalScore": 0.553279,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_4",
+              "type": "Basic_Pattern",
+              "score": 0.273549,
+              "lexicalScore": 2.944866,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "ExtremumComparison_4",
+              "type": "Relational_Pattern",
+              "score": 0.269553,
+              "lexicalScore": 2.35565,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Correspondence_2",
+              "type": "Insight",
+              "score": 0.250961,
+              "lexicalScore": 3.720836,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Correspondence_1",
+              "type": "Insight",
+              "score": 0.249798,
+              "lexicalScore": 3.675725,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_2",
+              "type": "Basic_Pattern",
+              "score": 0.232356,
+              "lexicalScore": 1.347636,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme",
+              "type": "Basic_Pattern",
+              "score": 0.230366,
+              "lexicalScore": 1.270475,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_3",
+              "type": "Basic_Pattern",
+              "score": 0.229348,
+              "lexicalScore": 1.231007,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Comparison_1",
+              "type": "Insight",
+              "score": 0.218334,
+              "lexicalScore": 2.455758,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_2",
+              "type": "Insight",
+              "score": 0.218019,
+              "lexicalScore": 2.443512,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_4",
+              "type": "Insight",
+              "score": 0.218019,
+              "lexicalScore": 2.443512,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_1",
+              "type": "Insight",
+              "score": 0.216591,
+              "lexicalScore": 2.388142,
+              "distance": null,
+              "hops": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "case2-opinionseer-example-3",
+      "question": "What does the knowledge graph show about number of customers?",
+      "origin": "analysis.suggestedQuestions",
+      "suggested": true,
+      "turn": {
+        "answer": "Across the observed marks measuring number of customers, the bar marks along the circumference are clustered into separated distinct groups, primarily in the positive and negative opinion sectors, with prominent empty angular gaps between the groups. [G5]",
+        "citationIds": [
+          "G5"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "number_of_customers"
+          ],
+          "communityIds": [
+            "community:7:ExtremumComparison_4",
+            "community:8:Similarity",
+            "community:9:bar_group_bas_Female",
+            "community:12:bar_group_bas_all",
+            "community:2:Correspondence",
+            "community:1:Comparison"
+          ],
+          "expandedEntityIds": [
+            "number_of_customers",
+            "insight_Distribution_1",
+            "Extreme_3",
+            "Extreme_2",
+            "Extreme_4",
+            "Extreme",
+            "insight_Extreme_2",
+            "insight_Extreme_4",
+            "insight_Extreme_1",
+            "insight_Extreme_3",
+            "Distribution",
+            "ExtremumComparison_4",
+            "insight_ExtremumComparison_4",
+            "Correspondence",
+            "Correspondence_2",
+            "Correspondence_3"
+          ],
+          "relationIds": [
+            "relation:664:DERIVED_FROM:insight_Distribution_1:Distribution",
+            "relation:25:COMPOSED_OF:ExtremumComparison_4:Extreme_3",
+            "relation:672:DERIVED_FROM:insight_Extreme_3:Extreme_3",
+            "relation:7:COMPOSED_OF:Correspondence:Extreme_3",
+            "relation:11:COMPOSED_OF:Correspondence_2:Extreme_2",
+            "relation:24:COMPOSED_OF:ExtremumComparison_4:Extreme_2",
+            "relation:671:DERIVED_FROM:insight_Extreme_2:Extreme_2",
+            "relation:673:DERIVED_FROM:insight_Extreme_4:Extreme_4",
+            "relation:684:INFERRED_FROM:Extreme_4:ExtremumComparison_4",
+            "relation:16:COMPOSED_OF:Correspondence_3:Extreme",
+            "relation:23:COMPOSED_OF:ExtremumComparison_4:Extreme",
+            "relation:669:DERIVED_FROM:insight_Extreme_1:Extreme",
+            "relation:682:DERIVED_FROM:insight_ExtremumComparison_4:ExtremumComparison_4"
+          ],
+          "paths": [],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Distribution_1",
+              "type": "Insight",
+              "score": 0.431209,
+              "lexicalScore": 4.714321,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_3",
+              "type": "Basic_Pattern",
+              "score": 0.370586,
+              "lexicalScore": 5.220666,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_2",
+              "type": "Basic_Pattern",
+              "score": 0.36177,
+              "lexicalScore": 4.95459,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_4",
+              "type": "Basic_Pattern",
+              "score": 0.359027,
+              "lexicalScore": 4.871825,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme",
+              "type": "Basic_Pattern",
+              "score": 0.348917,
+              "lexicalScore": 4.566683,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_2",
+              "type": "Insight",
+              "score": 0.331139,
+              "lexicalScore": 5.315824,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_4",
+              "type": "Insight",
+              "score": 0.331139,
+              "lexicalScore": 5.315824,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_1",
+              "type": "Insight",
+              "score": 0.327986,
+              "lexicalScore": 5.220666,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_3",
+              "type": "Insight",
+              "score": 0.31917,
+              "lexicalScore": 4.95459,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Distribution",
+              "type": "Basic_Pattern",
+              "score": 0.295944,
+              "lexicalScore": 2.967992,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "ExtremumComparison_4",
+              "type": "Relational_Pattern",
+              "score": 0.291918,
+              "lexicalScore": 2.508481,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_ExtremumComparison_4",
+              "type": "Insight",
+              "score": 0.277536,
+              "lexicalScore": 3.698085,
+              "distance": null,
+              "hops": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "case2-opinionseer-example-4",
+      "question": "What does the knowledge graph show about Similarity: SimilarDistribution?",
+      "origin": "analysis.suggestedQuestions",
+      "suggested": true,
+      "turn": {
+        "answer": "Across the Female, Male, and NONE gender categories, customer opinion points exhibit a similar band-like cluster structure, each forming an elongated continuous curved distribution across the ternary domain from higher Negative values through moderate Uncertainty towards higher Positive values. [G24]",
+        "citationIds": [
+          "G24"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "Similarity",
+            "insight_Similarity_1"
+          ],
+          "communityIds": [
+            "community:8:Similarity",
+            "community:2:Correspondence",
+            "community:1:Comparison",
+            "community:14:point_group_bas_Male",
+            "community:15:point_group_bas_NONE",
+            "community:3:Correspondence_3"
+          ],
+          "expandedEntityIds": [
+            "Similarity",
+            "insight_Similarity_1",
+            "Distribution_2",
+            "Distribution_3",
+            "Distribution_4",
+            "Correspondence",
+            "Correspondence_2",
+            "Correspondence_3",
+            "Comparison",
+            "Extreme",
+            "Extreme_10",
+            "Extreme_2",
+            "insight_Distribution_2",
+            "insight_Distribution_3",
+            "insight_Distribution_4",
+            "insight_Correspondence_1",
+            "Extreme_3",
+            "Extreme_8",
+            "Extreme_9",
+            "Extreme_5",
+            "Extreme_6",
+            "Extreme_7",
+            "insight_Correspondence_2",
+            "insight_Correspondence_3",
+            "insight_Comparison_1",
+            "ExtremumComparison_4",
+            "insight_Extreme_1",
+            "ExtremumComparison",
+            "insight_Extreme_10",
+            "insight_Extreme_2"
+          ],
+          "relationIds": [
+            "relation:26:COMPOSED_OF:Similarity:Distribution_2",
+            "relation:27:COMPOSED_OF:Similarity:Distribution_3",
+            "relation:28:COMPOSED_OF:Similarity:Distribution_4",
+            "relation:5:COMPOSED_OF:Correspondence:Distribution_4",
+            "relation:10:COMPOSED_OF:Correspondence_2:Distribution_3",
+            "relation:15:COMPOSED_OF:Correspondence_3:Distribution_2",
+            "relation:3:COMPOSED_OF:Comparison:Correspondence",
+            "relation:16:COMPOSED_OF:Correspondence_3:Extreme",
+            "relation:6:COMPOSED_OF:Correspondence:Extreme_10",
+            "relation:11:COMPOSED_OF:Correspondence_2:Extreme_2",
+            "relation:683:DERIVED_FROM:insight_Similarity_1:Similarity",
+            "relation:665:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+            "relation:666:DERIVED_FROM:insight_Distribution_3:Distribution_3",
+            "relation:667:DERIVED_FROM:insight_Distribution_4:Distribution_4",
+            "relation:661:DERIVED_FROM:insight_Correspondence_1:Correspondence",
+            "relation:7:COMPOSED_OF:Correspondence:Extreme_3",
+            "relation:8:COMPOSED_OF:Correspondence:Extreme_8",
+            "relation:9:COMPOSED_OF:Correspondence:Extreme_9",
+            "relation:12:COMPOSED_OF:Correspondence_2:Extreme_5",
+            "relation:13:COMPOSED_OF:Correspondence_2:Extreme_6",
+            "relation:14:COMPOSED_OF:Correspondence_2:Extreme_7",
+            "relation:4:COMPOSED_OF:Comparison:Correspondence_2",
+            "relation:662:DERIVED_FROM:insight_Correspondence_2:Correspondence_2",
+            "relation:663:DERIVED_FROM:insight_Correspondence_3:Correspondence_3",
+            "relation:660:DERIVED_FROM:insight_Comparison_1:Comparison",
+            "relation:23:COMPOSED_OF:ExtremumComparison_4:Extreme",
+            "relation:669:DERIVED_FROM:insight_Extreme_1:Extreme",
+            "relation:17:COMPOSED_OF:ExtremumComparison:Extreme_10",
+            "relation:670:DERIVED_FROM:insight_Extreme_10:Extreme_10",
+            "relation:24:COMPOSED_OF:ExtremumComparison_4:Extreme_2",
+            "relation:671:DERIVED_FROM:insight_Extreme_2:Extreme_2"
+          ],
+          "paths": [
+            {
+              "source": "Similarity",
+              "target": "Distribution_2",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_2"
+              ],
+              "relationIds": [
+                "relation:26:COMPOSED_OF:Similarity:Distribution_2"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_2",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Distribution_3",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_3"
+              ],
+              "relationIds": [
+                "relation:27:COMPOSED_OF:Similarity:Distribution_3"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_3",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Distribution_4",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_4"
+              ],
+              "relationIds": [
+                "relation:28:COMPOSED_OF:Similarity:Distribution_4"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_4",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Correspondence",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_4",
+                "Correspondence"
+              ],
+              "relationIds": [
+                "relation:28:COMPOSED_OF:Similarity:Distribution_4",
+                "relation:5:COMPOSED_OF:Correspondence:Distribution_4"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_4",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Distribution_4",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Correspondence_2",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_3",
+                "Correspondence_2"
+              ],
+              "relationIds": [
+                "relation:27:COMPOSED_OF:Similarity:Distribution_3",
+                "relation:10:COMPOSED_OF:Correspondence_2:Distribution_3"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_3",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Distribution_3",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence_2",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Correspondence_3",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_2",
+                "Correspondence_3"
+              ],
+              "relationIds": [
+                "relation:26:COMPOSED_OF:Similarity:Distribution_2",
+                "relation:15:COMPOSED_OF:Correspondence_3:Distribution_2"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_2",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Distribution_2",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence_3",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Comparison",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_4",
+                "Correspondence",
+                "Comparison"
+              ],
+              "relationIds": [
+                "relation:28:COMPOSED_OF:Similarity:Distribution_4",
+                "relation:5:COMPOSED_OF:Correspondence:Distribution_4",
+                "relation:3:COMPOSED_OF:Comparison:Correspondence"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_4",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Distribution_4",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correspondence",
+                  "relation": "COMPOSED_OF",
+                  "to": "Comparison",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Extreme",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_2",
+                "Correspondence_3",
+                "Extreme"
+              ],
+              "relationIds": [
+                "relation:26:COMPOSED_OF:Similarity:Distribution_2",
+                "relation:15:COMPOSED_OF:Correspondence_3:Distribution_2",
+                "relation:16:COMPOSED_OF:Correspondence_3:Extreme"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_2",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Distribution_2",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence_3",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correspondence_3",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Extreme_10",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_4",
+                "Correspondence",
+                "Extreme_10"
+              ],
+              "relationIds": [
+                "relation:28:COMPOSED_OF:Similarity:Distribution_4",
+                "relation:5:COMPOSED_OF:Correspondence:Distribution_4",
+                "relation:6:COMPOSED_OF:Correspondence:Extreme_10"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_4",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Distribution_4",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correspondence",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme_10",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "Extreme_2",
+              "nodeIds": [
+                "Similarity",
+                "Distribution_3",
+                "Correspondence_2",
+                "Extreme_2"
+              ],
+              "relationIds": [
+                "relation:27:COMPOSED_OF:Similarity:Distribution_3",
+                "relation:10:COMPOSED_OF:Correspondence_2:Distribution_3",
+                "relation:11:COMPOSED_OF:Correspondence_2:Extreme_2"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_3",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Distribution_3",
+                  "relation": "COMPOSED_OF",
+                  "to": "Correspondence_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correspondence_2",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme_2",
+                  "direction": "forward"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "Similarity",
+              "type": "Relational_Pattern",
+              "score": 1.1088,
+              "lexicalScore": 14.58421,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Similarity_1",
+              "type": "Insight",
+              "score": 0.901282,
+              "lexicalScore": 10.580886,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "Distribution_2",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution_3",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution_4",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Correspondence",
+              "type": "Relational_Pattern",
+              "score": 0.307014,
+              "lexicalScore": 0.0,
+              "distance": 1.24,
+              "hops": 2
+            },
+            {
+              "entityId": "Correspondence_2",
+              "type": "Relational_Pattern",
+              "score": 0.307014,
+              "lexicalScore": 0.0,
+              "distance": 1.24,
+              "hops": 2
+            },
+            {
+              "entityId": "Correspondence_3",
+              "type": "Relational_Pattern",
+              "score": 0.307014,
+              "lexicalScore": 0.0,
+              "distance": 1.24,
+              "hops": 2
+            },
+            {
+              "entityId": "Comparison",
+              "type": "Relational_Pattern",
+              "score": 0.285723,
+              "lexicalScore": 0.0,
+              "distance": 1.86,
+              "hops": 3
+            },
+            {
+              "entityId": "Extreme",
+              "type": "Basic_Pattern",
+              "score": 0.274523,
+              "lexicalScore": 0.0,
+              "distance": 1.86,
+              "hops": 3
+            },
+            {
+              "entityId": "Extreme_10",
+              "type": "Basic_Pattern",
+              "score": 0.274523,
+              "lexicalScore": 0.0,
+              "distance": 1.86,
+              "hops": 3
+            },
+            {
+              "entityId": "Extreme_2",
+              "type": "Basic_Pattern",
+              "score": 0.274523,
+              "lexicalScore": 0.0,
+              "distance": 1.86,
+              "hops": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

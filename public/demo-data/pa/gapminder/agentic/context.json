@@ -1,0 +1,2551 @@
+{
+  "schema": "kg-chart-context:v1",
+  "chart": {
+    "id": "chart",
+    "type": "Complex_Chart",
+    "properties": {
+      "title": "Gapminder_world_health_chart_2025",
+      "sourceFormat": "csv"
+    }
+  },
+  "variables": [
+    {
+      "id": "variable_country_code",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "country_code",
+        "label": "country_code",
+        "dataType": "nominal",
+        "role": "dimension"
+      }
+    },
+    {
+      "id": "variable_country_name",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "country_name",
+        "label": "country_name",
+        "dataType": "nominal",
+        "role": "measure"
+      }
+    },
+    {
+      "id": "variable_income_level",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "income_level",
+        "label": "income_level",
+        "dataType": "nominal",
+        "role": "measure"
+      }
+    },
+    {
+      "id": "variable_income_per_person_ppp_usd",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "income_per_person_ppp_usd",
+        "label": "income_per_person_ppp_usd",
+        "dataType": "quantitative",
+        "role": "measure"
+      }
+    },
+    {
+      "id": "variable_life_expectancy_years",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "life_expectancy_years",
+        "label": "life_expectancy_years",
+        "dataType": "quantitative",
+        "role": "measure"
+      }
+    },
+    {
+      "id": "variable_population",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "population",
+        "label": "population",
+        "dataType": "quantitative",
+        "role": "measure"
+      }
+    },
+    {
+      "id": "variable_region",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "region",
+        "label": "region",
+        "dataType": "nominal",
+        "role": "measure"
+      }
+    },
+    {
+      "id": "variable_year",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "year",
+        "label": "year",
+        "dataType": "quantitative",
+        "role": "measure"
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "csv_view",
+      "properties": {
+        "chartType": "cartesian_bar",
+        "sourceFormat": "csv"
+      },
+      "mark_groups": [
+        {
+          "id": "csv_group",
+          "properties": {
+            "markType": "Bar"
+          },
+          "visual_attributes": [
+            {
+              "id": "x_position",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "xPosition"
+              },
+              "encodes": [
+                {
+                  "id": "variable_country_code",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "country_code",
+                    "label": "country_code",
+                    "dataType": "nominal",
+                    "role": "dimension"
+                  }
+                }
+              ],
+              "values": []
+            },
+            {
+              "id": "y_position",
+              "type": "Visual_Attribute",
+              "properties": {
+                "attributeType": "yPosition"
+              },
+              "encodes": [
+                {
+                  "id": "variable_income_per_person_ppp_usd",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "income_per_person_ppp_usd",
+                    "label": "income_per_person_ppp_usd",
+                    "dataType": "quantitative",
+                    "role": "measure"
+                  }
+                },
+                {
+                  "id": "variable_life_expectancy_years",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "life_expectancy_years",
+                    "label": "life_expectancy_years",
+                    "dataType": "quantitative",
+                    "role": "measure"
+                  }
+                },
+                {
+                  "id": "variable_population",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "population",
+                    "label": "population",
+                    "dataType": "quantitative",
+                    "role": "measure"
+                  }
+                },
+                {
+                  "id": "variable_year",
+                  "type": "Data_Variable",
+                  "properties": {
+                    "name": "year",
+                    "label": "year",
+                    "dataType": "quantitative",
+                    "role": "measure"
+                  }
+                }
+              ],
+              "values": []
+            }
+          ],
+          "records": [
+            {
+              "mark_id": "row_afg",
+              "values": {
+                "variable_country_code": "afg",
+                "variable_country_name": "Afghanistan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.11,
+                "variable_income_per_person_ppp_usd": 2092.54588,
+                "variable_population": 43844111,
+                "variable_region": "asia",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_ago",
+              "values": {
+                "variable_country_code": "ago",
+                "variable_country_name": "Angola",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.3,
+                "variable_income_per_person_ppp_usd": 7457.17479,
+                "variable_population": 39040039,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_alb",
+              "values": {
+                "variable_country_code": "alb",
+                "variable_country_name": "Albania",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.67,
+                "variable_income_per_person_ppp_usd": 20361.79277,
+                "variable_population": 2771508,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_are",
+              "values": {
+                "variable_country_code": "are",
+                "variable_country_name": "UAE",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.94,
+                "variable_income_per_person_ppp_usd": 72660.14487,
+                "variable_population": 11346000,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_arg",
+              "values": {
+                "variable_country_code": "arg",
+                "variable_country_name": "Argentina",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.6,
+                "variable_income_per_person_ppp_usd": 28467.05855,
+                "variable_population": 45851378,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_arm",
+              "values": {
+                "variable_country_code": "arm",
+                "variable_country_name": "Armenia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.87,
+                "variable_income_per_person_ppp_usd": 21539.01147,
+                "variable_population": 2952365,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_aus",
+              "values": {
+                "variable_country_code": "aus",
+                "variable_country_name": "Australia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.79,
+                "variable_income_per_person_ppp_usd": 61942.61476,
+                "variable_population": 26974026,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_aut",
+              "values": {
+                "variable_country_code": "aut",
+                "variable_country_name": "Austria",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.17,
+                "variable_income_per_person_ppp_usd": 64665.01876,
+                "variable_population": 9113574,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_aze",
+              "values": {
+                "variable_country_code": "aze",
+                "variable_country_name": "Azerbaijan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 71.73,
+                "variable_income_per_person_ppp_usd": 23177.53343,
+                "variable_population": 10397713,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_bdi",
+              "values": {
+                "variable_country_code": "bdi",
+                "variable_country_name": "Burundi",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 64.95,
+                "variable_income_per_person_ppp_usd": 848.37448,
+                "variable_population": 14390003,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_bel",
+              "values": {
+                "variable_country_code": "bel",
+                "variable_country_name": "Belgium",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.33,
+                "variable_income_per_person_ppp_usd": 65096.12262,
+                "variable_population": 11758603,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_ben",
+              "values": {
+                "variable_country_code": "ben",
+                "variable_country_name": "Benin",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.71,
+                "variable_income_per_person_ppp_usd": 4143.14163,
+                "variable_population": 14814460,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_bfa",
+              "values": {
+                "variable_country_code": "bfa",
+                "variable_country_name": "Burkina Faso",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 62.97,
+                "variable_income_per_person_ppp_usd": 2661.1876,
+                "variable_population": 24074580,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_bgd",
+              "values": {
+                "variable_country_code": "bgd",
+                "variable_country_name": "Bangladesh",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.33,
+                "variable_income_per_person_ppp_usd": 8950.44644,
+                "variable_population": 175686899,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_bgr",
+              "values": {
+                "variable_country_code": "bgr",
+                "variable_country_name": "Bulgaria",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.33,
+                "variable_income_per_person_ppp_usd": 36210.72816,
+                "variable_population": 6714560,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_bhr",
+              "values": {
+                "variable_country_code": "bhr",
+                "variable_country_name": "Bahrain",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.98,
+                "variable_income_per_person_ppp_usd": 60839.23381,
+                "variable_population": 1643332,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_bhs",
+              "values": {
+                "variable_country_code": "bhs",
+                "variable_country_name": "Bahamas",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.04,
+                "variable_income_per_person_ppp_usd": 37464.41295,
+                "variable_population": 403033,
+                "variable_region": "americas",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_bih",
+              "values": {
+                "variable_country_code": "bih",
+                "variable_country_name": "Bosnia and Herzegovina",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.91,
+                "variable_income_per_person_ppp_usd": 21620.74836,
+                "variable_population": 3140095,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_blr",
+              "values": {
+                "variable_country_code": "blr",
+                "variable_country_name": "Belarus",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.21,
+                "variable_income_per_person_ppp_usd": 28456.77856,
+                "variable_population": 8997603,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_blz",
+              "values": {
+                "variable_country_code": "blz",
+                "variable_country_name": "Belize",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.49,
+                "variable_income_per_person_ppp_usd": 13847.69431,
+                "variable_population": 422924,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_bol",
+              "values": {
+                "variable_country_code": "bol",
+                "variable_country_name": "Bolivia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 73.47,
+                "variable_income_per_person_ppp_usd": 10089.6259,
+                "variable_population": 12581843,
+                "variable_region": "americas",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_bra",
+              "values": {
+                "variable_country_code": "bra",
+                "variable_country_name": "Brazil",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.09,
+                "variable_income_per_person_ppp_usd": 20500.23168,
+                "variable_population": 212812405,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_brb",
+              "values": {
+                "variable_country_code": "brb",
+                "variable_country_name": "Barbados",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.1,
+                "variable_income_per_person_ppp_usd": 21036.46289,
+                "variable_population": 282623,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_brn",
+              "values": {
+                "variable_country_code": "brn",
+                "variable_country_name": "Brunei",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.36,
+                "variable_income_per_person_ppp_usd": 82692.81626,
+                "variable_population": 466330,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_btn",
+              "values": {
+                "variable_country_code": "btn",
+                "variable_country_name": "Bhutan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.82,
+                "variable_income_per_person_ppp_usd": 16920.9576,
+                "variable_population": 796682,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_bwa",
+              "values": {
+                "variable_country_code": "bwa",
+                "variable_country_name": "Botswana",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 63.08,
+                "variable_income_per_person_ppp_usd": 18189.03301,
+                "variable_population": 2562122,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_caf",
+              "values": {
+                "variable_country_code": "caf",
+                "variable_country_name": "Central African Republic",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 53.6,
+                "variable_income_per_person_ppp_usd": 1135.80389,
+                "variable_population": 5513282,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_can",
+              "values": {
+                "variable_country_code": "can",
+                "variable_country_name": "Canada",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.15,
+                "variable_income_per_person_ppp_usd": 58422.42505,
+                "variable_population": 40126723,
+                "variable_region": "americas",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_che",
+              "values": {
+                "variable_country_code": "che",
+                "variable_country_name": "Switzerland",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 84.85,
+                "variable_income_per_person_ppp_usd": 84310.9311,
+                "variable_population": 8967407,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_chl",
+              "values": {
+                "variable_country_code": "chl",
+                "variable_country_name": "Chile",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 81.39,
+                "variable_income_per_person_ppp_usd": 31425.36958,
+                "variable_population": 19859921,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_chn",
+              "values": {
+                "variable_country_code": "chn",
+                "variable_country_name": "China",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 78.81,
+                "variable_income_per_person_ppp_usd": 25504.91715,
+                "variable_population": 1416096094,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_civ",
+              "values": {
+                "variable_country_code": "civ",
+                "variable_country_name": "Cote d'Ivoire",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.53,
+                "variable_income_per_person_ppp_usd": 7143.2159,
+                "variable_population": 32711547,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_cmr",
+              "values": {
+                "variable_country_code": "cmr",
+                "variable_country_name": "Cameroon",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 64.52,
+                "variable_income_per_person_ppp_usd": 5107.23253,
+                "variable_population": 29879337,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_cod",
+              "values": {
+                "variable_country_code": "cod",
+                "variable_country_name": "Congo, Dem. Rep.",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.25,
+                "variable_income_per_person_ppp_usd": 1565.63762,
+                "variable_population": 112832473,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_cog",
+              "values": {
+                "variable_country_code": "cog",
+                "variable_country_name": "Congo, Rep.",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.38,
+                "variable_income_per_person_ppp_usd": 6377.20603,
+                "variable_population": 6484437,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_col",
+              "values": {
+                "variable_country_code": "col",
+                "variable_country_name": "Colombia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 81.37,
+                "variable_income_per_person_ppp_usd": 19301.99344,
+                "variable_population": 53425635,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_com",
+              "values": {
+                "variable_country_code": "com",
+                "variable_country_name": "Comoros",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 70.26,
+                "variable_income_per_person_ppp_usd": 3717.61456,
+                "variable_population": 882847,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_cpv",
+              "values": {
+                "variable_country_code": "cpv",
+                "variable_country_name": "Cape Verde",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.05,
+                "variable_income_per_person_ppp_usd": 10625.35184,
+                "variable_population": 527326,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_cri",
+              "values": {
+                "variable_country_code": "cri",
+                "variable_country_name": "Costa Rica",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 81.33,
+                "variable_income_per_person_ppp_usd": 28390.39988,
+                "variable_population": 5152950,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_cub",
+              "values": {
+                "variable_country_code": "cub",
+                "variable_country_name": "Cuba",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.75,
+                "variable_income_per_person_ppp_usd": 15295.86616,
+                "variable_population": 10937203,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_cyp",
+              "values": {
+                "variable_country_code": "cyp",
+                "variable_country_name": "Cyprus",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 81.77,
+                "variable_income_per_person_ppp_usd": 55720.00354,
+                "variable_population": 1370754,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_cze",
+              "values": {
+                "variable_country_code": "cze",
+                "variable_country_name": "Czech Republic",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 80.33,
+                "variable_income_per_person_ppp_usd": 50179.53386,
+                "variable_population": 10609239,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_deu",
+              "values": {
+                "variable_country_code": "deu",
+                "variable_country_name": "Germany",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.13,
+                "variable_income_per_person_ppp_usd": 64355.00745,
+                "variable_population": 84075075,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_dji",
+              "values": {
+                "variable_country_code": "dji",
+                "variable_country_name": "Djibouti",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 68.33,
+                "variable_income_per_person_ppp_usd": 7352.87525,
+                "variable_population": 1184076,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_dnk",
+              "values": {
+                "variable_country_code": "dnk",
+                "variable_country_name": "Denmark",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.02,
+                "variable_income_per_person_ppp_usd": 77336.97179,
+                "variable_population": 6002507,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_dom",
+              "values": {
+                "variable_country_code": "dom",
+                "variable_country_name": "Dominican Republic",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.35,
+                "variable_income_per_person_ppp_usd": 25662.87388,
+                "variable_population": 11520487,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_dza",
+              "values": {
+                "variable_country_code": "dza",
+                "variable_country_name": "Algeria",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.47,
+                "variable_income_per_person_ppp_usd": 16189.46985,
+                "variable_population": 47435312,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_ecu",
+              "values": {
+                "variable_country_code": "ecu",
+                "variable_country_name": "Ecuador",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.51,
+                "variable_income_per_person_ppp_usd": 14442.50999,
+                "variable_population": 18289896,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_egy",
+              "values": {
+                "variable_country_code": "egy",
+                "variable_country_name": "Egypt",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 71.97,
+                "variable_income_per_person_ppp_usd": 17541.37397,
+                "variable_population": 118365995,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_eri",
+              "values": {
+                "variable_country_code": "eri",
+                "variable_country_name": "Eritrea",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.42,
+                "variable_income_per_person_ppp_usd": 2441.67773,
+                "variable_population": 3607003,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_esp",
+              "values": {
+                "variable_country_code": "esp",
+                "variable_country_name": "Spain",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.87,
+                "variable_income_per_person_ppp_usd": 50242.02774,
+                "variable_population": 47889958,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_est",
+              "values": {
+                "variable_country_code": "est",
+                "variable_country_name": "Estonia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.01,
+                "variable_income_per_person_ppp_usd": 42892.09544,
+                "variable_population": 1344232,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_eth",
+              "values": {
+                "variable_country_code": "eth",
+                "variable_country_name": "Ethiopia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 70.68,
+                "variable_income_per_person_ppp_usd": 3106.93422,
+                "variable_population": 135472051,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_fin",
+              "values": {
+                "variable_country_code": "fin",
+                "variable_country_name": "Finland",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.84,
+                "variable_income_per_person_ppp_usd": 57574.23612,
+                "variable_population": 5623329,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_fji",
+              "values": {
+                "variable_country_code": "fji",
+                "variable_country_name": "Fiji",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 69.21,
+                "variable_income_per_person_ppp_usd": 14765.58232,
+                "variable_population": 933154,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_fra",
+              "values": {
+                "variable_country_code": "fra",
+                "variable_country_name": "France",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.77,
+                "variable_income_per_person_ppp_usd": 56112.81238,
+                "variable_population": 66650804,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_fsm",
+              "values": {
+                "variable_country_code": "fsm",
+                "variable_country_name": "Micronesia, Fed. Sts.",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.0,
+                "variable_income_per_person_ppp_usd": 3967.76263,
+                "variable_population": 113683,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_gab",
+              "values": {
+                "variable_country_code": "gab",
+                "variable_country_name": "Gabon",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 68.68,
+                "variable_income_per_person_ppp_usd": 19542.93836,
+                "variable_population": 2593130,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_gbr",
+              "values": {
+                "variable_country_code": "gbr",
+                "variable_country_name": "UK",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 81.93,
+                "variable_income_per_person_ppp_usd": 53993.24847,
+                "variable_population": 69551332,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_geo",
+              "values": {
+                "variable_country_code": "geo",
+                "variable_country_name": "Georgia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.47,
+                "variable_income_per_person_ppp_usd": 27204.56113,
+                "variable_population": 3806671,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_gha",
+              "values": {
+                "variable_country_code": "gha",
+                "variable_country_name": "Ghana",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 67.41,
+                "variable_income_per_person_ppp_usd": 7404.44027,
+                "variable_population": 35064272,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_gin",
+              "values": {
+                "variable_country_code": "gin",
+                "variable_country_name": "Guinea",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 62.46,
+                "variable_income_per_person_ppp_usd": 4320.52378,
+                "variable_population": 15099727,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_gmb",
+              "values": {
+                "variable_country_code": "gmb",
+                "variable_country_name": "Gambia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 68.16,
+                "variable_income_per_person_ppp_usd": 3199.30847,
+                "variable_population": 2822093,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_gnb",
+              "values": {
+                "variable_country_code": "gnb",
+                "variable_country_name": "Guinea-Bissau",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 62.19,
+                "variable_income_per_person_ppp_usd": 2838.37582,
+                "variable_population": 2249515,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_gnq",
+              "values": {
+                "variable_country_code": "gnq",
+                "variable_country_name": "Equatorial Guinea",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 67.05,
+                "variable_income_per_person_ppp_usd": 14767.56593,
+                "variable_population": 1938431,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_grc",
+              "values": {
+                "variable_country_code": "grc",
+                "variable_country_name": "Greece",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.07,
+                "variable_income_per_person_ppp_usd": 39621.40673,
+                "variable_population": 9938844,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_grd",
+              "values": {
+                "variable_country_code": "grd",
+                "variable_country_name": "Grenada",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.25,
+                "variable_income_per_person_ppp_usd": 18821.06954,
+                "variable_population": 117303,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_gtm",
+              "values": {
+                "variable_country_code": "gtm",
+                "variable_country_name": "Guatemala",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 73.63,
+                "variable_income_per_person_ppp_usd": 13328.77649,
+                "variable_population": 18687881,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_guy",
+              "values": {
+                "variable_country_code": "guy",
+                "variable_country_name": "Guyana",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 68.26,
+                "variable_income_per_person_ppp_usd": 79370.52198,
+                "variable_population": 835986,
+                "variable_region": "americas",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_hnd",
+              "values": {
+                "variable_country_code": "hnd",
+                "variable_country_name": "Honduras",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.93,
+                "variable_income_per_person_ppp_usd": 6863.33285,
+                "variable_population": 11005850,
+                "variable_region": "americas",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_hrv",
+              "values": {
+                "variable_country_code": "hrv",
+                "variable_country_name": "Croatia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.65,
+                "variable_income_per_person_ppp_usd": 45156.1289,
+                "variable_population": 3848160,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_hti",
+              "values": {
+                "variable_country_code": "hti",
+                "variable_country_name": "Haiti",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.11,
+                "variable_income_per_person_ppp_usd": 2808.66975,
+                "variable_population": 11906095,
+                "variable_region": "americas",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_hun",
+              "values": {
+                "variable_country_code": "hun",
+                "variable_country_name": "Hungary",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.57,
+                "variable_income_per_person_ppp_usd": 42498.58738,
+                "variable_population": 9632287,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_idn",
+              "values": {
+                "variable_country_code": "idn",
+                "variable_country_name": "Indonesia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.25,
+                "variable_income_per_person_ppp_usd": 15391.06911,
+                "variable_population": 285721236,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_ind",
+              "values": {
+                "variable_country_code": "ind",
+                "variable_country_name": "India",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.4,
+                "variable_income_per_person_ppp_usd": 10607.6231,
+                "variable_population": 1463865525,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_irl",
+              "values": {
+                "variable_country_code": "irl",
+                "variable_country_name": "Ireland",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.94,
+                "variable_income_per_person_ppp_usd": 119406.2256,
+                "variable_population": 5308039,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_irn",
+              "values": {
+                "variable_country_code": "irn",
+                "variable_country_name": "Iran",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.07,
+                "variable_income_per_person_ppp_usd": 16539.72286,
+                "variable_population": 92417681,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_irq",
+              "values": {
+                "variable_country_code": "irq",
+                "variable_country_name": "Iraq",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 73.98,
+                "variable_income_per_person_ppp_usd": 12554.13117,
+                "variable_population": 47020774,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_isl",
+              "values": {
+                "variable_country_code": "isl",
+                "variable_country_name": "Iceland",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 84.92,
+                "variable_income_per_person_ppp_usd": 67443.7438,
+                "variable_population": 398266,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_isr",
+              "values": {
+                "variable_country_code": "isr",
+                "variable_country_name": "Israel",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.86,
+                "variable_income_per_person_ppp_usd": 49539.47269,
+                "variable_population": 9517181,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_ita",
+              "values": {
+                "variable_country_code": "ita",
+                "variable_country_name": "Italy",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 84.04,
+                "variable_income_per_person_ppp_usd": 54773.81941,
+                "variable_population": 59146260,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_jam",
+              "values": {
+                "variable_country_code": "jam",
+                "variable_country_name": "Jamaica",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.18,
+                "variable_income_per_person_ppp_usd": 10741.48565,
+                "variable_population": 2837077,
+                "variable_region": "americas",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_jor",
+              "values": {
+                "variable_country_code": "jor",
+                "variable_country_name": "Jordan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.2,
+                "variable_income_per_person_ppp_usd": 9977.12098,
+                "variable_population": 11520684,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_jpn",
+              "values": {
+                "variable_country_code": "jpn",
+                "variable_country_name": "Japan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 85.58,
+                "variable_income_per_person_ppp_usd": 47815.39888,
+                "variable_population": 123103479,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_kaz",
+              "values": {
+                "variable_country_code": "kaz",
+                "variable_country_name": "Kazakhstan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.65,
+                "variable_income_per_person_ppp_usd": 38237.52103,
+                "variable_population": 20843754,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_ken",
+              "values": {
+                "variable_country_code": "ken",
+                "variable_country_name": "Kenya",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 67.98,
+                "variable_income_per_person_ppp_usd": 6158.76678,
+                "variable_population": 57532493,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_kgz",
+              "values": {
+                "variable_country_code": "kgz",
+                "variable_country_name": "Kyrgyz Republic",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.36,
+                "variable_income_per_person_ppp_usd": 7567.34334,
+                "variable_population": 7295034,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_khm",
+              "values": {
+                "variable_country_code": "khm",
+                "variable_country_name": "Cambodia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 71.02,
+                "variable_income_per_person_ppp_usd": 7412.02083,
+                "variable_population": 17847982,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_kir",
+              "values": {
+                "variable_country_code": "kir",
+                "variable_country_name": "Kiribati",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 61.66,
+                "variable_income_per_person_ppp_usd": 3420.85689,
+                "variable_population": 136488,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_kor",
+              "values": {
+                "variable_country_code": "kor",
+                "variable_country_name": "South Korea",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.63,
+                "variable_income_per_person_ppp_usd": 54667.24252,
+                "variable_population": 51667029,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_kwt",
+              "values": {
+                "variable_country_code": "kwt",
+                "variable_country_name": "Kuwait",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.62,
+                "variable_income_per_person_ppp_usd": 46572.35764,
+                "variable_population": 5026078,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_lao",
+              "values": {
+                "variable_country_code": "lao",
+                "variable_country_name": "Lao",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 70.65,
+                "variable_income_per_person_ppp_usd": 8943.6912,
+                "variable_population": 7873046,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_lbn",
+              "values": {
+                "variable_country_code": "lbn",
+                "variable_country_name": "Lebanon",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.43,
+                "variable_income_per_person_ppp_usd": 10819.79651,
+                "variable_population": 5849421,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_lbr",
+              "values": {
+                "variable_country_code": "lbr",
+                "variable_country_name": "Liberia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 67.61,
+                "variable_income_per_person_ppp_usd": 1751.85031,
+                "variable_population": 5731206,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_lby",
+              "values": {
+                "variable_country_code": "lby",
+                "variable_country_name": "Libya",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.15,
+                "variable_income_per_person_ppp_usd": 14636.39331,
+                "variable_population": 7458555,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_lca",
+              "values": {
+                "variable_country_code": "lca",
+                "variable_country_name": "St. Lucia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.16,
+                "variable_income_per_person_ppp_usd": 25491.65151,
+                "variable_population": 180149,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_lka",
+              "values": {
+                "variable_country_code": "lka",
+                "variable_country_name": "Sri Lanka",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 78.51,
+                "variable_income_per_person_ppp_usd": 14379.8147,
+                "variable_population": 23229470,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_lso",
+              "values": {
+                "variable_country_code": "lso",
+                "variable_country_name": "Lesotho",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 52.82,
+                "variable_income_per_person_ppp_usd": 2716.15309,
+                "variable_population": 2363325,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_ltu",
+              "values": {
+                "variable_country_code": "ltu",
+                "variable_country_name": "Lithuania",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.19,
+                "variable_income_per_person_ppp_usd": 49761.39795,
+                "variable_population": 2830144,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_lux",
+              "values": {
+                "variable_country_code": "lux",
+                "variable_country_name": "Luxembourg",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.82,
+                "variable_income_per_person_ppp_usd": 131037.5237,
+                "variable_population": 680453,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_lva",
+              "values": {
+                "variable_country_code": "lva",
+                "variable_country_name": "Latvia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.67,
+                "variable_income_per_person_ppp_usd": 40852.07026,
+                "variable_population": 1853559,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_mar",
+              "values": {
+                "variable_country_code": "mar",
+                "variable_country_name": "Morocco",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.71,
+                "variable_income_per_person_ppp_usd": 9582.50716,
+                "variable_population": 38430770,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_mda",
+              "values": {
+                "variable_country_code": "mda",
+                "variable_country_name": "Moldova",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.22,
+                "variable_income_per_person_ppp_usd": 17488.86301,
+                "variable_population": 2996106,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_mdg",
+              "values": {
+                "variable_country_code": "mdg",
+                "variable_country_name": "Madagascar",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 67.03,
+                "variable_income_per_person_ppp_usd": 1720.26523,
+                "variable_population": 32740678,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_mdv",
+              "values": {
+                "variable_country_code": "mdv",
+                "variable_country_name": "Maldives",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 80.46,
+                "variable_income_per_person_ppp_usd": 24629.31592,
+                "variable_population": 529676,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_mex",
+              "values": {
+                "variable_country_code": "mex",
+                "variable_country_name": "Mexico",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.88,
+                "variable_income_per_person_ppp_usd": 22374.76858,
+                "variable_population": 131946900,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_mkd",
+              "values": {
+                "variable_country_code": "mkd",
+                "variable_country_name": "North Macedonia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.3,
+                "variable_income_per_person_ppp_usd": 26049.02092,
+                "variable_population": 1813791,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_mli",
+              "values": {
+                "variable_country_code": "mli",
+                "variable_country_name": "Mali",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 63.28,
+                "variable_income_per_person_ppp_usd": 3038.49667,
+                "variable_population": 25198821,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_mlt",
+              "values": {
+                "variable_country_code": "mlt",
+                "variable_country_name": "Malta",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.48,
+                "variable_income_per_person_ppp_usd": 63314.49955,
+                "variable_population": 545405,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_mmr",
+              "values": {
+                "variable_country_code": "mmr",
+                "variable_country_name": "Myanmar",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 70.76,
+                "variable_income_per_person_ppp_usd": 5493.95419,
+                "variable_population": 54850648,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_mne",
+              "values": {
+                "variable_country_code": "mne",
+                "variable_country_name": "Montenegro",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.92,
+                "variable_income_per_person_ppp_usd": 29492.07923,
+                "variable_population": 632729,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_mng",
+              "values": {
+                "variable_country_code": "mng",
+                "variable_country_name": "Mongolia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 69.64,
+                "variable_income_per_person_ppp_usd": 18091.8807,
+                "variable_population": 3517100,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_moz",
+              "values": {
+                "variable_country_code": "moz",
+                "variable_country_name": "Mozambique",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 60.06,
+                "variable_income_per_person_ppp_usd": 1530.91465,
+                "variable_population": 35631653,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_mrt",
+              "values": {
+                "variable_country_code": "mrt",
+                "variable_country_name": "Mauritania",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.25,
+                "variable_income_per_person_ppp_usd": 6709.96294,
+                "variable_population": 5315065,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_mus",
+              "values": {
+                "variable_country_code": "mus",
+                "variable_country_name": "Mauritius",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.35,
+                "variable_income_per_person_ppp_usd": 28927.4972,
+                "variable_population": 1268280,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_mwi",
+              "values": {
+                "variable_country_code": "mwi",
+                "variable_country_name": "Malawi",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.2,
+                "variable_income_per_person_ppp_usd": 1689.43091,
+                "variable_population": 22216120,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_mys",
+              "values": {
+                "variable_country_code": "mys",
+                "variable_country_name": "Malaysia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.03,
+                "variable_income_per_person_ppp_usd": 35989.79488,
+                "variable_population": 35977838,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_nam",
+              "values": {
+                "variable_country_code": "nam",
+                "variable_country_name": "Namibia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.49,
+                "variable_income_per_person_ppp_usd": 10740.46072,
+                "variable_population": 3092816,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_ner",
+              "values": {
+                "variable_country_code": "ner",
+                "variable_country_name": "Niger",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 64.09,
+                "variable_income_per_person_ppp_usd": 1870.05045,
+                "variable_population": 27917831,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_nga",
+              "values": {
+                "variable_country_code": "nga",
+                "variable_country_name": "Nigeria",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.07,
+                "variable_income_per_person_ppp_usd": 5848.08157,
+                "variable_population": 237527782,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_nic",
+              "values": {
+                "variable_country_code": "nic",
+                "variable_country_name": "Nicaragua",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.51,
+                "variable_income_per_person_ppp_usd": 8023.40633,
+                "variable_population": 7007502,
+                "variable_region": "americas",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_nld",
+              "values": {
+                "variable_country_code": "nld",
+                "variable_country_name": "Netherlands",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.55,
+                "variable_income_per_person_ppp_usd": 73384.1408,
+                "variable_population": 18346819,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_nor",
+              "values": {
+                "variable_country_code": "nor",
+                "variable_country_name": "Norway",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.78,
+                "variable_income_per_person_ppp_usd": 94895.85433,
+                "variable_population": 5623071,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_npl",
+              "values": {
+                "variable_country_code": "npl",
+                "variable_country_name": "Nepal",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.9,
+                "variable_income_per_person_ppp_usd": 5329.63699,
+                "variable_population": 29618118,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_nzl",
+              "values": {
+                "variable_country_code": "nzl",
+                "variable_country_name": "New Zealand",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.65,
+                "variable_income_per_person_ppp_usd": 49598.26506,
+                "variable_population": 5251899,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_omn",
+              "values": {
+                "variable_country_code": "omn",
+                "variable_country_name": "Oman",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.28,
+                "variable_income_per_person_ppp_usd": 37310.77532,
+                "variable_population": 5494691,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_pak",
+              "values": {
+                "variable_country_code": "pak",
+                "variable_country_name": "Pakistan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.71,
+                "variable_income_per_person_ppp_usd": 5717.17543,
+                "variable_population": 255219554,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_pan",
+              "values": {
+                "variable_country_code": "pan",
+                "variable_country_name": "Panama",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 81.17,
+                "variable_income_per_person_ppp_usd": 38412.09464,
+                "variable_population": 4571189,
+                "variable_region": "americas",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_per",
+              "values": {
+                "variable_country_code": "per",
+                "variable_country_name": "Peru",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 81.49,
+                "variable_income_per_person_ppp_usd": 16370.68024,
+                "variable_population": 34576665,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_phl",
+              "values": {
+                "variable_country_code": "phl",
+                "variable_country_name": "Philippines",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.47,
+                "variable_income_per_person_ppp_usd": 11116.63775,
+                "variable_population": 116786962,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_png",
+              "values": {
+                "variable_country_code": "png",
+                "variable_country_name": "Papua New Guinea",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.61,
+                "variable_income_per_person_ppp_usd": 4521.77359,
+                "variable_population": 10762817,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_pol",
+              "values": {
+                "variable_country_code": "pol",
+                "variable_country_name": "Poland",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.1,
+                "variable_income_per_person_ppp_usd": 47891.51537,
+                "variable_population": 38140910,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_prk",
+              "values": {
+                "variable_country_code": "prk",
+                "variable_country_name": "North Korea",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 73.91,
+                "variable_income_per_person_ppp_usd": 1542.77448,
+                "variable_population": 26571036,
+                "variable_region": "asia",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_prt",
+              "values": {
+                "variable_country_code": "prt",
+                "variable_country_name": "Portugal",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.79,
+                "variable_income_per_person_ppp_usd": 43664.4989,
+                "variable_population": 10411834,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_pry",
+              "values": {
+                "variable_country_code": "pry",
+                "variable_country_name": "Paraguay",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.36,
+                "variable_income_per_person_ppp_usd": 17153.71862,
+                "variable_population": 7013078,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_pse",
+              "values": {
+                "variable_country_code": "pse",
+                "variable_country_name": "Palestine",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.85,
+                "variable_income_per_person_ppp_usd": 3909.19827,
+                "variable_population": 5589623,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_qat",
+              "values": {
+                "variable_country_code": "qat",
+                "variable_country_name": "Qatar",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 77.31,
+                "variable_income_per_person_ppp_usd": 116057.3359,
+                "variable_population": 3115889,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_rou",
+              "values": {
+                "variable_country_code": "rou",
+                "variable_country_name": "Romania",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.49,
+                "variable_income_per_person_ppp_usd": 42605.11998,
+                "variable_population": 18908650,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_rus",
+              "values": {
+                "variable_country_code": "rus",
+                "variable_country_name": "Russia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 73.89,
+                "variable_income_per_person_ppp_usd": 40870.61672,
+                "variable_population": 143997393,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_rwa",
+              "values": {
+                "variable_country_code": "rwa",
+                "variable_country_name": "Rwanda",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 70.02,
+                "variable_income_per_person_ppp_usd": 3512.30613,
+                "variable_population": 14569341,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_sau",
+              "values": {
+                "variable_country_code": "sau",
+                "variable_country_name": "Saudi Arabia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.66,
+                "variable_income_per_person_ppp_usd": 64965.70305,
+                "variable_population": 34566328,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_sdn",
+              "values": {
+                "variable_country_code": "sdn",
+                "variable_country_name": "Sudan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 71.21,
+                "variable_income_per_person_ppp_usd": 1865.51403,
+                "variable_population": 51662147,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_sen",
+              "values": {
+                "variable_country_code": "sen",
+                "variable_country_name": "Senegal",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 70.43,
+                "variable_income_per_person_ppp_usd": 4871.28026,
+                "variable_population": 18931966,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_sgp",
+              "values": {
+                "variable_country_code": "sgp",
+                "variable_country_name": "Singapore",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 85.63,
+                "variable_income_per_person_ppp_usd": 137905.9791,
+                "variable_population": 5870750,
+                "variable_region": "asia",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_slb",
+              "values": {
+                "variable_country_code": "slb",
+                "variable_country_name": "Solomon Islands",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 59.8,
+                "variable_income_per_person_ppp_usd": 2615.32949,
+                "variable_population": 838645,
+                "variable_region": "asia",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_sle",
+              "values": {
+                "variable_country_code": "sle",
+                "variable_country_name": "Sierra Leone",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 63.01,
+                "variable_income_per_person_ppp_usd": 3255.82436,
+                "variable_population": 8819794,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_slv",
+              "values": {
+                "variable_country_code": "slv",
+                "variable_country_name": "El Salvador",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.98,
+                "variable_income_per_person_ppp_usd": 12221.09674,
+                "variable_population": 6365503,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_som",
+              "values": {
+                "variable_country_code": "som",
+                "variable_country_name": "Somalia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 59.86,
+                "variable_income_per_person_ppp_usd": 1462.56236,
+                "variable_population": 19654739,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_srb",
+              "values": {
+                "variable_country_code": "srb",
+                "variable_country_name": "Serbia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.66,
+                "variable_income_per_person_ppp_usd": 28758.37917,
+                "variable_population": 6689039,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_ssd",
+              "values": {
+                "variable_country_code": "ssd",
+                "variable_country_name": "South Sudan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.36,
+                "variable_income_per_person_ppp_usd": 716.249,
+                "variable_population": 12188788,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_stp",
+              "values": {
+                "variable_country_code": "stp",
+                "variable_country_name": "Sao Tome and Principe",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 71.51,
+                "variable_income_per_person_ppp_usd": 5681.95489,
+                "variable_population": 240254,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_sur",
+              "values": {
+                "variable_country_code": "sur",
+                "variable_country_name": "Suriname",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 73.51,
+                "variable_income_per_person_ppp_usd": 20256.66324,
+                "variable_population": 639850,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_svk",
+              "values": {
+                "variable_country_code": "svk",
+                "variable_country_name": "Slovak Republic",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 78.58,
+                "variable_income_per_person_ppp_usd": 41977.51553,
+                "variable_population": 5474881,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_svn",
+              "values": {
+                "variable_country_code": "svn",
+                "variable_country_name": "Slovenia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 82.45,
+                "variable_income_per_person_ppp_usd": 50558.74404,
+                "variable_population": 2117072,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_swe",
+              "values": {
+                "variable_country_code": "swe",
+                "variable_country_name": "Sweden",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 83.72,
+                "variable_income_per_person_ppp_usd": 65596.66352,
+                "variable_population": 10656633,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_swz",
+              "values": {
+                "variable_country_code": "swz",
+                "variable_country_name": "Eswatini",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 59.5,
+                "variable_income_per_person_ppp_usd": 11069.57117,
+                "variable_population": 1256174,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_syc",
+              "values": {
+                "variable_country_code": "syc",
+                "variable_country_name": "Seychelles",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.8,
+                "variable_income_per_person_ppp_usd": 30802.63006,
+                "variable_population": 132779,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_syr",
+              "values": {
+                "variable_country_code": "syr",
+                "variable_country_name": "Syria",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.84,
+                "variable_income_per_person_ppp_usd": 4085.72011,
+                "variable_population": 25620427,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_tcd",
+              "values": {
+                "variable_country_code": "tcd",
+                "variable_country_name": "Chad",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 61.58,
+                "variable_income_per_person_ppp_usd": 2645.81191,
+                "variable_population": 21003705,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_tgo",
+              "values": {
+                "variable_country_code": "tgo",
+                "variable_country_name": "Togo",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.47,
+                "variable_income_per_person_ppp_usd": 3007.55596,
+                "variable_population": 9721608,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_tha",
+              "values": {
+                "variable_country_code": "tha",
+                "variable_country_name": "Thailand",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.78,
+                "variable_income_per_person_ppp_usd": 22695.94668,
+                "variable_population": 71619863,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_tjk",
+              "values": {
+                "variable_country_code": "tjk",
+                "variable_country_name": "Tajikistan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 70.4,
+                "variable_income_per_person_ppp_usd": 5122.38472,
+                "variable_population": 10786734,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_tkm",
+              "values": {
+                "variable_country_code": "tkm",
+                "variable_country_name": "Turkmenistan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 71.64,
+                "variable_income_per_person_ppp_usd": 18623.63459,
+                "variable_population": 7618847,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_tls",
+              "values": {
+                "variable_country_code": "tls",
+                "variable_country_name": "Timor-Leste",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 72.18,
+                "variable_income_per_person_ppp_usd": 4352.93562,
+                "variable_population": 1418517,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_ton",
+              "values": {
+                "variable_country_code": "ton",
+                "variable_country_name": "Tonga",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 73.81,
+                "variable_income_per_person_ppp_usd": 7839.22918,
+                "variable_population": 103742,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_tto",
+              "values": {
+                "variable_country_code": "tto",
+                "variable_country_name": "Trinidad and Tobago",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.85,
+                "variable_income_per_person_ppp_usd": 33144.88032,
+                "variable_population": 1511155,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_tun",
+              "values": {
+                "variable_country_code": "tun",
+                "variable_country_name": "Tunisia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.15,
+                "variable_income_per_person_ppp_usd": 13135.58265,
+                "variable_population": 12348573,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_tur",
+              "values": {
+                "variable_country_code": "tur",
+                "variable_country_name": "Turkey",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.66,
+                "variable_income_per_person_ppp_usd": 36992.96579,
+                "variable_population": 87685426,
+                "variable_region": "europe",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_tza",
+              "values": {
+                "variable_country_code": "tza",
+                "variable_country_name": "Tanzania",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 68.59,
+                "variable_income_per_person_ppp_usd": 3924.40183,
+                "variable_population": 70545865,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_uga",
+              "values": {
+                "variable_country_code": "uga",
+                "variable_country_name": "Uganda",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 67.55,
+                "variable_income_per_person_ppp_usd": 3047.99489,
+                "variable_population": 51384894,
+                "variable_region": "africa",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_ukr",
+              "values": {
+                "variable_country_code": "ukr",
+                "variable_country_name": "Ukraine",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 74.89,
+                "variable_income_per_person_ppp_usd": 15014.25715,
+                "variable_population": 38980376,
+                "variable_region": "europe",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_ury",
+              "values": {
+                "variable_country_code": "ury",
+                "variable_country_name": "Uruguay",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 78.5,
+                "variable_income_per_person_ppp_usd": 33757.56245,
+                "variable_population": 3384688,
+                "variable_region": "americas",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_usa",
+              "values": {
+                "variable_country_code": "usa",
+                "variable_country_name": "USA",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 79.83,
+                "variable_income_per_person_ppp_usd": 78388.58461,
+                "variable_population": 347275807,
+                "variable_region": "americas",
+                "variable_income_level": "Level 4"
+              }
+            },
+            {
+              "mark_id": "row_uzb",
+              "values": {
+                "variable_country_code": "uzb",
+                "variable_country_name": "Uzbekistan",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 69.07,
+                "variable_income_per_person_ppp_usd": 11127.00974,
+                "variable_population": 37053428,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_ven",
+              "values": {
+                "variable_country_code": "ven",
+                "variable_country_name": "Venezuela",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 76.18,
+                "variable_income_per_person_ppp_usd": 8899.072,
+                "variable_population": 28516896,
+                "variable_region": "americas",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_vnm",
+              "values": {
+                "variable_country_code": "vnm",
+                "variable_country_name": "Vietnam",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 75.44,
+                "variable_income_per_person_ppp_usd": 15429.33526,
+                "variable_population": 101598527,
+                "variable_region": "asia",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_vut",
+              "values": {
+                "variable_country_code": "vut",
+                "variable_country_name": "Vanuatu",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 66.58,
+                "variable_income_per_person_ppp_usd": 3188.80002,
+                "variable_population": 335169,
+                "variable_region": "asia",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_wsm",
+              "values": {
+                "variable_country_code": "wsm",
+                "variable_country_name": "Samoa",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 71.36,
+                "variable_income_per_person_ppp_usd": 7412.51789,
+                "variable_population": 219306,
+                "variable_region": "asia",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_yem",
+              "values": {
+                "variable_country_code": "yem",
+                "variable_country_name": "Yemen",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 69.27,
+                "variable_income_per_person_ppp_usd": 1721.89143,
+                "variable_population": 41773878,
+                "variable_region": "asia",
+                "variable_income_level": "Level 1"
+              }
+            },
+            {
+              "mark_id": "row_zaf",
+              "values": {
+                "variable_country_code": "zaf",
+                "variable_country_name": "South Africa",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 65.95,
+                "variable_income_per_person_ppp_usd": 13889.23888,
+                "variable_population": 64747319,
+                "variable_region": "africa",
+                "variable_income_level": "Level 3"
+              }
+            },
+            {
+              "mark_id": "row_zmb",
+              "values": {
+                "variable_country_code": "zmb",
+                "variable_country_name": "Zambia",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 64.26,
+                "variable_income_per_person_ppp_usd": 3944.46383,
+                "variable_population": 21913874,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            },
+            {
+              "mark_id": "row_zwe",
+              "values": {
+                "variable_country_code": "zwe",
+                "variable_country_name": "Zimbabwe",
+                "variable_year": 2025,
+                "variable_life_expectancy_years": 61.97,
+                "variable_income_per_person_ppp_usd": 3675.57058,
+                "variable_population": 16950795,
+                "variable_region": "africa",
+                "variable_income_level": "Level 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composition": []
+}

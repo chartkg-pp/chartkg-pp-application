@@ -1,0 +1,72 @@
+{
+  "status": "completed",
+  "pipeline": "native",
+  "engine": "echarts",
+  "generationId": "58528121e7d1427cbb7e697970e87213",
+  "sourceId": "gapminder",
+  "input": "Gapminder_world_health_chart_2025.csv",
+  "generatedAt": "2026-09-19T08:30:38.270882+00:00",
+  "iterations": 2,
+  "bestIteration": 2,
+  "qualityScore": 1,
+  "extraction": {
+    "contract_ref": "readable-kg:v2",
+    "source_run_id": "csv-932a780549f44ac78697f9eb6caaf50e",
+    "entity_count": 195,
+    "relation_count": 1647,
+    "context_entity_types": [
+      "Complex_Chart",
+      "Data_Variable",
+      "Graphical_Mark",
+      "Graphical_Mark_Group",
+      "Variable_Value",
+      "View",
+      "Visual_Attribute",
+      "Visual_Attribute_Value"
+    ],
+    "mark_count": 182,
+    "assigned_mark_count": 182,
+    "unassigned_marks": [],
+    "unresolved_variable_value_refs": [],
+    "group_coverage": {
+      "csv_group": {
+        "mark_count": 182,
+        "expected_encoded_variables": [
+          "variable_country_code",
+          "variable_income_per_person_ppp_usd",
+          "variable_life_expectancy_years",
+          "variable_population",
+          "variable_year"
+        ],
+        "observed_value_counts": {
+          "variable_country_code": 182,
+          "variable_income_per_person_ppp_usd": 182,
+          "variable_life_expectancy_years": 182,
+          "variable_population": 182,
+          "variable_year": 182
+        },
+        "missing_value_counts": {}
+      }
+    },
+    "derived_ternary_record_count": 0,
+    "mark_property_value_backfill_count": 0,
+    "source_format": "csv",
+    "row_count": 182,
+    "column_count": 8,
+    "numeric_columns": [
+      "year",
+      "life_expectancy_years",
+      "income_per_person_ppp_usd",
+      "population"
+    ]
+  },
+  "evaluation": {
+    "overall": 1,
+    "dataCoverage": 1,
+    "renderQuality": 1,
+    "readability": 1,
+    "seriesCount": 1,
+    "dataItemCount": 182,
+    "warnings": []
+  }
+}

@@ -1,0 +1,1946 @@
+{
+  "caseId": "countries-health-wealth",
+  "sourceProject": "ChartKG++GraphRAG",
+  "revisionId": "construction-kg-revision:0f9d7653eb1cb840880d",
+  "examples": [
+    {
+      "id": "countries-health-wealth-example-1",
+      "question": "What is the relationship between Income and Lifespan?",
+      "origin": "backend/tests/test_analysis.py",
+      "suggested": true,
+      "turn": {
+        "answer": "Across the observed marks, Income and Lifespan follow a curved nonlinear relationship that flattens at higher Income levels. [G12]",
+        "citationIds": [
+          "G12"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "Lifespan",
+            "Income"
+          ],
+          "communityIds": [
+            "community:1:ExtremumComparison",
+            "community:2:ExtremumComparison_2",
+            "community:3:ExtremumComparison_3",
+            "community:20:point_group_bas_all",
+            "community:16:point_group_bas_INCOME_LEVEL_1",
+            "community:7:ExtremumComparison_7"
+          ],
+          "expandedEntityIds": [
+            "Lifespan",
+            "Income",
+            "point_135",
+            "point_group_bas_Africa",
+            "Correlation_11",
+            "point_118",
+            "point_group_bas_all",
+            "Correlation_22",
+            "insight_Correlation_38",
+            "Correlation_23",
+            "point_110",
+            "point_group_bas_INCOME_LEVEL_1",
+            "Correlation_18",
+            "insight_Correlation_34",
+            "insight_Correlation_27",
+            "insight_Correlation_39",
+            "point_59",
+            "point_group_bas_LEVEL_2",
+            "Correlation_19",
+            "point_106",
+            "point_group_bas_Americas",
+            "Correlation_13",
+            "insight_Correlation_29",
+            "point_39",
+            "point_group_bas_LEVEL_4",
+            "Correlation_21",
+            "point_38",
+            "point_group_bas_LEVEL_3",
+            "Correlation_20",
+            "point_12",
+            "point_group_bas_Europe",
+            "Correlation_16",
+            "insight_Correlation_32",
+            "point_group_bas_Asia_and_Oceania",
+            "Correlation_15",
+            "insight_Correlation_35",
+            "Similarity",
+            "insight_Correlation_37",
+            "insight_Correlation_36",
+            "insight_Correlation_31",
+            "Similarity_4"
+          ],
+          "relationIds": [
+            "relation:421:VALUE_OF:point_135:Income",
+            "relation:1123:CONTAINS:point_group_bas_Africa:point_135",
+            "relation:1051:HAS_SCOPE:Correlation_11:point_group_bas_Africa",
+            "relation:334:VALUE_OF:point_118:Income",
+            "relation:1459:CONTAINS:point_group_bas_all:point_118",
+            "relation:1062:HAS_SCOPE:Correlation_22:point_group_bas_all",
+            "relation:1620:DERIVED_FROM:insight_Correlation_38:Correlation_22",
+            "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all",
+            "relation:295:VALUE_OF:point_110:Income",
+            "relation:1272:CONTAINS:point_group_bas_INCOME_LEVEL_1:point_110",
+            "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1",
+            "relation:1616:DERIVED_FROM:insight_Correlation_34:Correlation_18",
+            "relation:1609:DERIVED_FROM:insight_Correlation_27:Correlation_11",
+            "relation:1621:DERIVED_FROM:insight_Correlation_39:Correlation_23",
+            "relation:834:VALUE_OF:point_59:Income",
+            "relation:1334:CONTAINS:point_group_bas_LEVEL_2:point_59",
+            "relation:1059:HAS_SCOPE:Correlation_19:point_group_bas_LEVEL_2",
+            "relation:271:VALUE_OF:point_106:Income",
+            "relation:1164:CONTAINS:point_group_bas_Americas:point_106",
+            "relation:1053:HAS_SCOPE:Correlation_13:point_group_bas_Americas",
+            "relation:1611:DERIVED_FROM:insight_Correlation_29:Correlation_13",
+            "relation:728:VALUE_OF:point_39:Income",
+            "relation:1414:CONTAINS:point_group_bas_LEVEL_4:point_39",
+            "relation:1061:HAS_SCOPE:Correlation_21:point_group_bas_LEVEL_4",
+            "relation:725:VALUE_OF:point_38:Income",
+            "relation:1362:CONTAINS:point_group_bas_LEVEL_3:point_38",
+            "relation:1060:HAS_SCOPE:Correlation_20:point_group_bas_LEVEL_3",
+            "relation:343:VALUE_OF:point_12:Income",
+            "relation:1235:CONTAINS:point_group_bas_Europe:point_12",
+            "relation:1056:HAS_SCOPE:Correlation_16:point_group_bas_Europe",
+            "relation:1614:DERIVED_FROM:insight_Correlation_32:Correlation_16",
+            "relation:1194:CONTAINS:point_group_bas_Asia_and_Oceania:point_118",
+            "relation:1055:HAS_SCOPE:Correlation_15:point_group_bas_Asia_and_Oceania",
+            "relation:1617:DERIVED_FROM:insight_Correlation_35:Correlation_19",
+            "relation:21:COMPOSED_OF:Similarity:Correlation_19",
+            "relation:1619:DERIVED_FROM:insight_Correlation_37:Correlation_21",
+            "relation:23:COMPOSED_OF:Similarity:Correlation_21",
+            "relation:1618:DERIVED_FROM:insight_Correlation_36:Correlation_20",
+            "relation:22:COMPOSED_OF:Similarity:Correlation_20",
+            "relation:1613:DERIVED_FROM:insight_Correlation_31:Correlation_15",
+            "relation:33:COMPOSED_OF:Similarity_4:Correlation_15"
+          ],
+          "paths": [
+            {
+              "source": "Income",
+              "target": "Correlation_11",
+              "nodeIds": [
+                "Income",
+                "point_135",
+                "point_group_bas_Africa",
+                "Correlation_11"
+              ],
+              "relationIds": [
+                "relation:421:VALUE_OF:point_135:Income",
+                "relation:1123:CONTAINS:point_group_bas_Africa:point_135",
+                "relation:1051:HAS_SCOPE:Correlation_11:point_group_bas_Africa"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_135",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_135",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Africa",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Africa",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_11",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_38",
+              "nodeIds": [
+                "Income",
+                "point_118",
+                "point_group_bas_all",
+                "Correlation_22",
+                "insight_Correlation_38"
+              ],
+              "relationIds": [
+                "relation:334:VALUE_OF:point_118:Income",
+                "relation:1459:CONTAINS:point_group_bas_all:point_118",
+                "relation:1062:HAS_SCOPE:Correlation_22:point_group_bas_all",
+                "relation:1620:DERIVED_FROM:insight_Correlation_38:Correlation_22"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_118",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_118",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_all",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_22",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_22",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_38",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_23",
+              "nodeIds": [
+                "Income",
+                "point_118",
+                "point_group_bas_all",
+                "Correlation_23"
+              ],
+              "relationIds": [
+                "relation:334:VALUE_OF:point_118:Income",
+                "relation:1459:CONTAINS:point_group_bas_all:point_118",
+                "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_118",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_118",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_all",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_23",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_34",
+              "nodeIds": [
+                "Income",
+                "point_110",
+                "point_group_bas_INCOME_LEVEL_1",
+                "Correlation_18",
+                "insight_Correlation_34"
+              ],
+              "relationIds": [
+                "relation:295:VALUE_OF:point_110:Income",
+                "relation:1272:CONTAINS:point_group_bas_INCOME_LEVEL_1:point_110",
+                "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1",
+                "relation:1616:DERIVED_FROM:insight_Correlation_34:Correlation_18"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_110",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_110",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_INCOME_LEVEL_1",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_INCOME_LEVEL_1",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_18",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_18",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_34",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_27",
+              "nodeIds": [
+                "Income",
+                "point_135",
+                "point_group_bas_Africa",
+                "Correlation_11",
+                "insight_Correlation_27"
+              ],
+              "relationIds": [
+                "relation:421:VALUE_OF:point_135:Income",
+                "relation:1123:CONTAINS:point_group_bas_Africa:point_135",
+                "relation:1051:HAS_SCOPE:Correlation_11:point_group_bas_Africa",
+                "relation:1609:DERIVED_FROM:insight_Correlation_27:Correlation_11"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_135",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_135",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Africa",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Africa",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_11",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_11",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_27",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_39",
+              "nodeIds": [
+                "Income",
+                "point_118",
+                "point_group_bas_all",
+                "Correlation_23",
+                "insight_Correlation_39"
+              ],
+              "relationIds": [
+                "relation:334:VALUE_OF:point_118:Income",
+                "relation:1459:CONTAINS:point_group_bas_all:point_118",
+                "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all",
+                "relation:1621:DERIVED_FROM:insight_Correlation_39:Correlation_23"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_118",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_118",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_all",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_23",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_23",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_39",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_19",
+              "nodeIds": [
+                "Income",
+                "point_59",
+                "point_group_bas_LEVEL_2",
+                "Correlation_19"
+              ],
+              "relationIds": [
+                "relation:834:VALUE_OF:point_59:Income",
+                "relation:1334:CONTAINS:point_group_bas_LEVEL_2:point_59",
+                "relation:1059:HAS_SCOPE:Correlation_19:point_group_bas_LEVEL_2"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_59",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_59",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_LEVEL_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_LEVEL_2",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_19",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_29",
+              "nodeIds": [
+                "Income",
+                "point_106",
+                "point_group_bas_Americas",
+                "Correlation_13",
+                "insight_Correlation_29"
+              ],
+              "relationIds": [
+                "relation:271:VALUE_OF:point_106:Income",
+                "relation:1164:CONTAINS:point_group_bas_Americas:point_106",
+                "relation:1053:HAS_SCOPE:Correlation_13:point_group_bas_Americas",
+                "relation:1611:DERIVED_FROM:insight_Correlation_29:Correlation_13"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_106",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_106",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Americas",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Americas",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_13",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_13",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_29",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_21",
+              "nodeIds": [
+                "Income",
+                "point_39",
+                "point_group_bas_LEVEL_4",
+                "Correlation_21"
+              ],
+              "relationIds": [
+                "relation:728:VALUE_OF:point_39:Income",
+                "relation:1414:CONTAINS:point_group_bas_LEVEL_4:point_39",
+                "relation:1061:HAS_SCOPE:Correlation_21:point_group_bas_LEVEL_4"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_39",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_39",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_LEVEL_4",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_LEVEL_4",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_21",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_20",
+              "nodeIds": [
+                "Income",
+                "point_38",
+                "point_group_bas_LEVEL_3",
+                "Correlation_20"
+              ],
+              "relationIds": [
+                "relation:725:VALUE_OF:point_38:Income",
+                "relation:1362:CONTAINS:point_group_bas_LEVEL_3:point_38",
+                "relation:1060:HAS_SCOPE:Correlation_20:point_group_bas_LEVEL_3"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_38",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_38",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_LEVEL_3",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_LEVEL_3",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_20",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_32",
+              "nodeIds": [
+                "Income",
+                "point_12",
+                "point_group_bas_Europe",
+                "Correlation_16",
+                "insight_Correlation_32"
+              ],
+              "relationIds": [
+                "relation:343:VALUE_OF:point_12:Income",
+                "relation:1235:CONTAINS:point_group_bas_Europe:point_12",
+                "relation:1056:HAS_SCOPE:Correlation_16:point_group_bas_Europe",
+                "relation:1614:DERIVED_FROM:insight_Correlation_32:Correlation_16"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_12",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_12",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Europe",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Europe",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_16",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_16",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_32",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_15",
+              "nodeIds": [
+                "Income",
+                "point_118",
+                "point_group_bas_Asia_and_Oceania",
+                "Correlation_15"
+              ],
+              "relationIds": [
+                "relation:334:VALUE_OF:point_118:Income",
+                "relation:1194:CONTAINS:point_group_bas_Asia_and_Oceania:point_118",
+                "relation:1055:HAS_SCOPE:Correlation_15:point_group_bas_Asia_and_Oceania"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_118",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_118",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Asia_and_Oceania",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Asia_and_Oceania",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_15",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "Correlation_11",
+              "type": "Basic_Pattern",
+              "score": 0.813901,
+              "lexicalScore": 19.318764,
+              "distance": 2.907536,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Correlation_38",
+              "type": "Insight",
+              "score": 0.76816,
+              "lexicalScore": 15.300032,
+              "distance": 3.43083,
+              "hops": 4
+            },
+            {
+              "entityId": "Correlation_23",
+              "type": "Basic_Pattern",
+              "score": 0.708412,
+              "lexicalScore": 15.666234,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Correlation_34",
+              "type": "Insight",
+              "score": 0.664402,
+              "lexicalScore": 10.532398,
+              "distance": 3.481093,
+              "hops": 4
+            },
+            {
+              "entityId": "insight_Correlation_27",
+              "type": "Insight",
+              "score": 0.650134,
+              "lexicalScore": 15.37842,
+              "distance": 3.457536,
+              "hops": 4
+            },
+            {
+              "entityId": "insight_Correlation_39",
+              "type": "Insight",
+              "score": 0.649936,
+              "lexicalScore": 11.221578,
+              "distance": 3.43083,
+              "hops": 4
+            },
+            {
+              "entityId": "Correlation_19",
+              "type": "Basic_Pattern",
+              "score": 0.635892,
+              "lexicalScore": 13.164481,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Correlation_29",
+              "type": "Insight",
+              "score": 0.629909,
+              "lexicalScore": 14.680678,
+              "distance": 3.457536,
+              "hops": 4
+            },
+            {
+              "entityId": "Correlation_21",
+              "type": "Basic_Pattern",
+              "score": 0.629871,
+              "lexicalScore": 12.956751,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "Correlation_20",
+              "type": "Basic_Pattern",
+              "score": 0.629031,
+              "lexicalScore": 12.927765,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Correlation_32",
+              "type": "Insight",
+              "score": 0.596891,
+              "lexicalScore": 13.541645,
+              "distance": 3.457536,
+              "hops": 4
+            },
+            {
+              "entityId": "Correlation_15",
+              "type": "Basic_Pattern",
+              "score": 0.573909,
+              "lexicalScore": 11.026172,
+              "distance": 2.88083,
+              "hops": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "countries-health-wealth-example-2",
+      "question": "Give an overview of the main findings.",
+      "origin": "backend/tests/test_analysis.py",
+      "suggested": true,
+      "turn": {
+        "answer": "Across the observed marks, Income and Lifespan follow a curved nonlinear relationship that flattens at higher Income levels. Income and Lifespan show a strong positive association across the observed countries, with higher Income generally corresponding to longer Lifespan. The observed marks form an elongated continuous band extending from lower-left to upper-right across the coordinate space defined by Income (GDP per capita, $ per year, price adjusted) and Lifespan (years). [G12] [G13] [G32]",
+        "citationIds": [
+          "G12",
+          "G13",
+          "G32"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-global",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [],
+          "communityIds": [
+            "community:7:ExtremumComparison_7",
+            "community:20:point_group_bas_all",
+            "community:3:ExtremumComparison_3",
+            "community:6:ExtremumComparison_6",
+            "community:5:ExtremumComparison_5",
+            "community:10:Similarity_3"
+          ],
+          "expandedEntityIds": [
+            "point_group_bas_all",
+            "Correlation_22",
+            "insight_Correlation_38",
+            "Correlation_23",
+            "insight_Correlation_39",
+            "Distribution_36",
+            "insight_Distribution_42",
+            "ExtremumComparison_5",
+            "Extreme_68",
+            "ExtremumComparison_6",
+            "Extreme_69",
+            "ExtremumComparison_3",
+            "Extreme_71",
+            "Similarity_3",
+            "Distribution_20",
+            "ExtremumComparison_7",
+            "insight_ExtremumComparison_3",
+            "Extreme_59",
+            "Extreme_61",
+            "Extreme_67",
+            "Extreme_50",
+            "Extreme_51",
+            "Extreme_56",
+            "insight_ExtremumComparison_5",
+            "Extreme_49",
+            "Extreme_52",
+            "Extreme_55",
+            "insight_ExtremumComparison_6",
+            "insight_ExtremumComparison_7",
+            "Extreme_46",
+            "Extreme_48",
+            "Extreme_53",
+            "Extreme_54",
+            "insight_Similarity_3",
+            "Distribution_21",
+            "Distribution_23",
+            "Distribution_24",
+            "insight_Extreme_137",
+            "insight_Extreme_138",
+            "ExtremumComparison",
+            "insight_Extreme_140",
+            "insight_Distribution_26"
+          ],
+          "relationIds": [
+            "relation:1062:HAS_SCOPE:Correlation_22:point_group_bas_all",
+            "relation:1620:DERIVED_FROM:insight_Correlation_38:Correlation_22",
+            "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all",
+            "relation:1621:DERIVED_FROM:insight_Correlation_39:Correlation_23",
+            "relation:1082:HAS_SCOPE:Distribution_36:point_group_bas_all",
+            "relation:1640:DERIVED_FROM:insight_Distribution_42:Distribution_36",
+            "relation:1679:INFERRED_FROM:Extreme_68:ExtremumComparison_5",
+            "relation:1681:INFERRED_FROM:Extreme_69:ExtremumComparison_6",
+            "relation:1683:INFERRED_FROM:Extreme_71:ExtremumComparison_3",
+            "relation:27:COMPOSED_OF:Similarity_3:Distribution_20",
+            "relation:1670:DERIVED_FROM:insight_ExtremumComparison_3:ExtremumComparison_3",
+            "relation:5:COMPOSED_OF:ExtremumComparison_3:Extreme_59",
+            "relation:6:COMPOSED_OF:ExtremumComparison_3:Extreme_61",
+            "relation:7:COMPOSED_OF:ExtremumComparison_3:Extreme_67",
+            "relation:10:COMPOSED_OF:ExtremumComparison_5:Extreme_50",
+            "relation:11:COMPOSED_OF:ExtremumComparison_5:Extreme_51",
+            "relation:12:COMPOSED_OF:ExtremumComparison_5:Extreme_56",
+            "relation:1672:DERIVED_FROM:insight_ExtremumComparison_5:ExtremumComparison_5",
+            "relation:13:COMPOSED_OF:ExtremumComparison_6:Extreme_49",
+            "relation:14:COMPOSED_OF:ExtremumComparison_6:Extreme_52",
+            "relation:15:COMPOSED_OF:ExtremumComparison_6:Extreme_55",
+            "relation:1673:DERIVED_FROM:insight_ExtremumComparison_6:ExtremumComparison_6",
+            "relation:1674:DERIVED_FROM:insight_ExtremumComparison_7:ExtremumComparison_7",
+            "relation:1684:INFERRED_FROM:Extreme_71:ExtremumComparison_7",
+            "relation:16:COMPOSED_OF:ExtremumComparison_7:Extreme_46",
+            "relation:17:COMPOSED_OF:ExtremumComparison_7:Extreme_48",
+            "relation:18:COMPOSED_OF:ExtremumComparison_7:Extreme_53",
+            "relation:19:COMPOSED_OF:ExtremumComparison_7:Extreme_54",
+            "relation:1677:DERIVED_FROM:insight_Similarity_3:Similarity_3",
+            "relation:28:COMPOSED_OF:Similarity_3:Distribution_21",
+            "relation:29:COMPOSED_OF:Similarity_3:Distribution_23",
+            "relation:30:COMPOSED_OF:Similarity_3:Distribution_24",
+            "relation:1664:DERIVED_FROM:insight_Extreme_137:Extreme_68",
+            "relation:1665:DERIVED_FROM:insight_Extreme_138:Extreme_69",
+            "relation:1680:INFERRED_FROM:Extreme_69:ExtremumComparison",
+            "relation:1667:DERIVED_FROM:insight_Extreme_140:Extreme_71",
+            "relation:1624:DERIVED_FROM:insight_Distribution_26:Distribution_20"
+          ],
+          "paths": [
+            {
+              "source": "point_group_bas_all",
+              "target": "insight_Correlation_38",
+              "nodeIds": [
+                "point_group_bas_all",
+                "Correlation_22",
+                "insight_Correlation_38"
+              ],
+              "relationIds": [
+                "relation:1062:HAS_SCOPE:Correlation_22:point_group_bas_all",
+                "relation:1620:DERIVED_FROM:insight_Correlation_38:Correlation_22"
+              ],
+              "hops": [
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_22",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_22",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_38",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "point_group_bas_all",
+              "target": "insight_Correlation_39",
+              "nodeIds": [
+                "point_group_bas_all",
+                "Correlation_23",
+                "insight_Correlation_39"
+              ],
+              "relationIds": [
+                "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all",
+                "relation:1621:DERIVED_FROM:insight_Correlation_39:Correlation_23"
+              ],
+              "hops": [
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_23",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_23",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_39",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "point_group_bas_all",
+              "target": "insight_Distribution_42",
+              "nodeIds": [
+                "point_group_bas_all",
+                "Distribution_36",
+                "insight_Distribution_42"
+              ],
+              "relationIds": [
+                "relation:1082:HAS_SCOPE:Distribution_36:point_group_bas_all",
+                "relation:1640:DERIVED_FROM:insight_Distribution_42:Distribution_36"
+              ],
+              "hops": [
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Distribution_36",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Distribution_36",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Distribution_42",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "ExtremumComparison_5",
+              "target": "Extreme_68",
+              "nodeIds": [
+                "ExtremumComparison_5",
+                "Extreme_68"
+              ],
+              "relationIds": [
+                "relation:1679:INFERRED_FROM:Extreme_68:ExtremumComparison_5"
+              ],
+              "hops": [
+                {
+                  "from": "ExtremumComparison_5",
+                  "relation": "INFERRED_FROM",
+                  "to": "Extreme_68",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "ExtremumComparison_6",
+              "target": "Extreme_69",
+              "nodeIds": [
+                "ExtremumComparison_6",
+                "Extreme_69"
+              ],
+              "relationIds": [
+                "relation:1681:INFERRED_FROM:Extreme_69:ExtremumComparison_6"
+              ],
+              "hops": [
+                {
+                  "from": "ExtremumComparison_6",
+                  "relation": "INFERRED_FROM",
+                  "to": "Extreme_69",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "ExtremumComparison_3",
+              "target": "Extreme_71",
+              "nodeIds": [
+                "ExtremumComparison_3",
+                "Extreme_71"
+              ],
+              "relationIds": [
+                "relation:1683:INFERRED_FROM:Extreme_71:ExtremumComparison_3"
+              ],
+              "hops": [
+                {
+                  "from": "ExtremumComparison_3",
+                  "relation": "INFERRED_FROM",
+                  "to": "Extreme_71",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity_3",
+              "target": "Distribution_20",
+              "nodeIds": [
+                "Similarity_3",
+                "Distribution_20"
+              ],
+              "relationIds": [
+                "relation:27:COMPOSED_OF:Similarity_3:Distribution_20"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity_3",
+                  "relation": "COMPOSED_OF",
+                  "to": "Distribution_20",
+                  "direction": "forward"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "ExtremumComparison_3",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "ExtremumComparison_5",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "ExtremumComparison_6",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "ExtremumComparison_7",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "Similarity_3",
+              "type": "Relational_Pattern",
+              "score": 0.4288,
+              "lexicalScore": 0.0,
+              "distance": 0.0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Correlation_38",
+              "type": "Insight",
+              "score": 0.372778,
+              "lexicalScore": 0.0,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Correlation_39",
+              "type": "Insight",
+              "score": 0.372778,
+              "lexicalScore": 0.0,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Distribution_42",
+              "type": "Insight",
+              "score": 0.372778,
+              "lexicalScore": 0.0,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "Extreme_68",
+              "type": "Basic_Pattern",
+              "score": 0.336841,
+              "lexicalScore": 0.0,
+              "distance": 0.58,
+              "hops": 1
+            },
+            {
+              "entityId": "Extreme_69",
+              "type": "Basic_Pattern",
+              "score": 0.336841,
+              "lexicalScore": 0.0,
+              "distance": 0.58,
+              "hops": 1
+            },
+            {
+              "entityId": "Extreme_71",
+              "type": "Basic_Pattern",
+              "score": 0.336841,
+              "lexicalScore": 0.0,
+              "distance": 0.58,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution_20",
+              "type": "Basic_Pattern",
+              "score": 0.333402,
+              "lexicalScore": 0.0,
+              "distance": 0.62,
+              "hops": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "countries-health-wealth-example-3",
+      "question": "What does the knowledge graph show about cartesian point?",
+      "origin": "analysis.suggestedQuestions",
+      "suggested": true,
+      "turn": {
+        "answer": "Americas countries form an elongated band rising from low income and lifespan to high income and lifespan across the Cartesian plane. [G98]",
+        "citationIds": [
+          "G98"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "bubblechart"
+          ],
+          "communityIds": [
+            "community:15:point_group_bas_Europe",
+            "community:19:point_group_bas_LEVEL_4",
+            "community:16:point_group_bas_INCOME_LEVEL_1",
+            "community:17:point_group_bas_LEVEL_2",
+            "community:18:point_group_bas_LEVEL_3",
+            "community:3:ExtremumComparison_3"
+          ],
+          "expandedEntityIds": [
+            "bubblechart",
+            "Distribution_21",
+            "Extreme_64",
+            "Extreme_65",
+            "Extreme_60",
+            "Distribution_34",
+            "Extreme_56",
+            "Distribution_32",
+            "Extreme_63",
+            "Extreme_66",
+            "Extreme_67",
+            "Distribution_28",
+            "Extreme_55",
+            "insight_Distribution_27",
+            "Similarity_3",
+            "insight_Extreme_133",
+            "insight_Extreme_134",
+            "ExtremumComparison",
+            "insight_Extreme_129",
+            "insight_Distribution_40",
+            "Similarity_2",
+            "ExtremumComparison_5",
+            "insight_Extreme_125",
+            "insight_Distribution_38",
+            "insight_Extreme_132",
+            "ExtremumComparison_2",
+            "insight_Extreme_135",
+            "ExtremumComparison_4",
+            "insight_Extreme_136",
+            "ExtremumComparison_3",
+            "insight_Distribution_34",
+            "ExtremumComparison_6",
+            "insight_Extreme_124"
+          ],
+          "relationIds": [
+            "relation:1625:DERIVED_FROM:insight_Distribution_27:Distribution_21",
+            "relation:28:COMPOSED_OF:Similarity_3:Distribution_21",
+            "relation:1660:DERIVED_FROM:insight_Extreme_133:Extreme_64",
+            "relation:1661:DERIVED_FROM:insight_Extreme_134:Extreme_65",
+            "relation:2:COMPOSED_OF:ExtremumComparison:Extreme_65",
+            "relation:1656:DERIVED_FROM:insight_Extreme_129:Extreme_60",
+            "relation:1:COMPOSED_OF:ExtremumComparison:Extreme_60",
+            "relation:1638:DERIVED_FROM:insight_Distribution_40:Distribution_34",
+            "relation:26:COMPOSED_OF:Similarity_2:Distribution_34",
+            "relation:12:COMPOSED_OF:ExtremumComparison_5:Extreme_56",
+            "relation:1652:DERIVED_FROM:insight_Extreme_125:Extreme_56",
+            "relation:1636:DERIVED_FROM:insight_Distribution_38:Distribution_32",
+            "relation:25:COMPOSED_OF:Similarity_2:Distribution_32",
+            "relation:1659:DERIVED_FROM:insight_Extreme_132:Extreme_63",
+            "relation:4:COMPOSED_OF:ExtremumComparison_2:Extreme_63",
+            "relation:1662:DERIVED_FROM:insight_Extreme_135:Extreme_66",
+            "relation:9:COMPOSED_OF:ExtremumComparison_4:Extreme_66",
+            "relation:1663:DERIVED_FROM:insight_Extreme_136:Extreme_67",
+            "relation:7:COMPOSED_OF:ExtremumComparison_3:Extreme_67",
+            "relation:1632:DERIVED_FROM:insight_Distribution_34:Distribution_28",
+            "relation:24:COMPOSED_OF:Similarity_2:Distribution_28",
+            "relation:15:COMPOSED_OF:ExtremumComparison_6:Extreme_55",
+            "relation:1651:DERIVED_FROM:insight_Extreme_124:Extreme_55"
+          ],
+          "paths": [],
+          "rankedEvidence": [
+            {
+              "entityId": "Distribution_21",
+              "type": "Basic_Pattern",
+              "score": 0.294904,
+              "lexicalScore": 3.523157,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_64",
+              "type": "Basic_Pattern",
+              "score": 0.223124,
+              "lexicalScore": 0.924179,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_65",
+              "type": "Basic_Pattern",
+              "score": 0.223124,
+              "lexicalScore": 0.924179,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_60",
+              "type": "Basic_Pattern",
+              "score": 0.222709,
+              "lexicalScore": 0.909145,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Distribution_34",
+              "type": "Basic_Pattern",
+              "score": 0.222621,
+              "lexicalScore": 0.905955,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_56",
+              "type": "Basic_Pattern",
+              "score": 0.222621,
+              "lexicalScore": 0.905955,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Distribution_32",
+              "type": "Basic_Pattern",
+              "score": 0.222137,
+              "lexicalScore": 0.888437,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_63",
+              "type": "Basic_Pattern",
+              "score": 0.222137,
+              "lexicalScore": 0.888437,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_66",
+              "type": "Basic_Pattern",
+              "score": 0.222137,
+              "lexicalScore": 0.888437,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_67",
+              "type": "Basic_Pattern",
+              "score": 0.222137,
+              "lexicalScore": 0.888437,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Distribution_28",
+              "type": "Basic_Pattern",
+              "score": 0.221672,
+              "lexicalScore": 0.871583,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "Extreme_55",
+              "type": "Basic_Pattern",
+              "score": 0.221672,
+              "lexicalScore": 0.871583,
+              "distance": null,
+              "hops": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "countries-health-wealth-example-4",
+      "question": "quantum chromodynamics boson spectroscopy",
+      "origin": "backend/tests/test_analysis.py",
+      "suggested": true,
+      "turn": {
+        "answer": "The supplied knowledge graph does not contain enough matching evidence to answer this question.",
+        "citationIds": [],
+        "status": "abstained",
+        "generationMode": "abstained",
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [],
+          "communityIds": [],
+          "expandedEntityIds": [],
+          "relationIds": [],
+          "paths": [],
+          "rankedEvidence": []
+        }
+      }
+    },
+    {
+      "id": "countries-health-wealth-example-5",
+      "question": "How are Income and Lifespan related?",
+      "origin": "backend/tests/test_analysis.py",
+      "suggested": false,
+      "turn": {
+        "answer": "Across the observed marks, Income and Lifespan follow a curved nonlinear relationship that flattens at higher Income levels. [G12]",
+        "citationIds": [
+          "G12"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "deterministic",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "Lifespan",
+            "Income"
+          ],
+          "communityIds": [
+            "community:1:ExtremumComparison",
+            "community:2:ExtremumComparison_2",
+            "community:3:ExtremumComparison_3",
+            "community:20:point_group_bas_all",
+            "community:16:point_group_bas_INCOME_LEVEL_1",
+            "community:19:point_group_bas_LEVEL_4"
+          ],
+          "expandedEntityIds": [
+            "Lifespan",
+            "Income",
+            "point_118",
+            "point_group_bas_all",
+            "Correlation_22",
+            "insight_Correlation_38",
+            "Correlation_23",
+            "point_135",
+            "point_group_bas_Africa",
+            "Correlation_11",
+            "point_110",
+            "point_group_bas_INCOME_LEVEL_1",
+            "Correlation_18",
+            "insight_Correlation_34",
+            "insight_Correlation_39",
+            "point_106",
+            "point_group_bas_Americas",
+            "Correlation_13",
+            "insight_Correlation_29",
+            "point_59",
+            "point_group_bas_LEVEL_2",
+            "Correlation_19",
+            "point_39",
+            "point_group_bas_LEVEL_4",
+            "Correlation_21",
+            "point_38",
+            "point_group_bas_LEVEL_3",
+            "Correlation_20",
+            "insight_Correlation_27",
+            "Similarity",
+            "insight_Correlation_35",
+            "insight_Correlation_37",
+            "insight_Correlation_36",
+            "insight_Similarity_1"
+          ],
+          "relationIds": [
+            "relation:334:VALUE_OF:point_118:Income",
+            "relation:1459:CONTAINS:point_group_bas_all:point_118",
+            "relation:1062:HAS_SCOPE:Correlation_22:point_group_bas_all",
+            "relation:1620:DERIVED_FROM:insight_Correlation_38:Correlation_22",
+            "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all",
+            "relation:421:VALUE_OF:point_135:Income",
+            "relation:1123:CONTAINS:point_group_bas_Africa:point_135",
+            "relation:1051:HAS_SCOPE:Correlation_11:point_group_bas_Africa",
+            "relation:295:VALUE_OF:point_110:Income",
+            "relation:1272:CONTAINS:point_group_bas_INCOME_LEVEL_1:point_110",
+            "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1",
+            "relation:1616:DERIVED_FROM:insight_Correlation_34:Correlation_18",
+            "relation:1621:DERIVED_FROM:insight_Correlation_39:Correlation_23",
+            "relation:271:VALUE_OF:point_106:Income",
+            "relation:1164:CONTAINS:point_group_bas_Americas:point_106",
+            "relation:1053:HAS_SCOPE:Correlation_13:point_group_bas_Americas",
+            "relation:1611:DERIVED_FROM:insight_Correlation_29:Correlation_13",
+            "relation:834:VALUE_OF:point_59:Income",
+            "relation:1334:CONTAINS:point_group_bas_LEVEL_2:point_59",
+            "relation:1059:HAS_SCOPE:Correlation_19:point_group_bas_LEVEL_2",
+            "relation:728:VALUE_OF:point_39:Income",
+            "relation:1414:CONTAINS:point_group_bas_LEVEL_4:point_39",
+            "relation:1061:HAS_SCOPE:Correlation_21:point_group_bas_LEVEL_4",
+            "relation:725:VALUE_OF:point_38:Income",
+            "relation:1362:CONTAINS:point_group_bas_LEVEL_3:point_38",
+            "relation:1060:HAS_SCOPE:Correlation_20:point_group_bas_LEVEL_3",
+            "relation:1609:DERIVED_FROM:insight_Correlation_27:Correlation_11",
+            "relation:21:COMPOSED_OF:Similarity:Correlation_19",
+            "relation:20:COMPOSED_OF:Similarity:Correlation_18",
+            "relation:1617:DERIVED_FROM:insight_Correlation_35:Correlation_19",
+            "relation:1619:DERIVED_FROM:insight_Correlation_37:Correlation_21",
+            "relation:23:COMPOSED_OF:Similarity:Correlation_21",
+            "relation:1618:DERIVED_FROM:insight_Correlation_36:Correlation_20",
+            "relation:22:COMPOSED_OF:Similarity:Correlation_20",
+            "relation:1675:DERIVED_FROM:insight_Similarity_1:Similarity"
+          ],
+          "paths": [
+            {
+              "source": "Income",
+              "target": "insight_Correlation_38",
+              "nodeIds": [
+                "Income",
+                "point_118",
+                "point_group_bas_all",
+                "Correlation_22",
+                "insight_Correlation_38"
+              ],
+              "relationIds": [
+                "relation:334:VALUE_OF:point_118:Income",
+                "relation:1459:CONTAINS:point_group_bas_all:point_118",
+                "relation:1062:HAS_SCOPE:Correlation_22:point_group_bas_all",
+                "relation:1620:DERIVED_FROM:insight_Correlation_38:Correlation_22"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_118",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_118",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_all",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_22",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_22",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_38",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_23",
+              "nodeIds": [
+                "Income",
+                "point_118",
+                "point_group_bas_all",
+                "Correlation_23"
+              ],
+              "relationIds": [
+                "relation:334:VALUE_OF:point_118:Income",
+                "relation:1459:CONTAINS:point_group_bas_all:point_118",
+                "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_118",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_118",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_all",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_23",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_11",
+              "nodeIds": [
+                "Income",
+                "point_135",
+                "point_group_bas_Africa",
+                "Correlation_11"
+              ],
+              "relationIds": [
+                "relation:421:VALUE_OF:point_135:Income",
+                "relation:1123:CONTAINS:point_group_bas_Africa:point_135",
+                "relation:1051:HAS_SCOPE:Correlation_11:point_group_bas_Africa"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_135",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_135",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Africa",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Africa",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_11",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_34",
+              "nodeIds": [
+                "Income",
+                "point_110",
+                "point_group_bas_INCOME_LEVEL_1",
+                "Correlation_18",
+                "insight_Correlation_34"
+              ],
+              "relationIds": [
+                "relation:295:VALUE_OF:point_110:Income",
+                "relation:1272:CONTAINS:point_group_bas_INCOME_LEVEL_1:point_110",
+                "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1",
+                "relation:1616:DERIVED_FROM:insight_Correlation_34:Correlation_18"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_110",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_110",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_INCOME_LEVEL_1",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_INCOME_LEVEL_1",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_18",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_18",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_34",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_39",
+              "nodeIds": [
+                "Income",
+                "point_118",
+                "point_group_bas_all",
+                "Correlation_23",
+                "insight_Correlation_39"
+              ],
+              "relationIds": [
+                "relation:334:VALUE_OF:point_118:Income",
+                "relation:1459:CONTAINS:point_group_bas_all:point_118",
+                "relation:1063:HAS_SCOPE:Correlation_23:point_group_bas_all",
+                "relation:1621:DERIVED_FROM:insight_Correlation_39:Correlation_23"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_118",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_118",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_all",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_all",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_23",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_23",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_39",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_29",
+              "nodeIds": [
+                "Income",
+                "point_106",
+                "point_group_bas_Americas",
+                "Correlation_13",
+                "insight_Correlation_29"
+              ],
+              "relationIds": [
+                "relation:271:VALUE_OF:point_106:Income",
+                "relation:1164:CONTAINS:point_group_bas_Americas:point_106",
+                "relation:1053:HAS_SCOPE:Correlation_13:point_group_bas_Americas",
+                "relation:1611:DERIVED_FROM:insight_Correlation_29:Correlation_13"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_106",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_106",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Americas",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Americas",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_13",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_13",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_29",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_18",
+              "nodeIds": [
+                "Income",
+                "point_110",
+                "point_group_bas_INCOME_LEVEL_1",
+                "Correlation_18"
+              ],
+              "relationIds": [
+                "relation:295:VALUE_OF:point_110:Income",
+                "relation:1272:CONTAINS:point_group_bas_INCOME_LEVEL_1:point_110",
+                "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_110",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_110",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_INCOME_LEVEL_1",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_INCOME_LEVEL_1",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_18",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_19",
+              "nodeIds": [
+                "Income",
+                "point_59",
+                "point_group_bas_LEVEL_2",
+                "Correlation_19"
+              ],
+              "relationIds": [
+                "relation:834:VALUE_OF:point_59:Income",
+                "relation:1334:CONTAINS:point_group_bas_LEVEL_2:point_59",
+                "relation:1059:HAS_SCOPE:Correlation_19:point_group_bas_LEVEL_2"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_59",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_59",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_LEVEL_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_LEVEL_2",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_19",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_21",
+              "nodeIds": [
+                "Income",
+                "point_39",
+                "point_group_bas_LEVEL_4",
+                "Correlation_21"
+              ],
+              "relationIds": [
+                "relation:728:VALUE_OF:point_39:Income",
+                "relation:1414:CONTAINS:point_group_bas_LEVEL_4:point_39",
+                "relation:1061:HAS_SCOPE:Correlation_21:point_group_bas_LEVEL_4"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_39",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_39",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_LEVEL_4",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_LEVEL_4",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_21",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Correlation_20",
+              "nodeIds": [
+                "Income",
+                "point_38",
+                "point_group_bas_LEVEL_3",
+                "Correlation_20"
+              ],
+              "relationIds": [
+                "relation:725:VALUE_OF:point_38:Income",
+                "relation:1362:CONTAINS:point_group_bas_LEVEL_3:point_38",
+                "relation:1060:HAS_SCOPE:Correlation_20:point_group_bas_LEVEL_3"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_38",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_38",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_LEVEL_3",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_LEVEL_3",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_20",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "insight_Correlation_27",
+              "nodeIds": [
+                "Income",
+                "point_135",
+                "point_group_bas_Africa",
+                "Correlation_11",
+                "insight_Correlation_27"
+              ],
+              "relationIds": [
+                "relation:421:VALUE_OF:point_135:Income",
+                "relation:1123:CONTAINS:point_group_bas_Africa:point_135",
+                "relation:1051:HAS_SCOPE:Correlation_11:point_group_bas_Africa",
+                "relation:1609:DERIVED_FROM:insight_Correlation_27:Correlation_11"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_135",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_135",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_Africa",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_Africa",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_11",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_11",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Correlation_27",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Income",
+              "target": "Similarity",
+              "nodeIds": [
+                "Income",
+                "point_59",
+                "point_group_bas_LEVEL_2",
+                "Correlation_19",
+                "Similarity"
+              ],
+              "relationIds": [
+                "relation:834:VALUE_OF:point_59:Income",
+                "relation:1334:CONTAINS:point_group_bas_LEVEL_2:point_59",
+                "relation:1059:HAS_SCOPE:Correlation_19:point_group_bas_LEVEL_2",
+                "relation:21:COMPOSED_OF:Similarity:Correlation_19"
+              ],
+              "hops": [
+                {
+                  "from": "Income",
+                  "relation": "VALUE_OF",
+                  "to": "point_59",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_59",
+                  "relation": "CONTAINS",
+                  "to": "point_group_bas_LEVEL_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "point_group_bas_LEVEL_2",
+                  "relation": "HAS_SCOPE",
+                  "to": "Correlation_19",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Correlation_19",
+                  "relation": "COMPOSED_OF",
+                  "to": "Similarity",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Correlation_38",
+              "type": "Insight",
+              "score": 0.806812,
+              "lexicalScore": 20.994993,
+              "distance": 3.43083,
+              "hops": 4
+            },
+            {
+              "entityId": "Correlation_23",
+              "type": "Basic_Pattern",
+              "score": 0.761588,
+              "lexicalScore": 22.089679,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "Correlation_11",
+              "type": "Basic_Pattern",
+              "score": 0.733901,
+              "lexicalScore": 24.384454,
+              "distance": 2.907536,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Correlation_34",
+              "type": "Insight",
+              "score": 0.69217,
+              "lexicalScore": 14.503287,
+              "distance": 3.481093,
+              "hops": 4
+            },
+            {
+              "entityId": "insight_Correlation_39",
+              "type": "Insight",
+              "score": 0.691966,
+              "lexicalScore": 15.994187,
+              "distance": 3.43083,
+              "hops": 4
+            },
+            {
+              "entityId": "insight_Correlation_29",
+              "type": "Insight",
+              "score": 0.589608,
+              "lexicalScore": 20.258858,
+              "distance": 3.457536,
+              "hops": 4
+            },
+            {
+              "entityId": "Correlation_18",
+              "type": "Basic_Pattern",
+              "score": 0.588644,
+              "lexicalScore": 14.590625,
+              "distance": 2.931093,
+              "hops": 3
+            },
+            {
+              "entityId": "Correlation_19",
+              "type": "Basic_Pattern",
+              "score": 0.586991,
+              "lexicalScore": 14.487083,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "Correlation_21",
+              "type": "Basic_Pattern",
+              "score": 0.582369,
+              "lexicalScore": 14.285805,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "Correlation_20",
+              "type": "Basic_Pattern",
+              "score": 0.581899,
+              "lexicalScore": 14.265336,
+              "distance": 2.88083,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Correlation_27",
+              "type": "Insight",
+              "score": 0.577137,
+              "lexicalScore": 19.715793,
+              "distance": 3.457536,
+              "hops": 4
+            },
+            {
+              "entityId": "Similarity",
+              "type": "Relational_Pattern",
+              "score": 0.554905,
+              "lexicalScore": 12.942255,
+              "distance": 3.50083,
+              "hops": 4
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

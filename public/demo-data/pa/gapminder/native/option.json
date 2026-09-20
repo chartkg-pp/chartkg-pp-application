@@ -1,0 +1,2360 @@
+{
+  "animation": false,
+  "title": {
+    "text": "Gapminder_world_health_chart_2025",
+    "subtext": "year: 2025",
+    "left": "3%",
+    "top": "2%",
+    "textStyle": {
+      "fontSize": 20,
+      "fontWeight": 600
+    },
+    "subtextStyle": {
+      "fontSize": 12
+    }
+  },
+  "grid": {
+    "left": "7%",
+    "right": "12%",
+    "top": "16%",
+    "bottom": "12%",
+    "containLabel": true
+  },
+  "tooltip": {
+    "trigger": "item",
+    "confine": true
+  },
+  "visualMap": [
+    {
+      "type": "piecewise",
+      "dimension": 6,
+      "seriesIndex": 0,
+      "orient": "horizontal",
+      "left": "center",
+      "top": "7%",
+      "selectedMode": false,
+      "pieces": [
+        {
+          "value": "africa",
+          "label": "africa",
+          "color": "#D55E00"
+        },
+        {
+          "value": "americas",
+          "label": "americas",
+          "color": "#009E73"
+        },
+        {
+          "value": "asia",
+          "label": "asia",
+          "color": "#0072B2"
+        },
+        {
+          "value": "europe",
+          "label": "europe",
+          "color": "#CC79A7"
+        }
+      ]
+    },
+    {
+      "type": "continuous",
+      "dimension": 2,
+      "seriesIndex": 0,
+      "min": 103742,
+      "max": 1463865525,
+      "left": "89%",
+      "top": "22%",
+      "bottom": "17%",
+      "orient": "vertical",
+      "calculable": false,
+      "text": [
+        "population",
+        ""
+      ],
+      "inRange": {
+        "symbolSize": [
+          6,
+          42
+        ]
+      },
+      "textStyle": {
+        "fontSize": 11
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "log",
+    "name": "income_per_person_ppp_usd",
+    "nameLocation": "middle",
+    "nameGap": 34,
+    "min": 500,
+    "max": 160000,
+    "axisLine": {
+      "lineStyle": {
+        "color": "#777"
+      }
+    },
+    "axisLabel": {
+      "color": "#555"
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#e8e8e8"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "life_expectancy_years",
+    "nameLocation": "middle",
+    "nameGap": 48,
+    "min": 50,
+    "max": 88,
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#777"
+      }
+    },
+    "axisLabel": {
+      "color": "#555"
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#e8e8e8"
+      }
+    }
+  },
+  "series": [
+    {
+      "name": "countries",
+      "type": "scatter",
+      "dimensions": [
+        "income_per_person_ppp_usd",
+        "life_expectancy_years",
+        "population",
+        "country_code",
+        "income_level",
+        "year",
+        "region"
+      ],
+      "encode": {
+        "x": "income_per_person_ppp_usd",
+        "y": "life_expectancy_years",
+        "tooltip": [
+          "country_code",
+          "income_per_person_ppp_usd",
+          "life_expectancy_years",
+          "population",
+          "income_level",
+          "year",
+          "region"
+        ]
+      },
+      "label": {
+        "show": false
+      },
+      "emphasis": {
+        "focus": "self",
+        "scale": 1.35,
+        "itemStyle": {
+          "borderColor": "#222",
+          "borderWidth": 1
+        }
+      },
+      "itemStyle": {
+        "opacity": 0.74,
+        "borderColor": "#ffffff",
+        "borderWidth": 0.7
+      },
+      "data": [
+        {
+          "name": "Afghanistan",
+          "value": [
+            2092.54588,
+            65.11,
+            43844111,
+            "afg",
+            "Level 1",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Angola",
+          "value": [
+            7457.17479,
+            66.3,
+            39040039,
+            "ago",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Albania",
+          "value": [
+            20361.79277,
+            79.67,
+            2771508,
+            "alb",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "UAE",
+          "value": [
+            72660.14487,
+            74.94,
+            11346000,
+            "are",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Argentina",
+          "value": [
+            28467.05855,
+            77.6,
+            45851378,
+            "arg",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Armenia",
+          "value": [
+            21539.01147,
+            76.87,
+            2952365,
+            "arm",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Australia",
+          "value": [
+            61942.61476,
+            83.79,
+            26974026,
+            "aus",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Austria",
+          "value": [
+            64665.01876,
+            83.17,
+            9113574,
+            "aut",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Azerbaijan",
+          "value": [
+            23177.53343,
+            71.73,
+            10397713,
+            "aze",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Burundi",
+          "value": [
+            848.37448,
+            64.95,
+            14390003,
+            "bdi",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Belgium",
+          "value": [
+            65096.12262,
+            82.33,
+            11758603,
+            "bel",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Benin",
+          "value": [
+            4143.14163,
+            65.71,
+            14814460,
+            "ben",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Burkina Faso",
+          "value": [
+            2661.1876,
+            62.97,
+            24074580,
+            "bfa",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Bangladesh",
+          "value": [
+            8950.44644,
+            76.33,
+            175686899,
+            "bgd",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Bulgaria",
+          "value": [
+            36210.72816,
+            74.33,
+            6714560,
+            "bgr",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Bahrain",
+          "value": [
+            60839.23381,
+            77.98,
+            1643332,
+            "bhr",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Bahamas",
+          "value": [
+            37464.41295,
+            77.04,
+            403033,
+            "bhs",
+            "Level 4",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "value": [
+            21620.74836,
+            77.91,
+            3140095,
+            "bih",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Belarus",
+          "value": [
+            28456.77856,
+            75.21,
+            8997603,
+            "blr",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Belize",
+          "value": [
+            13847.69431,
+            75.49,
+            422924,
+            "blz",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Bolivia",
+          "value": [
+            10089.6259,
+            73.47,
+            12581843,
+            "bol",
+            "Level 2",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Brazil",
+          "value": [
+            20500.23168,
+            77.09,
+            212812405,
+            "bra",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Barbados",
+          "value": [
+            21036.46289,
+            77.1,
+            282623,
+            "brb",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Brunei",
+          "value": [
+            82692.81626,
+            74.36,
+            466330,
+            "brn",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Bhutan",
+          "value": [
+            16920.9576,
+            74.82,
+            796682,
+            "btn",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Botswana",
+          "value": [
+            18189.03301,
+            63.08,
+            2562122,
+            "bwa",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Central African Republic",
+          "value": [
+            1135.80389,
+            53.6,
+            5513282,
+            "caf",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Canada",
+          "value": [
+            58422.42505,
+            83.15,
+            40126723,
+            "can",
+            "Level 4",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Switzerland",
+          "value": [
+            84310.9311,
+            84.85,
+            8967407,
+            "che",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Chile",
+          "value": [
+            31425.36958,
+            81.39,
+            19859921,
+            "chl",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "China",
+          "value": [
+            25504.91715,
+            78.81,
+            1416096094,
+            "chn",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Cote d'Ivoire",
+          "value": [
+            7143.2159,
+            65.53,
+            32711547,
+            "civ",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Cameroon",
+          "value": [
+            5107.23253,
+            64.52,
+            29879337,
+            "cmr",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Congo, Dem. Rep.",
+          "value": [
+            1565.63762,
+            66.25,
+            112832473,
+            "cod",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Congo, Rep.",
+          "value": [
+            6377.20603,
+            66.38,
+            6484437,
+            "cog",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Colombia",
+          "value": [
+            19301.99344,
+            81.37,
+            53425635,
+            "col",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Comoros",
+          "value": [
+            3717.61456,
+            70.26,
+            882847,
+            "com",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Cape Verde",
+          "value": [
+            10625.35184,
+            75.05,
+            527326,
+            "cpv",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Costa Rica",
+          "value": [
+            28390.39988,
+            81.33,
+            5152950,
+            "cri",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Cuba",
+          "value": [
+            15295.86616,
+            79.75,
+            10937203,
+            "cub",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Cyprus",
+          "value": [
+            55720.00354,
+            81.77,
+            1370754,
+            "cyp",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Czech Republic",
+          "value": [
+            50179.53386,
+            80.33,
+            10609239,
+            "cze",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Germany",
+          "value": [
+            64355.00745,
+            82.13,
+            84075075,
+            "deu",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Djibouti",
+          "value": [
+            7352.87525,
+            68.33,
+            1184076,
+            "dji",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Denmark",
+          "value": [
+            77336.97179,
+            82.02,
+            6002507,
+            "dnk",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Dominican Republic",
+          "value": [
+            25662.87388,
+            74.35,
+            11520487,
+            "dom",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Algeria",
+          "value": [
+            16189.46985,
+            77.47,
+            47435312,
+            "dza",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Ecuador",
+          "value": [
+            14442.50999,
+            77.51,
+            18289896,
+            "ecu",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Egypt",
+          "value": [
+            17541.37397,
+            71.97,
+            118365995,
+            "egy",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Eritrea",
+          "value": [
+            2441.67773,
+            65.42,
+            3607003,
+            "eri",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Spain",
+          "value": [
+            50242.02774,
+            83.87,
+            47889958,
+            "esp",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Estonia",
+          "value": [
+            42892.09544,
+            79.01,
+            1344232,
+            "est",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Ethiopia",
+          "value": [
+            3106.93422,
+            70.68,
+            135472051,
+            "eth",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Finland",
+          "value": [
+            57574.23612,
+            82.84,
+            5623329,
+            "fin",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Fiji",
+          "value": [
+            14765.58232,
+            69.21,
+            933154,
+            "fji",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "France",
+          "value": [
+            56112.81238,
+            83.77,
+            66650804,
+            "fra",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Micronesia, Fed. Sts.",
+          "value": [
+            3967.76263,
+            65,
+            113683,
+            "fsm",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Gabon",
+          "value": [
+            19542.93836,
+            68.68,
+            2593130,
+            "gab",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "UK",
+          "value": [
+            53993.24847,
+            81.93,
+            69551332,
+            "gbr",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Georgia",
+          "value": [
+            27204.56113,
+            74.47,
+            3806671,
+            "geo",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Ghana",
+          "value": [
+            7404.44027,
+            67.41,
+            35064272,
+            "gha",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Guinea",
+          "value": [
+            4320.52378,
+            62.46,
+            15099727,
+            "gin",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Gambia",
+          "value": [
+            3199.30847,
+            68.16,
+            2822093,
+            "gmb",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Guinea-Bissau",
+          "value": [
+            2838.37582,
+            62.19,
+            2249515,
+            "gnb",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Equatorial Guinea",
+          "value": [
+            14767.56593,
+            67.05,
+            1938431,
+            "gnq",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Greece",
+          "value": [
+            39621.40673,
+            82.07,
+            9938844,
+            "grc",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "value": [
+            18821.06954,
+            74.25,
+            117303,
+            "grd",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Guatemala",
+          "value": [
+            13328.77649,
+            73.63,
+            18687881,
+            "gtm",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Guyana",
+          "value": [
+            79370.52198,
+            68.26,
+            835986,
+            "guy",
+            "Level 4",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Honduras",
+          "value": [
+            6863.33285,
+            72.93,
+            11005850,
+            "hnd",
+            "Level 2",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Croatia",
+          "value": [
+            45156.1289,
+            79.65,
+            3848160,
+            "hrv",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Haiti",
+          "value": [
+            2808.66975,
+            65.11,
+            11906095,
+            "hti",
+            "Level 1",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Hungary",
+          "value": [
+            42498.58738,
+            77.57,
+            9632287,
+            "hun",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Indonesia",
+          "value": [
+            15391.06911,
+            72.25,
+            285721236,
+            "idn",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "India",
+          "value": [
+            10607.6231,
+            72.4,
+            1463865525,
+            "ind",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Ireland",
+          "value": [
+            119406.2256,
+            82.94,
+            5308039,
+            "irl",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Iran",
+          "value": [
+            16539.72286,
+            79.07,
+            92417681,
+            "irn",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Iraq",
+          "value": [
+            12554.13117,
+            73.98,
+            47020774,
+            "irq",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Iceland",
+          "value": [
+            67443.7438,
+            84.92,
+            398266,
+            "isl",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Israel",
+          "value": [
+            49539.47269,
+            83.86,
+            9517181,
+            "isr",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Italy",
+          "value": [
+            54773.81941,
+            84.04,
+            59146260,
+            "ita",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Jamaica",
+          "value": [
+            10741.48565,
+            77.18,
+            2837077,
+            "jam",
+            "Level 2",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Jordan",
+          "value": [
+            9977.12098,
+            79.2,
+            11520684,
+            "jor",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Japan",
+          "value": [
+            47815.39888,
+            85.58,
+            123103479,
+            "jpn",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Kazakhstan",
+          "value": [
+            38237.52103,
+            72.65,
+            20843754,
+            "kaz",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Kenya",
+          "value": [
+            6158.76678,
+            67.98,
+            57532493,
+            "ken",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Kyrgyz Republic",
+          "value": [
+            7567.34334,
+            74.36,
+            7295034,
+            "kgz",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Cambodia",
+          "value": [
+            7412.02083,
+            71.02,
+            17847982,
+            "khm",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Kiribati",
+          "value": [
+            3420.85689,
+            61.66,
+            136488,
+            "kir",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "South Korea",
+          "value": [
+            54667.24252,
+            83.63,
+            51667029,
+            "kor",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Kuwait",
+          "value": [
+            46572.35764,
+            82.62,
+            5026078,
+            "kwt",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Lao",
+          "value": [
+            8943.6912,
+            70.65,
+            7873046,
+            "lao",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Lebanon",
+          "value": [
+            10819.79651,
+            77.43,
+            5849421,
+            "lbn",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Liberia",
+          "value": [
+            1751.85031,
+            67.61,
+            5731206,
+            "lbr",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Libya",
+          "value": [
+            14636.39331,
+            77.15,
+            7458555,
+            "lby",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "St. Lucia",
+          "value": [
+            25491.65151,
+            76.16,
+            180149,
+            "lca",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Sri Lanka",
+          "value": [
+            14379.8147,
+            78.51,
+            23229470,
+            "lka",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Lesotho",
+          "value": [
+            2716.15309,
+            52.82,
+            2363325,
+            "lso",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Lithuania",
+          "value": [
+            49761.39795,
+            77.19,
+            2830144,
+            "ltu",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Luxembourg",
+          "value": [
+            131037.5237,
+            83.82,
+            680453,
+            "lux",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Latvia",
+          "value": [
+            40852.07026,
+            76.67,
+            1853559,
+            "lva",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Morocco",
+          "value": [
+            9582.50716,
+            74.71,
+            38430770,
+            "mar",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Moldova",
+          "value": [
+            17488.86301,
+            75.22,
+            2996106,
+            "mda",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Madagascar",
+          "value": [
+            1720.26523,
+            67.03,
+            32740678,
+            "mdg",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Maldives",
+          "value": [
+            24629.31592,
+            80.46,
+            529676,
+            "mdv",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Mexico",
+          "value": [
+            22374.76858,
+            76.88,
+            131946900,
+            "mex",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "North Macedonia",
+          "value": [
+            26049.02092,
+            75.3,
+            1813791,
+            "mkd",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Mali",
+          "value": [
+            3038.49667,
+            63.28,
+            25198821,
+            "mli",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Malta",
+          "value": [
+            63314.49955,
+            83.48,
+            545405,
+            "mlt",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Myanmar",
+          "value": [
+            5493.95419,
+            70.76,
+            54850648,
+            "mmr",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Montenegro",
+          "value": [
+            29492.07923,
+            76.92,
+            632729,
+            "mne",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Mongolia",
+          "value": [
+            18091.8807,
+            69.64,
+            3517100,
+            "mng",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Mozambique",
+          "value": [
+            1530.91465,
+            60.06,
+            35631653,
+            "moz",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Mauritania",
+          "value": [
+            6709.96294,
+            72.25,
+            5315065,
+            "mrt",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Mauritius",
+          "value": [
+            28927.4972,
+            76.35,
+            1268280,
+            "mus",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Malawi",
+          "value": [
+            1689.43091,
+            66.2,
+            22216120,
+            "mwi",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Malaysia",
+          "value": [
+            35989.79488,
+            76.03,
+            35977838,
+            "mys",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Namibia",
+          "value": [
+            10740.46072,
+            66.49,
+            3092816,
+            "nam",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Niger",
+          "value": [
+            1870.05045,
+            64.09,
+            27917831,
+            "ner",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Nigeria",
+          "value": [
+            5848.08157,
+            66.07,
+            237527782,
+            "nga",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Nicaragua",
+          "value": [
+            8023.40633,
+            76.51,
+            7007502,
+            "nic",
+            "Level 2",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "value": [
+            73384.1408,
+            82.55,
+            18346819,
+            "nld",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Norway",
+          "value": [
+            94895.85433,
+            83.78,
+            5623071,
+            "nor",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Nepal",
+          "value": [
+            5329.63699,
+            72.9,
+            29618118,
+            "npl",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "New Zealand",
+          "value": [
+            49598.26506,
+            82.65,
+            5251899,
+            "nzl",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Oman",
+          "value": [
+            37310.77532,
+            75.28,
+            5494691,
+            "omn",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Pakistan",
+          "value": [
+            5717.17543,
+            66.71,
+            255219554,
+            "pak",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Panama",
+          "value": [
+            38412.09464,
+            81.17,
+            4571189,
+            "pan",
+            "Level 4",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Peru",
+          "value": [
+            16370.68024,
+            81.49,
+            34576665,
+            "per",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Philippines",
+          "value": [
+            11116.63775,
+            72.47,
+            116786962,
+            "phl",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Papua New Guinea",
+          "value": [
+            4521.77359,
+            65.61,
+            10762817,
+            "png",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Poland",
+          "value": [
+            47891.51537,
+            79.1,
+            38140910,
+            "pol",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "North Korea",
+          "value": [
+            1542.77448,
+            73.91,
+            26571036,
+            "prk",
+            "Level 1",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Portugal",
+          "value": [
+            43664.4989,
+            82.79,
+            10411834,
+            "prt",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Paraguay",
+          "value": [
+            17153.71862,
+            77.36,
+            7013078,
+            "pry",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Palestine",
+          "value": [
+            3909.19827,
+            75.85,
+            5589623,
+            "pse",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Qatar",
+          "value": [
+            116057.3359,
+            77.31,
+            3115889,
+            "qat",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Romania",
+          "value": [
+            42605.11998,
+            76.49,
+            18908650,
+            "rou",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Russia",
+          "value": [
+            40870.61672,
+            73.89,
+            143997393,
+            "rus",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Rwanda",
+          "value": [
+            3512.30613,
+            70.02,
+            14569341,
+            "rwa",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Saudi Arabia",
+          "value": [
+            64965.70305,
+            75.66,
+            34566328,
+            "sau",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Sudan",
+          "value": [
+            1865.51403,
+            71.21,
+            51662147,
+            "sdn",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Senegal",
+          "value": [
+            4871.28026,
+            70.43,
+            18931966,
+            "sen",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Singapore",
+          "value": [
+            137905.9791,
+            85.63,
+            5870750,
+            "sgp",
+            "Level 4",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Solomon Islands",
+          "value": [
+            2615.32949,
+            59.8,
+            838645,
+            "slb",
+            "Level 1",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Sierra Leone",
+          "value": [
+            3255.82436,
+            63.01,
+            8819794,
+            "sle",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "El Salvador",
+          "value": [
+            12221.09674,
+            76.98,
+            6365503,
+            "slv",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Somalia",
+          "value": [
+            1462.56236,
+            59.86,
+            19654739,
+            "som",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Serbia",
+          "value": [
+            28758.37917,
+            76.66,
+            6689039,
+            "srb",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "South Sudan",
+          "value": [
+            716.249,
+            65.36,
+            12188788,
+            "ssd",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Sao Tome and Principe",
+          "value": [
+            5681.95489,
+            71.51,
+            240254,
+            "stp",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Suriname",
+          "value": [
+            20256.66324,
+            73.51,
+            639850,
+            "sur",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Slovak Republic",
+          "value": [
+            41977.51553,
+            78.58,
+            5474881,
+            "svk",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Slovenia",
+          "value": [
+            50558.74404,
+            82.45,
+            2117072,
+            "svn",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Sweden",
+          "value": [
+            65596.66352,
+            83.72,
+            10656633,
+            "swe",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Eswatini",
+          "value": [
+            11069.57117,
+            59.5,
+            1256174,
+            "swz",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Seychelles",
+          "value": [
+            30802.63006,
+            74.8,
+            132779,
+            "syc",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Syria",
+          "value": [
+            4085.72011,
+            74.84,
+            25620427,
+            "syr",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Chad",
+          "value": [
+            2645.81191,
+            61.58,
+            21003705,
+            "tcd",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Togo",
+          "value": [
+            3007.55596,
+            66.47,
+            9721608,
+            "tgo",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Thailand",
+          "value": [
+            22695.94668,
+            79.78,
+            71619863,
+            "tha",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Tajikistan",
+          "value": [
+            5122.38472,
+            70.4,
+            10786734,
+            "tjk",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Turkmenistan",
+          "value": [
+            18623.63459,
+            71.64,
+            7618847,
+            "tkm",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Timor-Leste",
+          "value": [
+            4352.93562,
+            72.18,
+            1418517,
+            "tls",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Tonga",
+          "value": [
+            7839.22918,
+            73.81,
+            103742,
+            "ton",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Trinidad and Tobago",
+          "value": [
+            33144.88032,
+            75.85,
+            1511155,
+            "tto",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Tunisia",
+          "value": [
+            13135.58265,
+            79.15,
+            12348573,
+            "tun",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Turkey",
+          "value": [
+            36992.96579,
+            79.66,
+            87685426,
+            "tur",
+            "Level 4",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Tanzania",
+          "value": [
+            3924.40183,
+            68.59,
+            70545865,
+            "tza",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Uganda",
+          "value": [
+            3047.99489,
+            67.55,
+            51384894,
+            "uga",
+            "Level 1",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Ukraine",
+          "value": [
+            15014.25715,
+            74.89,
+            38980376,
+            "ukr",
+            "Level 3",
+            2025,
+            "europe"
+          ]
+        },
+        {
+          "name": "Uruguay",
+          "value": [
+            33757.56245,
+            78.5,
+            3384688,
+            "ury",
+            "Level 3",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "USA",
+          "value": [
+            78388.58461,
+            79.83,
+            347275807,
+            "usa",
+            "Level 4",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Uzbekistan",
+          "value": [
+            11127.00974,
+            69.07,
+            37053428,
+            "uzb",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Venezuela",
+          "value": [
+            8899.072,
+            76.18,
+            28516896,
+            "ven",
+            "Level 2",
+            2025,
+            "americas"
+          ]
+        },
+        {
+          "name": "Vietnam",
+          "value": [
+            15429.33526,
+            75.44,
+            101598527,
+            "vnm",
+            "Level 3",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Vanuatu",
+          "value": [
+            3188.80002,
+            66.58,
+            335169,
+            "vut",
+            "Level 1",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Samoa",
+          "value": [
+            7412.51789,
+            71.36,
+            219306,
+            "wsm",
+            "Level 2",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "Yemen",
+          "value": [
+            1721.89143,
+            69.27,
+            41773878,
+            "yem",
+            "Level 1",
+            2025,
+            "asia"
+          ]
+        },
+        {
+          "name": "South Africa",
+          "value": [
+            13889.23888,
+            65.95,
+            64747319,
+            "zaf",
+            "Level 3",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Zambia",
+          "value": [
+            3944.46383,
+            64.26,
+            21913874,
+            "zmb",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        },
+        {
+          "name": "Zimbabwe",
+          "value": [
+            3675.57058,
+            61.97,
+            16950795,
+            "zwe",
+            "Level 2",
+            2025,
+            "africa"
+          ]
+        }
+      ]
+    }
+  ]
+}
