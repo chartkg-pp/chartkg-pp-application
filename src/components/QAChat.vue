@@ -124,7 +124,7 @@ watch(() => props.focusedTurnId, (id) => { if (id) scrollToTurn(id) })
 
     <div class="qa-readiness" aria-label="Dual answer readiness">
       <span :class="{ ready: graphReady }"><i></i> GraphRAG {{ graphReady ? 'ready' : 'run analysis' }}</span>
-      <span v-if="!staticDemo" :class="{ ready: visionReady }"><i></i> Vision {{ visionReady ? 'ready' : 'select image' }}</span>
+      <span :class="{ ready: visionReady }"><i></i> Vision {{ visionReady ? 'ready' : 'select image' }}</span>
     </div>
 
     <div class="chat-view">
@@ -163,7 +163,7 @@ watch(() => props.focusedTurnId, (id) => { if (id) scrollToTurn(id) })
             <div v-if="answerFor(turn).status === 'verified'" class="answer-foot"><span>{{ retrievalLabel(answerFor(turn)) }}</span></div>
             <div v-else-if="answerFor(turn).status === 'answered'" class="answer-foot vision-foot"><span>Image-grounded response</span><code>{{ answerFor(turn).model || 'vision model' }}</code><span>No KG citations</span></div>
             <div v-else-if="answerFor(turn).error" class="answer-error">{{ answerFor(turn).error }}</div>
-            <div v-if="!staticDemo" class="answer-switcher" aria-label="Choose answer engine">
+            <div class="answer-switcher" aria-label="Choose answer engine">
               <button v-for="mode in (['graphrag', 'vision'] as QAMode[])" :key="mode" :class="{ active: selectedMode(turn) === mode, failed: turn.answers[mode].status === 'failed' }" @click="selectAnswer(turn, mode)">
                 <i :class="mode"></i><span>{{ mode === 'graphrag' ? 'GraphRAG' : 'Vision LLM' }}</span><small>{{ statusLabel(turn.answers[mode], mode) }}</small>
               </button>

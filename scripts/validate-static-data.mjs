@@ -129,6 +129,17 @@ for (const chart of manifest.graphrag) {
         `${label}: retrieval expanded to entities outside the knowledge graph`,
       )
     }
+
+    // Every offered question also carries the model-direct answer, so the site can switch modes.
+    if (example.suggested === false) continue
+    const vision = example.visionTurn
+    check(Boolean(vision?.answer), `${label}: the model-direct answer is missing`)
+    if (vision) {
+      check(vision.status === 'answered', `${label}: the model-direct answer must be an answered turn`)
+      check(vision.generationMode === 'vision', `${label}: the model-direct answer must record its mode`)
+      check(Boolean(vision.model), `${label}: the model-direct answer must record the model that produced it`)
+      check(vision.citationIds?.length === 0, `${label}: a model-direct answer must not carry graph citations`)
+    }
   }
 }
 

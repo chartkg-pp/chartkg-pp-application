@@ -686,6 +686,14 @@
             }
           ]
         }
+      },
+      "visionTurn": {
+        "answer": "Based on the chart, there is a broad **positive but non-linear relationship** between income and lifespan: countries with higher income per capita generally tend to have higher life expectancy. This is visible as the overall pattern from lower-left (low income, lower lifespan) to upper-right (high income, higher lifespan).\n\nHowever, the relationship is not strict or deterministic:\n- At similar income levels, countries can have quite different lifespans.\n- Higher-income countries tend to show diminishing returns: lifespan is high but increases more slowly with further income gains.\n- Some countries are visible outliers given their income level, and the chart notes that region, population, and other factors also matter.\n\nSo, the chart shows a positive association—richer tends to mean healthier/longer-lived on average—but it does not establish causation.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     },
     {
@@ -1056,6 +1064,14 @@
             }
           ]
         }
+      },
+      "visionTurn": {
+        "answer": "The chart plots countries by **income** (x-axis, log scale) and **lifespan** (y-axis), with bubble **size = population** and **color = region**.  \n\n**Main visible findings:**\n- There is a broad **positive association**: richer countries tend to have higher life expectancy.\n- The four income levels show a clear upward shift:\n  - **Level 1** (lowest income): mostly bottom-left, lifespan often ~55–65.\n  - **Level 2**: mixed, mostly ~60–75.\n  - **Level 3**: many middle-income countries cluster around ~70–80.\n  - **Level 4** (highest income): top-right, often ~80–85.\n- **Top-right examples:** Singapore, Japan, Switzerland, Spain, South Korea, Australia — high income and high lifespan.\n- **Large-population countries:** China and India are the largest bubbles. China sits around $12k–$16k income and ~78 years; India around $8k and ~70 years.\n- **Sub-Saharan Africa** (blue bubbles) is concentrated in the lower-income, lower-lifespan corner, though with variation.\n- **Notable outliers:** the USA is very high income but has lower lifespan (~78) than many other rich countries. South Africa has relatively high income for Africa but lifespan ~65. Russia and Saudi Arabia also have lower lifespan than many peers at similar income levels.\n- **Interpretation:** the chart shows income and health are related, but income alone does not determine lifespan; other factors produce wide vertical spread at every income level. Exact 2025 values are projections and should be read approximately from bubble positions.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     },
     {
@@ -1245,6 +1261,14 @@
             }
           ]
         }
+      },
+      "visionTurn": {
+        "answer": "The image is a Cartesian scatterplot, not a knowledge graph in the usual sense. It shows each country as a **point/bubble** on a two-dimensional coordinate system:\n\n- **X-axis (horizontal):** Income — GDP per capita, $ per year, price adjusted (log scale).  \n- **Y-axis (vertical):** Lifespan — life expectancy in years.  \n- So a country’s Cartesian point is determined by its **income** and **life expectancy**.\n- **Bubble size** shows population; **bubble color** shows region.  \n- Top labels divide income into **Income Levels 1–4**, with vertical reference lines.\n\nVisible interpretation from the chart: points farther right are richer; points higher up are healthier. The overall pattern trends upward to the right, meaning higher income tends to be associated with longer lifespan, though with much spread. Exact coordinates for most points cannot be reliably read from the image because of bubble overlap and the log-scale axis.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     },
     {
@@ -1268,6 +1292,14 @@
           "paths": [],
           "rankedEvidence": []
         }
+      },
+      "visionTurn": {
+        "answer": "The image provided does not contain anything about quantum chromodynamics or boson spectroscopy. It is the **Gapminder World Health Chart 2025**, a bubble chart plotting:\n\n- **Y-axis:** Lifespan (life expectancy, years), roughly 53–86\n- **X-axis:** Income (GDP per capita, $/year, PPP, log scale), about $500 to $64,000+\n- **Bubble size:** population; **bubble color:** region\n- Vertical bands labeled Income Level 1–4, plus a compass indicating poor/rich and healthy/sick quadrants\n\nIts sources are World Bank GDP, UN population figures, and IHME life-expectancy data — no physics content at all.\n\nSo I can't answer a QCD boson-spectroscopy question from this chart, and I won't guess at physics claims as if the image supported them. If you meant to ask about the chart (e.g., which countries are richest/healthiest, or how China, India, or the USA compare), tell me and I'll read those values off the image. If your physics question is genuine, please re-upload the relevant figure or diagram.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     },
     {

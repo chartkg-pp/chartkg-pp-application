@@ -36,7 +36,6 @@
         "agentic": {
           "generationId": "971e482de71b45b69bbb33046b890962",
           "image": "pa/gapminder/agentic/image.png",
-          "preview": "pa/gapminder/agentic/preview.webp",
           "context": "pa/gapminder/agentic/context.json",
           "code": "pa/gapminder/agentic/generated-code.py",
           "assessment": "pa/gapminder/agentic/visual-assessment.json",

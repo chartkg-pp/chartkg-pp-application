@@ -10,6 +10,8 @@ interface StoredExample {
   /** False for questions the original project also used but that duplicate a shown example. */
   suggested?: boolean
   turn: Omit<QATurn, 'id' | 'question' | 'createdAt'>
+  /** Model-direct answer captured from the original project's vision path. */
+  visionTurn?: Omit<QATurn, 'id' | 'question' | 'createdAt'>
 }
 
 interface StoredExamplesFile {
@@ -51,5 +53,17 @@ export async function storedExampleAnswer(id: TestCaseId, question: string): Pro
     question,
     createdAt: Date.now(),
     ...example.turn,
+  }
+}
+
+/** Model-direct answer for the same question, captured from the original vision path. */
+export async function storedExampleVisionAnswer(id: TestCaseId, question: string): Promise<QATurn | null> {
+  const example = (await loadExamples(id)).examples.find((item) => item.question === question)
+  if (!example?.visionTurn) return null
+  return {
+    id: `static_vision_${id}_${Date.now()}`,
+    question,
+    createdAt: Date.now(),
+    ...example.visionTurn,
   }
 }

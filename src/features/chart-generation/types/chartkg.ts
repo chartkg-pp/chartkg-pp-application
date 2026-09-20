@@ -128,7 +128,6 @@ export interface ArtifactMap {
   context?: string
   option?: string
   png?: string
-  preview?: string
   code?: string
   visual_assessment?: string
   report?: string
@@ -145,7 +144,7 @@ export interface GenerationResponse {
   artifacts: ArtifactMap
   report: Record<string, unknown>
   pipeline?: string
-  /** Pixel size of the stored result image, used to decide whether a preview is needed. */
+  /** Pixel size of the stored result image, used to lay out very tall Agentic results. */
   width?: number
   height?: number
   qualityScore?: number | null

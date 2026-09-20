@@ -406,6 +406,18 @@ function answerFromResult(result: QATurn, process: QAAnswer['process']): QAAnswe
   }
 }
 
+/** The model-direct answer has no retrieval trace, so its process is a single factual step. */
+function answerFromVision(result: QATurn): QAAnswer {
+  return {
+    answer: result.answer,
+    citationIds: [],
+    status: result.status,
+    generationMode: result.generationMode ?? 'vision',
+    model: result.model,
+    process: [{ id: 'direct-image-answer', label: 'Answered directly from the image without knowledge-graph retrieval', status: 'done' }],
+  }
+}
+
 async function submitQuestion(question: string) {
   if (!graph.value || !imageUrl.value) return
   qaController?.abort()
@@ -434,39 +446,39 @@ async function submitQuestion(question: string) {
     answers: { ...turn.answers, [mode]: update(turn.answers[mode]) },
   }))
 
-  const runAnswer = async (mode: QAMode) => {
-    const onPhase = (phase: QAStreamPhase) => updateAnswer(mode, (answer) => {
-      const process = [...(answer.process ?? [])]
-      const index = process.findIndex((step) => step.id === phase.id)
-      const nextStep = { ...phase }
-      if (index >= 0) process[index] = nextStep
-      else process.push(nextStep)
-      return { ...answer, process }
-    })
-    const onDelta = (text: string) => updateAnswer(mode, (answer) => ({ ...answer, answer: answer.answer + text }))
-    try {
-      if (mode === 'vision') throw new Error('Live Vision QA is unavailable in this static demo.')
-      const result = await askStoredQuestion(question, chartId.value, { onPhase, onDelta }, controller.signal)
-      if (isStale()) return
-      updateAnswer(mode, (answer) => answerFromResult(result, answer.process))
-    } catch (error) {
-      if (isStale()) return
-      const message = error instanceof Error ? error.message : 'The answer could not be completed. Please retry.'
-      updateAnswer(mode, (answer) => ({
-        ...answer,
-        status: 'failed',
-        error: message,
-        process: answer.process?.map((step) => step.status === 'active' ? { ...step, status: 'error' as const } : step),
-      }))
-    }
-  }
+  const onPhase = (phase: QAStreamPhase) => updateAnswer('graphrag', (answer) => {
+    const process = [...(answer.process ?? [])]
+    const index = process.findIndex((step) => step.id === phase.id)
+    const nextStep = { ...phase }
+    if (index >= 0) process[index] = nextStep
+    else process.push(nextStep)
+    return { ...answer, process }
+  })
+  const onDelta = (text: string) => updateAnswer('graphrag', (answer) => ({ ...answer, answer: answer.answer + text }))
 
   try {
-    await Promise.allSettled([runAnswer('graphrag')])
+    const pair = await askStoredQuestion(question, chartId.value, { onPhase, onDelta }, controller.signal)
     if (isStale()) return
-    updatePending((pending) => {
-      return { ...pending, status: pending.answers.graphrag.status === 'failed' ? 'failed' : 'complete' }
-    })
+    updatePending((pending) => ({
+      ...pending,
+      status: 'complete',
+      answers: {
+        graphrag: answerFromResult(pair.graphrag, pending.answers.graphrag.process),
+        vision: pair.vision
+          ? answerFromVision(pair.vision)
+          : { ...emptyAnswer(), status: 'failed', error: 'No model-direct answer is bundled for this question.' },
+      },
+    }))
+  } catch (error) {
+    if (isStale()) return
+    const message = error instanceof Error ? error.message : 'The answer could not be completed. Please retry.'
+    updateAnswer('graphrag', (answer) => ({
+      ...answer,
+      status: 'failed',
+      error: message,
+      process: answer.process?.map((step) => step.status === 'active' ? { ...step, status: 'error' as const } : step),
+    }))
+    updatePending((pending) => ({ ...pending, status: 'failed' }))
   } finally {
     if (qaController === controller) {
       qaController = null
@@ -517,7 +529,7 @@ onMounted(async () => {
       </section>
       <div class="resize-handle resize-handle-horizontal" :class="{ active: splitterActive === 'center-right' }" role="separator" aria-label="Resize graph and question columns" aria-orientation="vertical" tabindex="0" @pointerdown="beginColumnResize('center-right', $event)" @keydown="onSplitterKey('center-right', $event)"><span></span></div>
       <section class="right-column">
-        <QAChat :turns="turns" :loading="qaLoading" :selected-citation-id="selectedCitationId" :graph-ready="run.status === 'ready'" :vision-ready="false" :focused-turn-id="focusedTurnId" :suggestions="questionSuggestions" static-demo @ask="submitQuestion" @cite="selectCitation" @answer-mode="selectAnswerMode" />
+        <QAChat :turns="turns" :loading="qaLoading" :selected-citation-id="selectedCitationId" :graph-ready="run.status === 'ready'" :vision-ready="run.status === 'ready'" :focused-turn-id="focusedTurnId" :suggestions="questionSuggestions" static-demo @ask="submitQuestion" @cite="selectCitation" @answer-mode="selectAnswerMode" />
       </section>
     </div>
     <div v-if="selectedCitation" class="provenance-toast"><span class="provenance-dot"></span><span><b>{{ selectedCitationId }}</b> selected · {{ selectedCitation.claimIds.length }} KG claims · {{ selectedCitation.evidenceIds.length }} evidence artifacts</span><button @click="selectedCitationId = null; selectedEvidenceId = null">×</button></div>

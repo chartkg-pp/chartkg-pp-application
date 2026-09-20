@@ -42,6 +42,10 @@ button:disabled { cursor: not-allowed; opacity: .55; }
 .source-control .field-select { width: clamp(150px, 18vw, 260px); }
 .model-select { color: #fff; }
 .canvas-size { white-space: nowrap; }
+/* Native selects in the header: keep the chip look but make the options readable. */
+.topbar-select { appearance: auto; cursor: pointer; }
+.topbar-select option { color: var(--text-primary); background: #fff; }
+.topbar-source { max-width: 190px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgba(255,255,255,.72); font-size: 11px; }
 .field-upload-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 29px; height: 30px; color: #fff; border: 1px solid rgba(255,255,255,.45); background: rgba(255,255,255,.1); cursor: pointer; }
 .field-upload-btn input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .render-toggle { display: flex; align-items: center; gap: 5px; color: rgba(255,255,255,.9); font-size: 12px; white-space: nowrap; }
@@ -139,15 +143,8 @@ button:disabled { cursor: not-allowed; opacity: .55; }
 .chart-canvas { width: 100%; height: 100%; min-height: 300px; }
 .chart-image-wrap { width: 100%; min-height: 300px; display: flex; align-items: center; justify-content: center; overflow: auto; background: #fff; }
 .chart-image { display: block; max-width: 100%; height: auto; object-fit: contain; }
-.chart-image-wrap.tall { align-items: stretch; justify-content: flex-start; flex-direction: column; overflow: hidden; }
-.chart-image-toolbar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 7px 10px; border-bottom: 1px solid var(--line); background: #fafbfc; }
-.chart-image-note { flex: 1; min-width: 150px; color: var(--text-tertiary); font-size: 11px; }
-.chart-zoom-value { min-width: 42px; text-align: center; color: var(--text-secondary); font-size: 11px; }
-.chart-image-scroll { min-height: 0; flex: 1; overflow: auto; }
-.chart-image.scaled { align-self: flex-start; }
-.static-result-banner { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 7px 16px; border-bottom: 1px solid var(--line); background: #f4f9fb; font-size: 11px; }
-.static-result-banner strong { padding: 2px 6px; border: 1px solid var(--primary); color: var(--primary); font-size: 10px; letter-spacing: 0.04em; }
-.static-result-banner span { color: var(--text-tertiary); }
+/* Long Agentic results scroll from their top edge instead of being centred and clipped. */
+.chart-image-wrap.tall { align-items: flex-start; justify-content: flex-start; }
 .timeline-note { margin: 0 16px 8px; color: var(--text-tertiary); font-size: 10px; letter-spacing: 0.03em; }
 .history-row.current { border-color: var(--primary); background: #f8fbfc; }
 .static-source-box { cursor: default; }

@@ -379,6 +379,14 @@
             }
           ]
         }
+      },
+      "visionTurn": {
+        "answer": "## What the figure shows\n\nThe plot maps each customer's opinion onto a triangular opinion space (U = uncertainty, N = negative, P = positive), where the distances to the three sides satisfy d_p + d_u + d_n = 1. These positions are then wrapped into a radial layout: every dot is one customer, and the bars along the outer rim give the number of customers at each position, colored by gender (teal = NONE, yellow = Male, lavender = Female).\n\n## Main visible patterns\n\n- **Uncertainty dominates.** The great majority of points sit in a dense knot near the center, and the spread is pulled toward the **U (uncertainty)** corner. Most customers are neither strongly positive nor strongly negative.\n- **Two weaker \"arms\" of opinion.** From that central mass, one elbow of points reaches down toward the **N / negative** direction, and a looser, more scattered band spreads toward the **positive** side. So strong opinions exist but are the minority and form distinct subgroups rather than a continuum.\n- **Where the customers actually are.** The tallest rim bars are concentrated on the upper‑right of the circle, in the sector between U and P, with a smaller cluster on the left (near N) and a few small bars at the bottom. Bars in the U-to-upper-left region are minimal.\n- **Gender composition.** All three gender labels appear almost everywhere, so no region is gender-exclusive. In the large upper-right bars the segments read roughly as a small teal (NONE) base, a moderate yellow (Male) band, and the **longest lavender (Female) segment** — i.e., female customers make the biggest contribution to that high-count opinion region, while male and \"NONE\" are numerically smaller there. On the left-side bars around N, teal and lavender again dominate with little yellow.\n\n## Cautions\n\n- The figure supports only qualitative statements about gender; segment heights are not labeled, so no counts, proportions, or significance tests can be read off.\n- The legend colors are pale and closely spaced at this size, so yellow vs. teal boundaries in some smaller bars are hard to resolve with certainty.\n- The chart shows association by position, not a causal or statistical correlation measure; \"correlated with gender\" is the authors' framing in the title.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     },
     {
@@ -548,6 +556,14 @@
             }
           ]
         }
+      },
+      "visionTurn": {
+        "answer": "There is no knowledge graph in this image. What is shown is an **OpinionSeer** visualization — a radial (circular) scatter plot with an outer ring of radial stacked bars. What the radial bars display:\n\n- **Position:** The stacked bars sit along the outer circumference of the circular layout, each anchored to one of the radial spokes that fan out from the center.\n- **Height encodes counts:** As the caption states, \"The height of bars encodes the number of customers.\" Longer bars point outward from the rim, so a longer bar = more customers in that spoke's segment.\n- **Stacking / color encodes gender:** Each bar is divided into colored segments matching the legend — teal = NONE, yellow = Male, purple = Female — so the stack shows the gender composition of the customers in that segment.\n- **Largest bars:** The tallest, most strongly stacked bars appear near the upper-right and right side of the circle (toward the \"P\" vertex), with smaller bars clustered on the lower-left near \"N.\" Segments there appear mostly teal and purple.\n\nInterpretation (not stated in the image): the spokes presumably correspond to opinion/feature dimensions in the U–N–P triangle (Uncertainty, Negative, Positive), so the bars likely show customer counts per opinion direction, broken down by gender. This is an inference, not a label in the figure.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     },
     {
@@ -710,6 +726,14 @@
             }
           ]
         }
+      },
+      "visionTurn": {
+        "answer": "The image is not a knowledge graph; it is an OpinionSeer visualization. Its title states that **the height of the bars encodes the number of customers**.\n\nVisible details:\n- Outer ring bars are color-coded: teal = NONE, yellow = Male, purple = Female.\n- Taller bars indicate more customers for that opinion direction / gender segment.\n- There is no numeric scale or exact count labeled, so only relative differences in bar height can be compared.\n- The inset triangle is an explanatory ternary plot for one customer’s opinion (positive, negative, uncertainty), not a customer-count display.\n\nSo the chart shows **customer volume by bar height**, but it does **not** provide exact customer numbers or a knowledge graph.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     },
     {
@@ -1184,6 +1208,14 @@
             }
           ]
         }
+      },
+      "visionTurn": {
+        "answer": "The image does not contain a knowledge graph, and there is no element or label reading “Similarity: SimilarDistribution” anywhere in it. I can’t confirm anything about that term from this figure.\n\nWhat the image actually shows:\n\n- **Title/caption:** “OpinionSeer results showing how customer opinions are correlated with gender. The height of bars encodes the number of customers.”\n- **Legend:** three dot colors — teal = NONE, yellow = Male, light purple = Female.\n- **Bottom-left inset:** an opinion triangle with vertices U (top), N (bottom-left), P (bottom-right), where a customer point P is projected onto the three sides:\n  - \\(d_p\\) = Positive (distance to the U–P side),\n  - \\(d_n\\) = Negative (distance to the U–N side),\n  - \\(d_u\\) = Uncertainty (distance to the N–P side),\n  - with the constraint \\(d_p + d_u + d_n = 1\\), labeled “(Opinion of one customer about a hotel).”\n- **Main radial view:** a circle divided by many radial spokes, with the U, N and P vertices marked on a dashed triangle. Colored dots (the three gender categories) are plotted at various radial positions and distances from the center, and stacked/curved bar segments around the outer rim indicate counts, with the tallest bar clusters near the right side (toward P) and left side (toward N).\n\nSo the visible content is about opinion distributions by gender, not about any similarity measure called “SimilarDistribution.” If you have a different figure in mind, it isn’t the one supplied here.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "model": "deepseek-v4-flash-vision-exp"
       }
     }
   ]

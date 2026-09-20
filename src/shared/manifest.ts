@@ -15,7 +15,6 @@ export interface GraphRagManifestEntry {
 export interface PaManifestMode {
   generationId: string
   image: string
-  preview?: string
   context: string
   code?: string
   option?: string

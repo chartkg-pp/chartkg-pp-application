@@ -1,7 +1,7 @@
 import { computed, ref } from 'vue'
 import { defineStore } from 'pinia'
 import { chartApi } from '../data/snapshotRepository'
-import type { GenerationListItem, GenerationResponse, InspectResponse, JobSnapshot } from '../types/chartkg'
+import type { GenerationListItem, GenerationResponse, InspectResponse, JobSnapshot, SampleInfo } from '../types/chartkg'
 
 export const useWorkspaceStore = defineStore('workspace', () => {
   const sourceFile = ref<File | null>(null)
@@ -9,6 +9,7 @@ export const useWorkspaceStore = defineStore('workspace', () => {
   const generation = ref<GenerationResponse | null>(null)
   const job = ref<JobSnapshot | null>(null)
   const history = ref<GenerationListItem[]>([])
+  const datasets = ref<SampleInfo[]>([])
   const optionText = ref('')
   const settings = ref({
     width: 1600,
@@ -31,14 +32,13 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     const path = generation.value?.artifacts.png
     return path ? chartApi.artifactUrl(path) : null
   })
-  /** Low-resolution first paint for very tall Agentic charts; the original PNG stays untouched. */
-  const previewUrl = computed(() => generation.value?.artifacts.preview ?? null)
-  const qualityScore = computed(() => generation.value?.qualityScore ?? null)
   const imageSize = computed(() => {
     const item = generation.value
     return item?.width && item.height ? { width: item.width, height: item.height } : null
   })
   const isReady = computed(() => Boolean(inspectResult.value?.valid))
+  /** Dataset id of the loaded source, without the static- prefix used by the snapshot reader. */
+  const activeDatasetId = computed(() => inspectResult.value?.datasetId?.replace(/^static-/, '') ?? '')
 
   function selectFile(file: File) {
     sourceFile.value = file
@@ -211,9 +211,31 @@ export const useWorkspaceStore = defineStore('workspace', () => {
 
   /** Open the first bundled Agentic snapshot; the workspace shows a result rather than a blank page. */
   async function loadDefaultSnapshot() {
-    await refreshHistory()
+    await Promise.all([refreshHistory(), refreshDatasets()])
     const first = history.value.find((item) => item.pipeline === 'agentic') ?? history.value[0]
     if (first) await selectSnapshot(first.id, first.pipeline ?? 'agentic')
+  }
+
+  async function refreshDatasets() {
+    try {
+      datasets.value = await chartApi.listSamples()
+    } catch {
+      // The dataset picker is supplementary; keep whatever list is already loaded.
+    }
+  }
+
+  /** Switch datasets from the workspace header while keeping the current generation mode. */
+  async function selectDataset(datasetId: string) {
+    if (datasetId === activeDatasetId.value) return
+    await loadSample(datasetId)
+    if (inspectResult.value) await startGeneration(settings.value)
+  }
+
+  /** Switch between the Agentic and Native snapshot of the loaded dataset. */
+  async function selectPipeline(pipeline: 'agentic' | 'native') {
+    settings.value.pipeline = pipeline
+    if (!inspectResult.value) await inspectSource()
+    if (inspectResult.value) await startGeneration(settings.value)
   }
 
   function clearJobListeners() {
@@ -240,6 +262,7 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     generation,
     job,
     history,
+    datasets,
     optionText,
     settings,
     activePanel,
@@ -248,16 +271,18 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     error,
     option,
     imageUrl,
-    previewUrl,
-    qualityScore,
     imageSize,
     isReady,
+    activeDatasetId,
     selectFile,
     loadSample,
     inspectSource,
     startGeneration,
     selectSnapshot,
     loadDefaultSnapshot,
+    refreshDatasets,
+    selectDataset,
+    selectPipeline,
     saveRevision,
     applyOption,
     formatOption,

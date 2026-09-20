@@ -15,10 +15,6 @@ const store = useWorkspaceStore()
 const workspaceRef = ref<HTMLElement | null>(null)
 const context = computed(() => store.inspectResult?.context)
 const report = computed(() => store.inspectResult?.extraction || null)
-const snapshotLabel = computed(() => {
-  const pipeline = store.generation?.pipeline === 'native' ? 'Native / ECharts' : 'Agentic / CoDA'
-  return `${store.inspectResult?.filename || 'Bundled dataset'} · ${pipeline}`
-})
 const imageSize = computed(() => store.imageSize)
 const workspaceRatios = ref(loadRatios())
 const leftStackRatio = ref(loadNumber('chartkg.left-stack-ratio', 52))
@@ -170,7 +166,7 @@ onBeforeUnmount(() => {
             <h2>Chart Preview</h2>
           </div>
           <div class="preview-header-actions">
-            <span class="status-text"><span class="status-pulse"></span>{{ store.isGenerating ? 'Loading snapshot' : store.generation ? 'PRE-GENERATED RESULT' : 'Ready' }}</span>
+            <span class="status-text"><span class="status-pulse"></span>{{ store.isGenerating ? 'Loading snapshot' : store.generation ? 'Result loaded' : 'Ready' }}</span>
             <button v-if="store.generation?.option" class="ghost-button" @click="downloadOption">Download Option</button>
             <button v-if="store.generation?.code" class="ghost-button" @click="downloadCode">Download Code</button>
             <button v-if="context" class="ghost-button" @click="downloadContext">Download Context</button>
@@ -179,17 +175,9 @@ onBeforeUnmount(() => {
             <button v-if="store.generation?.artifacts.report" class="ghost-button" @click="downloadArtifact('report', 'report.json')">Download Report</button>
           </div>
         </div>
-        <div v-if="store.generation" class="static-result-banner">
-          <strong>PRE-GENERATED RESULT</strong>
-          <span>
-            {{ snapshotLabel }}<template v-if="store.qualityScore !== null && store.qualityScore !== undefined"> · quality score {{ store.qualityScore }}</template>
-            · generation {{ store.generation.id }}
-          </span>
-        </div>
         <ChartPreview
           :option="store.option"
           :image-url="store.imageUrl"
-          :preview-url="store.previewUrl"
           :image-size="imageSize"
         />
       </section>

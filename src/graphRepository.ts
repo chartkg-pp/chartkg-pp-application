@@ -1,4 +1,4 @@
-import { storedExampleAnswer } from './qaExamples'
+import { storedExampleAnswer, storedExampleVisionAnswer } from './qaExamples'
 import { answerTestQuestion, detectTestCase, isTestCaseId, loadTestAnalysis } from './testData'
 import type { Evidence, GraphData, QATurn, SummaryData } from './types'
 
@@ -63,17 +63,25 @@ export async function loadStaticAnalysis(chartId: string, signal?: AbortSignal):
   return { runId: `static_run_${chartId}`, ...result }
 }
 
+/** Both answers the original project produced for one question. */
+export interface StaticAnswerPair {
+  /** Graph-grounded answer with citations and a retrieval trace. */
+  graphrag: QATurn
+  /** Direct model answer from the image alone; absent when the project has no snapshot. */
+  vision: QATurn | null
+}
+
 /**
- * Replay a stored GraphRAG answer. Questions the original project already answered are served
- * from the exported snapshot; any other question falls back to the project's deterministic
- * extractive answerer over the same knowledge graph. No model provider is contacted.
+ * Replay a stored answer pair. Questions the original project already answered are served from
+ * the exported snapshot; any other question falls back to the project's deterministic extractive
+ * answerer over the same knowledge graph. No model provider is contacted.
  */
 export async function askStoredQuestion(
   question: string,
   chartId: string,
   handlers: QAStreamHandlers,
   signal?: AbortSignal,
-): Promise<QATurn> {
+): Promise<StaticAnswerPair> {
   if (!isTestCaseId(chartId)) throw new Error(unsupportedImageMessage)
   const phases: Array<{ id: string; active: string; done: string }> = [
     { id: 'linking-entities', active: 'Linking entities', done: 'Linked entities to graph nodes' },
@@ -88,19 +96,22 @@ export async function askStoredQuestion(
     handlers.onPhase({ id: phase.id, label: phase.done, status: 'done' })
   }
 
-  const stored = await storedExampleAnswer(chartId, question)
-  const turn = stored ?? await answerTestQuestion(chartId, question)
+  const [stored, vision] = await Promise.all([
+    storedExampleAnswer(chartId, question),
+    storedExampleVisionAnswer(chartId, question),
+  ])
+  const graphrag = stored ?? await answerTestQuestion(chartId, question)
   ensureNotAborted(signal)
 
   const composing = phases[3]
   handlers.onPhase({ id: composing.id, label: composing.active, status: 'active' })
-  if (turn.answer) {
-    for (let offset = 0; offset < turn.answer.length; offset += 12) {
+  if (graphrag.answer) {
+    for (let offset = 0; offset < graphrag.answer.length; offset += 12) {
       ensureNotAborted(signal)
-      handlers.onDelta(turn.answer.slice(offset, offset + 12))
+      handlers.onDelta(graphrag.answer.slice(offset, offset + 12))
       await wait(24, signal)
     }
   }
   handlers.onPhase({ id: composing.id, label: composing.done, status: 'done' })
-  return turn
+  return { graphrag, vision }
 }

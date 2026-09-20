@@ -16,7 +16,6 @@ type StaticPipeline = 'agentic' | 'native'
 interface StaticMode {
   generationId: string
   image: string
-  preview?: string
   context: string
   code?: string
   option?: string
@@ -163,7 +162,6 @@ export async function mockGetGeneration(jobId: string): Promise<GenerationRespon
     outputRelativeDir: `demo-data/pa/${source.id}/${pipeline}`,
     artifacts: {
       png: demoAsset(mode.image),
-      preview: mode.preview ? demoAsset(mode.preview) : undefined,
       context: demoAsset(mode.context),
       code: mode.code ? demoAsset(mode.code) : undefined,
       option: mode.option ? demoAsset(mode.option) : undefined,
