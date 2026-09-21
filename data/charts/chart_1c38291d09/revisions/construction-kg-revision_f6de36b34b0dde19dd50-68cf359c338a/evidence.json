@@ -1,0 +1,1939 @@
+[
+  {
+    "id": "ev_g1_1",
+    "label": "Composition 1 · rect_42",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Region Australasia, the composition is comprised of two rectangular marks. Visual support resolved through KG provenance to rect_42 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g1_2",
+    "label": "Composition 1 · rect_52",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Region Australasia, the composition is comprised of two rectangular marks. Visual support resolved through KG provenance to rect_52 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g2_1",
+    "label": "Composition 2 · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "For Region = Asia Pacific, the group is composed of 35 rectangular marks that together make up the observed category whole. Visual support covers 35 cell marks reached through the KG scope.",
+    "region": {
+      "x": 36.18866,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g3_1",
+    "label": "Composition 3 · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "For the Region category Latin America, the whole comprises six rectangular marks. Visual support covers 6 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 38.81731,
+      "width": 33.1689,
+      "height": 8.80605
+    }
+  },
+  {
+    "id": "ev_g4_1",
+    "label": "Composition 4 · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "For the Middle East and Africa region, the observed group is composed of thirteen rectangle marks that together make up this categorical segment. Visual support covers 13 cell marks reached through the KG scope.",
+    "region": {
+      "x": 20.0542,
+      "y": 46.5655,
+      "width": 22.24454,
+      "height": 47.7891
+    }
+  },
+  {
+    "id": "ev_g5_1",
+    "label": "Composition 5 · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Within the Eastern Europe region category, the observed grouping is composed of seven rectangular marks that together make up the whole. Visual support covers 7 cell marks reached through the KG scope.",
+    "region": {
+      "x": 14.50798,
+      "y": 23.32094,
+      "width": 22.4126,
+      "height": 16.55424
+    }
+  },
+  {
+    "id": "ev_g6_1",
+    "label": "Composition 6 · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Within the Western Europe region, the composition consists of twenty-nine observed rectangular marks, which together make up the entire declared selection. Visual support covers 29 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68151,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g7_1",
+    "label": "Composition 7 · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The global observed set of 101 rectangular marks is composed of elements distributed across the Region classifications, encompassing Asia Pacific, Australasia, Eastern Europe, Latin America, Middle East and Africa, North America, and Western Europe. Visual support covers 101 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68152,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g8_1",
+    "label": "Composition 8 · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Within the Region category of North America, the selection is composed of nine rectangular marks that together constitute the observed grouping. Visual support covers 9 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 24.30242
+    }
+  },
+  {
+    "id": "ev_g9_1",
+    "label": "Composition: Composition · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 9 marks: rect_1, rect_12, rect_13, rect_14, rect_22, rect_23, rect_3, rect_32, rect_4. Visual support covers 9 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 24.30242
+    }
+  },
+  {
+    "id": "ev_g10_1",
+    "label": "Composition: Composition · rect_42",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: rect_42, rect_52. Visual support resolved through KG provenance to rect_42 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g10_2",
+    "label": "Composition: Composition · rect_52",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: rect_42, rect_52. Visual support resolved through KG provenance to rect_52 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g11_1",
+    "label": "Composition: Composition · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 35 marks: rect_100, rect_101, rect_62, rect_63, rect_64, rect_65, rect_66, rect_72, rect_73, rect_74, rect_75, rect_76, rect_77, rect_78, rect_79, rect_80, rect_81, rect_82, rect_83, rect_84, rect_85, rect_86, rect_87, rect_88, rect_89, rect_90, rect_91, rect_92, rect_93, rect_94, rect_95, rect_96, rect_97, rect_98, rect_99. Visual support covers 35 cell marks reached through the KG scope.",
+    "region": {
+      "x": 36.18866,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g12_1",
+    "label": "Composition: Composition · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 101 marks: rect_1, rect_10, rect_100, rect_101, rect_11, rect_12, rect_13, rect_14, rect_15, rect_16, rect_17, rect_18, rect_19, rect_2, rect_20, rect_21, rect_22, rect_23, rect_24, rect_25, rect_26, rect_27, rect_28, rect_29, rect_3, rect_30, rect_31, rect_32, rect_33, rect_34, rect_35, rect_36, rect_37, rect_38, rect_39, rect_4, rect_40, rect_41, rect_42, rect_43, rect_44, rect_45, rect_46, rect_47, rect_48, rect_49, rect_5, rect_50, rect_51, rect_52, rect_53, rect_54, rect_55, rect_56, rect_57, rect_58, rect_59, rect_6, rect_60, rect_61, rect_62, rect_63, rect_64, rect_65, rect_66, rect_67, rect_68, rect_69, rect_7, rect_70, rect_71, rect_72, rect_73, rect_74, rect_75, rect_76, rect_77, rect_78, rect_79, rect_8, rect_80, rect_81, rect_82, rect_83, rect_84, rect_85, rect_86, rect_87, rect_88, rect_89, rect_9, rect_90, rect_91, rect_92, rect_93, rect_94, rect_95, rect_96, rect_97, rect_98, rect_99. Visual support covers 101 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68152,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g13_1",
+    "label": "Composition: Composition · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 29 marks: rect_10, rect_11, rect_16, rect_17, rect_18, rect_19, rect_2, rect_20, rect_21, rect_26, rect_27, rect_28, rect_29, rect_30, rect_31, rect_37, rect_38, rect_39, rect_40, rect_41, rect_47, rect_48, rect_49, rect_50, rect_51, rect_6, rect_7, rect_8, rect_9. Visual support covers 29 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68151,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g14_1",
+    "label": "Composition: Composition · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 6 marks: rect_15, rect_25, rect_35, rect_45, rect_5, rect_55. Visual support covers 6 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 38.81731,
+      "width": 33.1689,
+      "height": 8.80605
+    }
+  },
+  {
+    "id": "ev_g15_1",
+    "label": "Composition: Composition · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 13 marks: rect_36, rect_46, rect_56, rect_57, rect_58, rect_59, rect_60, rect_61, rect_67, rect_68, rect_69, rect_70, rect_71. Visual support covers 13 cell marks reached through the KG scope.",
+    "region": {
+      "x": 20.0542,
+      "y": 46.5655,
+      "width": 22.24454,
+      "height": 47.7891
+    }
+  },
+  {
+    "id": "ev_g16_1",
+    "label": "Composition: Composition · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 7 marks: rect_24, rect_33, rect_34, rect_43, rect_44, rect_53, rect_54. Visual support covers 7 cell marks reached through the KG scope.",
+    "region": {
+      "x": 14.50798,
+      "y": 23.32094,
+      "width": 22.4126,
+      "height": 16.55424
+    }
+  },
+  {
+    "id": "ev_g17_1",
+    "label": "Region · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Region (Data Variable): name: Region; variableType: Categorical. Visual support covers 101 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68152,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g18_1",
+    "label": "Asia Pacific · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Asia Pacific (Variable Value): value: Asia Pacific. Visual support covers 35 cell marks reached through the KG scope.",
+    "region": {
+      "x": 36.18866,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g19_1",
+    "label": "Australasia · rect_42",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Australasia (Variable Value): value: Australasia. Visual support resolved through KG provenance to rect_42 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g19_2",
+    "label": "Australasia · rect_52",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Australasia (Variable Value): value: Australasia. Visual support resolved through KG provenance to rect_52 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g20_1",
+    "label": "Eastern Europe · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Eastern Europe (Variable Value): value: Eastern Europe. Visual support covers 7 cell marks reached through the KG scope.",
+    "region": {
+      "x": 14.50798,
+      "y": 23.32094,
+      "width": 22.4126,
+      "height": 16.55424
+    }
+  },
+  {
+    "id": "ev_g21_1",
+    "label": "Latin America · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Latin America (Variable Value): value: Latin America. Visual support covers 6 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 38.81731,
+      "width": 33.1689,
+      "height": 8.80605
+    }
+  },
+  {
+    "id": "ev_g22_1",
+    "label": "Middle East and Africa · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Middle East and Africa (Variable Value): value: Middle East and Africa. Visual support covers 13 cell marks reached through the KG scope.",
+    "region": {
+      "x": 20.0542,
+      "y": 46.5655,
+      "width": 22.24454,
+      "height": 47.7891
+    }
+  },
+  {
+    "id": "ev_g23_1",
+    "label": "North America · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "North America (Variable Value): value: North America. Visual support covers 9 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 24.30242
+    }
+  },
+  {
+    "id": "ev_g24_1",
+    "label": "Western Europe · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Western Europe (Variable Value): value: Western Europe. Visual support covers 29 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68151,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g25_1",
+    "label": "other · view",
+    "kind": "image-region",
+    "confidence": 0.78,
+    "detail": "other (View): chartType: other. Visual provenance resolves to the complete other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g26_1",
+    "label": "bas Asia Pacific other rect group · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas Asia Pacific other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Asia_Pacific\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support covers 35 cell marks reached through the KG scope.",
+    "region": {
+      "x": 36.18866,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g27_1",
+    "label": "bas Australasia other rect group · rect_42",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Australasia other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Australasia\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support resolved through KG provenance to rect_42 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g27_2",
+    "label": "bas Australasia other rect group · rect_52",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Australasia other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Australasia\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support resolved through KG provenance to rect_52 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g28_1",
+    "label": "bas Eastern Europe other rect group · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas Eastern Europe other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Eastern_Europe\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support covers 7 cell marks reached through the KG scope.",
+    "region": {
+      "x": 14.50798,
+      "y": 23.32094,
+      "width": 22.4126,
+      "height": 16.55424
+    }
+  },
+  {
+    "id": "ev_g29_1",
+    "label": "bas Latin America other rect group · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas Latin America other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Latin_America\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support covers 6 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 38.81731,
+      "width": 33.1689,
+      "height": 8.80605
+    }
+  },
+  {
+    "id": "ev_g30_1",
+    "label": "bas Middle East and Africa other rect group · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas Middle East and Africa other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Middle_East_and_Africa\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support covers 13 cell marks reached through the KG scope.",
+    "region": {
+      "x": 20.0542,
+      "y": 46.5655,
+      "width": 22.24454,
+      "height": 47.7891
+    }
+  },
+  {
+    "id": "ev_g31_1",
+    "label": "bas North America other rect group · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas North America other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support covers 9 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 22.24454,
+      "height": 24.30242
+    }
+  },
+  {
+    "id": "ev_g32_1",
+    "label": "bas Western Europe other rect group · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas Western Europe other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Western_Europe\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]. Visual support covers 29 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68151,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g33_1",
+    "label": "bas all other rect group · cell scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas all other rect group (Basic Analytical Scope): sources: [{\"groupRef\":\"rect_group\",\"selectionMode\":\"global\",\"viewRef\":\"other\"}]. Visual support covers 101 cell marks reached through the KG scope.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68152,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g34_1",
+    "label": "rect group · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rect group (Graphical Mark Group): markType: Rect. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g35_1",
+    "label": "color · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "color (Visual Attribute): attributeType: color. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g36_1",
+    "label": "position · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "position (Visual Attribute): attributeType: position. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g37_1",
+    "label": "rgb 0 168 204 · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 0 168 204 (Visual Attribute Value): value: {\"fill_rgb\":[0,168,204],\"kind\":\"color\"}; colorName: cyan blue. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g38_1",
+    "label": "rgb 12 176 68 · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 12 176 68 (Visual Attribute Value): value: {\"fill_rgb\":[12,176,68],\"kind\":\"color\"}; colorName: green. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g39_1",
+    "label": "rgb 181 57 111 · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 181 57 111 (Visual Attribute Value): value: {\"fill_rgb\":[181,57,111],\"kind\":\"color\"}; colorName: berry. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g40_1",
+    "label": "rgb 251 178 77 · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 251 178 77 (Visual Attribute Value): value: {\"fill_rgb\":[251,178,77],\"kind\":\"color\"}; colorName: golden orange. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g41_1",
+    "label": "rgb 255 0 246 · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 255 0 246 (Visual Attribute Value): value: {\"fill_rgb\":[255,0,246],\"kind\":\"color\"}; colorName: bright magenta. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g42_1",
+    "label": "rgb 255 104 42 · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 255 104 42 (Visual Attribute Value): value: {\"fill_rgb\":[255,104,42],\"kind\":\"color\"}; colorName: orange. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g43_1",
+    "label": "rgb 43 102 124 · other",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 43 102 124 (Visual Attribute Value): value: {\"fill_rgb\":[43,102,124],\"kind\":\"color\"}; colorName: dark teal blue. No mark-level geometry was available; provenance falls back to the containing other view.",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g44_1",
+    "label": "chart · chart view",
+    "kind": "image-region",
+    "confidence": 0.62,
+    "detail": "chart (Complex Chart) is connected by HAS_VIEW to other. The individual mark mask is unavailable; provenance falls back to the union of the chart's data views.",
+    "region": {
+      "x": 3.75168,
+      "y": 15.57276,
+      "width": 54.68151,
+      "height": 78.78184
+    }
+  },
+  {
+    "id": "ev_g45_1",
+    "label": "rect 1 · rect_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 1 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_1 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g46_1",
+    "label": "rect 10 · rect_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 10 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_10 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g47_1",
+    "label": "rect 100 · rect_100",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 100 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_100 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g48_1",
+    "label": "rect 101 · rect_101",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 101 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_101 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 86.44068,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g49_1",
+    "label": "rect 11 · rect_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 11 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_11 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 86.44068,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g50_1",
+    "label": "rect 12 · rect_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 12 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_12 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g51_1",
+    "label": "rect 13 · rect_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 13 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_13 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 23.97094,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g52_1",
+    "label": "rect 14 · rect_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 14 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_14 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 31.71913,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g53_1",
+    "label": "rect 15 · rect_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 15 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Latin America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Latin America. Visual support resolved through KG provenance to rect_15 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 39.46731,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g54_1",
+    "label": "rect 16 · rect_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 16 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_16 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 47.2155,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g55_1",
+    "label": "rect 17 · rect_17",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 17 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_17 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 55.20581,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g56_1",
+    "label": "rect 18 · rect_18",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 18 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_18 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 62.954,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g57_1",
+    "label": "rect 19 · rect_19",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 19 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_19 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 70.70218,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g58_1",
+    "label": "rect 2 · rect_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 2 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_2 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 16.22276,
+      "width": 53.78151,
+      "height": 77.48184
+    }
+  },
+  {
+    "id": "ev_g59_1",
+    "label": "rect 20 · rect_20",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 20 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_20 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 78.45036,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g60_1",
+    "label": "rect 21 · rect_21",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 21 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_21 (mask_bbox).",
+    "region": {
+      "x": 9.57983,
+      "y": 86.44068,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g61_1",
+    "label": "rect 22 · rect_22",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 22 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_22 (mask_bbox).",
+    "region": {
+      "x": 14.95798,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g62_1",
+    "label": "rect 23 · rect_23",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 23 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_23 (mask_bbox).",
+    "region": {
+      "x": 14.95798,
+      "y": 23.97094,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g63_1",
+    "label": "rect 24 · rect_24",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 24 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Eastern Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Eastern Europe. Visual support resolved through KG provenance to rect_24 (mask_bbox).",
+    "region": {
+      "x": 14.95798,
+      "y": 31.71913,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g64_1",
+    "label": "rect 25 · rect_25",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 25 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Latin America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Latin America. Visual support resolved through KG provenance to rect_25 (mask_bbox).",
+    "region": {
+      "x": 14.95798,
+      "y": 39.46731,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g65_1",
+    "label": "rect 26 · rect_26",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 26 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_26 (mask_bbox).",
+    "region": {
+      "x": 14.95798,
+      "y": 47.2155,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g66_1",
+    "label": "rect 27 · rect_27",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 27 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_27 (mask_bbox).",
+    "region": {
+      "x": 15.12605,
+      "y": 55.20581,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g67_1",
+    "label": "rect 28 · rect_28",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 28 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_28 (mask_bbox).",
+    "region": {
+      "x": 15.12605,
+      "y": 62.954,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g68_1",
+    "label": "rect 29 · rect_29",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 29 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_29 (mask_bbox).",
+    "region": {
+      "x": 15.12605,
+      "y": 70.70218,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g69_1",
+    "label": "rect 3 · rect_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 3 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_3 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 23.97094,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g70_1",
+    "label": "rect 30 · rect_30",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 30 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_30 (mask_bbox).",
+    "region": {
+      "x": 15.12605,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g71_1",
+    "label": "rect 31 · rect_31",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 31 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_31 (mask_bbox).",
+    "region": {
+      "x": 15.12605,
+      "y": 86.44068,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g72_1",
+    "label": "rect 32 · rect_32",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 32 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_32 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 16.22276,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g73_1",
+    "label": "rect 33 · rect_33",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 33 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Eastern Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Eastern Europe. Visual support resolved through KG provenance to rect_33 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 23.97094,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g74_1",
+    "label": "rect 34 · rect_34",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 34 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Eastern Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Eastern Europe. Visual support resolved through KG provenance to rect_34 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 31.71913,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g75_1",
+    "label": "rect 35 · rect_35",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 35 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Latin America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Latin America. Visual support resolved through KG provenance to rect_35 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 39.46731,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g76_1",
+    "label": "rect 36 · rect_36",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 36 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_36 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 47.45763,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g77_1",
+    "label": "rect 37 · rect_37",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 37 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_37 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 55.20581,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g78_1",
+    "label": "rect 38 · rect_38",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 38 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_38 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 62.954,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g79_1",
+    "label": "rect 39 · rect_39",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 39 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_39 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 70.70218,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g80_1",
+    "label": "rect 4 · rect_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 4 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas North America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to North America. Visual support resolved through KG provenance to rect_4 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 31.71913,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g81_1",
+    "label": "rect 40 · rect_40",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 40 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_40 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g82_1",
+    "label": "rect 41 · rect_41",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 41 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_41 (mask_bbox).",
+    "region": {
+      "x": 20.5042,
+      "y": 86.44068,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g83_1",
+    "label": "rect 42 · rect_42",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 42 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Australasia other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Australasia. Visual support resolved through KG provenance to rect_42 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g84_1",
+    "label": "rect 43 · rect_43",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 43 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Eastern Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Eastern Europe. Visual support resolved through KG provenance to rect_43 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 23.97094,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g85_1",
+    "label": "rect 44 · rect_44",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 44 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Eastern Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Eastern Europe. Visual support resolved through KG provenance to rect_44 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 31.71913,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g86_1",
+    "label": "rect 45 · rect_45",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 45 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Latin America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Latin America. Visual support resolved through KG provenance to rect_45 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 39.46731,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g87_1",
+    "label": "rect 46 · rect_46",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 46 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_46 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 47.45763,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g88_1",
+    "label": "rect 47 · rect_47",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 47 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_47 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 55.20581,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g89_1",
+    "label": "rect 48 · rect_48",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 48 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_48 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 62.954,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g90_1",
+    "label": "rect 49 · rect_49",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 49 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_49 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 70.70218,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g91_1",
+    "label": "rect 5 · rect_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 5 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Latin America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Latin America. Visual support resolved through KG provenance to rect_5 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 39.46731,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g92_1",
+    "label": "rect 50 · rect_50",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 50 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_50 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g93_1",
+    "label": "rect 51 · rect_51",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 51 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_51 (mask_bbox).",
+    "region": {
+      "x": 25.88235,
+      "y": 86.44068,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g94_1",
+    "label": "rect 52 · rect_52",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 52 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Australasia other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Australasia. Visual support resolved through KG provenance to rect_52 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g95_1",
+    "label": "rect 53 · rect_53",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 53 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Eastern Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Eastern Europe. Visual support resolved through KG provenance to rect_53 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 23.97094,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g96_1",
+    "label": "rect 54 · rect_54",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 54 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Eastern Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Eastern Europe. Visual support resolved through KG provenance to rect_54 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 31.71913,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g97_1",
+    "label": "rect 55 · rect_55",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 55 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Latin America other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Latin America. Visual support resolved through KG provenance to rect_55 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 39.46731,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g98_1",
+    "label": "rect 56 · rect_56",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 56 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_56 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 47.2155,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g99_1",
+    "label": "rect 57 · rect_57",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 57 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_57 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 55.20581,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g100_1",
+    "label": "rect 58 · rect_58",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 58 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_58 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 62.954,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g101_1",
+    "label": "rect 59 · rect_59",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 59 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_59 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 70.70218,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g102_1",
+    "label": "rect 6 · rect_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 6 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_6 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 47.2155,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g103_1",
+    "label": "rect 60 · rect_60",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 60 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_60 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g104_1",
+    "label": "rect 61 · rect_61",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 61 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_61 (mask_bbox).",
+    "region": {
+      "x": 31.2605,
+      "y": 86.44068,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g105_1",
+    "label": "rect 62 · rect_62",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 62 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_62 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g106_1",
+    "label": "rect 63 · rect_63",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 63 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_63 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 23.97094,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g107_1",
+    "label": "rect 64 · rect_64",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 64 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_64 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 31.71913,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g108_1",
+    "label": "rect 65 · rect_65",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 65 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_65 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 39.46731,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g109_1",
+    "label": "rect 66 · rect_66",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 66 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_66 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 47.45763,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g110_1",
+    "label": "rect 67 · rect_67",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 67 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_67 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 55.20581,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g111_1",
+    "label": "rect 68 · rect_68",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 68 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_68 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 62.954,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g112_1",
+    "label": "rect 69 · rect_69",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 69 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_69 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 70.70218,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g113_1",
+    "label": "rect 7 · rect_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 7 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_7 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 55.20581,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g114_1",
+    "label": "rect 70 · rect_70",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 70 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_70 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 78.45036,
+      "width": 5.21008,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g115_1",
+    "label": "rect 71 · rect_71",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 71 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Middle East and Africa other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Middle East and Africa. Visual support resolved through KG provenance to rect_71 (mask_bbox).",
+    "region": {
+      "x": 36.63866,
+      "y": 86.44068,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g116_1",
+    "label": "rect 72 · rect_72",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 72 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_72 (mask_bbox).",
+    "region": {
+      "x": 42.01681,
+      "y": 16.22276,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g117_1",
+    "label": "rect 73 · rect_73",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 73 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_73 (mask_bbox).",
+    "region": {
+      "x": 42.01681,
+      "y": 55.20581,
+      "width": 5.21008,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g118_1",
+    "label": "rect 74 · rect_74",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 74 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_74 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 23.97094,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g119_1",
+    "label": "rect 75 · rect_75",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 75 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_75 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 31.71913,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g120_1",
+    "label": "rect 76 · rect_76",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 76 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_76 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 39.46731,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g121_1",
+    "label": "rect 77 · rect_77",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 77 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_77 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 47.45763,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g122_1",
+    "label": "rect 78 · rect_78",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 78 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_78 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 62.954,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g123_1",
+    "label": "rect 79 · rect_79",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 79 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_79 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 70.70218,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g124_1",
+    "label": "rect 8 · rect_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 8 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_8 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 62.954,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g125_1",
+    "label": "rect 80 · rect_80",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 80 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_80 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g126_1",
+    "label": "rect 81 · rect_81",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 81 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_81 (mask_bbox).",
+    "region": {
+      "x": 42.18487,
+      "y": 86.44068,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g127_1",
+    "label": "rect 82 · rect_82",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 82 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_82 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 16.22276,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g128_1",
+    "label": "rect 83 · rect_83",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 83 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_83 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 23.97094,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g129_1",
+    "label": "rect 84 · rect_84",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 84 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_84 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 31.71913,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g130_1",
+    "label": "rect 85 · rect_85",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 85 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_85 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 39.46731,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g131_1",
+    "label": "rect 86 · rect_86",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 86 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_86 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 47.45763,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g132_1",
+    "label": "rect 87 · rect_87",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 87 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_87 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 55.20581,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g133_1",
+    "label": "rect 88 · rect_88",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 88 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_88 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 62.954,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g134_1",
+    "label": "rect 89 · rect_89",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 89 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_89 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 70.70218,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g135_1",
+    "label": "rect 9 · rect_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 9 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Western Europe other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Western Europe. Visual support resolved through KG provenance to rect_9 (mask_bbox).",
+    "region": {
+      "x": 4.20168,
+      "y": 70.70218,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g136_1",
+    "label": "rect 90 · rect_90",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 90 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_90 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 78.45036,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g137_1",
+    "label": "rect 91 · rect_91",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 91 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_91 (mask_bbox).",
+    "region": {
+      "x": 47.56303,
+      "y": 86.44068,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g138_1",
+    "label": "rect 92 · rect_92",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 92 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_92 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 16.22276,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g139_1",
+    "label": "rect 93 · rect_93",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 93 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_93 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 23.97094,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g140_1",
+    "label": "rect 94 · rect_94",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 94 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_94 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 31.71913,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g141_1",
+    "label": "rect 95 · rect_95",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 95 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_95 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 39.46731,
+      "width": 5.04202,
+      "height": 7.50605
+    }
+  },
+  {
+    "id": "ev_g142_1",
+    "label": "rect 96 · rect_96",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 96 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_96 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 47.45763,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g143_1",
+    "label": "rect 97 · rect_97",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 97 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_97 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 55.20581,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g144_1",
+    "label": "rect 98 · rect_98",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 98 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_98 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 62.954,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  },
+  {
+    "id": "ev_g145_1",
+    "label": "rect 99 · rect_99",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "rect 99 (Graphical Mark): markType: Rect; linked data: COMPOSED_OF from bas Asia Pacific other rect group; COMPOSED_OF from bas all other rect group; VALUE_OF to Asia Pacific. Visual support resolved through KG provenance to rect_99 (mask_bbox).",
+    "region": {
+      "x": 52.94118,
+      "y": 70.70218,
+      "width": 5.04202,
+      "height": 7.26392
+    }
+  }
+]

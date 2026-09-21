@@ -1,0 +1,57 @@
+{
+  "id": "summary_construction-kg-revision:d2ee9587803039bf0291",
+  "revisionId": "construction-kg-revision:d2ee9587803039bf0291",
+  "sentences": [
+    {
+      "id": "ss1",
+      "layer": "S1",
+      "text": "Global App Market is a 2018 Marimekko stacked-bar chart in which x position identifies Region, column width encodes regional market totals, and segment height encodes platform Percentage; separate annotations report 2017-2022 CAGR. The color encoding maps Platform to chart colors: cyan represents iOS, lime green represents Google Play, and slate blue represents Third Party Android.",
+      "citations": [
+        "G73",
+        "G63"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss2",
+      "layer": "S2",
+      "text": "The 2018 regional market totals are $72B for Asia Pacific, $61B for Americas, $13B for EMEA, and $146B worldwide. Regional 2017-2022 CAGR values are 13.7%, 14.3%, 14.3%, and 13.9%, respectively; platform CAGR is 12.2% for iOS, 13.7% for Google Play, and 17.9% for Third Party Android.",
+      "citations": [
+        "G63",
+        "G73"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss3",
+      "layer": "S3",
+      "text": "iOS is the largest platform share in every region: 45% in Asia Pacific, 87% in Americas, 54% in EMEA, and 63% worldwide. Asia Pacific and Worldwide share the same three-platform partition, but their contribution profiles differ: 37%, 18%, and 45% versus 18%, 19%, and 63% for Third Party Android, Google Play, and iOS, respectively.",
+      "citations": [
+        "G33",
+        "G35",
+        "G63",
+        "G97",
+        "G99",
+        "G100",
+        "G104",
+        "G105",
+        "G106"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss4",
+      "layer": "S4",
+      "text": "In 2018, iOS dominates the global app market, acco-unting for 63% of the total market. Over the 2017–2022 period, Third Party Android is projected to have the high-est CAGR among all platforms, reaching 17.9%.",
+      "citations": [
+        "G27",
+        "G33",
+        "G63",
+        "G73",
+        "G106"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "coverage": 1.0
+}

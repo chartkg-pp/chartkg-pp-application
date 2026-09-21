@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0",
+  "sessionId": "qa_c0613d5ca178",
+  "turns": [
+    {
+      "id": "turn_pending_1790007438192",
+      "question": "What does the chart show about iOS’s dominance in the worldwide app market in 2018?",
+      "status": "complete",
+      "createdAt": "2026-09-21T16:17:22.276864Z",
+      "preview": "iOS represented $92B of the $146B worldwide app market. [G106] [G71] [G27]",
+      "citationCount": 3,
+      "detailPath": "turns/turn_pending_1790007438192.json"
+    },
+    {
+      "id": "turn_pending_1790007589820",
+      "question": "What are the main trends shown in the global app market?",
+      "status": "complete",
+      "createdAt": "2026-09-21T16:19:56.438666Z",
+      "preview": "The worldwide app market totaled $146B in 2018, comprising iOS at $92B (63%), Google Play at $27B (19%), and Third Party Android at $26B (18%). [G27] iOS was the dominant platform worldwide in 2018, accounting for 63% of the total market. [",
+      "citationCount": 7,
+      "detailPath": "turns/turn_pending_1790007589820.json"
+    },
+    {
+      "id": "turn_pending_1790007632965",
+      "question": "What overall growth patterns and platform shifts are projected for the 2017–2022 period?",
+      "status": "complete",
+      "createdAt": "2026-09-21T16:20:40.991669Z",
+      "preview": "Over the 2017–2022 period, Third Party Android is projected to have the highest CAGR among all platforms, reaching 17.9%. [G27] [G70] Americas and EMEA share the highest regional CAGR at 14.3%. [G27] The 2018 worldwide app market is $146B, ",
+      "citationCount": 4,
+      "detailPath": "turns/turn_pending_1790007632965.json"
+    }
+  ]
+}

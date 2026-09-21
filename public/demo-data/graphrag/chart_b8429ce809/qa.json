@@ -1,0 +1,1604 @@
+{
+  "caseId": "chart_b8429ce809",
+  "sourceProject": "ChartKG++GraphRAG",
+  "revisionId": "construction-kg-revision:d2ee9587803039bf0291",
+  "examples": [
+    {
+      "id": "turn_pending_1790007438192",
+      "question": "What does the chart show about iOS’s dominance in the worldwide app market in 2018?",
+      "origin": "qa-session",
+      "suggested": true,
+      "createdAt": 1790007442276,
+      "turn": {
+        "answer": "iOS represented $92B of the $146B worldwide app market. [G106] [G71] [G27]",
+        "citationIds": [
+          "G106",
+          "G71",
+          "G27"
+        ],
+        "status": "verified",
+        "generationMode": "llm",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "graphrag-answer",
+          "version": "2.0",
+          "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+        },
+        "claims": [
+          {
+            "id": "claim_1",
+            "text": "iOS represented $92B of the $146B worldwide app market.",
+            "recordIds": [
+              "entity:bar_9",
+              "entity:Worldwide",
+              "entity:insight_Global_App_Market_Summary"
+            ],
+            "citationIds": [
+              "G106",
+              "G71",
+              "G27"
+            ],
+            "claimType": "observed"
+          }
+        ],
+        "citations": {
+          "G106": {
+            "id": "G106",
+            "claimIds": [
+              "entity:bar_9",
+              "relation:VALUE_OF:bar_9:Percentage",
+              "relation:VALUE_OF:bar_9:Worldwide",
+              "relation:VALUE_OF:bar_9:iOS",
+              "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+              "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_9",
+              "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_9"
+            ],
+            "entityIds": [
+              "bar_9",
+              "Percentage",
+              "Worldwide",
+              "iOS",
+              "bas_all_stacked_bar_bar_group",
+              "bas_Worldwide_stacked_bar_bar_group",
+              "bas_iOS_stacked_bar_bar_group"
+            ],
+            "evidenceIds": [
+              "ev_g106_1"
+            ],
+            "graphPath": [
+              "bar 9",
+              "VALUE_OF",
+              "Percentage"
+            ]
+          },
+          "G71": {
+            "id": "G71",
+            "claimIds": [
+              "entity:Worldwide",
+              "relation:ENCODES:Worldwide_position:Worldwide",
+              "relation:VALUE_OF:Worldwide:Region",
+              "relation:VALUE_OF:bar_7:Worldwide",
+              "relation:VALUE_OF:bar_8:Worldwide",
+              "relation:VALUE_OF:bar_9:Worldwide"
+            ],
+            "entityIds": [
+              "Worldwide",
+              "Worldwide_position",
+              "Region",
+              "bar_7",
+              "bar_8",
+              "bar_9"
+            ],
+            "evidenceIds": [
+              "ev_g71_1",
+              "ev_g71_2",
+              "ev_g71_3"
+            ],
+            "graphPath": [
+              "Worldwide position",
+              "ENCODES",
+              "Worldwide"
+            ]
+          },
+          "G27": {
+            "id": "G27",
+            "claimIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "relation:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+            ],
+            "entityIds": [
+              "insight_Global_App_Market_Summary",
+              "Composition_4"
+            ],
+            "evidenceIds": [
+              "ev_g27_1"
+            ],
+            "graphPath": [
+              "Global App Market Summary",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          }
+        },
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "llm",
+          "maxHops": 3,
+          "seedEntityIds": [
+            "insight_Global_App_Market_Summary",
+            "Worldwide",
+            "iOS",
+            "bar_9",
+            "insight_Composition_3",
+            "insight_Distribution_2"
+          ],
+          "communityIds": [
+            "community:4:Comparison_5",
+            "community:11:bas_Worldwide_stacked_bar_bar_group",
+            "community:5:Contrast",
+            "community:1:Comparison",
+            "community:12:bas_all_stacked_bar_bar_group",
+            "community:2:Comparison_2"
+          ],
+          "expandedEntityIds": [
+            "insight_Global_App_Market_Summary",
+            "Worldwide",
+            "iOS",
+            "bar_9",
+            "insight_Composition_3",
+            "insight_Distribution_2",
+            "bar_7",
+            "bar_8",
+            "bar_10",
+            "Distribution_2",
+            "bas_all_stacked_bar_bar_group",
+            "Distribution",
+            "insight_Distribution_1",
+            "Composition_6",
+            "Similarity",
+            "insight_Similarity_1",
+            "bas_Worldwide_stacked_bar_bar_group",
+            "bas_iOS_stacked_bar_bar_group",
+            "bas_Third_Party_Android_stacked_bar_bar_group",
+            "bas_Google_Play_stacked_bar_bar_group",
+            "bas_Americas_stacked_bar_bar_group",
+            "Composition_4"
+          ],
+          "relationIds": [
+            "relation:67:VALUE_OF:bar_7:Worldwide",
+            "relation:70:VALUE_OF:bar_8:Worldwide",
+            "relation:126:VALUE_OF:bar_10:iOS",
+            "relation:108:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+            "relation:138:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+            "relation:81:SUPPORTED_BY:Distribution:bas_all_stacked_bar_bar_group",
+            "relation:107:DERIVED_FROM:insight_Distribution_1:Distribution",
+            "relation:101:DERIVED_FROM:insight_Composition_3:Composition_6",
+            "relation:17:COMPOSED_OF:Similarity:Composition_6",
+            "relation:121:DERIVED_FROM:insight_Similarity_1:Similarity",
+            "relation:149:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_9",
+            "relation:158:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_9",
+            "relation:136:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_7",
+            "relation:147:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_7",
+            "relation:151:COMPOSED_OF:bas_Third_Party_Android_stacked_bar_bar_group:bar_7",
+            "relation:137:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_8",
+            "relation:148:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_8",
+            "relation:155:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_8",
+            "relation:139:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_10",
+            "relation:144:COMPOSED_OF:bas_Americas_stacked_bar_bar_group:bar_10",
+            "relation:159:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_10",
+            "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+          ],
+          "paths": [
+            {
+              "source": "Worldwide",
+              "target": "bar_7",
+              "nodeIds": [
+                "Worldwide",
+                "bar_7"
+              ],
+              "relationIds": [
+                "relation:67:VALUE_OF:bar_7:Worldwide"
+              ],
+              "hops": [
+                {
+                  "from": "Worldwide",
+                  "relation": "VALUE_OF",
+                  "to": "bar_7",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Worldwide",
+              "target": "bar_8",
+              "nodeIds": [
+                "Worldwide",
+                "bar_8"
+              ],
+              "relationIds": [
+                "relation:70:VALUE_OF:bar_8:Worldwide"
+              ],
+              "hops": [
+                {
+                  "from": "Worldwide",
+                  "relation": "VALUE_OF",
+                  "to": "bar_8",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "iOS",
+              "target": "bar_10",
+              "nodeIds": [
+                "iOS",
+                "bar_10"
+              ],
+              "relationIds": [
+                "relation:126:VALUE_OF:bar_10:iOS"
+              ],
+              "hops": [
+                {
+                  "from": "iOS",
+                  "relation": "VALUE_OF",
+                  "to": "bar_10",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "insight_Distribution_2",
+              "target": "Distribution_2",
+              "nodeIds": [
+                "insight_Distribution_2",
+                "Distribution_2"
+              ],
+              "relationIds": [
+                "relation:108:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Distribution_2",
+                  "relation": "DERIVED_FROM",
+                  "to": "Distribution_2",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "bar_9",
+              "target": "insight_Distribution_1",
+              "nodeIds": [
+                "bar_9",
+                "bas_all_stacked_bar_bar_group",
+                "Distribution",
+                "insight_Distribution_1"
+              ],
+              "relationIds": [
+                "relation:138:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+                "relation:81:SUPPORTED_BY:Distribution:bas_all_stacked_bar_bar_group",
+                "relation:107:DERIVED_FROM:insight_Distribution_1:Distribution"
+              ],
+              "hops": [
+                {
+                  "from": "bar_9",
+                  "relation": "COMPOSED_OF",
+                  "to": "bas_all_stacked_bar_bar_group",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "bas_all_stacked_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Distribution",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Distribution",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Distribution_1",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "insight_Composition_3",
+              "target": "insight_Similarity_1",
+              "nodeIds": [
+                "insight_Composition_3",
+                "Composition_6",
+                "Similarity",
+                "insight_Similarity_1"
+              ],
+              "relationIds": [
+                "relation:101:DERIVED_FROM:insight_Composition_3:Composition_6",
+                "relation:17:COMPOSED_OF:Similarity:Composition_6",
+                "relation:121:DERIVED_FROM:insight_Similarity_1:Similarity"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Composition_3",
+                  "relation": "DERIVED_FROM",
+                  "to": "Composition_6",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_6",
+                  "relation": "COMPOSED_OF",
+                  "to": "Similarity",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Similarity",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Similarity_1",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "bar_9",
+              "type": "Graphical_Mark",
+              "score": 2,
+              "lexicalScore": 12.544704,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "bar_7",
+              "type": "Graphical_Mark",
+              "score": 1.487805,
+              "lexicalScore": 8.724551,
+              "distance": 1.05,
+              "hops": 1
+            },
+            {
+              "entityId": "bar_8",
+              "type": "Graphical_Mark",
+              "score": 1.487805,
+              "lexicalScore": 8.989974,
+              "distance": 1.05,
+              "hops": 1
+            },
+            {
+              "entityId": "bar_10",
+              "type": "Graphical_Mark",
+              "score": 1.484164,
+              "lexicalScore": 8.519848,
+              "distance": 1.065415,
+              "hops": 1
+            },
+            {
+              "entityId": "insight_Global_App_Market_Summary",
+              "type": "Insight",
+              "score": 1.21,
+              "lexicalScore": 30.476429,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Composition_3",
+              "type": "Insight",
+              "score": 0.775934,
+              "lexicalScore": 6.853629,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Distribution_2",
+              "type": "Insight",
+              "score": 0.769966,
+              "lexicalScore": 6.528795,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Worldwide",
+              "type": "Variable_Value",
+              "score": 0.671107,
+              "lexicalScore": 13.295712,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "iOS",
+              "type": "Variable_Value",
+              "score": 0.659996,
+              "lexicalScore": 12.691059,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Distribution_2",
+              "type": "Basic_Pattern",
+              "score": 0.655688,
+              "lexicalScore": 17.205706,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "insight_Distribution_1",
+              "type": "Insight",
+              "score": 0.588125,
+              "lexicalScore": 10.986708,
+              "distance": 1.885415,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Similarity_1",
+              "type": "Insight",
+              "score": 0.523822,
+              "lexicalScore": 7.23489,
+              "distance": 1.72,
+              "hops": 3
+            }
+          ]
+        }
+      },
+      "visionTurn": {
+        "answer": "In 2018, iOS dominated the worldwide app market with $92 billion in revenue, representing 63% of the $146 billion total—well ahead of Google Play at 19% and third-party Android at 18%.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "chart-vision-answer",
+          "version": "1.2",
+          "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+        },
+        "provenance": {
+          "sourceType": "chart-image",
+          "chartId": "chart_b8429ce809",
+          "imageSha256": "c10a09a161ff791ef573698c9ba7f2561bbd4a677ec4be09986349fb710a95d4",
+          "mediaType": "image/png",
+          "provenanceLevel": "image"
+        }
+      }
+    },
+    {
+      "id": "turn_pending_1790007589820",
+      "question": "What are the main trends shown in the global app market?",
+      "origin": "qa-session",
+      "suggested": true,
+      "createdAt": 1790007596438,
+      "turn": {
+        "answer": "The worldwide app market totaled $146B in 2018, comprising iOS at $92B (63%), Google Play at $27B (19%), and Third Party Android at $26B (18%). [G27] iOS was the dominant platform worldwide in 2018, accounting for 63% of the total market. [G27] [G7] iOS also had the largest platform share in each reported region: 45.0% in Asia Pacific, 87.0% in Americas, and 54.0% in EMEA. [G27] [G8] [G9] Platform composition varied substantially by region: Third Party Android represented 37.0% in Asia Pacific but 18.0% worldwide, while Google Play ranged from 13.0% in Americas to 46.0% in EMEA. [G6] [G7] [G10] Asia Pacific was the largest reported regional market in 2018 at $72B, followed by Americas at $61B and EMEA at $13B. [G63] For 2017–2022, Third Party Android was projected to have the highest platform CAGR at 17.9%, compared with 13.7% for Google Play and 12.2% for iOS. [G27] [G63] Americas and EMEA shared the highest projected regional CAGR at 14.3%, compared with 13.7% for Asia Pacific and 13.9% worldwide. [G27] [G63]",
+        "citationIds": [
+          "G27",
+          "G7",
+          "G8",
+          "G9",
+          "G6",
+          "G10",
+          "G63"
+        ],
+        "status": "verified",
+        "generationMode": "llm",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "graphrag-answer",
+          "version": "2.0",
+          "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+        },
+        "claims": [
+          {
+            "id": "claim_1",
+            "text": "The worldwide app market totaled $146B in 2018, comprising iOS at $92B (63%), Google Play at $27B (19%), and Third Party Android at $26B (18%).",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary"
+            ],
+            "citationIds": [
+              "G27"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_2",
+            "text": "iOS was the dominant platform worldwide in 2018, accounting for 63% of the total market.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:insight_Composition_3"
+            ],
+            "citationIds": [
+              "G27",
+              "G7"
+            ],
+            "claimType": "interpretation"
+          },
+          {
+            "id": "claim_3",
+            "text": "iOS also had the largest platform share in each reported region: 45.0% in Asia Pacific, 87.0% in Americas, and 54.0% in EMEA.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:insight_Composition_4",
+              "entity:insight_Composition_5"
+            ],
+            "citationIds": [
+              "G27",
+              "G8",
+              "G9"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_4",
+            "text": "Platform composition varied substantially by region: Third Party Android represented 37.0% in Asia Pacific but 18.0% worldwide, while Google Play ranged from 13.0% in Americas to 46.0% in EMEA.",
+            "recordIds": [
+              "entity:insight_Composition_2",
+              "entity:insight_Composition_3",
+              "entity:insight_Composition_6"
+            ],
+            "citationIds": [
+              "G6",
+              "G7",
+              "G10"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_5",
+            "text": "Asia Pacific was the largest reported regional market in 2018 at $72B, followed by Americas at $61B and EMEA at $13B.",
+            "recordIds": [
+              "entity:Percentage"
+            ],
+            "citationIds": [
+              "G63"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_6",
+            "text": "For 2017–2022, Third Party Android was projected to have the highest platform CAGR at 17.9%, compared with 13.7% for Google Play and 12.2% for iOS.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:Percentage"
+            ],
+            "citationIds": [
+              "G27",
+              "G63"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_7",
+            "text": "Americas and EMEA shared the highest projected regional CAGR at 14.3%, compared with 13.7% for Asia Pacific and 13.9% worldwide.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:Percentage"
+            ],
+            "citationIds": [
+              "G27",
+              "G63"
+            ],
+            "claimType": "observed"
+          }
+        ],
+        "citations": {
+          "G27": {
+            "id": "G27",
+            "claimIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "relation:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+            ],
+            "entityIds": [
+              "insight_Global_App_Market_Summary",
+              "Composition_4"
+            ],
+            "evidenceIds": [
+              "ev_g27_1"
+            ],
+            "graphPath": [
+              "Global App Market Summary",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G7": {
+            "id": "G7",
+            "claimIds": [
+              "entity:insight_Composition_3",
+              "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+            ],
+            "entityIds": [
+              "insight_Composition_3",
+              "Composition_6"
+            ],
+            "evidenceIds": [
+              "ev_g7_1",
+              "ev_g7_2",
+              "ev_g7_3"
+            ],
+            "graphPath": [
+              "Composition 3",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G8": {
+            "id": "G8",
+            "claimIds": [
+              "entity:insight_Composition_4",
+              "relation:DERIVED_FROM:insight_Composition_4:Composition_5"
+            ],
+            "entityIds": [
+              "insight_Composition_4",
+              "Composition_5"
+            ],
+            "evidenceIds": [
+              "ev_g8_1",
+              "ev_g8_2",
+              "ev_g8_3",
+              "ev_g8_4"
+            ],
+            "graphPath": [
+              "Composition 4",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G9": {
+            "id": "G9",
+            "claimIds": [
+              "entity:insight_Composition_5",
+              "relation:DERIVED_FROM:insight_Composition_5:Composition_4"
+            ],
+            "entityIds": [
+              "insight_Composition_5",
+              "Composition_4"
+            ],
+            "evidenceIds": [
+              "ev_g9_1"
+            ],
+            "graphPath": [
+              "Composition 5",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G6": {
+            "id": "G6",
+            "claimIds": [
+              "entity:insight_Composition_2",
+              "relation:DERIVED_FROM:insight_Composition_2:Composition_3"
+            ],
+            "entityIds": [
+              "insight_Composition_2",
+              "Composition_3"
+            ],
+            "evidenceIds": [
+              "ev_g6_1",
+              "ev_g6_2",
+              "ev_g6_3"
+            ],
+            "graphPath": [
+              "Composition 2",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G10": {
+            "id": "G10",
+            "claimIds": [
+              "entity:insight_Composition_6",
+              "relation:DERIVED_FROM:insight_Composition_6:Composition"
+            ],
+            "entityIds": [
+              "insight_Composition_6",
+              "Composition"
+            ],
+            "evidenceIds": [
+              "ev_g10_1",
+              "ev_g10_2",
+              "ev_g10_3",
+              "ev_g10_4"
+            ],
+            "graphPath": [
+              "Composition 6",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G63": {
+            "id": "G63",
+            "claimIds": [
+              "entity:Percentage",
+              "relation:ENCODES:height:Percentage",
+              "relation:ENCODES:text_label:Percentage",
+              "relation:ENCODES:y_position:Percentage",
+              "relation:VALUE_OF:bar_1:Percentage",
+              "relation:VALUE_OF:bar_2:Percentage",
+              "relation:VALUE_OF:bar_3:Percentage",
+              "relation:VALUE_OF:bar_4:Percentage",
+              "relation:VALUE_OF:bar_5:Percentage",
+              "relation:VALUE_OF:bar_6:Percentage",
+              "relation:VALUE_OF:bar_7:Percentage",
+              "relation:VALUE_OF:bar_8:Percentage",
+              "relation:VALUE_OF:bar_9:Percentage",
+              "relation:VALUE_OF:bar_10:Percentage"
+            ],
+            "entityIds": [
+              "Percentage",
+              "height",
+              "text_label",
+              "y_position",
+              "bar_1",
+              "bar_2",
+              "bar_3",
+              "bar_4",
+              "bar_5",
+              "bar_6",
+              "bar_7",
+              "bar_8",
+              "bar_9",
+              "bar_10"
+            ],
+            "evidenceIds": [
+              "ev_g63_1"
+            ],
+            "graphPath": [
+              "height",
+              "ENCODES",
+              "Percentage"
+            ]
+          }
+        },
+        "retrieval": {
+          "strategy": "graph-global",
+          "planner": "llm",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "insight_Global_App_Market_Summary",
+            "stacked_bar",
+            "bas_all_stacked_bar_bar_group",
+            "Market_Value_USD_Billions",
+            "Percentage"
+          ],
+          "communityIds": [
+            "community:4:Comparison_5",
+            "community:12:bas_all_stacked_bar_bar_group",
+            "community:10:bas_Google_Play_stacked_bar_bar_group",
+            "community:5:Contrast",
+            "community:2:Comparison_2",
+            "community:3:Comparison_3"
+          ],
+          "expandedEntityIds": [
+            "insight_Global_App_Market_Summary",
+            "stacked_bar",
+            "bas_all_stacked_bar_bar_group",
+            "Market_Value_USD_Billions",
+            "Percentage",
+            "Composition_4",
+            "insight_Composition_5",
+            "Contrast",
+            "Composition_6",
+            "insight_Composition_3",
+            "Composition_3",
+            "insight_Composition_2",
+            "bas_Google_Play_stacked_bar_bar_group",
+            "Composition",
+            "insight_Composition_6",
+            "Contrast_2",
+            "Composition_5",
+            "insight_Composition_4",
+            "Similarity"
+          ],
+          "relationIds": [
+            "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4",
+            "relation:103:DERIVED_FROM:insight_Composition_5:Composition_4",
+            "relation:12:COMPOSED_OF:Contrast:Composition_6",
+            "relation:101:DERIVED_FROM:insight_Composition_3:Composition_6",
+            "relation:11:COMPOSED_OF:Contrast:Composition_3",
+            "relation:100:DERIVED_FROM:insight_Composition_2:Composition_3",
+            "relation:75:SUPPORTED_BY:Composition:bas_Google_Play_stacked_bar_bar_group",
+            "relation:104:DERIVED_FROM:insight_Composition_6:Composition",
+            "relation:13:COMPOSED_OF:Contrast_2:Composition",
+            "relation:15:COMPOSED_OF:Contrast_2:Composition_5",
+            "relation:102:DERIVED_FROM:insight_Composition_4:Composition_5",
+            "relation:16:COMPOSED_OF:Similarity:Composition_3",
+            "relation:17:COMPOSED_OF:Similarity:Composition_6"
+          ],
+          "paths": [
+            {
+              "source": "insight_Global_App_Market_Summary",
+              "target": "insight_Composition_5",
+              "nodeIds": [
+                "insight_Global_App_Market_Summary",
+                "Composition_4",
+                "insight_Composition_5"
+              ],
+              "relationIds": [
+                "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4",
+                "relation:103:DERIVED_FROM:insight_Composition_5:Composition_4"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Global_App_Market_Summary",
+                  "relation": "DERIVED_FROM",
+                  "to": "Composition_4",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_4",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_5",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Contrast",
+              "target": "insight_Composition_3",
+              "nodeIds": [
+                "Contrast",
+                "Composition_6",
+                "insight_Composition_3"
+              ],
+              "relationIds": [
+                "relation:12:COMPOSED_OF:Contrast:Composition_6",
+                "relation:101:DERIVED_FROM:insight_Composition_3:Composition_6"
+              ],
+              "hops": [
+                {
+                  "from": "Contrast",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_6",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_6",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_3",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Contrast",
+              "target": "insight_Composition_2",
+              "nodeIds": [
+                "Contrast",
+                "Composition_3",
+                "insight_Composition_2"
+              ],
+              "relationIds": [
+                "relation:11:COMPOSED_OF:Contrast:Composition_3",
+                "relation:100:DERIVED_FROM:insight_Composition_2:Composition_3"
+              ],
+              "hops": [
+                {
+                  "from": "Contrast",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_3",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_3",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_2",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Google_Play_stacked_bar_bar_group",
+              "target": "insight_Composition_6",
+              "nodeIds": [
+                "bas_Google_Play_stacked_bar_bar_group",
+                "Composition",
+                "insight_Composition_6"
+              ],
+              "relationIds": [
+                "relation:75:SUPPORTED_BY:Composition:bas_Google_Play_stacked_bar_bar_group",
+                "relation:104:DERIVED_FROM:insight_Composition_6:Composition"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Google_Play_stacked_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Composition",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Composition",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_6",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Google_Play_stacked_bar_bar_group",
+              "target": "insight_Composition_4",
+              "nodeIds": [
+                "bas_Google_Play_stacked_bar_bar_group",
+                "Composition",
+                "Contrast_2",
+                "Composition_5",
+                "insight_Composition_4"
+              ],
+              "relationIds": [
+                "relation:75:SUPPORTED_BY:Composition:bas_Google_Play_stacked_bar_bar_group",
+                "relation:13:COMPOSED_OF:Contrast_2:Composition",
+                "relation:15:COMPOSED_OF:Contrast_2:Composition_5",
+                "relation:102:DERIVED_FROM:insight_Composition_4:Composition_5"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Google_Play_stacked_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Composition",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Composition",
+                  "relation": "COMPOSED_OF",
+                  "to": "Contrast_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Contrast_2",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_5",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_5",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_4",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Contrast",
+              "target": "Composition_3",
+              "nodeIds": [
+                "Contrast",
+                "Composition_3"
+              ],
+              "relationIds": [
+                "relation:11:COMPOSED_OF:Contrast:Composition_3"
+              ],
+              "hops": [
+                {
+                  "from": "Contrast",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_3",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Contrast",
+              "target": "Composition_6",
+              "nodeIds": [
+                "Contrast",
+                "Composition_6"
+              ],
+              "relationIds": [
+                "relation:12:COMPOSED_OF:Contrast:Composition_6"
+              ],
+              "hops": [
+                {
+                  "from": "Contrast",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_6",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "insight_Global_App_Market_Summary",
+              "target": "Composition_4",
+              "nodeIds": [
+                "insight_Global_App_Market_Summary",
+                "Composition_4"
+              ],
+              "relationIds": [
+                "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Global_App_Market_Summary",
+                  "relation": "DERIVED_FROM",
+                  "to": "Composition_4",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "bas_Google_Play_stacked_bar_bar_group",
+              "target": "Composition",
+              "nodeIds": [
+                "bas_Google_Play_stacked_bar_bar_group",
+                "Composition"
+              ],
+              "relationIds": [
+                "relation:75:SUPPORTED_BY:Composition:bas_Google_Play_stacked_bar_bar_group"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Google_Play_stacked_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Composition",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Global_App_Market_Summary",
+              "type": "Insight",
+              "score": 1.21,
+              "lexicalScore": 20.835962,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Composition_5",
+              "type": "Insight",
+              "score": 0.837441,
+              "lexicalScore": 15.726658,
+              "distance": 1.1,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Composition_3",
+              "type": "Insight",
+              "score": 0.833945,
+              "lexicalScore": 15.722331,
+              "distance": 1.17,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Composition_2",
+              "type": "Insight",
+              "score": 0.830161,
+              "lexicalScore": 15.58151,
+              "distance": 1.17,
+              "hops": 2
+            },
+            {
+              "entityId": "Percentage",
+              "type": "Data_Variable",
+              "score": 0.826609,
+              "lexicalScore": 14.56319,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Composition_6",
+              "type": "Insight",
+              "score": 0.788021,
+              "lexicalScore": 14.147736,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "Market_Value_USD_Billions",
+              "type": "Data_Variable",
+              "score": 0.726062,
+              "lexicalScore": 10.822131,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Composition_4",
+              "type": "Insight",
+              "score": 0.714817,
+              "lexicalScore": 12.716638,
+              "distance": 2.49,
+              "hops": 4
+            },
+            {
+              "entityId": "Composition_3",
+              "type": "Basic_Pattern",
+              "score": 0.657027,
+              "lexicalScore": 12.041107,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Composition_6",
+              "type": "Basic_Pattern",
+              "score": 0.657027,
+              "lexicalScore": 12.041107,
+              "distance": 0.62,
+              "hops": 1
+            },
+            {
+              "entityId": "Composition_4",
+              "type": "Basic_Pattern",
+              "score": 0.6523,
+              "lexicalScore": 11.637056,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "Composition",
+              "type": "Basic_Pattern",
+              "score": 0.6491,
+              "lexicalScore": 11.983957,
+              "distance": 0.7,
+              "hops": 1
+            }
+          ]
+        }
+      },
+      "visionTurn": {
+        "answer": "The 2018 global app market totaled about $146 billion, led by iOS with 63% of revenue and especially strong dominance in the Americas. Asia Pacific was the largest regional market and had a more balanced platform mix, including substantial third-party Android revenue. Overall market growth was projected near 14% annually through 2022, with third-party Android growing fastest at roughly 18%.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "chart-vision-answer",
+          "version": "1.2",
+          "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+        },
+        "provenance": {
+          "sourceType": "chart-image",
+          "chartId": "chart_b8429ce809",
+          "imageSha256": "c10a09a161ff791ef573698c9ba7f2561bbd4a677ec4be09986349fb710a95d4",
+          "mediaType": "image/png",
+          "provenanceLevel": "image"
+        }
+      }
+    },
+    {
+      "id": "turn_pending_1790007632965",
+      "question": "What overall growth patterns and platform shifts are projected for the 2017–2022 period?",
+      "origin": "qa-session",
+      "suggested": true,
+      "createdAt": 1790007640991,
+      "turn": {
+        "answer": "Over the 2017–2022 period, Third Party Android is projected to have the highest CAGR among all platforms, reaching 17.9%. [G27] [G70] Americas and EMEA share the highest regional CAGR at 14.3%. [G27] The 2018 worldwide app market is $146B, led by iOS at $92B (63%), followed by Google Play at $27B (19%) and Third Party Android at $26B (18%). [G27] [G7] The projected pattern therefore combines an iOS-dominated 2018 baseline with the strongest subsequent platform growth momentum shifting toward Third Party Android through 2022. [G27] [G70] [G14] The supplied evidence does not establish that Third Party Android overtakes iOS by 2022. [G27] [G70]",
+        "citationIds": [
+          "G27",
+          "G70",
+          "G7",
+          "G14"
+        ],
+        "status": "verified",
+        "generationMode": "llm",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "graphrag-answer",
+          "version": "2.0",
+          "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+        },
+        "claims": [
+          {
+            "id": "claim_1",
+            "text": "Over the 2017–2022 period, Third Party Android is projected to have the highest CAGR among all platforms, reaching 17.9%.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:Third_Party_Android"
+            ],
+            "citationIds": [
+              "G27",
+              "G70"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_2",
+            "text": "Americas and EMEA share the highest regional CAGR at 14.3%.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary"
+            ],
+            "citationIds": [
+              "G27"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_3",
+            "text": "The 2018 worldwide app market is $146B, led by iOS at $92B (63%), followed by Google Play at $27B (19%) and Third Party Android at $26B (18%).",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:insight_Composition_3"
+            ],
+            "citationIds": [
+              "G27",
+              "G7"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_4",
+            "text": "The projected pattern therefore combines an iOS-dominated 2018 baseline with the strongest subsequent platform growth momentum shifting toward Third Party Android through 2022.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:Third_Party_Android",
+              "entity:insight_Distribution_2"
+            ],
+            "citationIds": [
+              "G27",
+              "G70",
+              "G14"
+            ],
+            "claimType": "derived"
+          },
+          {
+            "id": "claim_5",
+            "text": "The supplied evidence does not establish that Third Party Android overtakes iOS by 2022.",
+            "recordIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "entity:Third_Party_Android"
+            ],
+            "citationIds": [
+              "G27",
+              "G70"
+            ],
+            "claimType": "derived"
+          }
+        ],
+        "citations": {
+          "G27": {
+            "id": "G27",
+            "claimIds": [
+              "entity:insight_Global_App_Market_Summary",
+              "relation:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+            ],
+            "entityIds": [
+              "insight_Global_App_Market_Summary",
+              "Composition_4"
+            ],
+            "evidenceIds": [
+              "ev_g27_1"
+            ],
+            "graphPath": [
+              "Global App Market Summary",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G70": {
+            "id": "G70",
+            "claimIds": [
+              "entity:Third_Party_Android",
+              "relation:ENCODES:rgb_134_149_189:Third_Party_Android",
+              "relation:VALUE_OF:Third_Party_Android:Platform",
+              "relation:VALUE_OF:bar_1:Third_Party_Android",
+              "relation:VALUE_OF:bar_7:Third_Party_Android"
+            ],
+            "entityIds": [
+              "Third_Party_Android",
+              "rgb_134_149_189",
+              "Platform",
+              "bar_1",
+              "bar_7"
+            ],
+            "evidenceIds": [
+              "ev_g70_1",
+              "ev_g70_2"
+            ],
+            "graphPath": [
+              "rgb 134 149 189",
+              "ENCODES",
+              "Third Party Android"
+            ]
+          },
+          "G7": {
+            "id": "G7",
+            "claimIds": [
+              "entity:insight_Composition_3",
+              "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+            ],
+            "entityIds": [
+              "insight_Composition_3",
+              "Composition_6"
+            ],
+            "evidenceIds": [
+              "ev_g7_1",
+              "ev_g7_2",
+              "ev_g7_3"
+            ],
+            "graphPath": [
+              "Composition 3",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G14": {
+            "id": "G14",
+            "claimIds": [
+              "entity:insight_Distribution_2",
+              "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+            ],
+            "entityIds": [
+              "insight_Distribution_2",
+              "Distribution_2"
+            ],
+            "evidenceIds": [
+              "ev_g14_1",
+              "ev_g14_2",
+              "ev_g14_3"
+            ],
+            "graphPath": [
+              "Distribution 2",
+              "DERIVED_FROM",
+              "Distribution: Dominance"
+            ]
+          }
+        },
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "llm",
+          "maxHops": 4,
+          "seedEntityIds": [
+            "insight_Global_App_Market_Summary",
+            "Platform"
+          ],
+          "communityIds": [
+            "community:4:Comparison_5",
+            "community:12:bas_all_stacked_bar_bar_group",
+            "community:5:Contrast",
+            "community:10:bas_Google_Play_stacked_bar_bar_group",
+            "community:2:Comparison_2",
+            "community:1:Comparison"
+          ],
+          "expandedEntityIds": [
+            "insight_Global_App_Market_Summary",
+            "Platform",
+            "Composition_4",
+            "insight_Composition_5",
+            "bas_all_stacked_bar_bar_group",
+            "Extreme_9",
+            "insight_Extreme_5",
+            "Third_Party_Android",
+            "insight_Comparison_4",
+            "insight_Composition_3",
+            "insight_Composition_2",
+            "insight_Comparison_3",
+            "insight_Contrast_2",
+            "insight_Distribution_2",
+            "insight_Similarity_1",
+            "Comparison_5",
+            "Composition_6",
+            "Composition_3",
+            "Comparison_3",
+            "Contrast_2",
+            "Distribution_2",
+            "Similarity"
+          ],
+          "relationIds": [
+            "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4",
+            "relation:103:DERIVED_FROM:insight_Composition_5:Composition_4",
+            "relation:78:SUPPORTED_BY:Composition_4:bas_all_stacked_bar_bar_group",
+            "relation:94:SUPPORTED_BY:Extreme_9:bas_all_stacked_bar_bar_group",
+            "relation:116:DERIVED_FROM:insight_Extreme_5:Extreme_9",
+            "relation:48:VALUE_OF:Third_Party_Android:Platform",
+            "relation:98:DERIVED_FROM:insight_Comparison_4:Comparison_5",
+            "relation:101:DERIVED_FROM:insight_Composition_3:Composition_6",
+            "relation:100:DERIVED_FROM:insight_Composition_2:Composition_3",
+            "relation:97:DERIVED_FROM:insight_Comparison_3:Comparison_3",
+            "relation:106:DERIVED_FROM:insight_Contrast_2:Contrast_2",
+            "relation:108:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+            "relation:121:DERIVED_FROM:insight_Similarity_1:Similarity"
+          ],
+          "paths": [
+            {
+              "source": "insight_Global_App_Market_Summary",
+              "target": "insight_Composition_5",
+              "nodeIds": [
+                "insight_Global_App_Market_Summary",
+                "Composition_4",
+                "insight_Composition_5"
+              ],
+              "relationIds": [
+                "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4",
+                "relation:103:DERIVED_FROM:insight_Composition_5:Composition_4"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Global_App_Market_Summary",
+                  "relation": "DERIVED_FROM",
+                  "to": "Composition_4",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_4",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_5",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "insight_Global_App_Market_Summary",
+              "target": "insight_Extreme_5",
+              "nodeIds": [
+                "insight_Global_App_Market_Summary",
+                "Composition_4",
+                "bas_all_stacked_bar_bar_group",
+                "Extreme_9",
+                "insight_Extreme_5"
+              ],
+              "relationIds": [
+                "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4",
+                "relation:78:SUPPORTED_BY:Composition_4:bas_all_stacked_bar_bar_group",
+                "relation:94:SUPPORTED_BY:Extreme_9:bas_all_stacked_bar_bar_group",
+                "relation:116:DERIVED_FROM:insight_Extreme_5:Extreme_9"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Global_App_Market_Summary",
+                  "relation": "DERIVED_FROM",
+                  "to": "Composition_4",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_4",
+                  "relation": "SUPPORTED_BY",
+                  "to": "bas_all_stacked_bar_bar_group",
+                  "direction": "forward"
+                },
+                {
+                  "from": "bas_all_stacked_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Extreme_9",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Extreme_9",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Extreme_5",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Platform",
+              "target": "Third_Party_Android",
+              "nodeIds": [
+                "Platform",
+                "Third_Party_Android"
+              ],
+              "relationIds": [
+                "relation:48:VALUE_OF:Third_Party_Android:Platform"
+              ],
+              "hops": [
+                {
+                  "from": "Platform",
+                  "relation": "VALUE_OF",
+                  "to": "Third_Party_Android",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Global_App_Market_Summary",
+              "type": "Insight",
+              "score": 1.21,
+              "lexicalScore": 40.540348,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Platform",
+              "type": "Data_Variable",
+              "score": 0.580515,
+              "lexicalScore": 10.519878,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Composition_5",
+              "type": "Insight",
+              "score": 0.554253,
+              "lexicalScore": 10.098229,
+              "distance": 1.1,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Comparison_4",
+              "type": "Insight",
+              "score": 0.512825,
+              "lexicalScore": 14.683225,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Extreme_5",
+              "type": "Insight",
+              "score": 0.482645,
+              "lexicalScore": 7.947906,
+              "distance": 2.5,
+              "hops": 4
+            },
+            {
+              "entityId": "Third_Party_Android",
+              "type": "Variable_Value",
+              "score": 0.477674,
+              "lexicalScore": 20.527645,
+              "distance": 1.05,
+              "hops": 1
+            },
+            {
+              "entityId": "insight_Composition_3",
+              "type": "Insight",
+              "score": 0.469407,
+              "lexicalScore": 11.540032,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Composition_2",
+              "type": "Insight",
+              "score": 0.46632,
+              "lexicalScore": 11.316555,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Comparison_3",
+              "type": "Insight",
+              "score": 0.463352,
+              "lexicalScore": 11.101692,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Contrast_2",
+              "type": "Insight",
+              "score": 0.463352,
+              "lexicalScore": 11.101692,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Distribution_2",
+              "type": "Insight",
+              "score": 0.461911,
+              "lexicalScore": 10.997335,
+              "distance": null,
+              "hops": null
+            },
+            {
+              "entityId": "insight_Similarity_1",
+              "type": "Insight",
+              "score": 0.458006,
+              "lexicalScore": 10.714646,
+              "distance": null,
+              "hops": null
+            }
+          ]
+        }
+      },
+      "visionTurn": {
+        "answer": "The global app market is projected to grow at roughly 14% annually from 2017 to 2022, with the Americas and EMEA slightly outpacing Asia Pacific. Third-party Android is expected to grow fastest (17.9% CAGR), followed by Google Play (13.7%) and iOS (12.2%), indicating a gradual shift toward Android platforms even though iOS remains the largest market segment.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "chart-vision-answer",
+          "version": "1.2",
+          "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+        },
+        "provenance": {
+          "sourceType": "chart-image",
+          "chartId": "chart_b8429ce809",
+          "imageSha256": "c10a09a161ff791ef573698c9ba7f2561bbd4a677ec4be09986349fb710a95d4",
+          "mediaType": "image/png",
+          "provenanceLevel": "image"
+        }
+      }
+    }
+  ]
+}

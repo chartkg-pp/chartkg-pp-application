@@ -1,0 +1,1148 @@
+{
+  "caseId": "chart_afcfce8d7b",
+  "sourceProject": "ChartKG++GraphRAG",
+  "revisionId": "construction-kg-revision:group4037-year-insight-curation-v1",
+  "examples": [
+    {
+      "id": "turn_pending_1790011257780",
+      "question": "What overall trends in journal article counts are shown from 2000 to 2015?",
+      "origin": "qa-session",
+      "suggested": true,
+      "createdAt": 1790011277522,
+      "turn": {
+        "answer": "Across 2000–2015, Journal Articles A-rated, Journal Articles not A-rated, and Total all fluctuate rather than following a steady monotonic trend. [G41] [G42] [G43] Journal Articles A-rated undergoes several rises and falls before a pronounced late decline. [G41] Journal Articles not A-rated rises unevenly in the earlier period, reaches a mid-period high, and then declines. [G42] Total broadly rises in the earlier period and declines afterward, with fluctuations throughout. [G43]",
+        "citationIds": [
+          "G41",
+          "G42",
+          "G43"
+        ],
+        "status": "verified",
+        "generationMode": "llm",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "graphrag-answer",
+          "version": "2.0",
+          "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+        },
+        "claims": [
+          {
+            "id": "claim_1",
+            "text": "Across 2000–2015, Journal Articles A-rated, Journal Articles not A-rated, and Total all fluctuate rather than following a steady monotonic trend.",
+            "recordIds": [
+              "entity:insight_Trend_1",
+              "entity:insight_Trend_2",
+              "entity:insight_Trend_3"
+            ],
+            "citationIds": [
+              "G41",
+              "G42",
+              "G43"
+            ],
+            "claimType": "derived"
+          },
+          {
+            "id": "claim_2",
+            "text": "Journal Articles A-rated undergoes several rises and falls before a pronounced late decline.",
+            "recordIds": [
+              "entity:insight_Trend_1"
+            ],
+            "citationIds": [
+              "G41"
+            ],
+            "claimType": "interpretation"
+          },
+          {
+            "id": "claim_3",
+            "text": "Journal Articles not A-rated rises unevenly in the earlier period, reaches a mid-period high, and then declines.",
+            "recordIds": [
+              "entity:insight_Trend_2"
+            ],
+            "citationIds": [
+              "G42"
+            ],
+            "claimType": "interpretation"
+          },
+          {
+            "id": "claim_4",
+            "text": "Total broadly rises in the earlier period and declines afterward, with fluctuations throughout.",
+            "recordIds": [
+              "entity:insight_Trend_3"
+            ],
+            "citationIds": [
+              "G43"
+            ],
+            "claimType": "interpretation"
+          }
+        ],
+        "citations": {
+          "G41": {
+            "id": "G41",
+            "claimIds": [
+              "entity:insight_Trend_1",
+              "relation:DERIVED_FROM:insight_Trend_1:Trend"
+            ],
+            "entityIds": [
+              "insight_Trend_1",
+              "Trend"
+            ],
+            "evidenceIds": [
+              "ev_g41_1"
+            ],
+            "graphPath": [
+              "Trend 1",
+              "DERIVED_FROM",
+              "Trend: Fluctuating"
+            ]
+          },
+          "G42": {
+            "id": "G42",
+            "claimIds": [
+              "entity:insight_Trend_2",
+              "relation:DERIVED_FROM:insight_Trend_2:Trend_2"
+            ],
+            "entityIds": [
+              "insight_Trend_2",
+              "Trend_2"
+            ],
+            "evidenceIds": [
+              "ev_g42_1"
+            ],
+            "graphPath": [
+              "Trend 2",
+              "DERIVED_FROM",
+              "Trend: Fluctuating"
+            ]
+          },
+          "G43": {
+            "id": "G43",
+            "claimIds": [
+              "entity:insight_Trend_3",
+              "relation:DERIVED_FROM:insight_Trend_3:Trend_3"
+            ],
+            "entityIds": [
+              "insight_Trend_3",
+              "Trend_3"
+            ],
+            "evidenceIds": [
+              "ev_g43_1"
+            ],
+            "graphPath": [
+              "Trend 3",
+              "DERIVED_FROM",
+              "Trend: Fluctuating"
+            ]
+          }
+        },
+        "retrieval": {
+          "strategy": "graph-global",
+          "planner": "llm",
+          "maxHops": 3,
+          "seedEntityIds": [
+            "insight_Trend_1",
+            "insight_Trend_2",
+            "insight_Trend_3",
+            "#Articles",
+            "Journal_Articles_A-rated",
+            "Journal_Articles_not_A-rated"
+          ],
+          "communityIds": [
+            "community:12:bas_all_cartesian_bar_bar_group",
+            "community:14:bas_mixed_multigroup_2src_2",
+            "community:13:bas_mixed_multigroup_2src",
+            "community:7:bas_Journal_Articles_not_A-rated_cartesian_bar_bar_group",
+            "community:5:Similarity_3",
+            "community:6:bas_Journal_Articles_A-rated_cartesian_bar_bar_group"
+          ],
+          "expandedEntityIds": [
+            "insight_Trend_1",
+            "insight_Trend_2",
+            "insight_Trend_3",
+            "#Articles",
+            "Journal_Articles_A-rated",
+            "Journal_Articles_not_A-rated",
+            "Trend_2",
+            "Trend",
+            "Similarity_3",
+            "insight_Similarity_3",
+            "Composition_26",
+            "insight_Composition_26",
+            "Composition_11",
+            "insight_Composition_11",
+            "Trend_3",
+            "Similarity",
+            "Composition_12",
+            "Composition_13",
+            "Composition_14",
+            "Composition_15",
+            "Composition_16",
+            "Composition_17",
+            "Composition_18",
+            "Composition_19",
+            "Composition_20",
+            "Composition_21",
+            "Composition_22",
+            "Composition_23",
+            "Composition_24",
+            "Composition_25"
+          ],
+          "relationIds": [
+            "relation:594:DERIVED_FROM:insight_Trend_2:Trend_2",
+            "relation:593:DERIVED_FROM:insight_Trend_1:Trend",
+            "relation:592:DERIVED_FROM:insight_Similarity_3:Similarity_3",
+            "relation:83:COMPOSED_OF:Similarity_3:Composition_26",
+            "relation:573:DERIVED_FROM:insight_Composition_26:Composition_26",
+            "relation:68:COMPOSED_OF:Similarity_3:Composition_11",
+            "relation:557:DERIVED_FROM:insight_Composition_11:Composition_11",
+            "relation:595:DERIVED_FROM:insight_Trend_3:Trend_3",
+            "relation:64:COMPOSED_OF:Similarity:Trend_2",
+            "relation:63:COMPOSED_OF:Similarity:Trend",
+            "relation:69:COMPOSED_OF:Similarity_3:Composition_12",
+            "relation:70:COMPOSED_OF:Similarity_3:Composition_13",
+            "relation:71:COMPOSED_OF:Similarity_3:Composition_14",
+            "relation:72:COMPOSED_OF:Similarity_3:Composition_15",
+            "relation:73:COMPOSED_OF:Similarity_3:Composition_16",
+            "relation:74:COMPOSED_OF:Similarity_3:Composition_17",
+            "relation:75:COMPOSED_OF:Similarity_3:Composition_18",
+            "relation:76:COMPOSED_OF:Similarity_3:Composition_19",
+            "relation:77:COMPOSED_OF:Similarity_3:Composition_20",
+            "relation:78:COMPOSED_OF:Similarity_3:Composition_21",
+            "relation:79:COMPOSED_OF:Similarity_3:Composition_22",
+            "relation:80:COMPOSED_OF:Similarity_3:Composition_23",
+            "relation:81:COMPOSED_OF:Similarity_3:Composition_24",
+            "relation:82:COMPOSED_OF:Similarity_3:Composition_25"
+          ],
+          "paths": [
+            {
+              "source": "insight_Trend_2",
+              "target": "Trend_2",
+              "nodeIds": [
+                "insight_Trend_2",
+                "Trend_2"
+              ],
+              "relationIds": [
+                "relation:594:DERIVED_FROM:insight_Trend_2:Trend_2"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Trend_2",
+                  "relation": "DERIVED_FROM",
+                  "to": "Trend_2",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "insight_Trend_1",
+              "target": "Trend",
+              "nodeIds": [
+                "insight_Trend_1",
+                "Trend"
+              ],
+              "relationIds": [
+                "relation:593:DERIVED_FROM:insight_Trend_1:Trend"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Trend_1",
+                  "relation": "DERIVED_FROM",
+                  "to": "Trend",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "Similarity_3",
+              "target": "insight_Similarity_3",
+              "nodeIds": [
+                "Similarity_3",
+                "insight_Similarity_3"
+              ],
+              "relationIds": [
+                "relation:592:DERIVED_FROM:insight_Similarity_3:Similarity_3"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity_3",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Similarity_3",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity_3",
+              "target": "insight_Composition_26",
+              "nodeIds": [
+                "Similarity_3",
+                "Composition_26",
+                "insight_Composition_26"
+              ],
+              "relationIds": [
+                "relation:83:COMPOSED_OF:Similarity_3:Composition_26",
+                "relation:573:DERIVED_FROM:insight_Composition_26:Composition_26"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity_3",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_26",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_26",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_26",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity_3",
+              "target": "insight_Composition_11",
+              "nodeIds": [
+                "Similarity_3",
+                "Composition_11",
+                "insight_Composition_11"
+              ],
+              "relationIds": [
+                "relation:68:COMPOSED_OF:Similarity_3:Composition_11",
+                "relation:557:DERIVED_FROM:insight_Composition_11:Composition_11"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity_3",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_11",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_11",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_11",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Trend_1",
+              "type": "Insight",
+              "score": 1.21,
+              "lexicalScore": 26.923932,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Trend_2",
+              "type": "Insight",
+              "score": 1.149868,
+              "lexicalScore": 24.032883,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Trend_3",
+              "type": "Insight",
+              "score": 1.107196,
+              "lexicalScore": 21.981256,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Journal_Articles_not_A-rated",
+              "type": "Variable_Value",
+              "score": 0.827785,
+              "lexicalScore": 19.278727,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Journal_Articles_A-rated",
+              "type": "Variable_Value",
+              "score": 0.773153,
+              "lexicalScore": 16.652095,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Trend_2",
+              "type": "Basic_Pattern",
+              "score": 0.750497,
+              "lexicalScore": 19.758395,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "Trend",
+              "type": "Basic_Pattern",
+              "score": 0.723549,
+              "lexicalScore": 18.462762,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "#Articles",
+              "type": "Data_Variable",
+              "score": 0.650381,
+              "lexicalScore": 10.345549,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Similarity_3",
+              "type": "Relational_Pattern",
+              "score": 0.631516,
+              "lexicalScore": 9.746262,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Similarity_3",
+              "type": "Insight",
+              "score": 0.630963,
+              "lexicalScore": 10.290115,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "insight_Composition_26",
+              "type": "Insight",
+              "score": 0.622137,
+              "lexicalScore": 10.132759,
+              "distance": 1.17,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Composition_11",
+              "type": "Insight",
+              "score": 0.620293,
+              "lexicalScore": 10.044091,
+              "distance": 1.17,
+              "hops": 2
+            }
+          ]
+        }
+      },
+      "visionTurn": {
+        "answer": "Journal article counts show an overall upward trend from 2000 to 2015. The increase is driven mainly by A-related articles, while non-A-related article counts remain comparatively stable with only modest year-to-year fluctuations.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "chart-vision-answer",
+          "version": "1.2",
+          "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+        },
+        "provenance": {
+          "sourceType": "chart-image",
+          "chartId": "chart_afcfce8d7b",
+          "imageSha256": "8f7de19b1d5851a7f50ff0c796b5949bd7083a0ee9602a82766575dbcf518f8b",
+          "mediaType": "image/png",
+          "provenanceLevel": "image"
+        }
+      }
+    },
+    {
+      "id": "turn_pending_1790011328546",
+      "question": "How do A-rated and non-A-rated journal articles compare over time?",
+      "origin": "qa-session",
+      "suggested": true,
+      "createdAt": 1790011349334,
+      "turn": {
+        "answer": "Across 2000–2015, both Journal Articles A-rated and Journal Articles not A-rated fluctuate over Year rather than changing monotonically. [G38] Journal Articles A-rated undergoes several rises and falls before a pronounced late decline. [G41] Journal Articles not A-rated rises unevenly during the earlier period, reaches a mid-period high, and then declines. [G42] [G88] Both categories reach their minimum #Articles value in 2015, with Journal Articles A-rated having a lower minimum than Journal Articles not A-rated. [G2] [G82]",
+        "citationIds": [
+          "G38",
+          "G41",
+          "G42",
+          "G88",
+          "G2",
+          "G82"
+        ],
+        "status": "verified",
+        "generationMode": "llm",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "graphrag-answer",
+          "version": "2.0",
+          "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+        },
+        "claims": [
+          {
+            "id": "claim_1",
+            "text": "Across 2000–2015, both Journal Articles A-rated and Journal Articles not A-rated fluctuate over Year rather than changing monotonically.",
+            "recordIds": [
+              "entity:insight_Similarity_1"
+            ],
+            "citationIds": [
+              "G38"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_2",
+            "text": "Journal Articles A-rated undergoes several rises and falls before a pronounced late decline.",
+            "recordIds": [
+              "entity:insight_Trend_1"
+            ],
+            "citationIds": [
+              "G41"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_3",
+            "text": "Journal Articles not A-rated rises unevenly during the earlier period, reaches a mid-period high, and then declines.",
+            "recordIds": [
+              "entity:insight_Trend_2",
+              "entity:Trend_2"
+            ],
+            "citationIds": [
+              "G42",
+              "G88"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_4",
+            "text": "Both categories reach their minimum #Articles value in 2015, with Journal Articles A-rated having a lower minimum than Journal Articles not A-rated.",
+            "recordIds": [
+              "entity:insight_Comparison_2",
+              "entity:Extreme_3"
+            ],
+            "citationIds": [
+              "G2",
+              "G82"
+            ],
+            "claimType": "derived"
+          }
+        ],
+        "citations": {
+          "G38": {
+            "id": "G38",
+            "claimIds": [
+              "entity:insight_Similarity_1",
+              "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+            ],
+            "entityIds": [
+              "insight_Similarity_1",
+              "Similarity"
+            ],
+            "evidenceIds": [
+              "ev_g38_1"
+            ],
+            "graphPath": [
+              "Similarity 1",
+              "DERIVED_FROM",
+              "Similarity: SimilarTrend"
+            ]
+          },
+          "G41": {
+            "id": "G41",
+            "claimIds": [
+              "entity:insight_Trend_1",
+              "relation:DERIVED_FROM:insight_Trend_1:Trend"
+            ],
+            "entityIds": [
+              "insight_Trend_1",
+              "Trend"
+            ],
+            "evidenceIds": [
+              "ev_g41_1"
+            ],
+            "graphPath": [
+              "Trend 1",
+              "DERIVED_FROM",
+              "Trend: Fluctuating"
+            ]
+          },
+          "G42": {
+            "id": "G42",
+            "claimIds": [
+              "entity:insight_Trend_2",
+              "relation:DERIVED_FROM:insight_Trend_2:Trend_2"
+            ],
+            "entityIds": [
+              "insight_Trend_2",
+              "Trend_2"
+            ],
+            "evidenceIds": [
+              "ev_g42_1"
+            ],
+            "graphPath": [
+              "Trend 2",
+              "DERIVED_FROM",
+              "Trend: Fluctuating"
+            ]
+          },
+          "G88": {
+            "id": "G88",
+            "claimIds": [
+              "entity:Trend_2",
+              "relation:COMPOSED_OF:Similarity:Trend_2",
+              "relation:SUPPORTED_BY:Trend_2:bas_Journal_Articles_not_A-rated_cartesian_bar_bar_group",
+              "relation:DERIVED_FROM:insight_Trend_2:Trend_2"
+            ],
+            "entityIds": [
+              "Trend_2",
+              "Similarity",
+              "bas_Journal_Articles_not_A-rated_cartesian_bar_bar_group",
+              "insight_Trend_2"
+            ],
+            "evidenceIds": [
+              "ev_g88_1"
+            ],
+            "graphPath": [
+              "Similarity: SimilarTrend",
+              "COMPOSED_OF",
+              "Trend: Fluctuating"
+            ]
+          },
+          "G2": {
+            "id": "G2",
+            "claimIds": [
+              "entity:insight_Comparison_2",
+              "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+            ],
+            "entityIds": [
+              "insight_Comparison_2",
+              "Comparison_2"
+            ],
+            "evidenceIds": [
+              "ev_g2_1",
+              "ev_g2_2",
+              "ev_g2_3"
+            ],
+            "graphPath": [
+              "Comparison 2",
+              "DERIVED_FROM",
+              "Comparison: MinimumComparison"
+            ]
+          },
+          "G82": {
+            "id": "G82",
+            "claimIds": [
+              "entity:Extreme_3",
+              "relation:COMPOSED_OF:Comparison_2:Extreme_3",
+              "relation:SUPPORTED_BY:Extreme_3:bas_Journal_Articles_not_A-rated_cartesian_bar_bar_group",
+              "relation:DERIVED_FROM:insight_Extreme_3:Extreme_3"
+            ],
+            "entityIds": [
+              "Extreme_3",
+              "Comparison_2",
+              "bas_Journal_Articles_not_A-rated_cartesian_bar_bar_group",
+              "insight_Extreme_3"
+            ],
+            "evidenceIds": [
+              "ev_g82_1"
+            ],
+            "graphPath": [
+              "Comparison: MinimumComparison",
+              "COMPOSED_OF",
+              "Extreme: Minimum"
+            ]
+          }
+        },
+        "retrieval": {
+          "strategy": "graph-local",
+          "planner": "llm",
+          "maxHops": 4,
+          "seedEntityIds": [
+            "Journal_Articles_A-rated",
+            "Journal_Articles_not_A-rated",
+            "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+            "bas_all_Journal_Articles_not_A-rated_reference_view_Journal_Articles_not_A-rated_reference_group"
+          ],
+          "communityIds": [
+            "community:12:bas_all_cartesian_bar_bar_group",
+            "community:14:bas_mixed_multigroup_2src_2",
+            "community:13:bas_mixed_multigroup_2src",
+            "community:5:Similarity_3",
+            "community:7:bas_Journal_Articles_not_A-rated_cartesian_bar_bar_group",
+            "community:6:bas_Journal_Articles_A-rated_cartesian_bar_bar_group"
+          ],
+          "expandedEntityIds": [
+            "Journal_Articles_A-rated",
+            "Journal_Articles_not_A-rated",
+            "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+            "bas_all_Journal_Articles_not_A-rated_reference_view_Journal_Articles_not_A-rated_reference_group",
+            "Trend",
+            "insight_Trend_1",
+            "Similarity",
+            "Trend_2",
+            "insight_Trend_2",
+            "insight_Similarity_1",
+            "Extreme_5",
+            "Comparison_2",
+            "insight_Comparison_2",
+            "Extreme_3",
+            "Trend_3",
+            "insight_Trend_3",
+            "insight_Extreme_5",
+            "insight_Extreme_3"
+          ],
+          "relationIds": [
+            "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+            "relation:593:DERIVED_FROM:insight_Trend_1:Trend",
+            "relation:63:COMPOSED_OF:Similarity:Trend",
+            "relation:64:COMPOSED_OF:Similarity:Trend_2",
+            "relation:594:DERIVED_FROM:insight_Trend_2:Trend_2",
+            "relation:590:DERIVED_FROM:insight_Similarity_1:Similarity",
+            "relation:544:SUPPORTED_BY:Extreme_5:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+            "relation:60:COMPOSED_OF:Comparison_2:Extreme_5",
+            "relation:554:DERIVED_FROM:insight_Comparison_2:Comparison_2",
+            "relation:58:COMPOSED_OF:Comparison_2:Extreme_3",
+            "relation:65:COMPOSED_OF:Similarity:Trend_3",
+            "relation:595:DERIVED_FROM:insight_Trend_3:Trend_3",
+            "relation:587:DERIVED_FROM:insight_Extreme_5:Extreme_5",
+            "relation:585:DERIVED_FROM:insight_Extreme_3:Extreme_3"
+          ],
+          "paths": [
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "insight_Trend_1",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Trend",
+                "insight_Trend_1"
+              ],
+              "relationIds": [
+                "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:593:DERIVED_FROM:insight_Trend_1:Trend"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Trend",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Trend",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Trend_1",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "insight_Trend_2",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Trend",
+                "Similarity",
+                "Trend_2",
+                "insight_Trend_2"
+              ],
+              "relationIds": [
+                "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:63:COMPOSED_OF:Similarity:Trend",
+                "relation:64:COMPOSED_OF:Similarity:Trend_2",
+                "relation:594:DERIVED_FROM:insight_Trend_2:Trend_2"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Trend",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Trend",
+                  "relation": "COMPOSED_OF",
+                  "to": "Similarity",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Trend_2",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Trend_2",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Trend_2",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "Similarity",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Trend",
+                "Similarity"
+              ],
+              "relationIds": [
+                "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:63:COMPOSED_OF:Similarity:Trend"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Trend",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Trend",
+                  "relation": "COMPOSED_OF",
+                  "to": "Similarity",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "Trend_2",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Trend",
+                "Similarity",
+                "Trend_2"
+              ],
+              "relationIds": [
+                "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:63:COMPOSED_OF:Similarity:Trend",
+                "relation:64:COMPOSED_OF:Similarity:Trend_2"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Trend",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Trend",
+                  "relation": "COMPOSED_OF",
+                  "to": "Similarity",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Trend_2",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "Trend",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Trend"
+              ],
+              "relationIds": [
+                "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Trend",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "insight_Similarity_1",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Trend",
+                "Similarity",
+                "insight_Similarity_1"
+              ],
+              "relationIds": [
+                "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:63:COMPOSED_OF:Similarity:Trend",
+                "relation:590:DERIVED_FROM:insight_Similarity_1:Similarity"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Trend",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Trend",
+                  "relation": "COMPOSED_OF",
+                  "to": "Similarity",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Similarity",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Similarity_1",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "insight_Comparison_2",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Extreme_5",
+                "Comparison_2",
+                "insight_Comparison_2"
+              ],
+              "relationIds": [
+                "relation:544:SUPPORTED_BY:Extreme_5:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:60:COMPOSED_OF:Comparison_2:Extreme_5",
+                "relation:554:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Extreme_5",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Extreme_5",
+                  "relation": "COMPOSED_OF",
+                  "to": "Comparison_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Comparison_2",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Comparison_2",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "Extreme_5",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Extreme_5"
+              ],
+              "relationIds": [
+                "relation:544:SUPPORTED_BY:Extreme_5:bas_Journal_Articles_A-rated_cartesian_bar_bar_group"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Extreme_5",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "Extreme_3",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Extreme_5",
+                "Comparison_2",
+                "Extreme_3"
+              ],
+              "relationIds": [
+                "relation:544:SUPPORTED_BY:Extreme_5:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:60:COMPOSED_OF:Comparison_2:Extreme_5",
+                "relation:58:COMPOSED_OF:Comparison_2:Extreme_3"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Extreme_5",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Extreme_5",
+                  "relation": "COMPOSED_OF",
+                  "to": "Comparison_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Comparison_2",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme_3",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+              "target": "insight_Trend_3",
+              "nodeIds": [
+                "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "Trend",
+                "Similarity",
+                "Trend_3",
+                "insight_Trend_3"
+              ],
+              "relationIds": [
+                "relation:547:SUPPORTED_BY:Trend:bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                "relation:63:COMPOSED_OF:Similarity:Trend",
+                "relation:65:COMPOSED_OF:Similarity:Trend_3",
+                "relation:595:DERIVED_FROM:insight_Trend_3:Trend_3"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Journal_Articles_A-rated_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Trend",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Trend",
+                  "relation": "COMPOSED_OF",
+                  "to": "Similarity",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Trend_3",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Trend_3",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Trend_3",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "Journal_Articles_not_A-rated",
+              "type": "Variable_Value",
+              "score": 0.984868,
+              "lexicalScore": 19.278727,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Journal_Articles_A-rated",
+              "type": "Variable_Value",
+              "score": 0.908834,
+              "lexicalScore": 16.652095,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Trend_1",
+              "type": "Insight",
+              "score": 0.889342,
+              "lexicalScore": 16.635869,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Trend_2",
+              "type": "Insight",
+              "score": 0.887285,
+              "lexicalScore": 17.764952,
+              "distance": 2.49,
+              "hops": 4
+            },
+            {
+              "entityId": "Similarity",
+              "type": "Relational_Pattern",
+              "score": 0.843692,
+              "lexicalScore": 18.65678,
+              "distance": 1.32,
+              "hops": 2
+            },
+            {
+              "entityId": "Trend_2",
+              "type": "Basic_Pattern",
+              "score": 0.83243,
+              "lexicalScore": 19.34548,
+              "distance": 1.94,
+              "hops": 3
+            },
+            {
+              "entityId": "Trend",
+              "type": "Basic_Pattern",
+              "score": 0.785199,
+              "lexicalScore": 15.828323,
+              "distance": 0.7,
+              "hops": 1
+            },
+            {
+              "entityId": "insight_Similarity_1",
+              "type": "Insight",
+              "score": 0.72959,
+              "lexicalScore": 11.846851,
+              "distance": 1.87,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Comparison_2",
+              "type": "Insight",
+              "score": 0.69462,
+              "lexicalScore": 10.638814,
+              "distance": 1.87,
+              "hops": 3
+            },
+            {
+              "entityId": "Extreme_5",
+              "type": "Basic_Pattern",
+              "score": 0.639667,
+              "lexicalScore": 10.800848,
+              "distance": 0.7,
+              "hops": 1
+            },
+            {
+              "entityId": "Extreme_3",
+              "type": "Basic_Pattern",
+              "score": 0.623312,
+              "lexicalScore": 12.121408,
+              "distance": 1.94,
+              "hops": 3
+            },
+            {
+              "entityId": "insight_Trend_3",
+              "type": "Insight",
+              "score": 0.607504,
+              "lexicalScore": 13.454306,
+              "distance": 2.49,
+              "hops": 4
+            }
+          ]
+        }
+      },
+      "visionTurn": {
+        "answer": "Non-A-rated articles consistently outnumber A-rated articles and generally rise over time, from about 8,000 in 2000 to roughly 10,000 by 2010–2011. A-rated articles remain comparatively stable at around 5,000–6,000 per year, so the gap between the two groups widens.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "chart-vision-answer",
+          "version": "1.2",
+          "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+        },
+        "provenance": {
+          "sourceType": "chart-image",
+          "chartId": "chart_afcfce8d7b",
+          "imageSha256": "8f7de19b1d5851a7f50ff0c796b5949bd7083a0ee9602a82766575dbcf518f8b",
+          "mediaType": "image/png",
+          "provenanceLevel": "image"
+        }
+      }
+    }
+  ]
+}

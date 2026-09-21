@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "id": "qa_bed4572dd7ac",
+  "chartId": "chart_1c38291d09",
+  "revisionId": "construction-kg-revision:f6de36b34b0dde19dd50",
+  "status": "active",
+  "createdAt": "2026-09-21T17:24:31.654704Z",
+  "updatedAt": "2026-09-21T17:26:33.812798Z",
+  "turnIds": [
+    "turn_pending_1790011471649",
+    "turn_pending_1790011547971"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_a219235b8b",
+  "revisionId": "construction-kg-revision:e014882979ce20002f5c",
+  "createdAt": "2026-09-21T17:15:32.601900Z",
+  "generation": {
+    "mode": "extractive",
+    "provider": null,
+    "model": null,
+    "prompt": {
+      "name": "graphrag-summary",
+      "version": "2.4",
+      "sha256": "6958e17cb27d64faf3920958a76ea387426eec35d32b9f800b1f5f68a4340c7d"
+    },
+    "retrieval": {
+      "strategy": "graph-global",
+      "communityCount": 6,
+      "subgraphNodeCount": 97,
+      "subgraphEdgeCount": 91
+    },
+    "layerRetrieval": [
+      {
+        "layer": "S1",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "cartesian_bar",
+          "bar_group",
+          "text_label"
+        ],
+        "subgraphNodeCount": 82,
+        "subgraphEdgeCount": 95,
+        "pathCount": 24,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S2",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Height",
+          "Building",
+          "Region"
+        ],
+        "subgraphNodeCount": 79,
+        "subgraphEdgeCount": 88,
+        "pathCount": 21,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S3",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Comparison_4",
+          "Similarity",
+          "Comparison_2"
+        ],
+        "subgraphNodeCount": 47,
+        "subgraphEdgeCount": 43,
+        "pathCount": 23,
+        "supportLayers": [
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S4",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "insight_Comparison_2",
+          "insight_Comparison_4",
+          "insight_Similarity_1"
+        ],
+        "subgraphNodeCount": 65,
+        "subgraphEdgeCount": 62,
+        "pathCount": 21,
+        "supportLayers": [
+          "S3",
+          "S4"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_b8429ce809",
+  "revisionId": "construction-kg-revision:d2ee9587803039bf0291",
+  "createdAt": "2026-09-21T16:15:52.159565Z",
+  "generation": {
+    "mode": "llm",
+    "provider": "openai-compatible",
+    "model": "gpt-5.6-sol",
+    "prompt": {
+      "name": "graphrag-summary",
+      "version": "2.3",
+      "sha256": "5ae3a688b127f20af2ba47dd50f2d18f8cad408c8a7c80df9a01f1372fc3fc7f"
+    },
+    "retrieval": {
+      "strategy": "graph-global",
+      "communityCount": 6,
+      "subgraphNodeCount": 59,
+      "subgraphEdgeCount": 54
+    },
+    "layerRetrieval": [
+      {
+        "layer": "S1",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "stacked_bar"
+        ],
+        "subgraphNodeCount": 50,
+        "subgraphEdgeCount": 39,
+        "pathCount": 4,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S2",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Percentage"
+        ],
+        "subgraphNodeCount": 59,
+        "subgraphEdgeCount": 64,
+        "pathCount": 23,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S3",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Contrast"
+        ],
+        "subgraphNodeCount": 43,
+        "subgraphEdgeCount": 40,
+        "pathCount": 13,
+        "supportLayers": [
+          "S1",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S4",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "insight_Global_App_Market_Summary"
+        ],
+        "subgraphNodeCount": 55,
+        "subgraphEdgeCount": 58,
+        "pathCount": 23,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      }
+    ]
+  }
+}

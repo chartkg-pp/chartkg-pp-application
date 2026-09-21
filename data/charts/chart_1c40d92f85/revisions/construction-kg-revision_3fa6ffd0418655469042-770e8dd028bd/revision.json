@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_1c40d92f85",
+  "revisionId": "construction-kg-revision:3fa6ffd0418655469042",
+  "createdAt": "2026-09-21T17:06:23.614468Z",
+  "generation": {
+    "mode": "extractive",
+    "provider": null,
+    "model": null,
+    "prompt": {
+      "name": "graphrag-summary",
+      "version": "2.4",
+      "sha256": "6958e17cb27d64faf3920958a76ea387426eec35d32b9f800b1f5f68a4340c7d"
+    },
+    "retrieval": {
+      "strategy": "graph-global",
+      "communityCount": 6,
+      "subgraphNodeCount": 64,
+      "subgraphEdgeCount": 109
+    },
+    "layerRetrieval": [
+      {
+        "layer": "S1",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "donut",
+          "pie",
+          "sector_group_donut"
+        ],
+        "subgraphNodeCount": 74,
+        "subgraphEdgeCount": 81,
+        "pathCount": 15,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S2",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Export_share_percentage",
+          "export_share_of_value",
+          "Destination"
+        ],
+        "subgraphNodeCount": 81,
+        "subgraphEdgeCount": 99,
+        "pathCount": 21,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S3",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Similarity_7",
+          "Comparison_16",
+          "Comparison_15"
+        ],
+        "subgraphNodeCount": 58,
+        "subgraphEdgeCount": 72,
+        "pathCount": 24,
+        "supportLayers": [
+          "S1",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S4",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "insight_Comparison_6",
+          "insight_Comparison_8",
+          "insight_Composition_2"
+        ],
+        "subgraphNodeCount": 65,
+        "subgraphEdgeCount": 79,
+        "pathCount": 20,
+        "supportLayers": [
+          "S1",
+          "S3",
+          "S4"
+        ]
+      }
+    ]
+  }
+}

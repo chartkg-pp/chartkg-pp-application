@@ -1,0 +1,46 @@
+{
+  "id": "summary_construction-kg-revision:e014882979ce20002f5c",
+  "revisionId": "construction-kg-revision:e014882979ce20002f5c",
+  "sentences": [
+    {
+      "id": "ss1",
+      "layer": "S1",
+      "text": "cartesian bar (View): chartType: cartesian_bar. The color encoding maps Region values as follows: light blue represents Asia; golden yellow represents Europe; and orange represents North America.",
+      "citations": [
+        "G146",
+        "G186",
+        "G188",
+        "G187"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss2",
+      "layer": "S2",
+      "text": "Height (Data Variable): name: Height; unit: m; variableType: Quantitative.",
+      "citations": [
+        "G126"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss3",
+      "layer": "S3",
+      "text": "Comparing the regional minimum heights, Asia's minimum building (Landmark 81) is lower than the minimum buildings of Europe (Lakhta Center) and North America (Central Park Tower).",
+      "citations": [
+        "G64"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss4",
+      "layer": "S4",
+      "text": "Among the compared buildings, *Burj Khalifa* attains the highest maximum Height at 828.0 m, exceeding the peak heights observed for Abraj Al-Bait Clock Tower (601.0 m), Ping An Finance Center (599.0 m), Lotte World Tower (555.0 m), One World Trade Center (541.0 m), Guangzhou CTF Finance Center Finance Center (530.0 m), Tianjin CTF (530.0 m), China Zun (528.0 m), *Taipei 101* (508.0 m), Shanghai World Financial Center (492.0 m), International Commerce Centre (484.0 m), Central Park Tower (472.0 m), Lakhta Center (462.0 m), and Landmark 81 (461.0 m).",
+      "citations": [
+        "G1"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "coverage": 1.0
+}

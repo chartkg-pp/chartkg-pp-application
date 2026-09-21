@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_9ccc4cbffd",
+  "sessions": [
+    {
+      "id": "qa_31e085ca44dc",
+      "revisionId": "construction-kg-revision:4bcab0ab899177046c9f",
+      "status": "active",
+      "createdAt": "2026-09-21T16:07:27.034235Z",
+      "updatedAt": "2026-09-21T16:08:45.302091Z",
+      "turnCount": 2,
+      "path": "sessions/qa_31e085ca44dc/session.json"
+    }
+  ]
+}

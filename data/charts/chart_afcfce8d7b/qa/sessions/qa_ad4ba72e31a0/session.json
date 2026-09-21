@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "id": "qa_ad4ba72e31a0",
+  "chartId": "chart_afcfce8d7b",
+  "revisionId": "construction-kg-revision:group4037-year-insight-curation-v1",
+  "status": "active",
+  "createdAt": "2026-09-21T17:20:57.785305Z",
+  "updatedAt": "2026-09-21T17:22:52.427561Z",
+  "turnIds": [
+    "turn_pending_1790011257780",
+    "turn_pending_1790011328546"
+  ]
+}

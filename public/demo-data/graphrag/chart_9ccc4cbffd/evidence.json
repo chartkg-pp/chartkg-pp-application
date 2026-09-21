@@ -1,0 +1,2888 @@
+[
+  {
+    "id": "ev_g1_1",
+    "label": "Comparison 1 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The Male and NONE gender categories exhibit comparable cross-view correspondence structures, linking customer count measurements in the radial stacked bar view to Negative, Positive, and Uncertainty coordinates in the ternary scatter view. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g1_2",
+    "label": "Comparison 1 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The Male and NONE gender categories exhibit comparable cross-view correspondence structures, linking customer count measurements in the radial stacked bar view to Negative, Positive, and Uncertainty coordinates in the ternary scatter view. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g1_3",
+    "label": "Comparison 1 · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "The Male and NONE gender categories exhibit comparable cross-view correspondence structures, linking customer count measurements in the radial stacked bar view to Negative, Positive, and Uncertainty coordinates in the ternary scatter view. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g2_1",
+    "label": "Correspondence 1 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the shared gender category NONE, the radial stacked bar view features a bar mark with the maximum radial height of 80.2 px encoding number of customers, while in the ternary scatter view, observed points form a curved band spanning from high Negative and low Uncertainty to moderate Uncertainty and high Positive, including individual point marks exhibiting the category maximums for Negative, Positive, and Uncertainty coordinates (the latter reaching 0.5006826134805336). Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g2_2",
+    "label": "Correspondence 1 · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "For the shared gender category NONE, the radial stacked bar view features a bar mark with the maximum radial height of 80.2 px encoding number of customers, while in the ternary scatter view, observed points form a curved band spanning from high Negative and low Uncertainty to moderate Uncertainty and high Positive, including individual point marks exhibiting the category maximums for Negative, Positive, and Uncertainty coordinates (the latter reaching 0.5006826134805336). Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g3_1",
+    "label": "Correspondence 2 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Male across both views, a bar mark in the radial stacked bar chart exhibits the maximum visible number of customers with a radial height of 79.9 px, while in the ternary scatter plot, the Male points form an elongated band-like distribution spanning along the Negative-Uncertainty and Uncertainty-Positive legs, alongside distinct point marks reaching the respective maximum values for Uncertainty, Positive, and Negative. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g4_1",
+    "label": "Correspondence 3 · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Female customers across the observed population, opinion points in the ternary scatter view form an elongated continuous curved band extending from higher Negative values through moderate Uncertainty towards Positive values, while in the radial stacked bar view, the bar segment in the upper-right Positive opinion sector has the greatest visible height encoding number of customers among Female segments, with a radial height of 93.9 px. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g5_1",
+    "label": "Distribution 1 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across the observed marks measuring number of customers, the bar marks along the circumference are clustered into separated distinct groups, primarily in the positive and negative opinion sectors, with prominent empty angular gaps between the groups. Visual support covers 68 bar marks reached through the KG scope.",
+    "region": {
+      "x": 30.42629,
+      "y": 19.51871,
+      "width": 66.36391,
+      "height": 77.06688
+    }
+  },
+  {
+    "id": "ev_g6_1",
+    "label": "Distribution 2 · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "For the Female customer opinion points, observations form an elongated curved band across the ternary domain defined by Negative, Uncertainty, and Positive values, extending from higher Negative values through moderate Uncertainty toward Positive values within the observed population. Visual support covers 21 point marks reached through the KG scope.",
+    "region": {
+      "x": 43.34669,
+      "y": 43.06986,
+      "width": 27.81652,
+      "height": 26.1171
+    }
+  },
+  {
+    "id": "ev_g7_1",
+    "label": "Distribution 3 · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "For observations where gender is Male, the distribution across Negative, Positive, and Uncertainty forms an elongated band-like arrangement spanning along the Negative-Uncertainty and Uncertainty-Positive legs in the ternary plot. Visual support covers 10 point marks reached through the KG scope.",
+    "region": {
+      "x": 48.02779,
+      "y": 46.74695,
+      "width": 25.22994,
+      "height": 16.573
+    }
+  },
+  {
+    "id": "ev_g8_1",
+    "label": "Distribution 4 · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Among the observed points where gender is NONE, the distribution forms an elongated, curved band across the ternary coordinate frame defined by Negative, Positive, and Uncertainty, extending from high Negative and low Uncertainty toward moderate Uncertainty and toward high Positive, with some unresolved regions noted in the observed population. Visual support covers 24 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g9_1",
+    "label": "Distribution 5 · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across the ternary coordinate space of Negative, Positive, and Uncertainty, the observed point marks form an elongated inverted V-shaped band extending from high Negative and low Positive values through elevated Uncertainty toward high Positive and low Negative values. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g10_1",
+    "label": "Extreme 1 · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among observed Female members, the bar reaching the maximum encoded number of customers has a radial height of 93.9 px. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g11_1",
+    "label": "Extreme 10 · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Among the observed points with gender NONE, a point mark reaches the maximum Negative value. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g12_1",
+    "label": "Extreme 2 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed Male marks, the bar segment with the maximum number of customers has a radial height of 79.9 px. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g13_1",
+    "label": "Extreme 3 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among observed members within the gender NONE category, the bar mark encoding the maximum number of customers reaches a radial height of 80.2 px. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g14_1",
+    "label": "Extreme 4 · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed marks, the Female bar segment reaches the maximum number of customers, with a radial height of 93.9 px. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g14_2",
+    "label": "Extreme 4 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed marks, the Female bar segment reaches the maximum number of customers, with a radial height of 93.9 px. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g14_3",
+    "label": "Extreme 4 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed marks, the Female bar segment reaches the maximum number of customers, with a radial height of 93.9 px. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g15_1",
+    "label": "Extreme 5 · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Among the observed members where gender is Male, a point mark has the maximum Uncertainty. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g16_1",
+    "label": "Extreme 6 · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Among the observed Male points, a point mark achieves the maximum Positive value. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g17_1",
+    "label": "Extreme 7 · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Among the observed Male points, an individual point reaches the maximum Negative value. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g18_1",
+    "label": "Extreme 8 · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Among the observed marks with gender NONE, a point mark reaches the maximum Positive value. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g19_1",
+    "label": "Extreme 9 · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "Among the observed points where gender is NONE, the point with the maximum Uncertainty reaches a value of 0.5006826134805336. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g20_1",
+    "label": "ExtremumComparison 1 · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Among the compared gender groups NONE and Male, the NONE category attains the highest maximum Negative coordinate, exceeding the maximum observed in the Male group. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g21_1",
+    "label": "ExtremumComparison 2 · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Between the observed Male and NONE gender groups, the NONE group exhibits the higher maximum Positive value, with its maximum point reaching a higher Positive level than the maximum point observed in the Male group. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g22_1",
+    "label": "ExtremumComparison 3 · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "Among the observed points in the Male and NONE gender groups, the Male category exhibits the highest maximum Uncertainty, surpassing the maximum Uncertainty of 0.5006826134805336 observed for the point in the NONE group. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g23_1",
+    "label": "ExtremumComparison 4 · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Female is the visually supported global number of customers maximum from the subgroup comparisons across gender breakdowns. The maximum Female bar segment has a radial height of 93.9 px, surpassing the maximum bar segments for NONE at 80.2 px and Male at 79.9 px. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g23_2",
+    "label": "ExtremumComparison 4 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Female is the visually supported global number of customers maximum from the subgroup comparisons across gender breakdowns. The maximum Female bar segment has a radial height of 93.9 px, surpassing the maximum bar segments for NONE at 80.2 px and Male at 79.9 px. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g23_3",
+    "label": "ExtremumComparison 4 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Female is the visually supported global number of customers maximum from the subgroup comparisons across gender breakdowns. The maximum Female bar segment has a radial height of 93.9 px, surpassing the maximum bar segments for NONE at 80.2 px and Male at 79.9 px. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g24_1",
+    "label": "Similarity 1 · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across the Female, Male, and NONE gender categories, customer opinion points exhibit a similar band-like cluster structure, each forming an elongated continuous curved distribution across the ternary domain from higher Negative values through moderate Uncertainty towards higher Positive values. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g25_1",
+    "label": "Comparison: ComparableCorrespondence · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g25_2",
+    "label": "Comparison: ComparableCorrespondence · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g25_3",
+    "label": "Comparison: ComparableCorrespondence · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g26_1",
+    "label": "Correspondence: SharedSemanticAnchor · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g26_2",
+    "label": "Correspondence: SharedSemanticAnchor · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g27_1",
+    "label": "Correspondence: SharedSemanticAnchor · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g28_1",
+    "label": "Correspondence: SharedSemanticAnchor · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g29_1",
+    "label": "ExtremumComparison: MaximumComparison · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Comparing the maximum Negative values between the Male and NONE subgroups, the NONE category point reaches a higher Negative coordinate towards the bottom-left vertex than the Male maximum. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g30_1",
+    "label": "ExtremumComparison: MaximumComparison · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Comparing the maximum Positive values between the Male and NONE subgroups, the NONE category point reaches a higher Positive coordinate towards the bottom-right vertex than the Male maximum. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g31_1",
+    "label": "ExtremumComparison: MaximumComparison · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "Comparing the maximum Uncertainty values between the Male and NONE subgroups, the Male category point reaches a higher Uncertainty coordinate towards the top vertex than the NONE maximum. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g32_1",
+    "label": "ExtremumComparison: MaximumComparison · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the gender categories, the maximum bar segment for Female exhibits a greater radial height than the maximum bar segments for Male and NONE. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g32_2",
+    "label": "ExtremumComparison: MaximumComparison · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the gender categories, the maximum bar segment for Female exhibits a greater radial height than the maximum bar segments for Male and NONE. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g32_3",
+    "label": "ExtremumComparison: MaximumComparison · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the gender categories, the maximum bar segment for Female exhibits a greater radial height than the maximum bar segments for Male and NONE. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g33_1",
+    "label": "Similarity: SimilarDistribution · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across all gender categories (Female, Male, NONE), the customer opinion points share a similar band-like cluster structure, forming an elongated curved distribution across the ternary coordinate domain from higher Negative values through moderate Uncertainty towards higher Positive values. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g34_1",
+    "label": "Distribution: Clustering · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The bar marks along the circumference are gathered into separated distinct groups (primarily in the positive and negative opinion sectors) with prominent empty angular gaps between the groups. Visual support covers 68 bar marks reached through the KG scope.",
+    "region": {
+      "x": 30.42629,
+      "y": 19.51871,
+      "width": 66.36391,
+      "height": 77.06688
+    }
+  },
+  {
+    "id": "ev_g35_1",
+    "label": "Distribution: BandLike · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The Female customer opinion points form an elongated continuous curved band across the ternary domain from higher Negative values through moderate Uncertainty towards Positive values. Visual support covers 21 point marks reached through the KG scope.",
+    "region": {
+      "x": 43.34669,
+      "y": 43.06986,
+      "width": 27.81652,
+      "height": 26.1171
+    }
+  },
+  {
+    "id": "ev_g36_1",
+    "label": "Distribution: BandLike · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Points in the ternary plot form an elongated band-like arrangement spanning along the Negative-Uncertainty and Uncertainty-Positive legs. Visual support covers 10 point marks reached through the KG scope.",
+    "region": {
+      "x": 48.02779,
+      "y": 46.74695,
+      "width": 25.22994,
+      "height": 16.573
+    }
+  },
+  {
+    "id": "ev_g37_1",
+    "label": "Distribution: BandLike · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The NONE category points form an elongated, curved band across the ternary coordinate frame spanning from high Negative/low Uncertainty up toward moderate Uncertainty and down toward high Positive. Visual support covers 24 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g38_1",
+    "label": "Distribution: BandLike · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The point marks form an elongated inverted V-shaped band across the ternary domain of Negative, Positive, and Uncertainty, extending from low Positive / high Negative through elevated Uncertainty to high Positive / low Negative. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g39_1",
+    "label": "Extreme: Maximum · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar segment bar_16 in the upper-right Positive opinion sector has the greatest visible height encoding number of customers among all Female bar segments. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g40_1",
+    "label": "Extreme: Maximum · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Mark point_78 exhibits the maximum visible Negative coordinate among the marks in the NONE category. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g41_1",
+    "label": "Extreme: Maximum · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar segment bar_8 has the greatest visible height encoding the number of customers among all Male bar marks in the scope. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g42_1",
+    "label": "Extreme: Maximum · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Mark bar_7 exhibits the maximum bar height encoding the number of customers within the gender=NONE breakdown. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g43_1",
+    "label": "Extreme: Maximum · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Bar segment bar_16 exhibits the maximum radial height (number of customers) among all bar marks across the BAS. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g43_2",
+    "label": "Extreme: Maximum · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Bar segment bar_16 exhibits the maximum radial height (number of customers) among all bar marks across the BAS. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g43_3",
+    "label": "Extreme: Maximum · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Bar segment bar_16 exhibits the maximum radial height (number of customers) among all bar marks across the BAS. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g44_1",
+    "label": "Extreme: Maximum · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Point point_1 has the maximum visible Uncertainty value among the Male points. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g45_1",
+    "label": "Extreme: Maximum · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Point point_44 has the maximum visible Positive value among the Male points. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g46_1",
+    "label": "Extreme: Maximum · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Point point_71 has the maximum visible Negative value among the Male points. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g47_1",
+    "label": "Extreme: Maximum · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Mark point_63 exhibits the maximum visible Positive coordinate among the marks in the NONE category. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g48_1",
+    "label": "Extreme: Maximum · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "Mark point_7 exhibits the maximum visible Uncertainty coordinate among the marks in the NONE category. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g49_1",
+    "label": "Negative · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Negative (Data Variable): name: Negative; variableType: Quantitative. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g50_1",
+    "label": "Positive · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Positive (Data Variable): name: Positive; variableType: Quantitative. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g51_1",
+    "label": "Uncertainty · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Uncertainty (Data Variable): name: Uncertainty; variableType: Quantitative. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g52_1",
+    "label": "gender · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "gender (Data Variable): name: gender; variableType: Categorical. Visual support covers 68 bar marks reached through the KG scope.",
+    "region": {
+      "x": 30.42629,
+      "y": 19.51871,
+      "width": 66.36391,
+      "height": 77.06688
+    }
+  },
+  {
+    "id": "ev_g53_1",
+    "label": "gender · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "gender (Data Variable): name: gender; variableType: Categorical. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g54_1",
+    "label": "number of customers · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "number of customers (Data Variable): name: number of customers; variableType: Quantitative. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g55_1",
+    "label": "Female · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Female (Variable Value): value: Female. Visual support covers 20 bar marks reached through the KG scope.",
+    "region": {
+      "x": 30.42629,
+      "y": 19.51871,
+      "width": 66.36391,
+      "height": 77.06688
+    }
+  },
+  {
+    "id": "ev_g56_1",
+    "label": "Female · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Female (Variable Value): value: Female. Visual support covers 21 point marks reached through the KG scope.",
+    "region": {
+      "x": 43.34669,
+      "y": 43.06986,
+      "width": 27.81652,
+      "height": 26.1171
+    }
+  },
+  {
+    "id": "ev_g57_1",
+    "label": "Male · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Male (Variable Value): value: Male. Visual support covers 23 bar marks reached through the KG scope.",
+    "region": {
+      "x": 32.69433,
+      "y": 20.89908,
+      "width": 62.44639,
+      "height": 68.63128
+    }
+  },
+  {
+    "id": "ev_g58_1",
+    "label": "Male · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Male (Variable Value): value: Male. Visual support covers 10 point marks reached through the KG scope.",
+    "region": {
+      "x": 48.02779,
+      "y": 46.74695,
+      "width": 25.22994,
+      "height": 16.573
+    }
+  },
+  {
+    "id": "ev_g59_1",
+    "label": "NONE · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "NONE (Variable Value): value: NONE. Visual support covers 25 bar marks reached through the KG scope.",
+    "region": {
+      "x": 33.62216,
+      "y": 24.11994,
+      "width": 57.29176,
+      "height": 72.00552
+    }
+  },
+  {
+    "id": "ev_g60_1",
+    "label": "NONE · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "NONE (Variable Value): value: NONE. Visual support covers 24 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g61_1",
+    "label": "radial stacked bar · view",
+    "kind": "image-region",
+    "confidence": 0.78,
+    "detail": "radial stacked bar (View): chartType: radial_stacked_bar. Visual provenance resolves to the complete radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g62_1",
+    "label": "ternary scatter · view",
+    "kind": "image-region",
+    "confidence": 0.78,
+    "detail": "ternary scatter (View): chartType: ternary_scatter. Visual provenance resolves to the complete ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g63_1",
+    "label": "bar group bas Female · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bar group bas Female (Basic Analytical Scope): groupRef: bar_group; scopeMode: single_category_breakdown; selection: {\"valueRef\":\"Female\",\"variableRef\":\"gender\"}; viewRef: radial_stacked_bar. Visual support covers 20 bar marks reached through the KG scope.",
+    "region": {
+      "x": 30.42629,
+      "y": 19.51871,
+      "width": 66.36391,
+      "height": 77.06688
+    }
+  },
+  {
+    "id": "ev_g64_1",
+    "label": "bar group bas Male · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bar group bas Male (Basic Analytical Scope): groupRef: bar_group; scopeMode: single_category_breakdown; selection: {\"valueRef\":\"Male\",\"variableRef\":\"gender\"}; viewRef: radial_stacked_bar. Visual support covers 23 bar marks reached through the KG scope.",
+    "region": {
+      "x": 32.69433,
+      "y": 20.89908,
+      "width": 62.44639,
+      "height": 68.63128
+    }
+  },
+  {
+    "id": "ev_g65_1",
+    "label": "bar group bas NONE · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bar group bas NONE (Basic Analytical Scope): groupRef: bar_group; scopeMode: single_category_breakdown; selection: {\"valueRef\":\"NONE\",\"variableRef\":\"gender\"}; viewRef: radial_stacked_bar. Visual support covers 25 bar marks reached through the KG scope.",
+    "region": {
+      "x": 33.62216,
+      "y": 24.11994,
+      "width": 57.29176,
+      "height": 72.00552
+    }
+  },
+  {
+    "id": "ev_g66_1",
+    "label": "bar group bas all · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bar group bas all (Basic Analytical Scope): groupRef: bar_group; scopeMode: global; viewRef: radial_stacked_bar. Visual support covers 68 bar marks reached through the KG scope.",
+    "region": {
+      "x": 30.42629,
+      "y": 19.51871,
+      "width": 66.36391,
+      "height": 77.06688
+    }
+  },
+  {
+    "id": "ev_g67_1",
+    "label": "point group bas Female · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "point group bas Female (Basic Analytical Scope): groupRef: point_group; scopeMode: single_category_breakdown; selection: {\"valueRef\":\"Female_gender_value\",\"variableRef\":\"gender_color_point_group\"}; viewRef: ternary_scatter. Visual support covers 21 point marks reached through the KG scope.",
+    "region": {
+      "x": 43.34669,
+      "y": 43.06986,
+      "width": 27.81652,
+      "height": 26.1171
+    }
+  },
+  {
+    "id": "ev_g68_1",
+    "label": "point group bas Male · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "point group bas Male (Basic Analytical Scope): groupRef: point_group; scopeMode: single_category_breakdown; selection: {\"valueRef\":\"Male_gender_value\",\"variableRef\":\"gender_color_point_group\"}; viewRef: ternary_scatter. Visual support covers 10 point marks reached through the KG scope.",
+    "region": {
+      "x": 48.02779,
+      "y": 46.74695,
+      "width": 25.22994,
+      "height": 16.573
+    }
+  },
+  {
+    "id": "ev_g69_1",
+    "label": "point group bas NONE · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "point group bas NONE (Basic Analytical Scope): groupRef: point_group; scopeMode: single_category_breakdown; selection: {\"valueRef\":\"NONE_gender_value\",\"variableRef\":\"gender_color_point_group\"}; viewRef: ternary_scatter. Visual support covers 24 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g70_1",
+    "label": "point group bas all · point scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "point group bas all (Basic Analytical Scope): groupRef: point_group; scopeMode: global; viewRef: ternary_scatter. Visual support covers 55 point marks reached through the KG scope.",
+    "region": {
+      "x": 42.35567,
+      "y": 39.15927,
+      "width": 31.86082,
+      "height": 30.77666
+    }
+  },
+  {
+    "id": "ev_g71_1",
+    "label": "bar group · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "bar group (Graphical Mark Group): markType: Bar. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g72_1",
+    "label": "point group · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "point group (Graphical Mark Group): markType: Point. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g73_1",
+    "label": "angular position · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "angular position (Visual Attribute): attributeType: angularPosition. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g74_1",
+    "label": "color · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "color (Visual Attribute): attributeType: color. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g75_1",
+    "label": "color bar group · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "color bar group (Visual Attribute): attributeType: color. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g76_1",
+    "label": "height · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "height (Visual Attribute): attributeType: height. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g77_1",
+    "label": "nPosition · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "nPosition (Visual Attribute): attributeType: nPosition. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g78_1",
+    "label": "pPosition · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "pPosition (Visual Attribute): attributeType: pPosition. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g79_1",
+    "label": "uPosition · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "uPosition (Visual Attribute): attributeType: uPosition. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g80_1",
+    "label": "rgb 140 210 198 · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 140 210 198 (Visual Attribute Value): value: {\"fill_rgb\":[140,210,198],\"kind\":\"color\"}. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g81_1",
+    "label": "rgb 140 210 198 color · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 140 210 198 color (Visual Attribute Value): value: {\"fill_rgb\":[140,210,198],\"kind\":\"color\"}. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g82_1",
+    "label": "rgb 189 185 218 · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 189 185 218 (Visual Attribute Value): value: {\"fill_rgb\":[189,185,218],\"kind\":\"color\"}. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g83_1",
+    "label": "rgb 189 185 218 color · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 189 185 218 color (Visual Attribute Value): value: {\"fill_rgb\":[189,185,218],\"kind\":\"color\"}. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g84_1",
+    "label": "rgb 255 255 178 · radial_stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 255 255 178 (Visual Attribute Value): value: {\"fill_rgb\":[255,255,178],\"kind\":\"color\"}. No mark-level geometry was available; provenance falls back to the containing radial_stacked_bar view.",
+    "region": {
+      "x": 30.47629,
+      "y": 19.56871,
+      "width": 66.26391,
+      "height": 76.96688
+    }
+  },
+  {
+    "id": "ev_g85_1",
+    "label": "rgb 255 255 178 color · ternary_scatter",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 255 255 178 color (Visual Attribute Value): value: {\"fill_rgb\":[255,255,178],\"kind\":\"color\"}. No mark-level geometry was available; provenance falls back to the containing ternary_scatter view.",
+    "region": {
+      "x": 42.40567,
+      "y": 39.20927,
+      "width": 31.76082,
+      "height": 30.67666
+    }
+  },
+  {
+    "id": "ev_g87_1",
+    "label": "bar 1 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 1 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 86.64948,
+      "y": 51.91718,
+      "width": 3.09278,
+      "height": 5.67485
+    }
+  },
+  {
+    "id": "ev_g88_1",
+    "label": "bar 10 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 10 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 83.86598,
+      "y": 36.27301,
+      "width": 5.46392,
+      "height": 7.51534
+    }
+  },
+  {
+    "id": "ev_g89_1",
+    "label": "bar 11 · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 11 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 87.68041,
+      "y": 35.81288,
+      "width": 2.26804,
+      "height": 5.52147
+    }
+  },
+  {
+    "id": "ev_g90_1",
+    "label": "bar 12 · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 12 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 88.19588,
+      "y": 34.58589,
+      "width": 3.29897,
+      "height": 6.44172
+    }
+  },
+  {
+    "id": "ev_g91_1",
+    "label": "bar 13 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 13 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 84.89691,
+      "y": 31.05828,
+      "width": 3.40206,
+      "height": 6.13497
+    }
+  },
+  {
+    "id": "ev_g92_1",
+    "label": "bar 14 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 14 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 82.21649,
+      "y": 32.59202,
+      "width": 4.63918,
+      "height": 6.90184
+    }
+  },
+  {
+    "id": "ev_g93_1",
+    "label": "bar 15 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 15 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 86.23711,
+      "y": 28.45092,
+      "width": 4.74227,
+      "height": 7.51534
+    }
+  },
+  {
+    "id": "ev_g94_1",
+    "label": "bar 16 · bar_16",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 16 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_16 (mask_bbox).",
+    "region": {
+      "x": 84.38144,
+      "y": 21.08896,
+      "width": 6.49485,
+      "height": 9.66258
+    }
+  },
+  {
+    "id": "ev_g95_1",
+    "label": "bar 17 · bar_17",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 17 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_17 (mask_bbox).",
+    "region": {
+      "x": 80.15464,
+      "y": 28.45092,
+      "width": 4.84536,
+      "height": 7.20859
+    }
+  },
+  {
+    "id": "ev_g96_1",
+    "label": "bar 18 · bar_18",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 18 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_18 (mask_bbox).",
+    "region": {
+      "x": 82.62887,
+      "y": 26.15031,
+      "width": 4.2268,
+      "height": 6.59509
+    }
+  },
+  {
+    "id": "ev_g97_1",
+    "label": "bar 19 · bar_19",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 19 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_19 (mask_bbox).",
+    "region": {
+      "x": 77.8866,
+      "y": 27.22393,
+      "width": 3.40206,
+      "height": 4.7546
+    }
+  },
+  {
+    "id": "ev_g98_1",
+    "label": "bar 2 · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 2 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 89.3299,
+      "y": 51.7638,
+      "width": 1.75258,
+      "height": 5.67485
+    }
+  },
+  {
+    "id": "ev_g99_1",
+    "label": "bar 20 · bar_20",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 20 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_20 (mask_bbox).",
+    "region": {
+      "x": 75.41237,
+      "y": 24.76994,
+      "width": 3.29897,
+      "height": 4.1411
+    }
+  },
+  {
+    "id": "ev_g100_1",
+    "label": "bar 21 · bar_21",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 21 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_21 (mask_bbox).",
+    "region": {
+      "x": 75.92784,
+      "y": 23.84969,
+      "width": 3.19588,
+      "height": 3.83436
+    }
+  },
+  {
+    "id": "ev_g101_1",
+    "label": "bar 22 · bar_22",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 22 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_22 (mask_bbox).",
+    "region": {
+      "x": 72.83505,
+      "y": 22.77607,
+      "width": 0.72165,
+      "height": 1.07362
+    }
+  },
+  {
+    "id": "ev_g102_1",
+    "label": "bar 23 · bar_23",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 23 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_23 (mask_bbox).",
+    "region": {
+      "x": 72.21649,
+      "y": 22.46933,
+      "width": 0.72165,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g103_1",
+    "label": "bar 24 · bar_24",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 24 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_24 (mask_bbox).",
+    "region": {
+      "x": 71.70103,
+      "y": 22.16258,
+      "width": 0.72165,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g104_1",
+    "label": "bar 25 · bar_25",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 25 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_25 (mask_bbox).",
+    "region": {
+      "x": 71.18557,
+      "y": 21.85583,
+      "width": 0.72165,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g105_1",
+    "label": "bar 26 · bar_26",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 26 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_26 (mask_bbox).",
+    "region": {
+      "x": 69.94845,
+      "y": 20.16871,
+      "width": 3.40206,
+      "height": 2.91411
+    }
+  },
+  {
+    "id": "ev_g106_1",
+    "label": "bar 27 · bar_27",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 27 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_27 (mask_bbox).",
+    "region": {
+      "x": 70.6701,
+      "y": 21.54908,
+      "width": 0.72165,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g107_1",
+    "label": "bar 28 · bar_28",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 28 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_28 (mask_bbox).",
+    "region": {
+      "x": 37.47423,
+      "y": 47.92945,
+      "width": 0.61856,
+      "height": 1.53374
+    }
+  },
+  {
+    "id": "ev_g108_1",
+    "label": "bar 29 · bar_29",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 29 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_29 (mask_bbox).",
+    "region": {
+      "x": 37.37113,
+      "y": 48.84969,
+      "width": 0.61856,
+      "height": 1.38037
+    }
+  },
+  {
+    "id": "ev_g109_1",
+    "label": "bar 3 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 3 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 90.6701,
+      "y": 51.45706,
+      "width": 2.06186,
+      "height": 5.9816
+    }
+  },
+  {
+    "id": "ev_g110_1",
+    "label": "bar 30 · bar_30",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 30 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_30 (mask_bbox).",
+    "region": {
+      "x": 37.26804,
+      "y": 49.61656,
+      "width": 0.61856,
+      "height": 1.38037
+    }
+  },
+  {
+    "id": "ev_g111_1",
+    "label": "bar 31 · bar_31",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 31 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_31 (mask_bbox).",
+    "region": {
+      "x": 36.34021,
+      "y": 47.6227,
+      "width": 1.4433,
+      "height": 5.21472
+    }
+  },
+  {
+    "id": "ev_g112_1",
+    "label": "bar 32 · bar_32",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 32 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_32 (mask_bbox).",
+    "region": {
+      "x": 35.92784,
+      "y": 52.22393,
+      "width": 0.61856,
+      "height": 2.60736
+    }
+  },
+  {
+    "id": "ev_g113_1",
+    "label": "bar 33 · bar_33",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 33 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_33 (mask_bbox).",
+    "region": {
+      "x": 36.13402,
+      "y": 52.3773,
+      "width": 1.13402,
+      "height": 5.06135
+    }
+  },
+  {
+    "id": "ev_g114_1",
+    "label": "bar 34 · bar_34",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 34 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_34 (mask_bbox).",
+    "region": {
+      "x": 35.82474,
+      "y": 54.52454,
+      "width": 0.61856,
+      "height": 2.76074
+    }
+  },
+  {
+    "id": "ev_g115_1",
+    "label": "bar 35 · bar_35",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 35 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_35 (mask_bbox).",
+    "region": {
+      "x": 36.75258,
+      "y": 56.21166,
+      "width": 0.61856,
+      "height": 1.22699
+    }
+  },
+  {
+    "id": "ev_g116_1",
+    "label": "bar 36 · bar_36",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 36 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_36 (mask_bbox).",
+    "region": {
+      "x": 36.4433,
+      "y": 57.1319,
+      "width": 0.61856,
+      "height": 1.22699
+    }
+  },
+  {
+    "id": "ev_g117_1",
+    "label": "bar 37 · bar_37",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 37 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_37 (mask_bbox).",
+    "region": {
+      "x": 36.75258,
+      "y": 57.1319,
+      "width": 0.61856,
+      "height": 1.22699
+    }
+  },
+  {
+    "id": "ev_g118_1",
+    "label": "bar 38 · bar_38",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 38 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_38 (mask_bbox).",
+    "region": {
+      "x": 36.13402,
+      "y": 57.1319,
+      "width": 0.61856,
+      "height": 2.45399
+    }
+  },
+  {
+    "id": "ev_g119_1",
+    "label": "bar 39 · bar_39",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 39 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_39 (mask_bbox).",
+    "region": {
+      "x": 36.85567,
+      "y": 57.7454,
+      "width": 0.61856,
+      "height": 3.06748
+    }
+  },
+  {
+    "id": "ev_g120_1",
+    "label": "bar 4 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 4 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 86.13402,
+      "y": 47.31595,
+      "width": 2.37113,
+      "height": 5.52147
+    }
+  },
+  {
+    "id": "ev_g121_1",
+    "label": "bar 40 · bar_40",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 40 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_40 (mask_bbox).",
+    "region": {
+      "x": 36.54639,
+      "y": 58.81902,
+      "width": 0.61856,
+      "height": 1.99387
+    }
+  },
+  {
+    "id": "ev_g122_1",
+    "label": "bar 41 · bar_41",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 41 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_41 (mask_bbox).",
+    "region": {
+      "x": 36.23711,
+      "y": 59.27914,
+      "width": 0.61856,
+      "height": 2.76074
+    }
+  },
+  {
+    "id": "ev_g123_1",
+    "label": "bar 42 · bar_42",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 42 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_42 (mask_bbox).",
+    "region": {
+      "x": 36.95876,
+      "y": 60.19939,
+      "width": 0.61856,
+      "height": 1.99387
+    }
+  },
+  {
+    "id": "ev_g124_1",
+    "label": "bar 43 · bar_43",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 43 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_43 (mask_bbox).",
+    "region": {
+      "x": 35.20619,
+      "y": 63.42025,
+      "width": 0.61856,
+      "height": 1.38037
+    }
+  },
+  {
+    "id": "ev_g125_1",
+    "label": "bar 44 · bar_44",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 44 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_44 (mask_bbox).",
+    "region": {
+      "x": 36.03093,
+      "y": 61.73313,
+      "width": 2.06186,
+      "height": 5.3681
+    }
+  },
+  {
+    "id": "ev_g126_1",
+    "label": "bar 45 · bar_45",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 45 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_45 (mask_bbox).",
+    "region": {
+      "x": 35.41237,
+      "y": 62.03988,
+      "width": 1.4433,
+      "height": 5.3681
+    }
+  },
+  {
+    "id": "ev_g127_1",
+    "label": "bar 46 · bar_46",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 46 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_46 (mask_bbox).",
+    "region": {
+      "x": 30.87629,
+      "y": 68.17485,
+      "width": 3.60825,
+      "height": 6.90184
+    }
+  },
+  {
+    "id": "ev_g128_1",
+    "label": "bar 47 · bar_47",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 47 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_47 (mask_bbox).",
+    "region": {
+      "x": 33.14433,
+      "y": 67.8681,
+      "width": 2.16495,
+      "height": 5.82822
+    }
+  },
+  {
+    "id": "ev_g129_1",
+    "label": "bar 48 · bar_48",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 48 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_48 (mask_bbox).",
+    "region": {
+      "x": 34.07216,
+      "y": 66.33436,
+      "width": 5.05155,
+      "height": 6.90184
+    }
+  },
+  {
+    "id": "ev_g130_1",
+    "label": "bar 49 · bar_49",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 49 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_49 (mask_bbox).",
+    "region": {
+      "x": 35.20619,
+      "y": 72.6227,
+      "width": 2.26804,
+      "height": 5.3681
+    }
+  },
+  {
+    "id": "ev_g131_1",
+    "label": "bar 5 · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 5 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 87.78351,
+      "y": 46.54908,
+      "width": 3.09278,
+      "height": 5.9816
+    }
+  },
+  {
+    "id": "ev_g132_1",
+    "label": "bar 50 · bar_50",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 50 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_50 (mask_bbox).",
+    "region": {
+      "x": 33.65979,
+      "y": 73.08282,
+      "width": 3.19588,
+      "height": 6.13497
+    }
+  },
+  {
+    "id": "ev_g133_1",
+    "label": "bar 51 · bar_51",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 51 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_51 (mask_bbox).",
+    "region": {
+      "x": 35.82474,
+      "y": 70.78221,
+      "width": 4.53608,
+      "height": 6.90184
+    }
+  },
+  {
+    "id": "ev_g134_1",
+    "label": "bar 52 · bar_52",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 52 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_52 (mask_bbox).",
+    "region": {
+      "x": 39.63918,
+      "y": 75.07669,
+      "width": 2.37113,
+      "height": 4.60123
+    }
+  },
+  {
+    "id": "ev_g135_1",
+    "label": "bar 53 · bar_53",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 53 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_53 (mask_bbox).",
+    "region": {
+      "x": 39.12371,
+      "y": 75.53681,
+      "width": 2.37113,
+      "height": 4.7546
+    }
+  },
+  {
+    "id": "ev_g136_1",
+    "label": "bar 54 · bar_54",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 54 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_54 (mask_bbox).",
+    "region": {
+      "x": 57.26804,
+      "y": 93.4816,
+      "width": 0.92784,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g137_1",
+    "label": "bar 55 · bar_55",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 55 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_55 (mask_bbox).",
+    "region": {
+      "x": 57.78351,
+      "y": 93.63497,
+      "width": 1.23711,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g138_1",
+    "label": "bar 56 · bar_56",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 56 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_56 (mask_bbox).",
+    "region": {
+      "x": 57.16495,
+      "y": 93.94172,
+      "width": 3.50515,
+      "height": 1.99387
+    }
+  },
+  {
+    "id": "ev_g139_1",
+    "label": "bar 57 · bar_57",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 57 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_57 (mask_bbox).",
+    "region": {
+      "x": 58.60825,
+      "y": 93.78834,
+      "width": 1.23711,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g140_1",
+    "label": "bar 58 · bar_58",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 58 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_58 (mask_bbox).",
+    "region": {
+      "x": 59.43299,
+      "y": 93.94172,
+      "width": 1.23711,
+      "height": 0.92025
+    }
+  },
+  {
+    "id": "ev_g141_1",
+    "label": "bar 59 · bar_59",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 59 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_59 (mask_bbox).",
+    "region": {
+      "x": 60.36082,
+      "y": 94.09509,
+      "width": 3.50515,
+      "height": 1.38037
+    }
+  },
+  {
+    "id": "ev_g142_1",
+    "label": "bar 6 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 6 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 89.94845,
+      "y": 45.93558,
+      "width": 2.26804,
+      "height": 6.13497
+    }
+  },
+  {
+    "id": "ev_g143_1",
+    "label": "bar 60 · bar_60",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 60 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_60 (mask_bbox).",
+    "region": {
+      "x": 75.61856,
+      "y": 87.65337,
+      "width": 0.82474,
+      "height": 1.22699
+    }
+  },
+  {
+    "id": "ev_g144_1",
+    "label": "bar 61 · bar_61",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 61 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_61 (mask_bbox).",
+    "region": {
+      "x": 76.03093,
+      "y": 87.34663,
+      "width": 0.72165,
+      "height": 1.07362
+    }
+  },
+  {
+    "id": "ev_g145_1",
+    "label": "bar 62 · bar_62",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 62 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_62 (mask_bbox).",
+    "region": {
+      "x": 76.34021,
+      "y": 86.8865,
+      "width": 0.82474,
+      "height": 1.22699
+    }
+  },
+  {
+    "id": "ev_g146_1",
+    "label": "bar 63 · bar_63",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 63 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_63 (mask_bbox).",
+    "region": {
+      "x": 76.75258,
+      "y": 86.42638,
+      "width": 0.82474,
+      "height": 1.22699
+    }
+  },
+  {
+    "id": "ev_g147_1",
+    "label": "bar 64 · bar_64",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 64 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_64 (mask_bbox).",
+    "region": {
+      "x": 77.16495,
+      "y": 86.11963,
+      "width": 0.72165,
+      "height": 1.07362
+    }
+  },
+  {
+    "id": "ev_g148_1",
+    "label": "bar 65 · bar_65",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 65 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_65 (mask_bbox).",
+    "region": {
+      "x": 77.47423,
+      "y": 85.81288,
+      "width": 0.72165,
+      "height": 1.07362
+    }
+  },
+  {
+    "id": "ev_g149_1",
+    "label": "bar 66 · bar_66",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 66 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_66 (mask_bbox).",
+    "region": {
+      "x": 86.64948,
+      "y": 57.1319,
+      "width": 3.50515,
+      "height": 5.52147
+    }
+  },
+  {
+    "id": "ev_g150_1",
+    "label": "bar 67 · bar_67",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 67 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_67 (mask_bbox).",
+    "region": {
+      "x": 89.63918,
+      "y": 57.1319,
+      "width": 1.4433,
+      "height": 5.67485
+    }
+  },
+  {
+    "id": "ev_g151_1",
+    "label": "bar 68 · bar_68",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 68 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_68 (mask_bbox).",
+    "region": {
+      "x": 90.6701,
+      "y": 57.1319,
+      "width": 1.13402,
+      "height": 5.82822
+    }
+  },
+  {
+    "id": "ev_g152_1",
+    "label": "bar 7 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 7 (Graphical Mark): markType: Bar; linked data: VALUE_OF to NONE; CONTAINS from bar group bas NONE; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 85.20619,
+      "y": 41.18098,
+      "width": 5.25773,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g153_1",
+    "label": "bar 8 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 8 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Male; CONTAINS from bar group bas Male; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 89.2268,
+      "y": 38.88037,
+      "width": 5.46392,
+      "height": 7.66871
+    }
+  },
+  {
+    "id": "ev_g154_1",
+    "label": "bar 9 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 9 (Graphical Mark): markType: Bar; linked data: VALUE_OF to Female; CONTAINS from bar group bas Female; CONTAINS from bar group bas all. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 93.24742,
+      "y": 37.96012,
+      "width": 3.09278,
+      "height": 7.05521
+    }
+  },
+  {
+    "id": "ev_g156_1",
+    "label": "point 10 · point_10",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 10 (Graphical Mark): markType: Point; data values: Negative = 0.21498241964064818; Positive = 0.31545305321405576; Uncertainty = 0.46956452714529606. Visual support resolved through KG provenance to point_10 (ternary_value_projection).",
+    "region": {
+      "x": 62.21957,
+      "y": 47.63807,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g158_1",
+    "label": "point 12 · point_12",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 12 (Graphical Mark): markType: Point; data values: Negative = 0.24428814828262652; Positive = 0.31336953890646196; Uncertainty = 0.44234231281091174. Visual support resolved through KG provenance to point_12 (ternary_value_projection).",
+    "region": {
+      "x": 61.5645,
+      "y": 49.12653,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g160_1",
+    "label": "point 14 · point_14",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 14 (Graphical Mark): markType: Point; data values: Negative = 0.17866994606106745; Positive = 0.38760736003715834; Uncertainty = 0.4337226939017742. Visual support resolved through KG provenance to point_14 (ternary_value_projection).",
+    "region": {
+      "x": 64.47652,
+      "y": 49.59783,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g161_1",
+    "label": "point 15 · point_15",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 15 (Graphical Mark): markType: Point; data values: Negative = 0.21747867659811748; Positive = 0.34880397780292094; Uncertainty = 0.4337173455989618. Visual support resolved through KG provenance to point_15 (ternary_value_projection).",
+    "region": {
+      "x": 62.86026,
+      "y": 49.59812,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g163_1",
+    "label": "point 17 · point_17",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 17 (Graphical Mark): markType: Point; data values: Negative = 0.3307005116113349; Positive = 0.24459498423034948; Uncertainty = 0.42470450415831584. Visual support resolved through KG provenance to point_17 (ternary_value_projection).",
+    "region": {
+      "x": 58.33186,
+      "y": 50.09093,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g164_1",
+    "label": "point 18 · point_18",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 18 (Graphical Mark): markType: Point; data values: Negative = 0.022536087977421126; Positive = 0.5573129442419166; Uncertainty = 0.4201509677806625. Visual support resolved through KG provenance to point_18 (ternary_value_projection).",
+    "region": {
+      "x": 71.26134,
+      "y": 50.3399,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g165_1",
+    "label": "point 19 · point_19",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 19 (Graphical Mark): markType: Point; data values: Negative = 0.2656000315717672; Positive = 0.31914195951984653; Uncertainty = 0.41525800890838627. Visual support resolved through KG provenance to point_19 (ternary_value_projection).",
+    "region": {
+      "x": 61.23949,
+      "y": 50.60744,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g166_1",
+    "label": "point 2 · point_2",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 2 (Graphical Mark): markType: Point; data values: Negative = 0.03494211452449919; Positive = 0.3523129946556475; Uncertainty = 0.6127448908198533. Visual support resolved through KG provenance to point_2 (ternary_value_projection).",
+    "region": {
+      "x": 66.74384,
+      "y": 39.80927,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g167_1",
+    "label": "point 20 · point_20",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 20 (Graphical Mark): markType: Point; data values: Negative = 0.4109599389113916; Positive = 0.17723034496814605; Uncertainty = 0.4118097161204626. Visual support resolved through KG provenance to point_20 (ternary_value_projection).",
+    "region": {
+      "x": 55.25696,
+      "y": 50.79599,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g168_1",
+    "label": "point 21 · point_21",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 21 (Graphical Mark): markType: Point; data values: Negative = 0.10458999839303212; Positive = 0.48407901459660546; Uncertainty = 0.41133098701036264. Visual support resolved through KG provenance to point_21 (ternary_value_projection).",
+    "region": {
+      "x": 68.02706,
+      "y": 50.82216,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g169_1",
+    "label": "point 22 · point_22",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 22 (Graphical Mark): markType: Point; data values: Negative = 0.16652057582473256; Positive = 0.42225468456698567; Uncertainty = 0.411224739608282. Visual support resolved through KG provenance to point_22 (ternary_value_projection).",
+    "region": {
+      "x": 65.44989,
+      "y": 50.82797,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g171_1",
+    "label": "point 24 · point_24",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 24 (Graphical Mark): markType: Point; data values: Negative = 0.2928204842558112; Positive = 0.3002362607040222; Uncertainty = 0.4069432550401666. Visual support resolved through KG provenance to point_24 (ternary_value_projection).",
+    "region": {
+      "x": 60.2785,
+      "y": 51.06208,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g172_1",
+    "label": "point 25 · point_25",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 25 (Graphical Mark): markType: Point; data values: Negative = 0.08408399983641007; Positive = 0.5183382510124479; Uncertainty = 0.39757774915114197. Visual support resolved through KG provenance to point_25 (ternary_value_projection).",
+    "region": {
+      "x": 69.16682,
+      "y": 51.57416,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g174_1",
+    "label": "point 27 · point_27",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 27 (Graphical Mark): markType: Point; data values: Negative = 0.3429234836129627; Positive = 0.2746249904389558; Uncertainty = 0.38245152594808174. Visual support resolved through KG provenance to point_27 (ternary_value_projection).",
+    "region": {
+      "x": 58.70051,
+      "y": 52.40123,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g175_1",
+    "label": "point 28 · point_28",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 28 (Graphical Mark): markType: Point; data values: Negative = 0.374730936325007; Positive = 0.24998340537873032; Uncertainty = 0.37528565829626315. Visual support resolved through KG provenance to point_28 (ternary_value_projection).",
+    "region": {
+      "x": 57.5246,
+      "y": 52.79305,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g178_1",
+    "label": "point 30 · point_30",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 30 (Graphical Mark): markType: Point; data values: Negative = 0.2603927462237906; Positive = 0.3683974706636447; Uncertainty = 0.3712097831125647. Visual support resolved through KG provenance to point_30 (ternary_value_projection).",
+    "region": {
+      "x": 62.3714,
+      "y": 53.01591,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g179_1",
+    "label": "point 31 · point_31",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 31 (Graphical Mark): markType: Point; data values: Negative = 0.43115464155926664; Positive = 0.19785673726210873; Uncertainty = 0.37098862117862486. Visual support resolved through KG provenance to point_31 (ternary_value_projection).",
+    "region": {
+      "x": 55.26385,
+      "y": 53.028,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g181_1",
+    "label": "point 33 · point_33",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 33 (Graphical Mark): markType: Point; data values: Negative = 0.11487368142204057; Positive = 0.5410094217681793; Uncertainty = 0.3441168968097803. Visual support resolved through KG provenance to point_33 (ternary_value_projection).",
+    "region": {
+      "x": 68.995,
+      "y": 54.49729,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g182_1",
+    "label": "point 34 · point_34",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 34 (Graphical Mark): markType: Point; data values: Negative = 0.4643678481049054; Positive = 0.1917340384562909; Uncertainty = 0.34389811343880416. Visual support resolved through KG provenance to point_34 (ternary_value_projection).",
+    "region": {
+      "x": 54.44329,
+      "y": 54.50925,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g183_1",
+    "label": "point 35 · point_35",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 35 (Graphical Mark): markType: Point; data values: Negative = 0.3304405724762256; Positive = 0.32995708144729696; Uncertainty = 0.33960234607647766. Visual support resolved through KG provenance to point_35 (ternary_value_projection).",
+    "region": {
+      "x": 60.11053,
+      "y": 54.74414,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g187_1",
+    "label": "point 39 · point_39",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 39 (Graphical Mark): markType: Point; data values: Negative = 0.5248782733914557; Positive = 0.1443302721015287; Uncertainty = 0.33079145450701586. Visual support resolved through KG provenance to point_39 (ternary_value_projection).",
+    "region": {
+      "x": 52.19533,
+      "y": 55.2259,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g189_1",
+    "label": "point 40 · point_40",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 40 (Graphical Mark): markType: Point; data values: Negative = 0.36979078846304503; Positive = 0.29945643766069663; Uncertainty = 0.33075277387625857. Visual support resolved through KG provenance to point_40 (ternary_value_projection).",
+    "region": {
+      "x": 58.65545,
+      "y": 55.22801,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g190_1",
+    "label": "point 41 · point_41",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 41 (Graphical Mark): markType: Point; data values: Negative = 0.39779827845849813; Positive = 0.2805387020448977; Uncertainty = 0.3216630194966046. Visual support resolved through KG provenance to point_41 (ternary_value_projection).",
+    "region": {
+      "x": 57.67777,
+      "y": 55.72502,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g191_1",
+    "label": "point 42 · point_42",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 42 (Graphical Mark): markType: Point; data values: Negative = 0.04866332408259344; Positive = 0.6297235213032556; Uncertainty = 0.3216131546141512. Visual support resolved through KG provenance to point_42 (ternary_value_projection).",
+    "region": {
+      "x": 72.2201,
+      "y": 55.72775,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g192_1",
+    "label": "point 43 · point_43",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 43 (Graphical Mark): markType: Point; data values: Negative = 0.1825281822007705; Positive = 0.500238098262695; Uncertainty = 0.3172337195365347. Visual support resolved through KG provenance to point_43 (ternary_value_projection).",
+    "region": {
+      "x": 66.73567,
+      "y": 55.96721,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g194_1",
+    "label": "point 45 · point_45",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 45 (Graphical Mark): markType: Point; data values: Negative = 0.43368480886042493; Positive = 0.26252062498951234; Uncertainty = 0.30379456615006317. Visual support resolved through KG provenance to point_45 (ternary_value_projection).",
+    "region": {
+      "x": 56.5543,
+      "y": 56.70203,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g195_1",
+    "label": "point 46 · point_46",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 46 (Graphical Mark): markType: Point; data values: Negative = 0.48649372890388476; Positive = 0.21423366319797188; Uncertainty = 0.2992726078981436. Visual support resolved through KG provenance to point_46 (ternary_value_projection).",
+    "region": {
+      "x": 54.44877,
+      "y": 56.94928,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g196_1",
+    "label": "point 47 · point_47",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 47 (Graphical Mark): markType: Point; data values: Negative = 0.5504728672133054; Positive = 0.15460436748345174; Uncertainty = 0.29492276530324313. Visual support resolved through KG provenance to point_47 (ternary_value_projection).",
+    "region": {
+      "x": 51.87444,
+      "y": 57.18712,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g197_1",
+    "label": "point 48 · point_48",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 48 (Graphical Mark): markType: Point; data values: Negative = 0.5839808694784643; Positive = 0.12565752582343404; Uncertainty = 0.2903616046981019. Visual support resolved through KG provenance to point_48 (ternary_value_projection).",
+    "region": {
+      "x": 50.57359,
+      "y": 57.43652,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g199_1",
+    "label": "point 5 · point_5",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 5 (Graphical Mark): markType: Point; data values: Negative = 0.12494360138408289; Positive = 0.3338320108601761; Uncertainty = 0.5412243877557412. Visual support resolved through KG provenance to point_5 (ternary_value_projection).",
+    "region": {
+      "x": 64.48104,
+      "y": 43.71986,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g200_1",
+    "label": "point 50 · point_50",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 50 (Graphical Mark): markType: Point; data values: Negative = 0.3210013199402093; Positive = 0.397776714359658; Uncertainty = 0.2812219657001327. Visual support resolved through KG provenance to point_50 (ternary_value_projection).",
+    "region": {
+      "x": 61.71642,
+      "y": 57.93625,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g201_1",
+    "label": "point 51 · point_51",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 51 (Graphical Mark): markType: Point; data values: Negative = 0.5227778484671872; Positive = 0.20467025956499674; Uncertainty = 0.27255189196781626. Visual support resolved through KG provenance to point_51 (ternary_value_projection).",
+    "region": {
+      "x": 53.49263,
+      "y": 58.41031,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g202_1",
+    "label": "point 52 · point_52",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 52 (Graphical Mark): markType: Point; data values: Negative = 0.5518082219234987; Positive = 0.17709837910919968; Uncertainty = 0.2710933989673019. Visual support resolved through KG provenance to point_52 (ternary_value_projection).",
+    "region": {
+      "x": 52.31383,
+      "y": 58.49006,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g203_1",
+    "label": "point 53 · point_53",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 53 (Graphical Mark): markType: Point; data values: Negative = 0.3669694735683756; Positive = 0.37423057923554814; Uncertainty = 0.25879994719607624. Visual support resolved through KG provenance to point_53 (ternary_value_projection).",
+    "region": {
+      "x": 60.26764,
+      "y": 59.16224,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g204_1",
+    "label": "point 54 · point_54",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 54 (Graphical Mark): markType: Point; data values: Negative = 0.6152233186673935; Positive = 0.12603077668203466; Uncertainty = 0.258745904650572. Visual support resolved through KG provenance to point_54 (ternary_value_projection).",
+    "region": {
+      "x": 49.92912,
+      "y": 59.1652,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g205_1",
+    "label": "point 55 · point_55",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 55 (Graphical Mark): markType: Point; data values: Negative = 0.6543420774818576; Positive = 0.09547811519549265; Uncertainty = 0.25017980732265. Visual support resolved through KG provenance to point_55 (ternary_value_projection).",
+    "region": {
+      "x": 48.47779,
+      "y": 59.63357,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g206_1",
+    "label": "point 56 · point_56",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 56 (Graphical Mark): markType: Point; data values: Negative = 0.7264213410770931; Positive = 0.027705467854057697; Uncertainty = 0.2458731910688492. Visual support resolved through KG provenance to point_56 (ternary_value_projection).",
+    "region": {
+      "x": 45.56519,
+      "y": 59.86905,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g207_1",
+    "label": "point 57 · point_57",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 57 (Graphical Mark): markType: Point; data values: Negative = 0.5602286251197122; Positive = 0.20304788723520706; Uncertainty = 0.236723487645081. Visual support resolved through KG provenance to point_57 (ternary_value_projection).",
+    "region": {
+      "x": 52.6771,
+      "y": 60.36934,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g208_1",
+    "label": "point 58 · point_58",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 58 (Graphical Mark): markType: Point; data values: Negative = 0.47901100511997385; Positive = 0.28428629139642436; Uncertainty = 0.236702703483602. Visual support resolved through KG provenance to point_58 (ternary_value_projection).",
+    "region": {
+      "x": 56.0602,
+      "y": 60.37047,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g209_1",
+    "label": "point 59 · point_59",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 59 (Graphical Mark): markType: Point; data values: Negative = 0.7553285114376993; Positive = 0.017173793525019576; Uncertainty = 0.22749769503728134. Visual support resolved through KG provenance to point_59 (ternary_value_projection).",
+    "region": {
+      "x": 44.74294,
+      "y": 60.87378,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g211_1",
+    "label": "point 60 · point_60",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 60 (Graphical Mark): markType: Point; data values: Negative = 0.7027925795403865; Positive = 0.07398071670440631; Uncertainty = 0.22322670375520737. Visual support resolved through KG provenance to point_60 (ternary_value_projection).",
+    "region": {
+      "x": 47.01975,
+      "y": 61.10731,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g212_1",
+    "label": "point 61 · point_61",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 61 (Graphical Mark): markType: Point; data values: Negative = 0.4080404679284082; Positive = 0.36881131093800423; Uncertainty = 0.2231482211335878. Visual support resolved through KG provenance to point_61 (ternary_value_projection).",
+    "region": {
+      "x": 59.29766,
+      "y": 61.1116,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g213_1",
+    "label": "point 62 · point_62",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 62 (Graphical Mark): markType: Point; data values: Negative = 0.6496965610968685; Positive = 0.14471957097390342; Uncertainty = 0.20558386792922834. Visual support resolved through KG provenance to point_62 (ternary_value_projection).",
+    "region": {
+      "x": 49.59767,
+      "y": 62.07199,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g215_1",
+    "label": "point 64 · point_64",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 64 (Graphical Mark): markType: Point; data values: Negative = 0.5745481376250202; Positive = 0.22476611292501836; Uncertainty = 0.20068574944996165. Visual support resolved through KG provenance to point_64 (ternary_value_projection).",
+    "region": {
+      "x": 52.82932,
+      "y": 62.33981,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g217_1",
+    "label": "point 66 · point_66",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 66 (Graphical Mark): markType: Point; data values: Negative = 0.6154039207578615; Positive = 0.18819625471054813; Uncertainty = 0.19639982453159055. Visual support resolved through KG provenance to point_66 (ternary_value_projection).",
+    "region": {
+      "x": 51.21673,
+      "y": 62.57415,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g218_1",
+    "label": "point 67 · point_67",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 67 (Graphical Mark): markType: Point; data values: Negative = 0.7938729688103985; Positive = 0.009728233967299493; Uncertainty = 0.19639879722230202. Visual support resolved through KG provenance to point_67 (ternary_value_projection).",
+    "region": {
+      "x": 43.7836,
+      "y": 62.57421,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g220_1",
+    "label": "point 69 · point_69",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 69 (Graphical Mark): markType: Point; data values: Negative = 0.7441532032536033; Positive = 0.06848031670329702; Uncertainty = 0.18736648004309964. Visual support resolved through KG provenance to point_69 (ternary_value_projection).",
+    "region": {
+      "x": 46.04204,
+      "y": 63.06808,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g221_1",
+    "label": "point 7 · point_7",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 7 (Graphical Mark): markType: Point; data values: Negative = 0.2267782124254013; Positive = 0.27253917409406536; Uncertainty = 0.5006826134805336. Visual support resolved through KG provenance to point_7 (ternary_value_projection).",
+    "region": {
+      "x": 61.08186,
+      "y": 45.9366,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g222_1",
+    "label": "point 70 · point_70",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 70 (Graphical Mark): markType: Point; data values: Negative = 0.4343164230595483; Positive = 0.38730059120971505; Uncertainty = 0.17838298573073708. Visual support resolved through KG provenance to point_70 (ternary_value_projection).",
+    "region": {
+      "x": 59.1332,
+      "y": 63.55927,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g224_1",
+    "label": "point 72 · point_72",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 72 (Graphical Mark): markType: Point; data values: Negative = 0.5611278047844999; Positive = 0.2737725390085757; Uncertainty = 0.16509965620692468. Visual support resolved through KG provenance to point_72 (ternary_value_projection).",
+    "region": {
+      "x": 54.1275,
+      "y": 64.28558,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g225_1",
+    "label": "point 73 · point_73",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 73 (Graphical Mark): markType: Point; data values: Negative = 0.8046515697117856; Positive = 0.03915865297384047; Uncertainty = 0.1561897773143741. Visual support resolved through KG provenance to point_73 (ternary_value_projection).",
+    "region": {
+      "x": 44.16995,
+      "y": 64.77275,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g226_1",
+    "label": "point 74 · point_74",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 74 (Graphical Mark): markType: Point; data values: Negative = 0.8269641828689828; Positive = 0.043613618607106885; Uncertainty = 0.12942219852391057. Visual support resolved through KG provenance to point_74 (ternary_value_projection).",
+    "region": {
+      "x": 43.79669,
+      "y": 66.23635,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g228_1",
+    "label": "point 76 · point_76",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 76 (Graphical Mark): markType: Point; data values: Negative = 0.8575904339915948; Positive = 0.026685248378168658; Uncertainty = 0.1157243176302365. Visual support resolved through KG provenance to point_76 (ternary_value_projection).",
+    "region": {
+      "x": 42.80567,
+      "y": 66.98532,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g231_1",
+    "label": "point 8 · point_8",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 8 (Graphical Mark): markType: Point; data values: Negative = 0.1390651364907367; Positive = 0.3868005082751651; Uncertainty = 0.4741343552340984. Visual support resolved through KG provenance to point_8 (ternary_value_projection).",
+    "region": {
+      "x": 65.28656,
+      "y": 47.38821,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  },
+  {
+    "id": "ev_g232_1",
+    "label": "point 9 · point_9",
+    "kind": "image-region",
+    "confidence": 0.88,
+    "detail": "point 9 (Graphical Mark): markType: Point; data values: Negative = 0.11189036845757744; Positive = 0.41413511103148243; Uncertainty = 0.47397452051094013. Visual support resolved through KG provenance to point_9 (ternary_value_projection).",
+    "region": {
+      "x": 66.42169,
+      "y": 47.39695,
+      "width": 1.54639,
+      "height": 2.30061
+    }
+  }
+]

@@ -1,0 +1,3579 @@
+{
+  "G1": {
+    "id": "G1",
+    "claimIds": [
+      "entity:insight_Composition_1",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_2"
+    ],
+    "entityIds": [
+      "insight_Composition_1",
+      "Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g1_1",
+      "ev_g1_2"
+    ],
+    "graphPath": [
+      "Composition 1",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G2": {
+    "id": "G2",
+    "claimIds": [
+      "entity:insight_Composition_2",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_3"
+    ],
+    "entityIds": [
+      "insight_Composition_2",
+      "Composition_3"
+    ],
+    "evidenceIds": [
+      "ev_g2_1"
+    ],
+    "graphPath": [
+      "Composition 2",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G3": {
+    "id": "G3",
+    "claimIds": [
+      "entity:insight_Composition_3",
+      "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+    ],
+    "entityIds": [
+      "insight_Composition_3",
+      "Composition_6"
+    ],
+    "evidenceIds": [
+      "ev_g3_1"
+    ],
+    "graphPath": [
+      "Composition 3",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G4": {
+    "id": "G4",
+    "claimIds": [
+      "entity:insight_Composition_4",
+      "relation:DERIVED_FROM:insight_Composition_4:Composition_7"
+    ],
+    "entityIds": [
+      "insight_Composition_4",
+      "Composition_7"
+    ],
+    "evidenceIds": [
+      "ev_g4_1"
+    ],
+    "graphPath": [
+      "Composition 4",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G5": {
+    "id": "G5",
+    "claimIds": [
+      "entity:insight_Composition_5",
+      "relation:DERIVED_FROM:insight_Composition_5:Composition_8"
+    ],
+    "entityIds": [
+      "insight_Composition_5",
+      "Composition_8"
+    ],
+    "evidenceIds": [
+      "ev_g5_1"
+    ],
+    "graphPath": [
+      "Composition 5",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G6": {
+    "id": "G6",
+    "claimIds": [
+      "entity:insight_Composition_6",
+      "relation:DERIVED_FROM:insight_Composition_6:Composition_5"
+    ],
+    "entityIds": [
+      "insight_Composition_6",
+      "Composition_5"
+    ],
+    "evidenceIds": [
+      "ev_g6_1"
+    ],
+    "graphPath": [
+      "Composition 6",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G7": {
+    "id": "G7",
+    "claimIds": [
+      "entity:insight_Composition_7",
+      "relation:DERIVED_FROM:insight_Composition_7:Composition_4"
+    ],
+    "entityIds": [
+      "insight_Composition_7",
+      "Composition_4"
+    ],
+    "evidenceIds": [
+      "ev_g7_1"
+    ],
+    "graphPath": [
+      "Composition 7",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G8": {
+    "id": "G8",
+    "claimIds": [
+      "entity:insight_Composition_8",
+      "relation:DERIVED_FROM:insight_Composition_8:Composition"
+    ],
+    "entityIds": [
+      "insight_Composition_8",
+      "Composition"
+    ],
+    "evidenceIds": [
+      "ev_g8_1"
+    ],
+    "graphPath": [
+      "Composition 8",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G9": {
+    "id": "G9",
+    "claimIds": [
+      "entity:Composition",
+      "relation:SUPPORTED_BY:Composition:bas_North_America_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_8:Composition"
+    ],
+    "entityIds": [
+      "Composition",
+      "bas_North_America_other_rect_group",
+      "insight_Composition_8"
+    ],
+    "evidenceIds": [
+      "ev_g9_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas North America other rect group"
+    ]
+  },
+  "G10": {
+    "id": "G10",
+    "claimIds": [
+      "entity:Composition_2",
+      "relation:SUPPORTED_BY:Composition_2:bas_Australasia_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_2"
+    ],
+    "entityIds": [
+      "Composition_2",
+      "bas_Australasia_other_rect_group",
+      "insight_Composition_1"
+    ],
+    "evidenceIds": [
+      "ev_g10_1",
+      "ev_g10_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Australasia other rect group"
+    ]
+  },
+  "G11": {
+    "id": "G11",
+    "claimIds": [
+      "entity:Composition_3",
+      "relation:SUPPORTED_BY:Composition_3:bas_Asia_Pacific_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_3"
+    ],
+    "entityIds": [
+      "Composition_3",
+      "bas_Asia_Pacific_other_rect_group",
+      "insight_Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g11_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Asia Pacific other rect group"
+    ]
+  },
+  "G12": {
+    "id": "G12",
+    "claimIds": [
+      "entity:Composition_4",
+      "relation:SUPPORTED_BY:Composition_4:bas_all_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_7:Composition_4"
+    ],
+    "entityIds": [
+      "Composition_4",
+      "bas_all_other_rect_group",
+      "insight_Composition_7"
+    ],
+    "evidenceIds": [
+      "ev_g12_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas all other rect group"
+    ]
+  },
+  "G13": {
+    "id": "G13",
+    "claimIds": [
+      "entity:Composition_5",
+      "relation:SUPPORTED_BY:Composition_5:bas_Western_Europe_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_6:Composition_5"
+    ],
+    "entityIds": [
+      "Composition_5",
+      "bas_Western_Europe_other_rect_group",
+      "insight_Composition_6"
+    ],
+    "evidenceIds": [
+      "ev_g13_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Western Europe other rect group"
+    ]
+  },
+  "G14": {
+    "id": "G14",
+    "claimIds": [
+      "entity:Composition_6",
+      "relation:SUPPORTED_BY:Composition_6:bas_Latin_America_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+    ],
+    "entityIds": [
+      "Composition_6",
+      "bas_Latin_America_other_rect_group",
+      "insight_Composition_3"
+    ],
+    "evidenceIds": [
+      "ev_g14_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Latin America other rect group"
+    ]
+  },
+  "G15": {
+    "id": "G15",
+    "claimIds": [
+      "entity:Composition_7",
+      "relation:SUPPORTED_BY:Composition_7:bas_Middle_East_and_Africa_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_4:Composition_7"
+    ],
+    "entityIds": [
+      "Composition_7",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "insight_Composition_4"
+    ],
+    "evidenceIds": [
+      "ev_g15_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Middle East and Africa other rect group"
+    ]
+  },
+  "G16": {
+    "id": "G16",
+    "claimIds": [
+      "entity:Composition_8",
+      "relation:SUPPORTED_BY:Composition_8:bas_Eastern_Europe_other_rect_group",
+      "relation:DERIVED_FROM:insight_Composition_5:Composition_8"
+    ],
+    "entityIds": [
+      "Composition_8",
+      "bas_Eastern_Europe_other_rect_group",
+      "insight_Composition_5"
+    ],
+    "evidenceIds": [
+      "ev_g16_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Eastern Europe other rect group"
+    ]
+  },
+  "G17": {
+    "id": "G17",
+    "claimIds": [
+      "entity:Region",
+      "relation:ENCODES:color:Region",
+      "relation:VALUE_OF:Asia_Pacific:Region",
+      "relation:VALUE_OF:Australasia:Region",
+      "relation:VALUE_OF:Eastern_Europe:Region",
+      "relation:VALUE_OF:Latin_America:Region",
+      "relation:VALUE_OF:Middle_East_and_Africa:Region",
+      "relation:VALUE_OF:North_America:Region",
+      "relation:VALUE_OF:Western_Europe:Region"
+    ],
+    "entityIds": [
+      "Region",
+      "color",
+      "Asia_Pacific",
+      "Australasia",
+      "Eastern_Europe",
+      "Latin_America",
+      "Middle_East_and_Africa",
+      "North_America",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g17_1"
+    ],
+    "graphPath": [
+      "color",
+      "ENCODES",
+      "Region"
+    ]
+  },
+  "G18": {
+    "id": "G18",
+    "claimIds": [
+      "entity:Asia_Pacific",
+      "relation:ENCODES:rgb_0_168_204:Asia_Pacific",
+      "relation:VALUE_OF:Asia_Pacific:Region",
+      "relation:VALUE_OF:rect_100:Asia_Pacific",
+      "relation:VALUE_OF:rect_101:Asia_Pacific",
+      "relation:VALUE_OF:rect_62:Asia_Pacific",
+      "relation:VALUE_OF:rect_63:Asia_Pacific",
+      "relation:VALUE_OF:rect_64:Asia_Pacific",
+      "relation:VALUE_OF:rect_65:Asia_Pacific",
+      "relation:VALUE_OF:rect_66:Asia_Pacific",
+      "relation:VALUE_OF:rect_72:Asia_Pacific",
+      "relation:VALUE_OF:rect_73:Asia_Pacific",
+      "relation:VALUE_OF:rect_74:Asia_Pacific",
+      "relation:VALUE_OF:rect_75:Asia_Pacific",
+      "relation:VALUE_OF:rect_76:Asia_Pacific",
+      "relation:VALUE_OF:rect_77:Asia_Pacific",
+      "relation:VALUE_OF:rect_78:Asia_Pacific",
+      "relation:VALUE_OF:rect_79:Asia_Pacific",
+      "relation:VALUE_OF:rect_80:Asia_Pacific",
+      "relation:VALUE_OF:rect_81:Asia_Pacific",
+      "relation:VALUE_OF:rect_82:Asia_Pacific"
+    ],
+    "entityIds": [
+      "Asia_Pacific",
+      "rgb_0_168_204",
+      "Region",
+      "rect_100",
+      "rect_101",
+      "rect_62",
+      "rect_63",
+      "rect_64",
+      "rect_65",
+      "rect_66",
+      "rect_72",
+      "rect_73",
+      "rect_74",
+      "rect_75",
+      "rect_76",
+      "rect_77",
+      "rect_78",
+      "rect_79",
+      "rect_80",
+      "rect_81",
+      "rect_82"
+    ],
+    "evidenceIds": [
+      "ev_g18_1"
+    ],
+    "graphPath": [
+      "rgb 0 168 204",
+      "ENCODES",
+      "Asia Pacific"
+    ]
+  },
+  "G19": {
+    "id": "G19",
+    "claimIds": [
+      "entity:Australasia",
+      "relation:ENCODES:rgb_251_178_77:Australasia",
+      "relation:VALUE_OF:Australasia:Region",
+      "relation:VALUE_OF:rect_42:Australasia",
+      "relation:VALUE_OF:rect_52:Australasia"
+    ],
+    "entityIds": [
+      "Australasia",
+      "rgb_251_178_77",
+      "Region",
+      "rect_42",
+      "rect_52"
+    ],
+    "evidenceIds": [
+      "ev_g19_1",
+      "ev_g19_2"
+    ],
+    "graphPath": [
+      "rgb 251 178 77",
+      "ENCODES",
+      "Australasia"
+    ]
+  },
+  "G20": {
+    "id": "G20",
+    "claimIds": [
+      "entity:Eastern_Europe",
+      "relation:ENCODES:rgb_12_176_68:Eastern_Europe",
+      "relation:VALUE_OF:Eastern_Europe:Region",
+      "relation:VALUE_OF:rect_24:Eastern_Europe",
+      "relation:VALUE_OF:rect_33:Eastern_Europe",
+      "relation:VALUE_OF:rect_34:Eastern_Europe",
+      "relation:VALUE_OF:rect_43:Eastern_Europe",
+      "relation:VALUE_OF:rect_44:Eastern_Europe",
+      "relation:VALUE_OF:rect_53:Eastern_Europe",
+      "relation:VALUE_OF:rect_54:Eastern_Europe"
+    ],
+    "entityIds": [
+      "Eastern_Europe",
+      "rgb_12_176_68",
+      "Region",
+      "rect_24",
+      "rect_33",
+      "rect_34",
+      "rect_43",
+      "rect_44",
+      "rect_53",
+      "rect_54"
+    ],
+    "evidenceIds": [
+      "ev_g20_1"
+    ],
+    "graphPath": [
+      "rgb 12 176 68",
+      "ENCODES",
+      "Eastern Europe"
+    ]
+  },
+  "G21": {
+    "id": "G21",
+    "claimIds": [
+      "entity:Latin_America",
+      "relation:ENCODES:rgb_181_57_111:Latin_America",
+      "relation:VALUE_OF:Latin_America:Region",
+      "relation:VALUE_OF:rect_15:Latin_America",
+      "relation:VALUE_OF:rect_25:Latin_America",
+      "relation:VALUE_OF:rect_35:Latin_America",
+      "relation:VALUE_OF:rect_45:Latin_America",
+      "relation:VALUE_OF:rect_5:Latin_America",
+      "relation:VALUE_OF:rect_55:Latin_America"
+    ],
+    "entityIds": [
+      "Latin_America",
+      "rgb_181_57_111",
+      "Region",
+      "rect_15",
+      "rect_25",
+      "rect_35",
+      "rect_45",
+      "rect_5",
+      "rect_55"
+    ],
+    "evidenceIds": [
+      "ev_g21_1"
+    ],
+    "graphPath": [
+      "rgb 181 57 111",
+      "ENCODES",
+      "Latin America"
+    ]
+  },
+  "G22": {
+    "id": "G22",
+    "claimIds": [
+      "entity:Middle_East_and_Africa",
+      "relation:ENCODES:rgb_255_0_246:Middle_East_and_Africa",
+      "relation:VALUE_OF:Middle_East_and_Africa:Region",
+      "relation:VALUE_OF:rect_36:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_46:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_56:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_57:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_58:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_59:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_60:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_61:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_67:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_68:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_69:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_70:Middle_East_and_Africa",
+      "relation:VALUE_OF:rect_71:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "Middle_East_and_Africa",
+      "rgb_255_0_246",
+      "Region",
+      "rect_36",
+      "rect_46",
+      "rect_56",
+      "rect_57",
+      "rect_58",
+      "rect_59",
+      "rect_60",
+      "rect_61",
+      "rect_67",
+      "rect_68",
+      "rect_69",
+      "rect_70",
+      "rect_71"
+    ],
+    "evidenceIds": [
+      "ev_g22_1"
+    ],
+    "graphPath": [
+      "rgb 255 0 246",
+      "ENCODES",
+      "Middle East and Africa"
+    ]
+  },
+  "G23": {
+    "id": "G23",
+    "claimIds": [
+      "entity:North_America",
+      "relation:ENCODES:rgb_255_104_42:North_America",
+      "relation:VALUE_OF:North_America:Region",
+      "relation:VALUE_OF:rect_1:North_America",
+      "relation:VALUE_OF:rect_12:North_America",
+      "relation:VALUE_OF:rect_13:North_America",
+      "relation:VALUE_OF:rect_14:North_America",
+      "relation:VALUE_OF:rect_22:North_America",
+      "relation:VALUE_OF:rect_23:North_America",
+      "relation:VALUE_OF:rect_3:North_America",
+      "relation:VALUE_OF:rect_32:North_America",
+      "relation:VALUE_OF:rect_4:North_America"
+    ],
+    "entityIds": [
+      "North_America",
+      "rgb_255_104_42",
+      "Region",
+      "rect_1",
+      "rect_12",
+      "rect_13",
+      "rect_14",
+      "rect_22",
+      "rect_23",
+      "rect_3",
+      "rect_32",
+      "rect_4"
+    ],
+    "evidenceIds": [
+      "ev_g23_1"
+    ],
+    "graphPath": [
+      "rgb 255 104 42",
+      "ENCODES",
+      "North America"
+    ]
+  },
+  "G24": {
+    "id": "G24",
+    "claimIds": [
+      "entity:Western_Europe",
+      "relation:ENCODES:rgb_43_102_124:Western_Europe",
+      "relation:VALUE_OF:Western_Europe:Region",
+      "relation:VALUE_OF:rect_10:Western_Europe",
+      "relation:VALUE_OF:rect_11:Western_Europe",
+      "relation:VALUE_OF:rect_16:Western_Europe",
+      "relation:VALUE_OF:rect_17:Western_Europe",
+      "relation:VALUE_OF:rect_18:Western_Europe",
+      "relation:VALUE_OF:rect_19:Western_Europe",
+      "relation:VALUE_OF:rect_2:Western_Europe",
+      "relation:VALUE_OF:rect_20:Western_Europe",
+      "relation:VALUE_OF:rect_21:Western_Europe",
+      "relation:VALUE_OF:rect_26:Western_Europe",
+      "relation:VALUE_OF:rect_27:Western_Europe",
+      "relation:VALUE_OF:rect_28:Western_Europe",
+      "relation:VALUE_OF:rect_29:Western_Europe",
+      "relation:VALUE_OF:rect_30:Western_Europe",
+      "relation:VALUE_OF:rect_31:Western_Europe",
+      "relation:VALUE_OF:rect_37:Western_Europe",
+      "relation:VALUE_OF:rect_38:Western_Europe",
+      "relation:VALUE_OF:rect_39:Western_Europe"
+    ],
+    "entityIds": [
+      "Western_Europe",
+      "rgb_43_102_124",
+      "Region",
+      "rect_10",
+      "rect_11",
+      "rect_16",
+      "rect_17",
+      "rect_18",
+      "rect_19",
+      "rect_2",
+      "rect_20",
+      "rect_21",
+      "rect_26",
+      "rect_27",
+      "rect_28",
+      "rect_29",
+      "rect_30",
+      "rect_31",
+      "rect_37",
+      "rect_38",
+      "rect_39"
+    ],
+    "evidenceIds": [
+      "ev_g24_1"
+    ],
+    "graphPath": [
+      "rgb 43 102 124",
+      "ENCODES",
+      "Western Europe"
+    ]
+  },
+  "G25": {
+    "id": "G25",
+    "claimIds": [
+      "entity:other",
+      "relation:HAS_VIEW:chart:other",
+      "relation:COMPOSED_OF:other:rect_group"
+    ],
+    "entityIds": [
+      "other",
+      "chart",
+      "rect_group"
+    ],
+    "evidenceIds": [
+      "ev_g25_1"
+    ],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "other"
+    ]
+  },
+  "G26": {
+    "id": "G26",
+    "claimIds": [
+      "entity:bas_Asia_Pacific_other_rect_group",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_100",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_101",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_62",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_63",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_64",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_65",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_66",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_72",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_73",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_74",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_75",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_76",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_77",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_78",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_79",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_80",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_81",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_82",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_83",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_84"
+    ],
+    "entityIds": [
+      "bas_Asia_Pacific_other_rect_group",
+      "rect_100",
+      "rect_101",
+      "rect_62",
+      "rect_63",
+      "rect_64",
+      "rect_65",
+      "rect_66",
+      "rect_72",
+      "rect_73",
+      "rect_74",
+      "rect_75",
+      "rect_76",
+      "rect_77",
+      "rect_78",
+      "rect_79",
+      "rect_80",
+      "rect_81",
+      "rect_82",
+      "rect_83",
+      "rect_84"
+    ],
+    "evidenceIds": [
+      "ev_g26_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 100"
+    ]
+  },
+  "G27": {
+    "id": "G27",
+    "claimIds": [
+      "entity:bas_Australasia_other_rect_group",
+      "relation:COMPOSED_OF:bas_Australasia_other_rect_group:rect_42",
+      "relation:COMPOSED_OF:bas_Australasia_other_rect_group:rect_52",
+      "relation:SUPPORTED_BY:Composition_2:bas_Australasia_other_rect_group"
+    ],
+    "entityIds": [
+      "bas_Australasia_other_rect_group",
+      "rect_42",
+      "rect_52",
+      "Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g27_1",
+      "ev_g27_2"
+    ],
+    "graphPath": [
+      "bas Australasia other rect group",
+      "COMPOSED_OF",
+      "rect 42"
+    ]
+  },
+  "G28": {
+    "id": "G28",
+    "claimIds": [
+      "entity:bas_Eastern_Europe_other_rect_group",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_24",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_33",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_34",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_43",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_44",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_53",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_54",
+      "relation:SUPPORTED_BY:Composition_8:bas_Eastern_Europe_other_rect_group"
+    ],
+    "entityIds": [
+      "bas_Eastern_Europe_other_rect_group",
+      "rect_24",
+      "rect_33",
+      "rect_34",
+      "rect_43",
+      "rect_44",
+      "rect_53",
+      "rect_54",
+      "Composition_8"
+    ],
+    "evidenceIds": [
+      "ev_g28_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 24"
+    ]
+  },
+  "G29": {
+    "id": "G29",
+    "claimIds": [
+      "entity:bas_Latin_America_other_rect_group",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_15",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_25",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_35",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_45",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_5",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_55",
+      "relation:SUPPORTED_BY:Composition_6:bas_Latin_America_other_rect_group"
+    ],
+    "entityIds": [
+      "bas_Latin_America_other_rect_group",
+      "rect_15",
+      "rect_25",
+      "rect_35",
+      "rect_45",
+      "rect_5",
+      "rect_55",
+      "Composition_6"
+    ],
+    "evidenceIds": [
+      "ev_g29_1"
+    ],
+    "graphPath": [
+      "bas Latin America other rect group",
+      "COMPOSED_OF",
+      "rect 15"
+    ]
+  },
+  "G30": {
+    "id": "G30",
+    "claimIds": [
+      "entity:bas_Middle_East_and_Africa_other_rect_group",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_36",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_46",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_56",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_57",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_58",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_59",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_60",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_61",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_67",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_68",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_69",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_70",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_71",
+      "relation:SUPPORTED_BY:Composition_7:bas_Middle_East_and_Africa_other_rect_group"
+    ],
+    "entityIds": [
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "rect_36",
+      "rect_46",
+      "rect_56",
+      "rect_57",
+      "rect_58",
+      "rect_59",
+      "rect_60",
+      "rect_61",
+      "rect_67",
+      "rect_68",
+      "rect_69",
+      "rect_70",
+      "rect_71",
+      "Composition_7"
+    ],
+    "evidenceIds": [
+      "ev_g30_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 36"
+    ]
+  },
+  "G31": {
+    "id": "G31",
+    "claimIds": [
+      "entity:bas_North_America_other_rect_group",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_1",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_12",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_13",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_14",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_22",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_23",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_3",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_32",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_4",
+      "relation:SUPPORTED_BY:Composition:bas_North_America_other_rect_group"
+    ],
+    "entityIds": [
+      "bas_North_America_other_rect_group",
+      "rect_1",
+      "rect_12",
+      "rect_13",
+      "rect_14",
+      "rect_22",
+      "rect_23",
+      "rect_3",
+      "rect_32",
+      "rect_4",
+      "Composition"
+    ],
+    "evidenceIds": [
+      "ev_g31_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 1"
+    ]
+  },
+  "G32": {
+    "id": "G32",
+    "claimIds": [
+      "entity:bas_Western_Europe_other_rect_group",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_10",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_11",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_16",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_17",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_18",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_19",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_2",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_20",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_21",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_26",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_27",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_28",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_29",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_30",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_31",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_37",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_38",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_39",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_40",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_41"
+    ],
+    "entityIds": [
+      "bas_Western_Europe_other_rect_group",
+      "rect_10",
+      "rect_11",
+      "rect_16",
+      "rect_17",
+      "rect_18",
+      "rect_19",
+      "rect_2",
+      "rect_20",
+      "rect_21",
+      "rect_26",
+      "rect_27",
+      "rect_28",
+      "rect_29",
+      "rect_30",
+      "rect_31",
+      "rect_37",
+      "rect_38",
+      "rect_39",
+      "rect_40",
+      "rect_41"
+    ],
+    "evidenceIds": [
+      "ev_g32_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 10"
+    ]
+  },
+  "G33": {
+    "id": "G33",
+    "claimIds": [
+      "entity:bas_all_other_rect_group",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_1",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_10",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_100",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_101",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_11",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_12",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_13",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_14",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_15",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_16",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_17",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_18",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_19",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_2",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_20",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_21",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_22",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_23",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_24",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_25"
+    ],
+    "entityIds": [
+      "bas_all_other_rect_group",
+      "rect_1",
+      "rect_10",
+      "rect_100",
+      "rect_101",
+      "rect_11",
+      "rect_12",
+      "rect_13",
+      "rect_14",
+      "rect_15",
+      "rect_16",
+      "rect_17",
+      "rect_18",
+      "rect_19",
+      "rect_2",
+      "rect_20",
+      "rect_21",
+      "rect_22",
+      "rect_23",
+      "rect_24",
+      "rect_25"
+    ],
+    "evidenceIds": [
+      "ev_g33_1"
+    ],
+    "graphPath": [
+      "bas all other rect group",
+      "COMPOSED_OF",
+      "rect 1"
+    ]
+  },
+  "G34": {
+    "id": "G34",
+    "claimIds": [
+      "entity:rect_group",
+      "relation:COMPOSED_OF:other:rect_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:rect_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:rect_group:position"
+    ],
+    "entityIds": [
+      "rect_group",
+      "other",
+      "color",
+      "position"
+    ],
+    "evidenceIds": [
+      "ev_g34_1"
+    ],
+    "graphPath": [
+      "other",
+      "COMPOSED_OF",
+      "rect group"
+    ]
+  },
+  "G35": {
+    "id": "G35",
+    "claimIds": [
+      "entity:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:rect_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_0_168_204",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_12_176_68",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_181_57_111",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_251_178_77",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_0_246",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_104_42",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_43_102_124",
+      "relation:ENCODES:color:Region"
+    ],
+    "entityIds": [
+      "color",
+      "rect_group",
+      "rgb_0_168_204",
+      "rgb_12_176_68",
+      "rgb_181_57_111",
+      "rgb_251_178_77",
+      "rgb_255_0_246",
+      "rgb_255_104_42",
+      "rgb_43_102_124",
+      "Region"
+    ],
+    "evidenceIds": [
+      "ev_g35_1"
+    ],
+    "graphPath": [
+      "rect group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "color"
+    ]
+  },
+  "G36": {
+    "id": "G36",
+    "claimIds": [
+      "entity:position",
+      "relation:HAS_VISUAL_ATTRIBUTE:rect_group:position"
+    ],
+    "entityIds": [
+      "position",
+      "rect_group"
+    ],
+    "evidenceIds": [
+      "ev_g36_1"
+    ],
+    "graphPath": [
+      "rect group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "position"
+    ]
+  },
+  "G37": {
+    "id": "G37",
+    "claimIds": [
+      "entity:rgb_0_168_204",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_0_168_204",
+      "relation:ENCODES:rgb_0_168_204:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rgb_0_168_204",
+      "color",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g37_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 0 168 204"
+    ]
+  },
+  "G38": {
+    "id": "G38",
+    "claimIds": [
+      "entity:rgb_12_176_68",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_12_176_68",
+      "relation:ENCODES:rgb_12_176_68:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rgb_12_176_68",
+      "color",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g38_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 12 176 68"
+    ]
+  },
+  "G39": {
+    "id": "G39",
+    "claimIds": [
+      "entity:rgb_181_57_111",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_181_57_111",
+      "relation:ENCODES:rgb_181_57_111:Latin_America"
+    ],
+    "entityIds": [
+      "rgb_181_57_111",
+      "color",
+      "Latin_America"
+    ],
+    "evidenceIds": [
+      "ev_g39_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 181 57 111"
+    ]
+  },
+  "G40": {
+    "id": "G40",
+    "claimIds": [
+      "entity:rgb_251_178_77",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_251_178_77",
+      "relation:ENCODES:rgb_251_178_77:Australasia"
+    ],
+    "entityIds": [
+      "rgb_251_178_77",
+      "color",
+      "Australasia"
+    ],
+    "evidenceIds": [
+      "ev_g40_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 251 178 77"
+    ]
+  },
+  "G41": {
+    "id": "G41",
+    "claimIds": [
+      "entity:rgb_255_0_246",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_0_246",
+      "relation:ENCODES:rgb_255_0_246:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rgb_255_0_246",
+      "color",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g41_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 255 0 246"
+    ]
+  },
+  "G42": {
+    "id": "G42",
+    "claimIds": [
+      "entity:rgb_255_104_42",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_104_42",
+      "relation:ENCODES:rgb_255_104_42:North_America"
+    ],
+    "entityIds": [
+      "rgb_255_104_42",
+      "color",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g42_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 255 104 42"
+    ]
+  },
+  "G43": {
+    "id": "G43",
+    "claimIds": [
+      "entity:rgb_43_102_124",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_43_102_124",
+      "relation:ENCODES:rgb_43_102_124:Western_Europe"
+    ],
+    "entityIds": [
+      "rgb_43_102_124",
+      "color",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g43_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 43 102 124"
+    ]
+  },
+  "G44": {
+    "id": "G44",
+    "claimIds": [
+      "entity:chart",
+      "relation:HAS_VIEW:chart:other"
+    ],
+    "entityIds": [
+      "chart",
+      "other"
+    ],
+    "evidenceIds": [
+      "ev_g44_1"
+    ],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "other"
+    ]
+  },
+  "G45": {
+    "id": "G45",
+    "claimIds": [
+      "entity:rect_1",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_1",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_1",
+      "relation:VALUE_OF:rect_1:North_America"
+    ],
+    "entityIds": [
+      "rect_1",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g45_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 1"
+    ]
+  },
+  "G46": {
+    "id": "G46",
+    "claimIds": [
+      "entity:rect_10",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_10",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_10",
+      "relation:VALUE_OF:rect_10:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_10",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g46_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 10"
+    ]
+  },
+  "G47": {
+    "id": "G47",
+    "claimIds": [
+      "entity:rect_100",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_100",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_100",
+      "relation:VALUE_OF:rect_100:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_100",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g47_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 100"
+    ]
+  },
+  "G48": {
+    "id": "G48",
+    "claimIds": [
+      "entity:rect_101",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_101",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_101",
+      "relation:VALUE_OF:rect_101:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_101",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g48_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 101"
+    ]
+  },
+  "G49": {
+    "id": "G49",
+    "claimIds": [
+      "entity:rect_11",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_11",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_11",
+      "relation:VALUE_OF:rect_11:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_11",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g49_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 11"
+    ]
+  },
+  "G50": {
+    "id": "G50",
+    "claimIds": [
+      "entity:rect_12",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_12",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_12",
+      "relation:VALUE_OF:rect_12:North_America"
+    ],
+    "entityIds": [
+      "rect_12",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g50_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 12"
+    ]
+  },
+  "G51": {
+    "id": "G51",
+    "claimIds": [
+      "entity:rect_13",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_13",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_13",
+      "relation:VALUE_OF:rect_13:North_America"
+    ],
+    "entityIds": [
+      "rect_13",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g51_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 13"
+    ]
+  },
+  "G52": {
+    "id": "G52",
+    "claimIds": [
+      "entity:rect_14",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_14",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_14",
+      "relation:VALUE_OF:rect_14:North_America"
+    ],
+    "entityIds": [
+      "rect_14",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g52_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 14"
+    ]
+  },
+  "G53": {
+    "id": "G53",
+    "claimIds": [
+      "entity:rect_15",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_15",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_15",
+      "relation:VALUE_OF:rect_15:Latin_America"
+    ],
+    "entityIds": [
+      "rect_15",
+      "bas_Latin_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "Latin_America"
+    ],
+    "evidenceIds": [
+      "ev_g53_1"
+    ],
+    "graphPath": [
+      "bas Latin America other rect group",
+      "COMPOSED_OF",
+      "rect 15"
+    ]
+  },
+  "G54": {
+    "id": "G54",
+    "claimIds": [
+      "entity:rect_16",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_16",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_16",
+      "relation:VALUE_OF:rect_16:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_16",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g54_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 16"
+    ]
+  },
+  "G55": {
+    "id": "G55",
+    "claimIds": [
+      "entity:rect_17",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_17",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_17",
+      "relation:VALUE_OF:rect_17:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_17",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g55_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 17"
+    ]
+  },
+  "G56": {
+    "id": "G56",
+    "claimIds": [
+      "entity:rect_18",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_18",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_18",
+      "relation:VALUE_OF:rect_18:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_18",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g56_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 18"
+    ]
+  },
+  "G57": {
+    "id": "G57",
+    "claimIds": [
+      "entity:rect_19",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_19",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_19",
+      "relation:VALUE_OF:rect_19:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_19",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g57_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 19"
+    ]
+  },
+  "G58": {
+    "id": "G58",
+    "claimIds": [
+      "entity:rect_2",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_2",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_2",
+      "relation:VALUE_OF:rect_2:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_2",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g58_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 2"
+    ]
+  },
+  "G59": {
+    "id": "G59",
+    "claimIds": [
+      "entity:rect_20",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_20",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_20",
+      "relation:VALUE_OF:rect_20:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_20",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g59_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 20"
+    ]
+  },
+  "G60": {
+    "id": "G60",
+    "claimIds": [
+      "entity:rect_21",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_21",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_21",
+      "relation:VALUE_OF:rect_21:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_21",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g60_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 21"
+    ]
+  },
+  "G61": {
+    "id": "G61",
+    "claimIds": [
+      "entity:rect_22",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_22",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_22",
+      "relation:VALUE_OF:rect_22:North_America"
+    ],
+    "entityIds": [
+      "rect_22",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g61_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 22"
+    ]
+  },
+  "G62": {
+    "id": "G62",
+    "claimIds": [
+      "entity:rect_23",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_23",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_23",
+      "relation:VALUE_OF:rect_23:North_America"
+    ],
+    "entityIds": [
+      "rect_23",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g62_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 23"
+    ]
+  },
+  "G63": {
+    "id": "G63",
+    "claimIds": [
+      "entity:rect_24",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_24",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_24",
+      "relation:VALUE_OF:rect_24:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rect_24",
+      "bas_Eastern_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g63_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 24"
+    ]
+  },
+  "G64": {
+    "id": "G64",
+    "claimIds": [
+      "entity:rect_25",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_25",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_25",
+      "relation:VALUE_OF:rect_25:Latin_America"
+    ],
+    "entityIds": [
+      "rect_25",
+      "bas_Latin_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "Latin_America"
+    ],
+    "evidenceIds": [
+      "ev_g64_1"
+    ],
+    "graphPath": [
+      "bas Latin America other rect group",
+      "COMPOSED_OF",
+      "rect 25"
+    ]
+  },
+  "G65": {
+    "id": "G65",
+    "claimIds": [
+      "entity:rect_26",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_26",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_26",
+      "relation:VALUE_OF:rect_26:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_26",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g65_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 26"
+    ]
+  },
+  "G66": {
+    "id": "G66",
+    "claimIds": [
+      "entity:rect_27",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_27",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_27",
+      "relation:VALUE_OF:rect_27:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_27",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g66_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 27"
+    ]
+  },
+  "G67": {
+    "id": "G67",
+    "claimIds": [
+      "entity:rect_28",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_28",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_28",
+      "relation:VALUE_OF:rect_28:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_28",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g67_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 28"
+    ]
+  },
+  "G68": {
+    "id": "G68",
+    "claimIds": [
+      "entity:rect_29",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_29",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_29",
+      "relation:VALUE_OF:rect_29:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_29",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g68_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 29"
+    ]
+  },
+  "G69": {
+    "id": "G69",
+    "claimIds": [
+      "entity:rect_3",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_3",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_3",
+      "relation:VALUE_OF:rect_3:North_America"
+    ],
+    "entityIds": [
+      "rect_3",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g69_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 3"
+    ]
+  },
+  "G70": {
+    "id": "G70",
+    "claimIds": [
+      "entity:rect_30",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_30",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_30",
+      "relation:VALUE_OF:rect_30:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_30",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g70_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 30"
+    ]
+  },
+  "G71": {
+    "id": "G71",
+    "claimIds": [
+      "entity:rect_31",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_31",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_31",
+      "relation:VALUE_OF:rect_31:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_31",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g71_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 31"
+    ]
+  },
+  "G72": {
+    "id": "G72",
+    "claimIds": [
+      "entity:rect_32",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_32",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_32",
+      "relation:VALUE_OF:rect_32:North_America"
+    ],
+    "entityIds": [
+      "rect_32",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g72_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 32"
+    ]
+  },
+  "G73": {
+    "id": "G73",
+    "claimIds": [
+      "entity:rect_33",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_33",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_33",
+      "relation:VALUE_OF:rect_33:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rect_33",
+      "bas_Eastern_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g73_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 33"
+    ]
+  },
+  "G74": {
+    "id": "G74",
+    "claimIds": [
+      "entity:rect_34",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_34",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_34",
+      "relation:VALUE_OF:rect_34:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rect_34",
+      "bas_Eastern_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g74_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 34"
+    ]
+  },
+  "G75": {
+    "id": "G75",
+    "claimIds": [
+      "entity:rect_35",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_35",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_35",
+      "relation:VALUE_OF:rect_35:Latin_America"
+    ],
+    "entityIds": [
+      "rect_35",
+      "bas_Latin_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "Latin_America"
+    ],
+    "evidenceIds": [
+      "ev_g75_1"
+    ],
+    "graphPath": [
+      "bas Latin America other rect group",
+      "COMPOSED_OF",
+      "rect 35"
+    ]
+  },
+  "G76": {
+    "id": "G76",
+    "claimIds": [
+      "entity:rect_36",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_36",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_36",
+      "relation:VALUE_OF:rect_36:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_36",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g76_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 36"
+    ]
+  },
+  "G77": {
+    "id": "G77",
+    "claimIds": [
+      "entity:rect_37",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_37",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_37",
+      "relation:VALUE_OF:rect_37:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_37",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g77_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 37"
+    ]
+  },
+  "G78": {
+    "id": "G78",
+    "claimIds": [
+      "entity:rect_38",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_38",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_38",
+      "relation:VALUE_OF:rect_38:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_38",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g78_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 38"
+    ]
+  },
+  "G79": {
+    "id": "G79",
+    "claimIds": [
+      "entity:rect_39",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_39",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_39",
+      "relation:VALUE_OF:rect_39:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_39",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g79_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 39"
+    ]
+  },
+  "G80": {
+    "id": "G80",
+    "claimIds": [
+      "entity:rect_4",
+      "relation:COMPOSED_OF:bas_North_America_other_rect_group:rect_4",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_4",
+      "relation:VALUE_OF:rect_4:North_America"
+    ],
+    "entityIds": [
+      "rect_4",
+      "bas_North_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g80_1"
+    ],
+    "graphPath": [
+      "bas North America other rect group",
+      "COMPOSED_OF",
+      "rect 4"
+    ]
+  },
+  "G81": {
+    "id": "G81",
+    "claimIds": [
+      "entity:rect_40",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_40",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_40",
+      "relation:VALUE_OF:rect_40:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_40",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g81_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 40"
+    ]
+  },
+  "G82": {
+    "id": "G82",
+    "claimIds": [
+      "entity:rect_41",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_41",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_41",
+      "relation:VALUE_OF:rect_41:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_41",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g82_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 41"
+    ]
+  },
+  "G83": {
+    "id": "G83",
+    "claimIds": [
+      "entity:rect_42",
+      "relation:COMPOSED_OF:bas_Australasia_other_rect_group:rect_42",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_42",
+      "relation:VALUE_OF:rect_42:Australasia"
+    ],
+    "entityIds": [
+      "rect_42",
+      "bas_Australasia_other_rect_group",
+      "bas_all_other_rect_group",
+      "Australasia"
+    ],
+    "evidenceIds": [
+      "ev_g83_1"
+    ],
+    "graphPath": [
+      "bas Australasia other rect group",
+      "COMPOSED_OF",
+      "rect 42"
+    ]
+  },
+  "G84": {
+    "id": "G84",
+    "claimIds": [
+      "entity:rect_43",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_43",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_43",
+      "relation:VALUE_OF:rect_43:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rect_43",
+      "bas_Eastern_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g84_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 43"
+    ]
+  },
+  "G85": {
+    "id": "G85",
+    "claimIds": [
+      "entity:rect_44",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_44",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_44",
+      "relation:VALUE_OF:rect_44:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rect_44",
+      "bas_Eastern_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g85_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 44"
+    ]
+  },
+  "G86": {
+    "id": "G86",
+    "claimIds": [
+      "entity:rect_45",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_45",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_45",
+      "relation:VALUE_OF:rect_45:Latin_America"
+    ],
+    "entityIds": [
+      "rect_45",
+      "bas_Latin_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "Latin_America"
+    ],
+    "evidenceIds": [
+      "ev_g86_1"
+    ],
+    "graphPath": [
+      "bas Latin America other rect group",
+      "COMPOSED_OF",
+      "rect 45"
+    ]
+  },
+  "G87": {
+    "id": "G87",
+    "claimIds": [
+      "entity:rect_46",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_46",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_46",
+      "relation:VALUE_OF:rect_46:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_46",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g87_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 46"
+    ]
+  },
+  "G88": {
+    "id": "G88",
+    "claimIds": [
+      "entity:rect_47",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_47",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_47",
+      "relation:VALUE_OF:rect_47:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_47",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g88_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 47"
+    ]
+  },
+  "G89": {
+    "id": "G89",
+    "claimIds": [
+      "entity:rect_48",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_48",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_48",
+      "relation:VALUE_OF:rect_48:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_48",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g89_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 48"
+    ]
+  },
+  "G90": {
+    "id": "G90",
+    "claimIds": [
+      "entity:rect_49",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_49",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_49",
+      "relation:VALUE_OF:rect_49:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_49",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g90_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 49"
+    ]
+  },
+  "G91": {
+    "id": "G91",
+    "claimIds": [
+      "entity:rect_5",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_5",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_5",
+      "relation:VALUE_OF:rect_5:Latin_America"
+    ],
+    "entityIds": [
+      "rect_5",
+      "bas_Latin_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "Latin_America"
+    ],
+    "evidenceIds": [
+      "ev_g91_1"
+    ],
+    "graphPath": [
+      "bas Latin America other rect group",
+      "COMPOSED_OF",
+      "rect 5"
+    ]
+  },
+  "G92": {
+    "id": "G92",
+    "claimIds": [
+      "entity:rect_50",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_50",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_50",
+      "relation:VALUE_OF:rect_50:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_50",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g92_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 50"
+    ]
+  },
+  "G93": {
+    "id": "G93",
+    "claimIds": [
+      "entity:rect_51",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_51",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_51",
+      "relation:VALUE_OF:rect_51:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_51",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g93_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 51"
+    ]
+  },
+  "G94": {
+    "id": "G94",
+    "claimIds": [
+      "entity:rect_52",
+      "relation:COMPOSED_OF:bas_Australasia_other_rect_group:rect_52",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_52",
+      "relation:VALUE_OF:rect_52:Australasia"
+    ],
+    "entityIds": [
+      "rect_52",
+      "bas_Australasia_other_rect_group",
+      "bas_all_other_rect_group",
+      "Australasia"
+    ],
+    "evidenceIds": [
+      "ev_g94_1"
+    ],
+    "graphPath": [
+      "bas Australasia other rect group",
+      "COMPOSED_OF",
+      "rect 52"
+    ]
+  },
+  "G95": {
+    "id": "G95",
+    "claimIds": [
+      "entity:rect_53",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_53",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_53",
+      "relation:VALUE_OF:rect_53:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rect_53",
+      "bas_Eastern_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g95_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 53"
+    ]
+  },
+  "G96": {
+    "id": "G96",
+    "claimIds": [
+      "entity:rect_54",
+      "relation:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_54",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_54",
+      "relation:VALUE_OF:rect_54:Eastern_Europe"
+    ],
+    "entityIds": [
+      "rect_54",
+      "bas_Eastern_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Eastern_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g96_1"
+    ],
+    "graphPath": [
+      "bas Eastern Europe other rect group",
+      "COMPOSED_OF",
+      "rect 54"
+    ]
+  },
+  "G97": {
+    "id": "G97",
+    "claimIds": [
+      "entity:rect_55",
+      "relation:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_55",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_55",
+      "relation:VALUE_OF:rect_55:Latin_America"
+    ],
+    "entityIds": [
+      "rect_55",
+      "bas_Latin_America_other_rect_group",
+      "bas_all_other_rect_group",
+      "Latin_America"
+    ],
+    "evidenceIds": [
+      "ev_g97_1"
+    ],
+    "graphPath": [
+      "bas Latin America other rect group",
+      "COMPOSED_OF",
+      "rect 55"
+    ]
+  },
+  "G98": {
+    "id": "G98",
+    "claimIds": [
+      "entity:rect_56",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_56",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_56",
+      "relation:VALUE_OF:rect_56:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_56",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g98_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 56"
+    ]
+  },
+  "G99": {
+    "id": "G99",
+    "claimIds": [
+      "entity:rect_57",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_57",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_57",
+      "relation:VALUE_OF:rect_57:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_57",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g99_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 57"
+    ]
+  },
+  "G100": {
+    "id": "G100",
+    "claimIds": [
+      "entity:rect_58",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_58",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_58",
+      "relation:VALUE_OF:rect_58:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_58",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g100_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 58"
+    ]
+  },
+  "G101": {
+    "id": "G101",
+    "claimIds": [
+      "entity:rect_59",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_59",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_59",
+      "relation:VALUE_OF:rect_59:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_59",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g101_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 59"
+    ]
+  },
+  "G102": {
+    "id": "G102",
+    "claimIds": [
+      "entity:rect_6",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_6",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_6",
+      "relation:VALUE_OF:rect_6:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_6",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g102_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 6"
+    ]
+  },
+  "G103": {
+    "id": "G103",
+    "claimIds": [
+      "entity:rect_60",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_60",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_60",
+      "relation:VALUE_OF:rect_60:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_60",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g103_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 60"
+    ]
+  },
+  "G104": {
+    "id": "G104",
+    "claimIds": [
+      "entity:rect_61",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_61",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_61",
+      "relation:VALUE_OF:rect_61:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_61",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g104_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 61"
+    ]
+  },
+  "G105": {
+    "id": "G105",
+    "claimIds": [
+      "entity:rect_62",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_62",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_62",
+      "relation:VALUE_OF:rect_62:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_62",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g105_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 62"
+    ]
+  },
+  "G106": {
+    "id": "G106",
+    "claimIds": [
+      "entity:rect_63",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_63",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_63",
+      "relation:VALUE_OF:rect_63:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_63",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g106_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 63"
+    ]
+  },
+  "G107": {
+    "id": "G107",
+    "claimIds": [
+      "entity:rect_64",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_64",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_64",
+      "relation:VALUE_OF:rect_64:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_64",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g107_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 64"
+    ]
+  },
+  "G108": {
+    "id": "G108",
+    "claimIds": [
+      "entity:rect_65",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_65",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_65",
+      "relation:VALUE_OF:rect_65:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_65",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g108_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 65"
+    ]
+  },
+  "G109": {
+    "id": "G109",
+    "claimIds": [
+      "entity:rect_66",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_66",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_66",
+      "relation:VALUE_OF:rect_66:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_66",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g109_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 66"
+    ]
+  },
+  "G110": {
+    "id": "G110",
+    "claimIds": [
+      "entity:rect_67",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_67",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_67",
+      "relation:VALUE_OF:rect_67:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_67",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g110_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 67"
+    ]
+  },
+  "G111": {
+    "id": "G111",
+    "claimIds": [
+      "entity:rect_68",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_68",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_68",
+      "relation:VALUE_OF:rect_68:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_68",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g111_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 68"
+    ]
+  },
+  "G112": {
+    "id": "G112",
+    "claimIds": [
+      "entity:rect_69",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_69",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_69",
+      "relation:VALUE_OF:rect_69:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_69",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g112_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 69"
+    ]
+  },
+  "G113": {
+    "id": "G113",
+    "claimIds": [
+      "entity:rect_7",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_7",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_7",
+      "relation:VALUE_OF:rect_7:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_7",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g113_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 7"
+    ]
+  },
+  "G114": {
+    "id": "G114",
+    "claimIds": [
+      "entity:rect_70",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_70",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_70",
+      "relation:VALUE_OF:rect_70:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_70",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g114_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 70"
+    ]
+  },
+  "G115": {
+    "id": "G115",
+    "claimIds": [
+      "entity:rect_71",
+      "relation:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_71",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_71",
+      "relation:VALUE_OF:rect_71:Middle_East_and_Africa"
+    ],
+    "entityIds": [
+      "rect_71",
+      "bas_Middle_East_and_Africa_other_rect_group",
+      "bas_all_other_rect_group",
+      "Middle_East_and_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g115_1"
+    ],
+    "graphPath": [
+      "bas Middle East and Africa other rect group",
+      "COMPOSED_OF",
+      "rect 71"
+    ]
+  },
+  "G116": {
+    "id": "G116",
+    "claimIds": [
+      "entity:rect_72",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_72",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_72",
+      "relation:VALUE_OF:rect_72:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_72",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g116_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 72"
+    ]
+  },
+  "G117": {
+    "id": "G117",
+    "claimIds": [
+      "entity:rect_73",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_73",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_73",
+      "relation:VALUE_OF:rect_73:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_73",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g117_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 73"
+    ]
+  },
+  "G118": {
+    "id": "G118",
+    "claimIds": [
+      "entity:rect_74",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_74",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_74",
+      "relation:VALUE_OF:rect_74:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_74",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g118_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 74"
+    ]
+  },
+  "G119": {
+    "id": "G119",
+    "claimIds": [
+      "entity:rect_75",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_75",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_75",
+      "relation:VALUE_OF:rect_75:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_75",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g119_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 75"
+    ]
+  },
+  "G120": {
+    "id": "G120",
+    "claimIds": [
+      "entity:rect_76",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_76",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_76",
+      "relation:VALUE_OF:rect_76:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_76",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g120_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 76"
+    ]
+  },
+  "G121": {
+    "id": "G121",
+    "claimIds": [
+      "entity:rect_77",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_77",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_77",
+      "relation:VALUE_OF:rect_77:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_77",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g121_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 77"
+    ]
+  },
+  "G122": {
+    "id": "G122",
+    "claimIds": [
+      "entity:rect_78",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_78",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_78",
+      "relation:VALUE_OF:rect_78:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_78",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g122_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 78"
+    ]
+  },
+  "G123": {
+    "id": "G123",
+    "claimIds": [
+      "entity:rect_79",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_79",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_79",
+      "relation:VALUE_OF:rect_79:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_79",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g123_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 79"
+    ]
+  },
+  "G124": {
+    "id": "G124",
+    "claimIds": [
+      "entity:rect_8",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_8",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_8",
+      "relation:VALUE_OF:rect_8:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_8",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g124_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 8"
+    ]
+  },
+  "G125": {
+    "id": "G125",
+    "claimIds": [
+      "entity:rect_80",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_80",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_80",
+      "relation:VALUE_OF:rect_80:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_80",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g125_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 80"
+    ]
+  },
+  "G126": {
+    "id": "G126",
+    "claimIds": [
+      "entity:rect_81",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_81",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_81",
+      "relation:VALUE_OF:rect_81:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_81",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g126_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 81"
+    ]
+  },
+  "G127": {
+    "id": "G127",
+    "claimIds": [
+      "entity:rect_82",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_82",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_82",
+      "relation:VALUE_OF:rect_82:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_82",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g127_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 82"
+    ]
+  },
+  "G128": {
+    "id": "G128",
+    "claimIds": [
+      "entity:rect_83",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_83",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_83",
+      "relation:VALUE_OF:rect_83:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_83",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g128_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 83"
+    ]
+  },
+  "G129": {
+    "id": "G129",
+    "claimIds": [
+      "entity:rect_84",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_84",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_84",
+      "relation:VALUE_OF:rect_84:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_84",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g129_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 84"
+    ]
+  },
+  "G130": {
+    "id": "G130",
+    "claimIds": [
+      "entity:rect_85",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_85",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_85",
+      "relation:VALUE_OF:rect_85:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_85",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g130_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 85"
+    ]
+  },
+  "G131": {
+    "id": "G131",
+    "claimIds": [
+      "entity:rect_86",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_86",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_86",
+      "relation:VALUE_OF:rect_86:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_86",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g131_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 86"
+    ]
+  },
+  "G132": {
+    "id": "G132",
+    "claimIds": [
+      "entity:rect_87",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_87",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_87",
+      "relation:VALUE_OF:rect_87:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_87",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g132_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 87"
+    ]
+  },
+  "G133": {
+    "id": "G133",
+    "claimIds": [
+      "entity:rect_88",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_88",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_88",
+      "relation:VALUE_OF:rect_88:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_88",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g133_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 88"
+    ]
+  },
+  "G134": {
+    "id": "G134",
+    "claimIds": [
+      "entity:rect_89",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_89",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_89",
+      "relation:VALUE_OF:rect_89:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_89",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g134_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 89"
+    ]
+  },
+  "G135": {
+    "id": "G135",
+    "claimIds": [
+      "entity:rect_9",
+      "relation:COMPOSED_OF:bas_Western_Europe_other_rect_group:rect_9",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_9",
+      "relation:VALUE_OF:rect_9:Western_Europe"
+    ],
+    "entityIds": [
+      "rect_9",
+      "bas_Western_Europe_other_rect_group",
+      "bas_all_other_rect_group",
+      "Western_Europe"
+    ],
+    "evidenceIds": [
+      "ev_g135_1"
+    ],
+    "graphPath": [
+      "bas Western Europe other rect group",
+      "COMPOSED_OF",
+      "rect 9"
+    ]
+  },
+  "G136": {
+    "id": "G136",
+    "claimIds": [
+      "entity:rect_90",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_90",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_90",
+      "relation:VALUE_OF:rect_90:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_90",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g136_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 90"
+    ]
+  },
+  "G137": {
+    "id": "G137",
+    "claimIds": [
+      "entity:rect_91",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_91",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_91",
+      "relation:VALUE_OF:rect_91:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_91",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g137_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 91"
+    ]
+  },
+  "G138": {
+    "id": "G138",
+    "claimIds": [
+      "entity:rect_92",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_92",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_92",
+      "relation:VALUE_OF:rect_92:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_92",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g138_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 92"
+    ]
+  },
+  "G139": {
+    "id": "G139",
+    "claimIds": [
+      "entity:rect_93",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_93",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_93",
+      "relation:VALUE_OF:rect_93:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_93",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g139_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 93"
+    ]
+  },
+  "G140": {
+    "id": "G140",
+    "claimIds": [
+      "entity:rect_94",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_94",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_94",
+      "relation:VALUE_OF:rect_94:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_94",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g140_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 94"
+    ]
+  },
+  "G141": {
+    "id": "G141",
+    "claimIds": [
+      "entity:rect_95",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_95",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_95",
+      "relation:VALUE_OF:rect_95:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_95",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g141_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 95"
+    ]
+  },
+  "G142": {
+    "id": "G142",
+    "claimIds": [
+      "entity:rect_96",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_96",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_96",
+      "relation:VALUE_OF:rect_96:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_96",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g142_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 96"
+    ]
+  },
+  "G143": {
+    "id": "G143",
+    "claimIds": [
+      "entity:rect_97",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_97",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_97",
+      "relation:VALUE_OF:rect_97:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_97",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g143_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 97"
+    ]
+  },
+  "G144": {
+    "id": "G144",
+    "claimIds": [
+      "entity:rect_98",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_98",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_98",
+      "relation:VALUE_OF:rect_98:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_98",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g144_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 98"
+    ]
+  },
+  "G145": {
+    "id": "G145",
+    "claimIds": [
+      "entity:rect_99",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_99",
+      "relation:COMPOSED_OF:bas_all_other_rect_group:rect_99",
+      "relation:VALUE_OF:rect_99:Asia_Pacific"
+    ],
+    "entityIds": [
+      "rect_99",
+      "bas_Asia_Pacific_other_rect_group",
+      "bas_all_other_rect_group",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g145_1"
+    ],
+    "graphPath": [
+      "bas Asia Pacific other rect group",
+      "COMPOSED_OF",
+      "rect 99"
+    ]
+  }
+}

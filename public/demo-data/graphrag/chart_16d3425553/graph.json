@@ -1,0 +1,1118 @@
+{
+  "revisionId": "construction-kg-revision:0f9d7653eb1cb840880d",
+  "ontologyRef": "chartkg-plus-plus-schema:v1.8",
+  "nodes": [
+    {
+      "id": "chart",
+      "label": "chart",
+      "type": "Complex_Chart",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Complex_Chart"
+      },
+      "claimIds": [
+        "entity:chart"
+      ]
+    },
+    {
+      "id": "bubblechart",
+      "label": "cartesian point",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "cartesian_point"
+      },
+      "claimIds": [
+        "entity:bubblechart"
+      ]
+    },
+    {
+      "id": "point_group",
+      "label": "point group",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Point"
+      },
+      "claimIds": [
+        "entity:point_group"
+      ]
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color"
+      ]
+    },
+    {
+      "id": "size",
+      "label": "size",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "size"
+      },
+      "claimIds": [
+        "entity:size"
+      ]
+    },
+    {
+      "id": "text_label",
+      "label": "text label",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "textLabel"
+      },
+      "claimIds": [
+        "entity:text_label"
+      ]
+    },
+    {
+      "id": "x_position",
+      "label": "x position",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "xPosition"
+      },
+      "claimIds": [
+        "entity:x_position"
+      ]
+    },
+    {
+      "id": "y_position",
+      "label": "y position",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "yPosition"
+      },
+      "claimIds": [
+        "entity:y_position"
+      ]
+    },
+    {
+      "id": "INCOME_LEVEL_1_position_interval",
+      "label": "INCOME LEVEL 1 position interval",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"axis\":\"x\",\"boundary_source\":\"observed_separator_lines\",\"closure\":\"[)\",\"coordinate_space\":\"source_pixels\",\"interval\":[104.0,1281.0],\"kind\":\"position_interval\"}"
+      },
+      "claimIds": [
+        "entity:INCOME_LEVEL_1_position_interval"
+      ]
+    },
+    {
+      "id": "LEVEL_2_position_interval",
+      "label": "LEVEL 2 position interval",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"axis\":\"x\",\"boundary_source\":\"observed_separator_lines\",\"closure\":\"[)\",\"coordinate_space\":\"source_pixels\",\"interval\":[1281.0,2169.0],\"kind\":\"position_interval\"}"
+      },
+      "claimIds": [
+        "entity:LEVEL_2_position_interval"
+      ]
+    },
+    {
+      "id": "LEVEL_3_position_interval",
+      "label": "LEVEL 3 position interval",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"axis\":\"x\",\"boundary_source\":\"observed_separator_lines\",\"closure\":\"[)\",\"coordinate_space\":\"source_pixels\",\"interval\":[2169.0,2905.0],\"kind\":\"position_interval\"}"
+      },
+      "claimIds": [
+        "entity:LEVEL_3_position_interval"
+      ]
+    },
+    {
+      "id": "LEVEL_4_position_interval",
+      "label": "LEVEL 4 position interval",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"axis\":\"x\",\"boundary_source\":\"observed_separator_lines\",\"closure\":\"[)\",\"coordinate_space\":\"source_pixels\",\"interval\":[2905.0,3980.0],\"kind\":\"position_interval\"}"
+      },
+      "claimIds": [
+        "entity:LEVEL_4_position_interval"
+      ]
+    },
+    {
+      "id": "Income",
+      "label": "Income",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Income",
+        "unit": "GDP per capita, $ per year, price adjusted",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Income"
+      ]
+    },
+    {
+      "id": "Income_Level",
+      "label": "Income Level",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Income Level",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Income_Level"
+      ]
+    },
+    {
+      "id": "Lifespan",
+      "label": "Lifespan",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Lifespan",
+        "unit": "years",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Lifespan"
+      ]
+    },
+    {
+      "id": "Population",
+      "label": "Population",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Population",
+        "unit": "million",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Population"
+      ]
+    },
+    {
+      "id": "Region",
+      "label": "Region",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Region",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "country",
+      "label": "country",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "country",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:country"
+      ]
+    },
+    {
+      "id": "Afghanistan",
+      "label": "Afghanistan",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Afghanistan"
+      },
+      "claimIds": [
+        "entity:Afghanistan"
+      ]
+    },
+    {
+      "id": "Africa",
+      "label": "Africa",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Africa"
+      },
+      "claimIds": [
+        "entity:Africa"
+      ]
+    },
+    {
+      "id": "Albania",
+      "label": "Albania",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Albania"
+      },
+      "claimIds": [
+        "entity:Albania"
+      ]
+    },
+    {
+      "id": "Algeria",
+      "label": "Algeria",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Algeria"
+      },
+      "claimIds": [
+        "entity:Algeria"
+      ]
+    },
+    {
+      "id": "Americas",
+      "label": "Americas",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Americas"
+      },
+      "claimIds": [
+        "entity:Americas"
+      ]
+    },
+    {
+      "id": "Angola",
+      "label": "Angola",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Angola"
+      },
+      "claimIds": [
+        "entity:Angola"
+      ]
+    },
+    {
+      "id": "Correlation_22",
+      "label": "Correlation: NonlinearRelation",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The paired marks follow a curved pattern that flattens at higher income levels.",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "patternType": "Correlation",
+        "subtype": "NonlinearRelation"
+      },
+      "claimIds": [
+        "entity:Correlation_22"
+      ]
+    },
+    {
+      "id": "Correlation_23",
+      "label": "Correlation: PositiveCorrelation",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Income and Lifespan show a strong positive directional relationship across the population of countries.",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "patternType": "Correlation",
+        "subtype": "PositiveCorrelation"
+      },
+      "claimIds": [
+        "entity:Correlation_23"
+      ]
+    },
+    {
+      "id": "Distribution_20",
+      "label": "Distribution: BandLike",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The Africa country marks form an elongated band extending from lower-left to upper-right across Income and Lifespan.",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      },
+      "claimIds": [
+        "entity:Distribution_20"
+      ]
+    },
+    {
+      "id": "Distribution_21",
+      "label": "Distribution: BandLike",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Americas countries form an elongated band rising from low income and lifespan to high income and lifespan across the Cartesian plane.",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      },
+      "claimIds": [
+        "entity:Distribution_21"
+      ]
+    },
+    {
+      "id": "Distribution_23",
+      "label": "Distribution: BandLike",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The points form an elongated band extending diagonally from lower-left (low Income, lower Lifespan) towards upper-right (high Income, higher Lifespan).",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      },
+      "claimIds": [
+        "entity:Distribution_23"
+      ]
+    },
+    {
+      "id": "Distribution_24",
+      "label": "Distribution: BandLike",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "European country points form a continuous elongated band rising diagonally from lower-left to upper-right in the income-lifespan space.",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      },
+      "claimIds": [
+        "entity:Distribution_24"
+      ]
+    },
+    {
+      "id": "Extreme_46",
+      "label": "Extreme: Minimum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "point_171 achieves the minimum Lifespan among all countries in the Africa group.",
+        "measure": "[{\"variable\":\"Lifespan\"}]",
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": "[\"point_171\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_46"
+      ]
+    },
+    {
+      "id": "Extreme_48",
+      "label": "Extreme: Minimum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Mark point_165 has the minimum Lifespan among all Americas countries.",
+        "measure": "[{\"variable\":\"Lifespan\"}]",
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": "[\"point_165\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_48"
+      ]
+    },
+    {
+      "id": "Extreme_49",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Mark point_21 achieves the maximum Lifespan among all Americas countries.",
+        "measure": "[{\"variable\":\"Lifespan\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"point_21\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_49"
+      ]
+    },
+    {
+      "id": "Extreme_50",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Mark point_45 has the maximum Income among all Americas countries.",
+        "measure": "[{\"variable\":\"Income\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"point_45\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_50"
+      ]
+    },
+    {
+      "id": "ExtremumComparison_5",
+      "label": "ExtremumComparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Among regional maximum Income marks, Singapore in Asia and Oceania attains the highest Income level, positioned further to the right than the maxima of the Americas and Europe.",
+        "measure": "[{\"variable\":\"Income\"}]",
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:ExtremumComparison_5"
+      ]
+    },
+    {
+      "id": "ExtremumComparison_6",
+      "label": "ExtremumComparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing regional maximum Lifespan observations, Singapore in Asia and Oceania achieves the highest Lifespan mark, positioned higher vertically than the maxima of the Americas an…",
+        "measure": "[{\"variable\":\"Lifespan\"}]",
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:ExtremumComparison_6"
+      ]
+    },
+    {
+      "id": "ExtremumComparison_7",
+      "label": "ExtremumComparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing regional minimum Lifespan observations, Central African Republic in Africa records the lowest Lifespan, positioned lowest along the Lifespan axis across all regional gro…",
+        "measure": "[{\"variable\":\"Lifespan\"}]",
+        "patternType": "ExtremumComparison",
+        "subtype": "MinimumComparison"
+      },
+      "claimIds": [
+        "entity:ExtremumComparison_7"
+      ]
+    },
+    {
+      "id": "Similarity_3",
+      "label": "Similarity: SimilarDistribution",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "commonFeature": "elongated band extending from lower-left to upper-right",
+        "comparisonFamily": "Distribution",
+        "comparisonFeature": "cluster_structure",
+        "description": "Country marks in all four regional groups form an elongated band extending from lower-left toward upper-right across Income and Lifespan.",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "patternType": "Similarity",
+        "subtype": "SimilarDistribution"
+      },
+      "claimIds": [
+        "entity:Similarity_3"
+      ]
+    },
+    {
+      "id": "insight_Correlation_27",
+      "label": "Correlation 27",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Africa\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "statement": "For the observed marks in Africa, the association between Income and Lifespan exhibits a linear relationship."
+      },
+      "claimIds": [
+        "entity:insight_Correlation_27"
+      ]
+    },
+    {
+      "id": "insight_Correlation_28",
+      "label": "Correlation 28",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Africa\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "statement": "Across the observed marks for Africa, higher Income tends to accompany longer Lifespan, reflecting a positive correlation where Lifespan generally increases as Income rises."
+      },
+      "claimIds": [
+        "entity:insight_Correlation_28"
+      ]
+    },
+    {
+      "id": "insight_Correlation_29",
+      "label": "Correlation 29",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Americas\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "statement": "For the Americas region, Income and Lifespan exhibit a linear relationship across the observed marks."
+      },
+      "claimIds": [
+        "entity:insight_Correlation_29"
+      ]
+    },
+    {
+      "id": "insight_Correlation_38",
+      "label": "Correlation 38",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "statement": "Across the observed marks, Income and Lifespan follow a curved nonlinear relationship that flattens at higher Income levels."
+      },
+      "claimIds": [
+        "entity:insight_Correlation_38"
+      ]
+    },
+    {
+      "id": "insight_Correlation_39",
+      "label": "Correlation 39",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "statement": "Income and Lifespan show a strong positive association across the observed countries, with higher Income generally corresponding to longer Lifespan."
+      },
+      "claimIds": [
+        "entity:insight_Correlation_39"
+      ]
+    },
+    {
+      "id": "insight_ExtremumComparison_5",
+      "label": "ExtremumComparison 5",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Americas\",\"variable\":\"Region\"},{\"valueRef\":\"Asia_and_Oceania\",\"variable\":\"Region\"},{\"valueRef\":\"Europe\",\"variable\":\"Region\"},{\"valueRef\":\"Luxembourg\",\"variable\":\"cou…",
+        "measure": "[{\"variable\":\"Income\"}]",
+        "statement": "Singapore in Asia and Oceania is the visually supported global Income maximum from the subgroup comparisons across the Americas, Asia and Oceania, and Europe, reaching an Income o…"
+      },
+      "claimIds": [
+        "entity:insight_ExtremumComparison_5"
+      ]
+    },
+    {
+      "id": "insight_ExtremumComparison_6",
+      "label": "ExtremumComparison 6",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Americas\",\"variable\":\"Region\"},{\"valueRef\":\"Asia_and_Oceania\",\"variable\":\"Region\"},{\"valueRef\":\"Europe\",\"variable\":\"Region\"},{\"valueRef\":\"Canada\",\"variable\":\"country…",
+        "measure": "[{\"variable\":\"Lifespan\"}]",
+        "statement": "Singapore in Asia and Oceania is the visually supported global Lifespan maximum at 85.7153242230327 years from the regional comparisons, exceeding the maximum Lifespan marks of Sw…"
+      },
+      "claimIds": [
+        "entity:insight_ExtremumComparison_6"
+      ]
+    },
+    {
+      "id": "insight_ExtremumComparison_7",
+      "label": "ExtremumComparison 7",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Africa\",\"variable\":\"Region\"},{\"valueRef\":\"Americas\",\"variable\":\"Region\"},{\"valueRef\":\"Asia_and_Oceania\",\"variable\":\"Region\"},{\"valueRef\":\"Europe\",\"variable\":\"Region\"…",
+        "measure": "[{\"variable\":\"Lifespan\"}]",
+        "statement": "Central African Republic in Africa is the visually supported global minimum for Lifespan from the regional subgroup comparisons among Africa, Americas, Asia and Oceania, and Europ…"
+      },
+      "claimIds": [
+        "entity:insight_ExtremumComparison_7"
+      ]
+    },
+    {
+      "id": "insight_Similarity_3",
+      "label": "Similarity 3",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Africa\",\"variable\":\"Region\"},{\"valueRef\":\"Americas\",\"variable\":\"Region\"},{\"valueRef\":\"Asia_and_Oceania\",\"variable\":\"Region\"},{\"valueRef\":\"Europe\",\"variable\":\"Region\"…",
+        "measure": "[{\"variable\":\"Income\"},{\"variable\":\"Lifespan\"}]",
+        "statement": "Country marks across Africa, Americas, Asia and Oceania, and Europe each form an elongated band extending from lower-left to upper-right across Income and Lifespan."
+      },
+      "claimIds": [
+        "entity:insight_Similarity_3"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_HAS_VIEW",
+      "source": "chart",
+      "target": "bubblechart",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:bubblechart",
+        "entity:chart",
+        "entity:bubblechart"
+      ]
+    },
+    {
+      "id": "edge_10_COMPOSED_OF",
+      "source": "ExtremumComparison_5",
+      "target": "Extreme_50",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_5:Extreme_50",
+        "entity:ExtremumComparison_5",
+        "entity:Extreme_50"
+      ]
+    },
+    {
+      "id": "edge_13_COMPOSED_OF",
+      "source": "ExtremumComparison_6",
+      "target": "Extreme_49",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_6:Extreme_49",
+        "entity:ExtremumComparison_6",
+        "entity:Extreme_49"
+      ]
+    },
+    {
+      "id": "edge_16_COMPOSED_OF",
+      "source": "ExtremumComparison_7",
+      "target": "Extreme_46",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_7:Extreme_46",
+        "entity:ExtremumComparison_7",
+        "entity:Extreme_46"
+      ]
+    },
+    {
+      "id": "edge_17_COMPOSED_OF",
+      "source": "ExtremumComparison_7",
+      "target": "Extreme_48",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_7:Extreme_48",
+        "entity:ExtremumComparison_7",
+        "entity:Extreme_48"
+      ]
+    },
+    {
+      "id": "edge_27_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Distribution_20",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Distribution_20",
+        "entity:Similarity_3",
+        "entity:Distribution_20"
+      ]
+    },
+    {
+      "id": "edge_28_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Distribution_21",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Distribution_21",
+        "entity:Similarity_3",
+        "entity:Distribution_21"
+      ]
+    },
+    {
+      "id": "edge_29_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Distribution_23",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Distribution_23",
+        "entity:Similarity_3",
+        "entity:Distribution_23"
+      ]
+    },
+    {
+      "id": "edge_30_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Distribution_24",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Distribution_24",
+        "entity:Similarity_3",
+        "entity:Distribution_24"
+      ]
+    },
+    {
+      "id": "edge_35_COMPOSED_OF",
+      "source": "bubblechart",
+      "target": "point_group",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bubblechart:point_group",
+        "entity:bubblechart",
+        "entity:point_group"
+      ]
+    },
+    {
+      "id": "edge_36_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "color",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:color",
+        "entity:point_group",
+        "entity:color"
+      ]
+    },
+    {
+      "id": "edge_37_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "size",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:size",
+        "entity:point_group",
+        "entity:size"
+      ]
+    },
+    {
+      "id": "edge_38_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "x_position",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:x_position",
+        "entity:point_group",
+        "entity:x_position"
+      ]
+    },
+    {
+      "id": "edge_39_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "y_position",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:y_position",
+        "entity:point_group",
+        "entity:y_position"
+      ]
+    },
+    {
+      "id": "edge_40_HAS_ANNOTATION",
+      "source": "point_group",
+      "target": "text_label",
+      "relation": "HAS_ANNOTATION",
+      "claimIds": [
+        "relation:HAS_ANNOTATION:point_group:text_label",
+        "entity:point_group",
+        "entity:text_label"
+      ]
+    },
+    {
+      "id": "edge_45_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "x_position",
+      "target": "INCOME_LEVEL_1_position_interval",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:INCOME_LEVEL_1_position_interval",
+        "entity:x_position",
+        "entity:INCOME_LEVEL_1_position_interval"
+      ]
+    },
+    {
+      "id": "edge_46_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "x_position",
+      "target": "LEVEL_2_position_interval",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:LEVEL_2_position_interval",
+        "entity:x_position",
+        "entity:LEVEL_2_position_interval"
+      ]
+    },
+    {
+      "id": "edge_47_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "x_position",
+      "target": "LEVEL_3_position_interval",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:LEVEL_3_position_interval",
+        "entity:x_position",
+        "entity:LEVEL_3_position_interval"
+      ]
+    },
+    {
+      "id": "edge_48_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "x_position",
+      "target": "LEVEL_4_position_interval",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:LEVEL_4_position_interval",
+        "entity:x_position",
+        "entity:LEVEL_4_position_interval"
+      ]
+    },
+    {
+      "id": "edge_53_ENCODES",
+      "source": "color",
+      "target": "Region",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color:Region",
+        "entity:color",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_58_ENCODES",
+      "source": "size",
+      "target": "Population",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:size:Population",
+        "entity:size",
+        "entity:Population"
+      ]
+    },
+    {
+      "id": "edge_59_ENCODES",
+      "source": "text_label",
+      "target": "country",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:text_label:country",
+        "entity:text_label",
+        "entity:country"
+      ]
+    },
+    {
+      "id": "edge_60_ENCODES",
+      "source": "x_position",
+      "target": "Income",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:x_position:Income",
+        "entity:x_position",
+        "entity:Income"
+      ]
+    },
+    {
+      "id": "edge_61_ENCODES",
+      "source": "x_position",
+      "target": "Income_Level",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:x_position:Income_Level",
+        "entity:x_position",
+        "entity:Income_Level"
+      ]
+    },
+    {
+      "id": "edge_62_ENCODES",
+      "source": "y_position",
+      "target": "Lifespan",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:y_position:Lifespan",
+        "entity:y_position",
+        "entity:Lifespan"
+      ]
+    },
+    {
+      "id": "edge_63_VALUE_OF",
+      "source": "Afghanistan",
+      "target": "country",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Afghanistan:country",
+        "entity:Afghanistan",
+        "entity:country"
+      ]
+    },
+    {
+      "id": "edge_64_VALUE_OF",
+      "source": "Africa",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Africa:Region",
+        "entity:Africa",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_65_VALUE_OF",
+      "source": "Albania",
+      "target": "country",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Albania:country",
+        "entity:Albania",
+        "entity:country"
+      ]
+    },
+    {
+      "id": "edge_66_VALUE_OF",
+      "source": "Algeria",
+      "target": "country",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Algeria:country",
+        "entity:Algeria",
+        "entity:country"
+      ]
+    },
+    {
+      "id": "edge_67_VALUE_OF",
+      "source": "Americas",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Americas:Region",
+        "entity:Americas",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_68_VALUE_OF",
+      "source": "Angola",
+      "target": "country",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Angola:country",
+        "entity:Angola",
+        "entity:country"
+      ]
+    },
+    {
+      "id": "edge_1620_DERIVED_FROM",
+      "source": "insight_Correlation_38",
+      "target": "Correlation_22",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Correlation_38:Correlation_22",
+        "entity:insight_Correlation_38",
+        "entity:Correlation_22"
+      ]
+    },
+    {
+      "id": "edge_1621_DERIVED_FROM",
+      "source": "insight_Correlation_39",
+      "target": "Correlation_23",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Correlation_39:Correlation_23",
+        "entity:insight_Correlation_39",
+        "entity:Correlation_23"
+      ]
+    },
+    {
+      "id": "edge_1672_DERIVED_FROM",
+      "source": "insight_ExtremumComparison_5",
+      "target": "ExtremumComparison_5",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_ExtremumComparison_5:ExtremumComparison_5",
+        "entity:insight_ExtremumComparison_5",
+        "entity:ExtremumComparison_5"
+      ]
+    },
+    {
+      "id": "edge_1673_DERIVED_FROM",
+      "source": "insight_ExtremumComparison_6",
+      "target": "ExtremumComparison_6",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_ExtremumComparison_6:ExtremumComparison_6",
+        "entity:insight_ExtremumComparison_6",
+        "entity:ExtremumComparison_6"
+      ]
+    },
+    {
+      "id": "edge_1674_DERIVED_FROM",
+      "source": "insight_ExtremumComparison_7",
+      "target": "ExtremumComparison_7",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_ExtremumComparison_7:ExtremumComparison_7",
+        "entity:insight_ExtremumComparison_7",
+        "entity:ExtremumComparison_7"
+      ]
+    },
+    {
+      "id": "edge_1677_DERIVED_FROM",
+      "source": "insight_Similarity_3",
+      "target": "Similarity_3",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Similarity_3:Similarity_3",
+        "entity:insight_Similarity_3",
+        "entity:Similarity_3"
+      ]
+    }
+  ],
+  "stats": {
+    "sourceNodeCount": 509,
+    "sourceEdgeCount": 1685,
+    "visibleNodeCount": 47,
+    "visibleEdgeCount": 37,
+    "verificationStatus": "unverified",
+    "runStatus": "partial",
+    "communityCount": 20,
+    "retrievalEngine": "native-graphrag-v1"
+  }
+}

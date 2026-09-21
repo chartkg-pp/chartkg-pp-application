@@ -1,0 +1,2277 @@
+[
+  {
+    "id": "ev_g1_1",
+    "label": "Comparison 1 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Worldwide has the highest maximum Percentage among the compared regions Worldwide and Asia Pacific, with iOS reaching 63% in Worldwide compared to 45.0% in Asia Pacific. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g1_2",
+    "label": "Comparison 1 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Worldwide has the highest maximum Percentage among the compared regions Worldwide and Asia Pacific, with iOS reaching 63% in Worldwide compared to 45.0% in Asia Pacific. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g2_1",
+    "label": "Comparison 2 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the compared regions Worldwide and Asia Pacific, the minimum Percentage levels are tied lowest between Third Party Android in Worldwide (18%) and Google Play in Asia Pacific (18%). Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g2_2",
+    "label": "Comparison 2 · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the compared regions Worldwide and Asia Pacific, the minimum Percentage levels are tied lowest between Third Party Android in Worldwide (18%) and Google Play in Asia Pacific (18%). Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g3_1",
+    "label": "Comparison 3 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "iOS has the highest maximum Percentage (87.0%) among the compared platforms Third Party Android (maximum 37.0%), Google Play (maximum 46.0%), and iOS. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g3_2",
+    "label": "Comparison 3 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "iOS has the highest maximum Percentage (87.0%) among the compared platforms Third Party Android (maximum 37.0%), Google Play (maximum 46.0%), and iOS. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g3_3",
+    "label": "Comparison 3 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "iOS has the highest maximum Percentage (87.0%) among the compared platforms Third Party Android (maximum 37.0%), Google Play (maximum 46.0%), and iOS. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g4_1",
+    "label": "Comparison 4 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the minimum Percentage values across the Platform categories—Google Play, Third Party Android, and iOS—the Google Play minimum (13%) is the visually supported global Percentage minimum from the subgroup comparisons, compared to the minimums for Third Party Android in Worldwide (18%) and iOS in Asia Pacific (45.0%). Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g4_2",
+    "label": "Comparison 4 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the minimum Percentage values across the Platform categories—Google Play, Third Party Android, and iOS—the Google Play minimum (13%) is the visually supported global Percentage minimum from the subgroup comparisons, compared to the minimums for Third Party Android in Worldwide (18%) and iOS in Asia Pacific (45.0%). Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g4_3",
+    "label": "Comparison 4 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the minimum Percentage values across the Platform categories—Google Play, Third Party Android, and iOS—the Google Play minimum (13%) is the visually supported global Percentage minimum from the subgroup comparisons, compared to the minimums for Third Party Android in Worldwide (18%) and iOS in Asia Pacific (45.0%). Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g5_1",
+    "label": "Composition 1 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category Third Party Android, the composition is made up of two bar components: Asia Pacific with a Percentage of 37.0% and Worldwide with a Percentage of 18.0%. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g5_2",
+    "label": "Composition 1 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category Third Party Android, the composition is made up of two bar components: Asia Pacific with a Percentage of 37.0% and Worldwide with a Percentage of 18.0%. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g6_1",
+    "label": "Composition 2 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Asia Pacific, the platform breakdown is Third Party Android at 37.0%, Google Play at 18.0%, and iOS at 45.0%. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g6_2",
+    "label": "Composition 2 · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Asia Pacific, the platform breakdown is Third Party Android at 37.0%, Google Play at 18.0%, and iOS at 45.0%. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g6_3",
+    "label": "Composition 2 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Asia Pacific, the platform breakdown is Third Party Android at 37.0%, Google Play at 18.0%, and iOS at 45.0%. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g7_1",
+    "label": "Composition 3 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Worldwide, the platform breakdown is Third Party Android at 18.0%, Google Play at 19.0%, and iOS at 63.0%. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g7_2",
+    "label": "Composition 3 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Worldwide, the platform breakdown is Third Party Android at 18.0%, Google Play at 19.0%, and iOS at 63.0%. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g7_3",
+    "label": "Composition 3 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Worldwide, the platform breakdown is Third Party Android at 18.0%, Google Play at 19.0%, and iOS at 63.0%. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g8_1",
+    "label": "Composition 4 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category iOS, the composition is made up of four bar components: Asia Pacific with a Percentage of 45.0%, Americas with a Percentage of 87.0%, EMEA with a Percentage of 54.0%, and Worldwide with a Percentage of 63.0%. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g8_2",
+    "label": "Composition 4 · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category iOS, the composition is made up of four bar components: Asia Pacific with a Percentage of 45.0%, Americas with a Percentage of 87.0%, EMEA with a Percentage of 54.0%, and Worldwide with a Percentage of 63.0%. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g8_3",
+    "label": "Composition 4 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category iOS, the composition is made up of four bar components: Asia Pacific with a Percentage of 45.0%, Americas with a Percentage of 87.0%, EMEA with a Percentage of 54.0%, and Worldwide with a Percentage of 63.0%. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g8_4",
+    "label": "Composition 4 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category iOS, the composition is made up of four bar components: Asia Pacific with a Percentage of 45.0%, Americas with a Percentage of 87.0%, EMEA with a Percentage of 54.0%, and Worldwide with a Percentage of 63.0%. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g9_1",
+    "label": "Composition 5 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The observed chart composition is formed by ten bar segments across Platform and Region categories. In Asia Pacific, the components are Third Party Android at 37.0%, Google Play at 18.0%, and iOS at 45.0%. In Americas, the components are Google Play at 13.0% and iOS at 87.0%. In EMEA, the components are iOS at 54.0% and Google Play at 46.0%. In Worldwide, the components are Third Party Android at 18.0%, Google Play at 19.0%, and iOS at 63.0%. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g10_1",
+    "label": "Composition 6 · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category Google Play, the composition is made up of four bar components: Asia Pacific with a Percentage of 18.0%, Americas with a Percentage of 13.0%, EMEA with a Percentage of 46.0%, and Worldwide with a Percentage of 19.0%. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g10_2",
+    "label": "Composition 6 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category Google Play, the composition is made up of four bar components: Asia Pacific with a Percentage of 18.0%, Americas with a Percentage of 13.0%, EMEA with a Percentage of 46.0%, and Worldwide with a Percentage of 19.0%. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g10_3",
+    "label": "Composition 6 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category Google Play, the composition is made up of four bar components: Asia Pacific with a Percentage of 18.0%, Americas with a Percentage of 13.0%, EMEA with a Percentage of 46.0%, and Worldwide with a Percentage of 19.0%. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g10_4",
+    "label": "Composition 6 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Platform category Google Play, the composition is made up of four bar components: Asia Pacific with a Percentage of 18.0%, Americas with a Percentage of 13.0%, EMEA with a Percentage of 46.0%, and Worldwide with a Percentage of 19.0%. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g11_1",
+    "label": "Contrast 1 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The Platform contribution profiles for Percentage differ between Asia Pacific and Worldwide. In Asia Pacific, Third Party Android accounts for 37.0%, Google Play accounts for 18%, and iOS accounts for 45.0%. In contrast, Worldwide exhibits a different distribution where iOS accounts for 63%, Google Play for 19%, and Third Party Android for 18%. Visual support covers 6 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g12_1",
+    "label": "Contrast 2 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across Platform categories, Google Play, Third Party Android, and iOS exhibit different component structures that are not all equivalent in how their parts are organized. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g13_1",
+    "label": "Distribution 1 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Platform iOS, the Percentage reaches 87.0%, establishing clear magnitude and visual dominance across the observed marks. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g14_1",
+    "label": "Distribution 2 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In the Worldwide region, iOS represents the dominant platform with a Percentage of 63%, substantially exceeding Google Play at 19% and Third Party Android at 18%. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g14_2",
+    "label": "Distribution 2 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In the Worldwide region, iOS represents the dominant platform with a Percentage of 63%, substantially exceeding Google Play at 19% and Third Party Android at 18%. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g14_3",
+    "label": "Distribution 2 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In the Worldwide region, iOS represents the dominant platform with a Percentage of 63%, substantially exceeding Google Play at 19% and Third Party Android at 18%. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g15_1",
+    "label": "Extreme 1 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Worldwide, Third Party Android represents the minimum Percentage among the observed platforms, at 18%. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g16_1",
+    "label": "Extreme 10 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Asia Pacific, iOS reaches the maximum Percentage among observed platforms at 45.0%. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g17_1",
+    "label": "Extreme 11 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed regions for Third Party Android, Asia Pacific accounts for the maximum Percentage at 37.0%. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g18_1",
+    "label": "Extreme 12 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed segments for the iOS platform, the bar segment with the maximum Percentage reaches 87.0%. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g19_1",
+    "label": "Extreme 2 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Third Party Android, Worldwide records the minimum Percentage of 18% among the observed members. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g20_1",
+    "label": "Extreme 3 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed segments across the chart, iOS accounts for the maximum Percentage at 87.0%. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g21_1",
+    "label": "Extreme 4 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Google Play, a bar segment records the minimum Percentage at 13% among the observed members. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g22_1",
+    "label": "Extreme 5 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the global observed marks, Google Play has the minimum Percentage at 13%. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g22_2",
+    "label": "Extreme 5 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the global observed marks, Google Play has the minimum Percentage at 13%. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g22_3",
+    "label": "Extreme 5 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the global observed marks, Google Play has the minimum Percentage at 13%. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g23_1",
+    "label": "Extreme 6 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed Google Play segments, the maximum Percentage reaches 46.0%. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g24_1",
+    "label": "Extreme 7 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Worldwide, iOS has the maximum Percentage of 63% among the observed members. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g25_1",
+    "label": "Extreme 8 · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Asia Pacific, Google Play records the minimum Percentage among observed platform categories at 18%. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g26_1",
+    "label": "Extreme 9 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed regions for the iOS platform, Asia Pacific accounts for the minimum Percentage at 45.0%. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g27_1",
+    "label": "Global App Market Summary · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "In 2018, iOS dominates the global app market, acco-unting for 63% of the total market. Over the 2017–2022 period, Third Party Android is projected to have the high-est CAGR among all platforms, reaching 17.9%. The 2018 worldwide app market is $146B, with iOS at $92B (63%), Google Play at $27B (19%), and Third Party Android at $26B (18%); iOS leads at 45% in Asia Pacific, 87% in Americas, and 54% in EMEA, while Americas and EMEA share the highest regional CAGR at 14.3%. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g28_1",
+    "label": "Similarity 1 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across both the Asia Pacific and Worldwide regions, the compositions share the same component structure partitioned into the identical set of Platform categories: iOS, Google Play, and Third Party Android. Visual support covers 6 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g29_1",
+    "label": "Comparison: MaximumComparison · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The maximum platform segment Worldwide (iOS) attains a higher visual share than the maximum platform segment in Asia Pacific (iOS). Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g29_2",
+    "label": "Comparison: MaximumComparison · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The maximum platform segment Worldwide (iOS) attains a higher visual share than the maximum platform segment in Asia Pacific (iOS). Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g30_1",
+    "label": "Comparison: MinimumComparison · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The minimum platform segment in Asia Pacific (Google Play) and the minimum platform segment Worldwide (Third Party Android) exhibit tied lowest levels. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g30_2",
+    "label": "Comparison: MinimumComparison · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The minimum platform segment in Asia Pacific (Google Play) and the minimum platform segment Worldwide (Third Party Android) exhibit tied lowest levels. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g31_1",
+    "label": "Comparison: MaximumComparison · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The maximum segment of iOS exhibits the greatest visible height among all platform maximums. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g31_2",
+    "label": "Comparison: MaximumComparison · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The maximum segment of iOS exhibits the greatest visible height among all platform maximums. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g31_3",
+    "label": "Comparison: MaximumComparison · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The maximum segment of iOS exhibits the greatest visible height among all platform maximums. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g32_1",
+    "label": "Comparison: MinimumComparison · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparing the minimum percentage share segments across each platform series shows that the lowest Google Play segment in Americas exhibits the smallest vertical height among all platform minima. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g32_2",
+    "label": "Comparison: MinimumComparison · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparing the minimum percentage share segments across each platform series shows that the lowest Google Play segment in Americas exhibits the smallest vertical height among all platform minima. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g32_3",
+    "label": "Comparison: MinimumComparison · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparing the minimum percentage share segments across each platform series shows that the lowest Google Play segment in Americas exhibits the smallest vertical height among all platform minima. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g33_1",
+    "label": "Contrast: DifferentComposition · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "iOS is the largest platform share in every region: 45% in Asia Pacific, 87% in Americas, 54% in EMEA, and 63% worldwide. Third Party Android appears at 37% in Asia Pacific and 18% worldwide, while Google Play ranges from 13% in Americas to 46% in EMEA. Visual support covers 6 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g34_1",
+    "label": "Contrast: DifferentComposition · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The platforms differ in their regional component structures across the chart. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g35_1",
+    "label": "Similarity: SimilarComposition · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Both Asia Pacific and Worldwide stacked bars share the same platform component partition comprising iOS, Google Play, and Third Party Android. Visual support covers 6 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g36_1",
+    "label": "Composition: Composition · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_2, bar_4, bar_6, bar_8. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g36_2",
+    "label": "Composition: Composition · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_2, bar_4, bar_6, bar_8. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g36_3",
+    "label": "Composition: Composition · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_2, bar_4, bar_6, bar_8. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g36_4",
+    "label": "Composition: Composition · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_2, bar_4, bar_6, bar_8. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g37_1",
+    "label": "Composition: Composition · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_1, bar_7. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g37_2",
+    "label": "Composition: Composition · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_1, bar_7. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g38_1",
+    "label": "Composition: Composition · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 3 marks: bar_1, bar_2, bar_3. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g38_2",
+    "label": "Composition: Composition · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 3 marks: bar_1, bar_2, bar_3. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g38_3",
+    "label": "Composition: Composition · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 3 marks: bar_1, bar_2, bar_3. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g39_1",
+    "label": "Composition: Composition · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 10 marks: bar_1, bar_2, bar_3, bar_4, bar_5, bar_6, bar_7, bar_8, bar_9, bar_10. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g40_1",
+    "label": "Composition: Composition · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_3, bar_5, bar_9, bar_10. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g40_2",
+    "label": "Composition: Composition · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_3, bar_5, bar_9, bar_10. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g40_3",
+    "label": "Composition: Composition · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_3, bar_5, bar_9, bar_10. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g40_4",
+    "label": "Composition: Composition · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 4 marks: bar_3, bar_5, bar_9, bar_10. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g41_1",
+    "label": "Composition: Composition · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 3 marks: bar_7, bar_8, bar_9. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g41_2",
+    "label": "Composition: Composition · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 3 marks: bar_7, bar_8, bar_9. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g41_3",
+    "label": "Composition: Composition · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 3 marks: bar_7, bar_8, bar_9. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g42_1",
+    "label": "Composition: Composition · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_4, bar_10. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g42_2",
+    "label": "Composition: Composition · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_4, bar_10. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g43_1",
+    "label": "Composition: Composition · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_5, bar_6. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g43_2",
+    "label": "Composition: Composition · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_5, bar_6. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g44_1",
+    "label": "Distribution: Dominance · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The segment bar_10 holds clear visual and magnitude dominance over the segment bar_4. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g45_1",
+    "label": "Distribution: Dominance · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The iOS segment holds a clear dominance in visual height over the other platform segments in the Worldwide breakdown. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g45_2",
+    "label": "Distribution: Dominance · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The iOS segment holds a clear dominance in visual height over the other platform segments in the Worldwide breakdown. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g45_3",
+    "label": "Distribution: Dominance · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The iOS segment holds a clear dominance in visual height over the other platform segments in the Worldwide breakdown. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g46_1",
+    "label": "Extreme: Maximum · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The maximum percentage share of Third Party Android within the BAS occurs in Asia Pacific (bar_1). Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g47_1",
+    "label": "Extreme: Maximum · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The segment bar_10 has the greatest visible height and percentage share among all individual platform segments in the chart. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g48_1",
+    "label": "Extreme: Minimum · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The Third Party Android segment has the least vertical height among the platform segments within the Worldwide stacked bar. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g49_1",
+    "label": "Extreme: Maximum · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The iOS segment represents the maximum vertical extent among all platform segments in the Worldwide stacked bar. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g50_1",
+    "label": "Extreme: Maximum · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The iOS segment has the maximum market share percentage among all platform categories in the Americas region. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g51_1",
+    "label": "Extreme: Minimum · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The Google Play segment has the minimum market share percentage among all platform categories in the Americas region. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g52_1",
+    "label": "Extreme: Maximum · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The iOS segment has the maximum market share percentage among all platform categories in the EMEA region. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g53_1",
+    "label": "Extreme: Minimum · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The Google Play segment has the minimum market share percentage among all platform categories in the EMEA region. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g54_1",
+    "label": "Extreme: Minimum · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The minimum percentage share of Third Party Android within the BAS occurs in Worldwide (bar_7). Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g55_1",
+    "label": "Extreme: Minimum · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The Google Play segment has the minimum market share percentage among all platform categories in the Asia Pacific region. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g56_1",
+    "label": "Extreme: Maximum · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The iOS segment has the maximum market share percentage among all platform categories in the Asia Pacific region. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g57_1",
+    "label": "Extreme: Maximum · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The mark exhibits the greatest visible height among all Google Play segments in the scope. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g58_1",
+    "label": "Extreme: Minimum · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The mark exhibits the least visible height among all Google Play segments in the scope. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g59_1",
+    "label": "Extreme: Maximum · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar segment bar_10 representing the iOS platform has the greatest visible height encoding Percentage among the iOS segments across regions. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g60_1",
+    "label": "Extreme: Minimum · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar segment representing the iOS platform in Asia Pacific has the least visible height encoding Percentage among the iOS segments across regions. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g61_1",
+    "label": "Extreme: Minimum · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The segment bar_4 has the least visible height and percentage share among all evaluated individual platform segments. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g61_2",
+    "label": "Extreme: Minimum · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The segment bar_4 has the least visible height and percentage share among all evaluated individual platform segments. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g61_3",
+    "label": "Extreme: Minimum · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The segment bar_4 has the least visible height and percentage share among all evaluated individual platform segments. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g62_1",
+    "label": "Market value · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Market value (Data Variable): name: Market value; unit: $B; variableType: Quantitative. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g63_1",
+    "label": "Percentage · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The 2018 regional market totals are $72B for Asia Pacific, $61B for Americas, $13B for EMEA, and $146B worldwide. Regional 2017-2022 CAGR values are 13.7%, 14.3%, 14.3%, and 13.9%, respectively; platform CAGR is 12.2% for iOS, 13.7% for Google Play, and 17.9% for Third Party Android. Component dollar labels can differ from displayed totals by $1B because they are rounded to whole billions. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g64_1",
+    "label": "Platform · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Platform (Data Variable): name: Platform; variableType: Categorical. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g65_1",
+    "label": "Region · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Region (Data Variable): name: Region; variableType: Categorical. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g66_1",
+    "label": "Americas · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Americas totals $61B and has a 2017-2022 CAGR of 14.3%. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g66_2",
+    "label": "Americas · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Americas totals $61B and has a 2017-2022 CAGR of 14.3%. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g67_1",
+    "label": "Asia Pacific · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Asia Pacific totals $72B and has a 2017-2022 CAGR of 13.7%. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g67_2",
+    "label": "Asia Pacific · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Asia Pacific totals $72B and has a 2017-2022 CAGR of 13.7%. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g67_3",
+    "label": "Asia Pacific · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Asia Pacific totals $72B and has a 2017-2022 CAGR of 13.7%. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g68_1",
+    "label": "EMEA · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "EMEA totals $13B and has a 2017-2022 CAGR of 14.3%. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g68_2",
+    "label": "EMEA · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "EMEA totals $13B and has a 2017-2022 CAGR of 14.3%. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g69_1",
+    "label": "Google Play · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Google Play has a 2017-2022 CAGR of 13.7%. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g69_2",
+    "label": "Google Play · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Google Play has a 2017-2022 CAGR of 13.7%. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g69_3",
+    "label": "Google Play · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Google Play has a 2017-2022 CAGR of 13.7%. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g69_4",
+    "label": "Google Play · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Google Play has a 2017-2022 CAGR of 13.7%. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g70_1",
+    "label": "Third Party Android · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Third Party Android has a 2017-2022 CAGR of 17.9%. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g70_2",
+    "label": "Third Party Android · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Third Party Android has a 2017-2022 CAGR of 17.9%. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g71_1",
+    "label": "Worldwide · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Worldwide totals $146B and has a 2017-2022 CAGR of 13.9%. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g71_2",
+    "label": "Worldwide · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Worldwide totals $146B and has a 2017-2022 CAGR of 13.9%. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g71_3",
+    "label": "Worldwide · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Worldwide totals $146B and has a 2017-2022 CAGR of 13.9%. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g72_1",
+    "label": "iOS · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "iOS has a 2017-2022 CAGR of 12.2%. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g72_2",
+    "label": "iOS · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "iOS has a 2017-2022 CAGR of 12.2%. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g72_3",
+    "label": "iOS · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "iOS has a 2017-2022 CAGR of 12.2%. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g72_4",
+    "label": "iOS · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "iOS has a 2017-2022 CAGR of 12.2%. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g73_1",
+    "label": "stacked bar · view",
+    "kind": "image-region",
+    "confidence": 0.78,
+    "detail": "Global App Market is a 2018 Marimekko stacked-bar chart covering Asia Pacific, Americas, EMEA, and Worldwide. Column width encodes regional market totals of $72B, $61B, $13B, and $146B; segment height encodes platform percentage, and separate annotations report 2017-2022 CAGR by region and platform. The color encoding maps Platform to chart colors: cyan represents iOS, lime green represents Google Play, and slate blue represents Third Party Android. Visual provenance resolves to the complete stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g74_1",
+    "label": "bas Americas stacked bar bar group · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Americas stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"viewRef\":\"stacked_bar\",\"selection\":{\"valueRef\":\"Americas\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\"}]. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g74_2",
+    "label": "bas Americas stacked bar bar group · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Americas stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"viewRef\":\"stacked_bar\",\"selection\":{\"valueRef\":\"Americas\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\"}]. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g75_1",
+    "label": "bas Asia Pacific stacked bar bar group · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Asia Pacific stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Asia_Pacific\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g75_2",
+    "label": "bas Asia Pacific stacked bar bar group · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Asia Pacific stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Asia_Pacific\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g75_3",
+    "label": "bas Asia Pacific stacked bar bar group · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Asia Pacific stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Asia_Pacific\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g76_1",
+    "label": "bas EMEA stacked bar bar group · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas EMEA stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"viewRef\":\"stacked_bar\",\"selection\":{\"valueRef\":\"EMEA\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\"}]. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g76_2",
+    "label": "bas EMEA stacked bar bar group · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas EMEA stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"viewRef\":\"stacked_bar\",\"selection\":{\"valueRef\":\"EMEA\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\"}]. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g77_1",
+    "label": "bas Google Play stacked bar bar group · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Google Play stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Google_Play\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g77_2",
+    "label": "bas Google Play stacked bar bar group · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Google Play stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Google_Play\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g77_3",
+    "label": "bas Google Play stacked bar bar group · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Google Play stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Google_Play\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g77_4",
+    "label": "bas Google Play stacked bar bar group · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Google Play stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Google_Play\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g78_1",
+    "label": "bas Third Party Android stacked bar bar group · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Third Party Android stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Third_Party_Android\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g78_2",
+    "label": "bas Third Party Android stacked bar bar group · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Third Party Android stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Third_Party_Android\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g79_1",
+    "label": "bas Worldwide stacked bar bar group · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Worldwide stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Worldwide\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g79_2",
+    "label": "bas Worldwide stacked bar bar group · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Worldwide stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Worldwide\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g79_3",
+    "label": "bas Worldwide stacked bar bar group · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Worldwide stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Worldwide\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g80_1",
+    "label": "bas all stacked bar bar group · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas all stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selectionMode\":\"global\",\"viewRef\":\"stacked_bar\"}]. Visual support covers 10 bar marks reached through the KG scope.",
+    "region": {
+      "x": 9.96667,
+      "y": 30.87778,
+      "width": 73.60833,
+      "height": 50.74444
+    }
+  },
+  {
+    "id": "ev_g81_1",
+    "label": "bas iOS stacked bar bar group · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas iOS stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"iOS\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g81_2",
+    "label": "bas iOS stacked bar bar group · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas iOS stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"iOS\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g81_3",
+    "label": "bas iOS stacked bar bar group · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas iOS stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"iOS\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  },
+  {
+    "id": "ev_g81_4",
+    "label": "bas iOS stacked bar bar group · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas iOS stacked bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"iOS\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g82_1",
+    "label": "bar group · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "bar group (Graphical Mark Group): markType: Bar. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g83_1",
+    "label": "color · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "color (Visual Attribute): attributeType: color. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g84_1",
+    "label": "height · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "height (Visual Attribute): attributeType: height. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g85_1",
+    "label": "text label · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "text label (Visual Attribute): attributeType: textLabel. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g86_1",
+    "label": "width · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "width (Visual Attribute): attributeType: width. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g87_1",
+    "label": "x position · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "x position (Visual Attribute): attributeType: xPosition. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g88_1",
+    "label": "y position · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "y position (Visual Attribute): attributeType: yPosition. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g89_1",
+    "label": "Americas position interval · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Americas position interval (Visual Attribute Value): value: {\"axis\":\"x\",\"boundary_source\":\"observed_separator_lines\",\"closure\":\"[)\",\"coordinate_space\":\"source_pixels\",\"interval\":[329.0,523.0],\"kind\":\"position_interval\"}. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g90_1",
+    "label": "Asia Pacific position interval · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Asia Pacific position interval (Visual Attribute Value): value: {\"axis\":\"x\",\"boundary_source\":\"observed_separator_lines\",\"closure\":\"[)\",\"coordinate_space\":\"source_pixels\",\"interval\":[90.0,329.0],\"kind\":\"position_interval\"}. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g91_1",
+    "label": "EMEA position · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "EMEA position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[545.0,580.0]}. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g92_1",
+    "label": "Worldwide position · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Worldwide position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[687.0,580.0]}. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g93_1",
+    "label": "rgb 134 149 189 · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 134 149 189 (Visual Attribute Value): value: {\"fill_rgb\":[134,149,189],\"kind\":\"color\"}; colorName: slate blue. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g94_1",
+    "label": "rgb 169 207 65 · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 169 207 65 (Visual Attribute Value): value: {\"fill_rgb\":[169,207,65],\"kind\":\"color\"}; colorName: lime green. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g95_1",
+    "label": "rgb 67 194 209 · stacked_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 67 194 209 (Visual Attribute Value): value: {\"fill_rgb\":[67,194,209],\"kind\":\"color\"}; colorName: cyan. No mark-level geometry was available; provenance falls back to the containing stacked_bar view.",
+    "region": {
+      "x": 10.01667,
+      "y": 30.92778,
+      "width": 73.50833,
+      "height": 50.64444
+    }
+  },
+  {
+    "id": "ev_g97_1",
+    "label": "bar 1 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Asia Pacific, Third Party Android accounts for $26B (37%) of the app market. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 31.52778,
+      "width": 24.16667,
+      "height": 18.33333
+    }
+  },
+  {
+    "id": "ev_g98_1",
+    "label": "bar 10 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Americas, iOS accounts for $53B (87%) of the app market. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 37.77778,
+      "width": 20.41667,
+      "height": 43.19444
+    }
+  },
+  {
+    "id": "ev_g99_1",
+    "label": "bar 2 · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Asia Pacific, Google Play accounts for $13B (18%) of the app market. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 49.58333,
+      "width": 24.16667,
+      "height": 9.30556
+    }
+  },
+  {
+    "id": "ev_g100_1",
+    "label": "bar 3 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Asia Pacific, iOS accounts for $32B (45%) of the app market. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 10.41667,
+      "y": 58.61111,
+      "width": 24.16667,
+      "height": 22.36111
+    }
+  },
+  {
+    "id": "ev_g101_1",
+    "label": "bar 4 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Americas, Google Play accounts for $8B (13%) of the app market. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 34.375,
+      "y": 31.52778,
+      "width": 20.41667,
+      "height": 6.52778
+    }
+  },
+  {
+    "id": "ev_g102_1",
+    "label": "bar 5 · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In EMEA, iOS accounts for $7B (54%) of the app market. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 53.88889,
+      "width": 4.58333,
+      "height": 27.08333
+    }
+  },
+  {
+    "id": "ev_g103_1",
+    "label": "bar 6 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In EMEA, Google Play accounts for $6B (46%) of the app market. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 54.58333,
+      "y": 31.52778,
+      "width": 4.58333,
+      "height": 22.63889
+    }
+  },
+  {
+    "id": "ev_g104_1",
+    "label": "bar 7 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Worldwide, Third Party Android accounts for $26B (18%) of the app market. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 31.52778,
+      "width": 23.22917,
+      "height": 9.16667
+    }
+  },
+  {
+    "id": "ev_g105_1",
+    "label": "bar 8 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Worldwide, Google Play accounts for $27B (19%) of the app market. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 40.41667,
+      "width": 23.22917,
+      "height": 9.44444
+    }
+  },
+  {
+    "id": "ev_g106_1",
+    "label": "bar 9 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In Worldwide, iOS accounts for $92B (63%) of the app market. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 59.89583,
+      "y": 49.58333,
+      "width": 23.22917,
+      "height": 31.38889
+    }
+  }
+]

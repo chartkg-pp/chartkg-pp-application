@@ -1,0 +1,80 @@
+{
+  "id": "summary_construction-kg-revision:0f9d7653eb1cb840880d",
+  "revisionId": "construction-kg-revision:0f9d7653eb1cb840880d",
+  "sentences": [
+    {
+      "id": "ss1",
+      "layer": "S1",
+      "text": "A cartesian point view uses point marks, with x-position encoding Income and defining Income Level bands. Y-position encodes Lifespan, point size encodes Population, color encodes Region, and text labels encode country.",
+      "citations": [
+        "G314",
+        "G324",
+        "G328",
+        "G329",
+        "G326",
+        "G325",
+        "G327",
+        "G330",
+        "G331",
+        "G332",
+        "G333"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss2",
+      "layer": "S2",
+      "text": "The quantitative variables are Income (GDP per capita, $ per year, price adjusted), Lifespan (years), and Population (million); categorical variables are country, Region, and Income Level, with four displayed Income Level bands.",
+      "citations": [
+        "G141",
+        "G143",
+        "G144",
+        "G146",
+        "G145",
+        "G142",
+        "G330",
+        "G331",
+        "G332",
+        "G333"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss3",
+      "layer": "S3",
+      "text": "Across Africa, Americas, Asia and Oceania, and Europe, country marks form an elongated lower-left-to-upper-right band across Income and Lifespan. Regional extrema place Singapore highest for Income and Lifespan, while Central African Republic is lowest for Lifespan; its supporting mark, point 171, records 55.486939539350665 years.",
+      "citations": [
+        "G80",
+        "G75",
+        "G76",
+        "G77",
+        "G143",
+        "G141",
+        "G419"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss4",
+      "layer": "S4",
+      "text": "The point encodings support a strong positive but curved Income–Lifespan association that flattens at higher Income. Singapore in Asia and Oceania is the visually supported global maximum for both Income (137896.54983446767 GDP per capita, $ per year, price adjusted) and Lifespan (85.7153242230327 years), while Central African Republic in Africa is the global Lifespan minimum at 55.486939539350665 years.",
+      "citations": [
+        "G13",
+        "G12",
+        "G64",
+        "G65",
+        "G66",
+        "G75",
+        "G76",
+        "G77",
+        "G141",
+        "G143",
+        "G314",
+        "G324",
+        "G419"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "coverage": 1.0
+}

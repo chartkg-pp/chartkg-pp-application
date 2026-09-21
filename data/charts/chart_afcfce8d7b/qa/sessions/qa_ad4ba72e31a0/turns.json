@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sessionId": "qa_ad4ba72e31a0",
+  "turns": [
+    {
+      "id": "turn_pending_1790011257780",
+      "question": "What overall trends in journal article counts are shown from 2000 to 2015?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:21:17.522734Z",
+      "preview": "Across 2000–2015, Journal Articles A-rated, Journal Articles not A-rated, and Total all fluctuate rather than following a steady monotonic trend. [G41] [G42] [G43] Journal Articles A-rated undergoes several rises and falls before a pronounc",
+      "citationCount": 3,
+      "detailPath": "turns/turn_pending_1790011257780.json"
+    },
+    {
+      "id": "turn_pending_1790011328546",
+      "question": "How do A-rated and non-A-rated journal articles compare over time?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:22:29.334873Z",
+      "preview": "Across 2000–2015, both Journal Articles A-rated and Journal Articles not A-rated fluctuate over Year rather than changing monotonically. [G38] Journal Articles A-rated undergoes several rises and falls before a pronounced late decline. [G41",
+      "citationCount": 6,
+      "detailPath": "turns/turn_pending_1790011328546.json"
+    }
+  ]
+}

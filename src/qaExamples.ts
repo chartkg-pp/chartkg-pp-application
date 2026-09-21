@@ -9,7 +9,7 @@ interface StoredExample {
   origin: string
   /** False for questions the original project also used but that duplicate a shown example. */
   suggested?: boolean
-  turn: Omit<QATurn, 'id' | 'question' | 'createdAt'>
+  turn?: Omit<QATurn, 'id' | 'question' | 'createdAt'>
   /** Model-direct answer captured from the original project's vision path. */
   visionTurn?: Omit<QATurn, 'id' | 'question' | 'createdAt'>
 }
@@ -29,6 +29,7 @@ async function loadExamples(id: TestCaseId): Promise<StoredExamplesFile> {
     pending = loadManifest().then(async (manifest) => {
       const entry = manifest.graphrag.find((item) => item.id === id)
       if (!entry) throw new Error(`Unknown GraphRAG case: ${id}`)
+      if (!entry.qa) return { caseId: id, sourceProject: 'ChartKG++GraphRAG', revisionId: '', examples: [] }
       const response = await fetch(demoAsset(entry.qa))
       if (!response.ok) throw new Error('The bundled GraphRAG examples could not be loaded')
       return response.json() as Promise<StoredExamplesFile>
@@ -47,7 +48,7 @@ export async function storedExampleQuestions(id: TestCaseId): Promise<string[]> 
 
 export async function storedExampleAnswer(id: TestCaseId, question: string): Promise<QATurn | null> {
   const example = (await loadExamples(id)).examples.find((item) => item.question === question)
-  if (!example) return null
+  if (!example?.turn) return null
   return {
     id: `static_${id}_${Date.now()}`,
     question,

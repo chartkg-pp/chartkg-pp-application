@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sessionId": "qa_bed4572dd7ac",
+  "turns": [
+    {
+      "id": "turn_pending_1790011471649",
+      "question": "What does the chart show about the regional distribution of the top 100 city destinations?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:24:52.303792Z",
+      "preview": "The global observed set of 101 rectangular marks is composed of elements distributed across the Region classifications, encompassing Asia Pacific, Australasia, Eastern Europe, Latin America, Middle East and Africa, North America, and Wester",
+      "citationCount": 4,
+      "detailPath": "turns/turn_pending_1790011471649.json"
+    },
+    {
+      "id": "turn_pending_1790011547971",
+      "question": "What broad patterns or concentrations can be observed in the regional layout of the chart?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:26:06.432347Z",
+      "preview": "The chart contains 101 rectangular marks distributed across seven regions: Asia Pacific, Australasia, Eastern Europe, Latin America, Middle East and Africa, North America, and Western Europe. [G7] The distribution is concentrated most heavi",
+      "citationCount": 8,
+      "detailPath": "turns/turn_pending_1790011547971.json"
+    }
+  ]
+}

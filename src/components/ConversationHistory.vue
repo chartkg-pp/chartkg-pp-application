@@ -19,6 +19,10 @@ function answerPreview(turn: ConversationTurn) {
   const answer = turn.answers.graphrag.answer || turn.answers.vision.answer
   return answer.replace(/\s+/g, ' ').trim()
 }
+
+function modesFor(turn: ConversationTurn): QAMode[] {
+  return turn.availableModes?.length ? turn.availableModes : ['graphrag', 'vision']
+}
 </script>
 
 <template>
@@ -32,13 +36,13 @@ function answerPreview(turn: ConversationTurn) {
       <button v-for="turn in props.turns" :key="turn.id" class="conversation-history-row" :class="{ focused: turn.id === props.focusedTurnId }" @click="emit('select', turn.id)">
         <span class="history-row-top">
           <span class="history-status-pair" aria-label="Answer status">
-            <i v-for="mode in (['graphrag', 'vision'] as QAMode[])" :key="mode" :class="[mode, answerStatus(turn, mode)]" :title="`${modeLabel(mode)}: ${answerStatus(turn, mode)}`"></i>
+            <i v-for="mode in modesFor(turn)" :key="mode" :class="[mode, answerStatus(turn, mode)]" :title="`${modeLabel(mode)}: ${answerStatus(turn, mode)}`"></i>
           </span>
           <small>{{ new Date(turn.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }}</small>
         </span>
         <strong>{{ turn.question }}</strong>
         <span v-if="answerPreview(turn)" class="history-preview">{{ answerPreview(turn) }}</span>
-        <span class="history-modes"><span>GraphRAG</span><span>Vision</span></span>
+        <span class="history-modes"><span v-for="mode in modesFor(turn)" :key="mode">{{ modeLabel(mode) }}</span></span>
       </button>
     </div>
   </section>

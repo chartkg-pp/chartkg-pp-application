@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sessionId": "qa_752073716c1f",
+  "turns": [
+    {
+      "id": "turn_pending_1790010398017",
+      "question": "What are the main regional patterns in the destinations of U.S. agricultural exports?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:06:48.537671Z",
+      "preview": "For Export share percentage, the regional distribution ranks North America first at 28.0%, followed by High income Asia and Pacific at 20.0%, Europe and Central Asia at 11.0%, South America and Caribbean at 10.0%, Middle East and North Afri",
+      "citationCount": 5,
+      "detailPath": "turns/turn_pending_1790010398017.json"
+    },
+    {
+      "id": "turn_pending_1790010480244",
+      "question": "What does the chart suggest about the diversification and changing importance of different export destinations?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:08:11.406916Z",
+      "preview": "South Asia has an Export share percentage of 1.0%, making it the visually supported global Export share percentage minimum from the destination subgroup comparisons, which also include Sub-Saharan Africa at 2.0%, Middle East and North Afric",
+      "citationCount": 3,
+      "detailPath": "turns/turn_pending_1790010480244.json"
+    }
+  ]
+}

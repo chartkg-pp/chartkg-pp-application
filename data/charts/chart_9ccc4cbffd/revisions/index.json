@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_9ccc4cbffd",
+  "revisions": [
+    {
+      "id": "construction-kg-revision:4bcab0ab899177046c9f",
+      "path": "construction-kg-revision_4bcab0ab899177046c9f-0e8890dc7d5e/revision.json",
+      "graphPath": "construction-kg-revision_4bcab0ab899177046c9f-0e8890dc7d5e/graph.json",
+      "summaryPath": "construction-kg-revision_4bcab0ab899177046c9f-0e8890dc7d5e/summary.json",
+      "citationsPath": "construction-kg-revision_4bcab0ab899177046c9f-0e8890dc7d5e/citations.json",
+      "evidencePath": "construction-kg-revision_4bcab0ab899177046c9f-0e8890dc7d5e/evidence.json"
+    }
+  ]
+}

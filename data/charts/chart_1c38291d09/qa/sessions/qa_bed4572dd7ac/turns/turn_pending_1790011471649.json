@@ -1,0 +1,594 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790011471649",
+  "sessionId": "qa_bed4572dd7ac",
+  "chartId": "chart_1c38291d09",
+  "revisionId": "construction-kg-revision:f6de36b34b0dde19dd50",
+  "question": "What does the chart show about the regional distribution of the top 100 city destinations?",
+  "status": "complete",
+  "createdAt": "2026-09-21T17:24:52.303792Z",
+  "completedAt": "2026-09-21T17:25:43.645548Z",
+  "answers": {
+    "vision": {
+      "answer": "Asia Pacific has the largest share of the top 100 city destinations with 35, followed by Western Europe with 28. The Middle East and Africa account for 13, North America 9, Eastern Europe 7, Latin America 6, and Australasia 2.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_1c38291d09",
+        "imageSha256": "f69d3ce591c9e20f332ea811f6310b8304295974bf7aff0343ba27c386a00f1d",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "The global observed set of 101 rectangular marks is composed of elements distributed across the Region classifications, encompassing Asia Pacific, Australasia, Eastern Europe, Latin America, Middle East and Africa, North America, and Western Europe. [G7] For the Region category Latin America, the whole comprises six rectangular marks. [G3] For the Middle East and Africa region, the observed group is composed of thirteen rectangle marks that together make up this categorical segment. [G4] Within the Region category of North America, the selection is composed of nine rectangular marks that together constitute the observed grouping. [G8]",
+      "citationIds": [
+        "G7",
+        "G3",
+        "G4",
+        "G8"
+      ],
+      "status": "verified",
+      "generationMode": "extractive",
+      "provider": null,
+      "model": null,
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "The global observed set of 101 rectangular marks is composed of elements distributed across the Region classifications, encompassing Asia Pacific, Australasia, Eastern Europe, Latin America, Middle East and Africa, North America, and Western Europe.",
+          "recordIds": [
+            "entity:insight_Composition_7"
+          ],
+          "citationIds": [
+            "G7"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_2",
+          "text": "For the Region category Latin America, the whole comprises six rectangular marks.",
+          "recordIds": [
+            "entity:insight_Composition_3"
+          ],
+          "citationIds": [
+            "G3"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_3",
+          "text": "For the Middle East and Africa region, the observed group is composed of thirteen rectangle marks that together make up this categorical segment.",
+          "recordIds": [
+            "entity:insight_Composition_4"
+          ],
+          "citationIds": [
+            "G4"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_4",
+          "text": "Within the Region category of North America, the selection is composed of nine rectangular marks that together constitute the observed grouping.",
+          "recordIds": [
+            "entity:insight_Composition_8"
+          ],
+          "citationIds": [
+            "G8"
+          ],
+          "claimType": "observed"
+        }
+      ],
+      "citations": {
+        "G7": {
+          "id": "G7",
+          "claimIds": [
+            "entity:insight_Composition_7",
+            "relation:DERIVED_FROM:insight_Composition_7:Composition_4"
+          ],
+          "entityIds": [
+            "insight_Composition_7",
+            "Composition_4"
+          ],
+          "evidenceIds": [
+            "ev_g7_1"
+          ],
+          "graphPath": [
+            "Composition 7",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G3": {
+          "id": "G3",
+          "claimIds": [
+            "entity:insight_Composition_3",
+            "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+          ],
+          "entityIds": [
+            "insight_Composition_3",
+            "Composition_6"
+          ],
+          "evidenceIds": [
+            "ev_g3_1"
+          ],
+          "graphPath": [
+            "Composition 3",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G4": {
+          "id": "G4",
+          "claimIds": [
+            "entity:insight_Composition_4",
+            "relation:DERIVED_FROM:insight_Composition_4:Composition_7"
+          ],
+          "entityIds": [
+            "insight_Composition_4",
+            "Composition_7"
+          ],
+          "evidenceIds": [
+            "ev_g4_1"
+          ],
+          "graphPath": [
+            "Composition 4",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G8": {
+          "id": "G8",
+          "claimIds": [
+            "entity:insight_Composition_8",
+            "relation:DERIVED_FROM:insight_Composition_8:Composition"
+          ],
+          "entityIds": [
+            "insight_Composition_8",
+            "Composition"
+          ],
+          "evidenceIds": [
+            "ev_g8_1"
+          ],
+          "graphPath": [
+            "Composition 8",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-global",
+        "planner": "llm",
+        "maxHops": 3,
+        "seedEntityIds": [
+          "Composition_4",
+          "Composition_3"
+        ],
+        "communityIds": [
+          "community:8:bas_all_other_rect_group",
+          "community:1:bas_Asia_Pacific_other_rect_group",
+          "community:5:bas_Middle_East_and_Africa_other_rect_group",
+          "community:3:bas_Eastern_Europe_other_rect_group",
+          "community:4:bas_Latin_America_other_rect_group",
+          "community:6:bas_North_America_other_rect_group"
+        ],
+        "expandedEntityIds": [
+          "Composition_4",
+          "Composition_3",
+          "insight_Composition_7",
+          "bas_Middle_East_and_Africa_other_rect_group",
+          "rect_36",
+          "Middle_East_and_Africa",
+          "bas_Latin_America_other_rect_group",
+          "rect_15",
+          "Latin_America",
+          "bas_North_America_other_rect_group",
+          "rect_1",
+          "North_America",
+          "Composition_6",
+          "insight_Composition_3",
+          "Composition_7",
+          "insight_Composition_4",
+          "Composition",
+          "insight_Composition_8",
+          "insight_Composition_2",
+          "bas_Asia_Pacific_other_rect_group",
+          "rect_100",
+          "Asia_Pacific",
+          "bas_Eastern_Europe_other_rect_group",
+          "rect_24",
+          "Eastern_Europe"
+        ],
+        "relationIds": [
+          "relation:343:DERIVED_FROM:insight_Composition_7:Composition_4",
+          "relation:51:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_36",
+          "relation:259:VALUE_OF:rect_36:Middle_East_and_Africa",
+          "relation:45:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_15",
+          "relation:236:VALUE_OF:rect_15:Latin_America",
+          "relation:64:COMPOSED_OF:bas_North_America_other_rect_group:rect_1",
+          "relation:228:VALUE_OF:rect_1:North_America",
+          "relation:334:SUPPORTED_BY:Composition_6:bas_Latin_America_other_rect_group",
+          "relation:339:DERIVED_FROM:insight_Composition_3:Composition_6",
+          "relation:335:SUPPORTED_BY:Composition_7:bas_Middle_East_and_Africa_other_rect_group",
+          "relation:340:DERIVED_FROM:insight_Composition_4:Composition_7",
+          "relation:329:SUPPORTED_BY:Composition:bas_North_America_other_rect_group",
+          "relation:344:DERIVED_FROM:insight_Composition_8:Composition",
+          "relation:338:DERIVED_FROM:insight_Composition_2:Composition_3",
+          "relation:1:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_100",
+          "relation:230:VALUE_OF:rect_100:Asia_Pacific",
+          "relation:38:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_24",
+          "relation:246:VALUE_OF:rect_24:Eastern_Europe"
+        ],
+        "paths": [
+          {
+            "source": "Composition_4",
+            "target": "insight_Composition_7",
+            "nodeIds": [
+              "Composition_4",
+              "insight_Composition_7"
+            ],
+            "relationIds": [
+              "relation:343:DERIVED_FROM:insight_Composition_7:Composition_4"
+            ],
+            "hops": [
+              {
+                "from": "Composition_4",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Composition_7",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "bas_Middle_East_and_Africa_other_rect_group",
+            "target": "Middle_East_and_Africa",
+            "nodeIds": [
+              "bas_Middle_East_and_Africa_other_rect_group",
+              "rect_36",
+              "Middle_East_and_Africa"
+            ],
+            "relationIds": [
+              "relation:51:COMPOSED_OF:bas_Middle_East_and_Africa_other_rect_group:rect_36",
+              "relation:259:VALUE_OF:rect_36:Middle_East_and_Africa"
+            ],
+            "hops": [
+              {
+                "from": "bas_Middle_East_and_Africa_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_36",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_36",
+                "relation": "VALUE_OF",
+                "to": "Middle_East_and_Africa",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bas_Latin_America_other_rect_group",
+            "target": "Latin_America",
+            "nodeIds": [
+              "bas_Latin_America_other_rect_group",
+              "rect_15",
+              "Latin_America"
+            ],
+            "relationIds": [
+              "relation:45:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_15",
+              "relation:236:VALUE_OF:rect_15:Latin_America"
+            ],
+            "hops": [
+              {
+                "from": "bas_Latin_America_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_15",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_15",
+                "relation": "VALUE_OF",
+                "to": "Latin_America",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bas_North_America_other_rect_group",
+            "target": "North_America",
+            "nodeIds": [
+              "bas_North_America_other_rect_group",
+              "rect_1",
+              "North_America"
+            ],
+            "relationIds": [
+              "relation:64:COMPOSED_OF:bas_North_America_other_rect_group:rect_1",
+              "relation:228:VALUE_OF:rect_1:North_America"
+            ],
+            "hops": [
+              {
+                "from": "bas_North_America_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_1",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_1",
+                "relation": "VALUE_OF",
+                "to": "North_America",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bas_Latin_America_other_rect_group",
+            "target": "insight_Composition_3",
+            "nodeIds": [
+              "bas_Latin_America_other_rect_group",
+              "Composition_6",
+              "insight_Composition_3"
+            ],
+            "relationIds": [
+              "relation:334:SUPPORTED_BY:Composition_6:bas_Latin_America_other_rect_group",
+              "relation:339:DERIVED_FROM:insight_Composition_3:Composition_6"
+            ],
+            "hops": [
+              {
+                "from": "bas_Latin_America_other_rect_group",
+                "relation": "SUPPORTED_BY",
+                "to": "Composition_6",
+                "direction": "reverse"
+              },
+              {
+                "from": "Composition_6",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Composition_3",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "bas_Middle_East_and_Africa_other_rect_group",
+            "target": "insight_Composition_4",
+            "nodeIds": [
+              "bas_Middle_East_and_Africa_other_rect_group",
+              "Composition_7",
+              "insight_Composition_4"
+            ],
+            "relationIds": [
+              "relation:335:SUPPORTED_BY:Composition_7:bas_Middle_East_and_Africa_other_rect_group",
+              "relation:340:DERIVED_FROM:insight_Composition_4:Composition_7"
+            ],
+            "hops": [
+              {
+                "from": "bas_Middle_East_and_Africa_other_rect_group",
+                "relation": "SUPPORTED_BY",
+                "to": "Composition_7",
+                "direction": "reverse"
+              },
+              {
+                "from": "Composition_7",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Composition_4",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "bas_North_America_other_rect_group",
+            "target": "insight_Composition_8",
+            "nodeIds": [
+              "bas_North_America_other_rect_group",
+              "Composition",
+              "insight_Composition_8"
+            ],
+            "relationIds": [
+              "relation:329:SUPPORTED_BY:Composition:bas_North_America_other_rect_group",
+              "relation:344:DERIVED_FROM:insight_Composition_8:Composition"
+            ],
+            "hops": [
+              {
+                "from": "bas_North_America_other_rect_group",
+                "relation": "SUPPORTED_BY",
+                "to": "Composition",
+                "direction": "reverse"
+              },
+              {
+                "from": "Composition",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Composition_8",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Composition_3",
+            "target": "insight_Composition_2",
+            "nodeIds": [
+              "Composition_3",
+              "insight_Composition_2"
+            ],
+            "relationIds": [
+              "relation:338:DERIVED_FROM:insight_Composition_2:Composition_3"
+            ],
+            "hops": [
+              {
+                "from": "Composition_3",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Composition_2",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "bas_Asia_Pacific_other_rect_group",
+            "target": "Asia_Pacific",
+            "nodeIds": [
+              "bas_Asia_Pacific_other_rect_group",
+              "rect_100",
+              "Asia_Pacific"
+            ],
+            "relationIds": [
+              "relation:1:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_100",
+              "relation:230:VALUE_OF:rect_100:Asia_Pacific"
+            ],
+            "hops": [
+              {
+                "from": "bas_Asia_Pacific_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_100",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_100",
+                "relation": "VALUE_OF",
+                "to": "Asia_Pacific",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bas_Eastern_Europe_other_rect_group",
+            "target": "Eastern_Europe",
+            "nodeIds": [
+              "bas_Eastern_Europe_other_rect_group",
+              "rect_24",
+              "Eastern_Europe"
+            ],
+            "relationIds": [
+              "relation:38:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_24",
+              "relation:246:VALUE_OF:rect_24:Eastern_Europe"
+            ],
+            "hops": [
+              {
+                "from": "bas_Eastern_Europe_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_24",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_24",
+                "relation": "VALUE_OF",
+                "to": "Eastern_Europe",
+                "direction": "forward"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "insight_Composition_7",
+            "type": "Insight",
+            "score": 1.011935,
+            "lexicalScore": 26.310781,
+            "distance": 0.55,
+            "hops": 1
+          },
+          {
+            "entityId": "Middle_East_and_Africa",
+            "type": "Variable_Value",
+            "score": 0.718214,
+            "lexicalScore": 25.79474,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "Latin_America",
+            "type": "Variable_Value",
+            "score": 0.660865,
+            "lexicalScore": 23.100285,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "North_America",
+            "type": "Variable_Value",
+            "score": 0.660865,
+            "lexicalScore": 23.100285,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Composition_3",
+            "type": "Insight",
+            "score": 0.650428,
+            "lexicalScore": 11.400579,
+            "distance": 1.25,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Composition_4",
+            "type": "Insight",
+            "score": 0.631684,
+            "lexicalScore": 10.519899,
+            "distance": 1.25,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Composition_8",
+            "type": "Insight",
+            "score": 0.621719,
+            "lexicalScore": 10.051714,
+            "distance": 1.25,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Composition_2",
+            "type": "Insight",
+            "score": 0.610037,
+            "lexicalScore": 7.428155,
+            "distance": 0.55,
+            "hops": 1
+          },
+          {
+            "entityId": "Composition_4",
+            "type": "Basic_Pattern",
+            "score": 0.606153,
+            "lexicalScore": 3.22086,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Composition_3",
+            "type": "Basic_Pattern",
+            "score": 0.604204,
+            "lexicalScore": 3.129301,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Asia_Pacific",
+            "type": "Variable_Value",
+            "score": 0.596171,
+            "lexicalScore": 20.060746,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "Eastern_Europe",
+            "type": "Variable_Value",
+            "score": 0.582726,
+            "lexicalScore": 19.429033,
+            "distance": 1.67,
+            "hops": 2
+          }
+        ]
+      }
+    }
+  }
+}

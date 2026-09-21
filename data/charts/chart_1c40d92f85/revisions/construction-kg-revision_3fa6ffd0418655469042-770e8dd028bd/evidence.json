@@ -1,0 +1,4331 @@
+[
+  {
+    "id": "ev_g1_1",
+    "label": "Comparison 1 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Between the compared destinations, Middle East and North Africa has the higher maximum Export share percentage at 5.0%, compared to South Asia at 1.0%. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g1_2",
+    "label": "Comparison 1 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Between the compared destinations, Middle East and North Africa has the higher maximum Export share percentage at 5.0%, compared to South Asia at 1.0%. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g2_1",
+    "label": "Comparison 10 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "South Asia has the lowest minimum Export share percentage (1.0%) among the compared Destination groups of Sub-Saharan Africa (2.0%), Middle East and North Africa (5.0%), High income Asia and Pacific (20.0%), Developing East Asia (23.0%), and North America (28.0%). Visual support covers 6 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g3_1",
+    "label": "Comparison 11 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "High income Asia and Pacific is the visually supported global export share of value maximum at 33.0% from the subgroup comparisons against North America (22.0%), Europe and Central Asia (20.0%), and Middle East and North Africa (6.0%). Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g3_2",
+    "label": "Comparison 11 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "High income Asia and Pacific is the visually supported global export share of value maximum at 33.0% from the subgroup comparisons against North America (22.0%), Europe and Central Asia (20.0%), and Middle East and North Africa (6.0%). Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g3_3",
+    "label": "Comparison 11 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "High income Asia and Pacific is the visually supported global export share of value maximum at 33.0% from the subgroup comparisons against North America (22.0%), Europe and Central Asia (20.0%), and Middle East and North Africa (6.0%). Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g3_4",
+    "label": "Comparison 11 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "High income Asia and Pacific is the visually supported global export share of value maximum at 33.0% from the subgroup comparisons against North America (22.0%), Europe and Central Asia (20.0%), and Middle East and North Africa (6.0%). Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g4_1",
+    "label": "Comparison 12 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa has the lowest minimum export share of value at 6.0% among the compared Destination groups Europe and Central Asia (20.0%), North America (22.0%), and High income Asia and Pacific (33.0%). Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g4_2",
+    "label": "Comparison 12 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa has the lowest minimum export share of value at 6.0% among the compared Destination groups Europe and Central Asia (20.0%), North America (22.0%), and High income Asia and Pacific (33.0%). Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g4_3",
+    "label": "Comparison 12 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa has the lowest minimum export share of value at 6.0% among the compared Destination groups Europe and Central Asia (20.0%), North America (22.0%), and High income Asia and Pacific (33.0%). Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g4_4",
+    "label": "Comparison 12 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa has the lowest minimum export share of value at 6.0% among the compared Destination groups Europe and Central Asia (20.0%), North America (22.0%), and High income Asia and Pacific (33.0%). Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g5_1",
+    "label": "Comparison 2 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia has a lower minimum Export share percentage (1.0%) than Middle East and North Africa (5.0%) among the compared destinations. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g5_2",
+    "label": "Comparison 2 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia has a lower minimum Export share percentage (1.0%) than Middle East and North Africa (5.0%) among the compared destinations. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g6_1",
+    "label": "Comparison 3 · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia is the visually supported global Export share percentage minimum from the subgroup comparisons at 1.0%, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, and Europe and Central Asia at 11.0%. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g6_2",
+    "label": "Comparison 3 · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia is the visually supported global Export share percentage minimum from the subgroup comparisons at 1.0%, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, and Europe and Central Asia at 11.0%. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g6_3",
+    "label": "Comparison 3 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia is the visually supported global Export share percentage minimum from the subgroup comparisons at 1.0%, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, and Europe and Central Asia at 11.0%. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g6_4",
+    "label": "Comparison 3 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia is the visually supported global Export share percentage minimum from the subgroup comparisons at 1.0%, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, and Europe and Central Asia at 11.0%. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g7_1",
+    "label": "Comparison 4 · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia has the highest maximum Export share percentage at 11.0% among the compared destinations Europe and Central Asia, Middle East and North Africa (5.0%), Sub-Saharan Africa (2.0%), and South Asia (1.0%). Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g7_2",
+    "label": "Comparison 4 · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia has the highest maximum Export share percentage at 11.0% among the compared destinations Europe and Central Asia, Middle East and North Africa (5.0%), Sub-Saharan Africa (2.0%), and South Asia (1.0%). Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g7_3",
+    "label": "Comparison 4 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia has the highest maximum Export share percentage at 11.0% among the compared destinations Europe and Central Asia, Middle East and North Africa (5.0%), Sub-Saharan Africa (2.0%), and South Asia (1.0%). Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g7_4",
+    "label": "Comparison 4 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia has the highest maximum Export share percentage at 11.0% among the compared destinations Europe and Central Asia, Middle East and North Africa (5.0%), Sub-Saharan Africa (2.0%), and South Asia (1.0%). Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g8_1",
+    "label": "Comparison 5 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "North America is the visually supported global Export share percentage maximum from the subgroup comparisons at 28.0%, exceeding the maximums across High income Asia and Pacific (20.0%), Europe and Central Asia (11.0%), South America and Caribbean (10.0%), Middle East and North Africa (5.0%), Sub-Saharan Africa (2.0%), and South Asia (1.0%). Visual support covers 7 sector marks reached through the KG scope.",
+    "region": {
+      "x": 4.84483,
+      "y": 16.32368,
+      "width": 60.94813,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g9_1",
+    "label": "Comparison 6 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "South Asia has an Export share percentage of 1.0%, making it the visually supported global Export share percentage minimum from the destination subgroup comparisons, which also include Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, South America and Caribbean at 10.0%, Europe and Central Asia at 11.0%, High income Asia and Pacific at 20.0%, and North America at 28.0%. Visual support covers 7 sector marks reached through the KG scope.",
+    "region": {
+      "x": 4.84483,
+      "y": 16.32368,
+      "width": 60.94813,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g10_1",
+    "label": "Comparison 7 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "North America is the visually supported global Export share percentage maximum at 28.0% across the destination categories, higher than Developing East Asia (23.0%), High income Asia and Pacific (20.0%), Europe and Central Asia (11.0%), South America and Caribbean (10.0%), Middle East and North Africa (5.0%), Sub-Saharan Africa (2.0%), and South Asia (1.0%). Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g11_1",
+    "label": "Comparison 8 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "South Asia is the visually supported global Export share percentage minimum at 1.0% across the destination subgroup comparisons, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, South America and Caribbean at 10.0%, Europe and Central Asia at 11.0%, High income Asia and Pacific at 20.0%, Developing East Asia at 23.0%, and North America at 28.0%. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g12_1",
+    "label": "Comparison 9 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "North America has the highest maximum Export share percentage (28%) among the compared Destination categories: Developing East Asia (23%), High income Asia and Pacific (20%), Europe and Central Asia (11%), Middle East and North Africa (5%), Sub-Saharan Africa (2%), and South Asia (1%). Visual support covers 7 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g13_1",
+    "label": "Composition 1 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The total export share of value is composed of eight observed sectors across destinations: High income Asia and Pacific at 33.0%, North America at 22.0%, Europe and Central Asia at 20.0%, an unnamed sector at 9.0%, and Middle East and North Africa at 6.0%, alongside Developing East Asia, South Asia, and Sub-Saharan Africa. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 15.79549,
+      "y": 31.32368,
+      "width": 36.27905,
+      "height": 39.98422
+    }
+  },
+  {
+    "id": "ev_g14_1",
+    "label": "Composition 2 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The overall export share is composed of eight Destination categories: North America at 28.0%, Developing East Asia at 23.0%, High income Asia and Pacific at 20.0%, Europe and Central Asia at 11.0%, South America and Caribbean at 10.0%, Middle East and North Africa at 5.0%, Sub-Saharan Africa at 2.0%, and South Asia at 1.0%, which together make up the observed whole. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g15_1",
+    "label": "Contrast 1 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Export share of value varies across destination categories, showing differing contribution profiles with High income Asia and Pacific accounting for 33.0%, North America for 22.0%, Europe and Central Asia for 20.0%, and Middle East and North Africa for 6.0%. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g15_2",
+    "label": "Contrast 1 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Export share of value varies across destination categories, showing differing contribution profiles with High income Asia and Pacific accounting for 33.0%, North America for 22.0%, Europe and Central Asia for 20.0%, and Middle East and North Africa for 6.0%. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g15_3",
+    "label": "Contrast 1 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Export share of value varies across destination categories, showing differing contribution profiles with High income Asia and Pacific accounting for 33.0%, North America for 22.0%, Europe and Central Asia for 20.0%, and Middle East and North Africa for 6.0%. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g15_4",
+    "label": "Contrast 1 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Export share of value varies across destination categories, showing differing contribution profiles with High income Asia and Pacific accounting for 33.0%, North America for 22.0%, Europe and Central Asia for 20.0%, and Middle East and North Africa for 6.0%. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g16_1",
+    "label": "Extreme 1 · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed destinations, South Asia and Sub-Saharan Africa account for the minimum export share of value, with sectors measuring angular spans of 4.0 degrees and 5.0 degrees, respectively. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g16_2",
+    "label": "Extreme 1 · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed destinations, South Asia and Sub-Saharan Africa account for the minimum export share of value, with sectors measuring angular spans of 4.0 degrees and 5.0 degrees, respectively. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g17_1",
+    "label": "Extreme 10 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Destination Europe and Central Asia, the sector records the maximum export share of value at 20.0% among the observed members. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g18_1",
+    "label": "Extreme 11 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Destination Europe and Central Asia, the sector accounts for the minimum export share of value at 20.0% among the observed members. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g19_1",
+    "label": "Extreme 12 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For South Asia, the sector accounts for the minimum Export share percentage of 1.0%. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g20_1",
+    "label": "Extreme 13 · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Destination Developing East Asia, the sector reaches the maximum Export share percentage of 23.0%. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g21_1",
+    "label": "Extreme 14 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Destination category of Middle East and North Africa, the minimum export share of value is 6%. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g22_1",
+    "label": "Extreme 15 · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Destination category of High income Asia and Pacific, the sector records the minimum Export share percentage at 20.0%. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g23_1",
+    "label": "Extreme 16 · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Destination Developing East Asia, the sector represents the minimum Export share percentage at 23.0%. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g24_1",
+    "label": "Extreme 17 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Destination High income Asia and Pacific, the sector mark reaches the maximum export share of value at 33.0%. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g25_1",
+    "label": "Extreme 18 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Destination category of High income Asia and Pacific, the sector mark records the minimum export share of value at 33.0% among the observed members. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g26_1",
+    "label": "Extreme 19 · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed members for Destination = Sub-Saharan Africa, the sector reaching the maximum export share of value has an angular span of 5.0 degrees. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g27_1",
+    "label": "Extreme 2 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed destination sectors, High income Asia and Pacific accounts for the maximum export share of value at 33.0%. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g27_2",
+    "label": "Extreme 2 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed destination sectors, High income Asia and Pacific accounts for the maximum export share of value at 33.0%. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g27_3",
+    "label": "Extreme 2 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed destination sectors, High income Asia and Pacific accounts for the maximum export share of value at 33.0%. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g27_4",
+    "label": "Extreme 2 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed destination sectors, High income Asia and Pacific accounts for the maximum export share of value at 33.0%. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g28_1",
+    "label": "Extreme 20 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Middle East and North Africa, the sector reaches the maximum Export share percentage of 5.0%. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g29_1",
+    "label": "Extreme 21 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa accounts for the minimum Export share percentage among the observed Destination categories, at 5.0%. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g30_1",
+    "label": "Extreme 22 · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sub-Saharan Africa accounts for the minimum export share of value among the observed destinations, represented by a sector with an angular span of 5.0 degrees. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g31_1",
+    "label": "Extreme 23 · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Destination of North America, the sector records the maximum Export share percentage at 28.0%. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g32_1",
+    "label": "Extreme 24 · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for North America, Destination of North America records the minimum Export share percentage at 28.0%. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g33_1",
+    "label": "Extreme 25 · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the Europe and Central Asia destination category, the sector records the maximum Export share percentage of 11.0%. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g34_1",
+    "label": "Extreme 26 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Destination of North America, North America reaches the maximum export share of value at 22.0% among the observed members. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g35_1",
+    "label": "Extreme 27 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed Destination category of North America, North America records the minimum export share of value at 22.0% among observed members. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g36_1",
+    "label": "Extreme 28 · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed members for Destination Developing East Asia, the sector reaching the maximum export share of value has an angular span of 29.0 degrees. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g37_1",
+    "label": "Extreme 29 · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among observed members in Destination South Asia, the sector mark reaching the maximum export share of value has an angular span of 4.0 degrees. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g38_1",
+    "label": "Extreme 3 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "North America accounts for the maximum Export share percentage among the observed destinations, reaching 28%. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g39_1",
+    "label": "Extreme 30 · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed members for Destination South Asia, the sector encoding the minimum export share of value has an angular span of 4.0 degrees. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g40_1",
+    "label": "Extreme 31 · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Developing East Asia, the sector representing the minimum export share of value among observed members has an angular span of 29.0 degrees. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g41_1",
+    "label": "Extreme 4 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "South Asia has the lowest Export share percentage among the observed members, at 1.0%. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g42_1",
+    "label": "Extreme 5 · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Sub-Saharan Africa, the observed sector records the maximum Export share percentage at 2.0%. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g43_1",
+    "label": "Extreme 6 · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sub-Saharan Africa has the minimum Export share percentage at 2.0%. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g44_1",
+    "label": "Extreme 7 · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Destination High income Asia and Pacific, the sector accounts for an Export share percentage of 20.0%, representing the maximum value within the observed scope. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g45_1",
+    "label": "Extreme 8 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for Middle East and North Africa, the sector reaches the maximum export share of value at 6.0%. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g46_1",
+    "label": "Extreme 9 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Destination South Asia, the sector represents the maximum Export share percentage of 1.0% within the observed scope. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g47_1",
+    "label": "Similarity 1 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Both Middle East and North Africa and South Asia share a single-component composition structure, with each destination represented by a single sector mark accounting for an Export share percentage of 5% and 1%, respectively. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g47_2",
+    "label": "Similarity 1 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Both Middle East and North Africa and South Asia share a single-component composition structure, with each destination represented by a single sector mark accounting for an Export share percentage of 5% and 1%, respectively. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g48_1",
+    "label": "Similarity 2 · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination scopes, Sub-Saharan Africa, Europe and Central Asia, Middle East and North Africa, and South Asia share a common single-sector component structure, with each regional breakdown represented by an individual sector mark corresponding to its Export share percentage. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g48_2",
+    "label": "Similarity 2 · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination scopes, Sub-Saharan Africa, Europe and Central Asia, Middle East and North Africa, and South Asia share a common single-sector component structure, with each regional breakdown represented by an individual sector mark corresponding to its Export share percentage. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g48_3",
+    "label": "Similarity 2 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination scopes, Sub-Saharan Africa, Europe and Central Asia, Middle East and North Africa, and South Asia share a common single-sector component structure, with each regional breakdown represented by an individual sector mark corresponding to its Export share percentage. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g48_4",
+    "label": "Similarity 2 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination scopes, Sub-Saharan Africa, Europe and Central Asia, Middle East and North Africa, and South Asia share a common single-sector component structure, with each regional breakdown represented by an individual sector mark corresponding to its Export share percentage. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g49_1",
+    "label": "Similarity 3 · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across all observed Destination categories—Developing East Asia, Europe and Central Asia, High income Asia and Pacific, Middle East and North Africa, North America, South America and Caribbean, South Asia, and Sub-Saharan Africa—each breakdown scope shares a unitary component structure represented by an individual sector mark within the donut chart. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g50_1",
+    "label": "Similarity 4 · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia, South Asia, and Sub-Saharan Africa share a similar component structure, each consisting of an individual sector mark in the pie chart for their respective Destination categories. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g50_2",
+    "label": "Similarity 4 · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia, South Asia, and Sub-Saharan Africa share a similar component structure, each consisting of an individual sector mark in the pie chart for their respective Destination categories. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g50_3",
+    "label": "Similarity 4 · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia, South Asia, and Sub-Saharan Africa share a similar component structure, each consisting of an individual sector mark in the pie chart for their respective Destination categories. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g51_1",
+    "label": "Similarity 5 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination categories of High income Asia and Pacific, Europe and Central Asia, Middle East and North Africa, and North America, each displays a similar component structure consisting of an individual sector mark representing export share of value (with shares of 33.0%, 20.0%, 6.0%, and 22.0%, respectively). Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g51_2",
+    "label": "Similarity 5 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination categories of High income Asia and Pacific, Europe and Central Asia, Middle East and North Africa, and North America, each displays a similar component structure consisting of an individual sector mark representing export share of value (with shares of 33.0%, 20.0%, 6.0%, and 22.0%, respectively). Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g51_3",
+    "label": "Similarity 5 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination categories of High income Asia and Pacific, Europe and Central Asia, Middle East and North Africa, and North America, each displays a similar component structure consisting of an individual sector mark representing export share of value (with shares of 33.0%, 20.0%, 6.0%, and 22.0%, respectively). Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g51_4",
+    "label": "Similarity 5 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the Destination categories of High income Asia and Pacific, Europe and Central Asia, Middle East and North Africa, and North America, each displays a similar component structure consisting of an individual sector mark representing export share of value (with shares of 33.0%, 20.0%, 6.0%, and 22.0%, respectively). Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g52_1",
+    "label": "Comparison: MaximumComparison · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa exhibits a higher maximum export share than South Asia, displaying a larger angular span. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g52_2",
+    "label": "Comparison: MaximumComparison · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa exhibits a higher maximum export share than South Asia, displaying a larger angular span. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g53_1",
+    "label": "Comparison: MinimumComparison · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Comparing the minimum export share across all destination categories, South Asia occupies the narrowest angular sector in the outer ring. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g54_1",
+    "label": "Comparison: MaximumComparison · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "North America exhibits the largest sector angular span among destination categories in the outer donut chart. Visual support covers 7 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g55_1",
+    "label": "Comparison: MinimumComparison · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "South Asia exhibits the smallest sector angular span among destination categories in the outer donut chart. Visual support covers 6 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g56_1",
+    "label": "Comparison: MaximumComparison · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup maxima, High income Asia and Pacific exhibits the largest angular span compared to North America, Europe and Central Asia, and Middle East and North Africa. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g56_2",
+    "label": "Comparison: MaximumComparison · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup maxima, High income Asia and Pacific exhibits the largest angular span compared to North America, Europe and Central Asia, and Middle East and North Africa. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g56_3",
+    "label": "Comparison: MaximumComparison · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup maxima, High income Asia and Pacific exhibits the largest angular span compared to North America, Europe and Central Asia, and Middle East and North Africa. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g56_4",
+    "label": "Comparison: MaximumComparison · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup maxima, High income Asia and Pacific exhibits the largest angular span compared to North America, Europe and Central Asia, and Middle East and North Africa. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g57_1",
+    "label": "Comparison: MinimumComparison · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup minima, Middle East and North Africa exhibits the smallest angular span compared to Europe and Central Asia, North America, and High income Asia and Pacific. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g57_2",
+    "label": "Comparison: MinimumComparison · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup minima, Middle East and North Africa exhibits the smallest angular span compared to Europe and Central Asia, North America, and High income Asia and Pacific. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g57_3",
+    "label": "Comparison: MinimumComparison · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup minima, Middle East and North Africa exhibits the smallest angular span compared to Europe and Central Asia, North America, and High income Asia and Pacific. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g57_4",
+    "label": "Comparison: MinimumComparison · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the subgroup minima, Middle East and North Africa exhibits the smallest angular span compared to Europe and Central Asia, North America, and High income Asia and Pacific. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g58_1",
+    "label": "Comparison: ComparableCorrespondence · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g58_2",
+    "label": "Comparison: ComparableCorrespondence · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g58_3",
+    "label": "Comparison: ComparableCorrespondence · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g58_4",
+    "label": "Comparison: ComparableCorrespondence · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g59_1",
+    "label": "Comparison: MinimumComparison · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia exhibits a lower minimum export share than Middle East and North Africa, displaying a narrower angular span. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g59_2",
+    "label": "Comparison: MinimumComparison · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia exhibits a lower minimum export share than Middle East and North Africa, displaying a narrower angular span. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g60_1",
+    "label": "Comparison: ComparableCorrespondence · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g60_2",
+    "label": "Comparison: ComparableCorrespondence · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g60_3",
+    "label": "Comparison: ComparableCorrespondence · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g60_4",
+    "label": "Comparison: ComparableCorrespondence · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g61_1",
+    "label": "Comparison: ComparableCorrespondence · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support covers 6 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 18.29737,
+      "width": 32.1876,
+      "height": 47.08948
+    }
+  },
+  {
+    "id": "ev_g62_1",
+    "label": "Comparison: ComparableCorrespondence · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support covers 6 sector marks reached through the KG scope.",
+    "region": {
+      "x": 15.79549,
+      "y": 16.32368,
+      "width": 49.99747,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g63_1",
+    "label": "Comparison: ComparableCorrespondence · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 15.79549,
+      "y": 16.32368,
+      "width": 49.99747,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g64_1",
+    "label": "Comparison: MinimumComparison · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia holds the lowest minimum export share among the compared destination subgroups, exhibiting the smallest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g64_2",
+    "label": "Comparison: MinimumComparison · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia holds the lowest minimum export share among the compared destination subgroups, exhibiting the smallest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g64_3",
+    "label": "Comparison: MinimumComparison · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia holds the lowest minimum export share among the compared destination subgroups, exhibiting the smallest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g64_4",
+    "label": "Comparison: MinimumComparison · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia holds the lowest minimum export share among the compared destination subgroups, exhibiting the smallest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g65_1",
+    "label": "Comparison: MaximumComparison · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia holds the highest maximum export share among the compared destination subgroups, exhibiting the largest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g65_2",
+    "label": "Comparison: MaximumComparison · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia holds the highest maximum export share among the compared destination subgroups, exhibiting the largest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g65_3",
+    "label": "Comparison: MaximumComparison · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia holds the highest maximum export share among the compared destination subgroups, exhibiting the largest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g65_4",
+    "label": "Comparison: MaximumComparison · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia holds the highest maximum export share among the compared destination subgroups, exhibiting the largest sector angle. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g66_1",
+    "label": "Comparison: MaximumComparison · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Among the destination subgroups, North America exhibits the largest angular span compared to all other destination maximums. Visual support covers 7 sector marks reached through the KG scope.",
+    "region": {
+      "x": 4.84483,
+      "y": 16.32368,
+      "width": 60.94813,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g67_1",
+    "label": "Comparison: MinimumComparison · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Among the destination subgroups, South Asia exhibits the smallest angular span compared to all other destination minimums. Visual support covers 7 sector marks reached through the KG scope.",
+    "region": {
+      "x": 4.84483,
+      "y": 16.32368,
+      "width": 60.94813,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g68_1",
+    "label": "Comparison: MaximumComparison · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Comparing the maximum export share across all destination categories, North America occupies the largest angular sector in the outer ring. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g69_1",
+    "label": "Contrast: DifferentComposition · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The destination categories exhibit distinct export share contribution profiles with varying sector angular spans. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g69_2",
+    "label": "Contrast: DifferentComposition · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The destination categories exhibit distinct export share contribution profiles with varying sector angular spans. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g69_3",
+    "label": "Contrast: DifferentComposition · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The destination categories exhibit distinct export share contribution profiles with varying sector angular spans. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g69_4",
+    "label": "Contrast: DifferentComposition · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The destination categories exhibit distinct export share contribution profiles with varying sector angular spans. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g70_1",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g70_2",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g71_1",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g71_2",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g72_1",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g72_2",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g73_1",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g73_2",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g74_1",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g74_2",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g75_1",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g75_2",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g76_1",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g76_2",
+    "label": "Correspondence: SharedSemanticAnchor · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Existing single-view analyses correspond to the same grounded semantic anchor. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g77_1",
+    "label": "Similarity: SimilarComposition · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Both Middle East and North Africa and South Asia share a single-component composition structure consisting of a single sector mark. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g77_2",
+    "label": "Similarity: SimilarComposition · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Both Middle East and North Africa and South Asia share a single-component composition structure consisting of a single sector mark. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g78_1",
+    "label": "Similarity: SimilarComposition · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "All compared regional scopes share a component structure consisting of an individual sector mark representing each region's export share. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g78_2",
+    "label": "Similarity: SimilarComposition · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "All compared regional scopes share a component structure consisting of an individual sector mark representing each region's export share. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g78_3",
+    "label": "Similarity: SimilarComposition · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "All compared regional scopes share a component structure consisting of an individual sector mark representing each region's export share. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g78_4",
+    "label": "Similarity: SimilarComposition · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "All compared regional scopes share a component structure consisting of an individual sector mark representing each region's export share. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g79_1",
+    "label": "Similarity: SimilarComposition · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "All destination scopes share a unitary component structure formed by an individual sector breakdown mark. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g80_1",
+    "label": "Similarity: SimilarComposition · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Each destination scope consists of a pair of sector marks spanning the outer donut and inner pie views. Visual support covers 6 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 18.29737,
+      "width": 32.1876,
+      "height": 47.08948
+    }
+  },
+  {
+    "id": "ev_g81_1",
+    "label": "Similarity: SimilarComposition · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia, South Asia, and Sub-Saharan Africa each consist of an individual destination sector mark in their composition structure. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g81_2",
+    "label": "Similarity: SimilarComposition · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia, South Asia, and Sub-Saharan Africa each consist of an individual destination sector mark in their composition structure. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g81_3",
+    "label": "Similarity: SimilarComposition · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia, South Asia, and Sub-Saharan Africa each consist of an individual destination sector mark in their composition structure. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g82_1",
+    "label": "Similarity: SimilarComposition · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia, High income Asia and Pacific, Middle East and North Africa, and North America each comprise an individual sector mark representing export share of value. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g82_2",
+    "label": "Similarity: SimilarComposition · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia, High income Asia and Pacific, Middle East and North Africa, and North America each comprise an individual sector mark representing export share of value. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g82_3",
+    "label": "Similarity: SimilarComposition · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia, High income Asia and Pacific, Middle East and North Africa, and North America each comprise an individual sector mark representing export share of value. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g82_4",
+    "label": "Similarity: SimilarComposition · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia, High income Asia and Pacific, Middle East and North Africa, and North America each comprise an individual sector mark representing export share of value. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g83_1",
+    "label": "Composition: Composition · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_sector_7. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g84_1",
+    "label": "Composition: Composition · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_5. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g85_1",
+    "label": "Composition: Composition · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_7. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g86_1",
+    "label": "Composition: Composition · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_sector_8. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g87_1",
+    "label": "Composition: Composition · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_3, sector_group_sector_1. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g87_2",
+    "label": "Composition: Composition · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_3, sector_group_sector_1. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g88_1",
+    "label": "Composition: Composition · sector_group_donut_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_2. Visual support resolved through KG provenance to sector_group_donut_sector_2 (mask_bbox).",
+    "region": {
+      "x": 5.29483,
+      "y": 62.5,
+      "width": 15.16245,
+      "height": 17.76316
+    }
+  },
+  {
+    "id": "ev_g89_1",
+    "label": "Composition: Composition · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_8. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g90_1",
+    "label": "Composition: Composition · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_3. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g91_1",
+    "label": "Composition: Composition · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_7, sector_group_sector_8. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g91_2",
+    "label": "Composition: Composition · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_7, sector_group_sector_8. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g92_1",
+    "label": "Composition: Composition · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_1. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g93_1",
+    "label": "Composition: Composition · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_sector_6. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g94_1",
+    "label": "Composition: Composition · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_sector_5. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g95_1",
+    "label": "Composition: Composition · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_sector_1. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g96_1",
+    "label": "Composition: Composition · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_8, sector_group_sector_7. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g96_2",
+    "label": "Composition: Composition · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_8, sector_group_sector_7. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g97_1",
+    "label": "Composition: Composition · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_4, sector_group_sector_4. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g97_2",
+    "label": "Composition: Composition · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_4, sector_group_sector_4. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g98_1",
+    "label": "Composition: Composition · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_6, sector_group_sector_6. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g98_2",
+    "label": "Composition: Composition · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_6, sector_group_sector_6. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g99_1",
+    "label": "Composition: Composition · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_sector_4. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g100_1",
+    "label": "Composition: Composition · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_6. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g101_1",
+    "label": "Composition: Composition · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_donut_sector_4. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g102_1",
+    "label": "Composition: Composition · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 8 marks: sector_group_sector_1, sector_group_sector_2, sector_group_sector_3, sector_group_sector_4, sector_group_sector_5, sector_group_sector_6, sector_group_sector_7, sector_group_sector_8. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 15.79549,
+      "y": 31.32368,
+      "width": 36.27905,
+      "height": 39.98422
+    }
+  },
+  {
+    "id": "ev_g103_1",
+    "label": "Composition: Composition · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_5, sector_group_sector_5. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g103_2",
+    "label": "Composition: Composition · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_5, sector_group_sector_5. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g104_1",
+    "label": "Composition: Composition · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: sector_group_sector_2. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g105_1",
+    "label": "Composition: Composition · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 8 marks: sector_group_donut_sector_1, sector_group_donut_sector_2, sector_group_donut_sector_3, sector_group_donut_sector_4, sector_group_donut_sector_5, sector_group_donut_sector_6, sector_group_donut_sector_7, sector_group_donut_sector_8. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g106_1",
+    "label": "Composition: Composition · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_1, sector_group_sector_2. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g106_2",
+    "label": "Composition: Composition · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: sector_group_donut_sector_1, sector_group_sector_2. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g107_1",
+    "label": "Extreme: Maximum · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_7 holds the maximum export_share_of_value of the one-member range bas_High_income_Asia_and_Pacific_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g108_1",
+    "label": "Extreme: Minimum · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "South Asia (sector_group_donut_sector_4) occupies the smallest angular extent (1%) of the outer donut ring for 2011-15 agricultural export share of value. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g109_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_5 holds the maximum Export_share_percentage of the one-member range bas_Sub-Saharan_Africa_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g110_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_5 holds the minimum Export_share_percentage of the one-member range bas_Sub-Saharan_Africa_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g111_1",
+    "label": "Extreme: Maximum · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_8 holds the maximum export_share_of_value of the one-member range bas_Europe_and_Central_Asia_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g112_1",
+    "label": "Extreme: Minimum · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_8 holds the minimum export_share_of_value of the one-member range bas_Europe_and_Central_Asia_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g113_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_7 holds the maximum Export_share_percentage of the one-member range bas_Europe_and_Central_Asia_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g114_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_7 holds the minimum Export_share_percentage of the one-member range bas_Europe_and_Central_Asia_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g115_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_2 holds the maximum Export_share_percentage of the one-member range bas_South_America_and_Caribbean_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_2 (mask_bbox).",
+    "region": {
+      "x": 5.29483,
+      "y": 62.5,
+      "width": 15.16245,
+      "height": 17.76316
+    }
+  },
+  {
+    "id": "ev_g116_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_2 holds the minimum Export_share_percentage of the one-member range bas_South_America_and_Caribbean_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_2 (mask_bbox).",
+    "region": {
+      "x": 5.29483,
+      "y": 62.5,
+      "width": 15.16245,
+      "height": 17.76316
+    }
+  },
+  {
+    "id": "ev_g117_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_3 holds the maximum Export_share_percentage of the one-member range bas_North_America_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g118_1",
+    "label": "Extreme: Minimum · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_7 holds the minimum export_share_of_value of the one-member range bas_High_income_Asia_and_Pacific_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g119_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_3 holds the minimum Export_share_percentage of the one-member range bas_North_America_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g120_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_8 holds the maximum Export_share_percentage of the one-member range bas_High_income_Asia_and_Pacific_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g121_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_8 holds the minimum Export_share_percentage of the one-member range bas_High_income_Asia_and_Pacific_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g122_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_1 holds the maximum Export_share_percentage of the one-member range bas_Developing_East_Asia_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g123_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_1 holds the minimum Export_share_percentage of the one-member range bas_Developing_East_Asia_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g124_1",
+    "label": "Extreme: Maximum · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_6 holds the maximum export_share_of_value of the one-member range bas_Middle_East_and_North_Africa_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g125_1",
+    "label": "Extreme: Minimum · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_6 holds the minimum export_share_of_value of the one-member range bas_Middle_East_and_North_Africa_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g126_1",
+    "label": "Extreme: Maximum · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_1 holds the maximum export_share_of_value of the one-member range bas_North_America_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g127_1",
+    "label": "Extreme: Minimum · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_1 holds the minimum export_share_of_value of the one-member range bas_North_America_pie_sector_group, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g128_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Mark sector_group_donut_sector_5 represents the maximum Export share percentage within the Sub-Saharan Africa single category breakdown BAS. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g129_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_6 holds the maximum Export_share_percentage of the one-member range bas_Middle_East_and_North_Africa_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g130_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Mark sector_group_donut_sector_5 represents the minimum Export share percentage within the Sub-Saharan Africa single category breakdown BAS. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g131_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_donut_sector_8 displays the maximum visible angular span encoding Export share percentage within the single-member analytical scope. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g132_1",
+    "label": "Extreme: Maximum · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_6 is the maximum export share of value within the single-member scope for Middle East and North Africa. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g133_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_donut_sector_4 represents the maximum export share percentage within this single-member scope. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g134_1",
+    "label": "Extreme: Maximum · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_sector_8 represents the maximum visible export share of value within the single-member analytical scope for Europe and Central Asia. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g135_1",
+    "label": "Extreme: Minimum · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_sector_8 represents the minimum visible export share of value within the single-member analytical scope for Europe and Central Asia. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g136_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_donut_sector_4 represents the minimum export share percentage within this single-member scope. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g137_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_1 shows the greatest visible Export_share_percentage in the single-member BAS for Developing East Asia. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g138_1",
+    "label": "Extreme: Minimum · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_6 is the minimum export share of value within the single-member scope for Middle East and North Africa. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g139_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_donut_sector_8 displays the minimum visible angular span encoding Export share percentage within the single-member analytical scope. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g140_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_6 holds the minimum Export_share_percentage of the one-member range bas_Middle_East_and_North_Africa_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g141_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_1 shows the least visible Export_share_percentage in the single-member BAS for Developing East Asia. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g142_1",
+    "label": "Extreme: Maximum · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector mark sector_group_sector_7 represents the greatest export share of value within the single-member High income Asia and Pacific BAS. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g143_1",
+    "label": "Extreme: Minimum · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector mark sector_group_sector_7 represents the least export share of value within the single-member High income Asia and Pacific BAS. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g144_1",
+    "label": "Extreme: Maximum · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_5 displays the maximum export share of value in the scope. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g145_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_6 represents the maximum visible angular span of Export share percentage in this single-category scope. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g146_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_6 represents the minimum visible angular span of Export share percentage in this single-category scope. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g147_1",
+    "label": "Extreme: Minimum · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_5 displays the minimum export share of value in the scope. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g148_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The North America sector exhibits the maximum visible angular span encoding export share percentage within the single-member scope. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g149_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The North America sector exhibits the minimum visible angular span encoding export share percentage within the single-member scope. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g150_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_7 is the maximum of Export share percentage within the Europe and Central Asia single-category scope. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g151_1",
+    "label": "Extreme: Maximum · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_4 holds the maximum Export_share_percentage of the one-member range bas_South_Asia_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g152_1",
+    "label": "Extreme: Maximum · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_sector_1 displays the greatest visible angular span representing export share of value within this single-member BAS. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g153_1",
+    "label": "Extreme: Minimum · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sector sector_group_sector_1 displays the least visible angular span representing export share of value within this single-member BAS. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g154_1",
+    "label": "Extreme: Maximum · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_2 is the single sector in the fixed BAS representing Developing East Asia with an export share of value of 8%, constituting the maximum within this scope. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g155_1",
+    "label": "Extreme: Maximum · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The green sector mark sector_group_sector_4 represents the greatest angular span of export share of value within the single-member South Asia scope. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g156_1",
+    "label": "Extreme: Minimum · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The green sector mark sector_group_sector_4 represents the least angular span of export share of value within the single-member South Asia scope. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g157_1",
+    "label": "Extreme: Minimum · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_sector_2 is the single sector in the fixed BAS representing Developing East Asia with an export share of value of 8%, constituting the minimum within this scope. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g158_1",
+    "label": "Extreme: Minimum · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector_group_donut_sector_4 holds the minimum Export_share_percentage of the one-member range bas_South_Asia_donut_sector_group_donut, which has no second member to compare against. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g159_1",
+    "label": "Extreme: Minimum · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The sectors representing South Asia and Sub-Saharan Africa exhibit the smallest visible angular spans among all destination categories in the 1995-99 Average inner pie chart, appearing tied as the least shares. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g159_2",
+    "label": "Extreme: Minimum · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The sectors representing South Asia and Sub-Saharan Africa exhibit the smallest visible angular spans among all destination categories in the 1995-99 Average inner pie chart, appearing tied as the least shares. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g160_1",
+    "label": "Extreme: Maximum · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The sector representing High income Asia and Pacific exhibits the largest angular span among all destination categories in the 1995-99 Average inner pie chart. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g160_2",
+    "label": "Extreme: Maximum · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The sector representing High income Asia and Pacific exhibits the largest angular span among all destination categories in the 1995-99 Average inner pie chart. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g160_3",
+    "label": "Extreme: Maximum · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The sector representing High income Asia and Pacific exhibits the largest angular span among all destination categories in the 1995-99 Average inner pie chart. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g160_4",
+    "label": "Extreme: Maximum · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The sector representing High income Asia and Pacific exhibits the largest angular span among all destination categories in the 1995-99 Average inner pie chart. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g161_1",
+    "label": "Extreme: Maximum · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "North America (sector_group_donut_sector_3) occupies the largest angular extent (28%) of the outer donut ring for 2011-15 agricultural export share of value. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g162_1",
+    "label": "Destination · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Destination (Data Variable): name: Destination; variableType: Categorical. Visual support covers 15 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g163_1",
+    "label": "Export share percentage · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Export share percentage (Data Variable): name: Export share percentage; unit: %; variableType: Quantitative. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g164_1",
+    "label": "export share of value · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "export share of value (Data Variable): name: export share of value; unit: %; variableType: Quantitative. Visual support covers 5 sector marks reached through the KG scope.",
+    "region": {
+      "x": 15.79549,
+      "y": 31.32368,
+      "width": 36.27905,
+      "height": 39.98422
+    }
+  },
+  {
+    "id": "ev_g165_1",
+    "label": "Developing East Asia · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia (Variable Value): value: Developing East Asia. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g165_2",
+    "label": "Developing East Asia · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Developing East Asia (Variable Value): value: Developing East Asia. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g166_1",
+    "label": "Europe and Central Asia · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia (Variable Value): value: Europe and Central Asia. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g166_2",
+    "label": "Europe and Central Asia · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe and Central Asia (Variable Value): value: Europe and Central Asia. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g167_1",
+    "label": "High income Asia and Pacific · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "High income Asia and Pacific (Variable Value): value: High income Asia and Pacific. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g167_2",
+    "label": "High income Asia and Pacific · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "High income Asia and Pacific (Variable Value): value: High income Asia and Pacific. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g168_1",
+    "label": "Middle East and North Africa · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa (Variable Value): value: Middle East and North Africa. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g168_2",
+    "label": "Middle East and North Africa · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Middle East and North Africa (Variable Value): value: Middle East and North Africa. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g169_1",
+    "label": "North America · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "North America (Variable Value): value: North America. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g169_2",
+    "label": "North America · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "North America (Variable Value): value: North America. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g170_1",
+    "label": "South America and Caribbean · sector_group_donut_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South America and Caribbean (Variable Value): value: South America and Caribbean. Visual support resolved through KG provenance to sector_group_donut_sector_2 (mask_bbox).",
+    "region": {
+      "x": 5.29483,
+      "y": 62.5,
+      "width": 15.16245,
+      "height": 17.76316
+    }
+  },
+  {
+    "id": "ev_g171_1",
+    "label": "South Asia · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia (Variable Value): value: South Asia. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g171_2",
+    "label": "South Asia · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "South Asia (Variable Value): value: South Asia. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g172_1",
+    "label": "Sub-Saharan Africa · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sub-Saharan Africa (Variable Value): value: Sub-Saharan Africa. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g172_2",
+    "label": "Sub-Saharan Africa · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Sub-Saharan Africa (Variable Value): value: Sub-Saharan Africa. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g173_1",
+    "label": "donut · view",
+    "kind": "image-region",
+    "confidence": 0.78,
+    "detail": "donut (View): chartType: donut. Visual provenance resolves to the complete donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g174_1",
+    "label": "pie · view",
+    "kind": "image-region",
+    "confidence": 0.78,
+    "detail": "pie (View): chartType: pie. Visual provenance resolves to the complete pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g175_1",
+    "label": "bas Developing East Asia donut sector group donut · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Developing East Asia donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Developing_East_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g176_1",
+    "label": "bas Developing East Asia multigroup 2src · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Developing East Asia multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Developing_East_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Developing_East_Asia\",\"variableRef…. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g176_2",
+    "label": "bas Developing East Asia multigroup 2src · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Developing East Asia multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Developing_East_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Developing_East_Asia\",\"variableRef…. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g177_1",
+    "label": "bas Developing East Asia pie sector group · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Developing East Asia pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Developing_East_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"pie\"}]. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g178_1",
+    "label": "bas Europe and Central Asia donut sector group donut · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Europe and Central Asia donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Europe_and_Central_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g179_1",
+    "label": "bas Europe and Central Asia multigroup 2src · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Europe and Central Asia multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Europe_and_Central_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Europe_and_Central_Asia\",\"varia…. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g179_2",
+    "label": "bas Europe and Central Asia multigroup 2src · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Europe and Central Asia multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Europe_and_Central_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Europe_and_Central_Asia\",\"varia…. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g180_1",
+    "label": "bas Europe and Central Asia pie sector group · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Europe and Central Asia pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Europe_and_Central_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"pie\"}]. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  },
+  {
+    "id": "ev_g181_1",
+    "label": "bas High income Asia and Pacific donut sector group donut · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas High income Asia and Pacific donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g182_1",
+    "label": "bas High income Asia and Pacific multigroup 2src · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas High income Asia and Pacific multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"High_income_Asia_and_Pacif…. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g182_2",
+    "label": "bas High income Asia and Pacific multigroup 2src · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas High income Asia and Pacific multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"High_income_Asia_and_Pacif…. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g183_1",
+    "label": "bas High income Asia and Pacific pie sector group · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas High income Asia and Pacific pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"pie\"}]. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g184_1",
+    "label": "bas Middle East and North Africa donut sector group donut · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Middle East and North Africa donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Middle_East_and_North_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g185_1",
+    "label": "bas Middle East and North Africa multigroup 2src · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Middle East and North Africa multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Middle_East_and_North_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Middle_East_and_North_Afri…. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g185_2",
+    "label": "bas Middle East and North Africa multigroup 2src · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Middle East and North Africa multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Middle_East_and_North_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Middle_East_and_North_Afri…. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g186_1",
+    "label": "bas Middle East and North Africa pie sector group · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Middle East and North Africa pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Middle_East_and_North_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"pie\"}]. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g187_1",
+    "label": "bas North America donut sector group donut · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas North America donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g188_1",
+    "label": "bas North America multigroup 2src · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas North America multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Destination…. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g188_2",
+    "label": "bas North America multigroup 2src · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas North America multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Destination…. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g189_1",
+    "label": "bas North America pie sector group · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas North America pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"pie\"}]. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g190_1",
+    "label": "bas South America and Caribbean donut sector group donut · sector_group_donut_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas South America and Caribbean donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"South_America_and_Caribbean\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_2 (mask_bbox).",
+    "region": {
+      "x": 5.29483,
+      "y": 62.5,
+      "width": 15.16245,
+      "height": 17.76316
+    }
+  },
+  {
+    "id": "ev_g191_1",
+    "label": "bas South Asia donut sector group donut · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas South Asia donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"South_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g192_1",
+    "label": "bas South Asia multigroup 2src · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas South Asia multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"South_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"South_Asia\",\"variableRef\":\"Destination\"},\"se…. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g192_2",
+    "label": "bas South Asia multigroup 2src · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas South Asia multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"South_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"South_Asia\",\"variableRef\":\"Destination\"},\"se…. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g193_1",
+    "label": "bas South Asia pie sector group · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas South Asia pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"South_Asia\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"pie\"}]. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g194_1",
+    "label": "bas Sub-Saharan Africa donut sector group donut · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Sub-Saharan Africa donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Sub-Saharan_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"}]. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g195_1",
+    "label": "bas Sub-Saharan Africa multigroup 2src · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Sub-Saharan Africa multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Sub-Saharan_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Sub-Saharan_Africa\",\"variableRef\":\"D…. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g195_2",
+    "label": "bas Sub-Saharan Africa multigroup 2src · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Sub-Saharan Africa multigroup 2src (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selection\":{\"valueRef\":\"Sub-Saharan_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"donut\"},{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Sub-Saharan_Africa\",\"variableRef\":\"D…. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g196_1",
+    "label": "bas Sub-Saharan Africa pie sector group · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Sub-Saharan Africa pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selection\":{\"valueRef\":\"Sub-Saharan_Africa\",\"variableRef\":\"Destination\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"pie\"}]. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g197_1",
+    "label": "bas all donut sector group donut · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas all donut sector group donut (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group_donut\",\"selectionMode\":\"global\",\"viewRef\":\"donut\"}]. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98422
+    }
+  },
+  {
+    "id": "ev_g198_1",
+    "label": "bas all pie sector group · sector scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas all pie sector group (Basic Analytical Scope): sources: [{\"groupRef\":\"sector_group\",\"selectionMode\":\"global\",\"viewRef\":\"pie\"}]. Visual support covers 8 sector marks reached through the KG scope.",
+    "region": {
+      "x": 15.79549,
+      "y": 31.32368,
+      "width": 36.27905,
+      "height": 39.98422
+    }
+  },
+  {
+    "id": "ev_g199_1",
+    "label": "sector group · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "sector group (Graphical Mark Group): markType: Sector. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g200_1",
+    "label": "sector group donut · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "sector group donut (Graphical Mark Group): markType: Sector. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g201_1",
+    "label": "angularSpan · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "angularSpan (Visual Attribute): attributeType: angularSpan. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g202_1",
+    "label": "angularSpan sector group donut · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "angularSpan sector group donut (Visual Attribute): attributeType: angularSpan. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g203_1",
+    "label": "color · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "color (Visual Attribute): attributeType: color. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g204_1",
+    "label": "color sector group donut · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "color sector group donut (Visual Attribute): attributeType: color. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g205_1",
+    "label": "text label · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "text label (Visual Attribute): attributeType: textLabel. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g206_1",
+    "label": "text label sector group donut · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "text label sector group donut (Visual Attribute): attributeType: textLabel. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g207_1",
+    "label": "rgb 0 114 188 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 0 114 188 (Visual Attribute Value): value: {\"fill_rgb\":[0,114,188],\"kind\":\"color\"}; colorName: blue. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g207_2",
+    "label": "rgb 0 114 188 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 0 114 188 (Visual Attribute Value): value: {\"fill_rgb\":[0,114,188],\"kind\":\"color\"}; colorName: blue. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g208_1",
+    "label": "rgb 113 173 71 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 113 173 71 (Visual Attribute Value): value: {\"fill_rgb\":[113,173,71],\"kind\":\"color\"}; colorName: light green. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g208_2",
+    "label": "rgb 113 173 71 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 113 173 71 (Visual Attribute Value): value: {\"fill_rgb\":[113,173,71],\"kind\":\"color\"}; colorName: light green. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g209_1",
+    "label": "rgb 158 72 14 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 158 72 14 (Visual Attribute Value): value: {\"fill_rgb\":[158,72,14],\"kind\":\"color\"}; colorName: brown. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g209_2",
+    "label": "rgb 158 72 14 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 158 72 14 (Visual Attribute Value): value: {\"fill_rgb\":[158,72,14],\"kind\":\"color\"}; colorName: brown. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g210_1",
+    "label": "rgb 21 53 85 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 21 53 85 (Visual Attribute Value): value: {\"fill_rgb\":[21,53,85],\"kind\":\"color\"}; colorName: dark navy blue. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g210_2",
+    "label": "rgb 21 53 85 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 21 53 85 (Visual Attribute Value): value: {\"fill_rgb\":[21,53,85],\"kind\":\"color\"}; colorName: dark navy blue. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g211_1",
+    "label": "rgb 242 90 34 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 242 90 34 (Visual Attribute Value): value: {\"fill_rgb\":[242,90,34],\"kind\":\"color\"}; colorName: orange. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g211_2",
+    "label": "rgb 242 90 34 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 242 90 34 (Visual Attribute Value): value: {\"fill_rgb\":[242,90,34],\"kind\":\"color\"}; colorName: orange. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g212_1",
+    "label": "rgb 254 190 17 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 254 190 17 (Visual Attribute Value): value: {\"fill_rgb\":[254,190,17],\"kind\":\"color\"}; colorName: golden yellow. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g212_2",
+    "label": "rgb 254 190 17 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 254 190 17 (Visual Attribute Value): value: {\"fill_rgb\":[254,190,17],\"kind\":\"color\"}; colorName: golden yellow. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g213_1",
+    "label": "rgb 2 185 242 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 2 185 242 (Visual Attribute Value): value: {\"fill_rgb\":[2,185,242],\"kind\":\"color\"}; colorName: cyan. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g213_2",
+    "label": "rgb 2 185 242 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 2 185 242 (Visual Attribute Value): value: {\"fill_rgb\":[2,185,242],\"kind\":\"color\"}; colorName: cyan. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g214_1",
+    "label": "rgb 5 168 117 · pie",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 5 168 117 (Visual Attribute Value): value: {\"fill_rgb\":[5,168,117],\"kind\":\"color\"}; colorName: green. No mark-level geometry was available; provenance falls back to the containing pie view.",
+    "region": {
+      "x": 16.24549,
+      "y": 31.97368,
+      "width": 35.37906,
+      "height": 38.81579
+    }
+  },
+  {
+    "id": "ev_g214_2",
+    "label": "rgb 5 168 117 · donut",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 5 168 117 (Visual Attribute Value): value: {\"fill_rgb\":[5,168,117],\"kind\":\"color\"}; colorName: green. No mark-level geometry was available; provenance falls back to the containing donut view.",
+    "region": {
+      "x": 2.52708,
+      "y": 16.97368,
+      "width": 62.81588,
+      "height": 68.68421
+    }
+  },
+  {
+    "id": "ev_g215_1",
+    "label": "chart · chart view",
+    "kind": "image-region",
+    "confidence": 0.62,
+    "detail": "chart (Complex Chart) is connected by HAS_VIEW to donut. The individual mark mask is unavailable; provenance falls back to the union of the chart's data views.",
+    "region": {
+      "x": 2.07708,
+      "y": 16.32368,
+      "width": 63.71588,
+      "height": 69.98421
+    }
+  },
+  {
+    "id": "ev_g216_1",
+    "label": "sector group donut sector 1 · sector_group_donut_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 1 (Graphical Mark): markType: Sector; data values: Export share percentage = 23.0. Visual support resolved through KG provenance to sector_group_donut_sector_1 (mask_bbox).",
+    "region": {
+      "x": 2.52708,
+      "y": 21.71053,
+      "width": 18.8929,
+      "height": 43.02632
+    }
+  },
+  {
+    "id": "ev_g217_1",
+    "label": "sector group donut sector 2 · sector_group_donut_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 2 (Graphical Mark): markType: Sector; data values: Export share percentage = 10.0. Visual support resolved through KG provenance to sector_group_donut_sector_2 (mask_bbox).",
+    "region": {
+      "x": 5.29483,
+      "y": 62.5,
+      "width": 15.16245,
+      "height": 17.76316
+    }
+  },
+  {
+    "id": "ev_g218_1",
+    "label": "sector group donut sector 3 · sector_group_donut_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 3 (Graphical Mark): markType: Sector; data values: Export share percentage = 28.0. Visual support resolved through KG provenance to sector_group_donut_sector_3 (mask_bbox).",
+    "region": {
+      "x": 17.32852,
+      "y": 61.84211,
+      "width": 45.6077,
+      "height": 23.81579
+    }
+  },
+  {
+    "id": "ev_g219_1",
+    "label": "sector group donut sector 4 · sector_group_donut_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 4 (Graphical Mark): markType: Sector; data values: Export share percentage = 1.0. Visual support resolved through KG provenance to sector_group_donut_sector_4 (mask_bbox).",
+    "region": {
+      "x": 18.53189,
+      "y": 20.26316,
+      "width": 4.93381,
+      "height": 7.36842
+    }
+  },
+  {
+    "id": "ev_g220_1",
+    "label": "sector group donut sector 5 · sector_group_donut_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 5 (Graphical Mark): markType: Sector; data values: Export share percentage = 2.0. Visual support resolved through KG provenance to sector_group_donut_sector_5 (mask_bbox).",
+    "region": {
+      "x": 20.81829,
+      "y": 18.94737,
+      "width": 5.05415,
+      "height": 7.63158
+    }
+  },
+  {
+    "id": "ev_g221_1",
+    "label": "sector group donut sector 6 · sector_group_donut_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 6 (Graphical Mark): markType: Sector; data values: Export share percentage = 5.0. Visual support resolved through KG provenance to sector_group_donut_sector_6 (mask_bbox).",
+    "region": {
+      "x": 23.94705,
+      "y": 16.97368,
+      "width": 9.74729,
+      "height": 8.55263
+    }
+  },
+  {
+    "id": "ev_g222_1",
+    "label": "sector group donut sector 7 · sector_group_donut_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 7 (Graphical Mark): markType: Sector; data values: Export share percentage = 11.0. Visual support resolved through KG provenance to sector_group_donut_sector_7 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 16.97368,
+      "width": 19.61492,
+      "height": 13.15789
+    }
+  },
+  {
+    "id": "ev_g223_1",
+    "label": "sector group donut sector 8 · sector_group_donut_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group donut sector 8 (Graphical Mark): markType: Sector; data values: Export share percentage = 20.0. Visual support resolved through KG provenance to sector_group_donut_sector_8 (mask_bbox).",
+    "region": {
+      "x": 49.81949,
+      "y": 24.86842,
+      "width": 15.52347,
+      "height": 39.34211
+    }
+  },
+  {
+    "id": "ev_g224_1",
+    "label": "sector group sector 1 · sector_group_sector_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 1 (Graphical Mark): markType: Sector; data values: export share of value = 22.0. Visual support resolved through KG provenance to sector_group_sector_1 (mask_bbox).",
+    "region": {
+      "x": 16.24549,
+      "y": 51.44737,
+      "width": 17.56919,
+      "height": 18.94737
+    }
+  },
+  {
+    "id": "ev_g225_1",
+    "label": "sector group sector 2 · sector_group_sector_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 2 (Graphical Mark): markType: Sector; linked data: COMPOSED_OF from bas Developing East Asia multigroup 2src; COMPOSED_OF from bas Developing East Asia pie sector group; COMPOSED_OF from bas all pie sector group; VALUE_OF to Developing East Asia. Visual support resolved through KG provenance to sector_group_sector_2 (mask_bbox).",
+    "region": {
+      "x": 18.65223,
+      "y": 35.0,
+      "width": 15.16245,
+      "height": 16.18421
+    }
+  },
+  {
+    "id": "ev_g226_1",
+    "label": "sector group sector 3 · sector_group_sector_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 3 (Graphical Mark): markType: Sector; data values: export share of value = 9.0. Visual support resolved through KG provenance to sector_group_sector_3 (mask_bbox).",
+    "region": {
+      "x": 20.69795,
+      "y": 47.36842,
+      "width": 3.36943,
+      "height": 1.97368
+    }
+  },
+  {
+    "id": "ev_g227_1",
+    "label": "sector group sector 4 · sector_group_sector_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 4 (Graphical Mark): markType: Sector; linked data: COMPOSED_OF from bas South Asia multigroup 2src; COMPOSED_OF from bas South Asia pie sector group; COMPOSED_OF from bas all pie sector group; VALUE_OF to South Asia. Visual support resolved through KG provenance to sector_group_sector_4 (mask_bbox).",
+    "region": {
+      "x": 24.66907,
+      "y": 34.34211,
+      "width": 8.66426,
+      "height": 15.78947
+    }
+  },
+  {
+    "id": "ev_g228_1",
+    "label": "sector group sector 5 · sector_group_sector_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 5 (Graphical Mark): markType: Sector; linked data: COMPOSED_OF from bas Sub-Saharan Africa multigroup 2src; COMPOSED_OF from bas Sub-Saharan Africa pie sector group; COMPOSED_OF from bas all pie sector group; VALUE_OF to Sub-Saharan Africa. Visual support resolved through KG provenance to sector_group_sector_5 (mask_bbox).",
+    "region": {
+      "x": 25.87244,
+      "y": 33.55263,
+      "width": 7.46089,
+      "height": 16.31579
+    }
+  },
+  {
+    "id": "ev_g229_1",
+    "label": "sector group sector 6 · sector_group_sector_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 6 (Graphical Mark): markType: Sector; data values: export share of value = 6.0. Visual support resolved through KG provenance to sector_group_sector_6 (mask_bbox).",
+    "region": {
+      "x": 27.31649,
+      "y": 31.97368,
+      "width": 6.61853,
+      "height": 19.07895
+    }
+  },
+  {
+    "id": "ev_g230_1",
+    "label": "sector group sector 7 · sector_group_sector_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 7 (Graphical Mark): markType: Sector; data values: export share of value = 33.0. Visual support resolved through KG provenance to sector_group_sector_7 (mask_bbox).",
+    "region": {
+      "x": 30.92659,
+      "y": 45.52632,
+      "width": 20.69795,
+      "height": 25.13158
+    }
+  },
+  {
+    "id": "ev_g231_1",
+    "label": "sector group sector 8 · sector_group_sector_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "sector group sector 8 (Graphical Mark): markType: Sector; data values: export share of value = 20.0. Visual support resolved through KG provenance to sector_group_sector_8 (mask_bbox).",
+    "region": {
+      "x": 34.05535,
+      "y": 31.97368,
+      "width": 16.72684,
+      "height": 19.34211
+    }
+  }
+]

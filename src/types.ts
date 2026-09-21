@@ -129,6 +129,7 @@ export interface ConversationTurn {
   createdAt: number
   status: 'streaming' | 'complete' | 'partial' | 'failed'
   answers: Record<QAMode, QAAnswer>
+  availableModes?: QAMode[]
 }
 
 export interface RunState {

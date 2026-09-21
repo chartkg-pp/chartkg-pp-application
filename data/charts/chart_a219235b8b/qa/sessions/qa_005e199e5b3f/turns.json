@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sessionId": "qa_005e199e5b3f",
+  "turns": [
+    {
+      "id": "turn_pending_1790010995377",
+      "question": "What overall regional patterns are visible in the distribution of the world’s tallest buildings?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:16:43.637069Z",
+      "preview": "Asia occupies both regional extremes: it has the greatest maximum Height among Asia, North America, and Europe, while its minimum Height is the lowest of the three regions. [G62] [G64] The regional minimum Heights are 461.0 m for Landmark 8",
+      "citationCount": 7,
+      "detailPath": "turns/turn_pending_1790010995377.json"
+    },
+    {
+      "id": "turn_pending_1790011070025",
+      "question": "What does the chart suggest about the geographic concentration of modern skyscraper development?",
+      "status": "complete",
+      "createdAt": "2026-09-21T17:17:57.000495Z",
+      "preview": "Among the observed buildings in Asia, *Burj Khalifa* holds a dominant magnitude advantage in Height at 828.0 m over the rest of the group. [G24] Within Asia, *Burj Khalifa* stands out as an outlier with a Height of 828.0 m, departing from t",
+      "citationCount": 3,
+      "detailPath": "turns/turn_pending_1790011070025.json"
+    }
+  ]
+}

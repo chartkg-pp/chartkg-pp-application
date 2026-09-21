@@ -1,0 +1,462 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790007438192",
+  "sessionId": "qa_c0613d5ca178",
+  "chartId": "chart_b8429ce809",
+  "revisionId": "construction-kg-revision:d2ee9587803039bf0291",
+  "question": "What does the chart show about iOS’s dominance in the worldwide app market in 2018?",
+  "status": "complete",
+  "createdAt": "2026-09-21T16:17:22.276864Z",
+  "completedAt": "2026-09-21T16:18:13.023939Z",
+  "answers": {
+    "vision": {
+      "answer": "In 2018, iOS dominated the worldwide app market with $92 billion in revenue, representing 63% of the $146 billion total—well ahead of Google Play at 19% and third-party Android at 18%.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_b8429ce809",
+        "imageSha256": "c10a09a161ff791ef573698c9ba7f2561bbd4a677ec4be09986349fb710a95d4",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "iOS represented $92B of the $146B worldwide app market. [G106] [G71] [G27]",
+      "citationIds": [
+        "G106",
+        "G71",
+        "G27"
+      ],
+      "status": "verified",
+      "generationMode": "llm",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "iOS represented $92B of the $146B worldwide app market.",
+          "recordIds": [
+            "entity:bar_9",
+            "entity:Worldwide",
+            "entity:insight_Global_App_Market_Summary"
+          ],
+          "citationIds": [
+            "G106",
+            "G71",
+            "G27"
+          ],
+          "claimType": "observed"
+        }
+      ],
+      "citations": {
+        "G106": {
+          "id": "G106",
+          "claimIds": [
+            "entity:bar_9",
+            "relation:VALUE_OF:bar_9:Percentage",
+            "relation:VALUE_OF:bar_9:Worldwide",
+            "relation:VALUE_OF:bar_9:iOS",
+            "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+            "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_9",
+            "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_9"
+          ],
+          "entityIds": [
+            "bar_9",
+            "Percentage",
+            "Worldwide",
+            "iOS",
+            "bas_all_stacked_bar_bar_group",
+            "bas_Worldwide_stacked_bar_bar_group",
+            "bas_iOS_stacked_bar_bar_group"
+          ],
+          "evidenceIds": [
+            "ev_g106_1"
+          ],
+          "graphPath": [
+            "bar 9",
+            "VALUE_OF",
+            "Percentage"
+          ]
+        },
+        "G71": {
+          "id": "G71",
+          "claimIds": [
+            "entity:Worldwide",
+            "relation:ENCODES:Worldwide_position:Worldwide",
+            "relation:VALUE_OF:Worldwide:Region",
+            "relation:VALUE_OF:bar_7:Worldwide",
+            "relation:VALUE_OF:bar_8:Worldwide",
+            "relation:VALUE_OF:bar_9:Worldwide"
+          ],
+          "entityIds": [
+            "Worldwide",
+            "Worldwide_position",
+            "Region",
+            "bar_7",
+            "bar_8",
+            "bar_9"
+          ],
+          "evidenceIds": [
+            "ev_g71_1",
+            "ev_g71_2",
+            "ev_g71_3"
+          ],
+          "graphPath": [
+            "Worldwide position",
+            "ENCODES",
+            "Worldwide"
+          ]
+        },
+        "G27": {
+          "id": "G27",
+          "claimIds": [
+            "entity:insight_Global_App_Market_Summary",
+            "relation:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+          ],
+          "entityIds": [
+            "insight_Global_App_Market_Summary",
+            "Composition_4"
+          ],
+          "evidenceIds": [
+            "ev_g27_1"
+          ],
+          "graphPath": [
+            "Global App Market Summary",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-local",
+        "planner": "llm",
+        "maxHops": 3,
+        "seedEntityIds": [
+          "insight_Global_App_Market_Summary",
+          "Worldwide",
+          "iOS",
+          "bar_9",
+          "insight_Composition_3",
+          "insight_Distribution_2"
+        ],
+        "communityIds": [
+          "community:4:Comparison_5",
+          "community:11:bas_Worldwide_stacked_bar_bar_group",
+          "community:5:Contrast",
+          "community:1:Comparison",
+          "community:12:bas_all_stacked_bar_bar_group",
+          "community:2:Comparison_2"
+        ],
+        "expandedEntityIds": [
+          "insight_Global_App_Market_Summary",
+          "Worldwide",
+          "iOS",
+          "bar_9",
+          "insight_Composition_3",
+          "insight_Distribution_2",
+          "bar_7",
+          "bar_8",
+          "bar_10",
+          "Distribution_2",
+          "bas_all_stacked_bar_bar_group",
+          "Distribution",
+          "insight_Distribution_1",
+          "Composition_6",
+          "Similarity",
+          "insight_Similarity_1",
+          "bas_Worldwide_stacked_bar_bar_group",
+          "bas_iOS_stacked_bar_bar_group",
+          "bas_Third_Party_Android_stacked_bar_bar_group",
+          "bas_Google_Play_stacked_bar_bar_group",
+          "bas_Americas_stacked_bar_bar_group",
+          "Composition_4"
+        ],
+        "relationIds": [
+          "relation:67:VALUE_OF:bar_7:Worldwide",
+          "relation:70:VALUE_OF:bar_8:Worldwide",
+          "relation:126:VALUE_OF:bar_10:iOS",
+          "relation:108:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+          "relation:138:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+          "relation:81:SUPPORTED_BY:Distribution:bas_all_stacked_bar_bar_group",
+          "relation:107:DERIVED_FROM:insight_Distribution_1:Distribution",
+          "relation:101:DERIVED_FROM:insight_Composition_3:Composition_6",
+          "relation:17:COMPOSED_OF:Similarity:Composition_6",
+          "relation:121:DERIVED_FROM:insight_Similarity_1:Similarity",
+          "relation:149:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_9",
+          "relation:158:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_9",
+          "relation:136:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_7",
+          "relation:147:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_7",
+          "relation:151:COMPOSED_OF:bas_Third_Party_Android_stacked_bar_bar_group:bar_7",
+          "relation:137:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_8",
+          "relation:148:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_8",
+          "relation:155:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_8",
+          "relation:139:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_10",
+          "relation:144:COMPOSED_OF:bas_Americas_stacked_bar_bar_group:bar_10",
+          "relation:159:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_10",
+          "relation:166:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+        ],
+        "paths": [
+          {
+            "source": "Worldwide",
+            "target": "bar_7",
+            "nodeIds": [
+              "Worldwide",
+              "bar_7"
+            ],
+            "relationIds": [
+              "relation:67:VALUE_OF:bar_7:Worldwide"
+            ],
+            "hops": [
+              {
+                "from": "Worldwide",
+                "relation": "VALUE_OF",
+                "to": "bar_7",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Worldwide",
+            "target": "bar_8",
+            "nodeIds": [
+              "Worldwide",
+              "bar_8"
+            ],
+            "relationIds": [
+              "relation:70:VALUE_OF:bar_8:Worldwide"
+            ],
+            "hops": [
+              {
+                "from": "Worldwide",
+                "relation": "VALUE_OF",
+                "to": "bar_8",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "iOS",
+            "target": "bar_10",
+            "nodeIds": [
+              "iOS",
+              "bar_10"
+            ],
+            "relationIds": [
+              "relation:126:VALUE_OF:bar_10:iOS"
+            ],
+            "hops": [
+              {
+                "from": "iOS",
+                "relation": "VALUE_OF",
+                "to": "bar_10",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "insight_Distribution_2",
+            "target": "Distribution_2",
+            "nodeIds": [
+              "insight_Distribution_2",
+              "Distribution_2"
+            ],
+            "relationIds": [
+              "relation:108:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+            ],
+            "hops": [
+              {
+                "from": "insight_Distribution_2",
+                "relation": "DERIVED_FROM",
+                "to": "Distribution_2",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bar_9",
+            "target": "insight_Distribution_1",
+            "nodeIds": [
+              "bar_9",
+              "bas_all_stacked_bar_bar_group",
+              "Distribution",
+              "insight_Distribution_1"
+            ],
+            "relationIds": [
+              "relation:138:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+              "relation:81:SUPPORTED_BY:Distribution:bas_all_stacked_bar_bar_group",
+              "relation:107:DERIVED_FROM:insight_Distribution_1:Distribution"
+            ],
+            "hops": [
+              {
+                "from": "bar_9",
+                "relation": "COMPOSED_OF",
+                "to": "bas_all_stacked_bar_bar_group",
+                "direction": "reverse"
+              },
+              {
+                "from": "bas_all_stacked_bar_bar_group",
+                "relation": "SUPPORTED_BY",
+                "to": "Distribution",
+                "direction": "reverse"
+              },
+              {
+                "from": "Distribution",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Distribution_1",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "insight_Composition_3",
+            "target": "insight_Similarity_1",
+            "nodeIds": [
+              "insight_Composition_3",
+              "Composition_6",
+              "Similarity",
+              "insight_Similarity_1"
+            ],
+            "relationIds": [
+              "relation:101:DERIVED_FROM:insight_Composition_3:Composition_6",
+              "relation:17:COMPOSED_OF:Similarity:Composition_6",
+              "relation:121:DERIVED_FROM:insight_Similarity_1:Similarity"
+            ],
+            "hops": [
+              {
+                "from": "insight_Composition_3",
+                "relation": "DERIVED_FROM",
+                "to": "Composition_6",
+                "direction": "forward"
+              },
+              {
+                "from": "Composition_6",
+                "relation": "COMPOSED_OF",
+                "to": "Similarity",
+                "direction": "reverse"
+              },
+              {
+                "from": "Similarity",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Similarity_1",
+                "direction": "reverse"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "bar_9",
+            "type": "Graphical_Mark",
+            "score": 2.0,
+            "lexicalScore": 12.544704,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "bar_7",
+            "type": "Graphical_Mark",
+            "score": 1.487805,
+            "lexicalScore": 8.724551,
+            "distance": 1.05,
+            "hops": 1
+          },
+          {
+            "entityId": "bar_8",
+            "type": "Graphical_Mark",
+            "score": 1.487805,
+            "lexicalScore": 8.989974,
+            "distance": 1.05,
+            "hops": 1
+          },
+          {
+            "entityId": "bar_10",
+            "type": "Graphical_Mark",
+            "score": 1.484164,
+            "lexicalScore": 8.519848,
+            "distance": 1.065415,
+            "hops": 1
+          },
+          {
+            "entityId": "insight_Global_App_Market_Summary",
+            "type": "Insight",
+            "score": 1.21,
+            "lexicalScore": 30.476429,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Composition_3",
+            "type": "Insight",
+            "score": 0.775934,
+            "lexicalScore": 6.853629,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Distribution_2",
+            "type": "Insight",
+            "score": 0.769966,
+            "lexicalScore": 6.528795,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Worldwide",
+            "type": "Variable_Value",
+            "score": 0.671107,
+            "lexicalScore": 13.295712,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "iOS",
+            "type": "Variable_Value",
+            "score": 0.659996,
+            "lexicalScore": 12.691059,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Distribution_2",
+            "type": "Basic_Pattern",
+            "score": 0.655688,
+            "lexicalScore": 17.205706,
+            "distance": 0.55,
+            "hops": 1
+          },
+          {
+            "entityId": "insight_Distribution_1",
+            "type": "Insight",
+            "score": 0.588125,
+            "lexicalScore": 10.986708,
+            "distance": 1.885415,
+            "hops": 3
+          },
+          {
+            "entityId": "insight_Similarity_1",
+            "type": "Insight",
+            "score": 0.523822,
+            "lexicalScore": 7.23489,
+            "distance": 1.72,
+            "hops": 3
+          }
+        ]
+      }
+    }
+  }
+}

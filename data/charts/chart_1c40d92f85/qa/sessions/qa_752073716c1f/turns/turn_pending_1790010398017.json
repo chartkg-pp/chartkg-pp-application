@@ -1,0 +1,530 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790010398017",
+  "sessionId": "qa_752073716c1f",
+  "chartId": "chart_1c40d92f85",
+  "revisionId": "construction-kg-revision:3fa6ffd0418655469042",
+  "question": "What are the main regional patterns in the destinations of U.S. agricultural exports?",
+  "status": "complete",
+  "createdAt": "2026-09-21T17:06:48.537671Z",
+  "completedAt": "2026-09-21T17:07:44.405657Z",
+  "answers": {
+    "vision": {
+      "answer": "U.S. agricultural exports shifted markedly toward the Americas and developing East Asia between 1995–99 and 2011–15. Developing East Asia rose from 8% to 23% and North America from 22% to 28%, while high-income Asia-Pacific fell from 33% to 20% and Europe and Central Asia from 20% to 11%; other regions remained relatively small and mostly stable.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_1c40d92f85",
+        "imageSha256": "2ed896e22310a1d3670071717ec6eb31eb8d7cb6f9af96245cceb8809998ce96",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "For Export share percentage, the regional distribution ranks North America first at 28.0%, followed by High income Asia and Pacific at 20.0%, Europe and Central Asia at 11.0%, South America and Caribbean at 10.0%, Middle East and North Africa at 5.0%, Sub-Saharan Africa at 2.0%, and South Asia at 1.0%. [G9] North America is the maximum and South Asia is the minimum in the 2011-15 agricultural export share of value outer ring, at 28% and 1%, respectively. [G161] [G108] The three largest regions in the Export share percentage series—North America, High income Asia and Pacific, and Europe and Central Asia—sum to 59.0%. [G9] The smallest destinations are in South Asia and Africa, with South Asia at 1.0% and Sub-Saharan Africa at 2.0%, while Middle East and North Africa accounts for 5.0%. [G9] A separately named export share of value profile shows High income Asia and Pacific at 33.0%, North America at 22.0%, Europe and Central Asia at 20.0%, and Middle East and North Africa at 6.0%. [G15] [G164] Within that four-region profile, High income Asia and Pacific is the largest destination and Middle East and North Africa is the smallest. [G15] Overall, the evidence shows differing regional contribution profiles, with the largest shares concentrated in North America and High income Asia and Pacific and the smallest shares in South Asia, Sub-Saharan Africa, and Middle East and North Africa. [G9] [G15]",
+      "citationIds": [
+        "G9",
+        "G161",
+        "G108",
+        "G15",
+        "G164"
+      ],
+      "status": "verified",
+      "generationMode": "llm",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "For Export share percentage, the regional distribution ranks North America first at 28.0%, followed by High income Asia and Pacific at 20.0%, Europe and Central Asia at 11.0%, South America and Caribbean at 10.0%, Middle East and North Africa at 5.0%, Sub-Saharan Africa at 2.0%, and South Asia at 1.0%.",
+          "recordIds": [
+            "entity:insight_Comparison_6"
+          ],
+          "citationIds": [
+            "G9"
+          ],
+          "claimType": "derived"
+        },
+        {
+          "id": "claim_2",
+          "text": "North America is the maximum and South Asia is the minimum in the 2011-15 agricultural export share of value outer ring, at 28% and 1%, respectively.",
+          "recordIds": [
+            "entity:Extreme_9",
+            "entity:Extreme_10"
+          ],
+          "citationIds": [
+            "G161",
+            "G108"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_3",
+          "text": "The three largest regions in the Export share percentage series—North America, High income Asia and Pacific, and Europe and Central Asia—sum to 59.0%.",
+          "recordIds": [
+            "entity:insight_Comparison_6"
+          ],
+          "citationIds": [
+            "G9"
+          ],
+          "claimType": "derived"
+        },
+        {
+          "id": "claim_4",
+          "text": "The smallest destinations are in South Asia and Africa, with South Asia at 1.0% and Sub-Saharan Africa at 2.0%, while Middle East and North Africa accounts for 5.0%.",
+          "recordIds": [
+            "entity:insight_Comparison_6"
+          ],
+          "citationIds": [
+            "G9"
+          ],
+          "claimType": "derived"
+        },
+        {
+          "id": "claim_5",
+          "text": "A separately named export share of value profile shows High income Asia and Pacific at 33.0%, North America at 22.0%, Europe and Central Asia at 20.0%, and Middle East and North Africa at 6.0%.",
+          "recordIds": [
+            "entity:insight_Contrast_1",
+            "entity:export_share_of_value"
+          ],
+          "citationIds": [
+            "G15",
+            "G164"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_6",
+          "text": "Within that four-region profile, High income Asia and Pacific is the largest destination and Middle East and North Africa is the smallest.",
+          "recordIds": [
+            "entity:insight_Contrast_1"
+          ],
+          "citationIds": [
+            "G15"
+          ],
+          "claimType": "derived"
+        },
+        {
+          "id": "claim_7",
+          "text": "Overall, the evidence shows differing regional contribution profiles, with the largest shares concentrated in North America and High income Asia and Pacific and the smallest shares in South Asia, Sub-Saharan Africa, and Middle East and North Africa.",
+          "recordIds": [
+            "entity:insight_Comparison_6",
+            "entity:insight_Contrast_1"
+          ],
+          "citationIds": [
+            "G9",
+            "G15"
+          ],
+          "claimType": "interpretation"
+        }
+      ],
+      "citations": {
+        "G9": {
+          "id": "G9",
+          "claimIds": [
+            "entity:insight_Comparison_6",
+            "relation:DERIVED_FROM:insight_Comparison_6:Comparison_8"
+          ],
+          "entityIds": [
+            "insight_Comparison_6",
+            "Comparison_8"
+          ],
+          "evidenceIds": [
+            "ev_g9_1"
+          ],
+          "graphPath": [
+            "Comparison 6",
+            "DERIVED_FROM",
+            "Comparison: MinimumComparison"
+          ]
+        },
+        "G161": {
+          "id": "G161",
+          "claimIds": [
+            "entity:Extreme_9",
+            "relation:SUPPORTED_BY:Extreme_9:bas_all_donut_sector_group_donut",
+            "relation:DERIVED_FROM:insight_Extreme_3:Extreme_9",
+            "relation:INFERRED_FROM:Extreme_9:Comparison_7",
+            "relation:INFERRED_FROM:Extreme_9:Comparison_9"
+          ],
+          "entityIds": [
+            "Extreme_9",
+            "bas_all_donut_sector_group_donut",
+            "insight_Extreme_3",
+            "Comparison_7",
+            "Comparison_9"
+          ],
+          "evidenceIds": [
+            "ev_g161_1"
+          ],
+          "graphPath": [
+            "Extreme: Maximum",
+            "SUPPORTED_BY",
+            "bas all donut sector group donut"
+          ]
+        },
+        "G108": {
+          "id": "G108",
+          "claimIds": [
+            "entity:Extreme_10",
+            "relation:SUPPORTED_BY:Extreme_10:bas_all_donut_sector_group_donut",
+            "relation:DERIVED_FROM:insight_Extreme_4:Extreme_10",
+            "relation:INFERRED_FROM:Extreme_10:Comparison_10",
+            "relation:INFERRED_FROM:Extreme_10:Comparison_3",
+            "relation:INFERRED_FROM:Extreme_10:Comparison_8"
+          ],
+          "entityIds": [
+            "Extreme_10",
+            "bas_all_donut_sector_group_donut",
+            "insight_Extreme_4",
+            "Comparison_10",
+            "Comparison_3",
+            "Comparison_8"
+          ],
+          "evidenceIds": [
+            "ev_g108_1"
+          ],
+          "graphPath": [
+            "Extreme: Minimum",
+            "SUPPORTED_BY",
+            "bas all donut sector group donut"
+          ]
+        },
+        "G15": {
+          "id": "G15",
+          "claimIds": [
+            "entity:insight_Contrast_1",
+            "relation:DERIVED_FROM:insight_Contrast_1:Contrast"
+          ],
+          "entityIds": [
+            "insight_Contrast_1",
+            "Contrast"
+          ],
+          "evidenceIds": [
+            "ev_g15_1",
+            "ev_g15_2",
+            "ev_g15_3",
+            "ev_g15_4"
+          ],
+          "graphPath": [
+            "Contrast 1",
+            "DERIVED_FROM",
+            "Contrast: DifferentComposition"
+          ]
+        },
+        "G164": {
+          "id": "G164",
+          "claimIds": [
+            "entity:export_share_of_value",
+            "relation:ENCODES:angularSpan:export_share_of_value",
+            "relation:ENCODES:text_label:export_share_of_value",
+            "relation:VALUE_OF:sector_group_sector_1:export_share_of_value",
+            "relation:VALUE_OF:sector_group_sector_3:export_share_of_value",
+            "relation:VALUE_OF:sector_group_sector_6:export_share_of_value",
+            "relation:VALUE_OF:sector_group_sector_7:export_share_of_value",
+            "relation:VALUE_OF:sector_group_sector_8:export_share_of_value"
+          ],
+          "entityIds": [
+            "export_share_of_value",
+            "angularSpan",
+            "text_label",
+            "sector_group_sector_1",
+            "sector_group_sector_3",
+            "sector_group_sector_6",
+            "sector_group_sector_7",
+            "sector_group_sector_8"
+          ],
+          "evidenceIds": [
+            "ev_g164_1"
+          ],
+          "graphPath": [
+            "angularSpan",
+            "ENCODES",
+            "export share of value"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-global",
+        "planner": "llm",
+        "maxHops": 4,
+        "seedEntityIds": [
+          "Destination",
+          "Export_share_percentage",
+          "export_share_of_value",
+          "insight_Comparison_6",
+          "insight_Contrast_1",
+          "Extreme_9"
+        ],
+        "communityIds": [
+          "community:19:Correspondence",
+          "community:9:Comparison_20",
+          "community:24:Correspondence_7",
+          "community:22:Correspondence_5",
+          "community:12:Comparison_23",
+          "community:11:Comparison_22"
+        ],
+        "expandedEntityIds": [
+          "Destination",
+          "Export_share_percentage",
+          "export_share_of_value",
+          "insight_Comparison_6",
+          "insight_Contrast_1",
+          "Extreme_9",
+          "Correspondence_5",
+          "Composition_11",
+          "Similarity_2",
+          "Comparison_8",
+          "Extreme_10",
+          "insight_Similarity_2",
+          "Comparison_20",
+          "Comparison_22",
+          "Comparison_23",
+          "insight_Extreme_3",
+          "Comparison_7",
+          "Comparison_9",
+          "Composition_10",
+          "Composition_3",
+          "Composition_4",
+          "insight_Extreme_4",
+          "Comparison_10",
+          "Comparison_3",
+          "Contrast",
+          "Correspondence",
+          "Correspondence_3",
+          "Correspondence_7"
+        ],
+        "relationIds": [
+          "relation:104:COMPOSED_OF:Correspondence_5:Composition_11",
+          "relation:123:COMPOSED_OF:Similarity_2:Composition_11",
+          "relation:350:DERIVED_FROM:insight_Comparison_6:Comparison_8",
+          "relation:395:INFERRED_FROM:Extreme_10:Comparison_8",
+          "relation:389:DERIVED_FROM:insight_Similarity_2:Similarity_2",
+          "relation:379:DERIVED_FROM:insight_Extreme_3:Extreme_9",
+          "relation:397:INFERRED_FROM:Extreme_9:Comparison_7",
+          "relation:398:INFERRED_FROM:Extreme_9:Comparison_9",
+          "relation:122:COMPOSED_OF:Similarity_2:Composition_10",
+          "relation:124:COMPOSED_OF:Similarity_2:Composition_3",
+          "relation:125:COMPOSED_OF:Similarity_2:Composition_4",
+          "relation:382:DERIVED_FROM:insight_Extreme_4:Extreme_10",
+          "relation:393:INFERRED_FROM:Extreme_10:Comparison_10",
+          "relation:394:INFERRED_FROM:Extreme_10:Comparison_3",
+          "relation:356:DERIVED_FROM:insight_Contrast_1:Contrast",
+          "relation:38:COMPOSED_OF:Comparison_20:Correspondence",
+          "relation:39:COMPOSED_OF:Comparison_20:Correspondence_3",
+          "relation:43:COMPOSED_OF:Comparison_22:Correspondence",
+          "relation:44:COMPOSED_OF:Comparison_22:Correspondence_3",
+          "relation:45:COMPOSED_OF:Comparison_22:Correspondence_5",
+          "relation:46:COMPOSED_OF:Comparison_23:Correspondence",
+          "relation:47:COMPOSED_OF:Comparison_23:Correspondence_3",
+          "relation:48:COMPOSED_OF:Comparison_23:Correspondence_5",
+          "relation:49:COMPOSED_OF:Comparison_23:Correspondence_7"
+        ],
+        "paths": [
+          {
+            "source": "Correspondence_5",
+            "target": "Similarity_2",
+            "nodeIds": [
+              "Correspondence_5",
+              "Composition_11",
+              "Similarity_2"
+            ],
+            "relationIds": [
+              "relation:104:COMPOSED_OF:Correspondence_5:Composition_11",
+              "relation:123:COMPOSED_OF:Similarity_2:Composition_11"
+            ],
+            "hops": [
+              {
+                "from": "Correspondence_5",
+                "relation": "COMPOSED_OF",
+                "to": "Composition_11",
+                "direction": "forward"
+              },
+              {
+                "from": "Composition_11",
+                "relation": "COMPOSED_OF",
+                "to": "Similarity_2",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "insight_Comparison_6",
+            "target": "Extreme_10",
+            "nodeIds": [
+              "insight_Comparison_6",
+              "Comparison_8",
+              "Extreme_10"
+            ],
+            "relationIds": [
+              "relation:350:DERIVED_FROM:insight_Comparison_6:Comparison_8",
+              "relation:395:INFERRED_FROM:Extreme_10:Comparison_8"
+            ],
+            "hops": [
+              {
+                "from": "insight_Comparison_6",
+                "relation": "DERIVED_FROM",
+                "to": "Comparison_8",
+                "direction": "forward"
+              },
+              {
+                "from": "Comparison_8",
+                "relation": "INFERRED_FROM",
+                "to": "Extreme_10",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Correspondence_5",
+            "target": "insight_Similarity_2",
+            "nodeIds": [
+              "Correspondence_5",
+              "Composition_11",
+              "Similarity_2",
+              "insight_Similarity_2"
+            ],
+            "relationIds": [
+              "relation:104:COMPOSED_OF:Correspondence_5:Composition_11",
+              "relation:123:COMPOSED_OF:Similarity_2:Composition_11",
+              "relation:389:DERIVED_FROM:insight_Similarity_2:Similarity_2"
+            ],
+            "hops": [
+              {
+                "from": "Correspondence_5",
+                "relation": "COMPOSED_OF",
+                "to": "Composition_11",
+                "direction": "forward"
+              },
+              {
+                "from": "Composition_11",
+                "relation": "COMPOSED_OF",
+                "to": "Similarity_2",
+                "direction": "reverse"
+              },
+              {
+                "from": "Similarity_2",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Similarity_2",
+                "direction": "reverse"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "Extreme_9",
+            "type": "Basic_Pattern",
+            "score": 1.054392,
+            "lexicalScore": 13.087438,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Destination",
+            "type": "Data_Variable",
+            "score": 0.907288,
+            "lexicalScore": 11.955344,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Similarity_2",
+            "type": "Relational_Pattern",
+            "score": 0.867014,
+            "lexicalScore": 14.181666,
+            "distance": 1.24,
+            "hops": 2
+          },
+          {
+            "entityId": "Extreme_10",
+            "type": "Basic_Pattern",
+            "score": 0.822793,
+            "lexicalScore": 13.216966,
+            "distance": 1.13,
+            "hops": 2
+          },
+          {
+            "entityId": "Export_share_percentage",
+            "type": "Data_Variable",
+            "score": 0.726619,
+            "lexicalScore": 7.380023,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "export_share_of_value",
+            "type": "Data_Variable",
+            "score": 0.726619,
+            "lexicalScore": 7.380023,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Comparison_6",
+            "type": "Insight",
+            "score": 0.686797,
+            "lexicalScore": 4.857134,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Contrast_1",
+            "type": "Insight",
+            "score": 0.674499,
+            "lexicalScore": 4.545716,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Similarity_2",
+            "type": "Insight",
+            "score": 0.654132,
+            "lexicalScore": 10.643326,
+            "distance": 1.79,
+            "hops": 3
+          },
+          {
+            "entityId": "Comparison_20",
+            "type": "Relational_Pattern",
+            "score": 0.630979,
+            "lexicalScore": 5.120064,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Comparison_22",
+            "type": "Relational_Pattern",
+            "score": 0.630979,
+            "lexicalScore": 5.120064,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Comparison_23",
+            "type": "Relational_Pattern",
+            "score": 0.630979,
+            "lexicalScore": 5.120064,
+            "distance": 0.0,
+            "hops": 0
+          }
+        ]
+      }
+    }
+  }
+}

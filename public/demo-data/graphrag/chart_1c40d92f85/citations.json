@@ -1,0 +1,5627 @@
+{
+  "G1": {
+    "id": "G1",
+    "claimIds": [
+      "entity:insight_Comparison_1",
+      "relation:DERIVED_FROM:insight_Comparison_1:Comparison"
+    ],
+    "entityIds": [
+      "insight_Comparison_1",
+      "Comparison"
+    ],
+    "evidenceIds": [
+      "ev_g1_1",
+      "ev_g1_2"
+    ],
+    "graphPath": [
+      "Comparison 1",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G2": {
+    "id": "G2",
+    "claimIds": [
+      "entity:insight_Comparison_10",
+      "relation:DERIVED_FROM:insight_Comparison_10:Comparison_14"
+    ],
+    "entityIds": [
+      "insight_Comparison_10",
+      "Comparison_14"
+    ],
+    "evidenceIds": [
+      "ev_g2_1"
+    ],
+    "graphPath": [
+      "Comparison 10",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G3": {
+    "id": "G3",
+    "claimIds": [
+      "entity:insight_Comparison_11",
+      "relation:DERIVED_FROM:insight_Comparison_11:Comparison_15"
+    ],
+    "entityIds": [
+      "insight_Comparison_11",
+      "Comparison_15"
+    ],
+    "evidenceIds": [
+      "ev_g3_1",
+      "ev_g3_2",
+      "ev_g3_3",
+      "ev_g3_4"
+    ],
+    "graphPath": [
+      "Comparison 11",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G4": {
+    "id": "G4",
+    "claimIds": [
+      "entity:insight_Comparison_12",
+      "relation:DERIVED_FROM:insight_Comparison_12:Comparison_16"
+    ],
+    "entityIds": [
+      "insight_Comparison_12",
+      "Comparison_16"
+    ],
+    "evidenceIds": [
+      "ev_g4_1",
+      "ev_g4_2",
+      "ev_g4_3",
+      "ev_g4_4"
+    ],
+    "graphPath": [
+      "Comparison 12",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G5": {
+    "id": "G5",
+    "claimIds": [
+      "entity:insight_Comparison_2",
+      "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+    ],
+    "entityIds": [
+      "insight_Comparison_2",
+      "Comparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g5_1",
+      "ev_g5_2"
+    ],
+    "graphPath": [
+      "Comparison 2",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G6": {
+    "id": "G6",
+    "claimIds": [
+      "entity:insight_Comparison_3",
+      "relation:DERIVED_FROM:insight_Comparison_3:Comparison_3"
+    ],
+    "entityIds": [
+      "insight_Comparison_3",
+      "Comparison_3"
+    ],
+    "evidenceIds": [
+      "ev_g6_1",
+      "ev_g6_2",
+      "ev_g6_3",
+      "ev_g6_4"
+    ],
+    "graphPath": [
+      "Comparison 3",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G7": {
+    "id": "G7",
+    "claimIds": [
+      "entity:insight_Comparison_4",
+      "relation:DERIVED_FROM:insight_Comparison_4:Comparison_4"
+    ],
+    "entityIds": [
+      "insight_Comparison_4",
+      "Comparison_4"
+    ],
+    "evidenceIds": [
+      "ev_g7_1",
+      "ev_g7_2",
+      "ev_g7_3",
+      "ev_g7_4"
+    ],
+    "graphPath": [
+      "Comparison 4",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G8": {
+    "id": "G8",
+    "claimIds": [
+      "entity:insight_Comparison_5",
+      "relation:DERIVED_FROM:insight_Comparison_5:Comparison_7"
+    ],
+    "entityIds": [
+      "insight_Comparison_5",
+      "Comparison_7"
+    ],
+    "evidenceIds": [
+      "ev_g8_1"
+    ],
+    "graphPath": [
+      "Comparison 5",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G9": {
+    "id": "G9",
+    "claimIds": [
+      "entity:insight_Comparison_6",
+      "relation:DERIVED_FROM:insight_Comparison_6:Comparison_8"
+    ],
+    "entityIds": [
+      "insight_Comparison_6",
+      "Comparison_8"
+    ],
+    "evidenceIds": [
+      "ev_g9_1"
+    ],
+    "graphPath": [
+      "Comparison 6",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G10": {
+    "id": "G10",
+    "claimIds": [
+      "entity:insight_Comparison_7",
+      "relation:DERIVED_FROM:insight_Comparison_7:Comparison_9"
+    ],
+    "entityIds": [
+      "insight_Comparison_7",
+      "Comparison_9"
+    ],
+    "evidenceIds": [
+      "ev_g10_1"
+    ],
+    "graphPath": [
+      "Comparison 7",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G11": {
+    "id": "G11",
+    "claimIds": [
+      "entity:insight_Comparison_8",
+      "relation:DERIVED_FROM:insight_Comparison_8:Comparison_10"
+    ],
+    "entityIds": [
+      "insight_Comparison_8",
+      "Comparison_10"
+    ],
+    "evidenceIds": [
+      "ev_g11_1"
+    ],
+    "graphPath": [
+      "Comparison 8",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G12": {
+    "id": "G12",
+    "claimIds": [
+      "entity:insight_Comparison_9",
+      "relation:DERIVED_FROM:insight_Comparison_9:Comparison_13"
+    ],
+    "entityIds": [
+      "insight_Comparison_9",
+      "Comparison_13"
+    ],
+    "evidenceIds": [
+      "ev_g12_1"
+    ],
+    "graphPath": [
+      "Comparison 9",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G13": {
+    "id": "G13",
+    "claimIds": [
+      "entity:insight_Composition_1",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_5"
+    ],
+    "entityIds": [
+      "insight_Composition_1",
+      "Composition_5"
+    ],
+    "evidenceIds": [
+      "ev_g13_1"
+    ],
+    "graphPath": [
+      "Composition 1",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G14": {
+    "id": "G14",
+    "claimIds": [
+      "entity:insight_Composition_2",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_8"
+    ],
+    "entityIds": [
+      "insight_Composition_2",
+      "Composition_8"
+    ],
+    "evidenceIds": [
+      "ev_g14_1"
+    ],
+    "graphPath": [
+      "Composition 2",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G15": {
+    "id": "G15",
+    "claimIds": [
+      "entity:insight_Contrast_1",
+      "relation:DERIVED_FROM:insight_Contrast_1:Contrast"
+    ],
+    "entityIds": [
+      "insight_Contrast_1",
+      "Contrast"
+    ],
+    "evidenceIds": [
+      "ev_g15_1",
+      "ev_g15_2",
+      "ev_g15_3",
+      "ev_g15_4"
+    ],
+    "graphPath": [
+      "Contrast 1",
+      "DERIVED_FROM",
+      "Contrast: DifferentComposition"
+    ]
+  },
+  "G16": {
+    "id": "G16",
+    "claimIds": [
+      "entity:insight_Extreme_1",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme_7"
+    ],
+    "entityIds": [
+      "insight_Extreme_1",
+      "Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g16_1",
+      "ev_g16_2"
+    ],
+    "graphPath": [
+      "Extreme 1",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G17": {
+    "id": "G17",
+    "claimIds": [
+      "entity:insight_Extreme_10",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_34"
+    ],
+    "entityIds": [
+      "insight_Extreme_10",
+      "Extreme_34"
+    ],
+    "evidenceIds": [
+      "ev_g17_1"
+    ],
+    "graphPath": [
+      "Extreme 10",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G18": {
+    "id": "G18",
+    "claimIds": [
+      "entity:insight_Extreme_11",
+      "relation:DERIVED_FROM:insight_Extreme_11:Extreme_35"
+    ],
+    "entityIds": [
+      "insight_Extreme_11",
+      "Extreme_35"
+    ],
+    "evidenceIds": [
+      "ev_g18_1"
+    ],
+    "graphPath": [
+      "Extreme 11",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G19": {
+    "id": "G19",
+    "claimIds": [
+      "entity:insight_Extreme_12",
+      "relation:DERIVED_FROM:insight_Extreme_12:Extreme_36"
+    ],
+    "entityIds": [
+      "insight_Extreme_12",
+      "Extreme_36"
+    ],
+    "evidenceIds": [
+      "ev_g19_1"
+    ],
+    "graphPath": [
+      "Extreme 12",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G20": {
+    "id": "G20",
+    "claimIds": [
+      "entity:insight_Extreme_13",
+      "relation:DERIVED_FROM:insight_Extreme_13:Extreme_37"
+    ],
+    "entityIds": [
+      "insight_Extreme_13",
+      "Extreme_37"
+    ],
+    "evidenceIds": [
+      "ev_g20_1"
+    ],
+    "graphPath": [
+      "Extreme 13",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G21": {
+    "id": "G21",
+    "claimIds": [
+      "entity:insight_Extreme_14",
+      "relation:DERIVED_FROM:insight_Extreme_14:Extreme_38"
+    ],
+    "entityIds": [
+      "insight_Extreme_14",
+      "Extreme_38"
+    ],
+    "evidenceIds": [
+      "ev_g21_1"
+    ],
+    "graphPath": [
+      "Extreme 14",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G22": {
+    "id": "G22",
+    "claimIds": [
+      "entity:insight_Extreme_15",
+      "relation:DERIVED_FROM:insight_Extreme_15:Extreme_39"
+    ],
+    "entityIds": [
+      "insight_Extreme_15",
+      "Extreme_39"
+    ],
+    "evidenceIds": [
+      "ev_g22_1"
+    ],
+    "graphPath": [
+      "Extreme 15",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G23": {
+    "id": "G23",
+    "claimIds": [
+      "entity:insight_Extreme_16",
+      "relation:DERIVED_FROM:insight_Extreme_16:Extreme_40"
+    ],
+    "entityIds": [
+      "insight_Extreme_16",
+      "Extreme_40"
+    ],
+    "evidenceIds": [
+      "ev_g23_1"
+    ],
+    "graphPath": [
+      "Extreme 16",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G24": {
+    "id": "G24",
+    "claimIds": [
+      "entity:insight_Extreme_17",
+      "relation:DERIVED_FROM:insight_Extreme_17:Extreme_41"
+    ],
+    "entityIds": [
+      "insight_Extreme_17",
+      "Extreme_41"
+    ],
+    "evidenceIds": [
+      "ev_g24_1"
+    ],
+    "graphPath": [
+      "Extreme 17",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G25": {
+    "id": "G25",
+    "claimIds": [
+      "entity:insight_Extreme_18",
+      "relation:DERIVED_FROM:insight_Extreme_18:Extreme_42"
+    ],
+    "entityIds": [
+      "insight_Extreme_18",
+      "Extreme_42"
+    ],
+    "evidenceIds": [
+      "ev_g25_1"
+    ],
+    "graphPath": [
+      "Extreme 18",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G26": {
+    "id": "G26",
+    "claimIds": [
+      "entity:insight_Extreme_19",
+      "relation:DERIVED_FROM:insight_Extreme_19:Extreme_43"
+    ],
+    "entityIds": [
+      "insight_Extreme_19",
+      "Extreme_43"
+    ],
+    "evidenceIds": [
+      "ev_g26_1"
+    ],
+    "graphPath": [
+      "Extreme 19",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G27": {
+    "id": "G27",
+    "claimIds": [
+      "entity:insight_Extreme_2",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_8"
+    ],
+    "entityIds": [
+      "insight_Extreme_2",
+      "Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g27_1",
+      "ev_g27_2",
+      "ev_g27_3",
+      "ev_g27_4"
+    ],
+    "graphPath": [
+      "Extreme 2",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G28": {
+    "id": "G28",
+    "claimIds": [
+      "entity:insight_Extreme_20",
+      "relation:DERIVED_FROM:insight_Extreme_20:Extreme_44"
+    ],
+    "entityIds": [
+      "insight_Extreme_20",
+      "Extreme_44"
+    ],
+    "evidenceIds": [
+      "ev_g28_1"
+    ],
+    "graphPath": [
+      "Extreme 20",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G29": {
+    "id": "G29",
+    "claimIds": [
+      "entity:insight_Extreme_21",
+      "relation:DERIVED_FROM:insight_Extreme_21:Extreme_45"
+    ],
+    "entityIds": [
+      "insight_Extreme_21",
+      "Extreme_45"
+    ],
+    "evidenceIds": [
+      "ev_g29_1"
+    ],
+    "graphPath": [
+      "Extreme 21",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G30": {
+    "id": "G30",
+    "claimIds": [
+      "entity:insight_Extreme_22",
+      "relation:DERIVED_FROM:insight_Extreme_22:Extreme_46"
+    ],
+    "entityIds": [
+      "insight_Extreme_22",
+      "Extreme_46"
+    ],
+    "evidenceIds": [
+      "ev_g30_1"
+    ],
+    "graphPath": [
+      "Extreme 22",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G31": {
+    "id": "G31",
+    "claimIds": [
+      "entity:insight_Extreme_23",
+      "relation:DERIVED_FROM:insight_Extreme_23:Extreme_47"
+    ],
+    "entityIds": [
+      "insight_Extreme_23",
+      "Extreme_47"
+    ],
+    "evidenceIds": [
+      "ev_g31_1"
+    ],
+    "graphPath": [
+      "Extreme 23",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G32": {
+    "id": "G32",
+    "claimIds": [
+      "entity:insight_Extreme_24",
+      "relation:DERIVED_FROM:insight_Extreme_24:Extreme_48"
+    ],
+    "entityIds": [
+      "insight_Extreme_24",
+      "Extreme_48"
+    ],
+    "evidenceIds": [
+      "ev_g32_1"
+    ],
+    "graphPath": [
+      "Extreme 24",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G33": {
+    "id": "G33",
+    "claimIds": [
+      "entity:insight_Extreme_25",
+      "relation:DERIVED_FROM:insight_Extreme_25:Extreme_49"
+    ],
+    "entityIds": [
+      "insight_Extreme_25",
+      "Extreme_49"
+    ],
+    "evidenceIds": [
+      "ev_g33_1"
+    ],
+    "graphPath": [
+      "Extreme 25",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G34": {
+    "id": "G34",
+    "claimIds": [
+      "entity:insight_Extreme_26",
+      "relation:DERIVED_FROM:insight_Extreme_26:Extreme_50"
+    ],
+    "entityIds": [
+      "insight_Extreme_26",
+      "Extreme_50"
+    ],
+    "evidenceIds": [
+      "ev_g34_1"
+    ],
+    "graphPath": [
+      "Extreme 26",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G35": {
+    "id": "G35",
+    "claimIds": [
+      "entity:insight_Extreme_27",
+      "relation:DERIVED_FROM:insight_Extreme_27:Extreme_51"
+    ],
+    "entityIds": [
+      "insight_Extreme_27",
+      "Extreme_51"
+    ],
+    "evidenceIds": [
+      "ev_g35_1"
+    ],
+    "graphPath": [
+      "Extreme 27",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G36": {
+    "id": "G36",
+    "claimIds": [
+      "entity:insight_Extreme_28",
+      "relation:DERIVED_FROM:insight_Extreme_28:Extreme_52"
+    ],
+    "entityIds": [
+      "insight_Extreme_28",
+      "Extreme_52"
+    ],
+    "evidenceIds": [
+      "ev_g36_1"
+    ],
+    "graphPath": [
+      "Extreme 28",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G37": {
+    "id": "G37",
+    "claimIds": [
+      "entity:insight_Extreme_29",
+      "relation:DERIVED_FROM:insight_Extreme_29:Extreme_53"
+    ],
+    "entityIds": [
+      "insight_Extreme_29",
+      "Extreme_53"
+    ],
+    "evidenceIds": [
+      "ev_g37_1"
+    ],
+    "graphPath": [
+      "Extreme 29",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G38": {
+    "id": "G38",
+    "claimIds": [
+      "entity:insight_Extreme_3",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_9"
+    ],
+    "entityIds": [
+      "insight_Extreme_3",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g38_1"
+    ],
+    "graphPath": [
+      "Extreme 3",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G39": {
+    "id": "G39",
+    "claimIds": [
+      "entity:insight_Extreme_30",
+      "relation:DERIVED_FROM:insight_Extreme_30:Extreme_54"
+    ],
+    "entityIds": [
+      "insight_Extreme_30",
+      "Extreme_54"
+    ],
+    "evidenceIds": [
+      "ev_g39_1"
+    ],
+    "graphPath": [
+      "Extreme 30",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G40": {
+    "id": "G40",
+    "claimIds": [
+      "entity:insight_Extreme_31",
+      "relation:DERIVED_FROM:insight_Extreme_31:Extreme_55"
+    ],
+    "entityIds": [
+      "insight_Extreme_31",
+      "Extreme_55"
+    ],
+    "evidenceIds": [
+      "ev_g40_1"
+    ],
+    "graphPath": [
+      "Extreme 31",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G41": {
+    "id": "G41",
+    "claimIds": [
+      "entity:insight_Extreme_4",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_10"
+    ],
+    "entityIds": [
+      "insight_Extreme_4",
+      "Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g41_1"
+    ],
+    "graphPath": [
+      "Extreme 4",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G42": {
+    "id": "G42",
+    "claimIds": [
+      "entity:insight_Extreme_5",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_29"
+    ],
+    "entityIds": [
+      "insight_Extreme_5",
+      "Extreme_29"
+    ],
+    "evidenceIds": [
+      "ev_g42_1"
+    ],
+    "graphPath": [
+      "Extreme 5",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G43": {
+    "id": "G43",
+    "claimIds": [
+      "entity:insight_Extreme_6",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_30"
+    ],
+    "entityIds": [
+      "insight_Extreme_6",
+      "Extreme_30"
+    ],
+    "evidenceIds": [
+      "ev_g43_1"
+    ],
+    "graphPath": [
+      "Extreme 6",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G44": {
+    "id": "G44",
+    "claimIds": [
+      "entity:insight_Extreme_7",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_31"
+    ],
+    "entityIds": [
+      "insight_Extreme_7",
+      "Extreme_31"
+    ],
+    "evidenceIds": [
+      "ev_g44_1"
+    ],
+    "graphPath": [
+      "Extreme 7",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G45": {
+    "id": "G45",
+    "claimIds": [
+      "entity:insight_Extreme_8",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_32"
+    ],
+    "entityIds": [
+      "insight_Extreme_8",
+      "Extreme_32"
+    ],
+    "evidenceIds": [
+      "ev_g45_1"
+    ],
+    "graphPath": [
+      "Extreme 8",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G46": {
+    "id": "G46",
+    "claimIds": [
+      "entity:insight_Extreme_9",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_33"
+    ],
+    "entityIds": [
+      "insight_Extreme_9",
+      "Extreme_33"
+    ],
+    "evidenceIds": [
+      "ev_g46_1"
+    ],
+    "graphPath": [
+      "Extreme 9",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G47": {
+    "id": "G47",
+    "claimIds": [
+      "entity:insight_Similarity_1",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "insight_Similarity_1",
+      "Similarity"
+    ],
+    "evidenceIds": [
+      "ev_g47_1",
+      "ev_g47_2"
+    ],
+    "graphPath": [
+      "Similarity 1",
+      "DERIVED_FROM",
+      "Similarity: SimilarComposition"
+    ]
+  },
+  "G48": {
+    "id": "G48",
+    "claimIds": [
+      "entity:insight_Similarity_2",
+      "relation:DERIVED_FROM:insight_Similarity_2:Similarity_2"
+    ],
+    "entityIds": [
+      "insight_Similarity_2",
+      "Similarity_2"
+    ],
+    "evidenceIds": [
+      "ev_g48_1",
+      "ev_g48_2",
+      "ev_g48_3",
+      "ev_g48_4"
+    ],
+    "graphPath": [
+      "Similarity 2",
+      "DERIVED_FROM",
+      "Similarity: SimilarComposition"
+    ]
+  },
+  "G49": {
+    "id": "G49",
+    "claimIds": [
+      "entity:insight_Similarity_3",
+      "relation:DERIVED_FROM:insight_Similarity_3:Similarity_4"
+    ],
+    "entityIds": [
+      "insight_Similarity_3",
+      "Similarity_4"
+    ],
+    "evidenceIds": [
+      "ev_g49_1"
+    ],
+    "graphPath": [
+      "Similarity 3",
+      "DERIVED_FROM",
+      "Similarity: SimilarComposition"
+    ]
+  },
+  "G50": {
+    "id": "G50",
+    "claimIds": [
+      "entity:insight_Similarity_4",
+      "relation:DERIVED_FROM:insight_Similarity_4:Similarity_6"
+    ],
+    "entityIds": [
+      "insight_Similarity_4",
+      "Similarity_6"
+    ],
+    "evidenceIds": [
+      "ev_g50_1",
+      "ev_g50_2",
+      "ev_g50_3"
+    ],
+    "graphPath": [
+      "Similarity 4",
+      "DERIVED_FROM",
+      "Similarity: SimilarComposition"
+    ]
+  },
+  "G51": {
+    "id": "G51",
+    "claimIds": [
+      "entity:insight_Similarity_5",
+      "relation:DERIVED_FROM:insight_Similarity_5:Similarity_7"
+    ],
+    "entityIds": [
+      "insight_Similarity_5",
+      "Similarity_7"
+    ],
+    "evidenceIds": [
+      "ev_g51_1",
+      "ev_g51_2",
+      "ev_g51_3",
+      "ev_g51_4"
+    ],
+    "graphPath": [
+      "Similarity 5",
+      "DERIVED_FROM",
+      "Similarity: SimilarComposition"
+    ]
+  },
+  "G52": {
+    "id": "G52",
+    "claimIds": [
+      "entity:Comparison",
+      "relation:COMPOSED_OF:Comparison:Extreme_3",
+      "relation:COMPOSED_OF:Comparison:Extreme_5",
+      "relation:DERIVED_FROM:insight_Comparison_1:Comparison"
+    ],
+    "entityIds": [
+      "Comparison",
+      "Extreme_3",
+      "Extreme_5",
+      "insight_Comparison_1"
+    ],
+    "evidenceIds": [
+      "ev_g52_1",
+      "ev_g52_2"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G53": {
+    "id": "G53",
+    "claimIds": [
+      "entity:Comparison_10",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_16",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_18",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_20",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_22",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_24",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_6",
+      "relation:DERIVED_FROM:insight_Comparison_8:Comparison_10",
+      "relation:INFERRED_FROM:Extreme_10:Comparison_10"
+    ],
+    "entityIds": [
+      "Comparison_10",
+      "Extreme_12",
+      "Extreme_16",
+      "Extreme_18",
+      "Extreme_20",
+      "Extreme_22",
+      "Extreme_24",
+      "Extreme_4",
+      "Extreme_6",
+      "insight_Comparison_8",
+      "Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g53_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G54": {
+    "id": "G54",
+    "claimIds": [
+      "entity:Comparison_13",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_29",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_31",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_33",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_37",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_44",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_47",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_49",
+      "relation:DERIVED_FROM:insight_Comparison_9:Comparison_13"
+    ],
+    "entityIds": [
+      "Comparison_13",
+      "Extreme_29",
+      "Extreme_31",
+      "Extreme_33",
+      "Extreme_37",
+      "Extreme_44",
+      "Extreme_47",
+      "Extreme_49",
+      "insight_Comparison_9"
+    ],
+    "evidenceIds": [
+      "ev_g54_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G55": {
+    "id": "G55",
+    "claimIds": [
+      "entity:Comparison_14",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_30",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_36",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_39",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_40",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_45",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_48",
+      "relation:DERIVED_FROM:insight_Comparison_10:Comparison_14"
+    ],
+    "entityIds": [
+      "Comparison_14",
+      "Extreme_30",
+      "Extreme_36",
+      "Extreme_39",
+      "Extreme_40",
+      "Extreme_45",
+      "Extreme_48",
+      "insight_Comparison_10"
+    ],
+    "evidenceIds": [
+      "ev_g55_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G56": {
+    "id": "G56",
+    "claimIds": [
+      "entity:Comparison_15",
+      "relation:COMPOSED_OF:Comparison_15:Extreme",
+      "relation:COMPOSED_OF:Comparison_15:Extreme_13",
+      "relation:COMPOSED_OF:Comparison_15:Extreme_25",
+      "relation:COMPOSED_OF:Comparison_15:Extreme_27",
+      "relation:DERIVED_FROM:insight_Comparison_11:Comparison_15",
+      "relation:INFERRED_FROM:Extreme_8:Comparison_15"
+    ],
+    "entityIds": [
+      "Comparison_15",
+      "Extreme",
+      "Extreme_13",
+      "Extreme_25",
+      "Extreme_27",
+      "insight_Comparison_11",
+      "Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g56_1",
+      "ev_g56_2",
+      "ev_g56_3",
+      "ev_g56_4"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G57": {
+    "id": "G57",
+    "claimIds": [
+      "entity:Comparison_16",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_14",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_2",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_26",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_28",
+      "relation:DERIVED_FROM:insight_Comparison_12:Comparison_16"
+    ],
+    "entityIds": [
+      "Comparison_16",
+      "Extreme_14",
+      "Extreme_2",
+      "Extreme_26",
+      "Extreme_28",
+      "insight_Comparison_12"
+    ],
+    "evidenceIds": [
+      "ev_g57_1",
+      "ev_g57_2",
+      "ev_g57_3",
+      "ev_g57_4"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G58": {
+    "id": "G58",
+    "claimIds": [
+      "entity:Comparison_19",
+      "relation:COMPOSED_OF:Comparison_19:Correspondence_2",
+      "relation:COMPOSED_OF:Comparison_19:Correspondence_4"
+    ],
+    "entityIds": [
+      "Comparison_19",
+      "Correspondence_2",
+      "Correspondence_4"
+    ],
+    "evidenceIds": [
+      "ev_g58_1",
+      "ev_g58_2",
+      "ev_g58_3",
+      "ev_g58_4"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G59": {
+    "id": "G59",
+    "claimIds": [
+      "entity:Comparison_2",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_6",
+      "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+    ],
+    "entityIds": [
+      "Comparison_2",
+      "Extreme_4",
+      "Extreme_6",
+      "insight_Comparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g59_1",
+      "ev_g59_2"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G60": {
+    "id": "G60",
+    "claimIds": [
+      "entity:Comparison_20",
+      "relation:COMPOSED_OF:Comparison_20:Correspondence",
+      "relation:COMPOSED_OF:Comparison_20:Correspondence_3"
+    ],
+    "entityIds": [
+      "Comparison_20",
+      "Correspondence",
+      "Correspondence_3"
+    ],
+    "evidenceIds": [
+      "ev_g60_1",
+      "ev_g60_2",
+      "ev_g60_3",
+      "ev_g60_4"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G61": {
+    "id": "G61",
+    "claimIds": [
+      "entity:Comparison_21",
+      "relation:COMPOSED_OF:Comparison_21:Correspondence_2",
+      "relation:COMPOSED_OF:Comparison_21:Correspondence_4",
+      "relation:COMPOSED_OF:Comparison_21:Correspondence_6"
+    ],
+    "entityIds": [
+      "Comparison_21",
+      "Correspondence_2",
+      "Correspondence_4",
+      "Correspondence_6"
+    ],
+    "evidenceIds": [
+      "ev_g61_1"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G62": {
+    "id": "G62",
+    "claimIds": [
+      "entity:Comparison_22",
+      "relation:COMPOSED_OF:Comparison_22:Correspondence",
+      "relation:COMPOSED_OF:Comparison_22:Correspondence_3",
+      "relation:COMPOSED_OF:Comparison_22:Correspondence_5"
+    ],
+    "entityIds": [
+      "Comparison_22",
+      "Correspondence",
+      "Correspondence_3",
+      "Correspondence_5"
+    ],
+    "evidenceIds": [
+      "ev_g62_1"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G63": {
+    "id": "G63",
+    "claimIds": [
+      "entity:Comparison_23",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence_3",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence_5",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence_7"
+    ],
+    "entityIds": [
+      "Comparison_23",
+      "Correspondence",
+      "Correspondence_3",
+      "Correspondence_5",
+      "Correspondence_7"
+    ],
+    "evidenceIds": [
+      "ev_g63_1"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G64": {
+    "id": "G64",
+    "claimIds": [
+      "entity:Comparison_3",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_16",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_6",
+      "relation:DERIVED_FROM:insight_Comparison_3:Comparison_3",
+      "relation:INFERRED_FROM:Extreme_10:Comparison_3"
+    ],
+    "entityIds": [
+      "Comparison_3",
+      "Extreme_12",
+      "Extreme_16",
+      "Extreme_4",
+      "Extreme_6",
+      "insight_Comparison_3",
+      "Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g64_1",
+      "ev_g64_2",
+      "ev_g64_3",
+      "ev_g64_4"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G65": {
+    "id": "G65",
+    "claimIds": [
+      "entity:Comparison_4",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_5",
+      "relation:DERIVED_FROM:insight_Comparison_4:Comparison_4"
+    ],
+    "entityIds": [
+      "Comparison_4",
+      "Extreme_11",
+      "Extreme_15",
+      "Extreme_3",
+      "Extreme_5",
+      "insight_Comparison_4"
+    ],
+    "evidenceIds": [
+      "ev_g65_1",
+      "ev_g65_2",
+      "ev_g65_3",
+      "ev_g65_4"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G66": {
+    "id": "G66",
+    "claimIds": [
+      "entity:Comparison_7",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_17",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_19",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_21",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_5",
+      "relation:DERIVED_FROM:insight_Comparison_5:Comparison_7",
+      "relation:INFERRED_FROM:Extreme_9:Comparison_7"
+    ],
+    "entityIds": [
+      "Comparison_7",
+      "Extreme_11",
+      "Extreme_15",
+      "Extreme_17",
+      "Extreme_19",
+      "Extreme_21",
+      "Extreme_3",
+      "Extreme_5",
+      "insight_Comparison_5",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g66_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G67": {
+    "id": "G67",
+    "claimIds": [
+      "entity:Comparison_8",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_16",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_18",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_20",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_22",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_6",
+      "relation:DERIVED_FROM:insight_Comparison_6:Comparison_8",
+      "relation:INFERRED_FROM:Extreme_10:Comparison_8"
+    ],
+    "entityIds": [
+      "Comparison_8",
+      "Extreme_12",
+      "Extreme_16",
+      "Extreme_18",
+      "Extreme_20",
+      "Extreme_22",
+      "Extreme_4",
+      "Extreme_6",
+      "insight_Comparison_6",
+      "Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g67_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G68": {
+    "id": "G68",
+    "claimIds": [
+      "entity:Comparison_9",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_17",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_19",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_21",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_23",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_5",
+      "relation:DERIVED_FROM:insight_Comparison_7:Comparison_9",
+      "relation:INFERRED_FROM:Extreme_9:Comparison_9"
+    ],
+    "entityIds": [
+      "Comparison_9",
+      "Extreme_11",
+      "Extreme_15",
+      "Extreme_17",
+      "Extreme_19",
+      "Extreme_21",
+      "Extreme_23",
+      "Extreme_3",
+      "Extreme_5",
+      "insight_Comparison_7",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g68_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G69": {
+    "id": "G69",
+    "claimIds": [
+      "entity:Contrast",
+      "relation:COMPOSED_OF:Contrast:Composition",
+      "relation:COMPOSED_OF:Contrast:Composition_12",
+      "relation:COMPOSED_OF:Contrast:Composition_19",
+      "relation:COMPOSED_OF:Contrast:Composition_20",
+      "relation:DERIVED_FROM:insight_Contrast_1:Contrast"
+    ],
+    "entityIds": [
+      "Contrast",
+      "Composition",
+      "Composition_12",
+      "Composition_19",
+      "Composition_20",
+      "insight_Contrast_1"
+    ],
+    "evidenceIds": [
+      "ev_g69_1",
+      "ev_g69_2",
+      "ev_g69_3",
+      "ev_g69_4"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G70": {
+    "id": "G70",
+    "claimIds": [
+      "entity:Correspondence",
+      "relation:COMPOSED_OF:Comparison_20:Correspondence",
+      "relation:COMPOSED_OF:Comparison_22:Correspondence",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence",
+      "relation:COMPOSED_OF:Correspondence:Composition",
+      "relation:COMPOSED_OF:Correspondence:Composition_15",
+      "relation:COMPOSED_OF:Correspondence:Extreme",
+      "relation:COMPOSED_OF:Correspondence:Extreme_2",
+      "relation:COMPOSED_OF:Correspondence:Extreme_21",
+      "relation:COMPOSED_OF:Correspondence:Extreme_22"
+    ],
+    "entityIds": [
+      "Correspondence",
+      "Comparison_20",
+      "Comparison_22",
+      "Comparison_23",
+      "Composition",
+      "Composition_15",
+      "Extreme",
+      "Extreme_2",
+      "Extreme_21",
+      "Extreme_22"
+    ],
+    "evidenceIds": [
+      "ev_g70_1",
+      "ev_g70_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G71": {
+    "id": "G71",
+    "claimIds": [
+      "entity:Correspondence_2",
+      "relation:COMPOSED_OF:Comparison_19:Correspondence_2",
+      "relation:COMPOSED_OF:Comparison_21:Correspondence_2",
+      "relation:COMPOSED_OF:Correspondence_2:Composition_24",
+      "relation:COMPOSED_OF:Correspondence_2:Composition_4",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_5",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_6"
+    ],
+    "entityIds": [
+      "Correspondence_2",
+      "Comparison_19",
+      "Comparison_21",
+      "Composition_24",
+      "Composition_4",
+      "Extreme_5",
+      "Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g71_1",
+      "ev_g71_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G72": {
+    "id": "G72",
+    "claimIds": [
+      "entity:Correspondence_3",
+      "relation:COMPOSED_OF:Comparison_20:Correspondence_3",
+      "relation:COMPOSED_OF:Comparison_22:Correspondence_3",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence_3",
+      "relation:COMPOSED_OF:Correspondence_3:Composition_16",
+      "relation:COMPOSED_OF:Correspondence_3:Composition_20",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_19",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_20",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_27",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_28"
+    ],
+    "entityIds": [
+      "Correspondence_3",
+      "Comparison_20",
+      "Comparison_22",
+      "Comparison_23",
+      "Composition_16",
+      "Composition_20",
+      "Extreme_19",
+      "Extreme_20",
+      "Extreme_27",
+      "Extreme_28"
+    ],
+    "evidenceIds": [
+      "ev_g72_1",
+      "ev_g72_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G73": {
+    "id": "G73",
+    "claimIds": [
+      "entity:Correspondence_4",
+      "relation:COMPOSED_OF:Comparison_19:Correspondence_4",
+      "relation:COMPOSED_OF:Comparison_21:Correspondence_4",
+      "relation:COMPOSED_OF:Correspondence_4:Composition_10",
+      "relation:COMPOSED_OF:Correspondence_4:Composition_2",
+      "relation:COMPOSED_OF:Correspondence_4:Extreme_11",
+      "relation:COMPOSED_OF:Correspondence_4:Extreme_12"
+    ],
+    "entityIds": [
+      "Correspondence_4",
+      "Comparison_19",
+      "Comparison_21",
+      "Composition_10",
+      "Composition_2",
+      "Extreme_11",
+      "Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g73_1",
+      "ev_g73_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G74": {
+    "id": "G74",
+    "claimIds": [
+      "entity:Correspondence_5",
+      "relation:COMPOSED_OF:Comparison_22:Correspondence_5",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence_5",
+      "relation:COMPOSED_OF:Correspondence_5:Composition_11",
+      "relation:COMPOSED_OF:Correspondence_5:Composition_12",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_13",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_14",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_15",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_16"
+    ],
+    "entityIds": [
+      "Correspondence_5",
+      "Comparison_22",
+      "Comparison_23",
+      "Composition_11",
+      "Composition_12",
+      "Extreme_13",
+      "Extreme_14",
+      "Extreme_15",
+      "Extreme_16"
+    ],
+    "evidenceIds": [
+      "ev_g74_1",
+      "ev_g74_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G75": {
+    "id": "G75",
+    "claimIds": [
+      "entity:Correspondence_6",
+      "relation:COMPOSED_OF:Comparison_21:Correspondence_6",
+      "relation:COMPOSED_OF:Correspondence_6:Composition_18",
+      "relation:COMPOSED_OF:Correspondence_6:Composition_7",
+      "relation:COMPOSED_OF:Correspondence_6:Extreme_23",
+      "relation:COMPOSED_OF:Correspondence_6:Extreme_24"
+    ],
+    "entityIds": [
+      "Correspondence_6",
+      "Comparison_21",
+      "Composition_18",
+      "Composition_7",
+      "Extreme_23",
+      "Extreme_24"
+    ],
+    "evidenceIds": [
+      "ev_g75_1",
+      "ev_g75_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G76": {
+    "id": "G76",
+    "claimIds": [
+      "entity:Correspondence_7",
+      "relation:COMPOSED_OF:Comparison_23:Correspondence_7",
+      "relation:COMPOSED_OF:Correspondence_7:Composition_19",
+      "relation:COMPOSED_OF:Correspondence_7:Composition_3",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_25",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_26",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_3",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_4"
+    ],
+    "entityIds": [
+      "Correspondence_7",
+      "Comparison_23",
+      "Composition_19",
+      "Composition_3",
+      "Extreme_25",
+      "Extreme_26",
+      "Extreme_3",
+      "Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g76_1",
+      "ev_g76_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G77": {
+    "id": "G77",
+    "claimIds": [
+      "entity:Similarity",
+      "relation:COMPOSED_OF:Similarity:Composition_3",
+      "relation:COMPOSED_OF:Similarity:Composition_4",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "Similarity",
+      "Composition_3",
+      "Composition_4",
+      "insight_Similarity_1"
+    ],
+    "evidenceIds": [
+      "ev_g77_1",
+      "ev_g77_2"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G78": {
+    "id": "G78",
+    "claimIds": [
+      "entity:Similarity_2",
+      "relation:COMPOSED_OF:Similarity_2:Composition_10",
+      "relation:COMPOSED_OF:Similarity_2:Composition_11",
+      "relation:COMPOSED_OF:Similarity_2:Composition_3",
+      "relation:COMPOSED_OF:Similarity_2:Composition_4",
+      "relation:DERIVED_FROM:insight_Similarity_2:Similarity_2"
+    ],
+    "entityIds": [
+      "Similarity_2",
+      "Composition_10",
+      "Composition_11",
+      "Composition_3",
+      "Composition_4",
+      "insight_Similarity_2"
+    ],
+    "evidenceIds": [
+      "ev_g78_1",
+      "ev_g78_2",
+      "ev_g78_3",
+      "ev_g78_4"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G79": {
+    "id": "G79",
+    "claimIds": [
+      "entity:Similarity_4",
+      "relation:COMPOSED_OF:Similarity_4:Composition_10",
+      "relation:COMPOSED_OF:Similarity_4:Composition_11",
+      "relation:COMPOSED_OF:Similarity_4:Composition_14",
+      "relation:COMPOSED_OF:Similarity_4:Composition_15",
+      "relation:COMPOSED_OF:Similarity_4:Composition_16",
+      "relation:COMPOSED_OF:Similarity_4:Composition_18",
+      "relation:COMPOSED_OF:Similarity_4:Composition_3",
+      "relation:COMPOSED_OF:Similarity_4:Composition_4",
+      "relation:DERIVED_FROM:insight_Similarity_3:Similarity_4"
+    ],
+    "entityIds": [
+      "Similarity_4",
+      "Composition_10",
+      "Composition_11",
+      "Composition_14",
+      "Composition_15",
+      "Composition_16",
+      "Composition_18",
+      "Composition_3",
+      "Composition_4",
+      "insight_Similarity_3"
+    ],
+    "evidenceIds": [
+      "ev_g79_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G80": {
+    "id": "G80",
+    "claimIds": [
+      "entity:Similarity_5",
+      "relation:COMPOSED_OF:Similarity_5:Composition_22",
+      "relation:COMPOSED_OF:Similarity_5:Composition_6",
+      "relation:COMPOSED_OF:Similarity_5:Composition_9"
+    ],
+    "entityIds": [
+      "Similarity_5",
+      "Composition_22",
+      "Composition_6",
+      "Composition_9"
+    ],
+    "evidenceIds": [
+      "ev_g80_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G81": {
+    "id": "G81",
+    "claimIds": [
+      "entity:Similarity_6",
+      "relation:COMPOSED_OF:Similarity_6:Composition_2",
+      "relation:COMPOSED_OF:Similarity_6:Composition_24",
+      "relation:COMPOSED_OF:Similarity_6:Composition_7",
+      "relation:DERIVED_FROM:insight_Similarity_4:Similarity_6"
+    ],
+    "entityIds": [
+      "Similarity_6",
+      "Composition_2",
+      "Composition_24",
+      "Composition_7",
+      "insight_Similarity_4"
+    ],
+    "evidenceIds": [
+      "ev_g81_1",
+      "ev_g81_2",
+      "ev_g81_3"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G82": {
+    "id": "G82",
+    "claimIds": [
+      "entity:Similarity_7",
+      "relation:COMPOSED_OF:Similarity_7:Composition",
+      "relation:COMPOSED_OF:Similarity_7:Composition_12",
+      "relation:COMPOSED_OF:Similarity_7:Composition_19",
+      "relation:COMPOSED_OF:Similarity_7:Composition_20",
+      "relation:DERIVED_FROM:insight_Similarity_5:Similarity_7"
+    ],
+    "entityIds": [
+      "Similarity_7",
+      "Composition",
+      "Composition_12",
+      "Composition_19",
+      "Composition_20",
+      "insight_Similarity_5"
+    ],
+    "evidenceIds": [
+      "ev_g82_1",
+      "ev_g82_2",
+      "ev_g82_3",
+      "ev_g82_4"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G83": {
+    "id": "G83",
+    "claimIds": [
+      "entity:Composition",
+      "relation:COMPOSED_OF:Contrast:Composition",
+      "relation:COMPOSED_OF:Correspondence:Composition",
+      "relation:COMPOSED_OF:Similarity_7:Composition",
+      "relation:SUPPORTED_BY:Composition:bas_High_income_Asia_and_Pacific_pie_sector_group"
+    ],
+    "entityIds": [
+      "Composition",
+      "Contrast",
+      "Correspondence",
+      "Similarity_7",
+      "bas_High_income_Asia_and_Pacific_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g83_1"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G84": {
+    "id": "G84",
+    "claimIds": [
+      "entity:Composition_10",
+      "relation:COMPOSED_OF:Correspondence_4:Composition_10",
+      "relation:COMPOSED_OF:Similarity_2:Composition_10",
+      "relation:COMPOSED_OF:Similarity_4:Composition_10",
+      "relation:SUPPORTED_BY:Composition_10:bas_Sub-Saharan_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_10",
+      "Correspondence_4",
+      "Similarity_2",
+      "Similarity_4",
+      "bas_Sub-Saharan_Africa_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g84_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G85": {
+    "id": "G85",
+    "claimIds": [
+      "entity:Composition_11",
+      "relation:COMPOSED_OF:Correspondence_5:Composition_11",
+      "relation:COMPOSED_OF:Similarity_2:Composition_11",
+      "relation:COMPOSED_OF:Similarity_4:Composition_11",
+      "relation:SUPPORTED_BY:Composition_11:bas_Europe_and_Central_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_11",
+      "Correspondence_5",
+      "Similarity_2",
+      "Similarity_4",
+      "bas_Europe_and_Central_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g85_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G86": {
+    "id": "G86",
+    "claimIds": [
+      "entity:Composition_12",
+      "relation:COMPOSED_OF:Contrast:Composition_12",
+      "relation:COMPOSED_OF:Correspondence_5:Composition_12",
+      "relation:COMPOSED_OF:Similarity_7:Composition_12",
+      "relation:SUPPORTED_BY:Composition_12:bas_Europe_and_Central_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "Composition_12",
+      "Contrast",
+      "Correspondence_5",
+      "Similarity_7",
+      "bas_Europe_and_Central_Asia_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g86_1"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G87": {
+    "id": "G87",
+    "claimIds": [
+      "entity:Composition_13",
+      "relation:SUPPORTED_BY:Composition_13:bas_North_America_multigroup_2src"
+    ],
+    "entityIds": [
+      "Composition_13",
+      "bas_North_America_multigroup_2src"
+    ],
+    "evidenceIds": [
+      "ev_g87_1",
+      "ev_g87_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas North America multigroup 2src"
+    ]
+  },
+  "G88": {
+    "id": "G88",
+    "claimIds": [
+      "entity:Composition_14",
+      "relation:COMPOSED_OF:Similarity_4:Composition_14",
+      "relation:SUPPORTED_BY:Composition_14:bas_South_America_and_Caribbean_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_14",
+      "Similarity_4",
+      "bas_South_America_and_Caribbean_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g88_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G89": {
+    "id": "G89",
+    "claimIds": [
+      "entity:Composition_15",
+      "relation:COMPOSED_OF:Correspondence:Composition_15",
+      "relation:COMPOSED_OF:Similarity_4:Composition_15",
+      "relation:SUPPORTED_BY:Composition_15:bas_High_income_Asia_and_Pacific_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_15",
+      "Correspondence",
+      "Similarity_4",
+      "bas_High_income_Asia_and_Pacific_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g89_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G90": {
+    "id": "G90",
+    "claimIds": [
+      "entity:Composition_16",
+      "relation:COMPOSED_OF:Correspondence_3:Composition_16",
+      "relation:COMPOSED_OF:Similarity_4:Composition_16",
+      "relation:SUPPORTED_BY:Composition_16:bas_North_America_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_16",
+      "Correspondence_3",
+      "Similarity_4",
+      "bas_North_America_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g90_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G91": {
+    "id": "G91",
+    "claimIds": [
+      "entity:Composition_17",
+      "relation:SUPPORTED_BY:Composition_17:bas_Europe_and_Central_Asia_multigroup_2src"
+    ],
+    "entityIds": [
+      "Composition_17",
+      "bas_Europe_and_Central_Asia_multigroup_2src"
+    ],
+    "evidenceIds": [
+      "ev_g91_1",
+      "ev_g91_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Europe and Central Asia multigroup 2src"
+    ]
+  },
+  "G92": {
+    "id": "G92",
+    "claimIds": [
+      "entity:Composition_18",
+      "relation:COMPOSED_OF:Correspondence_6:Composition_18",
+      "relation:COMPOSED_OF:Similarity_4:Composition_18",
+      "relation:SUPPORTED_BY:Composition_18:bas_Developing_East_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_18",
+      "Correspondence_6",
+      "Similarity_4",
+      "bas_Developing_East_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g92_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G93": {
+    "id": "G93",
+    "claimIds": [
+      "entity:Composition_19",
+      "relation:COMPOSED_OF:Contrast:Composition_19",
+      "relation:COMPOSED_OF:Correspondence_7:Composition_19",
+      "relation:COMPOSED_OF:Similarity_7:Composition_19",
+      "relation:SUPPORTED_BY:Composition_19:bas_Middle_East_and_North_Africa_pie_sector_group"
+    ],
+    "entityIds": [
+      "Composition_19",
+      "Contrast",
+      "Correspondence_7",
+      "Similarity_7",
+      "bas_Middle_East_and_North_Africa_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g93_1"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G94": {
+    "id": "G94",
+    "claimIds": [
+      "entity:Composition_2",
+      "relation:COMPOSED_OF:Correspondence_4:Composition_2",
+      "relation:COMPOSED_OF:Similarity_6:Composition_2",
+      "relation:SUPPORTED_BY:Composition_2:bas_Sub-Saharan_Africa_pie_sector_group"
+    ],
+    "entityIds": [
+      "Composition_2",
+      "Correspondence_4",
+      "Similarity_6",
+      "bas_Sub-Saharan_Africa_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g94_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G95": {
+    "id": "G95",
+    "claimIds": [
+      "entity:Composition_20",
+      "relation:COMPOSED_OF:Contrast:Composition_20",
+      "relation:COMPOSED_OF:Correspondence_3:Composition_20",
+      "relation:COMPOSED_OF:Similarity_7:Composition_20",
+      "relation:SUPPORTED_BY:Composition_20:bas_North_America_pie_sector_group"
+    ],
+    "entityIds": [
+      "Composition_20",
+      "Contrast",
+      "Correspondence_3",
+      "Similarity_7",
+      "bas_North_America_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g95_1"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G96": {
+    "id": "G96",
+    "claimIds": [
+      "entity:Composition_21",
+      "relation:SUPPORTED_BY:Composition_21:bas_High_income_Asia_and_Pacific_multigroup_2src"
+    ],
+    "entityIds": [
+      "Composition_21",
+      "bas_High_income_Asia_and_Pacific_multigroup_2src"
+    ],
+    "evidenceIds": [
+      "ev_g96_1",
+      "ev_g96_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas High income Asia and Pacific multigroup 2src"
+    ]
+  },
+  "G97": {
+    "id": "G97",
+    "claimIds": [
+      "entity:Composition_22",
+      "relation:COMPOSED_OF:Similarity_5:Composition_22",
+      "relation:SUPPORTED_BY:Composition_22:bas_South_Asia_multigroup_2src"
+    ],
+    "entityIds": [
+      "Composition_22",
+      "Similarity_5",
+      "bas_South_Asia_multigroup_2src"
+    ],
+    "evidenceIds": [
+      "ev_g97_1",
+      "ev_g97_2"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G98": {
+    "id": "G98",
+    "claimIds": [
+      "entity:Composition_23",
+      "relation:SUPPORTED_BY:Composition_23:bas_Middle_East_and_North_Africa_multigroup_2src"
+    ],
+    "entityIds": [
+      "Composition_23",
+      "bas_Middle_East_and_North_Africa_multigroup_2src"
+    ],
+    "evidenceIds": [
+      "ev_g98_1",
+      "ev_g98_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Middle East and North Africa multigroup 2src"
+    ]
+  },
+  "G99": {
+    "id": "G99",
+    "claimIds": [
+      "entity:Composition_24",
+      "relation:COMPOSED_OF:Correspondence_2:Composition_24",
+      "relation:COMPOSED_OF:Similarity_6:Composition_24",
+      "relation:SUPPORTED_BY:Composition_24:bas_South_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "Composition_24",
+      "Correspondence_2",
+      "Similarity_6",
+      "bas_South_Asia_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g99_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G100": {
+    "id": "G100",
+    "claimIds": [
+      "entity:Composition_3",
+      "relation:COMPOSED_OF:Correspondence_7:Composition_3",
+      "relation:COMPOSED_OF:Similarity:Composition_3",
+      "relation:COMPOSED_OF:Similarity_2:Composition_3",
+      "relation:COMPOSED_OF:Similarity_4:Composition_3",
+      "relation:SUPPORTED_BY:Composition_3:bas_Middle_East_and_North_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_3",
+      "Correspondence_7",
+      "Similarity",
+      "Similarity_2",
+      "Similarity_4",
+      "bas_Middle_East_and_North_Africa_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g100_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G101": {
+    "id": "G101",
+    "claimIds": [
+      "entity:Composition_4",
+      "relation:COMPOSED_OF:Correspondence_2:Composition_4",
+      "relation:COMPOSED_OF:Similarity:Composition_4",
+      "relation:COMPOSED_OF:Similarity_2:Composition_4",
+      "relation:COMPOSED_OF:Similarity_4:Composition_4",
+      "relation:SUPPORTED_BY:Composition_4:bas_South_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Composition_4",
+      "Correspondence_2",
+      "Similarity",
+      "Similarity_2",
+      "Similarity_4",
+      "bas_South_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g101_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G102": {
+    "id": "G102",
+    "claimIds": [
+      "entity:Composition_5",
+      "relation:SUPPORTED_BY:Composition_5:bas_all_pie_sector_group",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_5"
+    ],
+    "entityIds": [
+      "Composition_5",
+      "bas_all_pie_sector_group",
+      "insight_Composition_1"
+    ],
+    "evidenceIds": [
+      "ev_g102_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas all pie sector group"
+    ]
+  },
+  "G103": {
+    "id": "G103",
+    "claimIds": [
+      "entity:Composition_6",
+      "relation:COMPOSED_OF:Similarity_5:Composition_6",
+      "relation:SUPPORTED_BY:Composition_6:bas_Sub-Saharan_Africa_multigroup_2src"
+    ],
+    "entityIds": [
+      "Composition_6",
+      "Similarity_5",
+      "bas_Sub-Saharan_Africa_multigroup_2src"
+    ],
+    "evidenceIds": [
+      "ev_g103_1",
+      "ev_g103_2"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G104": {
+    "id": "G104",
+    "claimIds": [
+      "entity:Composition_7",
+      "relation:COMPOSED_OF:Correspondence_6:Composition_7",
+      "relation:COMPOSED_OF:Similarity_6:Composition_7",
+      "relation:SUPPORTED_BY:Composition_7:bas_Developing_East_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "Composition_7",
+      "Correspondence_6",
+      "Similarity_6",
+      "bas_Developing_East_Asia_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g104_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G105": {
+    "id": "G105",
+    "claimIds": [
+      "entity:Composition_8",
+      "relation:SUPPORTED_BY:Composition_8:bas_all_donut_sector_group_donut",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_8"
+    ],
+    "entityIds": [
+      "Composition_8",
+      "bas_all_donut_sector_group_donut",
+      "insight_Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g105_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas all donut sector group donut"
+    ]
+  },
+  "G106": {
+    "id": "G106",
+    "claimIds": [
+      "entity:Composition_9",
+      "relation:COMPOSED_OF:Similarity_5:Composition_9",
+      "relation:SUPPORTED_BY:Composition_9:bas_Developing_East_Asia_multigroup_2src"
+    ],
+    "entityIds": [
+      "Composition_9",
+      "Similarity_5",
+      "bas_Developing_East_Asia_multigroup_2src"
+    ],
+    "evidenceIds": [
+      "ev_g106_1",
+      "ev_g106_2"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G107": {
+    "id": "G107",
+    "claimIds": [
+      "entity:Extreme",
+      "relation:COMPOSED_OF:Comparison_15:Extreme",
+      "relation:COMPOSED_OF:Correspondence:Extreme",
+      "relation:SUPPORTED_BY:Extreme:bas_High_income_Asia_and_Pacific_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme",
+      "Comparison_15",
+      "Correspondence",
+      "bas_High_income_Asia_and_Pacific_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g107_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G108": {
+    "id": "G108",
+    "claimIds": [
+      "entity:Extreme_10",
+      "relation:SUPPORTED_BY:Extreme_10:bas_all_donut_sector_group_donut",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_10",
+      "relation:INFERRED_FROM:Extreme_10:Comparison_10",
+      "relation:INFERRED_FROM:Extreme_10:Comparison_3",
+      "relation:INFERRED_FROM:Extreme_10:Comparison_8"
+    ],
+    "entityIds": [
+      "Extreme_10",
+      "bas_all_donut_sector_group_donut",
+      "insight_Extreme_4",
+      "Comparison_10",
+      "Comparison_3",
+      "Comparison_8"
+    ],
+    "evidenceIds": [
+      "ev_g108_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas all donut sector group donut"
+    ]
+  },
+  "G109": {
+    "id": "G109",
+    "claimIds": [
+      "entity:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_11",
+      "relation:COMPOSED_OF:Correspondence_4:Extreme_11",
+      "relation:SUPPORTED_BY:Extreme_11:bas_Sub-Saharan_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_11",
+      "Comparison_4",
+      "Comparison_7",
+      "Comparison_9",
+      "Correspondence_4",
+      "bas_Sub-Saharan_Africa_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g109_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G110": {
+    "id": "G110",
+    "claimIds": [
+      "entity:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_12",
+      "relation:COMPOSED_OF:Correspondence_4:Extreme_12",
+      "relation:SUPPORTED_BY:Extreme_12:bas_Sub-Saharan_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_12",
+      "Comparison_10",
+      "Comparison_3",
+      "Comparison_8",
+      "Correspondence_4",
+      "bas_Sub-Saharan_Africa_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g110_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G111": {
+    "id": "G111",
+    "claimIds": [
+      "entity:Extreme_13",
+      "relation:COMPOSED_OF:Comparison_15:Extreme_13",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_13",
+      "relation:SUPPORTED_BY:Extreme_13:bas_Europe_and_Central_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme_13",
+      "Comparison_15",
+      "Correspondence_5",
+      "bas_Europe_and_Central_Asia_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g111_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G112": {
+    "id": "G112",
+    "claimIds": [
+      "entity:Extreme_14",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_14",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_14",
+      "relation:SUPPORTED_BY:Extreme_14:bas_Europe_and_Central_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme_14",
+      "Comparison_16",
+      "Correspondence_5",
+      "bas_Europe_and_Central_Asia_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g112_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G113": {
+    "id": "G113",
+    "claimIds": [
+      "entity:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_15",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_15",
+      "relation:SUPPORTED_BY:Extreme_15:bas_Europe_and_Central_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_15",
+      "Comparison_4",
+      "Comparison_7",
+      "Comparison_9",
+      "Correspondence_5",
+      "bas_Europe_and_Central_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g113_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G114": {
+    "id": "G114",
+    "claimIds": [
+      "entity:Extreme_16",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_16",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_16",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_16",
+      "relation:COMPOSED_OF:Correspondence_5:Extreme_16",
+      "relation:SUPPORTED_BY:Extreme_16:bas_Europe_and_Central_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_16",
+      "Comparison_10",
+      "Comparison_3",
+      "Comparison_8",
+      "Correspondence_5",
+      "bas_Europe_and_Central_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g114_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G115": {
+    "id": "G115",
+    "claimIds": [
+      "entity:Extreme_17",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_17",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_17",
+      "relation:SUPPORTED_BY:Extreme_17:bas_South_America_and_Caribbean_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_17",
+      "Comparison_7",
+      "Comparison_9",
+      "bas_South_America_and_Caribbean_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g115_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G116": {
+    "id": "G116",
+    "claimIds": [
+      "entity:Extreme_18",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_18",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_18",
+      "relation:SUPPORTED_BY:Extreme_18:bas_South_America_and_Caribbean_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_18",
+      "Comparison_10",
+      "Comparison_8",
+      "bas_South_America_and_Caribbean_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g116_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G117": {
+    "id": "G117",
+    "claimIds": [
+      "entity:Extreme_19",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_19",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_19",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_19",
+      "relation:SUPPORTED_BY:Extreme_19:bas_North_America_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_19",
+      "Comparison_7",
+      "Comparison_9",
+      "Correspondence_3",
+      "bas_North_America_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g117_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G118": {
+    "id": "G118",
+    "claimIds": [
+      "entity:Extreme_2",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_2",
+      "relation:COMPOSED_OF:Correspondence:Extreme_2",
+      "relation:SUPPORTED_BY:Extreme_2:bas_High_income_Asia_and_Pacific_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme_2",
+      "Comparison_16",
+      "Correspondence",
+      "bas_High_income_Asia_and_Pacific_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g118_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G119": {
+    "id": "G119",
+    "claimIds": [
+      "entity:Extreme_20",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_20",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_20",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_20",
+      "relation:SUPPORTED_BY:Extreme_20:bas_North_America_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_20",
+      "Comparison_10",
+      "Comparison_8",
+      "Correspondence_3",
+      "bas_North_America_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g119_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G120": {
+    "id": "G120",
+    "claimIds": [
+      "entity:Extreme_21",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_21",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_21",
+      "relation:COMPOSED_OF:Correspondence:Extreme_21",
+      "relation:SUPPORTED_BY:Extreme_21:bas_High_income_Asia_and_Pacific_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_21",
+      "Comparison_7",
+      "Comparison_9",
+      "Correspondence",
+      "bas_High_income_Asia_and_Pacific_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g120_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G121": {
+    "id": "G121",
+    "claimIds": [
+      "entity:Extreme_22",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_22",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_22",
+      "relation:COMPOSED_OF:Correspondence:Extreme_22",
+      "relation:SUPPORTED_BY:Extreme_22:bas_High_income_Asia_and_Pacific_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_22",
+      "Comparison_10",
+      "Comparison_8",
+      "Correspondence",
+      "bas_High_income_Asia_and_Pacific_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g121_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G122": {
+    "id": "G122",
+    "claimIds": [
+      "entity:Extreme_23",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_23",
+      "relation:COMPOSED_OF:Correspondence_6:Extreme_23",
+      "relation:SUPPORTED_BY:Extreme_23:bas_Developing_East_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_23",
+      "Comparison_9",
+      "Correspondence_6",
+      "bas_Developing_East_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g122_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G123": {
+    "id": "G123",
+    "claimIds": [
+      "entity:Extreme_24",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_24",
+      "relation:COMPOSED_OF:Correspondence_6:Extreme_24",
+      "relation:SUPPORTED_BY:Extreme_24:bas_Developing_East_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_24",
+      "Comparison_10",
+      "Correspondence_6",
+      "bas_Developing_East_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g123_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G124": {
+    "id": "G124",
+    "claimIds": [
+      "entity:Extreme_25",
+      "relation:COMPOSED_OF:Comparison_15:Extreme_25",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_25",
+      "relation:SUPPORTED_BY:Extreme_25:bas_Middle_East_and_North_Africa_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme_25",
+      "Comparison_15",
+      "Correspondence_7",
+      "bas_Middle_East_and_North_Africa_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g124_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G125": {
+    "id": "G125",
+    "claimIds": [
+      "entity:Extreme_26",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_26",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_26",
+      "relation:SUPPORTED_BY:Extreme_26:bas_Middle_East_and_North_Africa_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme_26",
+      "Comparison_16",
+      "Correspondence_7",
+      "bas_Middle_East_and_North_Africa_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g125_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G126": {
+    "id": "G126",
+    "claimIds": [
+      "entity:Extreme_27",
+      "relation:COMPOSED_OF:Comparison_15:Extreme_27",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_27",
+      "relation:SUPPORTED_BY:Extreme_27:bas_North_America_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme_27",
+      "Comparison_15",
+      "Correspondence_3",
+      "bas_North_America_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g126_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G127": {
+    "id": "G127",
+    "claimIds": [
+      "entity:Extreme_28",
+      "relation:COMPOSED_OF:Comparison_16:Extreme_28",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme_28",
+      "relation:SUPPORTED_BY:Extreme_28:bas_North_America_pie_sector_group"
+    ],
+    "entityIds": [
+      "Extreme_28",
+      "Comparison_16",
+      "Correspondence_3",
+      "bas_North_America_pie_sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g127_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G128": {
+    "id": "G128",
+    "claimIds": [
+      "entity:Extreme_29",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_29",
+      "relation:SUPPORTED_BY:Extreme_29:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_29"
+    ],
+    "entityIds": [
+      "Extreme_29",
+      "Comparison_13",
+      "bas_Sub-Saharan_Africa_multigroup_2src",
+      "insight_Extreme_5"
+    ],
+    "evidenceIds": [
+      "ev_g128_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G129": {
+    "id": "G129",
+    "claimIds": [
+      "entity:Extreme_3",
+      "relation:COMPOSED_OF:Comparison:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_3",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_3",
+      "relation:SUPPORTED_BY:Extreme_3:bas_Middle_East_and_North_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_3",
+      "Comparison",
+      "Comparison_4",
+      "Comparison_7",
+      "Comparison_9",
+      "Correspondence_7",
+      "bas_Middle_East_and_North_Africa_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g129_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G130": {
+    "id": "G130",
+    "claimIds": [
+      "entity:Extreme_30",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_30",
+      "relation:SUPPORTED_BY:Extreme_30:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_30"
+    ],
+    "entityIds": [
+      "Extreme_30",
+      "Comparison_14",
+      "bas_Sub-Saharan_Africa_multigroup_2src",
+      "insight_Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g130_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G131": {
+    "id": "G131",
+    "claimIds": [
+      "entity:Extreme_31",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_31",
+      "relation:SUPPORTED_BY:Extreme_31:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_31"
+    ],
+    "entityIds": [
+      "Extreme_31",
+      "Comparison_13",
+      "bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "insight_Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g131_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G132": {
+    "id": "G132",
+    "claimIds": [
+      "entity:Extreme_32",
+      "relation:SUPPORTED_BY:Extreme_32:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_32"
+    ],
+    "entityIds": [
+      "Extreme_32",
+      "bas_Middle_East_and_North_Africa_multigroup_2src",
+      "insight_Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g132_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas Middle East and North Africa multigroup 2src"
+    ]
+  },
+  "G133": {
+    "id": "G133",
+    "claimIds": [
+      "entity:Extreme_33",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_33",
+      "relation:SUPPORTED_BY:Extreme_33:bas_South_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_33"
+    ],
+    "entityIds": [
+      "Extreme_33",
+      "Comparison_13",
+      "bas_South_Asia_multigroup_2src",
+      "insight_Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g133_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G134": {
+    "id": "G134",
+    "claimIds": [
+      "entity:Extreme_34",
+      "relation:SUPPORTED_BY:Extreme_34:bas_Europe_and_Central_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_34"
+    ],
+    "entityIds": [
+      "Extreme_34",
+      "bas_Europe_and_Central_Asia_multigroup_2src",
+      "insight_Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g134_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas Europe and Central Asia multigroup 2src"
+    ]
+  },
+  "G135": {
+    "id": "G135",
+    "claimIds": [
+      "entity:Extreme_35",
+      "relation:SUPPORTED_BY:Extreme_35:bas_Europe_and_Central_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_11:Extreme_35"
+    ],
+    "entityIds": [
+      "Extreme_35",
+      "bas_Europe_and_Central_Asia_multigroup_2src",
+      "insight_Extreme_11"
+    ],
+    "evidenceIds": [
+      "ev_g135_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas Europe and Central Asia multigroup 2src"
+    ]
+  },
+  "G136": {
+    "id": "G136",
+    "claimIds": [
+      "entity:Extreme_36",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_36",
+      "relation:SUPPORTED_BY:Extreme_36:bas_South_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_12:Extreme_36"
+    ],
+    "entityIds": [
+      "Extreme_36",
+      "Comparison_14",
+      "bas_South_Asia_multigroup_2src",
+      "insight_Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g136_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G137": {
+    "id": "G137",
+    "claimIds": [
+      "entity:Extreme_37",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_37",
+      "relation:SUPPORTED_BY:Extreme_37:bas_Developing_East_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_13:Extreme_37"
+    ],
+    "entityIds": [
+      "Extreme_37",
+      "Comparison_13",
+      "bas_Developing_East_Asia_multigroup_2src",
+      "insight_Extreme_13"
+    ],
+    "evidenceIds": [
+      "ev_g137_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G138": {
+    "id": "G138",
+    "claimIds": [
+      "entity:Extreme_38",
+      "relation:SUPPORTED_BY:Extreme_38:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_14:Extreme_38"
+    ],
+    "entityIds": [
+      "Extreme_38",
+      "bas_Middle_East_and_North_Africa_multigroup_2src",
+      "insight_Extreme_14"
+    ],
+    "evidenceIds": [
+      "ev_g138_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas Middle East and North Africa multigroup 2src"
+    ]
+  },
+  "G139": {
+    "id": "G139",
+    "claimIds": [
+      "entity:Extreme_39",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_39",
+      "relation:SUPPORTED_BY:Extreme_39:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_15:Extreme_39"
+    ],
+    "entityIds": [
+      "Extreme_39",
+      "Comparison_14",
+      "bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "insight_Extreme_15"
+    ],
+    "evidenceIds": [
+      "ev_g139_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G140": {
+    "id": "G140",
+    "claimIds": [
+      "entity:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_4",
+      "relation:COMPOSED_OF:Correspondence_7:Extreme_4",
+      "relation:SUPPORTED_BY:Extreme_4:bas_Middle_East_and_North_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_4",
+      "Comparison_10",
+      "Comparison_2",
+      "Comparison_3",
+      "Comparison_8",
+      "Correspondence_7",
+      "bas_Middle_East_and_North_Africa_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g140_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G141": {
+    "id": "G141",
+    "claimIds": [
+      "entity:Extreme_40",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_40",
+      "relation:SUPPORTED_BY:Extreme_40:bas_Developing_East_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_16:Extreme_40"
+    ],
+    "entityIds": [
+      "Extreme_40",
+      "Comparison_14",
+      "bas_Developing_East_Asia_multigroup_2src",
+      "insight_Extreme_16"
+    ],
+    "evidenceIds": [
+      "ev_g141_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G142": {
+    "id": "G142",
+    "claimIds": [
+      "entity:Extreme_41",
+      "relation:SUPPORTED_BY:Extreme_41:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_17:Extreme_41"
+    ],
+    "entityIds": [
+      "Extreme_41",
+      "bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "insight_Extreme_17"
+    ],
+    "evidenceIds": [
+      "ev_g142_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas High income Asia and Pacific multigroup 2src"
+    ]
+  },
+  "G143": {
+    "id": "G143",
+    "claimIds": [
+      "entity:Extreme_42",
+      "relation:SUPPORTED_BY:Extreme_42:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_18:Extreme_42"
+    ],
+    "entityIds": [
+      "Extreme_42",
+      "bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "insight_Extreme_18"
+    ],
+    "evidenceIds": [
+      "ev_g143_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas High income Asia and Pacific multigroup 2src"
+    ]
+  },
+  "G144": {
+    "id": "G144",
+    "claimIds": [
+      "entity:Extreme_43",
+      "relation:SUPPORTED_BY:Extreme_43:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_19:Extreme_43"
+    ],
+    "entityIds": [
+      "Extreme_43",
+      "bas_Sub-Saharan_Africa_multigroup_2src",
+      "insight_Extreme_19"
+    ],
+    "evidenceIds": [
+      "ev_g144_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas Sub-Saharan Africa multigroup 2src"
+    ]
+  },
+  "G145": {
+    "id": "G145",
+    "claimIds": [
+      "entity:Extreme_44",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_44",
+      "relation:SUPPORTED_BY:Extreme_44:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_20:Extreme_44"
+    ],
+    "entityIds": [
+      "Extreme_44",
+      "Comparison_13",
+      "bas_Middle_East_and_North_Africa_multigroup_2src",
+      "insight_Extreme_20"
+    ],
+    "evidenceIds": [
+      "ev_g145_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G146": {
+    "id": "G146",
+    "claimIds": [
+      "entity:Extreme_45",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_45",
+      "relation:SUPPORTED_BY:Extreme_45:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_21:Extreme_45"
+    ],
+    "entityIds": [
+      "Extreme_45",
+      "Comparison_14",
+      "bas_Middle_East_and_North_Africa_multigroup_2src",
+      "insight_Extreme_21"
+    ],
+    "evidenceIds": [
+      "ev_g146_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G147": {
+    "id": "G147",
+    "claimIds": [
+      "entity:Extreme_46",
+      "relation:SUPPORTED_BY:Extreme_46:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_22:Extreme_46"
+    ],
+    "entityIds": [
+      "Extreme_46",
+      "bas_Sub-Saharan_Africa_multigroup_2src",
+      "insight_Extreme_22"
+    ],
+    "evidenceIds": [
+      "ev_g147_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas Sub-Saharan Africa multigroup 2src"
+    ]
+  },
+  "G148": {
+    "id": "G148",
+    "claimIds": [
+      "entity:Extreme_47",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_47",
+      "relation:SUPPORTED_BY:Extreme_47:bas_North_America_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_23:Extreme_47"
+    ],
+    "entityIds": [
+      "Extreme_47",
+      "Comparison_13",
+      "bas_North_America_multigroup_2src",
+      "insight_Extreme_23"
+    ],
+    "evidenceIds": [
+      "ev_g148_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G149": {
+    "id": "G149",
+    "claimIds": [
+      "entity:Extreme_48",
+      "relation:COMPOSED_OF:Comparison_14:Extreme_48",
+      "relation:SUPPORTED_BY:Extreme_48:bas_North_America_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_24:Extreme_48"
+    ],
+    "entityIds": [
+      "Extreme_48",
+      "Comparison_14",
+      "bas_North_America_multigroup_2src",
+      "insight_Extreme_24"
+    ],
+    "evidenceIds": [
+      "ev_g149_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G150": {
+    "id": "G150",
+    "claimIds": [
+      "entity:Extreme_49",
+      "relation:COMPOSED_OF:Comparison_13:Extreme_49",
+      "relation:SUPPORTED_BY:Extreme_49:bas_Europe_and_Central_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_25:Extreme_49"
+    ],
+    "entityIds": [
+      "Extreme_49",
+      "Comparison_13",
+      "bas_Europe_and_Central_Asia_multigroup_2src",
+      "insight_Extreme_25"
+    ],
+    "evidenceIds": [
+      "ev_g150_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G151": {
+    "id": "G151",
+    "claimIds": [
+      "entity:Extreme_5",
+      "relation:COMPOSED_OF:Comparison:Extreme_5",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_5",
+      "relation:COMPOSED_OF:Comparison_7:Extreme_5",
+      "relation:COMPOSED_OF:Comparison_9:Extreme_5",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_5",
+      "relation:SUPPORTED_BY:Extreme_5:bas_South_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_5",
+      "Comparison",
+      "Comparison_4",
+      "Comparison_7",
+      "Comparison_9",
+      "Correspondence_2",
+      "bas_South_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g151_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G152": {
+    "id": "G152",
+    "claimIds": [
+      "entity:Extreme_50",
+      "relation:SUPPORTED_BY:Extreme_50:bas_North_America_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_26:Extreme_50"
+    ],
+    "entityIds": [
+      "Extreme_50",
+      "bas_North_America_multigroup_2src",
+      "insight_Extreme_26"
+    ],
+    "evidenceIds": [
+      "ev_g152_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas North America multigroup 2src"
+    ]
+  },
+  "G153": {
+    "id": "G153",
+    "claimIds": [
+      "entity:Extreme_51",
+      "relation:SUPPORTED_BY:Extreme_51:bas_North_America_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_27:Extreme_51"
+    ],
+    "entityIds": [
+      "Extreme_51",
+      "bas_North_America_multigroup_2src",
+      "insight_Extreme_27"
+    ],
+    "evidenceIds": [
+      "ev_g153_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas North America multigroup 2src"
+    ]
+  },
+  "G154": {
+    "id": "G154",
+    "claimIds": [
+      "entity:Extreme_52",
+      "relation:SUPPORTED_BY:Extreme_52:bas_Developing_East_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_28:Extreme_52"
+    ],
+    "entityIds": [
+      "Extreme_52",
+      "bas_Developing_East_Asia_multigroup_2src",
+      "insight_Extreme_28"
+    ],
+    "evidenceIds": [
+      "ev_g154_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas Developing East Asia multigroup 2src"
+    ]
+  },
+  "G155": {
+    "id": "G155",
+    "claimIds": [
+      "entity:Extreme_53",
+      "relation:SUPPORTED_BY:Extreme_53:bas_South_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_29:Extreme_53"
+    ],
+    "entityIds": [
+      "Extreme_53",
+      "bas_South_Asia_multigroup_2src",
+      "insight_Extreme_29"
+    ],
+    "evidenceIds": [
+      "ev_g155_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas South Asia multigroup 2src"
+    ]
+  },
+  "G156": {
+    "id": "G156",
+    "claimIds": [
+      "entity:Extreme_54",
+      "relation:SUPPORTED_BY:Extreme_54:bas_South_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_30:Extreme_54"
+    ],
+    "entityIds": [
+      "Extreme_54",
+      "bas_South_Asia_multigroup_2src",
+      "insight_Extreme_30"
+    ],
+    "evidenceIds": [
+      "ev_g156_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas South Asia multigroup 2src"
+    ]
+  },
+  "G157": {
+    "id": "G157",
+    "claimIds": [
+      "entity:Extreme_55",
+      "relation:SUPPORTED_BY:Extreme_55:bas_Developing_East_Asia_multigroup_2src",
+      "relation:DERIVED_FROM:insight_Extreme_31:Extreme_55"
+    ],
+    "entityIds": [
+      "Extreme_55",
+      "bas_Developing_East_Asia_multigroup_2src",
+      "insight_Extreme_31"
+    ],
+    "evidenceIds": [
+      "ev_g157_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas Developing East Asia multigroup 2src"
+    ]
+  },
+  "G158": {
+    "id": "G158",
+    "claimIds": [
+      "entity:Extreme_6",
+      "relation:COMPOSED_OF:Comparison_10:Extreme_6",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_6",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_6",
+      "relation:COMPOSED_OF:Comparison_8:Extreme_6",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_6",
+      "relation:SUPPORTED_BY:Extreme_6:bas_South_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "Extreme_6",
+      "Comparison_10",
+      "Comparison_2",
+      "Comparison_3",
+      "Comparison_8",
+      "Correspondence_2",
+      "bas_South_Asia_donut_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g158_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G159": {
+    "id": "G159",
+    "claimIds": [
+      "entity:Extreme_7",
+      "relation:SUPPORTED_BY:Extreme_7:bas_all_pie_sector_group",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme_7"
+    ],
+    "entityIds": [
+      "Extreme_7",
+      "bas_all_pie_sector_group",
+      "insight_Extreme_1"
+    ],
+    "evidenceIds": [
+      "ev_g159_1",
+      "ev_g159_2"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas all pie sector group"
+    ]
+  },
+  "G160": {
+    "id": "G160",
+    "claimIds": [
+      "entity:Extreme_8",
+      "relation:SUPPORTED_BY:Extreme_8:bas_all_pie_sector_group",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_8",
+      "relation:INFERRED_FROM:Extreme_8:Comparison_15"
+    ],
+    "entityIds": [
+      "Extreme_8",
+      "bas_all_pie_sector_group",
+      "insight_Extreme_2",
+      "Comparison_15"
+    ],
+    "evidenceIds": [
+      "ev_g160_1",
+      "ev_g160_2",
+      "ev_g160_3",
+      "ev_g160_4"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas all pie sector group"
+    ]
+  },
+  "G161": {
+    "id": "G161",
+    "claimIds": [
+      "entity:Extreme_9",
+      "relation:SUPPORTED_BY:Extreme_9:bas_all_donut_sector_group_donut",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_9",
+      "relation:INFERRED_FROM:Extreme_9:Comparison_7",
+      "relation:INFERRED_FROM:Extreme_9:Comparison_9"
+    ],
+    "entityIds": [
+      "Extreme_9",
+      "bas_all_donut_sector_group_donut",
+      "insight_Extreme_3",
+      "Comparison_7",
+      "Comparison_9"
+    ],
+    "evidenceIds": [
+      "ev_g161_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas all donut sector group donut"
+    ]
+  },
+  "G162": {
+    "id": "G162",
+    "claimIds": [
+      "entity:Destination",
+      "relation:ENCODES:color:Destination",
+      "relation:ENCODES:color_sector_group_donut:Destination",
+      "relation:VALUE_OF:Developing_East_Asia:Destination",
+      "relation:VALUE_OF:Europe_and_Central_Asia:Destination",
+      "relation:VALUE_OF:High_income_Asia_and_Pacific:Destination",
+      "relation:VALUE_OF:Middle_East_and_North_Africa:Destination",
+      "relation:VALUE_OF:North_America:Destination",
+      "relation:VALUE_OF:South_America_and_Caribbean:Destination",
+      "relation:VALUE_OF:South_Asia:Destination",
+      "relation:VALUE_OF:Sub-Saharan_Africa:Destination"
+    ],
+    "entityIds": [
+      "Destination",
+      "color",
+      "color_sector_group_donut",
+      "Developing_East_Asia",
+      "Europe_and_Central_Asia",
+      "High_income_Asia_and_Pacific",
+      "Middle_East_and_North_Africa",
+      "North_America",
+      "South_America_and_Caribbean",
+      "South_Asia",
+      "Sub-Saharan_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g162_1"
+    ],
+    "graphPath": [
+      "color",
+      "ENCODES",
+      "Destination"
+    ]
+  },
+  "G163": {
+    "id": "G163",
+    "claimIds": [
+      "entity:Export_share_percentage",
+      "relation:ENCODES:angularSpan_sector_group_donut:Export_share_percentage",
+      "relation:ENCODES:text_label_sector_group_donut:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_1:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_2:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_3:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_4:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_5:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_6:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_7:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_8:Export_share_percentage"
+    ],
+    "entityIds": [
+      "Export_share_percentage",
+      "angularSpan_sector_group_donut",
+      "text_label_sector_group_donut",
+      "sector_group_donut_sector_1",
+      "sector_group_donut_sector_2",
+      "sector_group_donut_sector_3",
+      "sector_group_donut_sector_4",
+      "sector_group_donut_sector_5",
+      "sector_group_donut_sector_6",
+      "sector_group_donut_sector_7",
+      "sector_group_donut_sector_8"
+    ],
+    "evidenceIds": [
+      "ev_g163_1"
+    ],
+    "graphPath": [
+      "angularSpan sector group donut",
+      "ENCODES",
+      "Export share percentage"
+    ]
+  },
+  "G164": {
+    "id": "G164",
+    "claimIds": [
+      "entity:export_share_of_value",
+      "relation:ENCODES:angularSpan:export_share_of_value",
+      "relation:ENCODES:text_label:export_share_of_value",
+      "relation:VALUE_OF:sector_group_sector_1:export_share_of_value",
+      "relation:VALUE_OF:sector_group_sector_3:export_share_of_value",
+      "relation:VALUE_OF:sector_group_sector_6:export_share_of_value",
+      "relation:VALUE_OF:sector_group_sector_7:export_share_of_value",
+      "relation:VALUE_OF:sector_group_sector_8:export_share_of_value"
+    ],
+    "entityIds": [
+      "export_share_of_value",
+      "angularSpan",
+      "text_label",
+      "sector_group_sector_1",
+      "sector_group_sector_3",
+      "sector_group_sector_6",
+      "sector_group_sector_7",
+      "sector_group_sector_8"
+    ],
+    "evidenceIds": [
+      "ev_g164_1"
+    ],
+    "graphPath": [
+      "angularSpan",
+      "ENCODES",
+      "export share of value"
+    ]
+  },
+  "G165": {
+    "id": "G165",
+    "claimIds": [
+      "entity:Developing_East_Asia",
+      "relation:ENCODES:rgb_0_114_188:Developing_East_Asia",
+      "relation:VALUE_OF:Developing_East_Asia:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_1:Developing_East_Asia",
+      "relation:VALUE_OF:sector_group_sector_2:Developing_East_Asia"
+    ],
+    "entityIds": [
+      "Developing_East_Asia",
+      "rgb_0_114_188",
+      "Destination",
+      "sector_group_donut_sector_1",
+      "sector_group_sector_2"
+    ],
+    "evidenceIds": [
+      "ev_g165_1",
+      "ev_g165_2"
+    ],
+    "graphPath": [
+      "rgb 0 114 188",
+      "ENCODES",
+      "Developing East Asia"
+    ]
+  },
+  "G166": {
+    "id": "G166",
+    "claimIds": [
+      "entity:Europe_and_Central_Asia",
+      "relation:ENCODES:rgb_2_185_242:Europe_and_Central_Asia",
+      "relation:VALUE_OF:Europe_and_Central_Asia:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_7:Europe_and_Central_Asia",
+      "relation:VALUE_OF:sector_group_sector_8:Europe_and_Central_Asia"
+    ],
+    "entityIds": [
+      "Europe_and_Central_Asia",
+      "rgb_2_185_242",
+      "Destination",
+      "sector_group_donut_sector_7",
+      "sector_group_sector_8"
+    ],
+    "evidenceIds": [
+      "ev_g166_1",
+      "ev_g166_2"
+    ],
+    "graphPath": [
+      "rgb 2 185 242",
+      "ENCODES",
+      "Europe and Central Asia"
+    ]
+  },
+  "G167": {
+    "id": "G167",
+    "claimIds": [
+      "entity:High_income_Asia_and_Pacific",
+      "relation:ENCODES:rgb_242_90_34:High_income_Asia_and_Pacific",
+      "relation:VALUE_OF:High_income_Asia_and_Pacific:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_8:High_income_Asia_and_Pacific",
+      "relation:VALUE_OF:sector_group_sector_7:High_income_Asia_and_Pacific"
+    ],
+    "entityIds": [
+      "High_income_Asia_and_Pacific",
+      "rgb_242_90_34",
+      "Destination",
+      "sector_group_donut_sector_8",
+      "sector_group_sector_7"
+    ],
+    "evidenceIds": [
+      "ev_g167_1",
+      "ev_g167_2"
+    ],
+    "graphPath": [
+      "rgb 242 90 34",
+      "ENCODES",
+      "High income Asia and Pacific"
+    ]
+  },
+  "G168": {
+    "id": "G168",
+    "claimIds": [
+      "entity:Middle_East_and_North_Africa",
+      "relation:ENCODES:rgb_158_72_14:Middle_East_and_North_Africa",
+      "relation:VALUE_OF:Middle_East_and_North_Africa:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_6:Middle_East_and_North_Africa",
+      "relation:VALUE_OF:sector_group_sector_6:Middle_East_and_North_Africa"
+    ],
+    "entityIds": [
+      "Middle_East_and_North_Africa",
+      "rgb_158_72_14",
+      "Destination",
+      "sector_group_donut_sector_6",
+      "sector_group_sector_6"
+    ],
+    "evidenceIds": [
+      "ev_g168_1",
+      "ev_g168_2"
+    ],
+    "graphPath": [
+      "rgb 158 72 14",
+      "ENCODES",
+      "Middle East and North Africa"
+    ]
+  },
+  "G169": {
+    "id": "G169",
+    "claimIds": [
+      "entity:North_America",
+      "relation:ENCODES:rgb_5_168_117:North_America",
+      "relation:VALUE_OF:North_America:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_3:North_America",
+      "relation:VALUE_OF:sector_group_sector_1:North_America"
+    ],
+    "entityIds": [
+      "North_America",
+      "rgb_5_168_117",
+      "Destination",
+      "sector_group_donut_sector_3",
+      "sector_group_sector_1"
+    ],
+    "evidenceIds": [
+      "ev_g169_1",
+      "ev_g169_2"
+    ],
+    "graphPath": [
+      "rgb 5 168 117",
+      "ENCODES",
+      "North America"
+    ]
+  },
+  "G170": {
+    "id": "G170",
+    "claimIds": [
+      "entity:South_America_and_Caribbean",
+      "relation:ENCODES:rgb_254_190_17:South_America_and_Caribbean",
+      "relation:VALUE_OF:South_America_and_Caribbean:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_2:South_America_and_Caribbean"
+    ],
+    "entityIds": [
+      "South_America_and_Caribbean",
+      "rgb_254_190_17",
+      "Destination",
+      "sector_group_donut_sector_2"
+    ],
+    "evidenceIds": [
+      "ev_g170_1"
+    ],
+    "graphPath": [
+      "rgb 254 190 17",
+      "ENCODES",
+      "South America and Caribbean"
+    ]
+  },
+  "G171": {
+    "id": "G171",
+    "claimIds": [
+      "entity:South_Asia",
+      "relation:ENCODES:rgb_113_173_71:South_Asia",
+      "relation:VALUE_OF:South_Asia:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_4:South_Asia",
+      "relation:VALUE_OF:sector_group_sector_4:South_Asia"
+    ],
+    "entityIds": [
+      "South_Asia",
+      "rgb_113_173_71",
+      "Destination",
+      "sector_group_donut_sector_4",
+      "sector_group_sector_4"
+    ],
+    "evidenceIds": [
+      "ev_g171_1",
+      "ev_g171_2"
+    ],
+    "graphPath": [
+      "rgb 113 173 71",
+      "ENCODES",
+      "South Asia"
+    ]
+  },
+  "G172": {
+    "id": "G172",
+    "claimIds": [
+      "entity:Sub-Saharan_Africa",
+      "relation:ENCODES:rgb_21_53_85:Sub-Saharan_Africa",
+      "relation:VALUE_OF:Sub-Saharan_Africa:Destination",
+      "relation:VALUE_OF:sector_group_donut_sector_5:Sub-Saharan_Africa",
+      "relation:VALUE_OF:sector_group_sector_5:Sub-Saharan_Africa"
+    ],
+    "entityIds": [
+      "Sub-Saharan_Africa",
+      "rgb_21_53_85",
+      "Destination",
+      "sector_group_donut_sector_5",
+      "sector_group_sector_5"
+    ],
+    "evidenceIds": [
+      "ev_g172_1",
+      "ev_g172_2"
+    ],
+    "graphPath": [
+      "rgb 21 53 85",
+      "ENCODES",
+      "Sub-Saharan Africa"
+    ]
+  },
+  "G173": {
+    "id": "G173",
+    "claimIds": [
+      "entity:donut",
+      "relation:COMPOSED_WITH:donut:pie",
+      "relation:HAS_VIEW:chart:donut",
+      "relation:COMPOSED_OF:donut:sector_group_donut"
+    ],
+    "entityIds": [
+      "donut",
+      "pie",
+      "chart",
+      "sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g173_1"
+    ],
+    "graphPath": [
+      "donut",
+      "COMPOSED_WITH",
+      "pie"
+    ]
+  },
+  "G174": {
+    "id": "G174",
+    "claimIds": [
+      "entity:pie",
+      "relation:COMPOSED_WITH:donut:pie",
+      "relation:HAS_VIEW:chart:pie",
+      "relation:COMPOSED_OF:pie:sector_group"
+    ],
+    "entityIds": [
+      "pie",
+      "donut",
+      "chart",
+      "sector_group"
+    ],
+    "evidenceIds": [
+      "ev_g174_1"
+    ],
+    "graphPath": [
+      "donut",
+      "COMPOSED_WITH",
+      "pie"
+    ]
+  },
+  "G175": {
+    "id": "G175",
+    "claimIds": [
+      "entity:bas_Developing_East_Asia_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_donut_sector_group_donut:sector_group_donut_sector_1",
+      "relation:SUPPORTED_BY:Composition_18:bas_Developing_East_Asia_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_23:bas_Developing_East_Asia_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_24:bas_Developing_East_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_Developing_East_Asia_donut_sector_group_donut",
+      "sector_group_donut_sector_1",
+      "Composition_18",
+      "Extreme_23",
+      "Extreme_24"
+    ],
+    "evidenceIds": [
+      "ev_g175_1"
+    ],
+    "graphPath": [
+      "bas Developing East Asia donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 1"
+    ]
+  },
+  "G176": {
+    "id": "G176",
+    "claimIds": [
+      "entity:bas_Developing_East_Asia_multigroup_2src",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_multigroup_2src:sector_group_donut_sector_1",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_multigroup_2src:sector_group_sector_2",
+      "relation:SUPPORTED_BY:Composition_9:bas_Developing_East_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_37:bas_Developing_East_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_40:bas_Developing_East_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_52:bas_Developing_East_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_55:bas_Developing_East_Asia_multigroup_2src"
+    ],
+    "entityIds": [
+      "bas_Developing_East_Asia_multigroup_2src",
+      "sector_group_donut_sector_1",
+      "sector_group_sector_2",
+      "Composition_9",
+      "Extreme_37",
+      "Extreme_40",
+      "Extreme_52",
+      "Extreme_55"
+    ],
+    "evidenceIds": [
+      "ev_g176_1",
+      "ev_g176_2"
+    ],
+    "graphPath": [
+      "bas Developing East Asia multigroup 2src",
+      "COMPOSED_OF",
+      "sector group donut sector 1"
+    ]
+  },
+  "G177": {
+    "id": "G177",
+    "claimIds": [
+      "entity:bas_Developing_East_Asia_pie_sector_group",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_pie_sector_group:sector_group_sector_2",
+      "relation:SUPPORTED_BY:Composition_7:bas_Developing_East_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_Developing_East_Asia_pie_sector_group",
+      "sector_group_sector_2",
+      "Composition_7"
+    ],
+    "evidenceIds": [
+      "ev_g177_1"
+    ],
+    "graphPath": [
+      "bas Developing East Asia pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 2"
+    ]
+  },
+  "G178": {
+    "id": "G178",
+    "claimIds": [
+      "entity:bas_Europe_and_Central_Asia_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_donut_sector_group_donut:sector_group_donut_sector_7",
+      "relation:SUPPORTED_BY:Composition_11:bas_Europe_and_Central_Asia_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_15:bas_Europe_and_Central_Asia_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_16:bas_Europe_and_Central_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_Europe_and_Central_Asia_donut_sector_group_donut",
+      "sector_group_donut_sector_7",
+      "Composition_11",
+      "Extreme_15",
+      "Extreme_16"
+    ],
+    "evidenceIds": [
+      "ev_g178_1"
+    ],
+    "graphPath": [
+      "bas Europe and Central Asia donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 7"
+    ]
+  },
+  "G179": {
+    "id": "G179",
+    "claimIds": [
+      "entity:bas_Europe_and_Central_Asia_multigroup_2src",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_multigroup_2src:sector_group_donut_sector_7",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_multigroup_2src:sector_group_sector_8",
+      "relation:SUPPORTED_BY:Composition_17:bas_Europe_and_Central_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_34:bas_Europe_and_Central_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_35:bas_Europe_and_Central_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_49:bas_Europe_and_Central_Asia_multigroup_2src"
+    ],
+    "entityIds": [
+      "bas_Europe_and_Central_Asia_multigroup_2src",
+      "sector_group_donut_sector_7",
+      "sector_group_sector_8",
+      "Composition_17",
+      "Extreme_34",
+      "Extreme_35",
+      "Extreme_49"
+    ],
+    "evidenceIds": [
+      "ev_g179_1",
+      "ev_g179_2"
+    ],
+    "graphPath": [
+      "bas Europe and Central Asia multigroup 2src",
+      "COMPOSED_OF",
+      "sector group donut sector 7"
+    ]
+  },
+  "G180": {
+    "id": "G180",
+    "claimIds": [
+      "entity:bas_Europe_and_Central_Asia_pie_sector_group",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_pie_sector_group:sector_group_sector_8",
+      "relation:SUPPORTED_BY:Composition_12:bas_Europe_and_Central_Asia_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_13:bas_Europe_and_Central_Asia_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_14:bas_Europe_and_Central_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_Europe_and_Central_Asia_pie_sector_group",
+      "sector_group_sector_8",
+      "Composition_12",
+      "Extreme_13",
+      "Extreme_14"
+    ],
+    "evidenceIds": [
+      "ev_g180_1"
+    ],
+    "graphPath": [
+      "bas Europe and Central Asia pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 8"
+    ]
+  },
+  "G181": {
+    "id": "G181",
+    "claimIds": [
+      "entity:bas_High_income_Asia_and_Pacific_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_donut_sector_group_donut:sector_group_donut_sector_8",
+      "relation:SUPPORTED_BY:Composition_15:bas_High_income_Asia_and_Pacific_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_21:bas_High_income_Asia_and_Pacific_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_22:bas_High_income_Asia_and_Pacific_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_High_income_Asia_and_Pacific_donut_sector_group_donut",
+      "sector_group_donut_sector_8",
+      "Composition_15",
+      "Extreme_21",
+      "Extreme_22"
+    ],
+    "evidenceIds": [
+      "ev_g181_1"
+    ],
+    "graphPath": [
+      "bas High income Asia and Pacific donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 8"
+    ]
+  },
+  "G182": {
+    "id": "G182",
+    "claimIds": [
+      "entity:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_multigroup_2src:sector_group_donut_sector_8",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_multigroup_2src:sector_group_sector_7",
+      "relation:SUPPORTED_BY:Composition_21:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_31:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_39:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_41:bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_42:bas_High_income_Asia_and_Pacific_multigroup_2src"
+    ],
+    "entityIds": [
+      "bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "sector_group_donut_sector_8",
+      "sector_group_sector_7",
+      "Composition_21",
+      "Extreme_31",
+      "Extreme_39",
+      "Extreme_41",
+      "Extreme_42"
+    ],
+    "evidenceIds": [
+      "ev_g182_1",
+      "ev_g182_2"
+    ],
+    "graphPath": [
+      "bas High income Asia and Pacific multigroup 2src",
+      "COMPOSED_OF",
+      "sector group donut sector 8"
+    ]
+  },
+  "G183": {
+    "id": "G183",
+    "claimIds": [
+      "entity:bas_High_income_Asia_and_Pacific_pie_sector_group",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_pie_sector_group:sector_group_sector_7",
+      "relation:SUPPORTED_BY:Composition:bas_High_income_Asia_and_Pacific_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme:bas_High_income_Asia_and_Pacific_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_2:bas_High_income_Asia_and_Pacific_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_High_income_Asia_and_Pacific_pie_sector_group",
+      "sector_group_sector_7",
+      "Composition",
+      "Extreme",
+      "Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g183_1"
+    ],
+    "graphPath": [
+      "bas High income Asia and Pacific pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 7"
+    ]
+  },
+  "G184": {
+    "id": "G184",
+    "claimIds": [
+      "entity:bas_Middle_East_and_North_Africa_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_donut_sector_group_donut:sector_group_donut_sector_6",
+      "relation:SUPPORTED_BY:Composition_3:bas_Middle_East_and_North_Africa_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_3:bas_Middle_East_and_North_Africa_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_4:bas_Middle_East_and_North_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_Middle_East_and_North_Africa_donut_sector_group_donut",
+      "sector_group_donut_sector_6",
+      "Composition_3",
+      "Extreme_3",
+      "Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g184_1"
+    ],
+    "graphPath": [
+      "bas Middle East and North Africa donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 6"
+    ]
+  },
+  "G185": {
+    "id": "G185",
+    "claimIds": [
+      "entity:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_multigroup_2src:sector_group_donut_sector_6",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_multigroup_2src:sector_group_sector_6",
+      "relation:SUPPORTED_BY:Composition_23:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_32:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_38:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_44:bas_Middle_East_and_North_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_45:bas_Middle_East_and_North_Africa_multigroup_2src"
+    ],
+    "entityIds": [
+      "bas_Middle_East_and_North_Africa_multigroup_2src",
+      "sector_group_donut_sector_6",
+      "sector_group_sector_6",
+      "Composition_23",
+      "Extreme_32",
+      "Extreme_38",
+      "Extreme_44",
+      "Extreme_45"
+    ],
+    "evidenceIds": [
+      "ev_g185_1",
+      "ev_g185_2"
+    ],
+    "graphPath": [
+      "bas Middle East and North Africa multigroup 2src",
+      "COMPOSED_OF",
+      "sector group donut sector 6"
+    ]
+  },
+  "G186": {
+    "id": "G186",
+    "claimIds": [
+      "entity:bas_Middle_East_and_North_Africa_pie_sector_group",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_pie_sector_group:sector_group_sector_6",
+      "relation:SUPPORTED_BY:Composition_19:bas_Middle_East_and_North_Africa_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_25:bas_Middle_East_and_North_Africa_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_26:bas_Middle_East_and_North_Africa_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_Middle_East_and_North_Africa_pie_sector_group",
+      "sector_group_sector_6",
+      "Composition_19",
+      "Extreme_25",
+      "Extreme_26"
+    ],
+    "evidenceIds": [
+      "ev_g186_1"
+    ],
+    "graphPath": [
+      "bas Middle East and North Africa pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 6"
+    ]
+  },
+  "G187": {
+    "id": "G187",
+    "claimIds": [
+      "entity:bas_North_America_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_North_America_donut_sector_group_donut:sector_group_donut_sector_3",
+      "relation:SUPPORTED_BY:Composition_16:bas_North_America_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_19:bas_North_America_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_20:bas_North_America_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_North_America_donut_sector_group_donut",
+      "sector_group_donut_sector_3",
+      "Composition_16",
+      "Extreme_19",
+      "Extreme_20"
+    ],
+    "evidenceIds": [
+      "ev_g187_1"
+    ],
+    "graphPath": [
+      "bas North America donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 3"
+    ]
+  },
+  "G188": {
+    "id": "G188",
+    "claimIds": [
+      "entity:bas_North_America_multigroup_2src",
+      "relation:COMPOSED_OF:bas_North_America_multigroup_2src:sector_group_donut_sector_3",
+      "relation:COMPOSED_OF:bas_North_America_multigroup_2src:sector_group_sector_1",
+      "relation:SUPPORTED_BY:Composition_13:bas_North_America_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_47:bas_North_America_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_48:bas_North_America_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_50:bas_North_America_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_51:bas_North_America_multigroup_2src"
+    ],
+    "entityIds": [
+      "bas_North_America_multigroup_2src",
+      "sector_group_donut_sector_3",
+      "sector_group_sector_1",
+      "Composition_13",
+      "Extreme_47",
+      "Extreme_48",
+      "Extreme_50",
+      "Extreme_51"
+    ],
+    "evidenceIds": [
+      "ev_g188_1",
+      "ev_g188_2"
+    ],
+    "graphPath": [
+      "bas North America multigroup 2src",
+      "COMPOSED_OF",
+      "sector group donut sector 3"
+    ]
+  },
+  "G189": {
+    "id": "G189",
+    "claimIds": [
+      "entity:bas_North_America_pie_sector_group",
+      "relation:COMPOSED_OF:bas_North_America_pie_sector_group:sector_group_sector_1",
+      "relation:SUPPORTED_BY:Composition_20:bas_North_America_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_27:bas_North_America_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_28:bas_North_America_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_North_America_pie_sector_group",
+      "sector_group_sector_1",
+      "Composition_20",
+      "Extreme_27",
+      "Extreme_28"
+    ],
+    "evidenceIds": [
+      "ev_g189_1"
+    ],
+    "graphPath": [
+      "bas North America pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 1"
+    ]
+  },
+  "G190": {
+    "id": "G190",
+    "claimIds": [
+      "entity:bas_South_America_and_Caribbean_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_South_America_and_Caribbean_donut_sector_group_donut:sector_group_donut_sector_2",
+      "relation:SUPPORTED_BY:Composition_14:bas_South_America_and_Caribbean_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_17:bas_South_America_and_Caribbean_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_18:bas_South_America_and_Caribbean_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_South_America_and_Caribbean_donut_sector_group_donut",
+      "sector_group_donut_sector_2",
+      "Composition_14",
+      "Extreme_17",
+      "Extreme_18"
+    ],
+    "evidenceIds": [
+      "ev_g190_1"
+    ],
+    "graphPath": [
+      "bas South America and Caribbean donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 2"
+    ]
+  },
+  "G191": {
+    "id": "G191",
+    "claimIds": [
+      "entity:bas_South_Asia_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_South_Asia_donut_sector_group_donut:sector_group_donut_sector_4",
+      "relation:SUPPORTED_BY:Composition_4:bas_South_Asia_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_5:bas_South_Asia_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_6:bas_South_Asia_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_South_Asia_donut_sector_group_donut",
+      "sector_group_donut_sector_4",
+      "Composition_4",
+      "Extreme_5",
+      "Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g191_1"
+    ],
+    "graphPath": [
+      "bas South Asia donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 4"
+    ]
+  },
+  "G192": {
+    "id": "G192",
+    "claimIds": [
+      "entity:bas_South_Asia_multigroup_2src",
+      "relation:COMPOSED_OF:bas_South_Asia_multigroup_2src:sector_group_donut_sector_4",
+      "relation:COMPOSED_OF:bas_South_Asia_multigroup_2src:sector_group_sector_4",
+      "relation:SUPPORTED_BY:Composition_22:bas_South_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_33:bas_South_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_36:bas_South_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_53:bas_South_Asia_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_54:bas_South_Asia_multigroup_2src"
+    ],
+    "entityIds": [
+      "bas_South_Asia_multigroup_2src",
+      "sector_group_donut_sector_4",
+      "sector_group_sector_4",
+      "Composition_22",
+      "Extreme_33",
+      "Extreme_36",
+      "Extreme_53",
+      "Extreme_54"
+    ],
+    "evidenceIds": [
+      "ev_g192_1",
+      "ev_g192_2"
+    ],
+    "graphPath": [
+      "bas South Asia multigroup 2src",
+      "COMPOSED_OF",
+      "sector group donut sector 4"
+    ]
+  },
+  "G193": {
+    "id": "G193",
+    "claimIds": [
+      "entity:bas_South_Asia_pie_sector_group",
+      "relation:COMPOSED_OF:bas_South_Asia_pie_sector_group:sector_group_sector_4",
+      "relation:SUPPORTED_BY:Composition_24:bas_South_Asia_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_South_Asia_pie_sector_group",
+      "sector_group_sector_4",
+      "Composition_24"
+    ],
+    "evidenceIds": [
+      "ev_g193_1"
+    ],
+    "graphPath": [
+      "bas South Asia pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 4"
+    ]
+  },
+  "G194": {
+    "id": "G194",
+    "claimIds": [
+      "entity:bas_Sub-Saharan_Africa_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_donut_sector_group_donut:sector_group_donut_sector_5",
+      "relation:SUPPORTED_BY:Composition_10:bas_Sub-Saharan_Africa_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_11:bas_Sub-Saharan_Africa_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_12:bas_Sub-Saharan_Africa_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_Sub-Saharan_Africa_donut_sector_group_donut",
+      "sector_group_donut_sector_5",
+      "Composition_10",
+      "Extreme_11",
+      "Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g194_1"
+    ],
+    "graphPath": [
+      "bas Sub-Saharan Africa donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 5"
+    ]
+  },
+  "G195": {
+    "id": "G195",
+    "claimIds": [
+      "entity:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_multigroup_2src:sector_group_donut_sector_5",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_multigroup_2src:sector_group_sector_5",
+      "relation:SUPPORTED_BY:Composition_6:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_29:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_30:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_43:bas_Sub-Saharan_Africa_multigroup_2src",
+      "relation:SUPPORTED_BY:Extreme_46:bas_Sub-Saharan_Africa_multigroup_2src"
+    ],
+    "entityIds": [
+      "bas_Sub-Saharan_Africa_multigroup_2src",
+      "sector_group_donut_sector_5",
+      "sector_group_sector_5",
+      "Composition_6",
+      "Extreme_29",
+      "Extreme_30",
+      "Extreme_43",
+      "Extreme_46"
+    ],
+    "evidenceIds": [
+      "ev_g195_1",
+      "ev_g195_2"
+    ],
+    "graphPath": [
+      "bas Sub-Saharan Africa multigroup 2src",
+      "COMPOSED_OF",
+      "sector group donut sector 5"
+    ]
+  },
+  "G196": {
+    "id": "G196",
+    "claimIds": [
+      "entity:bas_Sub-Saharan_Africa_pie_sector_group",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_pie_sector_group:sector_group_sector_5",
+      "relation:SUPPORTED_BY:Composition_2:bas_Sub-Saharan_Africa_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_Sub-Saharan_Africa_pie_sector_group",
+      "sector_group_sector_5",
+      "Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g196_1"
+    ],
+    "graphPath": [
+      "bas Sub-Saharan Africa pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 5"
+    ]
+  },
+  "G197": {
+    "id": "G197",
+    "claimIds": [
+      "entity:bas_all_donut_sector_group_donut",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_1",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_2",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_3",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_4",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_5",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_6",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_7",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_8",
+      "relation:SUPPORTED_BY:Composition_8:bas_all_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_10:bas_all_donut_sector_group_donut",
+      "relation:SUPPORTED_BY:Extreme_9:bas_all_donut_sector_group_donut"
+    ],
+    "entityIds": [
+      "bas_all_donut_sector_group_donut",
+      "sector_group_donut_sector_1",
+      "sector_group_donut_sector_2",
+      "sector_group_donut_sector_3",
+      "sector_group_donut_sector_4",
+      "sector_group_donut_sector_5",
+      "sector_group_donut_sector_6",
+      "sector_group_donut_sector_7",
+      "sector_group_donut_sector_8",
+      "Composition_8",
+      "Extreme_10",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g197_1"
+    ],
+    "graphPath": [
+      "bas all donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 1"
+    ]
+  },
+  "G198": {
+    "id": "G198",
+    "claimIds": [
+      "entity:bas_all_pie_sector_group",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_1",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_2",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_3",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_4",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_5",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_6",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_7",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_8",
+      "relation:SUPPORTED_BY:Composition_5:bas_all_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_7:bas_all_pie_sector_group",
+      "relation:SUPPORTED_BY:Extreme_8:bas_all_pie_sector_group"
+    ],
+    "entityIds": [
+      "bas_all_pie_sector_group",
+      "sector_group_sector_1",
+      "sector_group_sector_2",
+      "sector_group_sector_3",
+      "sector_group_sector_4",
+      "sector_group_sector_5",
+      "sector_group_sector_6",
+      "sector_group_sector_7",
+      "sector_group_sector_8",
+      "Composition_5",
+      "Extreme_7",
+      "Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g198_1"
+    ],
+    "graphPath": [
+      "bas all pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 1"
+    ]
+  },
+  "G199": {
+    "id": "G199",
+    "claimIds": [
+      "entity:sector_group",
+      "relation:COMPOSED_OF:pie:sector_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group:angularSpan",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group:color",
+      "relation:HAS_ANNOTATION:sector_group:text_label"
+    ],
+    "entityIds": [
+      "sector_group",
+      "pie",
+      "angularSpan",
+      "color",
+      "text_label"
+    ],
+    "evidenceIds": [
+      "ev_g199_1"
+    ],
+    "graphPath": [
+      "pie",
+      "COMPOSED_OF",
+      "sector group"
+    ]
+  },
+  "G200": {
+    "id": "G200",
+    "claimIds": [
+      "entity:sector_group_donut",
+      "relation:COMPOSED_OF:donut:sector_group_donut",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group_donut:angularSpan_sector_group_donut",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group_donut:color_sector_group_donut",
+      "relation:HAS_ANNOTATION:sector_group_donut:text_label_sector_group_donut"
+    ],
+    "entityIds": [
+      "sector_group_donut",
+      "donut",
+      "angularSpan_sector_group_donut",
+      "color_sector_group_donut",
+      "text_label_sector_group_donut"
+    ],
+    "evidenceIds": [
+      "ev_g200_1"
+    ],
+    "graphPath": [
+      "donut",
+      "COMPOSED_OF",
+      "sector group donut"
+    ]
+  },
+  "G201": {
+    "id": "G201",
+    "claimIds": [
+      "entity:angularSpan",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group:angularSpan",
+      "relation:ENCODES:angularSpan:export_share_of_value"
+    ],
+    "entityIds": [
+      "angularSpan",
+      "sector_group",
+      "export_share_of_value"
+    ],
+    "evidenceIds": [
+      "ev_g201_1"
+    ],
+    "graphPath": [
+      "sector group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "angularSpan"
+    ]
+  },
+  "G202": {
+    "id": "G202",
+    "claimIds": [
+      "entity:angularSpan_sector_group_donut",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group_donut:angularSpan_sector_group_donut",
+      "relation:ENCODES:angularSpan_sector_group_donut:Export_share_percentage"
+    ],
+    "entityIds": [
+      "angularSpan_sector_group_donut",
+      "sector_group_donut",
+      "Export_share_percentage"
+    ],
+    "evidenceIds": [
+      "ev_g202_1"
+    ],
+    "graphPath": [
+      "sector group donut",
+      "HAS_VISUAL_ATTRIBUTE",
+      "angularSpan sector group donut"
+    ]
+  },
+  "G203": {
+    "id": "G203",
+    "claimIds": [
+      "entity:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_0_114_188",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_113_173_71",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_158_72_14",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_21_53_85",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_242_90_34",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_254_190_17",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_2_185_242",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_5_168_117",
+      "relation:ENCODES:color:Destination"
+    ],
+    "entityIds": [
+      "color",
+      "sector_group",
+      "rgb_0_114_188",
+      "rgb_113_173_71",
+      "rgb_158_72_14",
+      "rgb_21_53_85",
+      "rgb_242_90_34",
+      "rgb_254_190_17",
+      "rgb_2_185_242",
+      "rgb_5_168_117",
+      "Destination"
+    ],
+    "evidenceIds": [
+      "ev_g203_1"
+    ],
+    "graphPath": [
+      "sector group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "color"
+    ]
+  },
+  "G204": {
+    "id": "G204",
+    "claimIds": [
+      "entity:color_sector_group_donut",
+      "relation:HAS_VISUAL_ATTRIBUTE:sector_group_donut:color_sector_group_donut",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_0_114_188",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_113_173_71",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_158_72_14",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_21_53_85",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_242_90_34",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_254_190_17",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_2_185_242",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_5_168_117",
+      "relation:ENCODES:color_sector_group_donut:Destination"
+    ],
+    "entityIds": [
+      "color_sector_group_donut",
+      "sector_group_donut",
+      "rgb_0_114_188",
+      "rgb_113_173_71",
+      "rgb_158_72_14",
+      "rgb_21_53_85",
+      "rgb_242_90_34",
+      "rgb_254_190_17",
+      "rgb_2_185_242",
+      "rgb_5_168_117",
+      "Destination"
+    ],
+    "evidenceIds": [
+      "ev_g204_1"
+    ],
+    "graphPath": [
+      "sector group donut",
+      "HAS_VISUAL_ATTRIBUTE",
+      "color sector group donut"
+    ]
+  },
+  "G205": {
+    "id": "G205",
+    "claimIds": [
+      "entity:text_label",
+      "relation:HAS_ANNOTATION:sector_group:text_label",
+      "relation:ENCODES:text_label:export_share_of_value"
+    ],
+    "entityIds": [
+      "text_label",
+      "sector_group",
+      "export_share_of_value"
+    ],
+    "evidenceIds": [
+      "ev_g205_1"
+    ],
+    "graphPath": [
+      "sector group",
+      "HAS_ANNOTATION",
+      "text label"
+    ]
+  },
+  "G206": {
+    "id": "G206",
+    "claimIds": [
+      "entity:text_label_sector_group_donut",
+      "relation:HAS_ANNOTATION:sector_group_donut:text_label_sector_group_donut",
+      "relation:ENCODES:text_label_sector_group_donut:Export_share_percentage"
+    ],
+    "entityIds": [
+      "text_label_sector_group_donut",
+      "sector_group_donut",
+      "Export_share_percentage"
+    ],
+    "evidenceIds": [
+      "ev_g206_1"
+    ],
+    "graphPath": [
+      "sector group donut",
+      "HAS_ANNOTATION",
+      "text label sector group donut"
+    ]
+  },
+  "G207": {
+    "id": "G207",
+    "claimIds": [
+      "entity:rgb_0_114_188",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_0_114_188",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_0_114_188",
+      "relation:ENCODES:rgb_0_114_188:Developing_East_Asia"
+    ],
+    "entityIds": [
+      "rgb_0_114_188",
+      "color",
+      "color_sector_group_donut",
+      "Developing_East_Asia"
+    ],
+    "evidenceIds": [
+      "ev_g207_1",
+      "ev_g207_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 0 114 188"
+    ]
+  },
+  "G208": {
+    "id": "G208",
+    "claimIds": [
+      "entity:rgb_113_173_71",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_113_173_71",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_113_173_71",
+      "relation:ENCODES:rgb_113_173_71:South_Asia"
+    ],
+    "entityIds": [
+      "rgb_113_173_71",
+      "color",
+      "color_sector_group_donut",
+      "South_Asia"
+    ],
+    "evidenceIds": [
+      "ev_g208_1",
+      "ev_g208_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 113 173 71"
+    ]
+  },
+  "G209": {
+    "id": "G209",
+    "claimIds": [
+      "entity:rgb_158_72_14",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_158_72_14",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_158_72_14",
+      "relation:ENCODES:rgb_158_72_14:Middle_East_and_North_Africa"
+    ],
+    "entityIds": [
+      "rgb_158_72_14",
+      "color",
+      "color_sector_group_donut",
+      "Middle_East_and_North_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g209_1",
+      "ev_g209_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 158 72 14"
+    ]
+  },
+  "G210": {
+    "id": "G210",
+    "claimIds": [
+      "entity:rgb_21_53_85",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_21_53_85",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_21_53_85",
+      "relation:ENCODES:rgb_21_53_85:Sub-Saharan_Africa"
+    ],
+    "entityIds": [
+      "rgb_21_53_85",
+      "color",
+      "color_sector_group_donut",
+      "Sub-Saharan_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g210_1",
+      "ev_g210_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 21 53 85"
+    ]
+  },
+  "G211": {
+    "id": "G211",
+    "claimIds": [
+      "entity:rgb_242_90_34",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_242_90_34",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_242_90_34",
+      "relation:ENCODES:rgb_242_90_34:High_income_Asia_and_Pacific"
+    ],
+    "entityIds": [
+      "rgb_242_90_34",
+      "color",
+      "color_sector_group_donut",
+      "High_income_Asia_and_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g211_1",
+      "ev_g211_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 242 90 34"
+    ]
+  },
+  "G212": {
+    "id": "G212",
+    "claimIds": [
+      "entity:rgb_254_190_17",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_254_190_17",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_254_190_17",
+      "relation:ENCODES:rgb_254_190_17:South_America_and_Caribbean"
+    ],
+    "entityIds": [
+      "rgb_254_190_17",
+      "color",
+      "color_sector_group_donut",
+      "South_America_and_Caribbean"
+    ],
+    "evidenceIds": [
+      "ev_g212_1",
+      "ev_g212_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 254 190 17"
+    ]
+  },
+  "G213": {
+    "id": "G213",
+    "claimIds": [
+      "entity:rgb_2_185_242",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_2_185_242",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_2_185_242",
+      "relation:ENCODES:rgb_2_185_242:Europe_and_Central_Asia"
+    ],
+    "entityIds": [
+      "rgb_2_185_242",
+      "color",
+      "color_sector_group_donut",
+      "Europe_and_Central_Asia"
+    ],
+    "evidenceIds": [
+      "ev_g213_1",
+      "ev_g213_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 2 185 242"
+    ]
+  },
+  "G214": {
+    "id": "G214",
+    "claimIds": [
+      "entity:rgb_5_168_117",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_5_168_117",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_5_168_117",
+      "relation:ENCODES:rgb_5_168_117:North_America"
+    ],
+    "entityIds": [
+      "rgb_5_168_117",
+      "color",
+      "color_sector_group_donut",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g214_1",
+      "ev_g214_2"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 5 168 117"
+    ]
+  },
+  "G215": {
+    "id": "G215",
+    "claimIds": [
+      "entity:chart",
+      "relation:HAS_VIEW:chart:donut",
+      "relation:HAS_VIEW:chart:pie"
+    ],
+    "entityIds": [
+      "chart",
+      "donut",
+      "pie"
+    ],
+    "evidenceIds": [
+      "ev_g215_1"
+    ],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "donut"
+    ]
+  },
+  "G216": {
+    "id": "G216",
+    "claimIds": [
+      "entity:sector_group_donut_sector_1",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_donut_sector_group_donut:sector_group_donut_sector_1",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_multigroup_2src:sector_group_donut_sector_1",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_1",
+      "relation:VALUE_OF:sector_group_donut_sector_1:Developing_East_Asia",
+      "relation:VALUE_OF:sector_group_donut_sector_1:Export_share_percentage"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_1",
+      "bas_Developing_East_Asia_donut_sector_group_donut",
+      "bas_Developing_East_Asia_multigroup_2src",
+      "bas_all_donut_sector_group_donut",
+      "Developing_East_Asia",
+      "Export_share_percentage"
+    ],
+    "evidenceIds": [
+      "ev_g216_1"
+    ],
+    "graphPath": [
+      "bas Developing East Asia donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 1"
+    ]
+  },
+  "G217": {
+    "id": "G217",
+    "claimIds": [
+      "entity:sector_group_donut_sector_2",
+      "relation:COMPOSED_OF:bas_South_America_and_Caribbean_donut_sector_group_donut:sector_group_donut_sector_2",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_2",
+      "relation:VALUE_OF:sector_group_donut_sector_2:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_2:South_America_and_Caribbean"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_2",
+      "bas_South_America_and_Caribbean_donut_sector_group_donut",
+      "bas_all_donut_sector_group_donut",
+      "Export_share_percentage",
+      "South_America_and_Caribbean"
+    ],
+    "evidenceIds": [
+      "ev_g217_1"
+    ],
+    "graphPath": [
+      "bas South America and Caribbean donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 2"
+    ]
+  },
+  "G218": {
+    "id": "G218",
+    "claimIds": [
+      "entity:sector_group_donut_sector_3",
+      "relation:COMPOSED_OF:bas_North_America_donut_sector_group_donut:sector_group_donut_sector_3",
+      "relation:COMPOSED_OF:bas_North_America_multigroup_2src:sector_group_donut_sector_3",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_3",
+      "relation:VALUE_OF:sector_group_donut_sector_3:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_3:North_America"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_3",
+      "bas_North_America_donut_sector_group_donut",
+      "bas_North_America_multigroup_2src",
+      "bas_all_donut_sector_group_donut",
+      "Export_share_percentage",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g218_1"
+    ],
+    "graphPath": [
+      "bas North America donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 3"
+    ]
+  },
+  "G219": {
+    "id": "G219",
+    "claimIds": [
+      "entity:sector_group_donut_sector_4",
+      "relation:COMPOSED_OF:bas_South_Asia_donut_sector_group_donut:sector_group_donut_sector_4",
+      "relation:COMPOSED_OF:bas_South_Asia_multigroup_2src:sector_group_donut_sector_4",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_4",
+      "relation:VALUE_OF:sector_group_donut_sector_4:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_4:South_Asia"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_4",
+      "bas_South_Asia_donut_sector_group_donut",
+      "bas_South_Asia_multigroup_2src",
+      "bas_all_donut_sector_group_donut",
+      "Export_share_percentage",
+      "South_Asia"
+    ],
+    "evidenceIds": [
+      "ev_g219_1"
+    ],
+    "graphPath": [
+      "bas South Asia donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 4"
+    ]
+  },
+  "G220": {
+    "id": "G220",
+    "claimIds": [
+      "entity:sector_group_donut_sector_5",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_donut_sector_group_donut:sector_group_donut_sector_5",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_multigroup_2src:sector_group_donut_sector_5",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_5",
+      "relation:VALUE_OF:sector_group_donut_sector_5:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_5:Sub-Saharan_Africa"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_5",
+      "bas_Sub-Saharan_Africa_donut_sector_group_donut",
+      "bas_Sub-Saharan_Africa_multigroup_2src",
+      "bas_all_donut_sector_group_donut",
+      "Export_share_percentage",
+      "Sub-Saharan_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g220_1"
+    ],
+    "graphPath": [
+      "bas Sub-Saharan Africa donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 5"
+    ]
+  },
+  "G221": {
+    "id": "G221",
+    "claimIds": [
+      "entity:sector_group_donut_sector_6",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_donut_sector_group_donut:sector_group_donut_sector_6",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_multigroup_2src:sector_group_donut_sector_6",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_6",
+      "relation:VALUE_OF:sector_group_donut_sector_6:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_6:Middle_East_and_North_Africa"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_6",
+      "bas_Middle_East_and_North_Africa_donut_sector_group_donut",
+      "bas_Middle_East_and_North_Africa_multigroup_2src",
+      "bas_all_donut_sector_group_donut",
+      "Export_share_percentage",
+      "Middle_East_and_North_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g221_1"
+    ],
+    "graphPath": [
+      "bas Middle East and North Africa donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 6"
+    ]
+  },
+  "G222": {
+    "id": "G222",
+    "claimIds": [
+      "entity:sector_group_donut_sector_7",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_donut_sector_group_donut:sector_group_donut_sector_7",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_multigroup_2src:sector_group_donut_sector_7",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_7",
+      "relation:VALUE_OF:sector_group_donut_sector_7:Europe_and_Central_Asia",
+      "relation:VALUE_OF:sector_group_donut_sector_7:Export_share_percentage"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_7",
+      "bas_Europe_and_Central_Asia_donut_sector_group_donut",
+      "bas_Europe_and_Central_Asia_multigroup_2src",
+      "bas_all_donut_sector_group_donut",
+      "Europe_and_Central_Asia",
+      "Export_share_percentage"
+    ],
+    "evidenceIds": [
+      "ev_g222_1"
+    ],
+    "graphPath": [
+      "bas Europe and Central Asia donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 7"
+    ]
+  },
+  "G223": {
+    "id": "G223",
+    "claimIds": [
+      "entity:sector_group_donut_sector_8",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_donut_sector_group_donut:sector_group_donut_sector_8",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_multigroup_2src:sector_group_donut_sector_8",
+      "relation:COMPOSED_OF:bas_all_donut_sector_group_donut:sector_group_donut_sector_8",
+      "relation:VALUE_OF:sector_group_donut_sector_8:Export_share_percentage",
+      "relation:VALUE_OF:sector_group_donut_sector_8:High_income_Asia_and_Pacific"
+    ],
+    "entityIds": [
+      "sector_group_donut_sector_8",
+      "bas_High_income_Asia_and_Pacific_donut_sector_group_donut",
+      "bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "bas_all_donut_sector_group_donut",
+      "Export_share_percentage",
+      "High_income_Asia_and_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g223_1"
+    ],
+    "graphPath": [
+      "bas High income Asia and Pacific donut sector group donut",
+      "COMPOSED_OF",
+      "sector group donut sector 8"
+    ]
+  },
+  "G224": {
+    "id": "G224",
+    "claimIds": [
+      "entity:sector_group_sector_1",
+      "relation:COMPOSED_OF:bas_North_America_multigroup_2src:sector_group_sector_1",
+      "relation:COMPOSED_OF:bas_North_America_pie_sector_group:sector_group_sector_1",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_1",
+      "relation:VALUE_OF:sector_group_sector_1:North_America",
+      "relation:VALUE_OF:sector_group_sector_1:export_share_of_value"
+    ],
+    "entityIds": [
+      "sector_group_sector_1",
+      "bas_North_America_multigroup_2src",
+      "bas_North_America_pie_sector_group",
+      "bas_all_pie_sector_group",
+      "North_America",
+      "export_share_of_value"
+    ],
+    "evidenceIds": [
+      "ev_g224_1"
+    ],
+    "graphPath": [
+      "bas North America multigroup 2src",
+      "COMPOSED_OF",
+      "sector group sector 1"
+    ]
+  },
+  "G225": {
+    "id": "G225",
+    "claimIds": [
+      "entity:sector_group_sector_2",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_multigroup_2src:sector_group_sector_2",
+      "relation:COMPOSED_OF:bas_Developing_East_Asia_pie_sector_group:sector_group_sector_2",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_2",
+      "relation:VALUE_OF:sector_group_sector_2:Developing_East_Asia"
+    ],
+    "entityIds": [
+      "sector_group_sector_2",
+      "bas_Developing_East_Asia_multigroup_2src",
+      "bas_Developing_East_Asia_pie_sector_group",
+      "bas_all_pie_sector_group",
+      "Developing_East_Asia"
+    ],
+    "evidenceIds": [
+      "ev_g225_1"
+    ],
+    "graphPath": [
+      "bas Developing East Asia multigroup 2src",
+      "COMPOSED_OF",
+      "sector group sector 2"
+    ]
+  },
+  "G226": {
+    "id": "G226",
+    "claimIds": [
+      "entity:sector_group_sector_3",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_3",
+      "relation:VALUE_OF:sector_group_sector_3:export_share_of_value"
+    ],
+    "entityIds": [
+      "sector_group_sector_3",
+      "bas_all_pie_sector_group",
+      "export_share_of_value"
+    ],
+    "evidenceIds": [
+      "ev_g226_1"
+    ],
+    "graphPath": [
+      "bas all pie sector group",
+      "COMPOSED_OF",
+      "sector group sector 3"
+    ]
+  },
+  "G227": {
+    "id": "G227",
+    "claimIds": [
+      "entity:sector_group_sector_4",
+      "relation:COMPOSED_OF:bas_South_Asia_multigroup_2src:sector_group_sector_4",
+      "relation:COMPOSED_OF:bas_South_Asia_pie_sector_group:sector_group_sector_4",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_4",
+      "relation:VALUE_OF:sector_group_sector_4:South_Asia"
+    ],
+    "entityIds": [
+      "sector_group_sector_4",
+      "bas_South_Asia_multigroup_2src",
+      "bas_South_Asia_pie_sector_group",
+      "bas_all_pie_sector_group",
+      "South_Asia"
+    ],
+    "evidenceIds": [
+      "ev_g227_1"
+    ],
+    "graphPath": [
+      "bas South Asia multigroup 2src",
+      "COMPOSED_OF",
+      "sector group sector 4"
+    ]
+  },
+  "G228": {
+    "id": "G228",
+    "claimIds": [
+      "entity:sector_group_sector_5",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_multigroup_2src:sector_group_sector_5",
+      "relation:COMPOSED_OF:bas_Sub-Saharan_Africa_pie_sector_group:sector_group_sector_5",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_5",
+      "relation:VALUE_OF:sector_group_sector_5:Sub-Saharan_Africa"
+    ],
+    "entityIds": [
+      "sector_group_sector_5",
+      "bas_Sub-Saharan_Africa_multigroup_2src",
+      "bas_Sub-Saharan_Africa_pie_sector_group",
+      "bas_all_pie_sector_group",
+      "Sub-Saharan_Africa"
+    ],
+    "evidenceIds": [
+      "ev_g228_1"
+    ],
+    "graphPath": [
+      "bas Sub-Saharan Africa multigroup 2src",
+      "COMPOSED_OF",
+      "sector group sector 5"
+    ]
+  },
+  "G229": {
+    "id": "G229",
+    "claimIds": [
+      "entity:sector_group_sector_6",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_multigroup_2src:sector_group_sector_6",
+      "relation:COMPOSED_OF:bas_Middle_East_and_North_Africa_pie_sector_group:sector_group_sector_6",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_6",
+      "relation:VALUE_OF:sector_group_sector_6:Middle_East_and_North_Africa",
+      "relation:VALUE_OF:sector_group_sector_6:export_share_of_value"
+    ],
+    "entityIds": [
+      "sector_group_sector_6",
+      "bas_Middle_East_and_North_Africa_multigroup_2src",
+      "bas_Middle_East_and_North_Africa_pie_sector_group",
+      "bas_all_pie_sector_group",
+      "Middle_East_and_North_Africa",
+      "export_share_of_value"
+    ],
+    "evidenceIds": [
+      "ev_g229_1"
+    ],
+    "graphPath": [
+      "bas Middle East and North Africa multigroup 2src",
+      "COMPOSED_OF",
+      "sector group sector 6"
+    ]
+  },
+  "G230": {
+    "id": "G230",
+    "claimIds": [
+      "entity:sector_group_sector_7",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_multigroup_2src:sector_group_sector_7",
+      "relation:COMPOSED_OF:bas_High_income_Asia_and_Pacific_pie_sector_group:sector_group_sector_7",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_7",
+      "relation:VALUE_OF:sector_group_sector_7:High_income_Asia_and_Pacific",
+      "relation:VALUE_OF:sector_group_sector_7:export_share_of_value"
+    ],
+    "entityIds": [
+      "sector_group_sector_7",
+      "bas_High_income_Asia_and_Pacific_multigroup_2src",
+      "bas_High_income_Asia_and_Pacific_pie_sector_group",
+      "bas_all_pie_sector_group",
+      "High_income_Asia_and_Pacific",
+      "export_share_of_value"
+    ],
+    "evidenceIds": [
+      "ev_g230_1"
+    ],
+    "graphPath": [
+      "bas High income Asia and Pacific multigroup 2src",
+      "COMPOSED_OF",
+      "sector group sector 7"
+    ]
+  },
+  "G231": {
+    "id": "G231",
+    "claimIds": [
+      "entity:sector_group_sector_8",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_multigroup_2src:sector_group_sector_8",
+      "relation:COMPOSED_OF:bas_Europe_and_Central_Asia_pie_sector_group:sector_group_sector_8",
+      "relation:COMPOSED_OF:bas_all_pie_sector_group:sector_group_sector_8",
+      "relation:VALUE_OF:sector_group_sector_8:Europe_and_Central_Asia",
+      "relation:VALUE_OF:sector_group_sector_8:export_share_of_value"
+    ],
+    "entityIds": [
+      "sector_group_sector_8",
+      "bas_Europe_and_Central_Asia_multigroup_2src",
+      "bas_Europe_and_Central_Asia_pie_sector_group",
+      "bas_all_pie_sector_group",
+      "Europe_and_Central_Asia",
+      "export_share_of_value"
+    ],
+    "evidenceIds": [
+      "ev_g231_1"
+    ],
+    "graphPath": [
+      "bas Europe and Central Asia multigroup 2src",
+      "COMPOSED_OF",
+      "sector group sector 8"
+    ]
+  }
+}

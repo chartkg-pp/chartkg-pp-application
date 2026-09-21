@@ -1,0 +1,97 @@
+{
+  "id": "summary_construction-kg-revision:4bcab0ab899177046c9f",
+  "revisionId": "construction-kg-revision:4bcab0ab899177046c9f",
+  "sentences": [
+    {
+      "id": "ss1",
+      "layer": "S1",
+      "text": "The chart combines a radial stacked bar view, where bar height encodes number of customers and color encodes gender, with a ternary scatter view, where point positions encode Negative, Positive, and Uncertainty and point color encodes gender.",
+      "citations": [
+        "G61",
+        "G62",
+        "G71",
+        "G72",
+        "G76",
+        "G75",
+        "G77",
+        "G78",
+        "G79",
+        "G74",
+        "G54",
+        "G52",
+        "G49",
+        "G50",
+        "G51",
+        "G53"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss2",
+      "layer": "S2",
+      "text": "The gender categories are Female, Male, and NONE; the measures are number of customers and the ternary coordinates Negative, Positive, and Uncertainty. The visible subgroup maxima for bar radial height are 93.9 px for Female, 80.2 px for NONE, and 79.9 px for Male, while NONE’s maximum Uncertainty is 0.5006826134805336.",
+      "citations": [
+        "G52",
+        "G55",
+        "G57",
+        "G59",
+        "G54",
+        "G49",
+        "G50",
+        "G51",
+        "G23",
+        "G19"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss3",
+      "layer": "S3",
+      "text": "Across Female, Male, and NONE, the ternary points share an elongated curved band from higher Negative through moderate Uncertainty toward higher Positive. Female has the greatest maximum bar height, and between Male and NONE, NONE has the higher maximum Negative and Positive coordinates while Male has the higher maximum Uncertainty, exceeding NONE’s 0.5006826134805336.",
+      "citations": [
+        "G33",
+        "G32",
+        "G29",
+        "G30",
+        "G31",
+        "G55",
+        "G57",
+        "G59",
+        "G24",
+        "G23",
+        "G20",
+        "G21",
+        "G22"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss4",
+      "layer": "S4",
+      "text": "The two views jointly show Female as the visible global number of customers maximum at 93.9 px, versus 80.2 px for NONE and 79.9 px for Male, while all three genders retain a similar band-like ternary distribution. Within the Male–NONE comparison, NONE leads the maximum Negative and Positive coordinates, whereas Male leads maximum Uncertainty.",
+      "citations": [
+        "G23",
+        "G24",
+        "G20",
+        "G21",
+        "G22",
+        "G32",
+        "G33",
+        "G29",
+        "G30",
+        "G31",
+        "G52",
+        "G54",
+        "G49",
+        "G50",
+        "G51",
+        "G61",
+        "G62",
+        "G71",
+        "G72"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "coverage": 1.0
+}

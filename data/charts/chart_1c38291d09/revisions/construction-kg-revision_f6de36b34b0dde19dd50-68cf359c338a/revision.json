@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_1c38291d09",
+  "revisionId": "construction-kg-revision:f6de36b34b0dde19dd50",
+  "createdAt": "2026-09-21T17:23:56.675265Z",
+  "generation": {
+    "mode": "llm",
+    "provider": "openai-compatible",
+    "model": "gpt-5.6-sol",
+    "prompt": {
+      "name": "graphrag-summary",
+      "version": "2.4",
+      "sha256": "6958e17cb27d64faf3920958a76ea387426eec35d32b9f800b1f5f68a4340c7d"
+    },
+    "retrieval": {
+      "strategy": "graph-global",
+      "communityCount": 6,
+      "subgraphNodeCount": 18,
+      "subgraphEdgeCount": 12
+    },
+    "layerRetrieval": [
+      {
+        "layer": "S1",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "other",
+          "rect_group",
+          "position"
+        ],
+        "subgraphNodeCount": 35,
+        "subgraphEdgeCount": 24,
+        "pathCount": 8,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S2",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Region",
+          "Middle_East_and_Africa",
+          "Eastern_Europe"
+        ],
+        "subgraphNodeCount": 39,
+        "subgraphEdgeCount": 36,
+        "pathCount": 21,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S3",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Composition_4",
+          "Composition_3",
+          "Composition_5"
+        ],
+        "subgraphNodeCount": 39,
+        "subgraphEdgeCount": 36,
+        "pathCount": 21,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S4",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "insight_Composition_7",
+          "insight_Composition_6",
+          "insight_Composition_4"
+        ],
+        "subgraphNodeCount": 39,
+        "subgraphEdgeCount": 36,
+        "pathCount": 16,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      }
+    ]
+  }
+}

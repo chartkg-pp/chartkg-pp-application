@@ -1,0 +1,530 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790010480244",
+  "sessionId": "qa_752073716c1f",
+  "chartId": "chart_1c40d92f85",
+  "revisionId": "construction-kg-revision:3fa6ffd0418655469042",
+  "question": "What does the chart suggest about the diversification and changing importance of different export destinations?",
+  "status": "complete",
+  "createdAt": "2026-09-21T17:08:11.406916Z",
+  "completedAt": "2026-09-21T17:08:50.678176Z",
+  "answers": {
+    "vision": {
+      "answer": "U.S. agricultural exports became more diversified between 1995–99 and 2011–15. High-income Asia-Pacific and Europe/Central Asia lost substantial share, while developing East Asia rose sharply from 8% to 23% and North America increased from 22% to 28%; other regions remained relatively small or changed only modestly.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_1c40d92f85",
+        "imageSha256": "2ed896e22310a1d3670071717ec6eb31eb8d7cb6f9af96245cceb8809998ce96",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "South Asia has an Export share percentage of 1.0%, making it the visually supported global Export share percentage minimum from the destination subgroup comparisons, which also include Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, South America and Caribbean at 10.0%, Europe and Central Asia at 11.0%, High income Asia and Pacific at 20.0%, and North America at 28.0%. [G9] South Asia is the visually supported global Export share percentage minimum from the subgroup comparisons at 1.0%, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, and Europe and Central Asia at 11.0%. [G6] South Asia is the visually supported global Export share percentage minimum at 1.0% across the destination subgroup comparisons, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, South America and Caribbean at 10.0%, Europe and Central Asia at 11.0%, High income Asia and Pacific at 20.0%, Developing East Asia at 23.0%, and North America at 28.0%. [G11]",
+      "citationIds": [
+        "G9",
+        "G6",
+        "G11"
+      ],
+      "status": "verified",
+      "generationMode": "extractive",
+      "provider": null,
+      "model": null,
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "South Asia has an Export share percentage of 1.0%, making it the visually supported global Export share percentage minimum from the destination subgroup comparisons, which also include Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, South America and Caribbean at 10.0%, Europe and Central Asia at 11.0%, High income Asia and Pacific at 20.0%, and North America at 28.0%.",
+          "recordIds": [
+            "entity:insight_Comparison_6"
+          ],
+          "citationIds": [
+            "G9"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_2",
+          "text": "South Asia is the visually supported global Export share percentage minimum from the subgroup comparisons at 1.0%, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, and Europe and Central Asia at 11.0%.",
+          "recordIds": [
+            "entity:insight_Comparison_3"
+          ],
+          "citationIds": [
+            "G6"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_3",
+          "text": "South Asia is the visually supported global Export share percentage minimum at 1.0% across the destination subgroup comparisons, lower than Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, South America and Caribbean at 10.0%, Europe and Central Asia at 11.0%, High income Asia and Pacific at 20.0%, Developing East Asia at 23.0%, and North America at 28.0%.",
+          "recordIds": [
+            "entity:insight_Comparison_8"
+          ],
+          "citationIds": [
+            "G11"
+          ],
+          "claimType": "observed"
+        }
+      ],
+      "citations": {
+        "G9": {
+          "id": "G9",
+          "claimIds": [
+            "entity:insight_Comparison_6",
+            "relation:DERIVED_FROM:insight_Comparison_6:Comparison_8"
+          ],
+          "entityIds": [
+            "insight_Comparison_6",
+            "Comparison_8"
+          ],
+          "evidenceIds": [
+            "ev_g9_1"
+          ],
+          "graphPath": [
+            "Comparison 6",
+            "DERIVED_FROM",
+            "Comparison: MinimumComparison"
+          ]
+        },
+        "G6": {
+          "id": "G6",
+          "claimIds": [
+            "entity:insight_Comparison_3",
+            "relation:DERIVED_FROM:insight_Comparison_3:Comparison_3"
+          ],
+          "entityIds": [
+            "insight_Comparison_3",
+            "Comparison_3"
+          ],
+          "evidenceIds": [
+            "ev_g6_1",
+            "ev_g6_2",
+            "ev_g6_3",
+            "ev_g6_4"
+          ],
+          "graphPath": [
+            "Comparison 3",
+            "DERIVED_FROM",
+            "Comparison: MinimumComparison"
+          ]
+        },
+        "G11": {
+          "id": "G11",
+          "claimIds": [
+            "entity:insight_Comparison_8",
+            "relation:DERIVED_FROM:insight_Comparison_8:Comparison_10"
+          ],
+          "entityIds": [
+            "insight_Comparison_8",
+            "Comparison_10"
+          ],
+          "evidenceIds": [
+            "ev_g11_1"
+          ],
+          "graphPath": [
+            "Comparison 8",
+            "DERIVED_FROM",
+            "Comparison: MinimumComparison"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-global",
+        "planner": "llm",
+        "maxHops": 4,
+        "seedEntityIds": [
+          "Destination",
+          "Export_share_percentage",
+          "export_share_of_value",
+          "insight_Contrast_1",
+          "insight_Comparison_6",
+          "insight_Comparison_10"
+        ],
+        "communityIds": [
+          "community:9:Comparison_20",
+          "community:19:Correspondence",
+          "community:2:Comparison_10",
+          "community:16:Comparison_8",
+          "community:11:Comparison_22",
+          "community:13:Comparison_3"
+        ],
+        "expandedEntityIds": [
+          "Destination",
+          "Export_share_percentage",
+          "export_share_of_value",
+          "insight_Contrast_1",
+          "insight_Comparison_6",
+          "insight_Comparison_10",
+          "Comparison_3",
+          "insight_Comparison_3",
+          "Comparison_10",
+          "insight_Comparison_8",
+          "Correspondence",
+          "Extreme_21",
+          "Comparison_7",
+          "insight_Comparison_5",
+          "Extreme_4",
+          "Comparison_2",
+          "insight_Comparison_2",
+          "Comparison_22",
+          "Correspondence_5",
+          "Extreme_15",
+          "Comparison_4",
+          "insight_Comparison_4",
+          "Comparison_9",
+          "insight_Comparison_7",
+          "Comparison_8",
+          "Extreme_10",
+          "Extreme_12",
+          "Extreme_16",
+          "Extreme_18",
+          "Extreme_20",
+          "Extreme_22",
+          "Extreme_6",
+          "Extreme_24",
+          "Comparison_14"
+        ],
+        "relationIds": [
+          "relation:347:DERIVED_FROM:insight_Comparison_3:Comparison_3",
+          "relation:352:DERIVED_FROM:insight_Comparison_8:Comparison_10",
+          "relation:88:COMPOSED_OF:Correspondence:Extreme_21",
+          "relation:62:COMPOSED_OF:Comparison_7:Extreme_21",
+          "relation:349:DERIVED_FROM:insight_Comparison_5:Comparison_7",
+          "relation:11:COMPOSED_OF:Comparison_10:Extreme_4",
+          "relation:36:COMPOSED_OF:Comparison_2:Extreme_4",
+          "relation:346:DERIVED_FROM:insight_Comparison_2:Comparison_2",
+          "relation:45:COMPOSED_OF:Comparison_22:Correspondence_5",
+          "relation:108:COMPOSED_OF:Correspondence_5:Extreme_15",
+          "relation:55:COMPOSED_OF:Comparison_4:Extreme_15",
+          "relation:348:DERIVED_FROM:insight_Comparison_4:Comparison_4",
+          "relation:76:COMPOSED_OF:Comparison_9:Extreme_21",
+          "relation:351:DERIVED_FROM:insight_Comparison_7:Comparison_9",
+          "relation:350:DERIVED_FROM:insight_Comparison_6:Comparison_8",
+          "relation:395:INFERRED_FROM:Extreme_10:Comparison_8",
+          "relation:65:COMPOSED_OF:Comparison_8:Extreme_12",
+          "relation:66:COMPOSED_OF:Comparison_8:Extreme_16",
+          "relation:67:COMPOSED_OF:Comparison_8:Extreme_18",
+          "relation:68:COMPOSED_OF:Comparison_8:Extreme_20",
+          "relation:69:COMPOSED_OF:Comparison_8:Extreme_22",
+          "relation:70:COMPOSED_OF:Comparison_8:Extreme_4",
+          "relation:71:COMPOSED_OF:Comparison_8:Extreme_6",
+          "relation:10:COMPOSED_OF:Comparison_10:Extreme_24",
+          "relation:12:COMPOSED_OF:Comparison_10:Extreme_6",
+          "relation:393:INFERRED_FROM:Extreme_10:Comparison_10",
+          "relation:5:COMPOSED_OF:Comparison_10:Extreme_12",
+          "relation:6:COMPOSED_OF:Comparison_10:Extreme_16",
+          "relation:7:COMPOSED_OF:Comparison_10:Extreme_18",
+          "relation:8:COMPOSED_OF:Comparison_10:Extreme_20",
+          "relation:9:COMPOSED_OF:Comparison_10:Extreme_22",
+          "relation:394:INFERRED_FROM:Extreme_10:Comparison_3",
+          "relation:50:COMPOSED_OF:Comparison_3:Extreme_12",
+          "relation:51:COMPOSED_OF:Comparison_3:Extreme_16",
+          "relation:52:COMPOSED_OF:Comparison_3:Extreme_4",
+          "relation:53:COMPOSED_OF:Comparison_3:Extreme_6",
+          "relation:343:DERIVED_FROM:insight_Comparison_10:Comparison_14"
+        ],
+        "paths": [
+          {
+            "source": "Comparison_3",
+            "target": "insight_Comparison_3",
+            "nodeIds": [
+              "Comparison_3",
+              "insight_Comparison_3"
+            ],
+            "relationIds": [
+              "relation:347:DERIVED_FROM:insight_Comparison_3:Comparison_3"
+            ],
+            "hops": [
+              {
+                "from": "Comparison_3",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Comparison_3",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Comparison_10",
+            "target": "insight_Comparison_8",
+            "nodeIds": [
+              "Comparison_10",
+              "insight_Comparison_8"
+            ],
+            "relationIds": [
+              "relation:352:DERIVED_FROM:insight_Comparison_8:Comparison_10"
+            ],
+            "hops": [
+              {
+                "from": "Comparison_10",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Comparison_8",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Correspondence",
+            "target": "insight_Comparison_5",
+            "nodeIds": [
+              "Correspondence",
+              "Extreme_21",
+              "Comparison_7",
+              "insight_Comparison_5"
+            ],
+            "relationIds": [
+              "relation:88:COMPOSED_OF:Correspondence:Extreme_21",
+              "relation:62:COMPOSED_OF:Comparison_7:Extreme_21",
+              "relation:349:DERIVED_FROM:insight_Comparison_5:Comparison_7"
+            ],
+            "hops": [
+              {
+                "from": "Correspondence",
+                "relation": "COMPOSED_OF",
+                "to": "Extreme_21",
+                "direction": "forward"
+              },
+              {
+                "from": "Extreme_21",
+                "relation": "COMPOSED_OF",
+                "to": "Comparison_7",
+                "direction": "reverse"
+              },
+              {
+                "from": "Comparison_7",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Comparison_5",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Comparison_10",
+            "target": "insight_Comparison_2",
+            "nodeIds": [
+              "Comparison_10",
+              "Extreme_4",
+              "Comparison_2",
+              "insight_Comparison_2"
+            ],
+            "relationIds": [
+              "relation:11:COMPOSED_OF:Comparison_10:Extreme_4",
+              "relation:36:COMPOSED_OF:Comparison_2:Extreme_4",
+              "relation:346:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+            ],
+            "hops": [
+              {
+                "from": "Comparison_10",
+                "relation": "COMPOSED_OF",
+                "to": "Extreme_4",
+                "direction": "forward"
+              },
+              {
+                "from": "Extreme_4",
+                "relation": "COMPOSED_OF",
+                "to": "Comparison_2",
+                "direction": "reverse"
+              },
+              {
+                "from": "Comparison_2",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Comparison_2",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Comparison_22",
+            "target": "insight_Comparison_4",
+            "nodeIds": [
+              "Comparison_22",
+              "Correspondence_5",
+              "Extreme_15",
+              "Comparison_4",
+              "insight_Comparison_4"
+            ],
+            "relationIds": [
+              "relation:45:COMPOSED_OF:Comparison_22:Correspondence_5",
+              "relation:108:COMPOSED_OF:Correspondence_5:Extreme_15",
+              "relation:55:COMPOSED_OF:Comparison_4:Extreme_15",
+              "relation:348:DERIVED_FROM:insight_Comparison_4:Comparison_4"
+            ],
+            "hops": [
+              {
+                "from": "Comparison_22",
+                "relation": "COMPOSED_OF",
+                "to": "Correspondence_5",
+                "direction": "forward"
+              },
+              {
+                "from": "Correspondence_5",
+                "relation": "COMPOSED_OF",
+                "to": "Extreme_15",
+                "direction": "forward"
+              },
+              {
+                "from": "Extreme_15",
+                "relation": "COMPOSED_OF",
+                "to": "Comparison_4",
+                "direction": "reverse"
+              },
+              {
+                "from": "Comparison_4",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Comparison_4",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Correspondence",
+            "target": "insight_Comparison_7",
+            "nodeIds": [
+              "Correspondence",
+              "Extreme_21",
+              "Comparison_9",
+              "insight_Comparison_7"
+            ],
+            "relationIds": [
+              "relation:88:COMPOSED_OF:Correspondence:Extreme_21",
+              "relation:76:COMPOSED_OF:Comparison_9:Extreme_21",
+              "relation:351:DERIVED_FROM:insight_Comparison_7:Comparison_9"
+            ],
+            "hops": [
+              {
+                "from": "Correspondence",
+                "relation": "COMPOSED_OF",
+                "to": "Extreme_21",
+                "direction": "forward"
+              },
+              {
+                "from": "Extreme_21",
+                "relation": "COMPOSED_OF",
+                "to": "Comparison_9",
+                "direction": "reverse"
+              },
+              {
+                "from": "Comparison_9",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Comparison_7",
+                "direction": "reverse"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "insight_Comparison_6",
+            "type": "Insight",
+            "score": 1.055,
+            "lexicalScore": 16.02919,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Destination",
+            "type": "Data_Variable",
+            "score": 0.852875,
+            "lexicalScore": 11.955344,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Comparison_3",
+            "type": "Insight",
+            "score": 0.845712,
+            "lexicalScore": 15.707932,
+            "distance": 0.55,
+            "hops": 1
+          },
+          {
+            "entityId": "insight_Comparison_8",
+            "type": "Insight",
+            "score": 0.83482,
+            "lexicalScore": 15.396169,
+            "distance": 0.55,
+            "hops": 1
+          },
+          {
+            "entityId": "insight_Comparison_5",
+            "type": "Insight",
+            "score": 0.774742,
+            "lexicalScore": 15.482161,
+            "distance": 1.79,
+            "hops": 3
+          },
+          {
+            "entityId": "insight_Comparison_2",
+            "type": "Insight",
+            "score": 0.76017,
+            "lexicalScore": 15.077454,
+            "distance": 1.805415,
+            "hops": 3
+          },
+          {
+            "entityId": "insight_Comparison_4",
+            "type": "Insight",
+            "score": 0.745522,
+            "lexicalScore": 15.056149,
+            "distance": 2.41,
+            "hops": 4
+          },
+          {
+            "entityId": "insight_Comparison_7",
+            "type": "Insight",
+            "score": 0.74268,
+            "lexicalScore": 14.564428,
+            "distance": 1.79,
+            "hops": 3
+          },
+          {
+            "entityId": "Comparison_8",
+            "type": "Relational_Pattern",
+            "score": 0.734697,
+            "lexicalScore": 8.755861,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Comparison_10",
+            "type": "Relational_Pattern",
+            "score": 0.721862,
+            "lexicalScore": 8.388484,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Comparison_3",
+            "type": "Relational_Pattern",
+            "score": 0.721862,
+            "lexicalScore": 8.388484,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Comparison_10",
+            "type": "Insight",
+            "score": 0.701765,
+            "lexicalScore": 8.208239,
+            "distance": 0.0,
+            "hops": 0
+          }
+        ]
+      }
+    }
+  }
+}

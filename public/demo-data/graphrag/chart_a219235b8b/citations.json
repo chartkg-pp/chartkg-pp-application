@@ -1,0 +1,4772 @@
+{
+  "G1": {
+    "id": "G1",
+    "claimIds": [
+      "entity:insight_Comparison_2",
+      "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+    ],
+    "entityIds": [
+      "insight_Comparison_2",
+      "Comparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g1_1"
+    ],
+    "graphPath": [
+      "Comparison 2",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G2": {
+    "id": "G2",
+    "claimIds": [
+      "entity:insight_Comparison_3",
+      "relation:DERIVED_FROM:insight_Comparison_3:Comparison_4"
+    ],
+    "entityIds": [
+      "insight_Comparison_3",
+      "Comparison_4"
+    ],
+    "evidenceIds": [
+      "ev_g2_1",
+      "ev_g2_2",
+      "ev_g2_3"
+    ],
+    "graphPath": [
+      "Comparison 3",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G3": {
+    "id": "G3",
+    "claimIds": [
+      "entity:insight_Comparison_4",
+      "relation:DERIVED_FROM:insight_Comparison_4:Comparison_5"
+    ],
+    "entityIds": [
+      "insight_Comparison_4",
+      "Comparison_5"
+    ],
+    "evidenceIds": [
+      "ev_g3_1"
+    ],
+    "graphPath": [
+      "Comparison 4",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G4": {
+    "id": "G4",
+    "claimIds": [
+      "entity:insight_Composition_1",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_17"
+    ],
+    "entityIds": [
+      "insight_Composition_1",
+      "Composition_17"
+    ],
+    "evidenceIds": [
+      "ev_g4_1"
+    ],
+    "graphPath": [
+      "Composition 1",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G5": {
+    "id": "G5",
+    "claimIds": [
+      "entity:insight_Composition_10",
+      "relation:DERIVED_FROM:insight_Composition_10:Composition_14"
+    ],
+    "entityIds": [
+      "insight_Composition_10",
+      "Composition_14"
+    ],
+    "evidenceIds": [
+      "ev_g5_1"
+    ],
+    "graphPath": [
+      "Composition 10",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G6": {
+    "id": "G6",
+    "claimIds": [
+      "entity:insight_Composition_11",
+      "relation:DERIVED_FROM:insight_Composition_11:Composition_7"
+    ],
+    "entityIds": [
+      "insight_Composition_11",
+      "Composition_7"
+    ],
+    "evidenceIds": [
+      "ev_g6_1"
+    ],
+    "graphPath": [
+      "Composition 11",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G7": {
+    "id": "G7",
+    "claimIds": [
+      "entity:insight_Composition_12",
+      "relation:DERIVED_FROM:insight_Composition_12:Composition_13"
+    ],
+    "entityIds": [
+      "insight_Composition_12",
+      "Composition_13"
+    ],
+    "evidenceIds": [
+      "ev_g7_1"
+    ],
+    "graphPath": [
+      "Composition 12",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G8": {
+    "id": "G8",
+    "claimIds": [
+      "entity:insight_Composition_13",
+      "relation:DERIVED_FROM:insight_Composition_13:Composition_11"
+    ],
+    "entityIds": [
+      "insight_Composition_13",
+      "Composition_11"
+    ],
+    "evidenceIds": [
+      "ev_g8_1"
+    ],
+    "graphPath": [
+      "Composition 13",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G9": {
+    "id": "G9",
+    "claimIds": [
+      "entity:insight_Composition_14",
+      "relation:DERIVED_FROM:insight_Composition_14:Composition_6"
+    ],
+    "entityIds": [
+      "insight_Composition_14",
+      "Composition_6"
+    ],
+    "evidenceIds": [
+      "ev_g9_1"
+    ],
+    "graphPath": [
+      "Composition 14",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G10": {
+    "id": "G10",
+    "claimIds": [
+      "entity:insight_Composition_15",
+      "relation:DERIVED_FROM:insight_Composition_15:Composition_5"
+    ],
+    "entityIds": [
+      "insight_Composition_15",
+      "Composition_5"
+    ],
+    "evidenceIds": [
+      "ev_g10_1"
+    ],
+    "graphPath": [
+      "Composition 15",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G11": {
+    "id": "G11",
+    "claimIds": [
+      "entity:insight_Composition_16",
+      "relation:DERIVED_FROM:insight_Composition_16:Composition_4"
+    ],
+    "entityIds": [
+      "insight_Composition_16",
+      "Composition_4"
+    ],
+    "evidenceIds": [
+      "ev_g11_1"
+    ],
+    "graphPath": [
+      "Composition 16",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G12": {
+    "id": "G12",
+    "claimIds": [
+      "entity:insight_Composition_17",
+      "relation:DERIVED_FROM:insight_Composition_17:Composition"
+    ],
+    "entityIds": [
+      "insight_Composition_17",
+      "Composition"
+    ],
+    "evidenceIds": [
+      "ev_g12_1"
+    ],
+    "graphPath": [
+      "Composition 17",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G13": {
+    "id": "G13",
+    "claimIds": [
+      "entity:insight_Composition_18",
+      "relation:DERIVED_FROM:insight_Composition_18:Composition_19"
+    ],
+    "entityIds": [
+      "insight_Composition_18",
+      "Composition_19"
+    ],
+    "evidenceIds": [
+      "ev_g13_1"
+    ],
+    "graphPath": [
+      "Composition 18",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G14": {
+    "id": "G14",
+    "claimIds": [
+      "entity:insight_Composition_2",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_2"
+    ],
+    "entityIds": [
+      "insight_Composition_2",
+      "Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g14_1"
+    ],
+    "graphPath": [
+      "Composition 2",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G15": {
+    "id": "G15",
+    "claimIds": [
+      "entity:insight_Composition_3",
+      "relation:DERIVED_FROM:insight_Composition_3:Composition_16"
+    ],
+    "entityIds": [
+      "insight_Composition_3",
+      "Composition_16"
+    ],
+    "evidenceIds": [
+      "ev_g15_1"
+    ],
+    "graphPath": [
+      "Composition 3",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G16": {
+    "id": "G16",
+    "claimIds": [
+      "entity:insight_Composition_4",
+      "relation:DERIVED_FROM:insight_Composition_4:Composition_3"
+    ],
+    "entityIds": [
+      "insight_Composition_4",
+      "Composition_3"
+    ],
+    "evidenceIds": [
+      "ev_g16_1"
+    ],
+    "graphPath": [
+      "Composition 4",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G17": {
+    "id": "G17",
+    "claimIds": [
+      "entity:insight_Composition_5",
+      "relation:DERIVED_FROM:insight_Composition_5:Composition_9"
+    ],
+    "entityIds": [
+      "insight_Composition_5",
+      "Composition_9"
+    ],
+    "evidenceIds": [
+      "ev_g17_1",
+      "ev_g17_2"
+    ],
+    "graphPath": [
+      "Composition 5",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G18": {
+    "id": "G18",
+    "claimIds": [
+      "entity:insight_Composition_6",
+      "relation:DERIVED_FROM:insight_Composition_6:Composition_18"
+    ],
+    "entityIds": [
+      "insight_Composition_6",
+      "Composition_18"
+    ],
+    "evidenceIds": [
+      "ev_g18_1"
+    ],
+    "graphPath": [
+      "Composition 6",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G19": {
+    "id": "G19",
+    "claimIds": [
+      "entity:insight_Composition_7",
+      "relation:DERIVED_FROM:insight_Composition_7:Composition_15"
+    ],
+    "entityIds": [
+      "insight_Composition_7",
+      "Composition_15"
+    ],
+    "evidenceIds": [
+      "ev_g19_1"
+    ],
+    "graphPath": [
+      "Composition 7",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G20": {
+    "id": "G20",
+    "claimIds": [
+      "entity:insight_Composition_8",
+      "relation:DERIVED_FROM:insight_Composition_8:Composition_12"
+    ],
+    "entityIds": [
+      "insight_Composition_8",
+      "Composition_12"
+    ],
+    "evidenceIds": [
+      "ev_g20_1"
+    ],
+    "graphPath": [
+      "Composition 8",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G21": {
+    "id": "G21",
+    "claimIds": [
+      "entity:insight_Composition_9",
+      "relation:DERIVED_FROM:insight_Composition_9:Composition_10"
+    ],
+    "entityIds": [
+      "insight_Composition_9",
+      "Composition_10"
+    ],
+    "evidenceIds": [
+      "ev_g21_1"
+    ],
+    "graphPath": [
+      "Composition 9",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G22": {
+    "id": "G22",
+    "claimIds": [
+      "entity:insight_Distribution_1",
+      "relation:DERIVED_FROM:insight_Distribution_1:Distribution"
+    ],
+    "entityIds": [
+      "insight_Distribution_1",
+      "Distribution"
+    ],
+    "evidenceIds": [
+      "ev_g22_1"
+    ],
+    "graphPath": [
+      "Distribution 1",
+      "DERIVED_FROM",
+      "Distribution: Outlier"
+    ]
+  },
+  "G23": {
+    "id": "G23",
+    "claimIds": [
+      "entity:insight_Distribution_2",
+      "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+    ],
+    "entityIds": [
+      "insight_Distribution_2",
+      "Distribution_2"
+    ],
+    "evidenceIds": [
+      "ev_g23_1"
+    ],
+    "graphPath": [
+      "Distribution 2",
+      "DERIVED_FROM",
+      "Distribution: Outlier"
+    ]
+  },
+  "G24": {
+    "id": "G24",
+    "claimIds": [
+      "entity:insight_Distribution_3",
+      "relation:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+    ],
+    "entityIds": [
+      "insight_Distribution_3",
+      "Distribution_3"
+    ],
+    "evidenceIds": [
+      "ev_g24_1"
+    ],
+    "graphPath": [
+      "Distribution 3",
+      "DERIVED_FROM",
+      "Distribution: Dominance"
+    ]
+  },
+  "G25": {
+    "id": "G25",
+    "claimIds": [
+      "entity:insight_Extreme_1",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme_33"
+    ],
+    "entityIds": [
+      "insight_Extreme_1",
+      "Extreme_33"
+    ],
+    "evidenceIds": [
+      "ev_g25_1"
+    ],
+    "graphPath": [
+      "Extreme 1",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G26": {
+    "id": "G26",
+    "claimIds": [
+      "entity:insight_Extreme_10",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_27"
+    ],
+    "entityIds": [
+      "insight_Extreme_10",
+      "Extreme_27"
+    ],
+    "evidenceIds": [
+      "ev_g26_1"
+    ],
+    "graphPath": [
+      "Extreme 10",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G27": {
+    "id": "G27",
+    "claimIds": [
+      "entity:insight_Extreme_11",
+      "relation:DERIVED_FROM:insight_Extreme_11:Extreme_21"
+    ],
+    "entityIds": [
+      "insight_Extreme_11",
+      "Extreme_21"
+    ],
+    "evidenceIds": [
+      "ev_g27_1"
+    ],
+    "graphPath": [
+      "Extreme 11",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G28": {
+    "id": "G28",
+    "claimIds": [
+      "entity:insight_Extreme_12",
+      "relation:DERIVED_FROM:insight_Extreme_12:Extreme_10"
+    ],
+    "entityIds": [
+      "insight_Extreme_12",
+      "Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g28_1"
+    ],
+    "graphPath": [
+      "Extreme 12",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G29": {
+    "id": "G29",
+    "claimIds": [
+      "entity:insight_Extreme_13",
+      "relation:DERIVED_FROM:insight_Extreme_13:Extreme_18"
+    ],
+    "entityIds": [
+      "insight_Extreme_13",
+      "Extreme_18"
+    ],
+    "evidenceIds": [
+      "ev_g29_1"
+    ],
+    "graphPath": [
+      "Extreme 13",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G30": {
+    "id": "G30",
+    "claimIds": [
+      "entity:insight_Extreme_14",
+      "relation:DERIVED_FROM:insight_Extreme_14:Extreme_16"
+    ],
+    "entityIds": [
+      "insight_Extreme_14",
+      "Extreme_16"
+    ],
+    "evidenceIds": [
+      "ev_g30_1"
+    ],
+    "graphPath": [
+      "Extreme 14",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G31": {
+    "id": "G31",
+    "claimIds": [
+      "entity:insight_Extreme_15",
+      "relation:DERIVED_FROM:insight_Extreme_15:Extreme_35"
+    ],
+    "entityIds": [
+      "insight_Extreme_15",
+      "Extreme_35"
+    ],
+    "evidenceIds": [
+      "ev_g31_1"
+    ],
+    "graphPath": [
+      "Extreme 15",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G32": {
+    "id": "G32",
+    "claimIds": [
+      "entity:insight_Extreme_16",
+      "relation:DERIVED_FROM:insight_Extreme_16:Extreme_32"
+    ],
+    "entityIds": [
+      "insight_Extreme_16",
+      "Extreme_32"
+    ],
+    "evidenceIds": [
+      "ev_g32_1"
+    ],
+    "graphPath": [
+      "Extreme 16",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G33": {
+    "id": "G33",
+    "claimIds": [
+      "entity:insight_Extreme_17",
+      "relation:DERIVED_FROM:insight_Extreme_17:Extreme_34"
+    ],
+    "entityIds": [
+      "insight_Extreme_17",
+      "Extreme_34"
+    ],
+    "evidenceIds": [
+      "ev_g33_1"
+    ],
+    "graphPath": [
+      "Extreme 17",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G34": {
+    "id": "G34",
+    "claimIds": [
+      "entity:insight_Extreme_18",
+      "relation:DERIVED_FROM:insight_Extreme_18:Extreme_25"
+    ],
+    "entityIds": [
+      "insight_Extreme_18",
+      "Extreme_25"
+    ],
+    "evidenceIds": [
+      "ev_g34_1"
+    ],
+    "graphPath": [
+      "Extreme 18",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G35": {
+    "id": "G35",
+    "claimIds": [
+      "entity:insight_Extreme_19",
+      "relation:DERIVED_FROM:insight_Extreme_19:Extreme_20"
+    ],
+    "entityIds": [
+      "insight_Extreme_19",
+      "Extreme_20"
+    ],
+    "evidenceIds": [
+      "ev_g35_1"
+    ],
+    "graphPath": [
+      "Extreme 19",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G36": {
+    "id": "G36",
+    "claimIds": [
+      "entity:insight_Extreme_2",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_19"
+    ],
+    "entityIds": [
+      "insight_Extreme_2",
+      "Extreme_19"
+    ],
+    "evidenceIds": [
+      "ev_g36_1"
+    ],
+    "graphPath": [
+      "Extreme 2",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G37": {
+    "id": "G37",
+    "claimIds": [
+      "entity:insight_Extreme_20",
+      "relation:DERIVED_FROM:insight_Extreme_20:Extreme_23"
+    ],
+    "entityIds": [
+      "insight_Extreme_20",
+      "Extreme_23"
+    ],
+    "evidenceIds": [
+      "ev_g37_1",
+      "ev_g37_2",
+      "ev_g37_3"
+    ],
+    "graphPath": [
+      "Extreme 20",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G38": {
+    "id": "G38",
+    "claimIds": [
+      "entity:insight_Extreme_21",
+      "relation:DERIVED_FROM:insight_Extreme_21:Extreme_9"
+    ],
+    "entityIds": [
+      "insight_Extreme_21",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g38_1"
+    ],
+    "graphPath": [
+      "Extreme 21",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G39": {
+    "id": "G39",
+    "claimIds": [
+      "entity:insight_Extreme_22",
+      "relation:DERIVED_FROM:insight_Extreme_22:Extreme_6"
+    ],
+    "entityIds": [
+      "insight_Extreme_22",
+      "Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g39_1"
+    ],
+    "graphPath": [
+      "Extreme 22",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G40": {
+    "id": "G40",
+    "claimIds": [
+      "entity:insight_Extreme_23",
+      "relation:DERIVED_FROM:insight_Extreme_23:Extreme_24"
+    ],
+    "entityIds": [
+      "insight_Extreme_23",
+      "Extreme_24"
+    ],
+    "evidenceIds": [
+      "ev_g40_1"
+    ],
+    "graphPath": [
+      "Extreme 23",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G41": {
+    "id": "G41",
+    "claimIds": [
+      "entity:insight_Extreme_24",
+      "relation:DERIVED_FROM:insight_Extreme_24:Extreme_5"
+    ],
+    "entityIds": [
+      "insight_Extreme_24",
+      "Extreme_5"
+    ],
+    "evidenceIds": [
+      "ev_g41_1"
+    ],
+    "graphPath": [
+      "Extreme 24",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G42": {
+    "id": "G42",
+    "claimIds": [
+      "entity:insight_Extreme_25",
+      "relation:DERIVED_FROM:insight_Extreme_25:Extreme_12"
+    ],
+    "entityIds": [
+      "insight_Extreme_25",
+      "Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g42_1"
+    ],
+    "graphPath": [
+      "Extreme 25",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G43": {
+    "id": "G43",
+    "claimIds": [
+      "entity:insight_Extreme_26",
+      "relation:DERIVED_FROM:insight_Extreme_26:Extreme_3"
+    ],
+    "entityIds": [
+      "insight_Extreme_26",
+      "Extreme_3"
+    ],
+    "evidenceIds": [
+      "ev_g43_1"
+    ],
+    "graphPath": [
+      "Extreme 26",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G44": {
+    "id": "G44",
+    "claimIds": [
+      "entity:insight_Extreme_27",
+      "relation:DERIVED_FROM:insight_Extreme_27:Extreme_26"
+    ],
+    "entityIds": [
+      "insight_Extreme_27",
+      "Extreme_26"
+    ],
+    "evidenceIds": [
+      "ev_g44_1"
+    ],
+    "graphPath": [
+      "Extreme 27",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G45": {
+    "id": "G45",
+    "claimIds": [
+      "entity:insight_Extreme_28",
+      "relation:DERIVED_FROM:insight_Extreme_28:Extreme_8"
+    ],
+    "entityIds": [
+      "insight_Extreme_28",
+      "Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g45_1"
+    ],
+    "graphPath": [
+      "Extreme 28",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G46": {
+    "id": "G46",
+    "claimIds": [
+      "entity:insight_Extreme_29",
+      "relation:DERIVED_FROM:insight_Extreme_29:Extreme_22"
+    ],
+    "entityIds": [
+      "insight_Extreme_29",
+      "Extreme_22"
+    ],
+    "evidenceIds": [
+      "ev_g46_1"
+    ],
+    "graphPath": [
+      "Extreme 29",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G47": {
+    "id": "G47",
+    "claimIds": [
+      "entity:insight_Extreme_3",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_28"
+    ],
+    "entityIds": [
+      "insight_Extreme_3",
+      "Extreme_28"
+    ],
+    "evidenceIds": [
+      "ev_g47_1"
+    ],
+    "graphPath": [
+      "Extreme 3",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G48": {
+    "id": "G48",
+    "claimIds": [
+      "entity:insight_Extreme_30",
+      "relation:DERIVED_FROM:insight_Extreme_30:Extreme_14"
+    ],
+    "entityIds": [
+      "insight_Extreme_30",
+      "Extreme_14"
+    ],
+    "evidenceIds": [
+      "ev_g48_1"
+    ],
+    "graphPath": [
+      "Extreme 30",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G49": {
+    "id": "G49",
+    "claimIds": [
+      "entity:insight_Extreme_31",
+      "relation:DERIVED_FROM:insight_Extreme_31:Extreme_4"
+    ],
+    "entityIds": [
+      "insight_Extreme_31",
+      "Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g49_1"
+    ],
+    "graphPath": [
+      "Extreme 31",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G50": {
+    "id": "G50",
+    "claimIds": [
+      "entity:insight_Extreme_32",
+      "relation:DERIVED_FROM:insight_Extreme_32:Extreme"
+    ],
+    "entityIds": [
+      "insight_Extreme_32",
+      "Extreme"
+    ],
+    "evidenceIds": [
+      "ev_g50_1"
+    ],
+    "graphPath": [
+      "Extreme 32",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G51": {
+    "id": "G51",
+    "claimIds": [
+      "entity:insight_Extreme_33",
+      "relation:DERIVED_FROM:insight_Extreme_33:Extreme_7"
+    ],
+    "entityIds": [
+      "insight_Extreme_33",
+      "Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g51_1"
+    ],
+    "graphPath": [
+      "Extreme 33",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G52": {
+    "id": "G52",
+    "claimIds": [
+      "entity:insight_Extreme_34",
+      "relation:DERIVED_FROM:insight_Extreme_34:Extreme_36"
+    ],
+    "entityIds": [
+      "insight_Extreme_34",
+      "Extreme_36"
+    ],
+    "evidenceIds": [
+      "ev_g52_1"
+    ],
+    "graphPath": [
+      "Extreme 34",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G53": {
+    "id": "G53",
+    "claimIds": [
+      "entity:insight_Extreme_35",
+      "relation:DERIVED_FROM:insight_Extreme_35:Extreme_15"
+    ],
+    "entityIds": [
+      "insight_Extreme_35",
+      "Extreme_15"
+    ],
+    "evidenceIds": [
+      "ev_g53_1"
+    ],
+    "graphPath": [
+      "Extreme 35",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G54": {
+    "id": "G54",
+    "claimIds": [
+      "entity:insight_Extreme_36",
+      "relation:DERIVED_FROM:insight_Extreme_36:Extreme_29"
+    ],
+    "entityIds": [
+      "insight_Extreme_36",
+      "Extreme_29"
+    ],
+    "evidenceIds": [
+      "ev_g54_1"
+    ],
+    "graphPath": [
+      "Extreme 36",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G55": {
+    "id": "G55",
+    "claimIds": [
+      "entity:insight_Extreme_4",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_11"
+    ],
+    "entityIds": [
+      "insight_Extreme_4",
+      "Extreme_11"
+    ],
+    "evidenceIds": [
+      "ev_g55_1"
+    ],
+    "graphPath": [
+      "Extreme 4",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G56": {
+    "id": "G56",
+    "claimIds": [
+      "entity:insight_Extreme_5",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_31"
+    ],
+    "entityIds": [
+      "insight_Extreme_5",
+      "Extreme_31"
+    ],
+    "evidenceIds": [
+      "ev_g56_1"
+    ],
+    "graphPath": [
+      "Extreme 5",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G57": {
+    "id": "G57",
+    "claimIds": [
+      "entity:insight_Extreme_6",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_17"
+    ],
+    "entityIds": [
+      "insight_Extreme_6",
+      "Extreme_17"
+    ],
+    "evidenceIds": [
+      "ev_g57_1"
+    ],
+    "graphPath": [
+      "Extreme 6",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G58": {
+    "id": "G58",
+    "claimIds": [
+      "entity:insight_Extreme_7",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_30"
+    ],
+    "entityIds": [
+      "insight_Extreme_7",
+      "Extreme_30"
+    ],
+    "evidenceIds": [
+      "ev_g58_1"
+    ],
+    "graphPath": [
+      "Extreme 7",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G59": {
+    "id": "G59",
+    "claimIds": [
+      "entity:insight_Extreme_8",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_13"
+    ],
+    "entityIds": [
+      "insight_Extreme_8",
+      "Extreme_13"
+    ],
+    "evidenceIds": [
+      "ev_g59_1"
+    ],
+    "graphPath": [
+      "Extreme 8",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G60": {
+    "id": "G60",
+    "claimIds": [
+      "entity:insight_Extreme_9",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_2"
+    ],
+    "entityIds": [
+      "insight_Extreme_9",
+      "Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g60_1"
+    ],
+    "graphPath": [
+      "Extreme 9",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G61": {
+    "id": "G61",
+    "claimIds": [
+      "entity:insight_Similarity_1",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "insight_Similarity_1",
+      "Similarity"
+    ],
+    "evidenceIds": [
+      "ev_g61_1"
+    ],
+    "graphPath": [
+      "Similarity 1",
+      "DERIVED_FROM",
+      "Similarity: SimilarComposition"
+    ]
+  },
+  "G62": {
+    "id": "G62",
+    "claimIds": [
+      "entity:Comparison",
+      "relation:COMPOSED_OF:Comparison:Extreme_16",
+      "relation:COMPOSED_OF:Comparison:Extreme_27",
+      "relation:COMPOSED_OF:Comparison:Extreme_5",
+      "relation:INFERRED_FROM:Extreme_23:Comparison"
+    ],
+    "entityIds": [
+      "Comparison",
+      "Extreme_16",
+      "Extreme_27",
+      "Extreme_5",
+      "Extreme_23"
+    ],
+    "evidenceIds": [
+      "ev_g62_1",
+      "ev_g62_2",
+      "ev_g62_3"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G63": {
+    "id": "G63",
+    "claimIds": [
+      "entity:Comparison_2",
+      "relation:COMPOSED_OF:Comparison_2:Extreme",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_13",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_17",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_19",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_21",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_24",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_29",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_31",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_33",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_35",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_7",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_9",
+      "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+    ],
+    "entityIds": [
+      "Comparison_2",
+      "Extreme",
+      "Extreme_11",
+      "Extreme_13",
+      "Extreme_17",
+      "Extreme_19",
+      "Extreme_21",
+      "Extreme_24",
+      "Extreme_29",
+      "Extreme_3",
+      "Extreme_31",
+      "Extreme_33",
+      "Extreme_35",
+      "Extreme_7",
+      "Extreme_9",
+      "insight_Comparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g63_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G64": {
+    "id": "G64",
+    "claimIds": [
+      "entity:Comparison_4",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_28",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_6",
+      "relation:DERIVED_FROM:insight_Comparison_3:Comparison_4"
+    ],
+    "entityIds": [
+      "Comparison_4",
+      "Extreme_15",
+      "Extreme_28",
+      "Extreme_6",
+      "insight_Comparison_3"
+    ],
+    "evidenceIds": [
+      "ev_g64_1",
+      "ev_g64_2",
+      "ev_g64_3"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G65": {
+    "id": "G65",
+    "claimIds": [
+      "entity:Comparison_5",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_10",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_14",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_18",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_2",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_20",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_22",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_26",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_30",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_32",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_34",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_36",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_8",
+      "relation:DERIVED_FROM:insight_Comparison_4:Comparison_5"
+    ],
+    "entityIds": [
+      "Comparison_5",
+      "Extreme_10",
+      "Extreme_12",
+      "Extreme_14",
+      "Extreme_18",
+      "Extreme_2",
+      "Extreme_20",
+      "Extreme_22",
+      "Extreme_26",
+      "Extreme_30",
+      "Extreme_32",
+      "Extreme_34",
+      "Extreme_36",
+      "Extreme_4",
+      "Extreme_8",
+      "insight_Comparison_4"
+    ],
+    "evidenceIds": [
+      "ev_g65_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G66": {
+    "id": "G66",
+    "claimIds": [
+      "entity:Similarity",
+      "relation:COMPOSED_OF:Similarity:Composition",
+      "relation:COMPOSED_OF:Similarity:Composition_10",
+      "relation:COMPOSED_OF:Similarity:Composition_11",
+      "relation:COMPOSED_OF:Similarity:Composition_12",
+      "relation:COMPOSED_OF:Similarity:Composition_15",
+      "relation:COMPOSED_OF:Similarity:Composition_16",
+      "relation:COMPOSED_OF:Similarity:Composition_17",
+      "relation:COMPOSED_OF:Similarity:Composition_18",
+      "relation:COMPOSED_OF:Similarity:Composition_19",
+      "relation:COMPOSED_OF:Similarity:Composition_3",
+      "relation:COMPOSED_OF:Similarity:Composition_4",
+      "relation:COMPOSED_OF:Similarity:Composition_5",
+      "relation:COMPOSED_OF:Similarity:Composition_6",
+      "relation:COMPOSED_OF:Similarity:Composition_7",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "Similarity",
+      "Composition",
+      "Composition_10",
+      "Composition_11",
+      "Composition_12",
+      "Composition_15",
+      "Composition_16",
+      "Composition_17",
+      "Composition_18",
+      "Composition_19",
+      "Composition_3",
+      "Composition_4",
+      "Composition_5",
+      "Composition_6",
+      "Composition_7",
+      "insight_Similarity_1"
+    ],
+    "evidenceIds": [
+      "ev_g66_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G67": {
+    "id": "G67",
+    "claimIds": [
+      "entity:Composition",
+      "relation:COMPOSED_OF:Similarity:Composition",
+      "relation:SUPPORTED_BY:Composition:bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_17:Composition"
+    ],
+    "entityIds": [
+      "Composition",
+      "Similarity",
+      "bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "insight_Composition_17"
+    ],
+    "evidenceIds": [
+      "ev_g67_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G68": {
+    "id": "G68",
+    "claimIds": [
+      "entity:Composition_10",
+      "relation:COMPOSED_OF:Similarity:Composition_10",
+      "relation:SUPPORTED_BY:Composition_10:bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_9:Composition_10"
+    ],
+    "entityIds": [
+      "Composition_10",
+      "Similarity",
+      "bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "insight_Composition_9"
+    ],
+    "evidenceIds": [
+      "ev_g68_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G69": {
+    "id": "G69",
+    "claimIds": [
+      "entity:Composition_11",
+      "relation:COMPOSED_OF:Similarity:Composition_11",
+      "relation:SUPPORTED_BY:Composition_11:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_13:Composition_11"
+    ],
+    "entityIds": [
+      "Composition_11",
+      "Similarity",
+      "bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "insight_Composition_13"
+    ],
+    "evidenceIds": [
+      "ev_g69_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G70": {
+    "id": "G70",
+    "claimIds": [
+      "entity:Composition_12",
+      "relation:COMPOSED_OF:Similarity:Composition_12",
+      "relation:SUPPORTED_BY:Composition_12:bas_China_Zun_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_8:Composition_12"
+    ],
+    "entityIds": [
+      "Composition_12",
+      "Similarity",
+      "bas_China_Zun_cartesian_bar_bar_group",
+      "insight_Composition_8"
+    ],
+    "evidenceIds": [
+      "ev_g70_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G71": {
+    "id": "G71",
+    "claimIds": [
+      "entity:Composition_13",
+      "relation:SUPPORTED_BY:Composition_13:bas_Asia_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_12:Composition_13"
+    ],
+    "entityIds": [
+      "Composition_13",
+      "bas_Asia_cartesian_bar_bar_group",
+      "insight_Composition_12"
+    ],
+    "evidenceIds": [
+      "ev_g71_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Asia cartesian bar bar group"
+    ]
+  },
+  "G72": {
+    "id": "G72",
+    "claimIds": [
+      "entity:Composition_14",
+      "relation:SUPPORTED_BY:Composition_14:bas_all_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_10:Composition_14"
+    ],
+    "entityIds": [
+      "Composition_14",
+      "bas_all_cartesian_bar_bar_group",
+      "insight_Composition_10"
+    ],
+    "evidenceIds": [
+      "ev_g72_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas all cartesian bar bar group"
+    ]
+  },
+  "G73": {
+    "id": "G73",
+    "claimIds": [
+      "entity:Composition_15",
+      "relation:COMPOSED_OF:Similarity:Composition_15",
+      "relation:SUPPORTED_BY:Composition_15:bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_7:Composition_15"
+    ],
+    "entityIds": [
+      "Composition_15",
+      "Similarity",
+      "bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "insight_Composition_7"
+    ],
+    "evidenceIds": [
+      "ev_g73_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G74": {
+    "id": "G74",
+    "claimIds": [
+      "entity:Composition_16",
+      "relation:COMPOSED_OF:Similarity:Composition_16",
+      "relation:SUPPORTED_BY:Composition_16:bas_*Taipei_101*_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_3:Composition_16"
+    ],
+    "entityIds": [
+      "Composition_16",
+      "Similarity",
+      "bas_*Taipei_101*_cartesian_bar_bar_group",
+      "insight_Composition_3"
+    ],
+    "evidenceIds": [
+      "ev_g74_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G75": {
+    "id": "G75",
+    "claimIds": [
+      "entity:Composition_17",
+      "relation:COMPOSED_OF:Similarity:Composition_17",
+      "relation:SUPPORTED_BY:Composition_17:bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_17"
+    ],
+    "entityIds": [
+      "Composition_17",
+      "Similarity",
+      "bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "insight_Composition_1"
+    ],
+    "evidenceIds": [
+      "ev_g75_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G76": {
+    "id": "G76",
+    "claimIds": [
+      "entity:Composition_18",
+      "relation:COMPOSED_OF:Similarity:Composition_18",
+      "relation:SUPPORTED_BY:Composition_18:bas_Landmark_81_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_6:Composition_18"
+    ],
+    "entityIds": [
+      "Composition_18",
+      "Similarity",
+      "bas_Landmark_81_cartesian_bar_bar_group",
+      "insight_Composition_6"
+    ],
+    "evidenceIds": [
+      "ev_g76_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G77": {
+    "id": "G77",
+    "claimIds": [
+      "entity:Composition_19",
+      "relation:COMPOSED_OF:Similarity:Composition_19",
+      "relation:SUPPORTED_BY:Composition_19:bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_18:Composition_19"
+    ],
+    "entityIds": [
+      "Composition_19",
+      "Similarity",
+      "bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "insight_Composition_18"
+    ],
+    "evidenceIds": [
+      "ev_g77_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G78": {
+    "id": "G78",
+    "claimIds": [
+      "entity:Composition_2",
+      "relation:SUPPORTED_BY:Composition_2:bas_Europe_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_2"
+    ],
+    "entityIds": [
+      "Composition_2",
+      "bas_Europe_cartesian_bar_bar_group",
+      "insight_Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g78_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Europe cartesian bar bar group"
+    ]
+  },
+  "G79": {
+    "id": "G79",
+    "claimIds": [
+      "entity:Composition_3",
+      "relation:COMPOSED_OF:Similarity:Composition_3",
+      "relation:SUPPORTED_BY:Composition_3:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_4:Composition_3"
+    ],
+    "entityIds": [
+      "Composition_3",
+      "Similarity",
+      "bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "insight_Composition_4"
+    ],
+    "evidenceIds": [
+      "ev_g79_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G80": {
+    "id": "G80",
+    "claimIds": [
+      "entity:Composition_4",
+      "relation:COMPOSED_OF:Similarity:Composition_4",
+      "relation:SUPPORTED_BY:Composition_4:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_16:Composition_4"
+    ],
+    "entityIds": [
+      "Composition_4",
+      "Similarity",
+      "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "insight_Composition_16"
+    ],
+    "evidenceIds": [
+      "ev_g80_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G81": {
+    "id": "G81",
+    "claimIds": [
+      "entity:Composition_5",
+      "relation:COMPOSED_OF:Similarity:Composition_5",
+      "relation:SUPPORTED_BY:Composition_5:bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_15:Composition_5"
+    ],
+    "entityIds": [
+      "Composition_5",
+      "Similarity",
+      "bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "insight_Composition_15"
+    ],
+    "evidenceIds": [
+      "ev_g81_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G82": {
+    "id": "G82",
+    "claimIds": [
+      "entity:Composition_6",
+      "relation:COMPOSED_OF:Similarity:Composition_6",
+      "relation:SUPPORTED_BY:Composition_6:bas_Lakhta_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_14:Composition_6"
+    ],
+    "entityIds": [
+      "Composition_6",
+      "Similarity",
+      "bas_Lakhta_Center_cartesian_bar_bar_group",
+      "insight_Composition_14"
+    ],
+    "evidenceIds": [
+      "ev_g82_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G83": {
+    "id": "G83",
+    "claimIds": [
+      "entity:Composition_7",
+      "relation:COMPOSED_OF:Similarity:Composition_7",
+      "relation:SUPPORTED_BY:Composition_7:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_11:Composition_7"
+    ],
+    "entityIds": [
+      "Composition_7",
+      "Similarity",
+      "bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "insight_Composition_11"
+    ],
+    "evidenceIds": [
+      "ev_g83_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G84": {
+    "id": "G84",
+    "claimIds": [
+      "entity:Composition_8",
+      "relation:SUPPORTED_BY:Composition_8:bas_Shanghai_Tower_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "Composition_8",
+      "bas_Shanghai_Tower_cartesian_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g84_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Shanghai Tower cartesian bar bar group"
+    ]
+  },
+  "G85": {
+    "id": "G85",
+    "claimIds": [
+      "entity:Composition_9",
+      "relation:SUPPORTED_BY:Composition_9:bas_North_America_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_5:Composition_9"
+    ],
+    "entityIds": [
+      "Composition_9",
+      "bas_North_America_cartesian_bar_bar_group",
+      "insight_Composition_5"
+    ],
+    "evidenceIds": [
+      "ev_g85_1",
+      "ev_g85_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas North America cartesian bar bar group"
+    ]
+  },
+  "G86": {
+    "id": "G86",
+    "claimIds": [
+      "entity:Distribution",
+      "relation:SUPPORTED_BY:Distribution:bas_all_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Distribution_1:Distribution"
+    ],
+    "entityIds": [
+      "Distribution",
+      "bas_all_cartesian_bar_bar_group",
+      "insight_Distribution_1"
+    ],
+    "evidenceIds": [
+      "ev_g86_1"
+    ],
+    "graphPath": [
+      "Distribution: Outlier",
+      "SUPPORTED_BY",
+      "bas all cartesian bar bar group"
+    ]
+  },
+  "G87": {
+    "id": "G87",
+    "claimIds": [
+      "entity:Distribution_2",
+      "relation:SUPPORTED_BY:Distribution_2:bas_Asia_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+    ],
+    "entityIds": [
+      "Distribution_2",
+      "bas_Asia_cartesian_bar_bar_group",
+      "insight_Distribution_2"
+    ],
+    "evidenceIds": [
+      "ev_g87_1"
+    ],
+    "graphPath": [
+      "Distribution: Outlier",
+      "SUPPORTED_BY",
+      "bas Asia cartesian bar bar group"
+    ]
+  },
+  "G88": {
+    "id": "G88",
+    "claimIds": [
+      "entity:Distribution_3",
+      "relation:SUPPORTED_BY:Distribution_3:bas_Asia_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+    ],
+    "entityIds": [
+      "Distribution_3",
+      "bas_Asia_cartesian_bar_bar_group",
+      "insight_Distribution_3"
+    ],
+    "evidenceIds": [
+      "ev_g88_1"
+    ],
+    "graphPath": [
+      "Distribution: Dominance",
+      "SUPPORTED_BY",
+      "bas Asia cartesian bar bar group"
+    ]
+  },
+  "G89": {
+    "id": "G89",
+    "claimIds": [
+      "entity:Extreme",
+      "relation:COMPOSED_OF:Comparison_2:Extreme",
+      "relation:SUPPORTED_BY:Extreme:bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_32:Extreme"
+    ],
+    "entityIds": [
+      "Extreme",
+      "Comparison_2",
+      "bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "insight_Extreme_32"
+    ],
+    "evidenceIds": [
+      "ev_g89_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G90": {
+    "id": "G90",
+    "claimIds": [
+      "entity:Extreme_10",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_10",
+      "relation:SUPPORTED_BY:Extreme_10:bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_12:Extreme_10"
+    ],
+    "entityIds": [
+      "Extreme_10",
+      "Comparison_5",
+      "bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "insight_Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g90_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G91": {
+    "id": "G91",
+    "claimIds": [
+      "entity:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_11",
+      "relation:SUPPORTED_BY:Extreme_11:bas_Lakhta_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_11"
+    ],
+    "entityIds": [
+      "Extreme_11",
+      "Comparison_2",
+      "bas_Lakhta_Center_cartesian_bar_bar_group",
+      "insight_Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g91_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G92": {
+    "id": "G92",
+    "claimIds": [
+      "entity:Extreme_12",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_12",
+      "relation:SUPPORTED_BY:Extreme_12:bas_Lakhta_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_25:Extreme_12"
+    ],
+    "entityIds": [
+      "Extreme_12",
+      "Comparison_5",
+      "bas_Lakhta_Center_cartesian_bar_bar_group",
+      "insight_Extreme_25"
+    ],
+    "evidenceIds": [
+      "ev_g92_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G93": {
+    "id": "G93",
+    "claimIds": [
+      "entity:Extreme_13",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_13",
+      "relation:SUPPORTED_BY:Extreme_13:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_13"
+    ],
+    "entityIds": [
+      "Extreme_13",
+      "Comparison_2",
+      "bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "insight_Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g93_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G94": {
+    "id": "G94",
+    "claimIds": [
+      "entity:Extreme_14",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_14",
+      "relation:SUPPORTED_BY:Extreme_14:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_30:Extreme_14"
+    ],
+    "entityIds": [
+      "Extreme_14",
+      "Comparison_5",
+      "bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "insight_Extreme_30"
+    ],
+    "evidenceIds": [
+      "ev_g94_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G95": {
+    "id": "G95",
+    "claimIds": [
+      "entity:Extreme_15",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_15",
+      "relation:SUPPORTED_BY:Extreme_15:bas_North_America_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_35:Extreme_15"
+    ],
+    "entityIds": [
+      "Extreme_15",
+      "Comparison_4",
+      "bas_North_America_cartesian_bar_bar_group",
+      "insight_Extreme_35"
+    ],
+    "evidenceIds": [
+      "ev_g95_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G96": {
+    "id": "G96",
+    "claimIds": [
+      "entity:Extreme_16",
+      "relation:COMPOSED_OF:Comparison:Extreme_16",
+      "relation:SUPPORTED_BY:Extreme_16:bas_North_America_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_14:Extreme_16"
+    ],
+    "entityIds": [
+      "Extreme_16",
+      "Comparison",
+      "bas_North_America_cartesian_bar_bar_group",
+      "insight_Extreme_14"
+    ],
+    "evidenceIds": [
+      "ev_g96_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G97": {
+    "id": "G97",
+    "claimIds": [
+      "entity:Extreme_17",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_17",
+      "relation:SUPPORTED_BY:Extreme_17:bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_17"
+    ],
+    "entityIds": [
+      "Extreme_17",
+      "Comparison_2",
+      "bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "insight_Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g97_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G98": {
+    "id": "G98",
+    "claimIds": [
+      "entity:Extreme_18",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_18",
+      "relation:SUPPORTED_BY:Extreme_18:bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_13:Extreme_18"
+    ],
+    "entityIds": [
+      "Extreme_18",
+      "Comparison_5",
+      "bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "insight_Extreme_13"
+    ],
+    "evidenceIds": [
+      "ev_g98_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G99": {
+    "id": "G99",
+    "claimIds": [
+      "entity:Extreme_19",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_19",
+      "relation:SUPPORTED_BY:Extreme_19:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_19"
+    ],
+    "entityIds": [
+      "Extreme_19",
+      "Comparison_2",
+      "bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "insight_Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g99_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G100": {
+    "id": "G100",
+    "claimIds": [
+      "entity:Extreme_2",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_2",
+      "relation:SUPPORTED_BY:Extreme_2:bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_2"
+    ],
+    "entityIds": [
+      "Extreme_2",
+      "Comparison_5",
+      "bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "insight_Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g100_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G101": {
+    "id": "G101",
+    "claimIds": [
+      "entity:Extreme_20",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_20",
+      "relation:SUPPORTED_BY:Extreme_20:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_19:Extreme_20"
+    ],
+    "entityIds": [
+      "Extreme_20",
+      "Comparison_5",
+      "bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "insight_Extreme_19"
+    ],
+    "evidenceIds": [
+      "ev_g101_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G102": {
+    "id": "G102",
+    "claimIds": [
+      "entity:Extreme_21",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_21",
+      "relation:SUPPORTED_BY:Extreme_21:bas_China_Zun_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_11:Extreme_21"
+    ],
+    "entityIds": [
+      "Extreme_21",
+      "Comparison_2",
+      "bas_China_Zun_cartesian_bar_bar_group",
+      "insight_Extreme_11"
+    ],
+    "evidenceIds": [
+      "ev_g102_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G103": {
+    "id": "G103",
+    "claimIds": [
+      "entity:Extreme_22",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_22",
+      "relation:SUPPORTED_BY:Extreme_22:bas_China_Zun_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_29:Extreme_22"
+    ],
+    "entityIds": [
+      "Extreme_22",
+      "Comparison_5",
+      "bas_China_Zun_cartesian_bar_bar_group",
+      "insight_Extreme_29"
+    ],
+    "evidenceIds": [
+      "ev_g103_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G104": {
+    "id": "G104",
+    "claimIds": [
+      "entity:Extreme_23",
+      "relation:SUPPORTED_BY:Extreme_23:bas_all_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_20:Extreme_23",
+      "relation:INFERRED_FROM:Extreme_23:Comparison"
+    ],
+    "entityIds": [
+      "Extreme_23",
+      "bas_all_cartesian_bar_bar_group",
+      "insight_Extreme_20",
+      "Comparison"
+    ],
+    "evidenceIds": [
+      "ev_g104_1",
+      "ev_g104_2",
+      "ev_g104_3"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas all cartesian bar bar group"
+    ]
+  },
+  "G105": {
+    "id": "G105",
+    "claimIds": [
+      "entity:Extreme_24",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_24",
+      "relation:SUPPORTED_BY:Extreme_24:bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_23:Extreme_24"
+    ],
+    "entityIds": [
+      "Extreme_24",
+      "Comparison_2",
+      "bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "insight_Extreme_23"
+    ],
+    "evidenceIds": [
+      "ev_g105_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G106": {
+    "id": "G106",
+    "claimIds": [
+      "entity:Extreme_25",
+      "relation:SUPPORTED_BY:Extreme_25:bas_all_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_18:Extreme_25"
+    ],
+    "entityIds": [
+      "Extreme_25",
+      "bas_all_cartesian_bar_bar_group",
+      "insight_Extreme_18"
+    ],
+    "evidenceIds": [
+      "ev_g106_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas all cartesian bar bar group"
+    ]
+  },
+  "G107": {
+    "id": "G107",
+    "claimIds": [
+      "entity:Extreme_26",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_26",
+      "relation:SUPPORTED_BY:Extreme_26:bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_27:Extreme_26"
+    ],
+    "entityIds": [
+      "Extreme_26",
+      "Comparison_5",
+      "bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "insight_Extreme_27"
+    ],
+    "evidenceIds": [
+      "ev_g107_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G108": {
+    "id": "G108",
+    "claimIds": [
+      "entity:Extreme_27",
+      "relation:COMPOSED_OF:Comparison:Extreme_27",
+      "relation:SUPPORTED_BY:Extreme_27:bas_Asia_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_27"
+    ],
+    "entityIds": [
+      "Extreme_27",
+      "Comparison",
+      "bas_Asia_cartesian_bar_bar_group",
+      "insight_Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g108_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G109": {
+    "id": "G109",
+    "claimIds": [
+      "entity:Extreme_28",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_28",
+      "relation:SUPPORTED_BY:Extreme_28:bas_Asia_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_28"
+    ],
+    "entityIds": [
+      "Extreme_28",
+      "Comparison_4",
+      "bas_Asia_cartesian_bar_bar_group",
+      "insight_Extreme_3"
+    ],
+    "evidenceIds": [
+      "ev_g109_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G110": {
+    "id": "G110",
+    "claimIds": [
+      "entity:Extreme_29",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_29",
+      "relation:SUPPORTED_BY:Extreme_29:bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_36:Extreme_29"
+    ],
+    "entityIds": [
+      "Extreme_29",
+      "Comparison_2",
+      "bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "insight_Extreme_36"
+    ],
+    "evidenceIds": [
+      "ev_g110_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G111": {
+    "id": "G111",
+    "claimIds": [
+      "entity:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_3",
+      "relation:SUPPORTED_BY:Extreme_3:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_26:Extreme_3"
+    ],
+    "entityIds": [
+      "Extreme_3",
+      "Comparison_2",
+      "bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "insight_Extreme_26"
+    ],
+    "evidenceIds": [
+      "ev_g111_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G112": {
+    "id": "G112",
+    "claimIds": [
+      "entity:Extreme_30",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_30",
+      "relation:SUPPORTED_BY:Extreme_30:bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_30"
+    ],
+    "entityIds": [
+      "Extreme_30",
+      "Comparison_5",
+      "bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "insight_Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g112_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G113": {
+    "id": "G113",
+    "claimIds": [
+      "entity:Extreme_31",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_31",
+      "relation:SUPPORTED_BY:Extreme_31:bas_*Taipei_101*_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_31"
+    ],
+    "entityIds": [
+      "Extreme_31",
+      "Comparison_2",
+      "bas_*Taipei_101*_cartesian_bar_bar_group",
+      "insight_Extreme_5"
+    ],
+    "evidenceIds": [
+      "ev_g113_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G114": {
+    "id": "G114",
+    "claimIds": [
+      "entity:Extreme_32",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_32",
+      "relation:SUPPORTED_BY:Extreme_32:bas_*Taipei_101*_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_16:Extreme_32"
+    ],
+    "entityIds": [
+      "Extreme_32",
+      "Comparison_5",
+      "bas_*Taipei_101*_cartesian_bar_bar_group",
+      "insight_Extreme_16"
+    ],
+    "evidenceIds": [
+      "ev_g114_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G115": {
+    "id": "G115",
+    "claimIds": [
+      "entity:Extreme_33",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_33",
+      "relation:SUPPORTED_BY:Extreme_33:bas_Landmark_81_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme_33"
+    ],
+    "entityIds": [
+      "Extreme_33",
+      "Comparison_2",
+      "bas_Landmark_81_cartesian_bar_bar_group",
+      "insight_Extreme_1"
+    ],
+    "evidenceIds": [
+      "ev_g115_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G116": {
+    "id": "G116",
+    "claimIds": [
+      "entity:Extreme_34",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_34",
+      "relation:SUPPORTED_BY:Extreme_34:bas_Landmark_81_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_17:Extreme_34"
+    ],
+    "entityIds": [
+      "Extreme_34",
+      "Comparison_5",
+      "bas_Landmark_81_cartesian_bar_bar_group",
+      "insight_Extreme_17"
+    ],
+    "evidenceIds": [
+      "ev_g116_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G117": {
+    "id": "G117",
+    "claimIds": [
+      "entity:Extreme_35",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_35",
+      "relation:SUPPORTED_BY:Extreme_35:bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_15:Extreme_35"
+    ],
+    "entityIds": [
+      "Extreme_35",
+      "Comparison_2",
+      "bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "insight_Extreme_15"
+    ],
+    "evidenceIds": [
+      "ev_g117_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G118": {
+    "id": "G118",
+    "claimIds": [
+      "entity:Extreme_36",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_36",
+      "relation:SUPPORTED_BY:Extreme_36:bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_34:Extreme_36"
+    ],
+    "entityIds": [
+      "Extreme_36",
+      "Comparison_5",
+      "bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "insight_Extreme_34"
+    ],
+    "evidenceIds": [
+      "ev_g118_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G119": {
+    "id": "G119",
+    "claimIds": [
+      "entity:Extreme_4",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_4",
+      "relation:SUPPORTED_BY:Extreme_4:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_31:Extreme_4"
+    ],
+    "entityIds": [
+      "Extreme_4",
+      "Comparison_5",
+      "bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "insight_Extreme_31"
+    ],
+    "evidenceIds": [
+      "ev_g119_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G120": {
+    "id": "G120",
+    "claimIds": [
+      "entity:Extreme_5",
+      "relation:COMPOSED_OF:Comparison:Extreme_5",
+      "relation:SUPPORTED_BY:Extreme_5:bas_Europe_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_24:Extreme_5"
+    ],
+    "entityIds": [
+      "Extreme_5",
+      "Comparison",
+      "bas_Europe_cartesian_bar_bar_group",
+      "insight_Extreme_24"
+    ],
+    "evidenceIds": [
+      "ev_g120_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G121": {
+    "id": "G121",
+    "claimIds": [
+      "entity:Extreme_6",
+      "relation:COMPOSED_OF:Comparison_4:Extreme_6",
+      "relation:SUPPORTED_BY:Extreme_6:bas_Europe_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_22:Extreme_6"
+    ],
+    "entityIds": [
+      "Extreme_6",
+      "Comparison_4",
+      "bas_Europe_cartesian_bar_bar_group",
+      "insight_Extreme_22"
+    ],
+    "evidenceIds": [
+      "ev_g121_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G122": {
+    "id": "G122",
+    "claimIds": [
+      "entity:Extreme_7",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_7",
+      "relation:SUPPORTED_BY:Extreme_7:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_33:Extreme_7"
+    ],
+    "entityIds": [
+      "Extreme_7",
+      "Comparison_2",
+      "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "insight_Extreme_33"
+    ],
+    "evidenceIds": [
+      "ev_g122_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G123": {
+    "id": "G123",
+    "claimIds": [
+      "entity:Extreme_8",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_8",
+      "relation:SUPPORTED_BY:Extreme_8:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_28:Extreme_8"
+    ],
+    "entityIds": [
+      "Extreme_8",
+      "Comparison_5",
+      "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "insight_Extreme_28"
+    ],
+    "evidenceIds": [
+      "ev_g123_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G124": {
+    "id": "G124",
+    "claimIds": [
+      "entity:Extreme_9",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_9",
+      "relation:SUPPORTED_BY:Extreme_9:bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_21:Extreme_9"
+    ],
+    "entityIds": [
+      "Extreme_9",
+      "Comparison_2",
+      "bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "insight_Extreme_21"
+    ],
+    "evidenceIds": [
+      "ev_g124_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G125": {
+    "id": "G125",
+    "claimIds": [
+      "entity:Building",
+      "relation:ENCODES:x_position:Building",
+      "relation:VALUE_OF:*Burj_Khalifa*:Building",
+      "relation:VALUE_OF:*Taipei_101*:Building",
+      "relation:VALUE_OF:Abraj_Al-Bait_Clock_Tower:Building",
+      "relation:VALUE_OF:Central_Park_Tower:Building",
+      "relation:VALUE_OF:China_Zun:Building",
+      "relation:VALUE_OF:Guangzhou_CTF_Finance_Center_Finance_Center:Building",
+      "relation:VALUE_OF:International_Commerce_Centre:Building",
+      "relation:VALUE_OF:Lakhta_Center:Building",
+      "relation:VALUE_OF:Landmark_81:Building",
+      "relation:VALUE_OF:Lotte_World_Tower:Building",
+      "relation:VALUE_OF:One_World_Trade_Center:Building",
+      "relation:VALUE_OF:Ping_An_Finance_Center:Building",
+      "relation:VALUE_OF:Shanghai_Tower:Building",
+      "relation:VALUE_OF:Shanghai_World_Financial_Center:Building",
+      "relation:VALUE_OF:Tianjin_CTF:Building"
+    ],
+    "entityIds": [
+      "Building",
+      "x_position",
+      "*Burj_Khalifa*",
+      "*Taipei_101*",
+      "Abraj_Al-Bait_Clock_Tower",
+      "Central_Park_Tower",
+      "China_Zun",
+      "Guangzhou_CTF_Finance_Center_Finance_Center",
+      "International_Commerce_Centre",
+      "Lakhta_Center",
+      "Landmark_81",
+      "Lotte_World_Tower",
+      "One_World_Trade_Center",
+      "Ping_An_Finance_Center",
+      "Shanghai_Tower",
+      "Shanghai_World_Financial_Center",
+      "Tianjin_CTF"
+    ],
+    "evidenceIds": [
+      "ev_g125_1"
+    ],
+    "graphPath": [
+      "x position",
+      "ENCODES",
+      "Building"
+    ]
+  },
+  "G126": {
+    "id": "G126",
+    "claimIds": [
+      "entity:Height",
+      "relation:ENCODES:height:Height",
+      "relation:ENCODES:text_label:Height",
+      "relation:VALUE_OF:bar_1:Height",
+      "relation:VALUE_OF:bar_10:Height",
+      "relation:VALUE_OF:bar_11:Height",
+      "relation:VALUE_OF:bar_12:Height",
+      "relation:VALUE_OF:bar_13:Height",
+      "relation:VALUE_OF:bar_14:Height",
+      "relation:VALUE_OF:bar_15:Height",
+      "relation:VALUE_OF:bar_2:Height",
+      "relation:VALUE_OF:bar_3:Height",
+      "relation:VALUE_OF:bar_4:Height",
+      "relation:VALUE_OF:bar_5:Height",
+      "relation:VALUE_OF:bar_6:Height",
+      "relation:VALUE_OF:bar_7:Height",
+      "relation:VALUE_OF:bar_8:Height",
+      "relation:VALUE_OF:bar_9:Height"
+    ],
+    "entityIds": [
+      "Height",
+      "height",
+      "text_label",
+      "bar_1",
+      "bar_10",
+      "bar_11",
+      "bar_12",
+      "bar_13",
+      "bar_14",
+      "bar_15",
+      "bar_2",
+      "bar_3",
+      "bar_4",
+      "bar_5",
+      "bar_6",
+      "bar_7",
+      "bar_8",
+      "bar_9"
+    ],
+    "evidenceIds": [
+      "ev_g126_1"
+    ],
+    "graphPath": [
+      "height",
+      "ENCODES",
+      "Height"
+    ]
+  },
+  "G127": {
+    "id": "G127",
+    "claimIds": [
+      "entity:Region",
+      "relation:ENCODES:color:Region",
+      "relation:VALUE_OF:Asia:Region",
+      "relation:VALUE_OF:Europe:Region",
+      "relation:VALUE_OF:North_America:Region"
+    ],
+    "entityIds": [
+      "Region",
+      "color",
+      "Asia",
+      "Europe",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g127_1"
+    ],
+    "graphPath": [
+      "color",
+      "ENCODES",
+      "Region"
+    ]
+  },
+  "G128": {
+    "id": "G128",
+    "claimIds": [
+      "entity:*Burj_Khalifa*",
+      "relation:ENCODES:*Burj_Khalifa*_position:*Burj_Khalifa*",
+      "relation:VALUE_OF:*Burj_Khalifa*:Building",
+      "relation:VALUE_OF:bar_1:*Burj_Khalifa*"
+    ],
+    "entityIds": [
+      "*Burj_Khalifa*",
+      "*Burj_Khalifa*_position",
+      "Building",
+      "bar_1"
+    ],
+    "evidenceIds": [
+      "ev_g128_1"
+    ],
+    "graphPath": [
+      "*Burj Khalifa* position",
+      "ENCODES",
+      "*Burj Khalifa*"
+    ]
+  },
+  "G129": {
+    "id": "G129",
+    "claimIds": [
+      "entity:*Taipei_101*",
+      "relation:ENCODES:*Taipei_101*_position:*Taipei_101*",
+      "relation:VALUE_OF:*Taipei_101*:Building",
+      "relation:VALUE_OF:bar_10:*Taipei_101*"
+    ],
+    "entityIds": [
+      "*Taipei_101*",
+      "*Taipei_101*_position",
+      "Building",
+      "bar_10"
+    ],
+    "evidenceIds": [
+      "ev_g129_1"
+    ],
+    "graphPath": [
+      "*Taipei 101* position",
+      "ENCODES",
+      "*Taipei 101*"
+    ]
+  },
+  "G130": {
+    "id": "G130",
+    "claimIds": [
+      "entity:Abraj_Al-Bait_Clock_Tower",
+      "relation:ENCODES:Abraj_Al-Bait_Clock_Tower_position:Abraj_Al-Bait_Clock_Tower",
+      "relation:VALUE_OF:Abraj_Al-Bait_Clock_Tower:Building",
+      "relation:VALUE_OF:bar_3:Abraj_Al-Bait_Clock_Tower"
+    ],
+    "entityIds": [
+      "Abraj_Al-Bait_Clock_Tower",
+      "Abraj_Al-Bait_Clock_Tower_position",
+      "Building",
+      "bar_3"
+    ],
+    "evidenceIds": [
+      "ev_g130_1"
+    ],
+    "graphPath": [
+      "Abraj Al-Bait Clock Tower position",
+      "ENCODES",
+      "Abraj Al-Bait Clock Tower"
+    ]
+  },
+  "G131": {
+    "id": "G131",
+    "claimIds": [
+      "entity:Asia",
+      "relation:ENCODES:rgb_136_207_227:Asia",
+      "relation:VALUE_OF:Asia:Region",
+      "relation:VALUE_OF:bar_1:Asia",
+      "relation:VALUE_OF:bar_10:Asia",
+      "relation:VALUE_OF:bar_11:Asia",
+      "relation:VALUE_OF:bar_12:Asia",
+      "relation:VALUE_OF:bar_15:Asia",
+      "relation:VALUE_OF:bar_2:Asia",
+      "relation:VALUE_OF:bar_3:Asia",
+      "relation:VALUE_OF:bar_4:Asia",
+      "relation:VALUE_OF:bar_5:Asia",
+      "relation:VALUE_OF:bar_7:Asia",
+      "relation:VALUE_OF:bar_8:Asia",
+      "relation:VALUE_OF:bar_9:Asia"
+    ],
+    "entityIds": [
+      "Asia",
+      "rgb_136_207_227",
+      "Region",
+      "bar_1",
+      "bar_10",
+      "bar_11",
+      "bar_12",
+      "bar_15",
+      "bar_2",
+      "bar_3",
+      "bar_4",
+      "bar_5",
+      "bar_7",
+      "bar_8",
+      "bar_9"
+    ],
+    "evidenceIds": [
+      "ev_g131_1"
+    ],
+    "graphPath": [
+      "rgb 136 207 227",
+      "ENCODES",
+      "Asia"
+    ]
+  },
+  "G132": {
+    "id": "G132",
+    "claimIds": [
+      "entity:Central_Park_Tower",
+      "relation:ENCODES:Central_Park_Tower_position:Central_Park_Tower",
+      "relation:VALUE_OF:Central_Park_Tower:Building",
+      "relation:VALUE_OF:bar_13:Central_Park_Tower"
+    ],
+    "entityIds": [
+      "Central_Park_Tower",
+      "Central_Park_Tower_position",
+      "Building",
+      "bar_13"
+    ],
+    "evidenceIds": [
+      "ev_g132_1"
+    ],
+    "graphPath": [
+      "Central Park Tower position",
+      "ENCODES",
+      "Central Park Tower"
+    ]
+  },
+  "G133": {
+    "id": "G133",
+    "claimIds": [
+      "entity:China_Zun",
+      "relation:ENCODES:China_Zun_position:China_Zun",
+      "relation:VALUE_OF:China_Zun:Building",
+      "relation:VALUE_OF:bar_9:China_Zun"
+    ],
+    "entityIds": [
+      "China_Zun",
+      "China_Zun_position",
+      "Building",
+      "bar_9"
+    ],
+    "evidenceIds": [
+      "ev_g133_1"
+    ],
+    "graphPath": [
+      "China Zun position",
+      "ENCODES",
+      "China Zun"
+    ]
+  },
+  "G134": {
+    "id": "G134",
+    "claimIds": [
+      "entity:Europe",
+      "relation:ENCODES:rgb_248_173_0:Europe",
+      "relation:VALUE_OF:Europe:Region",
+      "relation:VALUE_OF:bar_14:Europe"
+    ],
+    "entityIds": [
+      "Europe",
+      "rgb_248_173_0",
+      "Region",
+      "bar_14"
+    ],
+    "evidenceIds": [
+      "ev_g134_1"
+    ],
+    "graphPath": [
+      "rgb 248 173 0",
+      "ENCODES",
+      "Europe"
+    ]
+  },
+  "G135": {
+    "id": "G135",
+    "claimIds": [
+      "entity:Guangzhou_CTF_Finance_Center_Finance_Center",
+      "relation:ENCODES:Guangzhou_CTF_Finance_Center_Finance_Center_position:Guangzhou_CTF_Finance_Center_Finance_Center",
+      "relation:VALUE_OF:Guangzhou_CTF_Finance_Center_Finance_Center:Building",
+      "relation:VALUE_OF:bar_7:Guangzhou_CTF_Finance_Center_Finance_Center"
+    ],
+    "entityIds": [
+      "Guangzhou_CTF_Finance_Center_Finance_Center",
+      "Guangzhou_CTF_Finance_Center_Finance_Center_position",
+      "Building",
+      "bar_7"
+    ],
+    "evidenceIds": [
+      "ev_g135_1"
+    ],
+    "graphPath": [
+      "Guangzhou CTF Finance Center Finance Center position",
+      "ENCODES",
+      "Guangzhou CTF Finance Center Finance Center"
+    ]
+  },
+  "G136": {
+    "id": "G136",
+    "claimIds": [
+      "entity:International_Commerce_Centre",
+      "relation:ENCODES:International_Commerce_Centre_position:International_Commerce_Centre",
+      "relation:VALUE_OF:International_Commerce_Centre:Building",
+      "relation:VALUE_OF:bar_12:International_Commerce_Centre"
+    ],
+    "entityIds": [
+      "International_Commerce_Centre",
+      "International_Commerce_Centre_position",
+      "Building",
+      "bar_12"
+    ],
+    "evidenceIds": [
+      "ev_g136_1"
+    ],
+    "graphPath": [
+      "International Commerce Centre position",
+      "ENCODES",
+      "International Commerce Centre"
+    ]
+  },
+  "G137": {
+    "id": "G137",
+    "claimIds": [
+      "entity:Lakhta_Center",
+      "relation:ENCODES:Lakhta_Center_position:Lakhta_Center",
+      "relation:VALUE_OF:Lakhta_Center:Building",
+      "relation:VALUE_OF:bar_14:Lakhta_Center"
+    ],
+    "entityIds": [
+      "Lakhta_Center",
+      "Lakhta_Center_position",
+      "Building",
+      "bar_14"
+    ],
+    "evidenceIds": [
+      "ev_g137_1"
+    ],
+    "graphPath": [
+      "Lakhta Center position",
+      "ENCODES",
+      "Lakhta Center"
+    ]
+  },
+  "G138": {
+    "id": "G138",
+    "claimIds": [
+      "entity:Landmark_81",
+      "relation:ENCODES:Landmark_81_position:Landmark_81",
+      "relation:VALUE_OF:Landmark_81:Building",
+      "relation:VALUE_OF:bar_15:Landmark_81"
+    ],
+    "entityIds": [
+      "Landmark_81",
+      "Landmark_81_position",
+      "Building",
+      "bar_15"
+    ],
+    "evidenceIds": [
+      "ev_g138_1"
+    ],
+    "graphPath": [
+      "Landmark 81 position",
+      "ENCODES",
+      "Landmark 81"
+    ]
+  },
+  "G139": {
+    "id": "G139",
+    "claimIds": [
+      "entity:Lotte_World_Tower",
+      "relation:ENCODES:Lotte_World_Tower_position:Lotte_World_Tower",
+      "relation:VALUE_OF:Lotte_World_Tower:Building",
+      "relation:VALUE_OF:bar_5:Lotte_World_Tower"
+    ],
+    "entityIds": [
+      "Lotte_World_Tower",
+      "Lotte_World_Tower_position",
+      "Building",
+      "bar_5"
+    ],
+    "evidenceIds": [
+      "ev_g139_1"
+    ],
+    "graphPath": [
+      "Lotte World Tower position",
+      "ENCODES",
+      "Lotte World Tower"
+    ]
+  },
+  "G140": {
+    "id": "G140",
+    "claimIds": [
+      "entity:North_America",
+      "relation:ENCODES:rgb_231_86_34:North_America",
+      "relation:VALUE_OF:North_America:Region",
+      "relation:VALUE_OF:bar_13:North_America",
+      "relation:VALUE_OF:bar_6:North_America"
+    ],
+    "entityIds": [
+      "North_America",
+      "rgb_231_86_34",
+      "Region",
+      "bar_13",
+      "bar_6"
+    ],
+    "evidenceIds": [
+      "ev_g140_1",
+      "ev_g140_2"
+    ],
+    "graphPath": [
+      "rgb 231 86 34",
+      "ENCODES",
+      "North America"
+    ]
+  },
+  "G141": {
+    "id": "G141",
+    "claimIds": [
+      "entity:One_World_Trade_Center",
+      "relation:ENCODES:One_World_Trade_Center_position:One_World_Trade_Center",
+      "relation:VALUE_OF:One_World_Trade_Center:Building",
+      "relation:VALUE_OF:bar_6:One_World_Trade_Center"
+    ],
+    "entityIds": [
+      "One_World_Trade_Center",
+      "One_World_Trade_Center_position",
+      "Building",
+      "bar_6"
+    ],
+    "evidenceIds": [
+      "ev_g141_1"
+    ],
+    "graphPath": [
+      "One World Trade Center position",
+      "ENCODES",
+      "One World Trade Center"
+    ]
+  },
+  "G142": {
+    "id": "G142",
+    "claimIds": [
+      "entity:Ping_An_Finance_Center",
+      "relation:ENCODES:Ping_An_Finance_Center_position:Ping_An_Finance_Center",
+      "relation:VALUE_OF:Ping_An_Finance_Center:Building",
+      "relation:VALUE_OF:bar_4:Ping_An_Finance_Center"
+    ],
+    "entityIds": [
+      "Ping_An_Finance_Center",
+      "Ping_An_Finance_Center_position",
+      "Building",
+      "bar_4"
+    ],
+    "evidenceIds": [
+      "ev_g142_1"
+    ],
+    "graphPath": [
+      "Ping An Finance Center position",
+      "ENCODES",
+      "Ping An Finance Center"
+    ]
+  },
+  "G143": {
+    "id": "G143",
+    "claimIds": [
+      "entity:Shanghai_Tower",
+      "relation:ENCODES:Shanghai_Tower_position:Shanghai_Tower",
+      "relation:VALUE_OF:Shanghai_Tower:Building",
+      "relation:VALUE_OF:bar_2:Shanghai_Tower"
+    ],
+    "entityIds": [
+      "Shanghai_Tower",
+      "Shanghai_Tower_position",
+      "Building",
+      "bar_2"
+    ],
+    "evidenceIds": [
+      "ev_g143_1"
+    ],
+    "graphPath": [
+      "Shanghai Tower position",
+      "ENCODES",
+      "Shanghai Tower"
+    ]
+  },
+  "G144": {
+    "id": "G144",
+    "claimIds": [
+      "entity:Shanghai_World_Financial_Center",
+      "relation:ENCODES:Shanghai_World_Financial_Center_position:Shanghai_World_Financial_Center",
+      "relation:VALUE_OF:Shanghai_World_Financial_Center:Building",
+      "relation:VALUE_OF:bar_11:Shanghai_World_Financial_Center"
+    ],
+    "entityIds": [
+      "Shanghai_World_Financial_Center",
+      "Shanghai_World_Financial_Center_position",
+      "Building",
+      "bar_11"
+    ],
+    "evidenceIds": [
+      "ev_g144_1"
+    ],
+    "graphPath": [
+      "Shanghai World Financial Center position",
+      "ENCODES",
+      "Shanghai World Financial Center"
+    ]
+  },
+  "G145": {
+    "id": "G145",
+    "claimIds": [
+      "entity:Tianjin_CTF",
+      "relation:ENCODES:Tianjin_CTF_position:Tianjin_CTF",
+      "relation:VALUE_OF:Tianjin_CTF:Building",
+      "relation:VALUE_OF:bar_8:Tianjin_CTF"
+    ],
+    "entityIds": [
+      "Tianjin_CTF",
+      "Tianjin_CTF_position",
+      "Building",
+      "bar_8"
+    ],
+    "evidenceIds": [
+      "ev_g145_1"
+    ],
+    "graphPath": [
+      "Tianjin CTF position",
+      "ENCODES",
+      "Tianjin CTF"
+    ]
+  },
+  "G146": {
+    "id": "G146",
+    "claimIds": [
+      "entity:cartesian_bar",
+      "relation:HAS_VIEW:chart:cartesian_bar",
+      "relation:COMPOSED_OF:cartesian_bar:bar_group"
+    ],
+    "entityIds": [
+      "cartesian_bar",
+      "chart",
+      "bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g146_1"
+    ],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "cartesian bar"
+    ]
+  },
+  "G147": {
+    "id": "G147",
+    "claimIds": [
+      "entity:bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_*Burj_Khalifa*_cartesian_bar_bar_group:bar_1",
+      "relation:SUPPORTED_BY:Composition_10:bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_17:bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_18:bas_*Burj_Khalifa*_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "bar_1",
+      "Composition_10",
+      "Extreme_17",
+      "Extreme_18"
+    ],
+    "evidenceIds": [
+      "ev_g147_1"
+    ],
+    "graphPath": [
+      "bas *Burj Khalifa* cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 1"
+    ]
+  },
+  "G148": {
+    "id": "G148",
+    "claimIds": [
+      "entity:bas_*Taipei_101*_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_*Taipei_101*_cartesian_bar_bar_group:bar_10",
+      "relation:SUPPORTED_BY:Composition_16:bas_*Taipei_101*_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_31:bas_*Taipei_101*_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_32:bas_*Taipei_101*_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_*Taipei_101*_cartesian_bar_bar_group",
+      "bar_10",
+      "Composition_16",
+      "Extreme_31",
+      "Extreme_32"
+    ],
+    "evidenceIds": [
+      "ev_g148_1"
+    ],
+    "graphPath": [
+      "bas *Taipei 101* cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 10"
+    ]
+  },
+  "G149": {
+    "id": "G149",
+    "claimIds": [
+      "entity:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group:bar_3",
+      "relation:SUPPORTED_BY:Composition_3:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_3:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_4:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "bar_3",
+      "Composition_3",
+      "Extreme_3",
+      "Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g149_1"
+    ],
+    "graphPath": [
+      "bas Abraj Al-Bait Clock Tower cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 3"
+    ]
+  },
+  "G150": {
+    "id": "G150",
+    "claimIds": [
+      "entity:bas_Asia_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_10",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_11",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_12",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_15",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_9",
+      "relation:SUPPORTED_BY:Composition_13:bas_Asia_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Distribution_2:bas_Asia_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Distribution_3:bas_Asia_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_27:bas_Asia_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_28:bas_Asia_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Asia_cartesian_bar_bar_group",
+      "bar_1",
+      "bar_10",
+      "bar_11",
+      "bar_12",
+      "bar_15",
+      "bar_2",
+      "bar_3",
+      "bar_4",
+      "bar_5",
+      "bar_7",
+      "bar_8",
+      "bar_9",
+      "Composition_13",
+      "Distribution_2",
+      "Distribution_3",
+      "Extreme_27",
+      "Extreme_28"
+    ],
+    "evidenceIds": [
+      "ev_g150_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 1"
+    ]
+  },
+  "G151": {
+    "id": "G151",
+    "claimIds": [
+      "entity:bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Central_Park_Tower_cartesian_bar_bar_group:bar_13",
+      "relation:SUPPORTED_BY:Composition_17:bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_29:bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_30:bas_Central_Park_Tower_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "bar_13",
+      "Composition_17",
+      "Extreme_29",
+      "Extreme_30"
+    ],
+    "evidenceIds": [
+      "ev_g151_1"
+    ],
+    "graphPath": [
+      "bas Central Park Tower cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 13"
+    ]
+  },
+  "G152": {
+    "id": "G152",
+    "claimIds": [
+      "entity:bas_China_Zun_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_China_Zun_cartesian_bar_bar_group:bar_9",
+      "relation:SUPPORTED_BY:Composition_12:bas_China_Zun_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_21:bas_China_Zun_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_22:bas_China_Zun_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_China_Zun_cartesian_bar_bar_group",
+      "bar_9",
+      "Composition_12",
+      "Extreme_21",
+      "Extreme_22"
+    ],
+    "evidenceIds": [
+      "ev_g152_1"
+    ],
+    "graphPath": [
+      "bas China Zun cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 9"
+    ]
+  },
+  "G153": {
+    "id": "G153",
+    "claimIds": [
+      "entity:bas_Europe_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Europe_cartesian_bar_bar_group:bar_14",
+      "relation:SUPPORTED_BY:Composition_2:bas_Europe_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_5:bas_Europe_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_6:bas_Europe_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Europe_cartesian_bar_bar_group",
+      "bar_14",
+      "Composition_2",
+      "Extreme_5",
+      "Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g153_1"
+    ],
+    "graphPath": [
+      "bas Europe cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 14"
+    ]
+  },
+  "G154": {
+    "id": "G154",
+    "claimIds": [
+      "entity:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group:bar_7",
+      "relation:SUPPORTED_BY:Composition_11:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_19:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_20:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "bar_7",
+      "Composition_11",
+      "Extreme_19",
+      "Extreme_20"
+    ],
+    "evidenceIds": [
+      "ev_g154_1"
+    ],
+    "graphPath": [
+      "bas Guangzhou CTF Finance Center Finance Center cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 7"
+    ]
+  },
+  "G155": {
+    "id": "G155",
+    "claimIds": [
+      "entity:bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_International_Commerce_Centre_cartesian_bar_bar_group:bar_12",
+      "relation:SUPPORTED_BY:Composition:bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme:bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_2:bas_International_Commerce_Centre_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "bar_12",
+      "Composition",
+      "Extreme",
+      "Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g155_1"
+    ],
+    "graphPath": [
+      "bas International Commerce Centre cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 12"
+    ]
+  },
+  "G156": {
+    "id": "G156",
+    "claimIds": [
+      "entity:bas_Lakhta_Center_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Lakhta_Center_cartesian_bar_bar_group:bar_14",
+      "relation:SUPPORTED_BY:Composition_6:bas_Lakhta_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_11:bas_Lakhta_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_12:bas_Lakhta_Center_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Lakhta_Center_cartesian_bar_bar_group",
+      "bar_14",
+      "Composition_6",
+      "Extreme_11",
+      "Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g156_1"
+    ],
+    "graphPath": [
+      "bas Lakhta Center cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 14"
+    ]
+  },
+  "G157": {
+    "id": "G157",
+    "claimIds": [
+      "entity:bas_Landmark_81_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Landmark_81_cartesian_bar_bar_group:bar_15",
+      "relation:SUPPORTED_BY:Composition_18:bas_Landmark_81_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_33:bas_Landmark_81_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_34:bas_Landmark_81_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Landmark_81_cartesian_bar_bar_group",
+      "bar_15",
+      "Composition_18",
+      "Extreme_33",
+      "Extreme_34"
+    ],
+    "evidenceIds": [
+      "ev_g157_1"
+    ],
+    "graphPath": [
+      "bas Landmark 81 cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 15"
+    ]
+  },
+  "G158": {
+    "id": "G158",
+    "claimIds": [
+      "entity:bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Lotte_World_Tower_cartesian_bar_bar_group:bar_5",
+      "relation:SUPPORTED_BY:Composition_15:bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_24:bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_26:bas_Lotte_World_Tower_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "bar_5",
+      "Composition_15",
+      "Extreme_24",
+      "Extreme_26"
+    ],
+    "evidenceIds": [
+      "ev_g158_1"
+    ],
+    "graphPath": [
+      "bas Lotte World Tower cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 5"
+    ]
+  },
+  "G159": {
+    "id": "G159",
+    "claimIds": [
+      "entity:bas_North_America_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_13",
+      "relation:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_6",
+      "relation:SUPPORTED_BY:Composition_9:bas_North_America_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_15:bas_North_America_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_16:bas_North_America_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_North_America_cartesian_bar_bar_group",
+      "bar_13",
+      "bar_6",
+      "Composition_9",
+      "Extreme_15",
+      "Extreme_16"
+    ],
+    "evidenceIds": [
+      "ev_g159_1",
+      "ev_g159_2"
+    ],
+    "graphPath": [
+      "bas North America cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 13"
+    ]
+  },
+  "G160": {
+    "id": "G160",
+    "claimIds": [
+      "entity:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_One_World_Trade_Center_cartesian_bar_bar_group:bar_6",
+      "relation:SUPPORTED_BY:Composition_4:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_7:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_8:bas_One_World_Trade_Center_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "bar_6",
+      "Composition_4",
+      "Extreme_7",
+      "Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g160_1"
+    ],
+    "graphPath": [
+      "bas One World Trade Center cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 6"
+    ]
+  },
+  "G161": {
+    "id": "G161",
+    "claimIds": [
+      "entity:bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Ping_An_Finance_Center_cartesian_bar_bar_group:bar_4",
+      "relation:SUPPORTED_BY:Composition_19:bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_35:bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_36:bas_Ping_An_Finance_Center_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "bar_4",
+      "Composition_19",
+      "Extreme_35",
+      "Extreme_36"
+    ],
+    "evidenceIds": [
+      "ev_g161_1"
+    ],
+    "graphPath": [
+      "bas Ping An Finance Center cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 4"
+    ]
+  },
+  "G162": {
+    "id": "G162",
+    "claimIds": [
+      "entity:bas_Shanghai_Tower_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Shanghai_Tower_cartesian_bar_bar_group:bar_2",
+      "relation:SUPPORTED_BY:Composition_8:bas_Shanghai_Tower_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Shanghai_Tower_cartesian_bar_bar_group",
+      "bar_2",
+      "Composition_8"
+    ],
+    "evidenceIds": [
+      "ev_g162_1"
+    ],
+    "graphPath": [
+      "bas Shanghai Tower cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 2"
+    ]
+  },
+  "G163": {
+    "id": "G163",
+    "claimIds": [
+      "entity:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group:bar_11",
+      "relation:SUPPORTED_BY:Composition_7:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_13:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_14:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "bar_11",
+      "Composition_7",
+      "Extreme_13",
+      "Extreme_14"
+    ],
+    "evidenceIds": [
+      "ev_g163_1"
+    ],
+    "graphPath": [
+      "bas Shanghai World Financial Center cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 11"
+    ]
+  },
+  "G164": {
+    "id": "G164",
+    "claimIds": [
+      "entity:bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Tianjin_CTF_cartesian_bar_bar_group:bar_8",
+      "relation:SUPPORTED_BY:Composition_5:bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_10:bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_9:bas_Tianjin_CTF_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "bar_8",
+      "Composition_5",
+      "Extreme_10",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g164_1"
+    ],
+    "graphPath": [
+      "bas Tianjin CTF cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 8"
+    ]
+  },
+  "G165": {
+    "id": "G165",
+    "claimIds": [
+      "entity:bas_all_cartesian_bar_bar_group",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_10",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_11",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_12",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_13",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_14",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_15",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_6",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_9",
+      "relation:SUPPORTED_BY:Composition_14:bas_all_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Distribution:bas_all_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_23:bas_all_cartesian_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_25:bas_all_cartesian_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_all_cartesian_bar_bar_group",
+      "bar_1",
+      "bar_10",
+      "bar_11",
+      "bar_12",
+      "bar_13",
+      "bar_14",
+      "bar_15",
+      "bar_2",
+      "bar_3",
+      "bar_4",
+      "bar_5",
+      "bar_6",
+      "bar_7",
+      "bar_8",
+      "bar_9",
+      "Composition_14",
+      "Distribution",
+      "Extreme_23",
+      "Extreme_25"
+    ],
+    "evidenceIds": [
+      "ev_g165_1"
+    ],
+    "graphPath": [
+      "bas all cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 1"
+    ]
+  },
+  "G166": {
+    "id": "G166",
+    "claimIds": [
+      "entity:bar_group",
+      "relation:COMPOSED_OF:cartesian_bar:bar_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:x_position",
+      "relation:HAS_ANNOTATION:bar_group:text_label"
+    ],
+    "entityIds": [
+      "bar_group",
+      "cartesian_bar",
+      "color",
+      "height",
+      "x_position",
+      "text_label"
+    ],
+    "evidenceIds": [
+      "ev_g166_1"
+    ],
+    "graphPath": [
+      "cartesian bar",
+      "COMPOSED_OF",
+      "bar group"
+    ]
+  },
+  "G167": {
+    "id": "G167",
+    "claimIds": [
+      "entity:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_136_207_227",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_231_86_34",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_248_173_0",
+      "relation:ENCODES:color:Region"
+    ],
+    "entityIds": [
+      "color",
+      "bar_group",
+      "rgb_136_207_227",
+      "rgb_231_86_34",
+      "rgb_248_173_0",
+      "Region"
+    ],
+    "evidenceIds": [
+      "ev_g167_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "color"
+    ]
+  },
+  "G168": {
+    "id": "G168",
+    "claimIds": [
+      "entity:height",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+      "relation:ENCODES:height:Height"
+    ],
+    "entityIds": [
+      "height",
+      "bar_group",
+      "Height"
+    ],
+    "evidenceIds": [
+      "ev_g168_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "height"
+    ]
+  },
+  "G169": {
+    "id": "G169",
+    "claimIds": [
+      "entity:text_label",
+      "relation:HAS_ANNOTATION:bar_group:text_label",
+      "relation:ENCODES:text_label:Height"
+    ],
+    "entityIds": [
+      "text_label",
+      "bar_group",
+      "Height"
+    ],
+    "evidenceIds": [
+      "ev_g169_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_ANNOTATION",
+      "text label"
+    ]
+  },
+  "G170": {
+    "id": "G170",
+    "claimIds": [
+      "entity:x_position",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:x_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:*Burj_Khalifa*_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:*Taipei_101*_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Abraj_Al-Bait_Clock_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Central_Park_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:China_Zun_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Guangzhou_CTF_Finance_Center_Finance_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:International_Commerce_Centre_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Lakhta_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Landmark_81_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Lotte_World_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:One_World_Trade_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Ping_An_Finance_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Shanghai_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Shanghai_World_Financial_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Tianjin_CTF_position",
+      "relation:ENCODES:x_position:Building"
+    ],
+    "entityIds": [
+      "x_position",
+      "bar_group",
+      "*Burj_Khalifa*_position",
+      "*Taipei_101*_position",
+      "Abraj_Al-Bait_Clock_Tower_position",
+      "Central_Park_Tower_position",
+      "China_Zun_position",
+      "Guangzhou_CTF_Finance_Center_Finance_Center_position",
+      "International_Commerce_Centre_position",
+      "Lakhta_Center_position",
+      "Landmark_81_position",
+      "Lotte_World_Tower_position",
+      "One_World_Trade_Center_position",
+      "Ping_An_Finance_Center_position",
+      "Shanghai_Tower_position",
+      "Shanghai_World_Financial_Center_position",
+      "Tianjin_CTF_position",
+      "Building"
+    ],
+    "evidenceIds": [
+      "ev_g170_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "x position"
+    ]
+  },
+  "G171": {
+    "id": "G171",
+    "claimIds": [
+      "entity:*Burj_Khalifa*_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:*Burj_Khalifa*_position",
+      "relation:ENCODES:*Burj_Khalifa*_position:*Burj_Khalifa*"
+    ],
+    "entityIds": [
+      "*Burj_Khalifa*_position",
+      "x_position",
+      "*Burj_Khalifa*"
+    ],
+    "evidenceIds": [
+      "ev_g171_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "*Burj Khalifa* position"
+    ]
+  },
+  "G172": {
+    "id": "G172",
+    "claimIds": [
+      "entity:*Taipei_101*_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:*Taipei_101*_position",
+      "relation:ENCODES:*Taipei_101*_position:*Taipei_101*"
+    ],
+    "entityIds": [
+      "*Taipei_101*_position",
+      "x_position",
+      "*Taipei_101*"
+    ],
+    "evidenceIds": [
+      "ev_g172_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "*Taipei 101* position"
+    ]
+  },
+  "G173": {
+    "id": "G173",
+    "claimIds": [
+      "entity:Abraj_Al-Bait_Clock_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Abraj_Al-Bait_Clock_Tower_position",
+      "relation:ENCODES:Abraj_Al-Bait_Clock_Tower_position:Abraj_Al-Bait_Clock_Tower"
+    ],
+    "entityIds": [
+      "Abraj_Al-Bait_Clock_Tower_position",
+      "x_position",
+      "Abraj_Al-Bait_Clock_Tower"
+    ],
+    "evidenceIds": [
+      "ev_g173_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Abraj Al-Bait Clock Tower position"
+    ]
+  },
+  "G174": {
+    "id": "G174",
+    "claimIds": [
+      "entity:Central_Park_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Central_Park_Tower_position",
+      "relation:ENCODES:Central_Park_Tower_position:Central_Park_Tower"
+    ],
+    "entityIds": [
+      "Central_Park_Tower_position",
+      "x_position",
+      "Central_Park_Tower"
+    ],
+    "evidenceIds": [
+      "ev_g174_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Central Park Tower position"
+    ]
+  },
+  "G175": {
+    "id": "G175",
+    "claimIds": [
+      "entity:China_Zun_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:China_Zun_position",
+      "relation:ENCODES:China_Zun_position:China_Zun"
+    ],
+    "entityIds": [
+      "China_Zun_position",
+      "x_position",
+      "China_Zun"
+    ],
+    "evidenceIds": [
+      "ev_g175_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "China Zun position"
+    ]
+  },
+  "G176": {
+    "id": "G176",
+    "claimIds": [
+      "entity:Guangzhou_CTF_Finance_Center_Finance_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Guangzhou_CTF_Finance_Center_Finance_Center_position",
+      "relation:ENCODES:Guangzhou_CTF_Finance_Center_Finance_Center_position:Guangzhou_CTF_Finance_Center_Finance_Center"
+    ],
+    "entityIds": [
+      "Guangzhou_CTF_Finance_Center_Finance_Center_position",
+      "x_position",
+      "Guangzhou_CTF_Finance_Center_Finance_Center"
+    ],
+    "evidenceIds": [
+      "ev_g176_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Guangzhou CTF Finance Center Finance Center position"
+    ]
+  },
+  "G177": {
+    "id": "G177",
+    "claimIds": [
+      "entity:International_Commerce_Centre_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:International_Commerce_Centre_position",
+      "relation:ENCODES:International_Commerce_Centre_position:International_Commerce_Centre"
+    ],
+    "entityIds": [
+      "International_Commerce_Centre_position",
+      "x_position",
+      "International_Commerce_Centre"
+    ],
+    "evidenceIds": [
+      "ev_g177_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "International Commerce Centre position"
+    ]
+  },
+  "G178": {
+    "id": "G178",
+    "claimIds": [
+      "entity:Lakhta_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Lakhta_Center_position",
+      "relation:ENCODES:Lakhta_Center_position:Lakhta_Center"
+    ],
+    "entityIds": [
+      "Lakhta_Center_position",
+      "x_position",
+      "Lakhta_Center"
+    ],
+    "evidenceIds": [
+      "ev_g178_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Lakhta Center position"
+    ]
+  },
+  "G179": {
+    "id": "G179",
+    "claimIds": [
+      "entity:Landmark_81_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Landmark_81_position",
+      "relation:ENCODES:Landmark_81_position:Landmark_81"
+    ],
+    "entityIds": [
+      "Landmark_81_position",
+      "x_position",
+      "Landmark_81"
+    ],
+    "evidenceIds": [
+      "ev_g179_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Landmark 81 position"
+    ]
+  },
+  "G180": {
+    "id": "G180",
+    "claimIds": [
+      "entity:Lotte_World_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Lotte_World_Tower_position",
+      "relation:ENCODES:Lotte_World_Tower_position:Lotte_World_Tower"
+    ],
+    "entityIds": [
+      "Lotte_World_Tower_position",
+      "x_position",
+      "Lotte_World_Tower"
+    ],
+    "evidenceIds": [
+      "ev_g180_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Lotte World Tower position"
+    ]
+  },
+  "G181": {
+    "id": "G181",
+    "claimIds": [
+      "entity:One_World_Trade_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:One_World_Trade_Center_position",
+      "relation:ENCODES:One_World_Trade_Center_position:One_World_Trade_Center"
+    ],
+    "entityIds": [
+      "One_World_Trade_Center_position",
+      "x_position",
+      "One_World_Trade_Center"
+    ],
+    "evidenceIds": [
+      "ev_g181_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "One World Trade Center position"
+    ]
+  },
+  "G182": {
+    "id": "G182",
+    "claimIds": [
+      "entity:Ping_An_Finance_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Ping_An_Finance_Center_position",
+      "relation:ENCODES:Ping_An_Finance_Center_position:Ping_An_Finance_Center"
+    ],
+    "entityIds": [
+      "Ping_An_Finance_Center_position",
+      "x_position",
+      "Ping_An_Finance_Center"
+    ],
+    "evidenceIds": [
+      "ev_g182_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Ping An Finance Center position"
+    ]
+  },
+  "G183": {
+    "id": "G183",
+    "claimIds": [
+      "entity:Shanghai_Tower_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Shanghai_Tower_position",
+      "relation:ENCODES:Shanghai_Tower_position:Shanghai_Tower"
+    ],
+    "entityIds": [
+      "Shanghai_Tower_position",
+      "x_position",
+      "Shanghai_Tower"
+    ],
+    "evidenceIds": [
+      "ev_g183_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Shanghai Tower position"
+    ]
+  },
+  "G184": {
+    "id": "G184",
+    "claimIds": [
+      "entity:Shanghai_World_Financial_Center_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Shanghai_World_Financial_Center_position",
+      "relation:ENCODES:Shanghai_World_Financial_Center_position:Shanghai_World_Financial_Center"
+    ],
+    "entityIds": [
+      "Shanghai_World_Financial_Center_position",
+      "x_position",
+      "Shanghai_World_Financial_Center"
+    ],
+    "evidenceIds": [
+      "ev_g184_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Shanghai World Financial Center position"
+    ]
+  },
+  "G185": {
+    "id": "G185",
+    "claimIds": [
+      "entity:Tianjin_CTF_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Tianjin_CTF_position",
+      "relation:ENCODES:Tianjin_CTF_position:Tianjin_CTF"
+    ],
+    "entityIds": [
+      "Tianjin_CTF_position",
+      "x_position",
+      "Tianjin_CTF"
+    ],
+    "evidenceIds": [
+      "ev_g185_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Tianjin CTF position"
+    ]
+  },
+  "G186": {
+    "id": "G186",
+    "claimIds": [
+      "entity:rgb_136_207_227",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_136_207_227",
+      "relation:ENCODES:rgb_136_207_227:Asia"
+    ],
+    "entityIds": [
+      "rgb_136_207_227",
+      "color",
+      "Asia"
+    ],
+    "evidenceIds": [
+      "ev_g186_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 136 207 227"
+    ]
+  },
+  "G187": {
+    "id": "G187",
+    "claimIds": [
+      "entity:rgb_231_86_34",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_231_86_34",
+      "relation:ENCODES:rgb_231_86_34:North_America"
+    ],
+    "entityIds": [
+      "rgb_231_86_34",
+      "color",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g187_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 231 86 34"
+    ]
+  },
+  "G188": {
+    "id": "G188",
+    "claimIds": [
+      "entity:rgb_248_173_0",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_248_173_0",
+      "relation:ENCODES:rgb_248_173_0:Europe"
+    ],
+    "entityIds": [
+      "rgb_248_173_0",
+      "color",
+      "Europe"
+    ],
+    "evidenceIds": [
+      "ev_g188_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 248 173 0"
+    ]
+  },
+  "G189": {
+    "id": "G189",
+    "claimIds": [
+      "entity:chart",
+      "relation:HAS_VIEW:chart:cartesian_bar"
+    ],
+    "entityIds": [
+      "chart",
+      "cartesian_bar"
+    ],
+    "evidenceIds": [
+      "ev_g189_1"
+    ],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "cartesian bar"
+    ]
+  },
+  "G190": {
+    "id": "G190",
+    "claimIds": [
+      "entity:bar_1",
+      "relation:COMPOSED_OF:bas_*Burj_Khalifa*_cartesian_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_1",
+      "relation:VALUE_OF:bar_1:*Burj_Khalifa*",
+      "relation:VALUE_OF:bar_1:Asia",
+      "relation:VALUE_OF:bar_1:Height"
+    ],
+    "entityIds": [
+      "bar_1",
+      "bas_*Burj_Khalifa*_cartesian_bar_bar_group",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "*Burj_Khalifa*",
+      "Asia",
+      "Height"
+    ],
+    "evidenceIds": [
+      "ev_g190_1"
+    ],
+    "graphPath": [
+      "bas *Burj Khalifa* cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 1"
+    ]
+  },
+  "G191": {
+    "id": "G191",
+    "claimIds": [
+      "entity:bar_10",
+      "relation:COMPOSED_OF:bas_*Taipei_101*_cartesian_bar_bar_group:bar_10",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_10",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_10",
+      "relation:VALUE_OF:bar_10:*Taipei_101*",
+      "relation:VALUE_OF:bar_10:Asia",
+      "relation:VALUE_OF:bar_10:Height"
+    ],
+    "entityIds": [
+      "bar_10",
+      "bas_*Taipei_101*_cartesian_bar_bar_group",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "*Taipei_101*",
+      "Asia",
+      "Height"
+    ],
+    "evidenceIds": [
+      "ev_g191_1"
+    ],
+    "graphPath": [
+      "bas *Taipei 101* cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 10"
+    ]
+  },
+  "G192": {
+    "id": "G192",
+    "claimIds": [
+      "entity:bar_11",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_11",
+      "relation:COMPOSED_OF:bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group:bar_11",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_11",
+      "relation:VALUE_OF:bar_11:Asia",
+      "relation:VALUE_OF:bar_11:Height",
+      "relation:VALUE_OF:bar_11:Shanghai_World_Financial_Center"
+    ],
+    "entityIds": [
+      "bar_11",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_Shanghai_World_Financial_Center_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Height",
+      "Shanghai_World_Financial_Center"
+    ],
+    "evidenceIds": [
+      "ev_g192_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 11"
+    ]
+  },
+  "G193": {
+    "id": "G193",
+    "claimIds": [
+      "entity:bar_12",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_12",
+      "relation:COMPOSED_OF:bas_International_Commerce_Centre_cartesian_bar_bar_group:bar_12",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_12",
+      "relation:VALUE_OF:bar_12:Asia",
+      "relation:VALUE_OF:bar_12:Height",
+      "relation:VALUE_OF:bar_12:International_Commerce_Centre"
+    ],
+    "entityIds": [
+      "bar_12",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_International_Commerce_Centre_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Height",
+      "International_Commerce_Centre"
+    ],
+    "evidenceIds": [
+      "ev_g193_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 12"
+    ]
+  },
+  "G194": {
+    "id": "G194",
+    "claimIds": [
+      "entity:bar_13",
+      "relation:COMPOSED_OF:bas_Central_Park_Tower_cartesian_bar_bar_group:bar_13",
+      "relation:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_13",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_13",
+      "relation:VALUE_OF:bar_13:Central_Park_Tower",
+      "relation:VALUE_OF:bar_13:Height",
+      "relation:VALUE_OF:bar_13:North_America"
+    ],
+    "entityIds": [
+      "bar_13",
+      "bas_Central_Park_Tower_cartesian_bar_bar_group",
+      "bas_North_America_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Central_Park_Tower",
+      "Height",
+      "North_America"
+    ],
+    "evidenceIds": [
+      "ev_g194_1"
+    ],
+    "graphPath": [
+      "bas Central Park Tower cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 13"
+    ]
+  },
+  "G195": {
+    "id": "G195",
+    "claimIds": [
+      "entity:bar_14",
+      "relation:COMPOSED_OF:bas_Europe_cartesian_bar_bar_group:bar_14",
+      "relation:COMPOSED_OF:bas_Lakhta_Center_cartesian_bar_bar_group:bar_14",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_14",
+      "relation:VALUE_OF:bar_14:Europe",
+      "relation:VALUE_OF:bar_14:Height",
+      "relation:VALUE_OF:bar_14:Lakhta_Center"
+    ],
+    "entityIds": [
+      "bar_14",
+      "bas_Europe_cartesian_bar_bar_group",
+      "bas_Lakhta_Center_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Europe",
+      "Height",
+      "Lakhta_Center"
+    ],
+    "evidenceIds": [
+      "ev_g195_1"
+    ],
+    "graphPath": [
+      "bas Europe cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 14"
+    ]
+  },
+  "G196": {
+    "id": "G196",
+    "claimIds": [
+      "entity:bar_15",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_15",
+      "relation:COMPOSED_OF:bas_Landmark_81_cartesian_bar_bar_group:bar_15",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_15",
+      "relation:VALUE_OF:bar_15:Asia",
+      "relation:VALUE_OF:bar_15:Height",
+      "relation:VALUE_OF:bar_15:Landmark_81"
+    ],
+    "entityIds": [
+      "bar_15",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_Landmark_81_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Height",
+      "Landmark_81"
+    ],
+    "evidenceIds": [
+      "ev_g196_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 15"
+    ]
+  },
+  "G197": {
+    "id": "G197",
+    "claimIds": [
+      "entity:bar_2",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_Shanghai_Tower_cartesian_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_2",
+      "relation:VALUE_OF:bar_2:Asia",
+      "relation:VALUE_OF:bar_2:Height",
+      "relation:VALUE_OF:bar_2:Shanghai_Tower"
+    ],
+    "entityIds": [
+      "bar_2",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_Shanghai_Tower_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Height",
+      "Shanghai_Tower"
+    ],
+    "evidenceIds": [
+      "ev_g197_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 2"
+    ]
+  },
+  "G198": {
+    "id": "G198",
+    "claimIds": [
+      "entity:bar_3",
+      "relation:COMPOSED_OF:bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_3",
+      "relation:VALUE_OF:bar_3:Abraj_Al-Bait_Clock_Tower",
+      "relation:VALUE_OF:bar_3:Asia",
+      "relation:VALUE_OF:bar_3:Height"
+    ],
+    "entityIds": [
+      "bar_3",
+      "bas_Abraj_Al-Bait_Clock_Tower_cartesian_bar_bar_group",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Abraj_Al-Bait_Clock_Tower",
+      "Asia",
+      "Height"
+    ],
+    "evidenceIds": [
+      "ev_g198_1"
+    ],
+    "graphPath": [
+      "bas Abraj Al-Bait Clock Tower cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 3"
+    ]
+  },
+  "G199": {
+    "id": "G199",
+    "claimIds": [
+      "entity:bar_4",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_Ping_An_Finance_Center_cartesian_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_4",
+      "relation:VALUE_OF:bar_4:Asia",
+      "relation:VALUE_OF:bar_4:Height",
+      "relation:VALUE_OF:bar_4:Ping_An_Finance_Center"
+    ],
+    "entityIds": [
+      "bar_4",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_Ping_An_Finance_Center_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Height",
+      "Ping_An_Finance_Center"
+    ],
+    "evidenceIds": [
+      "ev_g199_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 4"
+    ]
+  },
+  "G200": {
+    "id": "G200",
+    "claimIds": [
+      "entity:bar_5",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_Lotte_World_Tower_cartesian_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_5",
+      "relation:VALUE_OF:bar_5:Asia",
+      "relation:VALUE_OF:bar_5:Height",
+      "relation:VALUE_OF:bar_5:Lotte_World_Tower"
+    ],
+    "entityIds": [
+      "bar_5",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_Lotte_World_Tower_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Height",
+      "Lotte_World_Tower"
+    ],
+    "evidenceIds": [
+      "ev_g200_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 5"
+    ]
+  },
+  "G201": {
+    "id": "G201",
+    "claimIds": [
+      "entity:bar_6",
+      "relation:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_6",
+      "relation:COMPOSED_OF:bas_One_World_Trade_Center_cartesian_bar_bar_group:bar_6",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_6",
+      "relation:VALUE_OF:bar_6:Height",
+      "relation:VALUE_OF:bar_6:North_America",
+      "relation:VALUE_OF:bar_6:One_World_Trade_Center"
+    ],
+    "entityIds": [
+      "bar_6",
+      "bas_North_America_cartesian_bar_bar_group",
+      "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Height",
+      "North_America",
+      "One_World_Trade_Center"
+    ],
+    "evidenceIds": [
+      "ev_g201_1"
+    ],
+    "graphPath": [
+      "bas North America cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 6"
+    ]
+  },
+  "G202": {
+    "id": "G202",
+    "claimIds": [
+      "entity:bar_7",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_7",
+      "relation:VALUE_OF:bar_7:Asia",
+      "relation:VALUE_OF:bar_7:Guangzhou_CTF_Finance_Center_Finance_Center",
+      "relation:VALUE_OF:bar_7:Height"
+    ],
+    "entityIds": [
+      "bar_7",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_Guangzhou_CTF_Finance_Center_Finance_Center_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Guangzhou_CTF_Finance_Center_Finance_Center",
+      "Height"
+    ],
+    "evidenceIds": [
+      "ev_g202_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 7"
+    ]
+  },
+  "G203": {
+    "id": "G203",
+    "claimIds": [
+      "entity:bar_8",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_Tianjin_CTF_cartesian_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_8",
+      "relation:VALUE_OF:bar_8:Asia",
+      "relation:VALUE_OF:bar_8:Height",
+      "relation:VALUE_OF:bar_8:Tianjin_CTF"
+    ],
+    "entityIds": [
+      "bar_8",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_Tianjin_CTF_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "Height",
+      "Tianjin_CTF"
+    ],
+    "evidenceIds": [
+      "ev_g203_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 8"
+    ]
+  },
+  "G204": {
+    "id": "G204",
+    "claimIds": [
+      "entity:bar_9",
+      "relation:COMPOSED_OF:bas_Asia_cartesian_bar_bar_group:bar_9",
+      "relation:COMPOSED_OF:bas_China_Zun_cartesian_bar_bar_group:bar_9",
+      "relation:COMPOSED_OF:bas_all_cartesian_bar_bar_group:bar_9",
+      "relation:VALUE_OF:bar_9:Asia",
+      "relation:VALUE_OF:bar_9:China_Zun",
+      "relation:VALUE_OF:bar_9:Height"
+    ],
+    "entityIds": [
+      "bar_9",
+      "bas_Asia_cartesian_bar_bar_group",
+      "bas_China_Zun_cartesian_bar_bar_group",
+      "bas_all_cartesian_bar_bar_group",
+      "Asia",
+      "China_Zun",
+      "Height"
+    ],
+    "evidenceIds": [
+      "ev_g204_1"
+    ],
+    "graphPath": [
+      "bas Asia cartesian bar bar group",
+      "COMPOSED_OF",
+      "bar 9"
+    ]
+  }
+}

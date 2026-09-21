@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-21T17:23:56.654219Z",
+  "charts": [
+    {
+      "id": "chart_1c38291d09",
+      "name": "waffe chart.png",
+      "sha256": "f69d3ce591c9e20f332ea811f6310b8304295974bf7aff0343ba27c386a00f1d",
+      "currentRevisionId": "construction-kg-revision:f6de36b34b0dde19dd50",
+      "createdAt": 1790011391492,
+      "path": "chart_1c38291d09/chart.json"
+    },
+    {
+      "id": "chart_afcfce8d7b",
+      "name": "group4037.png",
+      "sha256": "8f7de19b1d5851a7f50ff0c796b5949bd7083a0ee9602a82766575dbcf518f8b",
+      "currentRevisionId": "construction-kg-revision:group4037-year-insight-curation-v1",
+      "createdAt": 1790011141724,
+      "path": "chart_afcfce8d7b/chart.json"
+    },
+    {
+      "id": "chart_a219235b8b",
+      "name": "bar4.png",
+      "sha256": "2a3311379615b9d24b07ca7990691e054a42d74803a7a1e193eb31622349e0cf",
+      "currentRevisionId": "construction-kg-revision:e014882979ce20002f5c",
+      "createdAt": 1790010870727,
+      "path": "chart_a219235b8b/chart.json"
+    },
+    {
+      "id": "chart_1c40d92f85",
+      "name": "donutchart.png",
+      "sha256": "2ed896e22310a1d3670071717ec6eb31eb8d7cb6f9af96245cceb8809998ce96",
+      "currentRevisionId": "construction-kg-revision:3fa6ffd0418655469042",
+      "createdAt": 1790010321766,
+      "path": "chart_1c40d92f85/chart.json"
+    },
+    {
+      "id": "chart_b8429ce809",
+      "name": "global_app_market.png",
+      "sha256": "c10a09a161ff791ef573698c9ba7f2561bbd4a677ec4be09986349fb710a95d4",
+      "currentRevisionId": "construction-kg-revision:d2ee9587803039bf0291",
+      "createdAt": 1790007322364,
+      "path": "chart_b8429ce809/chart.json"
+    },
+    {
+      "id": "chart_16d3425553",
+      "name": "countries_health_wealth_2025.png",
+      "sha256": "7f79d2b5e877f8d79ff6b171f1cbc6699fc760dafad81c6dc933ce6a5c0d6bc9",
+      "currentRevisionId": "construction-kg-revision:0f9d7653eb1cb840880d",
+      "createdAt": 1790006939897,
+      "path": "chart_16d3425553/chart.json"
+    },
+    {
+      "id": "chart_9ccc4cbffd",
+      "name": "case2_final.png",
+      "sha256": "1c7aeb55a145759648e2bf3edf29f3995f9eb7479548596f5111c57c0cd191ef",
+      "currentRevisionId": "construction-kg-revision:4bcab0ab899177046c9f",
+      "createdAt": 1790006798089,
+      "path": "chart_9ccc4cbffd/chart.json"
+    }
+  ]
+}

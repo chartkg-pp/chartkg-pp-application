@@ -1,0 +1,6098 @@
+{
+  "G1": {
+    "id": "G1",
+    "claimIds": [
+      "entity:insight_Comparison_1",
+      "relation:DERIVED_FROM:insight_Comparison_1:Comparison"
+    ],
+    "entityIds": [
+      "insight_Comparison_1",
+      "Comparison"
+    ],
+    "evidenceIds": [
+      "ev_g1_1",
+      "ev_g1_2",
+      "ev_g1_3"
+    ],
+    "graphPath": [
+      "Comparison 1",
+      "DERIVED_FROM",
+      "Comparison: ComparableCorrespondence"
+    ]
+  },
+  "G2": {
+    "id": "G2",
+    "claimIds": [
+      "entity:insight_Correspondence_1",
+      "relation:DERIVED_FROM:insight_Correspondence_1:Correspondence"
+    ],
+    "entityIds": [
+      "insight_Correspondence_1",
+      "Correspondence"
+    ],
+    "evidenceIds": [
+      "ev_g2_1",
+      "ev_g2_2"
+    ],
+    "graphPath": [
+      "Correspondence 1",
+      "DERIVED_FROM",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G3": {
+    "id": "G3",
+    "claimIds": [
+      "entity:insight_Correspondence_2",
+      "relation:DERIVED_FROM:insight_Correspondence_2:Correspondence_2"
+    ],
+    "entityIds": [
+      "insight_Correspondence_2",
+      "Correspondence_2"
+    ],
+    "evidenceIds": [
+      "ev_g3_1"
+    ],
+    "graphPath": [
+      "Correspondence 2",
+      "DERIVED_FROM",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G4": {
+    "id": "G4",
+    "claimIds": [
+      "entity:insight_Correspondence_3",
+      "relation:DERIVED_FROM:insight_Correspondence_3:Correspondence_3"
+    ],
+    "entityIds": [
+      "insight_Correspondence_3",
+      "Correspondence_3"
+    ],
+    "evidenceIds": [
+      "ev_g4_1"
+    ],
+    "graphPath": [
+      "Correspondence 3",
+      "DERIVED_FROM",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G5": {
+    "id": "G5",
+    "claimIds": [
+      "entity:insight_Distribution_1",
+      "relation:DERIVED_FROM:insight_Distribution_1:Distribution"
+    ],
+    "entityIds": [
+      "insight_Distribution_1",
+      "Distribution"
+    ],
+    "evidenceIds": [
+      "ev_g5_1"
+    ],
+    "graphPath": [
+      "Distribution 1",
+      "DERIVED_FROM",
+      "Distribution: Clustering"
+    ]
+  },
+  "G6": {
+    "id": "G6",
+    "claimIds": [
+      "entity:insight_Distribution_2",
+      "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+    ],
+    "entityIds": [
+      "insight_Distribution_2",
+      "Distribution_2"
+    ],
+    "evidenceIds": [
+      "ev_g6_1"
+    ],
+    "graphPath": [
+      "Distribution 2",
+      "DERIVED_FROM",
+      "Distribution: BandLike"
+    ]
+  },
+  "G7": {
+    "id": "G7",
+    "claimIds": [
+      "entity:insight_Distribution_3",
+      "relation:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+    ],
+    "entityIds": [
+      "insight_Distribution_3",
+      "Distribution_3"
+    ],
+    "evidenceIds": [
+      "ev_g7_1"
+    ],
+    "graphPath": [
+      "Distribution 3",
+      "DERIVED_FROM",
+      "Distribution: BandLike"
+    ]
+  },
+  "G8": {
+    "id": "G8",
+    "claimIds": [
+      "entity:insight_Distribution_4",
+      "relation:DERIVED_FROM:insight_Distribution_4:Distribution_4"
+    ],
+    "entityIds": [
+      "insight_Distribution_4",
+      "Distribution_4"
+    ],
+    "evidenceIds": [
+      "ev_g8_1"
+    ],
+    "graphPath": [
+      "Distribution 4",
+      "DERIVED_FROM",
+      "Distribution: BandLike"
+    ]
+  },
+  "G9": {
+    "id": "G9",
+    "claimIds": [
+      "entity:insight_Distribution_5",
+      "relation:DERIVED_FROM:insight_Distribution_5:Distribution_5"
+    ],
+    "entityIds": [
+      "insight_Distribution_5",
+      "Distribution_5"
+    ],
+    "evidenceIds": [
+      "ev_g9_1"
+    ],
+    "graphPath": [
+      "Distribution 5",
+      "DERIVED_FROM",
+      "Distribution: BandLike"
+    ]
+  },
+  "G10": {
+    "id": "G10",
+    "claimIds": [
+      "entity:insight_Extreme_1",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme"
+    ],
+    "entityIds": [
+      "insight_Extreme_1",
+      "Extreme"
+    ],
+    "evidenceIds": [
+      "ev_g10_1"
+    ],
+    "graphPath": [
+      "Extreme 1",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G11": {
+    "id": "G11",
+    "claimIds": [
+      "entity:insight_Extreme_10",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_10"
+    ],
+    "entityIds": [
+      "insight_Extreme_10",
+      "Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g11_1"
+    ],
+    "graphPath": [
+      "Extreme 10",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G12": {
+    "id": "G12",
+    "claimIds": [
+      "entity:insight_Extreme_2",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_2"
+    ],
+    "entityIds": [
+      "insight_Extreme_2",
+      "Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g12_1"
+    ],
+    "graphPath": [
+      "Extreme 2",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G13": {
+    "id": "G13",
+    "claimIds": [
+      "entity:insight_Extreme_3",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_3"
+    ],
+    "entityIds": [
+      "insight_Extreme_3",
+      "Extreme_3"
+    ],
+    "evidenceIds": [
+      "ev_g13_1"
+    ],
+    "graphPath": [
+      "Extreme 3",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G14": {
+    "id": "G14",
+    "claimIds": [
+      "entity:insight_Extreme_4",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_4"
+    ],
+    "entityIds": [
+      "insight_Extreme_4",
+      "Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g14_1",
+      "ev_g14_2",
+      "ev_g14_3"
+    ],
+    "graphPath": [
+      "Extreme 4",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G15": {
+    "id": "G15",
+    "claimIds": [
+      "entity:insight_Extreme_5",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_5"
+    ],
+    "entityIds": [
+      "insight_Extreme_5",
+      "Extreme_5"
+    ],
+    "evidenceIds": [
+      "ev_g15_1"
+    ],
+    "graphPath": [
+      "Extreme 5",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G16": {
+    "id": "G16",
+    "claimIds": [
+      "entity:insight_Extreme_6",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_6"
+    ],
+    "entityIds": [
+      "insight_Extreme_6",
+      "Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g16_1"
+    ],
+    "graphPath": [
+      "Extreme 6",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G17": {
+    "id": "G17",
+    "claimIds": [
+      "entity:insight_Extreme_7",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_7"
+    ],
+    "entityIds": [
+      "insight_Extreme_7",
+      "Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g17_1"
+    ],
+    "graphPath": [
+      "Extreme 7",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G18": {
+    "id": "G18",
+    "claimIds": [
+      "entity:insight_Extreme_8",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_8"
+    ],
+    "entityIds": [
+      "insight_Extreme_8",
+      "Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g18_1"
+    ],
+    "graphPath": [
+      "Extreme 8",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G19": {
+    "id": "G19",
+    "claimIds": [
+      "entity:insight_Extreme_9",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_9"
+    ],
+    "entityIds": [
+      "insight_Extreme_9",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g19_1"
+    ],
+    "graphPath": [
+      "Extreme 9",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G20": {
+    "id": "G20",
+    "claimIds": [
+      "entity:insight_ExtremumComparison_1",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_1:ExtremumComparison"
+    ],
+    "entityIds": [
+      "insight_ExtremumComparison_1",
+      "ExtremumComparison"
+    ],
+    "evidenceIds": [
+      "ev_g20_1"
+    ],
+    "graphPath": [
+      "ExtremumComparison 1",
+      "DERIVED_FROM",
+      "ExtremumComparison: MaximumComparison"
+    ]
+  },
+  "G21": {
+    "id": "G21",
+    "claimIds": [
+      "entity:insight_ExtremumComparison_2",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_2:ExtremumComparison_2"
+    ],
+    "entityIds": [
+      "insight_ExtremumComparison_2",
+      "ExtremumComparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g21_1"
+    ],
+    "graphPath": [
+      "ExtremumComparison 2",
+      "DERIVED_FROM",
+      "ExtremumComparison: MaximumComparison"
+    ]
+  },
+  "G22": {
+    "id": "G22",
+    "claimIds": [
+      "entity:insight_ExtremumComparison_3",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_3:ExtremumComparison_3"
+    ],
+    "entityIds": [
+      "insight_ExtremumComparison_3",
+      "ExtremumComparison_3"
+    ],
+    "evidenceIds": [
+      "ev_g22_1"
+    ],
+    "graphPath": [
+      "ExtremumComparison 3",
+      "DERIVED_FROM",
+      "ExtremumComparison: MaximumComparison"
+    ]
+  },
+  "G23": {
+    "id": "G23",
+    "claimIds": [
+      "entity:insight_ExtremumComparison_4",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_4:ExtremumComparison_4"
+    ],
+    "entityIds": [
+      "insight_ExtremumComparison_4",
+      "ExtremumComparison_4"
+    ],
+    "evidenceIds": [
+      "ev_g23_1",
+      "ev_g23_2",
+      "ev_g23_3"
+    ],
+    "graphPath": [
+      "ExtremumComparison 4",
+      "DERIVED_FROM",
+      "ExtremumComparison: MaximumComparison"
+    ]
+  },
+  "G24": {
+    "id": "G24",
+    "claimIds": [
+      "entity:insight_Similarity_1",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "insight_Similarity_1",
+      "Similarity"
+    ],
+    "evidenceIds": [
+      "ev_g24_1"
+    ],
+    "graphPath": [
+      "Similarity 1",
+      "DERIVED_FROM",
+      "Similarity: SimilarDistribution"
+    ]
+  },
+  "G25": {
+    "id": "G25",
+    "claimIds": [
+      "entity:Comparison",
+      "relation:COMPOSED_OF:Comparison:Correspondence",
+      "relation:COMPOSED_OF:Comparison:Correspondence_2",
+      "relation:DERIVED_FROM:insight_Comparison_1:Comparison"
+    ],
+    "entityIds": [
+      "Comparison",
+      "Correspondence",
+      "Correspondence_2",
+      "insight_Comparison_1"
+    ],
+    "evidenceIds": [
+      "ev_g25_1",
+      "ev_g25_2",
+      "ev_g25_3"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G26": {
+    "id": "G26",
+    "claimIds": [
+      "entity:Correspondence",
+      "relation:COMPOSED_OF:Comparison:Correspondence",
+      "relation:COMPOSED_OF:Correspondence:Distribution_4",
+      "relation:COMPOSED_OF:Correspondence:Extreme_10",
+      "relation:COMPOSED_OF:Correspondence:Extreme_3",
+      "relation:COMPOSED_OF:Correspondence:Extreme_8",
+      "relation:COMPOSED_OF:Correspondence:Extreme_9",
+      "relation:DERIVED_FROM:insight_Correspondence_1:Correspondence"
+    ],
+    "entityIds": [
+      "Correspondence",
+      "Comparison",
+      "Distribution_4",
+      "Extreme_10",
+      "Extreme_3",
+      "Extreme_8",
+      "Extreme_9",
+      "insight_Correspondence_1"
+    ],
+    "evidenceIds": [
+      "ev_g26_1",
+      "ev_g26_2"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G27": {
+    "id": "G27",
+    "claimIds": [
+      "entity:Correspondence_2",
+      "relation:COMPOSED_OF:Comparison:Correspondence_2",
+      "relation:COMPOSED_OF:Correspondence_2:Distribution_3",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_2",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_5",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_6",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_7",
+      "relation:DERIVED_FROM:insight_Correspondence_2:Correspondence_2"
+    ],
+    "entityIds": [
+      "Correspondence_2",
+      "Comparison",
+      "Distribution_3",
+      "Extreme_2",
+      "Extreme_5",
+      "Extreme_6",
+      "Extreme_7",
+      "insight_Correspondence_2"
+    ],
+    "evidenceIds": [
+      "ev_g27_1"
+    ],
+    "graphPath": [
+      "Comparison: ComparableCorrespondence",
+      "COMPOSED_OF",
+      "Correspondence: SharedSemanticAnchor"
+    ]
+  },
+  "G28": {
+    "id": "G28",
+    "claimIds": [
+      "entity:Correspondence_3",
+      "relation:COMPOSED_OF:Correspondence_3:Distribution_2",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme",
+      "relation:DERIVED_FROM:insight_Correspondence_3:Correspondence_3"
+    ],
+    "entityIds": [
+      "Correspondence_3",
+      "Distribution_2",
+      "Extreme",
+      "insight_Correspondence_3"
+    ],
+    "evidenceIds": [
+      "ev_g28_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Distribution: BandLike"
+    ]
+  },
+  "G29": {
+    "id": "G29",
+    "claimIds": [
+      "entity:ExtremumComparison",
+      "relation:COMPOSED_OF:ExtremumComparison:Extreme_10",
+      "relation:COMPOSED_OF:ExtremumComparison:Extreme_7",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_1:ExtremumComparison"
+    ],
+    "entityIds": [
+      "ExtremumComparison",
+      "Extreme_10",
+      "Extreme_7",
+      "insight_ExtremumComparison_1"
+    ],
+    "evidenceIds": [
+      "ev_g29_1"
+    ],
+    "graphPath": [
+      "ExtremumComparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G30": {
+    "id": "G30",
+    "claimIds": [
+      "entity:ExtremumComparison_2",
+      "relation:COMPOSED_OF:ExtremumComparison_2:Extreme_6",
+      "relation:COMPOSED_OF:ExtremumComparison_2:Extreme_8",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_2:ExtremumComparison_2"
+    ],
+    "entityIds": [
+      "ExtremumComparison_2",
+      "Extreme_6",
+      "Extreme_8",
+      "insight_ExtremumComparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g30_1"
+    ],
+    "graphPath": [
+      "ExtremumComparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G31": {
+    "id": "G31",
+    "claimIds": [
+      "entity:ExtremumComparison_3",
+      "relation:COMPOSED_OF:ExtremumComparison_3:Extreme_5",
+      "relation:COMPOSED_OF:ExtremumComparison_3:Extreme_9",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_3:ExtremumComparison_3"
+    ],
+    "entityIds": [
+      "ExtremumComparison_3",
+      "Extreme_5",
+      "Extreme_9",
+      "insight_ExtremumComparison_3"
+    ],
+    "evidenceIds": [
+      "ev_g31_1"
+    ],
+    "graphPath": [
+      "ExtremumComparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G32": {
+    "id": "G32",
+    "claimIds": [
+      "entity:ExtremumComparison_4",
+      "relation:COMPOSED_OF:ExtremumComparison_4:Extreme",
+      "relation:COMPOSED_OF:ExtremumComparison_4:Extreme_2",
+      "relation:COMPOSED_OF:ExtremumComparison_4:Extreme_3",
+      "relation:DERIVED_FROM:insight_ExtremumComparison_4:ExtremumComparison_4",
+      "relation:INFERRED_FROM:Extreme_4:ExtremumComparison_4"
+    ],
+    "entityIds": [
+      "ExtremumComparison_4",
+      "Extreme",
+      "Extreme_2",
+      "Extreme_3",
+      "insight_ExtremumComparison_4",
+      "Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g32_1",
+      "ev_g32_2",
+      "ev_g32_3"
+    ],
+    "graphPath": [
+      "ExtremumComparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G33": {
+    "id": "G33",
+    "claimIds": [
+      "entity:Similarity",
+      "relation:COMPOSED_OF:Similarity:Distribution_2",
+      "relation:COMPOSED_OF:Similarity:Distribution_3",
+      "relation:COMPOSED_OF:Similarity:Distribution_4",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "Similarity",
+      "Distribution_2",
+      "Distribution_3",
+      "Distribution_4",
+      "insight_Similarity_1"
+    ],
+    "evidenceIds": [
+      "ev_g33_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarDistribution",
+      "COMPOSED_OF",
+      "Distribution: BandLike"
+    ]
+  },
+  "G34": {
+    "id": "G34",
+    "claimIds": [
+      "entity:Distribution",
+      "relation:HAS_SCOPE:Distribution:bar_group_bas_all",
+      "relation:DERIVED_FROM:insight_Distribution_1:Distribution"
+    ],
+    "entityIds": [
+      "Distribution",
+      "bar_group_bas_all",
+      "insight_Distribution_1"
+    ],
+    "evidenceIds": [
+      "ev_g34_1"
+    ],
+    "graphPath": [
+      "Distribution: Clustering",
+      "HAS_SCOPE",
+      "bar group bas all"
+    ]
+  },
+  "G35": {
+    "id": "G35",
+    "claimIds": [
+      "entity:Distribution_2",
+      "relation:COMPOSED_OF:Correspondence_3:Distribution_2",
+      "relation:COMPOSED_OF:Similarity:Distribution_2",
+      "relation:HAS_SCOPE:Distribution_2:point_group_bas_Female",
+      "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+    ],
+    "entityIds": [
+      "Distribution_2",
+      "Correspondence_3",
+      "Similarity",
+      "point_group_bas_Female",
+      "insight_Distribution_2"
+    ],
+    "evidenceIds": [
+      "ev_g35_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Distribution: BandLike"
+    ]
+  },
+  "G36": {
+    "id": "G36",
+    "claimIds": [
+      "entity:Distribution_3",
+      "relation:COMPOSED_OF:Correspondence_2:Distribution_3",
+      "relation:COMPOSED_OF:Similarity:Distribution_3",
+      "relation:HAS_SCOPE:Distribution_3:point_group_bas_Male",
+      "relation:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+    ],
+    "entityIds": [
+      "Distribution_3",
+      "Correspondence_2",
+      "Similarity",
+      "point_group_bas_Male",
+      "insight_Distribution_3"
+    ],
+    "evidenceIds": [
+      "ev_g36_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Distribution: BandLike"
+    ]
+  },
+  "G37": {
+    "id": "G37",
+    "claimIds": [
+      "entity:Distribution_4",
+      "relation:COMPOSED_OF:Correspondence:Distribution_4",
+      "relation:COMPOSED_OF:Similarity:Distribution_4",
+      "relation:HAS_SCOPE:Distribution_4:point_group_bas_NONE",
+      "relation:DERIVED_FROM:insight_Distribution_4:Distribution_4"
+    ],
+    "entityIds": [
+      "Distribution_4",
+      "Correspondence",
+      "Similarity",
+      "point_group_bas_NONE",
+      "insight_Distribution_4"
+    ],
+    "evidenceIds": [
+      "ev_g37_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Distribution: BandLike"
+    ]
+  },
+  "G38": {
+    "id": "G38",
+    "claimIds": [
+      "entity:Distribution_5",
+      "relation:HAS_SCOPE:Distribution_5:point_group_bas_all",
+      "relation:DERIVED_FROM:insight_Distribution_5:Distribution_5"
+    ],
+    "entityIds": [
+      "Distribution_5",
+      "point_group_bas_all",
+      "insight_Distribution_5"
+    ],
+    "evidenceIds": [
+      "ev_g38_1"
+    ],
+    "graphPath": [
+      "Distribution: BandLike",
+      "HAS_SCOPE",
+      "point group bas all"
+    ]
+  },
+  "G39": {
+    "id": "G39",
+    "claimIds": [
+      "entity:Extreme",
+      "relation:COMPOSED_OF:Correspondence_3:Extreme",
+      "relation:COMPOSED_OF:ExtremumComparison_4:Extreme",
+      "relation:HAS_SCOPE:Extreme:bar_group_bas_Female",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme"
+    ],
+    "entityIds": [
+      "Extreme",
+      "Correspondence_3",
+      "ExtremumComparison_4",
+      "bar_group_bas_Female",
+      "insight_Extreme_1"
+    ],
+    "evidenceIds": [
+      "ev_g39_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G40": {
+    "id": "G40",
+    "claimIds": [
+      "entity:Extreme_10",
+      "relation:COMPOSED_OF:Correspondence:Extreme_10",
+      "relation:COMPOSED_OF:ExtremumComparison:Extreme_10",
+      "relation:HAS_SCOPE:Extreme_10:point_group_bas_NONE",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_10"
+    ],
+    "entityIds": [
+      "Extreme_10",
+      "Correspondence",
+      "ExtremumComparison",
+      "point_group_bas_NONE",
+      "insight_Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g40_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G41": {
+    "id": "G41",
+    "claimIds": [
+      "entity:Extreme_2",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_2",
+      "relation:COMPOSED_OF:ExtremumComparison_4:Extreme_2",
+      "relation:HAS_SCOPE:Extreme_2:bar_group_bas_Male",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_2"
+    ],
+    "entityIds": [
+      "Extreme_2",
+      "Correspondence_2",
+      "ExtremumComparison_4",
+      "bar_group_bas_Male",
+      "insight_Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g41_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G42": {
+    "id": "G42",
+    "claimIds": [
+      "entity:Extreme_3",
+      "relation:COMPOSED_OF:Correspondence:Extreme_3",
+      "relation:COMPOSED_OF:ExtremumComparison_4:Extreme_3",
+      "relation:HAS_SCOPE:Extreme_3:bar_group_bas_NONE",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_3"
+    ],
+    "entityIds": [
+      "Extreme_3",
+      "Correspondence",
+      "ExtremumComparison_4",
+      "bar_group_bas_NONE",
+      "insight_Extreme_3"
+    ],
+    "evidenceIds": [
+      "ev_g42_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G43": {
+    "id": "G43",
+    "claimIds": [
+      "entity:Extreme_4",
+      "relation:HAS_SCOPE:Extreme_4:bar_group_bas_all",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_4",
+      "relation:INFERRED_FROM:Extreme_4:ExtremumComparison_4"
+    ],
+    "entityIds": [
+      "Extreme_4",
+      "bar_group_bas_all",
+      "insight_Extreme_4",
+      "ExtremumComparison_4"
+    ],
+    "evidenceIds": [
+      "ev_g43_1",
+      "ev_g43_2",
+      "ev_g43_3"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "HAS_SCOPE",
+      "bar group bas all"
+    ]
+  },
+  "G44": {
+    "id": "G44",
+    "claimIds": [
+      "entity:Extreme_5",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_5",
+      "relation:COMPOSED_OF:ExtremumComparison_3:Extreme_5",
+      "relation:HAS_SCOPE:Extreme_5:point_group_bas_Male",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_5"
+    ],
+    "entityIds": [
+      "Extreme_5",
+      "Correspondence_2",
+      "ExtremumComparison_3",
+      "point_group_bas_Male",
+      "insight_Extreme_5"
+    ],
+    "evidenceIds": [
+      "ev_g44_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G45": {
+    "id": "G45",
+    "claimIds": [
+      "entity:Extreme_6",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_6",
+      "relation:COMPOSED_OF:ExtremumComparison_2:Extreme_6",
+      "relation:HAS_SCOPE:Extreme_6:point_group_bas_Male",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_6"
+    ],
+    "entityIds": [
+      "Extreme_6",
+      "Correspondence_2",
+      "ExtremumComparison_2",
+      "point_group_bas_Male",
+      "insight_Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g45_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G46": {
+    "id": "G46",
+    "claimIds": [
+      "entity:Extreme_7",
+      "relation:COMPOSED_OF:Correspondence_2:Extreme_7",
+      "relation:COMPOSED_OF:ExtremumComparison:Extreme_7",
+      "relation:HAS_SCOPE:Extreme_7:point_group_bas_Male",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_7"
+    ],
+    "entityIds": [
+      "Extreme_7",
+      "Correspondence_2",
+      "ExtremumComparison",
+      "point_group_bas_Male",
+      "insight_Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g46_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G47": {
+    "id": "G47",
+    "claimIds": [
+      "entity:Extreme_8",
+      "relation:COMPOSED_OF:Correspondence:Extreme_8",
+      "relation:COMPOSED_OF:ExtremumComparison_2:Extreme_8",
+      "relation:HAS_SCOPE:Extreme_8:point_group_bas_NONE",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_8"
+    ],
+    "entityIds": [
+      "Extreme_8",
+      "Correspondence",
+      "ExtremumComparison_2",
+      "point_group_bas_NONE",
+      "insight_Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g47_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G48": {
+    "id": "G48",
+    "claimIds": [
+      "entity:Extreme_9",
+      "relation:COMPOSED_OF:Correspondence:Extreme_9",
+      "relation:COMPOSED_OF:ExtremumComparison_3:Extreme_9",
+      "relation:HAS_SCOPE:Extreme_9:point_group_bas_NONE",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_9"
+    ],
+    "entityIds": [
+      "Extreme_9",
+      "Correspondence",
+      "ExtremumComparison_3",
+      "point_group_bas_NONE",
+      "insight_Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g48_1"
+    ],
+    "graphPath": [
+      "Correspondence: SharedSemanticAnchor",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G49": {
+    "id": "G49",
+    "claimIds": [
+      "entity:Negative",
+      "relation:ENCODES:nPosition:Negative",
+      "relation:VALUE_OF:point_10:Negative",
+      "relation:VALUE_OF:point_12:Negative",
+      "relation:VALUE_OF:point_14:Negative",
+      "relation:VALUE_OF:point_15:Negative",
+      "relation:VALUE_OF:point_17:Negative",
+      "relation:VALUE_OF:point_18:Negative",
+      "relation:VALUE_OF:point_19:Negative",
+      "relation:VALUE_OF:point_2:Negative",
+      "relation:VALUE_OF:point_20:Negative",
+      "relation:VALUE_OF:point_21:Negative",
+      "relation:VALUE_OF:point_22:Negative",
+      "relation:VALUE_OF:point_24:Negative",
+      "relation:VALUE_OF:point_25:Negative",
+      "relation:VALUE_OF:point_27:Negative",
+      "relation:VALUE_OF:point_28:Negative",
+      "relation:VALUE_OF:point_30:Negative",
+      "relation:VALUE_OF:point_31:Negative",
+      "relation:VALUE_OF:point_33:Negative",
+      "relation:VALUE_OF:point_34:Negative"
+    ],
+    "entityIds": [
+      "Negative",
+      "nPosition",
+      "point_10",
+      "point_12",
+      "point_14",
+      "point_15",
+      "point_17",
+      "point_18",
+      "point_19",
+      "point_2",
+      "point_20",
+      "point_21",
+      "point_22",
+      "point_24",
+      "point_25",
+      "point_27",
+      "point_28",
+      "point_30",
+      "point_31",
+      "point_33",
+      "point_34"
+    ],
+    "evidenceIds": [
+      "ev_g49_1"
+    ],
+    "graphPath": [
+      "nPosition",
+      "ENCODES",
+      "Negative"
+    ]
+  },
+  "G50": {
+    "id": "G50",
+    "claimIds": [
+      "entity:Positive",
+      "relation:ENCODES:pPosition:Positive",
+      "relation:VALUE_OF:point_10:Positive",
+      "relation:VALUE_OF:point_12:Positive",
+      "relation:VALUE_OF:point_14:Positive",
+      "relation:VALUE_OF:point_15:Positive",
+      "relation:VALUE_OF:point_17:Positive",
+      "relation:VALUE_OF:point_18:Positive",
+      "relation:VALUE_OF:point_19:Positive",
+      "relation:VALUE_OF:point_2:Positive",
+      "relation:VALUE_OF:point_20:Positive",
+      "relation:VALUE_OF:point_21:Positive",
+      "relation:VALUE_OF:point_22:Positive",
+      "relation:VALUE_OF:point_24:Positive",
+      "relation:VALUE_OF:point_25:Positive",
+      "relation:VALUE_OF:point_27:Positive",
+      "relation:VALUE_OF:point_28:Positive",
+      "relation:VALUE_OF:point_30:Positive",
+      "relation:VALUE_OF:point_31:Positive",
+      "relation:VALUE_OF:point_33:Positive",
+      "relation:VALUE_OF:point_34:Positive"
+    ],
+    "entityIds": [
+      "Positive",
+      "pPosition",
+      "point_10",
+      "point_12",
+      "point_14",
+      "point_15",
+      "point_17",
+      "point_18",
+      "point_19",
+      "point_2",
+      "point_20",
+      "point_21",
+      "point_22",
+      "point_24",
+      "point_25",
+      "point_27",
+      "point_28",
+      "point_30",
+      "point_31",
+      "point_33",
+      "point_34"
+    ],
+    "evidenceIds": [
+      "ev_g50_1"
+    ],
+    "graphPath": [
+      "pPosition",
+      "ENCODES",
+      "Positive"
+    ]
+  },
+  "G51": {
+    "id": "G51",
+    "claimIds": [
+      "entity:Uncertainty",
+      "relation:ENCODES:uPosition:Uncertainty",
+      "relation:VALUE_OF:point_10:Uncertainty",
+      "relation:VALUE_OF:point_12:Uncertainty",
+      "relation:VALUE_OF:point_14:Uncertainty",
+      "relation:VALUE_OF:point_15:Uncertainty",
+      "relation:VALUE_OF:point_17:Uncertainty",
+      "relation:VALUE_OF:point_18:Uncertainty",
+      "relation:VALUE_OF:point_19:Uncertainty",
+      "relation:VALUE_OF:point_2:Uncertainty",
+      "relation:VALUE_OF:point_20:Uncertainty",
+      "relation:VALUE_OF:point_21:Uncertainty",
+      "relation:VALUE_OF:point_22:Uncertainty",
+      "relation:VALUE_OF:point_24:Uncertainty",
+      "relation:VALUE_OF:point_25:Uncertainty",
+      "relation:VALUE_OF:point_27:Uncertainty",
+      "relation:VALUE_OF:point_28:Uncertainty",
+      "relation:VALUE_OF:point_30:Uncertainty",
+      "relation:VALUE_OF:point_31:Uncertainty",
+      "relation:VALUE_OF:point_33:Uncertainty",
+      "relation:VALUE_OF:point_34:Uncertainty"
+    ],
+    "entityIds": [
+      "Uncertainty",
+      "uPosition",
+      "point_10",
+      "point_12",
+      "point_14",
+      "point_15",
+      "point_17",
+      "point_18",
+      "point_19",
+      "point_2",
+      "point_20",
+      "point_21",
+      "point_22",
+      "point_24",
+      "point_25",
+      "point_27",
+      "point_28",
+      "point_30",
+      "point_31",
+      "point_33",
+      "point_34"
+    ],
+    "evidenceIds": [
+      "ev_g51_1"
+    ],
+    "graphPath": [
+      "uPosition",
+      "ENCODES",
+      "Uncertainty"
+    ]
+  },
+  "G52": {
+    "id": "G52",
+    "claimIds": [
+      "entity:gender",
+      "relation:ENCODES:color_bar_group:gender",
+      "relation:VALUE_OF:Female:gender",
+      "relation:VALUE_OF:Male:gender",
+      "relation:VALUE_OF:NONE:gender"
+    ],
+    "entityIds": [
+      "gender",
+      "color_bar_group",
+      "Female",
+      "Male",
+      "NONE"
+    ],
+    "evidenceIds": [
+      "ev_g52_1"
+    ],
+    "graphPath": [
+      "color bar group",
+      "ENCODES",
+      "gender"
+    ]
+  },
+  "G53": {
+    "id": "G53",
+    "claimIds": [
+      "entity:gender_color_point_group",
+      "relation:ENCODES:color:gender_color_point_group",
+      "relation:VALUE_OF:Female_gender_value:gender_color_point_group",
+      "relation:VALUE_OF:Male_gender_value:gender_color_point_group",
+      "relation:VALUE_OF:NONE_gender_value:gender_color_point_group"
+    ],
+    "entityIds": [
+      "gender_color_point_group",
+      "color",
+      "Female_gender_value",
+      "Male_gender_value",
+      "NONE_gender_value"
+    ],
+    "evidenceIds": [
+      "ev_g53_1"
+    ],
+    "graphPath": [
+      "color",
+      "ENCODES",
+      "gender"
+    ]
+  },
+  "G54": {
+    "id": "G54",
+    "claimIds": [
+      "entity:number_of_customers",
+      "relation:ENCODES:height:number_of_customers"
+    ],
+    "entityIds": [
+      "number_of_customers",
+      "height"
+    ],
+    "evidenceIds": [
+      "ev_g54_1"
+    ],
+    "graphPath": [
+      "height",
+      "ENCODES",
+      "number of customers"
+    ]
+  },
+  "G55": {
+    "id": "G55",
+    "claimIds": [
+      "entity:Female",
+      "relation:ENCODES:rgb_189_185_218:Female",
+      "relation:VALUE_OF:Female:gender",
+      "relation:VALUE_OF:bar_12:Female",
+      "relation:VALUE_OF:bar_15:Female",
+      "relation:VALUE_OF:bar_16:Female",
+      "relation:VALUE_OF:bar_21:Female",
+      "relation:VALUE_OF:bar_22:Female",
+      "relation:VALUE_OF:bar_26:Female",
+      "relation:VALUE_OF:bar_3:Female",
+      "relation:VALUE_OF:bar_31:Female",
+      "relation:VALUE_OF:bar_32:Female",
+      "relation:VALUE_OF:bar_34:Female",
+      "relation:VALUE_OF:bar_38:Female",
+      "relation:VALUE_OF:bar_41:Female",
+      "relation:VALUE_OF:bar_43:Female",
+      "relation:VALUE_OF:bar_46:Female",
+      "relation:VALUE_OF:bar_50:Female",
+      "relation:VALUE_OF:bar_53:Female",
+      "relation:VALUE_OF:bar_56:Female",
+      "relation:VALUE_OF:bar_6:Female"
+    ],
+    "entityIds": [
+      "Female",
+      "rgb_189_185_218",
+      "gender",
+      "bar_12",
+      "bar_15",
+      "bar_16",
+      "bar_21",
+      "bar_22",
+      "bar_26",
+      "bar_3",
+      "bar_31",
+      "bar_32",
+      "bar_34",
+      "bar_38",
+      "bar_41",
+      "bar_43",
+      "bar_46",
+      "bar_50",
+      "bar_53",
+      "bar_56",
+      "bar_6"
+    ],
+    "evidenceIds": [
+      "ev_g55_1"
+    ],
+    "graphPath": [
+      "rgb 189 185 218",
+      "ENCODES",
+      "Female"
+    ]
+  },
+  "G56": {
+    "id": "G56",
+    "claimIds": [
+      "entity:Female_gender_value",
+      "relation:ENCODES:rgb_189_185_218_color:Female_gender_value",
+      "relation:VALUE_OF:Female_gender_value:gender_color_point_group",
+      "relation:VALUE_OF:point_10:Female_gender_value",
+      "relation:VALUE_OF:point_14:Female_gender_value",
+      "relation:VALUE_OF:point_15:Female_gender_value",
+      "relation:VALUE_OF:point_17:Female_gender_value",
+      "relation:VALUE_OF:point_20:Female_gender_value",
+      "relation:VALUE_OF:point_25:Female_gender_value",
+      "relation:VALUE_OF:point_27:Female_gender_value",
+      "relation:VALUE_OF:point_3:Female_gender_value",
+      "relation:VALUE_OF:point_31:Female_gender_value",
+      "relation:VALUE_OF:point_41:Female_gender_value",
+      "relation:VALUE_OF:point_45:Female_gender_value",
+      "relation:VALUE_OF:point_5:Female_gender_value",
+      "relation:VALUE_OF:point_51:Female_gender_value",
+      "relation:VALUE_OF:point_54:Female_gender_value",
+      "relation:VALUE_OF:point_56:Female_gender_value",
+      "relation:VALUE_OF:point_59:Female_gender_value",
+      "relation:VALUE_OF:point_61:Female_gender_value",
+      "relation:VALUE_OF:point_66:Female_gender_value"
+    ],
+    "entityIds": [
+      "Female_gender_value",
+      "rgb_189_185_218_color",
+      "gender_color_point_group",
+      "point_10",
+      "point_14",
+      "point_15",
+      "point_17",
+      "point_20",
+      "point_25",
+      "point_27",
+      "point_3",
+      "point_31",
+      "point_41",
+      "point_45",
+      "point_5",
+      "point_51",
+      "point_54",
+      "point_56",
+      "point_59",
+      "point_61",
+      "point_66"
+    ],
+    "evidenceIds": [
+      "ev_g56_1"
+    ],
+    "graphPath": [
+      "rgb 189 185 218 color",
+      "ENCODES",
+      "Female"
+    ]
+  },
+  "G57": {
+    "id": "G57",
+    "claimIds": [
+      "entity:Male",
+      "relation:ENCODES:rgb_255_255_178:Male",
+      "relation:VALUE_OF:Male:gender",
+      "relation:VALUE_OF:bar_11:Male",
+      "relation:VALUE_OF:bar_13:Male",
+      "relation:VALUE_OF:bar_18:Male",
+      "relation:VALUE_OF:bar_2:Male",
+      "relation:VALUE_OF:bar_23:Male",
+      "relation:VALUE_OF:bar_24:Male",
+      "relation:VALUE_OF:bar_25:Male",
+      "relation:VALUE_OF:bar_27:Male",
+      "relation:VALUE_OF:bar_33:Male",
+      "relation:VALUE_OF:bar_36:Male",
+      "relation:VALUE_OF:bar_40:Male",
+      "relation:VALUE_OF:bar_45:Male",
+      "relation:VALUE_OF:bar_47:Male",
+      "relation:VALUE_OF:bar_49:Male",
+      "relation:VALUE_OF:bar_5:Male",
+      "relation:VALUE_OF:bar_60:Male",
+      "relation:VALUE_OF:bar_61:Male",
+      "relation:VALUE_OF:bar_62:Male"
+    ],
+    "entityIds": [
+      "Male",
+      "rgb_255_255_178",
+      "gender",
+      "bar_11",
+      "bar_13",
+      "bar_18",
+      "bar_2",
+      "bar_23",
+      "bar_24",
+      "bar_25",
+      "bar_27",
+      "bar_33",
+      "bar_36",
+      "bar_40",
+      "bar_45",
+      "bar_47",
+      "bar_49",
+      "bar_5",
+      "bar_60",
+      "bar_61",
+      "bar_62"
+    ],
+    "evidenceIds": [
+      "ev_g57_1"
+    ],
+    "graphPath": [
+      "rgb 255 255 178",
+      "ENCODES",
+      "Male"
+    ]
+  },
+  "G58": {
+    "id": "G58",
+    "claimIds": [
+      "entity:Male_gender_value",
+      "relation:ENCODES:rgb_255_255_178_color:Male_gender_value",
+      "relation:VALUE_OF:Male_gender_value:gender_color_point_group",
+      "relation:VALUE_OF:point_1:Male_gender_value",
+      "relation:VALUE_OF:point_11:Male_gender_value",
+      "relation:VALUE_OF:point_12:Male_gender_value",
+      "relation:VALUE_OF:point_18:Male_gender_value",
+      "relation:VALUE_OF:point_34:Male_gender_value",
+      "relation:VALUE_OF:point_39:Male_gender_value",
+      "relation:VALUE_OF:point_44:Male_gender_value",
+      "relation:VALUE_OF:point_47:Male_gender_value",
+      "relation:VALUE_OF:point_48:Male_gender_value",
+      "relation:VALUE_OF:point_50:Male_gender_value",
+      "relation:VALUE_OF:point_55:Male_gender_value",
+      "relation:VALUE_OF:point_57:Male_gender_value",
+      "relation:VALUE_OF:point_6:Male_gender_value",
+      "relation:VALUE_OF:point_71:Male_gender_value",
+      "relation:VALUE_OF:point_9:Male_gender_value"
+    ],
+    "entityIds": [
+      "Male_gender_value",
+      "rgb_255_255_178_color",
+      "gender_color_point_group",
+      "point_1",
+      "point_11",
+      "point_12",
+      "point_18",
+      "point_34",
+      "point_39",
+      "point_44",
+      "point_47",
+      "point_48",
+      "point_50",
+      "point_55",
+      "point_57",
+      "point_6",
+      "point_71",
+      "point_9"
+    ],
+    "evidenceIds": [
+      "ev_g58_1"
+    ],
+    "graphPath": [
+      "rgb 255 255 178 color",
+      "ENCODES",
+      "Male"
+    ]
+  },
+  "G59": {
+    "id": "G59",
+    "claimIds": [
+      "entity:NONE",
+      "relation:ENCODES:rgb_140_210_198:NONE",
+      "relation:VALUE_OF:NONE:gender",
+      "relation:VALUE_OF:bar_1:NONE",
+      "relation:VALUE_OF:bar_10:NONE",
+      "relation:VALUE_OF:bar_14:NONE",
+      "relation:VALUE_OF:bar_17:NONE",
+      "relation:VALUE_OF:bar_19:NONE",
+      "relation:VALUE_OF:bar_20:NONE",
+      "relation:VALUE_OF:bar_28:NONE",
+      "relation:VALUE_OF:bar_29:NONE",
+      "relation:VALUE_OF:bar_30:NONE",
+      "relation:VALUE_OF:bar_35:NONE",
+      "relation:VALUE_OF:bar_37:NONE",
+      "relation:VALUE_OF:bar_39:NONE",
+      "relation:VALUE_OF:bar_4:NONE",
+      "relation:VALUE_OF:bar_42:NONE",
+      "relation:VALUE_OF:bar_44:NONE",
+      "relation:VALUE_OF:bar_48:NONE",
+      "relation:VALUE_OF:bar_51:NONE",
+      "relation:VALUE_OF:bar_52:NONE"
+    ],
+    "entityIds": [
+      "NONE",
+      "rgb_140_210_198",
+      "gender",
+      "bar_1",
+      "bar_10",
+      "bar_14",
+      "bar_17",
+      "bar_19",
+      "bar_20",
+      "bar_28",
+      "bar_29",
+      "bar_30",
+      "bar_35",
+      "bar_37",
+      "bar_39",
+      "bar_4",
+      "bar_42",
+      "bar_44",
+      "bar_48",
+      "bar_51",
+      "bar_52"
+    ],
+    "evidenceIds": [
+      "ev_g59_1"
+    ],
+    "graphPath": [
+      "rgb 140 210 198",
+      "ENCODES",
+      "NONE"
+    ]
+  },
+  "G60": {
+    "id": "G60",
+    "claimIds": [
+      "entity:NONE_gender_value",
+      "relation:ENCODES:rgb_140_210_198_color:NONE_gender_value",
+      "relation:VALUE_OF:NONE_gender_value:gender_color_point_group",
+      "relation:VALUE_OF:point_19:NONE_gender_value",
+      "relation:VALUE_OF:point_2:NONE_gender_value",
+      "relation:VALUE_OF:point_21:NONE_gender_value",
+      "relation:VALUE_OF:point_22:NONE_gender_value",
+      "relation:VALUE_OF:point_24:NONE_gender_value",
+      "relation:VALUE_OF:point_26:NONE_gender_value",
+      "relation:VALUE_OF:point_28:NONE_gender_value",
+      "relation:VALUE_OF:point_30:NONE_gender_value",
+      "relation:VALUE_OF:point_33:NONE_gender_value",
+      "relation:VALUE_OF:point_35:NONE_gender_value",
+      "relation:VALUE_OF:point_36:NONE_gender_value",
+      "relation:VALUE_OF:point_40:NONE_gender_value",
+      "relation:VALUE_OF:point_42:NONE_gender_value",
+      "relation:VALUE_OF:point_43:NONE_gender_value",
+      "relation:VALUE_OF:point_46:NONE_gender_value",
+      "relation:VALUE_OF:point_49:NONE_gender_value",
+      "relation:VALUE_OF:point_52:NONE_gender_value",
+      "relation:VALUE_OF:point_53:NONE_gender_value"
+    ],
+    "entityIds": [
+      "NONE_gender_value",
+      "rgb_140_210_198_color",
+      "gender_color_point_group",
+      "point_19",
+      "point_2",
+      "point_21",
+      "point_22",
+      "point_24",
+      "point_26",
+      "point_28",
+      "point_30",
+      "point_33",
+      "point_35",
+      "point_36",
+      "point_40",
+      "point_42",
+      "point_43",
+      "point_46",
+      "point_49",
+      "point_52",
+      "point_53"
+    ],
+    "evidenceIds": [
+      "ev_g60_1"
+    ],
+    "graphPath": [
+      "rgb 140 210 198 color",
+      "ENCODES",
+      "NONE"
+    ]
+  },
+  "G61": {
+    "id": "G61",
+    "claimIds": [
+      "entity:radial_stacked_bar",
+      "relation:COMPOSED_WITH:radial_stacked_bar:ternary_scatter",
+      "relation:HAS_VIEW:chart:radial_stacked_bar",
+      "relation:COMPOSED_OF:radial_stacked_bar:bar_group"
+    ],
+    "entityIds": [
+      "radial_stacked_bar",
+      "ternary_scatter",
+      "chart",
+      "bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g61_1"
+    ],
+    "graphPath": [
+      "radial stacked bar",
+      "COMPOSED_WITH",
+      "ternary scatter"
+    ]
+  },
+  "G62": {
+    "id": "G62",
+    "claimIds": [
+      "entity:ternary_scatter",
+      "relation:COMPOSED_WITH:radial_stacked_bar:ternary_scatter",
+      "relation:HAS_VIEW:chart:ternary_scatter",
+      "relation:COMPOSED_OF:ternary_scatter:point_group"
+    ],
+    "entityIds": [
+      "ternary_scatter",
+      "radial_stacked_bar",
+      "chart",
+      "point_group"
+    ],
+    "evidenceIds": [
+      "ev_g62_1"
+    ],
+    "graphPath": [
+      "radial stacked bar",
+      "COMPOSED_WITH",
+      "ternary scatter"
+    ]
+  },
+  "G63": {
+    "id": "G63",
+    "claimIds": [
+      "entity:bar_group_bas_Female",
+      "relation:HAS_SCOPE:Extreme:bar_group_bas_Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_12",
+      "relation:CONTAINS:bar_group_bas_Female:bar_15",
+      "relation:CONTAINS:bar_group_bas_Female:bar_16",
+      "relation:CONTAINS:bar_group_bas_Female:bar_21",
+      "relation:CONTAINS:bar_group_bas_Female:bar_22",
+      "relation:CONTAINS:bar_group_bas_Female:bar_26",
+      "relation:CONTAINS:bar_group_bas_Female:bar_3",
+      "relation:CONTAINS:bar_group_bas_Female:bar_31",
+      "relation:CONTAINS:bar_group_bas_Female:bar_32",
+      "relation:CONTAINS:bar_group_bas_Female:bar_34",
+      "relation:CONTAINS:bar_group_bas_Female:bar_38",
+      "relation:CONTAINS:bar_group_bas_Female:bar_41",
+      "relation:CONTAINS:bar_group_bas_Female:bar_43",
+      "relation:CONTAINS:bar_group_bas_Female:bar_46",
+      "relation:CONTAINS:bar_group_bas_Female:bar_50",
+      "relation:CONTAINS:bar_group_bas_Female:bar_53",
+      "relation:CONTAINS:bar_group_bas_Female:bar_56",
+      "relation:CONTAINS:bar_group_bas_Female:bar_6",
+      "relation:CONTAINS:bar_group_bas_Female:bar_68"
+    ],
+    "entityIds": [
+      "bar_group_bas_Female",
+      "Extreme",
+      "bar_12",
+      "bar_15",
+      "bar_16",
+      "bar_21",
+      "bar_22",
+      "bar_26",
+      "bar_3",
+      "bar_31",
+      "bar_32",
+      "bar_34",
+      "bar_38",
+      "bar_41",
+      "bar_43",
+      "bar_46",
+      "bar_50",
+      "bar_53",
+      "bar_56",
+      "bar_6",
+      "bar_68"
+    ],
+    "evidenceIds": [
+      "ev_g63_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "HAS_SCOPE",
+      "bar group bas Female"
+    ]
+  },
+  "G64": {
+    "id": "G64",
+    "claimIds": [
+      "entity:bar_group_bas_Male",
+      "relation:HAS_SCOPE:Extreme_2:bar_group_bas_Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_11",
+      "relation:CONTAINS:bar_group_bas_Male:bar_13",
+      "relation:CONTAINS:bar_group_bas_Male:bar_18",
+      "relation:CONTAINS:bar_group_bas_Male:bar_2",
+      "relation:CONTAINS:bar_group_bas_Male:bar_23",
+      "relation:CONTAINS:bar_group_bas_Male:bar_24",
+      "relation:CONTAINS:bar_group_bas_Male:bar_25",
+      "relation:CONTAINS:bar_group_bas_Male:bar_27",
+      "relation:CONTAINS:bar_group_bas_Male:bar_33",
+      "relation:CONTAINS:bar_group_bas_Male:bar_36",
+      "relation:CONTAINS:bar_group_bas_Male:bar_40",
+      "relation:CONTAINS:bar_group_bas_Male:bar_45",
+      "relation:CONTAINS:bar_group_bas_Male:bar_47",
+      "relation:CONTAINS:bar_group_bas_Male:bar_49",
+      "relation:CONTAINS:bar_group_bas_Male:bar_5",
+      "relation:CONTAINS:bar_group_bas_Male:bar_60",
+      "relation:CONTAINS:bar_group_bas_Male:bar_61",
+      "relation:CONTAINS:bar_group_bas_Male:bar_62",
+      "relation:CONTAINS:bar_group_bas_Male:bar_63"
+    ],
+    "entityIds": [
+      "bar_group_bas_Male",
+      "Extreme_2",
+      "bar_11",
+      "bar_13",
+      "bar_18",
+      "bar_2",
+      "bar_23",
+      "bar_24",
+      "bar_25",
+      "bar_27",
+      "bar_33",
+      "bar_36",
+      "bar_40",
+      "bar_45",
+      "bar_47",
+      "bar_49",
+      "bar_5",
+      "bar_60",
+      "bar_61",
+      "bar_62",
+      "bar_63"
+    ],
+    "evidenceIds": [
+      "ev_g64_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "HAS_SCOPE",
+      "bar group bas Male"
+    ]
+  },
+  "G65": {
+    "id": "G65",
+    "claimIds": [
+      "entity:bar_group_bas_NONE",
+      "relation:HAS_SCOPE:Extreme_3:bar_group_bas_NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_1",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_10",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_14",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_17",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_19",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_20",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_28",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_29",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_30",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_35",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_37",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_39",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_4",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_42",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_44",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_48",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_51",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_52",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_54"
+    ],
+    "entityIds": [
+      "bar_group_bas_NONE",
+      "Extreme_3",
+      "bar_1",
+      "bar_10",
+      "bar_14",
+      "bar_17",
+      "bar_19",
+      "bar_20",
+      "bar_28",
+      "bar_29",
+      "bar_30",
+      "bar_35",
+      "bar_37",
+      "bar_39",
+      "bar_4",
+      "bar_42",
+      "bar_44",
+      "bar_48",
+      "bar_51",
+      "bar_52",
+      "bar_54"
+    ],
+    "evidenceIds": [
+      "ev_g65_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "HAS_SCOPE",
+      "bar group bas NONE"
+    ]
+  },
+  "G66": {
+    "id": "G66",
+    "claimIds": [
+      "entity:bar_group_bas_all",
+      "relation:HAS_SCOPE:Distribution:bar_group_bas_all",
+      "relation:HAS_SCOPE:Extreme_4:bar_group_bas_all",
+      "relation:CONTAINS:bar_group_bas_all:bar_1",
+      "relation:CONTAINS:bar_group_bas_all:bar_10",
+      "relation:CONTAINS:bar_group_bas_all:bar_11",
+      "relation:CONTAINS:bar_group_bas_all:bar_12",
+      "relation:CONTAINS:bar_group_bas_all:bar_13",
+      "relation:CONTAINS:bar_group_bas_all:bar_14",
+      "relation:CONTAINS:bar_group_bas_all:bar_15",
+      "relation:CONTAINS:bar_group_bas_all:bar_16",
+      "relation:CONTAINS:bar_group_bas_all:bar_17",
+      "relation:CONTAINS:bar_group_bas_all:bar_18",
+      "relation:CONTAINS:bar_group_bas_all:bar_19",
+      "relation:CONTAINS:bar_group_bas_all:bar_2",
+      "relation:CONTAINS:bar_group_bas_all:bar_20",
+      "relation:CONTAINS:bar_group_bas_all:bar_21",
+      "relation:CONTAINS:bar_group_bas_all:bar_22",
+      "relation:CONTAINS:bar_group_bas_all:bar_23",
+      "relation:CONTAINS:bar_group_bas_all:bar_24",
+      "relation:CONTAINS:bar_group_bas_all:bar_25"
+    ],
+    "entityIds": [
+      "bar_group_bas_all",
+      "Distribution",
+      "Extreme_4",
+      "bar_1",
+      "bar_10",
+      "bar_11",
+      "bar_12",
+      "bar_13",
+      "bar_14",
+      "bar_15",
+      "bar_16",
+      "bar_17",
+      "bar_18",
+      "bar_19",
+      "bar_2",
+      "bar_20",
+      "bar_21",
+      "bar_22",
+      "bar_23",
+      "bar_24",
+      "bar_25"
+    ],
+    "evidenceIds": [
+      "ev_g66_1"
+    ],
+    "graphPath": [
+      "Distribution: Clustering",
+      "HAS_SCOPE",
+      "bar group bas all"
+    ]
+  },
+  "G67": {
+    "id": "G67",
+    "claimIds": [
+      "entity:point_group_bas_Female",
+      "relation:HAS_SCOPE:Distribution_2:point_group_bas_Female",
+      "relation:CONTAINS:point_group_bas_Female:point_10",
+      "relation:CONTAINS:point_group_bas_Female:point_14",
+      "relation:CONTAINS:point_group_bas_Female:point_15",
+      "relation:CONTAINS:point_group_bas_Female:point_17",
+      "relation:CONTAINS:point_group_bas_Female:point_20",
+      "relation:CONTAINS:point_group_bas_Female:point_25",
+      "relation:CONTAINS:point_group_bas_Female:point_27",
+      "relation:CONTAINS:point_group_bas_Female:point_3",
+      "relation:CONTAINS:point_group_bas_Female:point_31",
+      "relation:CONTAINS:point_group_bas_Female:point_41",
+      "relation:CONTAINS:point_group_bas_Female:point_45",
+      "relation:CONTAINS:point_group_bas_Female:point_5",
+      "relation:CONTAINS:point_group_bas_Female:point_51",
+      "relation:CONTAINS:point_group_bas_Female:point_54",
+      "relation:CONTAINS:point_group_bas_Female:point_56",
+      "relation:CONTAINS:point_group_bas_Female:point_59",
+      "relation:CONTAINS:point_group_bas_Female:point_61",
+      "relation:CONTAINS:point_group_bas_Female:point_66",
+      "relation:CONTAINS:point_group_bas_Female:point_70"
+    ],
+    "entityIds": [
+      "point_group_bas_Female",
+      "Distribution_2",
+      "point_10",
+      "point_14",
+      "point_15",
+      "point_17",
+      "point_20",
+      "point_25",
+      "point_27",
+      "point_3",
+      "point_31",
+      "point_41",
+      "point_45",
+      "point_5",
+      "point_51",
+      "point_54",
+      "point_56",
+      "point_59",
+      "point_61",
+      "point_66",
+      "point_70"
+    ],
+    "evidenceIds": [
+      "ev_g67_1"
+    ],
+    "graphPath": [
+      "Distribution: BandLike",
+      "HAS_SCOPE",
+      "point group bas Female"
+    ]
+  },
+  "G68": {
+    "id": "G68",
+    "claimIds": [
+      "entity:point_group_bas_Male",
+      "relation:HAS_SCOPE:Distribution_3:point_group_bas_Male",
+      "relation:HAS_SCOPE:Extreme_5:point_group_bas_Male",
+      "relation:HAS_SCOPE:Extreme_6:point_group_bas_Male",
+      "relation:HAS_SCOPE:Extreme_7:point_group_bas_Male",
+      "relation:CONTAINS:point_group_bas_Male:point_1",
+      "relation:CONTAINS:point_group_bas_Male:point_11",
+      "relation:CONTAINS:point_group_bas_Male:point_12",
+      "relation:CONTAINS:point_group_bas_Male:point_18",
+      "relation:CONTAINS:point_group_bas_Male:point_34",
+      "relation:CONTAINS:point_group_bas_Male:point_39",
+      "relation:CONTAINS:point_group_bas_Male:point_44",
+      "relation:CONTAINS:point_group_bas_Male:point_47",
+      "relation:CONTAINS:point_group_bas_Male:point_48",
+      "relation:CONTAINS:point_group_bas_Male:point_50",
+      "relation:CONTAINS:point_group_bas_Male:point_55",
+      "relation:CONTAINS:point_group_bas_Male:point_57",
+      "relation:CONTAINS:point_group_bas_Male:point_6",
+      "relation:CONTAINS:point_group_bas_Male:point_71",
+      "relation:CONTAINS:point_group_bas_Male:point_9"
+    ],
+    "entityIds": [
+      "point_group_bas_Male",
+      "Distribution_3",
+      "Extreme_5",
+      "Extreme_6",
+      "Extreme_7",
+      "point_1",
+      "point_11",
+      "point_12",
+      "point_18",
+      "point_34",
+      "point_39",
+      "point_44",
+      "point_47",
+      "point_48",
+      "point_50",
+      "point_55",
+      "point_57",
+      "point_6",
+      "point_71",
+      "point_9"
+    ],
+    "evidenceIds": [
+      "ev_g68_1"
+    ],
+    "graphPath": [
+      "Distribution: BandLike",
+      "HAS_SCOPE",
+      "point group bas Male"
+    ]
+  },
+  "G69": {
+    "id": "G69",
+    "claimIds": [
+      "entity:point_group_bas_NONE",
+      "relation:HAS_SCOPE:Distribution_4:point_group_bas_NONE",
+      "relation:HAS_SCOPE:Extreme_10:point_group_bas_NONE",
+      "relation:HAS_SCOPE:Extreme_8:point_group_bas_NONE",
+      "relation:HAS_SCOPE:Extreme_9:point_group_bas_NONE",
+      "relation:CONTAINS:point_group_bas_NONE:point_19",
+      "relation:CONTAINS:point_group_bas_NONE:point_2",
+      "relation:CONTAINS:point_group_bas_NONE:point_21",
+      "relation:CONTAINS:point_group_bas_NONE:point_22",
+      "relation:CONTAINS:point_group_bas_NONE:point_24",
+      "relation:CONTAINS:point_group_bas_NONE:point_26",
+      "relation:CONTAINS:point_group_bas_NONE:point_28",
+      "relation:CONTAINS:point_group_bas_NONE:point_30",
+      "relation:CONTAINS:point_group_bas_NONE:point_33",
+      "relation:CONTAINS:point_group_bas_NONE:point_35",
+      "relation:CONTAINS:point_group_bas_NONE:point_36",
+      "relation:CONTAINS:point_group_bas_NONE:point_40",
+      "relation:CONTAINS:point_group_bas_NONE:point_42",
+      "relation:CONTAINS:point_group_bas_NONE:point_43",
+      "relation:CONTAINS:point_group_bas_NONE:point_46",
+      "relation:CONTAINS:point_group_bas_NONE:point_49"
+    ],
+    "entityIds": [
+      "point_group_bas_NONE",
+      "Distribution_4",
+      "Extreme_10",
+      "Extreme_8",
+      "Extreme_9",
+      "point_19",
+      "point_2",
+      "point_21",
+      "point_22",
+      "point_24",
+      "point_26",
+      "point_28",
+      "point_30",
+      "point_33",
+      "point_35",
+      "point_36",
+      "point_40",
+      "point_42",
+      "point_43",
+      "point_46",
+      "point_49"
+    ],
+    "evidenceIds": [
+      "ev_g69_1"
+    ],
+    "graphPath": [
+      "Distribution: BandLike",
+      "HAS_SCOPE",
+      "point group bas NONE"
+    ]
+  },
+  "G70": {
+    "id": "G70",
+    "claimIds": [
+      "entity:point_group_bas_all",
+      "relation:HAS_SCOPE:Distribution_5:point_group_bas_all",
+      "relation:CONTAINS:point_group_bas_all:point_1",
+      "relation:CONTAINS:point_group_bas_all:point_10",
+      "relation:CONTAINS:point_group_bas_all:point_11",
+      "relation:CONTAINS:point_group_bas_all:point_12",
+      "relation:CONTAINS:point_group_bas_all:point_13",
+      "relation:CONTAINS:point_group_bas_all:point_14",
+      "relation:CONTAINS:point_group_bas_all:point_15",
+      "relation:CONTAINS:point_group_bas_all:point_16",
+      "relation:CONTAINS:point_group_bas_all:point_17",
+      "relation:CONTAINS:point_group_bas_all:point_18",
+      "relation:CONTAINS:point_group_bas_all:point_19",
+      "relation:CONTAINS:point_group_bas_all:point_2",
+      "relation:CONTAINS:point_group_bas_all:point_20",
+      "relation:CONTAINS:point_group_bas_all:point_21",
+      "relation:CONTAINS:point_group_bas_all:point_22",
+      "relation:CONTAINS:point_group_bas_all:point_23",
+      "relation:CONTAINS:point_group_bas_all:point_24",
+      "relation:CONTAINS:point_group_bas_all:point_25",
+      "relation:CONTAINS:point_group_bas_all:point_26"
+    ],
+    "entityIds": [
+      "point_group_bas_all",
+      "Distribution_5",
+      "point_1",
+      "point_10",
+      "point_11",
+      "point_12",
+      "point_13",
+      "point_14",
+      "point_15",
+      "point_16",
+      "point_17",
+      "point_18",
+      "point_19",
+      "point_2",
+      "point_20",
+      "point_21",
+      "point_22",
+      "point_23",
+      "point_24",
+      "point_25",
+      "point_26"
+    ],
+    "evidenceIds": [
+      "ev_g70_1"
+    ],
+    "graphPath": [
+      "Distribution: BandLike",
+      "HAS_SCOPE",
+      "point group bas all"
+    ]
+  },
+  "G71": {
+    "id": "G71",
+    "claimIds": [
+      "entity:bar_group",
+      "relation:COMPOSED_OF:radial_stacked_bar:bar_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:angular_position",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color_bar_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height"
+    ],
+    "entityIds": [
+      "bar_group",
+      "radial_stacked_bar",
+      "angular_position",
+      "color_bar_group",
+      "height"
+    ],
+    "evidenceIds": [
+      "ev_g71_1"
+    ],
+    "graphPath": [
+      "radial stacked bar",
+      "COMPOSED_OF",
+      "bar group"
+    ]
+  },
+  "G72": {
+    "id": "G72",
+    "claimIds": [
+      "entity:point_group",
+      "relation:COMPOSED_OF:ternary_scatter:point_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:nPosition",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:pPosition",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:uPosition"
+    ],
+    "entityIds": [
+      "point_group",
+      "ternary_scatter",
+      "color",
+      "nPosition",
+      "pPosition",
+      "uPosition"
+    ],
+    "evidenceIds": [
+      "ev_g72_1"
+    ],
+    "graphPath": [
+      "ternary scatter",
+      "COMPOSED_OF",
+      "point group"
+    ]
+  },
+  "G73": {
+    "id": "G73",
+    "claimIds": [
+      "entity:angular_position",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:angular_position"
+    ],
+    "entityIds": [
+      "angular_position",
+      "bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g73_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "angular position"
+    ]
+  },
+  "G74": {
+    "id": "G74",
+    "claimIds": [
+      "entity:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_140_210_198_color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_189_185_218_color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_255_178_color",
+      "relation:ENCODES:color:gender_color_point_group"
+    ],
+    "entityIds": [
+      "color",
+      "point_group",
+      "rgb_140_210_198_color",
+      "rgb_189_185_218_color",
+      "rgb_255_255_178_color",
+      "gender_color_point_group"
+    ],
+    "evidenceIds": [
+      "ev_g74_1"
+    ],
+    "graphPath": [
+      "point group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "color"
+    ]
+  },
+  "G75": {
+    "id": "G75",
+    "claimIds": [
+      "entity:color_bar_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color_bar_group",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_bar_group:rgb_140_210_198",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_bar_group:rgb_189_185_218",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_bar_group:rgb_255_255_178",
+      "relation:ENCODES:color_bar_group:gender"
+    ],
+    "entityIds": [
+      "color_bar_group",
+      "bar_group",
+      "rgb_140_210_198",
+      "rgb_189_185_218",
+      "rgb_255_255_178",
+      "gender"
+    ],
+    "evidenceIds": [
+      "ev_g75_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "color bar group"
+    ]
+  },
+  "G76": {
+    "id": "G76",
+    "claimIds": [
+      "entity:height",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+      "relation:ENCODES:height:number_of_customers"
+    ],
+    "entityIds": [
+      "height",
+      "bar_group",
+      "number_of_customers"
+    ],
+    "evidenceIds": [
+      "ev_g76_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "height"
+    ]
+  },
+  "G77": {
+    "id": "G77",
+    "claimIds": [
+      "entity:nPosition",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:nPosition",
+      "relation:ENCODES:nPosition:Negative"
+    ],
+    "entityIds": [
+      "nPosition",
+      "point_group",
+      "Negative"
+    ],
+    "evidenceIds": [
+      "ev_g77_1"
+    ],
+    "graphPath": [
+      "point group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "nPosition"
+    ]
+  },
+  "G78": {
+    "id": "G78",
+    "claimIds": [
+      "entity:pPosition",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:pPosition",
+      "relation:ENCODES:pPosition:Positive"
+    ],
+    "entityIds": [
+      "pPosition",
+      "point_group",
+      "Positive"
+    ],
+    "evidenceIds": [
+      "ev_g78_1"
+    ],
+    "graphPath": [
+      "point group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "pPosition"
+    ]
+  },
+  "G79": {
+    "id": "G79",
+    "claimIds": [
+      "entity:uPosition",
+      "relation:HAS_VISUAL_ATTRIBUTE:point_group:uPosition",
+      "relation:ENCODES:uPosition:Uncertainty"
+    ],
+    "entityIds": [
+      "uPosition",
+      "point_group",
+      "Uncertainty"
+    ],
+    "evidenceIds": [
+      "ev_g79_1"
+    ],
+    "graphPath": [
+      "point group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "uPosition"
+    ]
+  },
+  "G80": {
+    "id": "G80",
+    "claimIds": [
+      "entity:rgb_140_210_198",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_bar_group:rgb_140_210_198",
+      "relation:ENCODES:rgb_140_210_198:NONE"
+    ],
+    "entityIds": [
+      "rgb_140_210_198",
+      "color_bar_group",
+      "NONE"
+    ],
+    "evidenceIds": [
+      "ev_g80_1"
+    ],
+    "graphPath": [
+      "color bar group",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 140 210 198"
+    ]
+  },
+  "G81": {
+    "id": "G81",
+    "claimIds": [
+      "entity:rgb_140_210_198_color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_140_210_198_color",
+      "relation:ENCODES:rgb_140_210_198_color:NONE_gender_value"
+    ],
+    "entityIds": [
+      "rgb_140_210_198_color",
+      "color",
+      "NONE_gender_value"
+    ],
+    "evidenceIds": [
+      "ev_g81_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 140 210 198 color"
+    ]
+  },
+  "G82": {
+    "id": "G82",
+    "claimIds": [
+      "entity:rgb_189_185_218",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_bar_group:rgb_189_185_218",
+      "relation:ENCODES:rgb_189_185_218:Female"
+    ],
+    "entityIds": [
+      "rgb_189_185_218",
+      "color_bar_group",
+      "Female"
+    ],
+    "evidenceIds": [
+      "ev_g82_1"
+    ],
+    "graphPath": [
+      "color bar group",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 189 185 218"
+    ]
+  },
+  "G83": {
+    "id": "G83",
+    "claimIds": [
+      "entity:rgb_189_185_218_color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_189_185_218_color",
+      "relation:ENCODES:rgb_189_185_218_color:Female_gender_value"
+    ],
+    "entityIds": [
+      "rgb_189_185_218_color",
+      "color",
+      "Female_gender_value"
+    ],
+    "evidenceIds": [
+      "ev_g83_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 189 185 218 color"
+    ]
+  },
+  "G84": {
+    "id": "G84",
+    "claimIds": [
+      "entity:rgb_255_255_178",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_bar_group:rgb_255_255_178",
+      "relation:ENCODES:rgb_255_255_178:Male"
+    ],
+    "entityIds": [
+      "rgb_255_255_178",
+      "color_bar_group",
+      "Male"
+    ],
+    "evidenceIds": [
+      "ev_g84_1"
+    ],
+    "graphPath": [
+      "color bar group",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 255 255 178"
+    ]
+  },
+  "G85": {
+    "id": "G85",
+    "claimIds": [
+      "entity:rgb_255_255_178_color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_255_178_color",
+      "relation:ENCODES:rgb_255_255_178_color:Male_gender_value"
+    ],
+    "entityIds": [
+      "rgb_255_255_178_color",
+      "color",
+      "Male_gender_value"
+    ],
+    "evidenceIds": [
+      "ev_g85_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 255 255 178 color"
+    ]
+  },
+  "G86": {
+    "id": "G86",
+    "claimIds": [
+      "entity:chart",
+      "relation:HAS_VIEW:chart:radial_stacked_bar",
+      "relation:HAS_VIEW:chart:ternary_scatter"
+    ],
+    "entityIds": [
+      "chart",
+      "radial_stacked_bar",
+      "ternary_scatter"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "radial stacked bar"
+    ]
+  },
+  "G87": {
+    "id": "G87",
+    "claimIds": [
+      "entity:bar_1",
+      "relation:VALUE_OF:bar_1:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_1",
+      "relation:CONTAINS:bar_group_bas_all:bar_1"
+    ],
+    "entityIds": [
+      "bar_1",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g87_1"
+    ],
+    "graphPath": [
+      "bar 1",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G88": {
+    "id": "G88",
+    "claimIds": [
+      "entity:bar_10",
+      "relation:VALUE_OF:bar_10:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_10",
+      "relation:CONTAINS:bar_group_bas_all:bar_10"
+    ],
+    "entityIds": [
+      "bar_10",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g88_1"
+    ],
+    "graphPath": [
+      "bar 10",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G89": {
+    "id": "G89",
+    "claimIds": [
+      "entity:bar_11",
+      "relation:VALUE_OF:bar_11:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_11",
+      "relation:CONTAINS:bar_group_bas_all:bar_11"
+    ],
+    "entityIds": [
+      "bar_11",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g89_1"
+    ],
+    "graphPath": [
+      "bar 11",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G90": {
+    "id": "G90",
+    "claimIds": [
+      "entity:bar_12",
+      "relation:VALUE_OF:bar_12:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_12",
+      "relation:CONTAINS:bar_group_bas_all:bar_12"
+    ],
+    "entityIds": [
+      "bar_12",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g90_1"
+    ],
+    "graphPath": [
+      "bar 12",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G91": {
+    "id": "G91",
+    "claimIds": [
+      "entity:bar_13",
+      "relation:VALUE_OF:bar_13:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_13",
+      "relation:CONTAINS:bar_group_bas_all:bar_13"
+    ],
+    "entityIds": [
+      "bar_13",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g91_1"
+    ],
+    "graphPath": [
+      "bar 13",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G92": {
+    "id": "G92",
+    "claimIds": [
+      "entity:bar_14",
+      "relation:VALUE_OF:bar_14:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_14",
+      "relation:CONTAINS:bar_group_bas_all:bar_14"
+    ],
+    "entityIds": [
+      "bar_14",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g92_1"
+    ],
+    "graphPath": [
+      "bar 14",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G93": {
+    "id": "G93",
+    "claimIds": [
+      "entity:bar_15",
+      "relation:VALUE_OF:bar_15:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_15",
+      "relation:CONTAINS:bar_group_bas_all:bar_15"
+    ],
+    "entityIds": [
+      "bar_15",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g93_1"
+    ],
+    "graphPath": [
+      "bar 15",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G94": {
+    "id": "G94",
+    "claimIds": [
+      "entity:bar_16",
+      "relation:VALUE_OF:bar_16:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_16",
+      "relation:CONTAINS:bar_group_bas_all:bar_16"
+    ],
+    "entityIds": [
+      "bar_16",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g94_1"
+    ],
+    "graphPath": [
+      "bar 16",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G95": {
+    "id": "G95",
+    "claimIds": [
+      "entity:bar_17",
+      "relation:VALUE_OF:bar_17:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_17",
+      "relation:CONTAINS:bar_group_bas_all:bar_17"
+    ],
+    "entityIds": [
+      "bar_17",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g95_1"
+    ],
+    "graphPath": [
+      "bar 17",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G96": {
+    "id": "G96",
+    "claimIds": [
+      "entity:bar_18",
+      "relation:VALUE_OF:bar_18:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_18",
+      "relation:CONTAINS:bar_group_bas_all:bar_18"
+    ],
+    "entityIds": [
+      "bar_18",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g96_1"
+    ],
+    "graphPath": [
+      "bar 18",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G97": {
+    "id": "G97",
+    "claimIds": [
+      "entity:bar_19",
+      "relation:VALUE_OF:bar_19:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_19",
+      "relation:CONTAINS:bar_group_bas_all:bar_19"
+    ],
+    "entityIds": [
+      "bar_19",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g97_1"
+    ],
+    "graphPath": [
+      "bar 19",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G98": {
+    "id": "G98",
+    "claimIds": [
+      "entity:bar_2",
+      "relation:VALUE_OF:bar_2:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_2",
+      "relation:CONTAINS:bar_group_bas_all:bar_2"
+    ],
+    "entityIds": [
+      "bar_2",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g98_1"
+    ],
+    "graphPath": [
+      "bar 2",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G99": {
+    "id": "G99",
+    "claimIds": [
+      "entity:bar_20",
+      "relation:VALUE_OF:bar_20:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_20",
+      "relation:CONTAINS:bar_group_bas_all:bar_20"
+    ],
+    "entityIds": [
+      "bar_20",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g99_1"
+    ],
+    "graphPath": [
+      "bar 20",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G100": {
+    "id": "G100",
+    "claimIds": [
+      "entity:bar_21",
+      "relation:VALUE_OF:bar_21:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_21",
+      "relation:CONTAINS:bar_group_bas_all:bar_21"
+    ],
+    "entityIds": [
+      "bar_21",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g100_1"
+    ],
+    "graphPath": [
+      "bar 21",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G101": {
+    "id": "G101",
+    "claimIds": [
+      "entity:bar_22",
+      "relation:VALUE_OF:bar_22:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_22",
+      "relation:CONTAINS:bar_group_bas_all:bar_22"
+    ],
+    "entityIds": [
+      "bar_22",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g101_1"
+    ],
+    "graphPath": [
+      "bar 22",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G102": {
+    "id": "G102",
+    "claimIds": [
+      "entity:bar_23",
+      "relation:VALUE_OF:bar_23:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_23",
+      "relation:CONTAINS:bar_group_bas_all:bar_23"
+    ],
+    "entityIds": [
+      "bar_23",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g102_1"
+    ],
+    "graphPath": [
+      "bar 23",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G103": {
+    "id": "G103",
+    "claimIds": [
+      "entity:bar_24",
+      "relation:VALUE_OF:bar_24:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_24",
+      "relation:CONTAINS:bar_group_bas_all:bar_24"
+    ],
+    "entityIds": [
+      "bar_24",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g103_1"
+    ],
+    "graphPath": [
+      "bar 24",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G104": {
+    "id": "G104",
+    "claimIds": [
+      "entity:bar_25",
+      "relation:VALUE_OF:bar_25:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_25",
+      "relation:CONTAINS:bar_group_bas_all:bar_25"
+    ],
+    "entityIds": [
+      "bar_25",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g104_1"
+    ],
+    "graphPath": [
+      "bar 25",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G105": {
+    "id": "G105",
+    "claimIds": [
+      "entity:bar_26",
+      "relation:VALUE_OF:bar_26:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_26",
+      "relation:CONTAINS:bar_group_bas_all:bar_26"
+    ],
+    "entityIds": [
+      "bar_26",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g105_1"
+    ],
+    "graphPath": [
+      "bar 26",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G106": {
+    "id": "G106",
+    "claimIds": [
+      "entity:bar_27",
+      "relation:VALUE_OF:bar_27:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_27",
+      "relation:CONTAINS:bar_group_bas_all:bar_27"
+    ],
+    "entityIds": [
+      "bar_27",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g106_1"
+    ],
+    "graphPath": [
+      "bar 27",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G107": {
+    "id": "G107",
+    "claimIds": [
+      "entity:bar_28",
+      "relation:VALUE_OF:bar_28:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_28",
+      "relation:CONTAINS:bar_group_bas_all:bar_28"
+    ],
+    "entityIds": [
+      "bar_28",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g107_1"
+    ],
+    "graphPath": [
+      "bar 28",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G108": {
+    "id": "G108",
+    "claimIds": [
+      "entity:bar_29",
+      "relation:VALUE_OF:bar_29:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_29",
+      "relation:CONTAINS:bar_group_bas_all:bar_29"
+    ],
+    "entityIds": [
+      "bar_29",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g108_1"
+    ],
+    "graphPath": [
+      "bar 29",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G109": {
+    "id": "G109",
+    "claimIds": [
+      "entity:bar_3",
+      "relation:VALUE_OF:bar_3:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_3",
+      "relation:CONTAINS:bar_group_bas_all:bar_3"
+    ],
+    "entityIds": [
+      "bar_3",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g109_1"
+    ],
+    "graphPath": [
+      "bar 3",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G110": {
+    "id": "G110",
+    "claimIds": [
+      "entity:bar_30",
+      "relation:VALUE_OF:bar_30:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_30",
+      "relation:CONTAINS:bar_group_bas_all:bar_30"
+    ],
+    "entityIds": [
+      "bar_30",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g110_1"
+    ],
+    "graphPath": [
+      "bar 30",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G111": {
+    "id": "G111",
+    "claimIds": [
+      "entity:bar_31",
+      "relation:VALUE_OF:bar_31:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_31",
+      "relation:CONTAINS:bar_group_bas_all:bar_31"
+    ],
+    "entityIds": [
+      "bar_31",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g111_1"
+    ],
+    "graphPath": [
+      "bar 31",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G112": {
+    "id": "G112",
+    "claimIds": [
+      "entity:bar_32",
+      "relation:VALUE_OF:bar_32:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_32",
+      "relation:CONTAINS:bar_group_bas_all:bar_32"
+    ],
+    "entityIds": [
+      "bar_32",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g112_1"
+    ],
+    "graphPath": [
+      "bar 32",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G113": {
+    "id": "G113",
+    "claimIds": [
+      "entity:bar_33",
+      "relation:VALUE_OF:bar_33:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_33",
+      "relation:CONTAINS:bar_group_bas_all:bar_33"
+    ],
+    "entityIds": [
+      "bar_33",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g113_1"
+    ],
+    "graphPath": [
+      "bar 33",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G114": {
+    "id": "G114",
+    "claimIds": [
+      "entity:bar_34",
+      "relation:VALUE_OF:bar_34:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_34",
+      "relation:CONTAINS:bar_group_bas_all:bar_34"
+    ],
+    "entityIds": [
+      "bar_34",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g114_1"
+    ],
+    "graphPath": [
+      "bar 34",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G115": {
+    "id": "G115",
+    "claimIds": [
+      "entity:bar_35",
+      "relation:VALUE_OF:bar_35:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_35",
+      "relation:CONTAINS:bar_group_bas_all:bar_35"
+    ],
+    "entityIds": [
+      "bar_35",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g115_1"
+    ],
+    "graphPath": [
+      "bar 35",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G116": {
+    "id": "G116",
+    "claimIds": [
+      "entity:bar_36",
+      "relation:VALUE_OF:bar_36:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_36",
+      "relation:CONTAINS:bar_group_bas_all:bar_36"
+    ],
+    "entityIds": [
+      "bar_36",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g116_1"
+    ],
+    "graphPath": [
+      "bar 36",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G117": {
+    "id": "G117",
+    "claimIds": [
+      "entity:bar_37",
+      "relation:VALUE_OF:bar_37:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_37",
+      "relation:CONTAINS:bar_group_bas_all:bar_37"
+    ],
+    "entityIds": [
+      "bar_37",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g117_1"
+    ],
+    "graphPath": [
+      "bar 37",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G118": {
+    "id": "G118",
+    "claimIds": [
+      "entity:bar_38",
+      "relation:VALUE_OF:bar_38:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_38",
+      "relation:CONTAINS:bar_group_bas_all:bar_38"
+    ],
+    "entityIds": [
+      "bar_38",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g118_1"
+    ],
+    "graphPath": [
+      "bar 38",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G119": {
+    "id": "G119",
+    "claimIds": [
+      "entity:bar_39",
+      "relation:VALUE_OF:bar_39:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_39",
+      "relation:CONTAINS:bar_group_bas_all:bar_39"
+    ],
+    "entityIds": [
+      "bar_39",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g119_1"
+    ],
+    "graphPath": [
+      "bar 39",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G120": {
+    "id": "G120",
+    "claimIds": [
+      "entity:bar_4",
+      "relation:VALUE_OF:bar_4:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_4",
+      "relation:CONTAINS:bar_group_bas_all:bar_4"
+    ],
+    "entityIds": [
+      "bar_4",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g120_1"
+    ],
+    "graphPath": [
+      "bar 4",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G121": {
+    "id": "G121",
+    "claimIds": [
+      "entity:bar_40",
+      "relation:VALUE_OF:bar_40:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_40",
+      "relation:CONTAINS:bar_group_bas_all:bar_40"
+    ],
+    "entityIds": [
+      "bar_40",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g121_1"
+    ],
+    "graphPath": [
+      "bar 40",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G122": {
+    "id": "G122",
+    "claimIds": [
+      "entity:bar_41",
+      "relation:VALUE_OF:bar_41:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_41",
+      "relation:CONTAINS:bar_group_bas_all:bar_41"
+    ],
+    "entityIds": [
+      "bar_41",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g122_1"
+    ],
+    "graphPath": [
+      "bar 41",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G123": {
+    "id": "G123",
+    "claimIds": [
+      "entity:bar_42",
+      "relation:VALUE_OF:bar_42:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_42",
+      "relation:CONTAINS:bar_group_bas_all:bar_42"
+    ],
+    "entityIds": [
+      "bar_42",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g123_1"
+    ],
+    "graphPath": [
+      "bar 42",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G124": {
+    "id": "G124",
+    "claimIds": [
+      "entity:bar_43",
+      "relation:VALUE_OF:bar_43:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_43",
+      "relation:CONTAINS:bar_group_bas_all:bar_43"
+    ],
+    "entityIds": [
+      "bar_43",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g124_1"
+    ],
+    "graphPath": [
+      "bar 43",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G125": {
+    "id": "G125",
+    "claimIds": [
+      "entity:bar_44",
+      "relation:VALUE_OF:bar_44:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_44",
+      "relation:CONTAINS:bar_group_bas_all:bar_44"
+    ],
+    "entityIds": [
+      "bar_44",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g125_1"
+    ],
+    "graphPath": [
+      "bar 44",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G126": {
+    "id": "G126",
+    "claimIds": [
+      "entity:bar_45",
+      "relation:VALUE_OF:bar_45:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_45",
+      "relation:CONTAINS:bar_group_bas_all:bar_45"
+    ],
+    "entityIds": [
+      "bar_45",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g126_1"
+    ],
+    "graphPath": [
+      "bar 45",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G127": {
+    "id": "G127",
+    "claimIds": [
+      "entity:bar_46",
+      "relation:VALUE_OF:bar_46:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_46",
+      "relation:CONTAINS:bar_group_bas_all:bar_46"
+    ],
+    "entityIds": [
+      "bar_46",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g127_1"
+    ],
+    "graphPath": [
+      "bar 46",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G128": {
+    "id": "G128",
+    "claimIds": [
+      "entity:bar_47",
+      "relation:VALUE_OF:bar_47:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_47",
+      "relation:CONTAINS:bar_group_bas_all:bar_47"
+    ],
+    "entityIds": [
+      "bar_47",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g128_1"
+    ],
+    "graphPath": [
+      "bar 47",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G129": {
+    "id": "G129",
+    "claimIds": [
+      "entity:bar_48",
+      "relation:VALUE_OF:bar_48:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_48",
+      "relation:CONTAINS:bar_group_bas_all:bar_48"
+    ],
+    "entityIds": [
+      "bar_48",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g129_1"
+    ],
+    "graphPath": [
+      "bar 48",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G130": {
+    "id": "G130",
+    "claimIds": [
+      "entity:bar_49",
+      "relation:VALUE_OF:bar_49:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_49",
+      "relation:CONTAINS:bar_group_bas_all:bar_49"
+    ],
+    "entityIds": [
+      "bar_49",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g130_1"
+    ],
+    "graphPath": [
+      "bar 49",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G131": {
+    "id": "G131",
+    "claimIds": [
+      "entity:bar_5",
+      "relation:VALUE_OF:bar_5:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_5",
+      "relation:CONTAINS:bar_group_bas_all:bar_5"
+    ],
+    "entityIds": [
+      "bar_5",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g131_1"
+    ],
+    "graphPath": [
+      "bar 5",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G132": {
+    "id": "G132",
+    "claimIds": [
+      "entity:bar_50",
+      "relation:VALUE_OF:bar_50:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_50",
+      "relation:CONTAINS:bar_group_bas_all:bar_50"
+    ],
+    "entityIds": [
+      "bar_50",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g132_1"
+    ],
+    "graphPath": [
+      "bar 50",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G133": {
+    "id": "G133",
+    "claimIds": [
+      "entity:bar_51",
+      "relation:VALUE_OF:bar_51:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_51",
+      "relation:CONTAINS:bar_group_bas_all:bar_51"
+    ],
+    "entityIds": [
+      "bar_51",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g133_1"
+    ],
+    "graphPath": [
+      "bar 51",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G134": {
+    "id": "G134",
+    "claimIds": [
+      "entity:bar_52",
+      "relation:VALUE_OF:bar_52:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_52",
+      "relation:CONTAINS:bar_group_bas_all:bar_52"
+    ],
+    "entityIds": [
+      "bar_52",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g134_1"
+    ],
+    "graphPath": [
+      "bar 52",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G135": {
+    "id": "G135",
+    "claimIds": [
+      "entity:bar_53",
+      "relation:VALUE_OF:bar_53:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_53",
+      "relation:CONTAINS:bar_group_bas_all:bar_53"
+    ],
+    "entityIds": [
+      "bar_53",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g135_1"
+    ],
+    "graphPath": [
+      "bar 53",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G136": {
+    "id": "G136",
+    "claimIds": [
+      "entity:bar_54",
+      "relation:VALUE_OF:bar_54:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_54",
+      "relation:CONTAINS:bar_group_bas_all:bar_54"
+    ],
+    "entityIds": [
+      "bar_54",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g136_1"
+    ],
+    "graphPath": [
+      "bar 54",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G137": {
+    "id": "G137",
+    "claimIds": [
+      "entity:bar_55",
+      "relation:VALUE_OF:bar_55:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_55",
+      "relation:CONTAINS:bar_group_bas_all:bar_55"
+    ],
+    "entityIds": [
+      "bar_55",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g137_1"
+    ],
+    "graphPath": [
+      "bar 55",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G138": {
+    "id": "G138",
+    "claimIds": [
+      "entity:bar_56",
+      "relation:VALUE_OF:bar_56:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_56",
+      "relation:CONTAINS:bar_group_bas_all:bar_56"
+    ],
+    "entityIds": [
+      "bar_56",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g138_1"
+    ],
+    "graphPath": [
+      "bar 56",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G139": {
+    "id": "G139",
+    "claimIds": [
+      "entity:bar_57",
+      "relation:VALUE_OF:bar_57:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_57",
+      "relation:CONTAINS:bar_group_bas_all:bar_57"
+    ],
+    "entityIds": [
+      "bar_57",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g139_1"
+    ],
+    "graphPath": [
+      "bar 57",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G140": {
+    "id": "G140",
+    "claimIds": [
+      "entity:bar_58",
+      "relation:VALUE_OF:bar_58:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_58",
+      "relation:CONTAINS:bar_group_bas_all:bar_58"
+    ],
+    "entityIds": [
+      "bar_58",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g140_1"
+    ],
+    "graphPath": [
+      "bar 58",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G141": {
+    "id": "G141",
+    "claimIds": [
+      "entity:bar_59",
+      "relation:VALUE_OF:bar_59:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_59",
+      "relation:CONTAINS:bar_group_bas_all:bar_59"
+    ],
+    "entityIds": [
+      "bar_59",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g141_1"
+    ],
+    "graphPath": [
+      "bar 59",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G142": {
+    "id": "G142",
+    "claimIds": [
+      "entity:bar_6",
+      "relation:VALUE_OF:bar_6:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_6",
+      "relation:CONTAINS:bar_group_bas_all:bar_6"
+    ],
+    "entityIds": [
+      "bar_6",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g142_1"
+    ],
+    "graphPath": [
+      "bar 6",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G143": {
+    "id": "G143",
+    "claimIds": [
+      "entity:bar_60",
+      "relation:VALUE_OF:bar_60:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_60",
+      "relation:CONTAINS:bar_group_bas_all:bar_60"
+    ],
+    "entityIds": [
+      "bar_60",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g143_1"
+    ],
+    "graphPath": [
+      "bar 60",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G144": {
+    "id": "G144",
+    "claimIds": [
+      "entity:bar_61",
+      "relation:VALUE_OF:bar_61:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_61",
+      "relation:CONTAINS:bar_group_bas_all:bar_61"
+    ],
+    "entityIds": [
+      "bar_61",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g144_1"
+    ],
+    "graphPath": [
+      "bar 61",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G145": {
+    "id": "G145",
+    "claimIds": [
+      "entity:bar_62",
+      "relation:VALUE_OF:bar_62:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_62",
+      "relation:CONTAINS:bar_group_bas_all:bar_62"
+    ],
+    "entityIds": [
+      "bar_62",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g145_1"
+    ],
+    "graphPath": [
+      "bar 62",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G146": {
+    "id": "G146",
+    "claimIds": [
+      "entity:bar_63",
+      "relation:VALUE_OF:bar_63:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_63",
+      "relation:CONTAINS:bar_group_bas_all:bar_63"
+    ],
+    "entityIds": [
+      "bar_63",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g146_1"
+    ],
+    "graphPath": [
+      "bar 63",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G147": {
+    "id": "G147",
+    "claimIds": [
+      "entity:bar_64",
+      "relation:VALUE_OF:bar_64:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_64",
+      "relation:CONTAINS:bar_group_bas_all:bar_64"
+    ],
+    "entityIds": [
+      "bar_64",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g147_1"
+    ],
+    "graphPath": [
+      "bar 64",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G148": {
+    "id": "G148",
+    "claimIds": [
+      "entity:bar_65",
+      "relation:VALUE_OF:bar_65:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_65",
+      "relation:CONTAINS:bar_group_bas_all:bar_65"
+    ],
+    "entityIds": [
+      "bar_65",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g148_1"
+    ],
+    "graphPath": [
+      "bar 65",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G149": {
+    "id": "G149",
+    "claimIds": [
+      "entity:bar_66",
+      "relation:VALUE_OF:bar_66:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_66",
+      "relation:CONTAINS:bar_group_bas_all:bar_66"
+    ],
+    "entityIds": [
+      "bar_66",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g149_1"
+    ],
+    "graphPath": [
+      "bar 66",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G150": {
+    "id": "G150",
+    "claimIds": [
+      "entity:bar_67",
+      "relation:VALUE_OF:bar_67:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_67",
+      "relation:CONTAINS:bar_group_bas_all:bar_67"
+    ],
+    "entityIds": [
+      "bar_67",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g150_1"
+    ],
+    "graphPath": [
+      "bar 67",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G151": {
+    "id": "G151",
+    "claimIds": [
+      "entity:bar_68",
+      "relation:VALUE_OF:bar_68:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_68",
+      "relation:CONTAINS:bar_group_bas_all:bar_68"
+    ],
+    "entityIds": [
+      "bar_68",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g151_1"
+    ],
+    "graphPath": [
+      "bar 68",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G152": {
+    "id": "G152",
+    "claimIds": [
+      "entity:bar_7",
+      "relation:VALUE_OF:bar_7:NONE",
+      "relation:CONTAINS:bar_group_bas_NONE:bar_7",
+      "relation:CONTAINS:bar_group_bas_all:bar_7"
+    ],
+    "entityIds": [
+      "bar_7",
+      "NONE",
+      "bar_group_bas_NONE",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g152_1"
+    ],
+    "graphPath": [
+      "bar 7",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G153": {
+    "id": "G153",
+    "claimIds": [
+      "entity:bar_8",
+      "relation:VALUE_OF:bar_8:Male",
+      "relation:CONTAINS:bar_group_bas_Male:bar_8",
+      "relation:CONTAINS:bar_group_bas_all:bar_8"
+    ],
+    "entityIds": [
+      "bar_8",
+      "Male",
+      "bar_group_bas_Male",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g153_1"
+    ],
+    "graphPath": [
+      "bar 8",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G154": {
+    "id": "G154",
+    "claimIds": [
+      "entity:bar_9",
+      "relation:VALUE_OF:bar_9:Female",
+      "relation:CONTAINS:bar_group_bas_Female:bar_9",
+      "relation:CONTAINS:bar_group_bas_all:bar_9"
+    ],
+    "entityIds": [
+      "bar_9",
+      "Female",
+      "bar_group_bas_Female",
+      "bar_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g154_1"
+    ],
+    "graphPath": [
+      "bar 9",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G155": {
+    "id": "G155",
+    "claimIds": [
+      "entity:point_1",
+      "relation:VALUE_OF:point_1:Male_gender_value",
+      "relation:CONTAINS:point_group_bas_Male:point_1",
+      "relation:CONTAINS:point_group_bas_all:point_1"
+    ],
+    "entityIds": [
+      "point_1",
+      "Male_gender_value",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 1",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G156": {
+    "id": "G156",
+    "claimIds": [
+      "entity:point_10",
+      "relation:VALUE_OF:point_10:Female_gender_value",
+      "relation:VALUE_OF:point_10:Negative",
+      "relation:VALUE_OF:point_10:Positive",
+      "relation:VALUE_OF:point_10:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_10",
+      "relation:CONTAINS:point_group_bas_all:point_10"
+    ],
+    "entityIds": [
+      "point_10",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g156_1"
+    ],
+    "graphPath": [
+      "point 10",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G157": {
+    "id": "G157",
+    "claimIds": [
+      "entity:point_11",
+      "relation:VALUE_OF:point_11:Male_gender_value",
+      "relation:CONTAINS:point_group_bas_Male:point_11",
+      "relation:CONTAINS:point_group_bas_all:point_11"
+    ],
+    "entityIds": [
+      "point_11",
+      "Male_gender_value",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 11",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G158": {
+    "id": "G158",
+    "claimIds": [
+      "entity:point_12",
+      "relation:VALUE_OF:point_12:Male_gender_value",
+      "relation:VALUE_OF:point_12:Negative",
+      "relation:VALUE_OF:point_12:Positive",
+      "relation:VALUE_OF:point_12:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_12",
+      "relation:CONTAINS:point_group_bas_all:point_12"
+    ],
+    "entityIds": [
+      "point_12",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g158_1"
+    ],
+    "graphPath": [
+      "point 12",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G159": {
+    "id": "G159",
+    "claimIds": [
+      "entity:point_13",
+      "relation:CONTAINS:point_group_bas_all:point_13"
+    ],
+    "entityIds": [
+      "point_13",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 13"
+    ]
+  },
+  "G160": {
+    "id": "G160",
+    "claimIds": [
+      "entity:point_14",
+      "relation:VALUE_OF:point_14:Female_gender_value",
+      "relation:VALUE_OF:point_14:Negative",
+      "relation:VALUE_OF:point_14:Positive",
+      "relation:VALUE_OF:point_14:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_14",
+      "relation:CONTAINS:point_group_bas_all:point_14"
+    ],
+    "entityIds": [
+      "point_14",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g160_1"
+    ],
+    "graphPath": [
+      "point 14",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G161": {
+    "id": "G161",
+    "claimIds": [
+      "entity:point_15",
+      "relation:VALUE_OF:point_15:Female_gender_value",
+      "relation:VALUE_OF:point_15:Negative",
+      "relation:VALUE_OF:point_15:Positive",
+      "relation:VALUE_OF:point_15:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_15",
+      "relation:CONTAINS:point_group_bas_all:point_15"
+    ],
+    "entityIds": [
+      "point_15",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g161_1"
+    ],
+    "graphPath": [
+      "point 15",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G162": {
+    "id": "G162",
+    "claimIds": [
+      "entity:point_16",
+      "relation:CONTAINS:point_group_bas_all:point_16"
+    ],
+    "entityIds": [
+      "point_16",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 16"
+    ]
+  },
+  "G163": {
+    "id": "G163",
+    "claimIds": [
+      "entity:point_17",
+      "relation:VALUE_OF:point_17:Female_gender_value",
+      "relation:VALUE_OF:point_17:Negative",
+      "relation:VALUE_OF:point_17:Positive",
+      "relation:VALUE_OF:point_17:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_17",
+      "relation:CONTAINS:point_group_bas_all:point_17"
+    ],
+    "entityIds": [
+      "point_17",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g163_1"
+    ],
+    "graphPath": [
+      "point 17",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G164": {
+    "id": "G164",
+    "claimIds": [
+      "entity:point_18",
+      "relation:VALUE_OF:point_18:Male_gender_value",
+      "relation:VALUE_OF:point_18:Negative",
+      "relation:VALUE_OF:point_18:Positive",
+      "relation:VALUE_OF:point_18:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_18",
+      "relation:CONTAINS:point_group_bas_all:point_18"
+    ],
+    "entityIds": [
+      "point_18",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g164_1"
+    ],
+    "graphPath": [
+      "point 18",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G165": {
+    "id": "G165",
+    "claimIds": [
+      "entity:point_19",
+      "relation:VALUE_OF:point_19:NONE_gender_value",
+      "relation:VALUE_OF:point_19:Negative",
+      "relation:VALUE_OF:point_19:Positive",
+      "relation:VALUE_OF:point_19:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_19",
+      "relation:CONTAINS:point_group_bas_all:point_19"
+    ],
+    "entityIds": [
+      "point_19",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g165_1"
+    ],
+    "graphPath": [
+      "point 19",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G166": {
+    "id": "G166",
+    "claimIds": [
+      "entity:point_2",
+      "relation:VALUE_OF:point_2:NONE_gender_value",
+      "relation:VALUE_OF:point_2:Negative",
+      "relation:VALUE_OF:point_2:Positive",
+      "relation:VALUE_OF:point_2:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_2",
+      "relation:CONTAINS:point_group_bas_all:point_2"
+    ],
+    "entityIds": [
+      "point_2",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g166_1"
+    ],
+    "graphPath": [
+      "point 2",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G167": {
+    "id": "G167",
+    "claimIds": [
+      "entity:point_20",
+      "relation:VALUE_OF:point_20:Female_gender_value",
+      "relation:VALUE_OF:point_20:Negative",
+      "relation:VALUE_OF:point_20:Positive",
+      "relation:VALUE_OF:point_20:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_20",
+      "relation:CONTAINS:point_group_bas_all:point_20"
+    ],
+    "entityIds": [
+      "point_20",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g167_1"
+    ],
+    "graphPath": [
+      "point 20",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G168": {
+    "id": "G168",
+    "claimIds": [
+      "entity:point_21",
+      "relation:VALUE_OF:point_21:NONE_gender_value",
+      "relation:VALUE_OF:point_21:Negative",
+      "relation:VALUE_OF:point_21:Positive",
+      "relation:VALUE_OF:point_21:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_21",
+      "relation:CONTAINS:point_group_bas_all:point_21"
+    ],
+    "entityIds": [
+      "point_21",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g168_1"
+    ],
+    "graphPath": [
+      "point 21",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G169": {
+    "id": "G169",
+    "claimIds": [
+      "entity:point_22",
+      "relation:VALUE_OF:point_22:NONE_gender_value",
+      "relation:VALUE_OF:point_22:Negative",
+      "relation:VALUE_OF:point_22:Positive",
+      "relation:VALUE_OF:point_22:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_22",
+      "relation:CONTAINS:point_group_bas_all:point_22"
+    ],
+    "entityIds": [
+      "point_22",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g169_1"
+    ],
+    "graphPath": [
+      "point 22",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G170": {
+    "id": "G170",
+    "claimIds": [
+      "entity:point_23",
+      "relation:CONTAINS:point_group_bas_all:point_23"
+    ],
+    "entityIds": [
+      "point_23",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 23"
+    ]
+  },
+  "G171": {
+    "id": "G171",
+    "claimIds": [
+      "entity:point_24",
+      "relation:VALUE_OF:point_24:NONE_gender_value",
+      "relation:VALUE_OF:point_24:Negative",
+      "relation:VALUE_OF:point_24:Positive",
+      "relation:VALUE_OF:point_24:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_24",
+      "relation:CONTAINS:point_group_bas_all:point_24"
+    ],
+    "entityIds": [
+      "point_24",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g171_1"
+    ],
+    "graphPath": [
+      "point 24",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G172": {
+    "id": "G172",
+    "claimIds": [
+      "entity:point_25",
+      "relation:VALUE_OF:point_25:Female_gender_value",
+      "relation:VALUE_OF:point_25:Negative",
+      "relation:VALUE_OF:point_25:Positive",
+      "relation:VALUE_OF:point_25:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_25",
+      "relation:CONTAINS:point_group_bas_all:point_25"
+    ],
+    "entityIds": [
+      "point_25",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g172_1"
+    ],
+    "graphPath": [
+      "point 25",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G173": {
+    "id": "G173",
+    "claimIds": [
+      "entity:point_26",
+      "relation:VALUE_OF:point_26:NONE_gender_value",
+      "relation:CONTAINS:point_group_bas_NONE:point_26",
+      "relation:CONTAINS:point_group_bas_all:point_26"
+    ],
+    "entityIds": [
+      "point_26",
+      "NONE_gender_value",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 26",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G174": {
+    "id": "G174",
+    "claimIds": [
+      "entity:point_27",
+      "relation:VALUE_OF:point_27:Female_gender_value",
+      "relation:VALUE_OF:point_27:Negative",
+      "relation:VALUE_OF:point_27:Positive",
+      "relation:VALUE_OF:point_27:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_27",
+      "relation:CONTAINS:point_group_bas_all:point_27"
+    ],
+    "entityIds": [
+      "point_27",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g174_1"
+    ],
+    "graphPath": [
+      "point 27",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G175": {
+    "id": "G175",
+    "claimIds": [
+      "entity:point_28",
+      "relation:VALUE_OF:point_28:NONE_gender_value",
+      "relation:VALUE_OF:point_28:Negative",
+      "relation:VALUE_OF:point_28:Positive",
+      "relation:VALUE_OF:point_28:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_28",
+      "relation:CONTAINS:point_group_bas_all:point_28"
+    ],
+    "entityIds": [
+      "point_28",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g175_1"
+    ],
+    "graphPath": [
+      "point 28",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G176": {
+    "id": "G176",
+    "claimIds": [
+      "entity:point_29",
+      "relation:CONTAINS:point_group_bas_all:point_29"
+    ],
+    "entityIds": [
+      "point_29",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 29"
+    ]
+  },
+  "G177": {
+    "id": "G177",
+    "claimIds": [
+      "entity:point_3",
+      "relation:VALUE_OF:point_3:Female_gender_value",
+      "relation:CONTAINS:point_group_bas_Female:point_3",
+      "relation:CONTAINS:point_group_bas_all:point_3"
+    ],
+    "entityIds": [
+      "point_3",
+      "Female_gender_value",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 3",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G178": {
+    "id": "G178",
+    "claimIds": [
+      "entity:point_30",
+      "relation:VALUE_OF:point_30:NONE_gender_value",
+      "relation:VALUE_OF:point_30:Negative",
+      "relation:VALUE_OF:point_30:Positive",
+      "relation:VALUE_OF:point_30:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_30",
+      "relation:CONTAINS:point_group_bas_all:point_30"
+    ],
+    "entityIds": [
+      "point_30",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g178_1"
+    ],
+    "graphPath": [
+      "point 30",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G179": {
+    "id": "G179",
+    "claimIds": [
+      "entity:point_31",
+      "relation:VALUE_OF:point_31:Female_gender_value",
+      "relation:VALUE_OF:point_31:Negative",
+      "relation:VALUE_OF:point_31:Positive",
+      "relation:VALUE_OF:point_31:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_31",
+      "relation:CONTAINS:point_group_bas_all:point_31"
+    ],
+    "entityIds": [
+      "point_31",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g179_1"
+    ],
+    "graphPath": [
+      "point 31",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G180": {
+    "id": "G180",
+    "claimIds": [
+      "entity:point_32",
+      "relation:CONTAINS:point_group_bas_all:point_32"
+    ],
+    "entityIds": [
+      "point_32",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 32"
+    ]
+  },
+  "G181": {
+    "id": "G181",
+    "claimIds": [
+      "entity:point_33",
+      "relation:VALUE_OF:point_33:NONE_gender_value",
+      "relation:VALUE_OF:point_33:Negative",
+      "relation:VALUE_OF:point_33:Positive",
+      "relation:VALUE_OF:point_33:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_33",
+      "relation:CONTAINS:point_group_bas_all:point_33"
+    ],
+    "entityIds": [
+      "point_33",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g181_1"
+    ],
+    "graphPath": [
+      "point 33",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G182": {
+    "id": "G182",
+    "claimIds": [
+      "entity:point_34",
+      "relation:VALUE_OF:point_34:Male_gender_value",
+      "relation:VALUE_OF:point_34:Negative",
+      "relation:VALUE_OF:point_34:Positive",
+      "relation:VALUE_OF:point_34:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_34",
+      "relation:CONTAINS:point_group_bas_all:point_34"
+    ],
+    "entityIds": [
+      "point_34",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g182_1"
+    ],
+    "graphPath": [
+      "point 34",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G183": {
+    "id": "G183",
+    "claimIds": [
+      "entity:point_35",
+      "relation:VALUE_OF:point_35:NONE_gender_value",
+      "relation:VALUE_OF:point_35:Negative",
+      "relation:VALUE_OF:point_35:Positive",
+      "relation:VALUE_OF:point_35:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_35",
+      "relation:CONTAINS:point_group_bas_all:point_35"
+    ],
+    "entityIds": [
+      "point_35",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g183_1"
+    ],
+    "graphPath": [
+      "point 35",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G184": {
+    "id": "G184",
+    "claimIds": [
+      "entity:point_36",
+      "relation:VALUE_OF:point_36:NONE_gender_value",
+      "relation:CONTAINS:point_group_bas_NONE:point_36",
+      "relation:CONTAINS:point_group_bas_all:point_36"
+    ],
+    "entityIds": [
+      "point_36",
+      "NONE_gender_value",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 36",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G185": {
+    "id": "G185",
+    "claimIds": [
+      "entity:point_37",
+      "relation:CONTAINS:point_group_bas_all:point_37"
+    ],
+    "entityIds": [
+      "point_37",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 37"
+    ]
+  },
+  "G186": {
+    "id": "G186",
+    "claimIds": [
+      "entity:point_38",
+      "relation:CONTAINS:point_group_bas_all:point_38"
+    ],
+    "entityIds": [
+      "point_38",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 38"
+    ]
+  },
+  "G187": {
+    "id": "G187",
+    "claimIds": [
+      "entity:point_39",
+      "relation:VALUE_OF:point_39:Male_gender_value",
+      "relation:VALUE_OF:point_39:Negative",
+      "relation:VALUE_OF:point_39:Positive",
+      "relation:VALUE_OF:point_39:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_39",
+      "relation:CONTAINS:point_group_bas_all:point_39"
+    ],
+    "entityIds": [
+      "point_39",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g187_1"
+    ],
+    "graphPath": [
+      "point 39",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G188": {
+    "id": "G188",
+    "claimIds": [
+      "entity:point_4",
+      "relation:CONTAINS:point_group_bas_all:point_4"
+    ],
+    "entityIds": [
+      "point_4",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 4"
+    ]
+  },
+  "G189": {
+    "id": "G189",
+    "claimIds": [
+      "entity:point_40",
+      "relation:VALUE_OF:point_40:NONE_gender_value",
+      "relation:VALUE_OF:point_40:Negative",
+      "relation:VALUE_OF:point_40:Positive",
+      "relation:VALUE_OF:point_40:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_40",
+      "relation:CONTAINS:point_group_bas_all:point_40"
+    ],
+    "entityIds": [
+      "point_40",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g189_1"
+    ],
+    "graphPath": [
+      "point 40",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G190": {
+    "id": "G190",
+    "claimIds": [
+      "entity:point_41",
+      "relation:VALUE_OF:point_41:Female_gender_value",
+      "relation:VALUE_OF:point_41:Negative",
+      "relation:VALUE_OF:point_41:Positive",
+      "relation:VALUE_OF:point_41:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_41",
+      "relation:CONTAINS:point_group_bas_all:point_41"
+    ],
+    "entityIds": [
+      "point_41",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g190_1"
+    ],
+    "graphPath": [
+      "point 41",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G191": {
+    "id": "G191",
+    "claimIds": [
+      "entity:point_42",
+      "relation:VALUE_OF:point_42:NONE_gender_value",
+      "relation:VALUE_OF:point_42:Negative",
+      "relation:VALUE_OF:point_42:Positive",
+      "relation:VALUE_OF:point_42:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_42",
+      "relation:CONTAINS:point_group_bas_all:point_42"
+    ],
+    "entityIds": [
+      "point_42",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g191_1"
+    ],
+    "graphPath": [
+      "point 42",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G192": {
+    "id": "G192",
+    "claimIds": [
+      "entity:point_43",
+      "relation:VALUE_OF:point_43:NONE_gender_value",
+      "relation:VALUE_OF:point_43:Negative",
+      "relation:VALUE_OF:point_43:Positive",
+      "relation:VALUE_OF:point_43:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_43",
+      "relation:CONTAINS:point_group_bas_all:point_43"
+    ],
+    "entityIds": [
+      "point_43",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g192_1"
+    ],
+    "graphPath": [
+      "point 43",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G193": {
+    "id": "G193",
+    "claimIds": [
+      "entity:point_44",
+      "relation:VALUE_OF:point_44:Male_gender_value",
+      "relation:CONTAINS:point_group_bas_Male:point_44",
+      "relation:CONTAINS:point_group_bas_all:point_44"
+    ],
+    "entityIds": [
+      "point_44",
+      "Male_gender_value",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 44",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G194": {
+    "id": "G194",
+    "claimIds": [
+      "entity:point_45",
+      "relation:VALUE_OF:point_45:Female_gender_value",
+      "relation:VALUE_OF:point_45:Negative",
+      "relation:VALUE_OF:point_45:Positive",
+      "relation:VALUE_OF:point_45:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_45",
+      "relation:CONTAINS:point_group_bas_all:point_45"
+    ],
+    "entityIds": [
+      "point_45",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g194_1"
+    ],
+    "graphPath": [
+      "point 45",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G195": {
+    "id": "G195",
+    "claimIds": [
+      "entity:point_46",
+      "relation:VALUE_OF:point_46:NONE_gender_value",
+      "relation:VALUE_OF:point_46:Negative",
+      "relation:VALUE_OF:point_46:Positive",
+      "relation:VALUE_OF:point_46:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_46",
+      "relation:CONTAINS:point_group_bas_all:point_46"
+    ],
+    "entityIds": [
+      "point_46",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g195_1"
+    ],
+    "graphPath": [
+      "point 46",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G196": {
+    "id": "G196",
+    "claimIds": [
+      "entity:point_47",
+      "relation:VALUE_OF:point_47:Male_gender_value",
+      "relation:VALUE_OF:point_47:Negative",
+      "relation:VALUE_OF:point_47:Positive",
+      "relation:VALUE_OF:point_47:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_47",
+      "relation:CONTAINS:point_group_bas_all:point_47"
+    ],
+    "entityIds": [
+      "point_47",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g196_1"
+    ],
+    "graphPath": [
+      "point 47",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G197": {
+    "id": "G197",
+    "claimIds": [
+      "entity:point_48",
+      "relation:VALUE_OF:point_48:Male_gender_value",
+      "relation:VALUE_OF:point_48:Negative",
+      "relation:VALUE_OF:point_48:Positive",
+      "relation:VALUE_OF:point_48:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_48",
+      "relation:CONTAINS:point_group_bas_all:point_48"
+    ],
+    "entityIds": [
+      "point_48",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g197_1"
+    ],
+    "graphPath": [
+      "point 48",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G198": {
+    "id": "G198",
+    "claimIds": [
+      "entity:point_49",
+      "relation:VALUE_OF:point_49:NONE_gender_value",
+      "relation:CONTAINS:point_group_bas_NONE:point_49",
+      "relation:CONTAINS:point_group_bas_all:point_49"
+    ],
+    "entityIds": [
+      "point_49",
+      "NONE_gender_value",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 49",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G199": {
+    "id": "G199",
+    "claimIds": [
+      "entity:point_5",
+      "relation:VALUE_OF:point_5:Female_gender_value",
+      "relation:VALUE_OF:point_5:Negative",
+      "relation:VALUE_OF:point_5:Positive",
+      "relation:VALUE_OF:point_5:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_5",
+      "relation:CONTAINS:point_group_bas_all:point_5"
+    ],
+    "entityIds": [
+      "point_5",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g199_1"
+    ],
+    "graphPath": [
+      "point 5",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G200": {
+    "id": "G200",
+    "claimIds": [
+      "entity:point_50",
+      "relation:VALUE_OF:point_50:Male_gender_value",
+      "relation:VALUE_OF:point_50:Negative",
+      "relation:VALUE_OF:point_50:Positive",
+      "relation:VALUE_OF:point_50:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_50",
+      "relation:CONTAINS:point_group_bas_all:point_50"
+    ],
+    "entityIds": [
+      "point_50",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g200_1"
+    ],
+    "graphPath": [
+      "point 50",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G201": {
+    "id": "G201",
+    "claimIds": [
+      "entity:point_51",
+      "relation:VALUE_OF:point_51:Female_gender_value",
+      "relation:VALUE_OF:point_51:Negative",
+      "relation:VALUE_OF:point_51:Positive",
+      "relation:VALUE_OF:point_51:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_51",
+      "relation:CONTAINS:point_group_bas_all:point_51"
+    ],
+    "entityIds": [
+      "point_51",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g201_1"
+    ],
+    "graphPath": [
+      "point 51",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G202": {
+    "id": "G202",
+    "claimIds": [
+      "entity:point_52",
+      "relation:VALUE_OF:point_52:NONE_gender_value",
+      "relation:VALUE_OF:point_52:Negative",
+      "relation:VALUE_OF:point_52:Positive",
+      "relation:VALUE_OF:point_52:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_52",
+      "relation:CONTAINS:point_group_bas_all:point_52"
+    ],
+    "entityIds": [
+      "point_52",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g202_1"
+    ],
+    "graphPath": [
+      "point 52",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G203": {
+    "id": "G203",
+    "claimIds": [
+      "entity:point_53",
+      "relation:VALUE_OF:point_53:NONE_gender_value",
+      "relation:VALUE_OF:point_53:Negative",
+      "relation:VALUE_OF:point_53:Positive",
+      "relation:VALUE_OF:point_53:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_53",
+      "relation:CONTAINS:point_group_bas_all:point_53"
+    ],
+    "entityIds": [
+      "point_53",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g203_1"
+    ],
+    "graphPath": [
+      "point 53",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G204": {
+    "id": "G204",
+    "claimIds": [
+      "entity:point_54",
+      "relation:VALUE_OF:point_54:Female_gender_value",
+      "relation:VALUE_OF:point_54:Negative",
+      "relation:VALUE_OF:point_54:Positive",
+      "relation:VALUE_OF:point_54:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_54",
+      "relation:CONTAINS:point_group_bas_all:point_54"
+    ],
+    "entityIds": [
+      "point_54",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g204_1"
+    ],
+    "graphPath": [
+      "point 54",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G205": {
+    "id": "G205",
+    "claimIds": [
+      "entity:point_55",
+      "relation:VALUE_OF:point_55:Male_gender_value",
+      "relation:VALUE_OF:point_55:Negative",
+      "relation:VALUE_OF:point_55:Positive",
+      "relation:VALUE_OF:point_55:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_55",
+      "relation:CONTAINS:point_group_bas_all:point_55"
+    ],
+    "entityIds": [
+      "point_55",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g205_1"
+    ],
+    "graphPath": [
+      "point 55",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G206": {
+    "id": "G206",
+    "claimIds": [
+      "entity:point_56",
+      "relation:VALUE_OF:point_56:Female_gender_value",
+      "relation:VALUE_OF:point_56:Negative",
+      "relation:VALUE_OF:point_56:Positive",
+      "relation:VALUE_OF:point_56:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_56",
+      "relation:CONTAINS:point_group_bas_all:point_56"
+    ],
+    "entityIds": [
+      "point_56",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g206_1"
+    ],
+    "graphPath": [
+      "point 56",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G207": {
+    "id": "G207",
+    "claimIds": [
+      "entity:point_57",
+      "relation:VALUE_OF:point_57:Male_gender_value",
+      "relation:VALUE_OF:point_57:Negative",
+      "relation:VALUE_OF:point_57:Positive",
+      "relation:VALUE_OF:point_57:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_57",
+      "relation:CONTAINS:point_group_bas_all:point_57"
+    ],
+    "entityIds": [
+      "point_57",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g207_1"
+    ],
+    "graphPath": [
+      "point 57",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G208": {
+    "id": "G208",
+    "claimIds": [
+      "entity:point_58",
+      "relation:VALUE_OF:point_58:NONE_gender_value",
+      "relation:VALUE_OF:point_58:Negative",
+      "relation:VALUE_OF:point_58:Positive",
+      "relation:VALUE_OF:point_58:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_58",
+      "relation:CONTAINS:point_group_bas_all:point_58"
+    ],
+    "entityIds": [
+      "point_58",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g208_1"
+    ],
+    "graphPath": [
+      "point 58",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G209": {
+    "id": "G209",
+    "claimIds": [
+      "entity:point_59",
+      "relation:VALUE_OF:point_59:Female_gender_value",
+      "relation:VALUE_OF:point_59:Negative",
+      "relation:VALUE_OF:point_59:Positive",
+      "relation:VALUE_OF:point_59:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_59",
+      "relation:CONTAINS:point_group_bas_all:point_59"
+    ],
+    "entityIds": [
+      "point_59",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g209_1"
+    ],
+    "graphPath": [
+      "point 59",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G210": {
+    "id": "G210",
+    "claimIds": [
+      "entity:point_6",
+      "relation:VALUE_OF:point_6:Male_gender_value",
+      "relation:CONTAINS:point_group_bas_Male:point_6",
+      "relation:CONTAINS:point_group_bas_all:point_6"
+    ],
+    "entityIds": [
+      "point_6",
+      "Male_gender_value",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 6",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G211": {
+    "id": "G211",
+    "claimIds": [
+      "entity:point_60",
+      "relation:VALUE_OF:point_60:NONE_gender_value",
+      "relation:VALUE_OF:point_60:Negative",
+      "relation:VALUE_OF:point_60:Positive",
+      "relation:VALUE_OF:point_60:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_60",
+      "relation:CONTAINS:point_group_bas_all:point_60"
+    ],
+    "entityIds": [
+      "point_60",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g211_1"
+    ],
+    "graphPath": [
+      "point 60",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G212": {
+    "id": "G212",
+    "claimIds": [
+      "entity:point_61",
+      "relation:VALUE_OF:point_61:Female_gender_value",
+      "relation:VALUE_OF:point_61:Negative",
+      "relation:VALUE_OF:point_61:Positive",
+      "relation:VALUE_OF:point_61:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_61",
+      "relation:CONTAINS:point_group_bas_all:point_61"
+    ],
+    "entityIds": [
+      "point_61",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g212_1"
+    ],
+    "graphPath": [
+      "point 61",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G213": {
+    "id": "G213",
+    "claimIds": [
+      "entity:point_62",
+      "relation:VALUE_OF:point_62:NONE_gender_value",
+      "relation:VALUE_OF:point_62:Negative",
+      "relation:VALUE_OF:point_62:Positive",
+      "relation:VALUE_OF:point_62:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_62",
+      "relation:CONTAINS:point_group_bas_all:point_62"
+    ],
+    "entityIds": [
+      "point_62",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g213_1"
+    ],
+    "graphPath": [
+      "point 62",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G214": {
+    "id": "G214",
+    "claimIds": [
+      "entity:point_63",
+      "relation:VALUE_OF:point_63:NONE_gender_value",
+      "relation:CONTAINS:point_group_bas_NONE:point_63",
+      "relation:CONTAINS:point_group_bas_all:point_63"
+    ],
+    "entityIds": [
+      "point_63",
+      "NONE_gender_value",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 63",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G215": {
+    "id": "G215",
+    "claimIds": [
+      "entity:point_64",
+      "relation:VALUE_OF:point_64:NONE_gender_value",
+      "relation:VALUE_OF:point_64:Negative",
+      "relation:VALUE_OF:point_64:Positive",
+      "relation:VALUE_OF:point_64:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_64",
+      "relation:CONTAINS:point_group_bas_all:point_64"
+    ],
+    "entityIds": [
+      "point_64",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g215_1"
+    ],
+    "graphPath": [
+      "point 64",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G216": {
+    "id": "G216",
+    "claimIds": [
+      "entity:point_65",
+      "relation:CONTAINS:point_group_bas_all:point_65"
+    ],
+    "entityIds": [
+      "point_65",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 65"
+    ]
+  },
+  "G217": {
+    "id": "G217",
+    "claimIds": [
+      "entity:point_66",
+      "relation:VALUE_OF:point_66:Female_gender_value",
+      "relation:VALUE_OF:point_66:Negative",
+      "relation:VALUE_OF:point_66:Positive",
+      "relation:VALUE_OF:point_66:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_66",
+      "relation:CONTAINS:point_group_bas_all:point_66"
+    ],
+    "entityIds": [
+      "point_66",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g217_1"
+    ],
+    "graphPath": [
+      "point 66",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G218": {
+    "id": "G218",
+    "claimIds": [
+      "entity:point_67",
+      "relation:VALUE_OF:point_67:NONE_gender_value",
+      "relation:VALUE_OF:point_67:Negative",
+      "relation:VALUE_OF:point_67:Positive",
+      "relation:VALUE_OF:point_67:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_67",
+      "relation:CONTAINS:point_group_bas_all:point_67"
+    ],
+    "entityIds": [
+      "point_67",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g218_1"
+    ],
+    "graphPath": [
+      "point 67",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G219": {
+    "id": "G219",
+    "claimIds": [
+      "entity:point_68",
+      "relation:CONTAINS:point_group_bas_all:point_68"
+    ],
+    "entityIds": [
+      "point_68",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point group bas all",
+      "CONTAINS",
+      "point 68"
+    ]
+  },
+  "G220": {
+    "id": "G220",
+    "claimIds": [
+      "entity:point_69",
+      "relation:VALUE_OF:point_69:NONE_gender_value",
+      "relation:VALUE_OF:point_69:Negative",
+      "relation:VALUE_OF:point_69:Positive",
+      "relation:VALUE_OF:point_69:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_69",
+      "relation:CONTAINS:point_group_bas_all:point_69"
+    ],
+    "entityIds": [
+      "point_69",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g220_1"
+    ],
+    "graphPath": [
+      "point 69",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G221": {
+    "id": "G221",
+    "claimIds": [
+      "entity:point_7",
+      "relation:VALUE_OF:point_7:NONE_gender_value",
+      "relation:VALUE_OF:point_7:Negative",
+      "relation:VALUE_OF:point_7:Positive",
+      "relation:VALUE_OF:point_7:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_7",
+      "relation:CONTAINS:point_group_bas_all:point_7"
+    ],
+    "entityIds": [
+      "point_7",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g221_1"
+    ],
+    "graphPath": [
+      "point 7",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G222": {
+    "id": "G222",
+    "claimIds": [
+      "entity:point_70",
+      "relation:VALUE_OF:point_70:Female_gender_value",
+      "relation:VALUE_OF:point_70:Negative",
+      "relation:VALUE_OF:point_70:Positive",
+      "relation:VALUE_OF:point_70:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_70",
+      "relation:CONTAINS:point_group_bas_all:point_70"
+    ],
+    "entityIds": [
+      "point_70",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g222_1"
+    ],
+    "graphPath": [
+      "point 70",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G223": {
+    "id": "G223",
+    "claimIds": [
+      "entity:point_71",
+      "relation:VALUE_OF:point_71:Male_gender_value",
+      "relation:CONTAINS:point_group_bas_Male:point_71",
+      "relation:CONTAINS:point_group_bas_all:point_71"
+    ],
+    "entityIds": [
+      "point_71",
+      "Male_gender_value",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 71",
+      "VALUE_OF",
+      "Male"
+    ]
+  },
+  "G224": {
+    "id": "G224",
+    "claimIds": [
+      "entity:point_72",
+      "relation:VALUE_OF:point_72:Female_gender_value",
+      "relation:VALUE_OF:point_72:Negative",
+      "relation:VALUE_OF:point_72:Positive",
+      "relation:VALUE_OF:point_72:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_72",
+      "relation:CONTAINS:point_group_bas_all:point_72"
+    ],
+    "entityIds": [
+      "point_72",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g224_1"
+    ],
+    "graphPath": [
+      "point 72",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G225": {
+    "id": "G225",
+    "claimIds": [
+      "entity:point_73",
+      "relation:VALUE_OF:point_73:NONE_gender_value",
+      "relation:VALUE_OF:point_73:Negative",
+      "relation:VALUE_OF:point_73:Positive",
+      "relation:VALUE_OF:point_73:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_73",
+      "relation:CONTAINS:point_group_bas_all:point_73"
+    ],
+    "entityIds": [
+      "point_73",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g225_1"
+    ],
+    "graphPath": [
+      "point 73",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G226": {
+    "id": "G226",
+    "claimIds": [
+      "entity:point_74",
+      "relation:VALUE_OF:point_74:Female_gender_value",
+      "relation:VALUE_OF:point_74:Negative",
+      "relation:VALUE_OF:point_74:Positive",
+      "relation:VALUE_OF:point_74:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_74",
+      "relation:CONTAINS:point_group_bas_all:point_74"
+    ],
+    "entityIds": [
+      "point_74",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g226_1"
+    ],
+    "graphPath": [
+      "point 74",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G227": {
+    "id": "G227",
+    "claimIds": [
+      "entity:point_75",
+      "relation:VALUE_OF:point_75:Female_gender_value",
+      "relation:CONTAINS:point_group_bas_Female:point_75",
+      "relation:CONTAINS:point_group_bas_all:point_75"
+    ],
+    "entityIds": [
+      "point_75",
+      "Female_gender_value",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 75",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G228": {
+    "id": "G228",
+    "claimIds": [
+      "entity:point_76",
+      "relation:VALUE_OF:point_76:NONE_gender_value",
+      "relation:VALUE_OF:point_76:Negative",
+      "relation:VALUE_OF:point_76:Positive",
+      "relation:VALUE_OF:point_76:Uncertainty",
+      "relation:CONTAINS:point_group_bas_NONE:point_76",
+      "relation:CONTAINS:point_group_bas_all:point_76"
+    ],
+    "entityIds": [
+      "point_76",
+      "NONE_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g228_1"
+    ],
+    "graphPath": [
+      "point 76",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G229": {
+    "id": "G229",
+    "claimIds": [
+      "entity:point_77",
+      "relation:VALUE_OF:point_77:NONE_gender_value",
+      "relation:CONTAINS:point_group_bas_NONE:point_77",
+      "relation:CONTAINS:point_group_bas_all:point_77"
+    ],
+    "entityIds": [
+      "point_77",
+      "NONE_gender_value",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 77",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G230": {
+    "id": "G230",
+    "claimIds": [
+      "entity:point_78",
+      "relation:VALUE_OF:point_78:NONE_gender_value",
+      "relation:CONTAINS:point_group_bas_NONE:point_78",
+      "relation:CONTAINS:point_group_bas_all:point_78"
+    ],
+    "entityIds": [
+      "point_78",
+      "NONE_gender_value",
+      "point_group_bas_NONE",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "point 78",
+      "VALUE_OF",
+      "NONE"
+    ]
+  },
+  "G231": {
+    "id": "G231",
+    "claimIds": [
+      "entity:point_8",
+      "relation:VALUE_OF:point_8:Female_gender_value",
+      "relation:VALUE_OF:point_8:Negative",
+      "relation:VALUE_OF:point_8:Positive",
+      "relation:VALUE_OF:point_8:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Female:point_8",
+      "relation:CONTAINS:point_group_bas_all:point_8"
+    ],
+    "entityIds": [
+      "point_8",
+      "Female_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Female",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g231_1"
+    ],
+    "graphPath": [
+      "point 8",
+      "VALUE_OF",
+      "Female"
+    ]
+  },
+  "G232": {
+    "id": "G232",
+    "claimIds": [
+      "entity:point_9",
+      "relation:VALUE_OF:point_9:Male_gender_value",
+      "relation:VALUE_OF:point_9:Negative",
+      "relation:VALUE_OF:point_9:Positive",
+      "relation:VALUE_OF:point_9:Uncertainty",
+      "relation:CONTAINS:point_group_bas_Male:point_9",
+      "relation:CONTAINS:point_group_bas_all:point_9"
+    ],
+    "entityIds": [
+      "point_9",
+      "Male_gender_value",
+      "Negative",
+      "Positive",
+      "Uncertainty",
+      "point_group_bas_Male",
+      "point_group_bas_all"
+    ],
+    "evidenceIds": [
+      "ev_g232_1"
+    ],
+    "graphPath": [
+      "point 9",
+      "VALUE_OF",
+      "Male"
+    ]
+  }
+}

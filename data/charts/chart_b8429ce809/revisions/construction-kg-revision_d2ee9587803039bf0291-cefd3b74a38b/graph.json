@@ -1,0 +1,1423 @@
+{
+  "revisionId": "construction-kg-revision:d2ee9587803039bf0291",
+  "ontologyRef": "chartkg-plus-plus-schema:v5.1",
+  "nodes": [
+    {
+      "id": "chart",
+      "label": "chart",
+      "type": "Complex_Chart",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Complex_Chart"
+      },
+      "claimIds": [
+        "entity:chart"
+      ]
+    },
+    {
+      "id": "stacked_bar",
+      "label": "stacked bar",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "stacked_bar",
+        "statement": "Global App Market is a 2018 Marimekko stacked-bar chart covering Asia Pacific, Americas, EMEA, and Worldwide. Column width encodes regional market totals of $72B, $61B, $13B, and …"
+      },
+      "claimIds": [
+        "entity:stacked_bar"
+      ]
+    },
+    {
+      "id": "bar_group",
+      "label": "bar group",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Bar"
+      },
+      "claimIds": [
+        "entity:bar_group"
+      ]
+    },
+    {
+      "id": "bar_1",
+      "label": "bar 1",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar",
+        "region": "Asia Pacific",
+        "platform": "Third Party Android",
+        "marketValueUsdBillions": "26.0",
+        "percentage": "37.0",
+        "statement": "In Asia Pacific, Third Party Android accounts for $26B (37%) of the app market."
+      },
+      "claimIds": [
+        "entity:bar_1"
+      ]
+    },
+    {
+      "id": "bar_2",
+      "label": "bar 2",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar",
+        "region": "Asia Pacific",
+        "platform": "Google Play",
+        "marketValueUsdBillions": "13.0",
+        "percentage": "18.0",
+        "statement": "In Asia Pacific, Google Play accounts for $13B (18%) of the app market."
+      },
+      "claimIds": [
+        "entity:bar_2"
+      ]
+    },
+    {
+      "id": "bar_3",
+      "label": "bar 3",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar",
+        "region": "Asia Pacific",
+        "platform": "iOS",
+        "marketValueUsdBillions": "32.0",
+        "percentage": "45.0",
+        "statement": "In Asia Pacific, iOS accounts for $32B (45%) of the app market."
+      },
+      "claimIds": [
+        "entity:bar_3"
+      ]
+    },
+    {
+      "id": "bar_4",
+      "label": "bar 4",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar",
+        "region": "Americas",
+        "platform": "Google Play",
+        "marketValueUsdBillions": "8.0",
+        "percentage": "13.0",
+        "statement": "In Americas, Google Play accounts for $8B (13%) of the app market."
+      },
+      "claimIds": [
+        "entity:bar_4"
+      ]
+    },
+    {
+      "id": "bar_5",
+      "label": "bar 5",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar",
+        "region": "EMEA",
+        "platform": "iOS",
+        "marketValueUsdBillions": "7.0",
+        "percentage": "54.0",
+        "statement": "In EMEA, iOS accounts for $7B (54%) of the app market."
+      },
+      "claimIds": [
+        "entity:bar_5"
+      ]
+    },
+    {
+      "id": "height",
+      "label": "height",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "height"
+      },
+      "claimIds": [
+        "entity:height"
+      ]
+    },
+    {
+      "id": "text_label",
+      "label": "text label",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "textLabel"
+      },
+      "claimIds": [
+        "entity:text_label"
+      ]
+    },
+    {
+      "id": "y_position",
+      "label": "y position",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "yPosition"
+      },
+      "claimIds": [
+        "entity:y_position"
+      ]
+    },
+    {
+      "id": "Percentage",
+      "label": "Percentage",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Percentage",
+        "unit": "%",
+        "variableType": "Quantitative",
+        "statement": "The 2018 regional market totals are $72B for Asia Pacific, $61B for Americas, $13B for EMEA, and $146B worldwide. Regional 2017-2022 CAGR values are 13.7%, 14.3%, 14.3%, and 13.9%…"
+      },
+      "claimIds": [
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "Platform",
+      "label": "Platform",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Platform",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Platform"
+      ]
+    },
+    {
+      "id": "Region",
+      "label": "Region",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Region",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "Americas",
+      "label": "Americas",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Americas",
+        "marketTotalUsdBillions": "61.0",
+        "cagr2017To2022Percent": "14.3",
+        "statement": "Americas totals $61B and has a 2017-2022 CAGR of 14.3%."
+      },
+      "claimIds": [
+        "entity:Americas"
+      ]
+    },
+    {
+      "id": "Asia_Pacific",
+      "label": "Asia Pacific",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Asia Pacific",
+        "marketTotalUsdBillions": "72.0",
+        "cagr2017To2022Percent": "13.7",
+        "statement": "Asia Pacific totals $72B and has a 2017-2022 CAGR of 13.7%."
+      },
+      "claimIds": [
+        "entity:Asia_Pacific"
+      ]
+    },
+    {
+      "id": "EMEA",
+      "label": "EMEA",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "EMEA",
+        "marketTotalUsdBillions": "13.0",
+        "cagr2017To2022Percent": "14.3",
+        "statement": "EMEA totals $13B and has a 2017-2022 CAGR of 14.3%."
+      },
+      "claimIds": [
+        "entity:EMEA"
+      ]
+    },
+    {
+      "id": "Google_Play",
+      "label": "Google Play",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Google Play",
+        "cagr2017To2022Percent": "13.7",
+        "statement": "Google Play has a 2017-2022 CAGR of 13.7%."
+      },
+      "claimIds": [
+        "entity:Google_Play"
+      ]
+    },
+    {
+      "id": "Third_Party_Android",
+      "label": "Third Party Android",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Third Party Android",
+        "cagr2017To2022Percent": "17.9",
+        "statement": "Third Party Android has a 2017-2022 CAGR of 17.9%."
+      },
+      "claimIds": [
+        "entity:Third_Party_Android"
+      ]
+    },
+    {
+      "id": "Worldwide",
+      "label": "Worldwide",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Worldwide",
+        "marketTotalUsdBillions": "146.0",
+        "cagr2017To2022Percent": "13.9",
+        "statement": "Worldwide totals $146B and has a 2017-2022 CAGR of 13.9%."
+      },
+      "claimIds": [
+        "entity:Worldwide"
+      ]
+    },
+    {
+      "id": "iOS",
+      "label": "iOS",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "iOS",
+        "cagr2017To2022Percent": "12.2",
+        "statement": "iOS has a 2017-2022 CAGR of 12.2%."
+      },
+      "claimIds": [
+        "entity:iOS"
+      ]
+    },
+    {
+      "id": "bas_Asia_Pacific_stacked_bar_bar_group",
+      "label": "bas Asia Pacific stacked bar bar group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Asia_Pacific\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Asia_Pacific_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "bas_Google_Play_stacked_bar_bar_group",
+      "label": "bas Google Play stacked bar bar group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Google_Play\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Google_Play_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "bas_Third_Party_Android_stacked_bar_bar_group",
+      "label": "bas Third Party Android stacked bar bar group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Third_Party_Android\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Third_Party_Android_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "bas_Worldwide_stacked_bar_bar_group",
+      "label": "bas Worldwide stacked bar bar group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Worldwide\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Worldwide_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "bas_all_stacked_bar_bar_group",
+      "label": "bas all stacked bar bar group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"bar_group\",\"selectionMode\":\"global\",\"viewRef\":\"stacked_bar\"}]"
+      },
+      "claimIds": [
+        "entity:bas_all_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "bas_iOS_stacked_bar_bar_group",
+      "label": "bas iOS stacked bar bar group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"iOS\",\"variableRef\":\"Platform\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"stacked_bar\"}]"
+      },
+      "claimIds": [
+        "entity:bas_iOS_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "Composition_3",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 3 marks: bar_1, bar_2, bar_3.",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_1\",\"bar_2\",\"bar_3\"]"
+      },
+      "claimIds": [
+        "entity:Composition_3"
+      ]
+    },
+    {
+      "id": "Composition_4",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 10 marks: bar_1, bar_2, bar_3, bar_4, bar_5, bar_6, bar_7, bar_8, bar_9, bar_10.",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_1\",\"bar_2\",\"bar_3\",\"bar_4\",\"bar_5\",\"bar_6\",\"bar_7\",\"bar_8\",\"bar_9\",\"bar_10\"]"
+      },
+      "claimIds": [
+        "entity:Composition_4"
+      ]
+    },
+    {
+      "id": "Composition_6",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 3 marks: bar_7, bar_8, bar_9.",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_7\",\"bar_8\",\"bar_9\"]"
+      },
+      "claimIds": [
+        "entity:Composition_6"
+      ]
+    },
+    {
+      "id": "Comparison",
+      "label": "Comparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "The maximum platform segment Worldwide (iOS) attains a higher visual share than the maximum platform segment in Asia Pacific (iOS).",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": "[\"Extreme_12\"]"
+      },
+      "claimIds": [
+        "entity:Comparison"
+      ]
+    },
+    {
+      "id": "Comparison_2",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "The minimum platform segment in Asia Pacific (Google Play) and the minimum platform segment Worldwide (Third Party Android) exhibit tied lowest levels.",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": "[\"Extreme_11\",\"Extreme_3\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_2"
+      ]
+    },
+    {
+      "id": "Comparison_3",
+      "label": "Comparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "The maximum segment of iOS exhibits the greatest visible height among all platform maximums.",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": "[\"Extreme_7\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_3"
+      ]
+    },
+    {
+      "id": "Contrast",
+      "label": "Contrast: DifferentComposition",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Composition",
+        "comparisonFeature": "contribution_profile",
+        "description": "iOS is the largest platform share in every region: 45% in Asia Pacific, 87% in Americas, 54% in EMEA, and 63% worldwide. Third Party Android appears at 37% in Asia Pacific and 18%…",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Contrast",
+        "subtype": "DifferentComposition"
+      },
+      "claimIds": [
+        "entity:Contrast"
+      ]
+    },
+    {
+      "id": "Similarity",
+      "label": "Similarity: SimilarComposition",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "commonFeature": "identical platform category partition",
+        "comparisonFamily": "Composition",
+        "comparisonFeature": "component_structure",
+        "description": "Both Asia Pacific and Worldwide stacked bars share the same platform component partition comprising iOS, Google Play, and Third Party Android.",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "patternType": "Similarity",
+        "subtype": "SimilarComposition"
+      },
+      "claimIds": [
+        "entity:Similarity"
+      ]
+    },
+    {
+      "id": "insight_Comparison_1",
+      "label": "Comparison 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"iOS\",\"variable\":\"Platform\"},{\"valueRef\":\"Asia_Pacific\",\"variable\":\"Region\"},{\"valueRef\":\"Worldwide\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "Worldwide has the highest maximum Percentage among the compared regions Worldwide and Asia Pacific, with iOS reaching 63% in Worldwide compared to 45.0% in Asia Pacific."
+      },
+      "claimIds": [
+        "entity:insight_Comparison_1"
+      ]
+    },
+    {
+      "id": "insight_Comparison_2",
+      "label": "Comparison 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Google_Play\",\"variable\":\"Platform\"},{\"valueRef\":\"Third_Party_Android\",\"variable\":\"Platform\"},{\"valueRef\":\"Asia_Pacific\",\"variable\":\"Region\"},{\"valueRef\":\"Worldwide\",…",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "Among the compared regions Worldwide and Asia Pacific, the minimum Percentage levels are tied lowest between Third Party Android in Worldwide (18%) and Google Play in Asia Pacific…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_2"
+      ]
+    },
+    {
+      "id": "insight_Comparison_3",
+      "label": "Comparison 3",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Google_Play\",\"variable\":\"Platform\"},{\"valueRef\":\"Third_Party_Android\",\"variable\":\"Platform\"},{\"valueRef\":\"iOS\",\"variable\":\"Platform\"}]",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "iOS has the highest maximum Percentage (87.0%) among the compared platforms Third Party Android (maximum 37.0%), Google Play (maximum 46.0%), and iOS."
+      },
+      "claimIds": [
+        "entity:insight_Comparison_3"
+      ]
+    },
+    {
+      "id": "insight_Comparison_4",
+      "label": "Comparison 4",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Google_Play\",\"variable\":\"Platform\"},{\"valueRef\":\"Third_Party_Android\",\"variable\":\"Platform\"},{\"valueRef\":\"iOS\",\"variable\":\"Platform\"}]",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "Among the minimum Percentage values across the Platform categories—Google Play, Third Party Android, and iOS—the Google Play minimum (13%) is the visually supported global Percent…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_4"
+      ]
+    },
+    {
+      "id": "insight_Composition_1",
+      "label": "Composition 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Third_Party_Android\",\"variable\":\"Platform\"},{\"valueRef\":\"Asia_Pacific\",\"variable\":\"Region\"},{\"valueRef\":\"Worldwide\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "For the Platform category Third Party Android, the composition is made up of two bar components: Asia Pacific with a Percentage of 37.0% and Worldwide with a Percentage of 18.0%."
+      },
+      "claimIds": [
+        "entity:insight_Composition_1"
+      ]
+    },
+    {
+      "id": "insight_Composition_2",
+      "label": "Composition 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Google_Play\",\"variable\":\"Platform\"},{\"valueRef\":\"Third_Party_Android\",\"variable\":\"Platform\"},{\"valueRef\":\"iOS\",\"variable\":\"Platform\"},{\"valueRef\":\"Asia_Pacific\",\"var…",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "For Asia Pacific, the platform breakdown is Third Party Android at 37.0%, Google Play at 18.0%, and iOS at 45.0%."
+      },
+      "claimIds": [
+        "entity:insight_Composition_2"
+      ]
+    },
+    {
+      "id": "insight_Contrast_1",
+      "label": "Contrast 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Google_Play\",\"variable\":\"Platform\"},{\"valueRef\":\"Third_Party_Android\",\"variable\":\"Platform\"},{\"valueRef\":\"iOS\",\"variable\":\"Platform\"},{\"valueRef\":\"Asia_Pacific\",\"var…",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "The Platform contribution profiles for Percentage differ between Asia Pacific and Worldwide. In Asia Pacific, Third Party Android accounts for 37.0%, Google Play accounts for 18%,…"
+      },
+      "claimIds": [
+        "entity:insight_Contrast_1"
+      ]
+    },
+    {
+      "id": "insight_Similarity_1",
+      "label": "Similarity 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Google_Play\",\"variable\":\"Platform\"},{\"valueRef\":\"Third_Party_Android\",\"variable\":\"Platform\"},{\"valueRef\":\"iOS\",\"variable\":\"Platform\"},{\"valueRef\":\"Asia_Pacific\",\"var…",
+        "measure": "[{\"variable\":\"Percentage\"}]",
+        "statement": "Across both the Asia Pacific and Worldwide regions, the compositions share the same component structure partitioned into the identical set of Platform categories: iOS, Google Play…"
+      },
+      "claimIds": [
+        "entity:insight_Similarity_1"
+      ]
+    },
+    {
+      "id": "bar_10",
+      "label": "bar 10",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar",
+        "region": "Americas",
+        "platform": "iOS",
+        "marketValueUsdBillions": "53.0",
+        "percentage": "87.0",
+        "statement": "In Americas, iOS accounts for $53B (87%) of the app market."
+      },
+      "claimIds": [
+        "entity:bar_10"
+      ]
+    },
+    {
+      "id": "Market_Value_USD_Billions",
+      "label": "Market value",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Market value",
+        "unit": "$B",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Market_Value_USD_Billions"
+      ]
+    },
+    {
+      "id": "insight_Global_App_Market_Summary",
+      "label": "Global App Market Summary",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"iOS\",\"variable\":\"Platform\"},{\"valueRef\":\"Americas\",\"variable\":\"Region\"},{\"valueRef\":\"Worldwide\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Percentage\"},{\"variable\":\"Market_Value_USD_Billions\"}]",
+        "statement": "In 2018, iOS dominates the global app market, acco-unting for 63% of the total market. Over the 2017–2022 period, Third Party Android is projected to have the high-est CAGR among …"
+      },
+      "claimIds": [
+        "entity:insight_Global_App_Market_Summary"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_HAS_VIEW",
+      "source": "chart",
+      "target": "stacked_bar",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:stacked_bar",
+        "entity:chart",
+        "entity:stacked_bar"
+      ]
+    },
+    {
+      "id": "edge_11_COMPOSED_OF",
+      "source": "Contrast",
+      "target": "Composition_3",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Contrast:Composition_3",
+        "entity:Contrast",
+        "entity:Composition_3"
+      ]
+    },
+    {
+      "id": "edge_12_COMPOSED_OF",
+      "source": "Contrast",
+      "target": "Composition_6",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Contrast:Composition_6",
+        "entity:Contrast",
+        "entity:Composition_6"
+      ]
+    },
+    {
+      "id": "edge_16_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Composition_3",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Composition_3",
+        "entity:Similarity",
+        "entity:Composition_3"
+      ]
+    },
+    {
+      "id": "edge_17_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Composition_6",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Composition_6",
+        "entity:Similarity",
+        "entity:Composition_6"
+      ]
+    },
+    {
+      "id": "edge_18_COMPOSED_OF",
+      "source": "stacked_bar",
+      "target": "bar_group",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:stacked_bar:bar_group",
+        "entity:stacked_bar",
+        "entity:bar_group"
+      ]
+    },
+    {
+      "id": "edge_20_HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "height",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+        "entity:bar_group",
+        "entity:height"
+      ]
+    },
+    {
+      "id": "edge_23_HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "y_position",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:bar_group:y_position",
+        "entity:bar_group",
+        "entity:y_position"
+      ]
+    },
+    {
+      "id": "edge_24_HAS_ANNOTATION",
+      "source": "bar_group",
+      "target": "text_label",
+      "relation": "HAS_ANNOTATION",
+      "claimIds": [
+        "relation:HAS_ANNOTATION:bar_group:text_label",
+        "entity:bar_group",
+        "entity:text_label"
+      ]
+    },
+    {
+      "id": "edge_37_ENCODES",
+      "source": "height",
+      "target": "Percentage",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:height:Percentage",
+        "entity:height",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_41_ENCODES",
+      "source": "text_label",
+      "target": "Percentage",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:text_label:Percentage",
+        "entity:text_label",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_43_ENCODES",
+      "source": "y_position",
+      "target": "Percentage",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:y_position:Percentage",
+        "entity:y_position",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_44_VALUE_OF",
+      "source": "Americas",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Americas:Region",
+        "entity:Americas",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_45_VALUE_OF",
+      "source": "Asia_Pacific",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Asia_Pacific:Region",
+        "entity:Asia_Pacific",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_46_VALUE_OF",
+      "source": "EMEA",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:EMEA:Region",
+        "entity:EMEA",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_47_VALUE_OF",
+      "source": "Google_Play",
+      "target": "Platform",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Google_Play:Platform",
+        "entity:Google_Play",
+        "entity:Platform"
+      ]
+    },
+    {
+      "id": "edge_48_VALUE_OF",
+      "source": "Third_Party_Android",
+      "target": "Platform",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Third_Party_Android:Platform",
+        "entity:Third_Party_Android",
+        "entity:Platform"
+      ]
+    },
+    {
+      "id": "edge_49_VALUE_OF",
+      "source": "Worldwide",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Worldwide:Region",
+        "entity:Worldwide",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_50_VALUE_OF",
+      "source": "bar_1",
+      "target": "Asia_Pacific",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_1:Asia_Pacific",
+        "entity:bar_1",
+        "entity:Asia_Pacific"
+      ]
+    },
+    {
+      "id": "edge_51_VALUE_OF",
+      "source": "bar_1",
+      "target": "Percentage",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_1:Percentage",
+        "entity:bar_1",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_52_VALUE_OF",
+      "source": "bar_1",
+      "target": "Third_Party_Android",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_1:Third_Party_Android",
+        "entity:bar_1",
+        "entity:Third_Party_Android"
+      ]
+    },
+    {
+      "id": "edge_53_VALUE_OF",
+      "source": "bar_2",
+      "target": "Asia_Pacific",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_2:Asia_Pacific",
+        "entity:bar_2",
+        "entity:Asia_Pacific"
+      ]
+    },
+    {
+      "id": "edge_54_VALUE_OF",
+      "source": "bar_2",
+      "target": "Google_Play",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_2:Google_Play",
+        "entity:bar_2",
+        "entity:Google_Play"
+      ]
+    },
+    {
+      "id": "edge_55_VALUE_OF",
+      "source": "bar_2",
+      "target": "Percentage",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_2:Percentage",
+        "entity:bar_2",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_56_VALUE_OF",
+      "source": "bar_3",
+      "target": "Asia_Pacific",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_3:Asia_Pacific",
+        "entity:bar_3",
+        "entity:Asia_Pacific"
+      ]
+    },
+    {
+      "id": "edge_57_VALUE_OF",
+      "source": "bar_3",
+      "target": "Percentage",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_3:Percentage",
+        "entity:bar_3",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_58_VALUE_OF",
+      "source": "bar_3",
+      "target": "iOS",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_3:iOS",
+        "entity:bar_3",
+        "entity:iOS"
+      ]
+    },
+    {
+      "id": "edge_59_VALUE_OF",
+      "source": "bar_4",
+      "target": "Google_Play",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_4:Google_Play",
+        "entity:bar_4",
+        "entity:Google_Play"
+      ]
+    },
+    {
+      "id": "edge_60_VALUE_OF",
+      "source": "bar_4",
+      "target": "Percentage",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_4:Percentage",
+        "entity:bar_4",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_61_VALUE_OF",
+      "source": "bar_5",
+      "target": "Percentage",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_5:Percentage",
+        "entity:bar_5",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_62_VALUE_OF",
+      "source": "bar_5",
+      "target": "iOS",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_5:iOS",
+        "entity:bar_5",
+        "entity:iOS"
+      ]
+    },
+    {
+      "id": "edge_74_VALUE_OF",
+      "source": "iOS",
+      "target": "Platform",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:iOS:Platform",
+        "entity:iOS",
+        "entity:Platform"
+      ]
+    },
+    {
+      "id": "edge_77_SUPPORTED_BY",
+      "source": "Composition_3",
+      "target": "bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_3:bas_Asia_Pacific_stacked_bar_bar_group",
+        "entity:Composition_3",
+        "entity:bas_Asia_Pacific_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "edge_78_SUPPORTED_BY",
+      "source": "Composition_4",
+      "target": "bas_all_stacked_bar_bar_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_4:bas_all_stacked_bar_bar_group",
+        "entity:Composition_4",
+        "entity:bas_all_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "edge_80_SUPPORTED_BY",
+      "source": "Composition_6",
+      "target": "bas_Worldwide_stacked_bar_bar_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_6:bas_Worldwide_stacked_bar_bar_group",
+        "entity:Composition_6",
+        "entity:bas_Worldwide_stacked_bar_bar_group"
+      ]
+    },
+    {
+      "id": "edge_95_DERIVED_FROM",
+      "source": "insight_Comparison_1",
+      "target": "Comparison",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_1:Comparison",
+        "entity:insight_Comparison_1",
+        "entity:Comparison"
+      ]
+    },
+    {
+      "id": "edge_96_DERIVED_FROM",
+      "source": "insight_Comparison_2",
+      "target": "Comparison_2",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2",
+        "entity:insight_Comparison_2",
+        "entity:Comparison_2"
+      ]
+    },
+    {
+      "id": "edge_97_DERIVED_FROM",
+      "source": "insight_Comparison_3",
+      "target": "Comparison_3",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_3:Comparison_3",
+        "entity:insight_Comparison_3",
+        "entity:Comparison_3"
+      ]
+    },
+    {
+      "id": "edge_100_DERIVED_FROM",
+      "source": "insight_Composition_2",
+      "target": "Composition_3",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_2:Composition_3",
+        "entity:insight_Composition_2",
+        "entity:Composition_3"
+      ]
+    },
+    {
+      "id": "edge_105_DERIVED_FROM",
+      "source": "insight_Contrast_1",
+      "target": "Contrast",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Contrast_1:Contrast",
+        "entity:insight_Contrast_1",
+        "entity:Contrast"
+      ]
+    },
+    {
+      "id": "edge_121_DERIVED_FROM",
+      "source": "insight_Similarity_1",
+      "target": "Similarity",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Similarity_1:Similarity",
+        "entity:insight_Similarity_1",
+        "entity:Similarity"
+      ]
+    },
+    {
+      "id": "edge_123_VALUE_OF",
+      "source": "bar_4",
+      "target": "Americas",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_4:Americas",
+        "entity:bar_4",
+        "entity:Americas"
+      ]
+    },
+    {
+      "id": "edge_124_VALUE_OF",
+      "source": "bar_5",
+      "target": "EMEA",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_5:EMEA",
+        "entity:bar_5",
+        "entity:EMEA"
+      ]
+    },
+    {
+      "id": "edge_126_VALUE_OF",
+      "source": "bar_10",
+      "target": "iOS",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_10:iOS",
+        "entity:bar_10",
+        "entity:iOS"
+      ]
+    },
+    {
+      "id": "edge_127_VALUE_OF",
+      "source": "bar_10",
+      "target": "Americas",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_10:Americas",
+        "entity:bar_10",
+        "entity:Americas"
+      ]
+    },
+    {
+      "id": "edge_128_VALUE_OF",
+      "source": "bar_10",
+      "target": "Percentage",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_10:Percentage",
+        "entity:bar_10",
+        "entity:Percentage"
+      ]
+    },
+    {
+      "id": "edge_129_VALUE_OF",
+      "source": "bar_10",
+      "target": "Market_Value_USD_Billions",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_10:Market_Value_USD_Billions",
+        "entity:bar_10",
+        "entity:Market_Value_USD_Billions"
+      ]
+    },
+    {
+      "id": "edge_130_COMPOSED_OF",
+      "source": "bas_all_stacked_bar_bar_group",
+      "target": "bar_1",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_1",
+        "entity:bas_all_stacked_bar_bar_group",
+        "entity:bar_1"
+      ]
+    },
+    {
+      "id": "edge_131_COMPOSED_OF",
+      "source": "bas_all_stacked_bar_bar_group",
+      "target": "bar_2",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_2",
+        "entity:bas_all_stacked_bar_bar_group",
+        "entity:bar_2"
+      ]
+    },
+    {
+      "id": "edge_132_COMPOSED_OF",
+      "source": "bas_all_stacked_bar_bar_group",
+      "target": "bar_3",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_3",
+        "entity:bas_all_stacked_bar_bar_group",
+        "entity:bar_3"
+      ]
+    },
+    {
+      "id": "edge_133_COMPOSED_OF",
+      "source": "bas_all_stacked_bar_bar_group",
+      "target": "bar_4",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_4",
+        "entity:bas_all_stacked_bar_bar_group",
+        "entity:bar_4"
+      ]
+    },
+    {
+      "id": "edge_134_COMPOSED_OF",
+      "source": "bas_all_stacked_bar_bar_group",
+      "target": "bar_5",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_5",
+        "entity:bas_all_stacked_bar_bar_group",
+        "entity:bar_5"
+      ]
+    },
+    {
+      "id": "edge_139_COMPOSED_OF",
+      "source": "bas_all_stacked_bar_bar_group",
+      "target": "bar_10",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_10",
+        "entity:bas_all_stacked_bar_bar_group",
+        "entity:bar_10"
+      ]
+    },
+    {
+      "id": "edge_140_COMPOSED_OF",
+      "source": "bas_Asia_Pacific_stacked_bar_bar_group",
+      "target": "bar_1",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_1",
+        "entity:bas_Asia_Pacific_stacked_bar_bar_group",
+        "entity:bar_1"
+      ]
+    },
+    {
+      "id": "edge_141_COMPOSED_OF",
+      "source": "bas_Asia_Pacific_stacked_bar_bar_group",
+      "target": "bar_2",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_2",
+        "entity:bas_Asia_Pacific_stacked_bar_bar_group",
+        "entity:bar_2"
+      ]
+    },
+    {
+      "id": "edge_142_COMPOSED_OF",
+      "source": "bas_Asia_Pacific_stacked_bar_bar_group",
+      "target": "bar_3",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_3",
+        "entity:bas_Asia_Pacific_stacked_bar_bar_group",
+        "entity:bar_3"
+      ]
+    },
+    {
+      "id": "edge_150_COMPOSED_OF",
+      "source": "bas_Third_Party_Android_stacked_bar_bar_group",
+      "target": "bar_1",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_Third_Party_Android_stacked_bar_bar_group:bar_1",
+        "entity:bas_Third_Party_Android_stacked_bar_bar_group",
+        "entity:bar_1"
+      ]
+    },
+    {
+      "id": "edge_152_COMPOSED_OF",
+      "source": "bas_Google_Play_stacked_bar_bar_group",
+      "target": "bar_2",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_2",
+        "entity:bas_Google_Play_stacked_bar_bar_group",
+        "entity:bar_2"
+      ]
+    },
+    {
+      "id": "edge_153_COMPOSED_OF",
+      "source": "bas_Google_Play_stacked_bar_bar_group",
+      "target": "bar_4",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_4",
+        "entity:bas_Google_Play_stacked_bar_bar_group",
+        "entity:bar_4"
+      ]
+    },
+    {
+      "id": "edge_156_COMPOSED_OF",
+      "source": "bas_iOS_stacked_bar_bar_group",
+      "target": "bar_3",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_3",
+        "entity:bas_iOS_stacked_bar_bar_group",
+        "entity:bar_3"
+      ]
+    },
+    {
+      "id": "edge_157_COMPOSED_OF",
+      "source": "bas_iOS_stacked_bar_bar_group",
+      "target": "bar_5",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_5",
+        "entity:bas_iOS_stacked_bar_bar_group",
+        "entity:bar_5"
+      ]
+    },
+    {
+      "id": "edge_159_COMPOSED_OF",
+      "source": "bas_iOS_stacked_bar_bar_group",
+      "target": "bar_10",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_10",
+        "entity:bas_iOS_stacked_bar_bar_group",
+        "entity:bar_10"
+      ]
+    },
+    {
+      "id": "edge_166_DERIVED_FROM",
+      "source": "insight_Global_App_Market_Summary",
+      "target": "Composition_4",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4",
+        "entity:insight_Global_App_Market_Summary",
+        "entity:Composition_4"
+      ]
+    }
+  ],
+  "stats": {
+    "sourceNodeCount": 106,
+    "sourceEdgeCount": 167,
+    "visibleNodeCount": 46,
+    "visibleEdgeCount": 63,
+    "verificationStatus": "verified_against_source_image",
+    "runStatus": "complete_fixture_repair",
+    "communityCount": 12,
+    "retrievalEngine": "native-graphrag-v1"
+  }
+}

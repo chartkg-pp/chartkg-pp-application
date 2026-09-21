@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sessionId": "qa_5b74f1a687a1",
+  "turns": [
+    {
+      "id": "turn_pending_1790007062443",
+      "question": "What data does the chart provide for UK?",
+      "status": "complete",
+      "createdAt": "2026-09-21T16:11:33.793548Z",
+      "preview": "For UK, Income is 53984.13274328814 GDP per capita, $ per year, price adjusted. [G304] [G431] [G141] For UK, Lifespan is 81.30510952176405 years. [G304] [G431] [G143]",
+      "citationCount": 4,
+      "detailPath": "turns/turn_pending_1790007062443.json"
+    },
+    {
+      "id": "turn_pending_1790007248077",
+      "question": "Which countries deviate from the overall globaltrend between income and life expectancy?",
+      "status": "complete",
+      "createdAt": "2026-09-21T16:14:35.553990Z",
+      "preview": "Within INCOME LEVEL 1, North Korea stands out as an outlier with a Lifespan of 74.0054090259363 years at an Income of 1541.7168384922581 GDP per capita, $ per year, price adjusted, departing upward from the main group of countries in its in",
+      "citationCount": 1,
+      "detailPath": "turns/turn_pending_1790007248077.json"
+    }
+  ]
+}

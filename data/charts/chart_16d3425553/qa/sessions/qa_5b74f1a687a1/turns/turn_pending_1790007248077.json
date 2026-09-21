@@ -1,0 +1,460 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790007248077",
+  "sessionId": "qa_5b74f1a687a1",
+  "chartId": "chart_16d3425553",
+  "revisionId": "construction-kg-revision:0f9d7653eb1cb840880d",
+  "question": "Which countries deviate from the overall globaltrend between income and life expectancy?",
+  "status": "complete",
+  "createdAt": "2026-09-21T16:14:35.553990Z",
+  "completedAt": "2026-09-21T16:15:05.495054Z",
+  "answers": {
+    "vision": {
+      "answer": "Most countries follow a positive trend: higher income is associated with longer life expectancy. Notable deviations include **Cuba, Sri Lanka, Jordan, and Costa Rica**, which have relatively high life expectancy for their income levels, while **South Africa, Botswana, Russia, Saudi Arabia, and the United States** have lower life expectancy than similarly wealthy countries.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_16d3425553",
+        "imageSha256": "7f79d2b5e877f8d79ff6b171f1cbc6699fc760dafad81c6dc933ce6a5c0d6bc9",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "Within INCOME LEVEL 1, North Korea stands out as an outlier with a Lifespan of 74.0054090259363 years at an Income of 1541.7168384922581 GDP per capita, $ per year, price adjusted, departing upward from the main group of countries in its income bracket. [G22]",
+      "citationIds": [
+        "G22"
+      ],
+      "status": "verified",
+      "generationMode": "extractive",
+      "provider": null,
+      "model": null,
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "Within INCOME LEVEL 1, North Korea stands out as an outlier with a Lifespan of 74.0054090259363 years at an Income of 1541.7168384922581 GDP per capita, $ per year, price adjusted, departing upward from the main group of countries in its income bracket.",
+          "recordIds": [
+            "entity:insight_Distribution_32"
+          ],
+          "citationIds": [
+            "G22"
+          ],
+          "claimType": "observed"
+        }
+      ],
+      "citations": {
+        "G22": {
+          "id": "G22",
+          "claimIds": [
+            "entity:insight_Distribution_32",
+            "relation:DERIVED_FROM:insight_Distribution_32:Distribution_26"
+          ],
+          "entityIds": [
+            "insight_Distribution_32",
+            "Distribution_26"
+          ],
+          "evidenceIds": [
+            "ev_g22_1"
+          ],
+          "graphPath": [
+            "Distribution 32",
+            "DERIVED_FROM",
+            "Distribution: Outlier"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-local",
+        "planner": "llm",
+        "maxHops": 4,
+        "seedEntityIds": [
+          "insight_Correlation_39",
+          "Distribution_26",
+          "insight_Distribution_32",
+          "Distribution_31",
+          "Distribution_27",
+          "Income"
+        ],
+        "communityIds": [
+          "community:1:ExtremumComparison",
+          "community:2:ExtremumComparison_2",
+          "community:3:ExtremumComparison_3",
+          "community:8:Similarity",
+          "community:16:point_group_bas_INCOME_LEVEL_1",
+          "community:20:point_group_bas_all"
+        ],
+        "expandedEntityIds": [
+          "insight_Correlation_39",
+          "Distribution_26",
+          "insight_Distribution_32",
+          "Distribution_31",
+          "Distribution_27",
+          "Income",
+          "point_group_bas_LEVEL_3",
+          "Correlation_20",
+          "insight_Distribution_33",
+          "point_group_bas_INCOME_LEVEL_1",
+          "Extreme_60",
+          "ExtremumComparison",
+          "insight_ExtremumComparison_1",
+          "Correlation_18",
+          "insight_Correlation_34",
+          "Extreme_59",
+          "ExtremumComparison_3",
+          "insight_ExtremumComparison_3",
+          "Similarity",
+          "insight_Similarity_1",
+          "insight_Distribution_37",
+          "Correlation_23",
+          "insight_Correlation_36"
+        ],
+        "relationIds": [
+          "relation:1077:HAS_SCOPE:Distribution_31:point_group_bas_LEVEL_3",
+          "relation:1060:HAS_SCOPE:Correlation_20:point_group_bas_LEVEL_3",
+          "relation:1631:DERIVED_FROM:insight_Distribution_33:Distribution_27",
+          "relation:1072:HAS_SCOPE:Distribution_26:point_group_bas_INCOME_LEVEL_1",
+          "relation:1098:HAS_SCOPE:Extreme_60:point_group_bas_INCOME_LEVEL_1",
+          "relation:1:COMPOSED_OF:ExtremumComparison:Extreme_60",
+          "relation:1668:DERIVED_FROM:insight_ExtremumComparison_1:ExtremumComparison",
+          "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1",
+          "relation:1616:DERIVED_FROM:insight_Correlation_34:Correlation_18",
+          "relation:1097:HAS_SCOPE:Extreme_59:point_group_bas_INCOME_LEVEL_1",
+          "relation:5:COMPOSED_OF:ExtremumComparison_3:Extreme_59",
+          "relation:1670:DERIVED_FROM:insight_ExtremumComparison_3:ExtremumComparison_3",
+          "relation:20:COMPOSED_OF:Similarity:Correlation_18",
+          "relation:1675:DERIVED_FROM:insight_Similarity_1:Similarity",
+          "relation:1630:DERIVED_FROM:insight_Distribution_32:Distribution_26",
+          "relation:1635:DERIVED_FROM:insight_Distribution_37:Distribution_31",
+          "relation:1621:DERIVED_FROM:insight_Correlation_39:Correlation_23",
+          "relation:1618:DERIVED_FROM:insight_Correlation_36:Correlation_20",
+          "relation:22:COMPOSED_OF:Similarity:Correlation_20"
+        ],
+        "paths": [
+          {
+            "source": "Distribution_31",
+            "target": "Correlation_20",
+            "nodeIds": [
+              "Distribution_31",
+              "point_group_bas_LEVEL_3",
+              "Correlation_20"
+            ],
+            "relationIds": [
+              "relation:1077:HAS_SCOPE:Distribution_31:point_group_bas_LEVEL_3",
+              "relation:1060:HAS_SCOPE:Correlation_20:point_group_bas_LEVEL_3"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_31",
+                "relation": "HAS_SCOPE",
+                "to": "point_group_bas_LEVEL_3",
+                "direction": "forward"
+              },
+              {
+                "from": "point_group_bas_LEVEL_3",
+                "relation": "HAS_SCOPE",
+                "to": "Correlation_20",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Distribution_27",
+            "target": "insight_Distribution_33",
+            "nodeIds": [
+              "Distribution_27",
+              "insight_Distribution_33"
+            ],
+            "relationIds": [
+              "relation:1631:DERIVED_FROM:insight_Distribution_33:Distribution_27"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_27",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Distribution_33",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Distribution_26",
+            "target": "insight_ExtremumComparison_1",
+            "nodeIds": [
+              "Distribution_26",
+              "point_group_bas_INCOME_LEVEL_1",
+              "Extreme_60",
+              "ExtremumComparison",
+              "insight_ExtremumComparison_1"
+            ],
+            "relationIds": [
+              "relation:1072:HAS_SCOPE:Distribution_26:point_group_bas_INCOME_LEVEL_1",
+              "relation:1098:HAS_SCOPE:Extreme_60:point_group_bas_INCOME_LEVEL_1",
+              "relation:1:COMPOSED_OF:ExtremumComparison:Extreme_60",
+              "relation:1668:DERIVED_FROM:insight_ExtremumComparison_1:ExtremumComparison"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_26",
+                "relation": "HAS_SCOPE",
+                "to": "point_group_bas_INCOME_LEVEL_1",
+                "direction": "forward"
+              },
+              {
+                "from": "point_group_bas_INCOME_LEVEL_1",
+                "relation": "HAS_SCOPE",
+                "to": "Extreme_60",
+                "direction": "reverse"
+              },
+              {
+                "from": "Extreme_60",
+                "relation": "COMPOSED_OF",
+                "to": "ExtremumComparison",
+                "direction": "reverse"
+              },
+              {
+                "from": "ExtremumComparison",
+                "relation": "DERIVED_FROM",
+                "to": "insight_ExtremumComparison_1",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Distribution_26",
+            "target": "insight_Correlation_34",
+            "nodeIds": [
+              "Distribution_26",
+              "point_group_bas_INCOME_LEVEL_1",
+              "Correlation_18",
+              "insight_Correlation_34"
+            ],
+            "relationIds": [
+              "relation:1072:HAS_SCOPE:Distribution_26:point_group_bas_INCOME_LEVEL_1",
+              "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1",
+              "relation:1616:DERIVED_FROM:insight_Correlation_34:Correlation_18"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_26",
+                "relation": "HAS_SCOPE",
+                "to": "point_group_bas_INCOME_LEVEL_1",
+                "direction": "forward"
+              },
+              {
+                "from": "point_group_bas_INCOME_LEVEL_1",
+                "relation": "HAS_SCOPE",
+                "to": "Correlation_18",
+                "direction": "reverse"
+              },
+              {
+                "from": "Correlation_18",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Correlation_34",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Distribution_26",
+            "target": "insight_ExtremumComparison_3",
+            "nodeIds": [
+              "Distribution_26",
+              "point_group_bas_INCOME_LEVEL_1",
+              "Extreme_59",
+              "ExtremumComparison_3",
+              "insight_ExtremumComparison_3"
+            ],
+            "relationIds": [
+              "relation:1072:HAS_SCOPE:Distribution_26:point_group_bas_INCOME_LEVEL_1",
+              "relation:1097:HAS_SCOPE:Extreme_59:point_group_bas_INCOME_LEVEL_1",
+              "relation:5:COMPOSED_OF:ExtremumComparison_3:Extreme_59",
+              "relation:1670:DERIVED_FROM:insight_ExtremumComparison_3:ExtremumComparison_3"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_26",
+                "relation": "HAS_SCOPE",
+                "to": "point_group_bas_INCOME_LEVEL_1",
+                "direction": "forward"
+              },
+              {
+                "from": "point_group_bas_INCOME_LEVEL_1",
+                "relation": "HAS_SCOPE",
+                "to": "Extreme_59",
+                "direction": "reverse"
+              },
+              {
+                "from": "Extreme_59",
+                "relation": "COMPOSED_OF",
+                "to": "ExtremumComparison_3",
+                "direction": "reverse"
+              },
+              {
+                "from": "ExtremumComparison_3",
+                "relation": "DERIVED_FROM",
+                "to": "insight_ExtremumComparison_3",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "Distribution_26",
+            "target": "insight_Similarity_1",
+            "nodeIds": [
+              "Distribution_26",
+              "point_group_bas_INCOME_LEVEL_1",
+              "Correlation_18",
+              "Similarity",
+              "insight_Similarity_1"
+            ],
+            "relationIds": [
+              "relation:1072:HAS_SCOPE:Distribution_26:point_group_bas_INCOME_LEVEL_1",
+              "relation:1058:HAS_SCOPE:Correlation_18:point_group_bas_INCOME_LEVEL_1",
+              "relation:20:COMPOSED_OF:Similarity:Correlation_18",
+              "relation:1675:DERIVED_FROM:insight_Similarity_1:Similarity"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_26",
+                "relation": "HAS_SCOPE",
+                "to": "point_group_bas_INCOME_LEVEL_1",
+                "direction": "forward"
+              },
+              {
+                "from": "point_group_bas_INCOME_LEVEL_1",
+                "relation": "HAS_SCOPE",
+                "to": "Correlation_18",
+                "direction": "reverse"
+              },
+              {
+                "from": "Correlation_18",
+                "relation": "COMPOSED_OF",
+                "to": "Similarity",
+                "direction": "reverse"
+              },
+              {
+                "from": "Similarity",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Similarity_1",
+                "direction": "reverse"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "Distribution_27",
+            "type": "Basic_Pattern",
+            "score": 1.0976,
+            "lexicalScore": 20.043006,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Distribution_26",
+            "type": "Basic_Pattern",
+            "score": 0.983565,
+            "lexicalScore": 15.961558,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Distribution_31",
+            "type": "Basic_Pattern",
+            "score": 0.957876,
+            "lexicalScore": 15.042129,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Distribution_32",
+            "type": "Insight",
+            "score": 0.938871,
+            "lexicalScore": 10.338996,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Correlation_39",
+            "type": "Insight",
+            "score": 0.923665,
+            "lexicalScore": 11.047457,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Income",
+            "type": "Data_Variable",
+            "score": 0.763273,
+            "lexicalScore": 11.742088,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Correlation_20",
+            "type": "Basic_Pattern",
+            "score": 0.659371,
+            "lexicalScore": 13.246439,
+            "distance": 1.4,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Distribution_33",
+            "type": "Insight",
+            "score": 0.607495,
+            "lexicalScore": 5.567639,
+            "distance": 0.55,
+            "hops": 1
+          },
+          {
+            "entityId": "insight_ExtremumComparison_1",
+            "type": "Insight",
+            "score": 0.600689,
+            "lexicalScore": 8.198447,
+            "distance": 2.57,
+            "hops": 4
+          },
+          {
+            "entityId": "insight_Correlation_34",
+            "type": "Insight",
+            "score": 0.565309,
+            "lexicalScore": 6.468621,
+            "distance": 1.95,
+            "hops": 3
+          },
+          {
+            "entityId": "insight_ExtremumComparison_3",
+            "type": "Insight",
+            "score": 0.556126,
+            "lexicalScore": 6.603514,
+            "distance": 2.57,
+            "hops": 4
+          },
+          {
+            "entityId": "insight_Similarity_1",
+            "type": "Insight",
+            "score": 0.537701,
+            "lexicalScore": 5.944043,
+            "distance": 2.57,
+            "hops": 4
+          }
+        ]
+      }
+    }
+  }
+}

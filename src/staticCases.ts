@@ -11,11 +11,11 @@ export interface GraphRagStaticCase {
   height: number
 }
 
-export const defaultCaseId: TestCaseId = 'countries-health-wealth'
+export const defaultCaseId: TestCaseId = 'chart_16d3425553'
 
 let casesPromise: Promise<Record<TestCaseId, GraphRagStaticCase>> | null = null
 
-/** The two bundled GraphRAG cases, described by the shared demo manifest. */
+/** The bundled GraphRAG cases, described by the shared demo manifest. */
 export function loadGraphRagCases(): Promise<Record<TestCaseId, GraphRagStaticCase>> {
   casesPromise ??= loadManifest().then((manifest) => {
     const cases = manifest.graphrag.map((entry) => ({

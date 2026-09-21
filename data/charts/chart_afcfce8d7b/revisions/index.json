@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_afcfce8d7b",
+  "revisions": [
+    {
+      "id": "construction-kg-revision:group4037-year-insight-curation-v1",
+      "path": "construction-kg-revision_group4037-year-insight-curation-v1-16b103848a2d/revision.json",
+      "graphPath": "construction-kg-revision_group4037-year-insight-curation-v1-16b103848a2d/graph.json",
+      "summaryPath": "construction-kg-revision_group4037-year-insight-curation-v1-16b103848a2d/summary.json",
+      "citationsPath": "construction-kg-revision_group4037-year-insight-curation-v1-16b103848a2d/citations.json",
+      "evidencePath": "construction-kg-revision_group4037-year-insight-curation-v1-16b103848a2d/evidence.json"
+    }
+  ]
+}

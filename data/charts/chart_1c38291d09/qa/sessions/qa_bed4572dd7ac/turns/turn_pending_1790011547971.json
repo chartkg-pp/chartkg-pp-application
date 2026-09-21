@@ -1,0 +1,585 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790011547971",
+  "sessionId": "qa_bed4572dd7ac",
+  "chartId": "chart_1c38291d09",
+  "revisionId": "construction-kg-revision:f6de36b34b0dde19dd50",
+  "question": "What broad patterns or concentrations can be observed in the regional layout of the chart?",
+  "status": "complete",
+  "createdAt": "2026-09-21T17:26:06.432347Z",
+  "completedAt": "2026-09-21T17:26:33.795256Z",
+  "answers": {
+    "vision": {
+      "answer": "Asia Pacific forms the largest concentration, dominating the right side, while Western Europe is heavily clustered in the lower-left. The other regions occupy smaller, compact blocks: North America, Eastern Europe, and Australasia near the top; Latin America in a narrow middle band; and the Middle East and Africa running through the center toward the bottom.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_1c38291d09",
+        "imageSha256": "f69d3ce591c9e20f332ea811f6310b8304295974bf7aff0343ba27c386a00f1d",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "The chart contains 101 rectangular marks distributed across seven regions: Asia Pacific, Australasia, Eastern Europe, Latin America, Middle East and Africa, North America, and Western Europe. [G7] The distribution is concentrated most heavily in Asia Pacific with 35 marks and Western Europe with 29 marks. [G2] [G6] Together, Asia Pacific and Western Europe account for 64 of the 101 marks, or about 63.4% of the total. [G7] [G2] [G6] Middle East and Africa forms a secondary concentration with 13 marks, followed by North America with nine marks. [G4] [G8] The remaining regions have relatively small representations: Eastern Europe has seven marks, Latin America has six, and Australasia has two. [G5] [G3] [G1]",
+      "citationIds": [
+        "G7",
+        "G2",
+        "G6",
+        "G4",
+        "G8",
+        "G5",
+        "G3",
+        "G1"
+      ],
+      "status": "verified",
+      "generationMode": "llm",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "The chart contains 101 rectangular marks distributed across seven regions: Asia Pacific, Australasia, Eastern Europe, Latin America, Middle East and Africa, North America, and Western Europe.",
+          "recordIds": [
+            "entity:insight_Composition_7"
+          ],
+          "citationIds": [
+            "G7"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_2",
+          "text": "The distribution is concentrated most heavily in Asia Pacific with 35 marks and Western Europe with 29 marks.",
+          "recordIds": [
+            "entity:insight_Composition_2",
+            "entity:insight_Composition_6"
+          ],
+          "citationIds": [
+            "G2",
+            "G6"
+          ],
+          "claimType": "derived"
+        },
+        {
+          "id": "claim_3",
+          "text": "Together, Asia Pacific and Western Europe account for 64 of the 101 marks, or about 63.4% of the total.",
+          "recordIds": [
+            "entity:insight_Composition_7",
+            "entity:insight_Composition_2",
+            "entity:insight_Composition_6"
+          ],
+          "citationIds": [
+            "G7",
+            "G2",
+            "G6"
+          ],
+          "claimType": "derived"
+        },
+        {
+          "id": "claim_4",
+          "text": "Middle East and Africa forms a secondary concentration with 13 marks, followed by North America with nine marks.",
+          "recordIds": [
+            "entity:insight_Composition_4",
+            "entity:insight_Composition_8"
+          ],
+          "citationIds": [
+            "G4",
+            "G8"
+          ],
+          "claimType": "derived"
+        },
+        {
+          "id": "claim_5",
+          "text": "The remaining regions have relatively small representations: Eastern Europe has seven marks, Latin America has six, and Australasia has two.",
+          "recordIds": [
+            "entity:insight_Composition_5",
+            "entity:insight_Composition_3",
+            "entity:insight_Composition_1"
+          ],
+          "citationIds": [
+            "G5",
+            "G3",
+            "G1"
+          ],
+          "claimType": "derived"
+        }
+      ],
+      "citations": {
+        "G7": {
+          "id": "G7",
+          "claimIds": [
+            "entity:insight_Composition_7",
+            "relation:DERIVED_FROM:insight_Composition_7:Composition_4"
+          ],
+          "entityIds": [
+            "insight_Composition_7",
+            "Composition_4"
+          ],
+          "evidenceIds": [
+            "ev_g7_1"
+          ],
+          "graphPath": [
+            "Composition 7",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G2": {
+          "id": "G2",
+          "claimIds": [
+            "entity:insight_Composition_2",
+            "relation:DERIVED_FROM:insight_Composition_2:Composition_3"
+          ],
+          "entityIds": [
+            "insight_Composition_2",
+            "Composition_3"
+          ],
+          "evidenceIds": [
+            "ev_g2_1"
+          ],
+          "graphPath": [
+            "Composition 2",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G6": {
+          "id": "G6",
+          "claimIds": [
+            "entity:insight_Composition_6",
+            "relation:DERIVED_FROM:insight_Composition_6:Composition_5"
+          ],
+          "entityIds": [
+            "insight_Composition_6",
+            "Composition_5"
+          ],
+          "evidenceIds": [
+            "ev_g6_1"
+          ],
+          "graphPath": [
+            "Composition 6",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G4": {
+          "id": "G4",
+          "claimIds": [
+            "entity:insight_Composition_4",
+            "relation:DERIVED_FROM:insight_Composition_4:Composition_7"
+          ],
+          "entityIds": [
+            "insight_Composition_4",
+            "Composition_7"
+          ],
+          "evidenceIds": [
+            "ev_g4_1"
+          ],
+          "graphPath": [
+            "Composition 4",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G8": {
+          "id": "G8",
+          "claimIds": [
+            "entity:insight_Composition_8",
+            "relation:DERIVED_FROM:insight_Composition_8:Composition"
+          ],
+          "entityIds": [
+            "insight_Composition_8",
+            "Composition"
+          ],
+          "evidenceIds": [
+            "ev_g8_1"
+          ],
+          "graphPath": [
+            "Composition 8",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G5": {
+          "id": "G5",
+          "claimIds": [
+            "entity:insight_Composition_5",
+            "relation:DERIVED_FROM:insight_Composition_5:Composition_8"
+          ],
+          "entityIds": [
+            "insight_Composition_5",
+            "Composition_8"
+          ],
+          "evidenceIds": [
+            "ev_g5_1"
+          ],
+          "graphPath": [
+            "Composition 5",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G3": {
+          "id": "G3",
+          "claimIds": [
+            "entity:insight_Composition_3",
+            "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+          ],
+          "entityIds": [
+            "insight_Composition_3",
+            "Composition_6"
+          ],
+          "evidenceIds": [
+            "ev_g3_1"
+          ],
+          "graphPath": [
+            "Composition 3",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        },
+        "G1": {
+          "id": "G1",
+          "claimIds": [
+            "entity:insight_Composition_1",
+            "relation:DERIVED_FROM:insight_Composition_1:Composition_2"
+          ],
+          "entityIds": [
+            "insight_Composition_1",
+            "Composition_2"
+          ],
+          "evidenceIds": [
+            "ev_g1_1",
+            "ev_g1_2"
+          ],
+          "graphPath": [
+            "Composition 1",
+            "DERIVED_FROM",
+            "Composition: Composition"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-global",
+        "planner": "llm",
+        "maxHops": 3,
+        "seedEntityIds": [
+          "insight_Composition_7",
+          "insight_Composition_2",
+          "insight_Composition_6",
+          "insight_Composition_4",
+          "insight_Composition_8",
+          "insight_Composition_5"
+        ],
+        "communityIds": [
+          "community:8:bas_all_other_rect_group",
+          "community:1:bas_Asia_Pacific_other_rect_group",
+          "community:3:bas_Eastern_Europe_other_rect_group",
+          "community:6:bas_North_America_other_rect_group",
+          "community:7:bas_Western_Europe_other_rect_group",
+          "community:4:bas_Latin_America_other_rect_group"
+        ],
+        "expandedEntityIds": [
+          "insight_Composition_7",
+          "insight_Composition_2",
+          "insight_Composition_6",
+          "insight_Composition_4",
+          "insight_Composition_8",
+          "insight_Composition_5",
+          "bas_Asia_Pacific_other_rect_group",
+          "rect_100",
+          "Asia_Pacific",
+          "bas_Eastern_Europe_other_rect_group",
+          "rect_24",
+          "Eastern_Europe",
+          "bas_Latin_America_other_rect_group",
+          "rect_15",
+          "Latin_America",
+          "Composition_6",
+          "insight_Composition_3",
+          "bas_all_other_rect_group",
+          "rect_42",
+          "Australasia",
+          "insight_Composition_1",
+          "Composition_4",
+          "Composition_3",
+          "Composition_8",
+          "Composition",
+          "Composition_5",
+          "Composition_7",
+          "Composition_2"
+        ],
+        "relationIds": [
+          "relation:1:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_100",
+          "relation:230:VALUE_OF:rect_100:Asia_Pacific",
+          "relation:38:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_24",
+          "relation:246:VALUE_OF:rect_24:Eastern_Europe",
+          "relation:45:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_15",
+          "relation:236:VALUE_OF:rect_15:Latin_America",
+          "relation:334:SUPPORTED_BY:Composition_6:bas_Latin_America_other_rect_group",
+          "relation:339:DERIVED_FROM:insight_Composition_3:Composition_6",
+          "relation:140:COMPOSED_OF:bas_all_other_rect_group:rect_42",
+          "relation:266:VALUE_OF:rect_42:Australasia",
+          "relation:343:DERIVED_FROM:insight_Composition_7:Composition_4",
+          "relation:338:DERIVED_FROM:insight_Composition_2:Composition_3",
+          "relation:341:DERIVED_FROM:insight_Composition_5:Composition_8",
+          "relation:344:DERIVED_FROM:insight_Composition_8:Composition",
+          "relation:342:DERIVED_FROM:insight_Composition_6:Composition_5",
+          "relation:340:DERIVED_FROM:insight_Composition_4:Composition_7",
+          "relation:337:DERIVED_FROM:insight_Composition_1:Composition_2"
+        ],
+        "paths": [
+          {
+            "source": "bas_Asia_Pacific_other_rect_group",
+            "target": "Asia_Pacific",
+            "nodeIds": [
+              "bas_Asia_Pacific_other_rect_group",
+              "rect_100",
+              "Asia_Pacific"
+            ],
+            "relationIds": [
+              "relation:1:COMPOSED_OF:bas_Asia_Pacific_other_rect_group:rect_100",
+              "relation:230:VALUE_OF:rect_100:Asia_Pacific"
+            ],
+            "hops": [
+              {
+                "from": "bas_Asia_Pacific_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_100",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_100",
+                "relation": "VALUE_OF",
+                "to": "Asia_Pacific",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bas_Eastern_Europe_other_rect_group",
+            "target": "Eastern_Europe",
+            "nodeIds": [
+              "bas_Eastern_Europe_other_rect_group",
+              "rect_24",
+              "Eastern_Europe"
+            ],
+            "relationIds": [
+              "relation:38:COMPOSED_OF:bas_Eastern_Europe_other_rect_group:rect_24",
+              "relation:246:VALUE_OF:rect_24:Eastern_Europe"
+            ],
+            "hops": [
+              {
+                "from": "bas_Eastern_Europe_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_24",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_24",
+                "relation": "VALUE_OF",
+                "to": "Eastern_Europe",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bas_Latin_America_other_rect_group",
+            "target": "Latin_America",
+            "nodeIds": [
+              "bas_Latin_America_other_rect_group",
+              "rect_15",
+              "Latin_America"
+            ],
+            "relationIds": [
+              "relation:45:COMPOSED_OF:bas_Latin_America_other_rect_group:rect_15",
+              "relation:236:VALUE_OF:rect_15:Latin_America"
+            ],
+            "hops": [
+              {
+                "from": "bas_Latin_America_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_15",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_15",
+                "relation": "VALUE_OF",
+                "to": "Latin_America",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "bas_Latin_America_other_rect_group",
+            "target": "insight_Composition_3",
+            "nodeIds": [
+              "bas_Latin_America_other_rect_group",
+              "Composition_6",
+              "insight_Composition_3"
+            ],
+            "relationIds": [
+              "relation:334:SUPPORTED_BY:Composition_6:bas_Latin_America_other_rect_group",
+              "relation:339:DERIVED_FROM:insight_Composition_3:Composition_6"
+            ],
+            "hops": [
+              {
+                "from": "bas_Latin_America_other_rect_group",
+                "relation": "SUPPORTED_BY",
+                "to": "Composition_6",
+                "direction": "reverse"
+              },
+              {
+                "from": "Composition_6",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Composition_3",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "bas_all_other_rect_group",
+            "target": "Australasia",
+            "nodeIds": [
+              "bas_all_other_rect_group",
+              "rect_42",
+              "Australasia"
+            ],
+            "relationIds": [
+              "relation:140:COMPOSED_OF:bas_all_other_rect_group:rect_42",
+              "relation:266:VALUE_OF:rect_42:Australasia"
+            ],
+            "hops": [
+              {
+                "from": "bas_all_other_rect_group",
+                "relation": "COMPOSED_OF",
+                "to": "rect_42",
+                "direction": "forward"
+              },
+              {
+                "from": "rect_42",
+                "relation": "VALUE_OF",
+                "to": "Australasia",
+                "direction": "forward"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "insight_Composition_7",
+            "type": "Insight",
+            "score": 1.175081,
+            "lexicalScore": 18.809859,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Composition_2",
+            "type": "Insight",
+            "score": 1.01502,
+            "lexicalScore": 13.07604,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Composition_5",
+            "type": "Insight",
+            "score": 0.992228,
+            "lexicalScore": 12.259542,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Composition_8",
+            "type": "Insight",
+            "score": 0.89612,
+            "lexicalScore": 8.816703,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Composition_6",
+            "type": "Insight",
+            "score": 0.890553,
+            "lexicalScore": 8.617287,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Asia_Pacific",
+            "type": "Variable_Value",
+            "score": 0.729197,
+            "lexicalScore": 20.060746,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "Eastern_Europe",
+            "type": "Variable_Value",
+            "score": 0.711563,
+            "lexicalScore": 19.429033,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "Latin_America",
+            "type": "Variable_Value",
+            "score": 0.711563,
+            "lexicalScore": 19.429033,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Composition_3",
+            "type": "Insight",
+            "score": 0.69189,
+            "lexicalScore": 10.177679,
+            "distance": 1.25,
+            "hops": 2
+          },
+          {
+            "entityId": "Australasia",
+            "type": "Variable_Value",
+            "score": 0.552633,
+            "lexicalScore": 13.735732,
+            "distance": 1.67,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Composition_4",
+            "type": "Insight",
+            "score": 0.509333,
+            "lexicalScore": 3.379256,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Composition_1",
+            "type": "Insight",
+            "score": 0.42867,
+            "lexicalScore": 7.116913,
+            "distance": null,
+            "hops": null
+          }
+        ]
+      }
+    }
+  }
+}

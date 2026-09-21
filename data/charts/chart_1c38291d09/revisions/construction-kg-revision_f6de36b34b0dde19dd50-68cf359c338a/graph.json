@@ -1,0 +1,1043 @@
+{
+  "revisionId": "construction-kg-revision:f6de36b34b0dde19dd50",
+  "ontologyRef": "chartkg-plus-plus-schema:v5.1",
+  "nodes": [
+    {
+      "id": "chart",
+      "label": "chart",
+      "type": "Complex_Chart",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Complex_Chart"
+      },
+      "claimIds": [
+        "entity:chart"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "other",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "other"
+      },
+      "claimIds": [
+        "entity:other"
+      ]
+    },
+    {
+      "id": "rect_group",
+      "label": "rect group",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Rect"
+      },
+      "claimIds": [
+        "entity:rect_group"
+      ]
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color"
+      ]
+    },
+    {
+      "id": "position",
+      "label": "position",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "position"
+      },
+      "claimIds": [
+        "entity:position"
+      ]
+    },
+    {
+      "id": "rgb_0_168_204",
+      "label": "rgb 0 168 204",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[0,168,204],\"kind\":\"color\"}",
+        "colorName": "cyan blue"
+      },
+      "claimIds": [
+        "entity:rgb_0_168_204"
+      ]
+    },
+    {
+      "id": "rgb_12_176_68",
+      "label": "rgb 12 176 68",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[12,176,68],\"kind\":\"color\"}",
+        "colorName": "green"
+      },
+      "claimIds": [
+        "entity:rgb_12_176_68"
+      ]
+    },
+    {
+      "id": "rgb_181_57_111",
+      "label": "rgb 181 57 111",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[181,57,111],\"kind\":\"color\"}",
+        "colorName": "berry"
+      },
+      "claimIds": [
+        "entity:rgb_181_57_111"
+      ]
+    },
+    {
+      "id": "rgb_251_178_77",
+      "label": "rgb 251 178 77",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[251,178,77],\"kind\":\"color\"}",
+        "colorName": "golden orange"
+      },
+      "claimIds": [
+        "entity:rgb_251_178_77"
+      ]
+    },
+    {
+      "id": "rgb_255_0_246",
+      "label": "rgb 255 0 246",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[255,0,246],\"kind\":\"color\"}",
+        "colorName": "bright magenta"
+      },
+      "claimIds": [
+        "entity:rgb_255_0_246"
+      ]
+    },
+    {
+      "id": "rgb_255_104_42",
+      "label": "rgb 255 104 42",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[255,104,42],\"kind\":\"color\"}",
+        "colorName": "orange"
+      },
+      "claimIds": [
+        "entity:rgb_255_104_42"
+      ]
+    },
+    {
+      "id": "rgb_43_102_124",
+      "label": "rgb 43 102 124",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[43,102,124],\"kind\":\"color\"}",
+        "colorName": "dark teal blue"
+      },
+      "claimIds": [
+        "entity:rgb_43_102_124"
+      ]
+    },
+    {
+      "id": "Region",
+      "label": "Region",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Region",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "Asia_Pacific",
+      "label": "Asia Pacific",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Asia Pacific"
+      },
+      "claimIds": [
+        "entity:Asia_Pacific"
+      ]
+    },
+    {
+      "id": "Australasia",
+      "label": "Australasia",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Australasia"
+      },
+      "claimIds": [
+        "entity:Australasia"
+      ]
+    },
+    {
+      "id": "Eastern_Europe",
+      "label": "Eastern Europe",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Eastern Europe"
+      },
+      "claimIds": [
+        "entity:Eastern_Europe"
+      ]
+    },
+    {
+      "id": "Latin_America",
+      "label": "Latin America",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Latin America"
+      },
+      "claimIds": [
+        "entity:Latin_America"
+      ]
+    },
+    {
+      "id": "Middle_East_and_Africa",
+      "label": "Middle East and Africa",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Middle East and Africa"
+      },
+      "claimIds": [
+        "entity:Middle_East_and_Africa"
+      ]
+    },
+    {
+      "id": "North_America",
+      "label": "North America",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "North America"
+      },
+      "claimIds": [
+        "entity:North_America"
+      ]
+    },
+    {
+      "id": "Western_Europe",
+      "label": "Western Europe",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Western Europe"
+      },
+      "claimIds": [
+        "entity:Western_Europe"
+      ]
+    },
+    {
+      "id": "bas_Asia_Pacific_other_rect_group",
+      "label": "bas Asia Pacific other rect group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Asia_Pacific\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Asia_Pacific_other_rect_group"
+      ]
+    },
+    {
+      "id": "bas_Australasia_other_rect_group",
+      "label": "bas Australasia other rect group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Australasia\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Australasia_other_rect_group"
+      ]
+    },
+    {
+      "id": "bas_Eastern_Europe_other_rect_group",
+      "label": "bas Eastern Europe other rect group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Eastern_Europe\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Eastern_Europe_other_rect_group"
+      ]
+    },
+    {
+      "id": "bas_Latin_America_other_rect_group",
+      "label": "bas Latin America other rect group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Latin_America\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Latin_America_other_rect_group"
+      ]
+    },
+    {
+      "id": "bas_Middle_East_and_Africa_other_rect_group",
+      "label": "bas Middle East and Africa other rect group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"Middle_East_and_Africa\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]"
+      },
+      "claimIds": [
+        "entity:bas_Middle_East_and_Africa_other_rect_group"
+      ]
+    },
+    {
+      "id": "bas_North_America_other_rect_group",
+      "label": "bas North America other rect group",
+      "type": "Basic_Analytical_Scope",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Analytical_Scope",
+        "sources": "[{\"groupRef\":\"rect_group\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"other\"}]"
+      },
+      "claimIds": [
+        "entity:bas_North_America_other_rect_group"
+      ]
+    },
+    {
+      "id": "Composition",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 9 marks: rect_1, rect_12, rect_13, rect_14, rect_22, rect_23, rect_3, rect_32, rect_4.",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_1\",\"rect_12\",\"rect_13\",\"rect_14\",\"rect_22\",\"rect_23\",\"rect_3\",\"rect_32\",\"rect_4\"]"
+      },
+      "claimIds": [
+        "entity:Composition"
+      ]
+    },
+    {
+      "id": "Composition_2",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 2 marks: rect_42, rect_52.",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_42\",\"rect_52\"]"
+      },
+      "claimIds": [
+        "entity:Composition_2"
+      ]
+    },
+    {
+      "id": "Composition_3",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 35 marks: rect_100, rect_101, rect_62, rect_63, rect_64, rect_65, rect_66, rect_72, rect_73, rect_74, rect_75, rect_76, rect_77, rect_78, rect_79, rect_80, r…",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_100\",\"rect_101\",\"rect_62\",\"rect_63\",\"rect_64\",\"rect_65\",\"rect_66\",\"rect_72\",\"rect_73\",\"rect_74\",\"rect_75\",\"rect_76\",\"rect_77\",\"rect_78\",\"rect_79\",\"rect_80\",\"rect_81\",\"rect_…"
+      },
+      "claimIds": [
+        "entity:Composition_3"
+      ]
+    },
+    {
+      "id": "Composition_4",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 101 marks: rect_1, rect_10, rect_100, rect_101, rect_11, rect_12, rect_13, rect_14, rect_15, rect_16, rect_17, rect_18, rect_19, rect_2, rect_20, rect_21, re…",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_1\",\"rect_10\",\"rect_100\",\"rect_101\",\"rect_11\",\"rect_12\",\"rect_13\",\"rect_14\",\"rect_15\",\"rect_16\",\"rect_17\",\"rect_18\",\"rect_19\",\"rect_2\",\"rect_20\",\"rect_21\",\"rect_22\",\"rect_23…"
+      },
+      "claimIds": [
+        "entity:Composition_4"
+      ]
+    },
+    {
+      "id": "Composition_5",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 29 marks: rect_10, rect_11, rect_16, rect_17, rect_18, rect_19, rect_2, rect_20, rect_21, rect_26, rect_27, rect_28, rect_29, rect_30, rect_31, rect_37, rect…",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_10\",\"rect_11\",\"rect_16\",\"rect_17\",\"rect_18\",\"rect_19\",\"rect_2\",\"rect_20\",\"rect_21\",\"rect_26\",\"rect_27\",\"rect_28\",\"rect_29\",\"rect_30\",\"rect_31\",\"rect_37\",\"rect_38\",\"rect_39\"…"
+      },
+      "claimIds": [
+        "entity:Composition_5"
+      ]
+    },
+    {
+      "id": "Composition_6",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 6 marks: rect_15, rect_25, rect_35, rect_45, rect_5, rect_55.",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_15\",\"rect_25\",\"rect_35\",\"rect_45\",\"rect_5\",\"rect_55\"]"
+      },
+      "claimIds": [
+        "entity:Composition_6"
+      ]
+    },
+    {
+      "id": "Composition_7",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 13 marks: rect_36, rect_46, rect_56, rect_57, rect_58, rect_59, rect_60, rect_61, rect_67, rect_68, rect_69, rect_70, rect_71.",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_36\",\"rect_46\",\"rect_56\",\"rect_57\",\"rect_58\",\"rect_59\",\"rect_60\",\"rect_61\",\"rect_67\",\"rect_68\",\"rect_69\",\"rect_70\",\"rect_71\"]"
+      },
+      "claimIds": [
+        "entity:Composition_7"
+      ]
+    },
+    {
+      "id": "Composition_8",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 7 marks: rect_24, rect_33, rect_34, rect_43, rect_44, rect_53, rect_54.",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"rect_24\",\"rect_33\",\"rect_34\",\"rect_43\",\"rect_44\",\"rect_53\",\"rect_54\"]"
+      },
+      "claimIds": [
+        "entity:Composition_8"
+      ]
+    },
+    {
+      "id": "insight_Composition_1",
+      "label": "Composition 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Australasia\",\"variable\":\"Region\"}]",
+        "statement": "For the Region Australasia, the composition is comprised of two rectangular marks."
+      },
+      "claimIds": [
+        "entity:insight_Composition_1"
+      ]
+    },
+    {
+      "id": "insight_Composition_2",
+      "label": "Composition 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Asia_Pacific\",\"variable\":\"Region\"}]",
+        "statement": "For Region = Asia Pacific, the group is composed of 35 rectangular marks that together make up the observed category whole."
+      },
+      "claimIds": [
+        "entity:insight_Composition_2"
+      ]
+    },
+    {
+      "id": "insight_Composition_3",
+      "label": "Composition 3",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Latin_America\",\"variable\":\"Region\"}]",
+        "statement": "For the Region category Latin America, the whole comprises six rectangular marks."
+      },
+      "claimIds": [
+        "entity:insight_Composition_3"
+      ]
+    },
+    {
+      "id": "insight_Composition_4",
+      "label": "Composition 4",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Middle_East_and_Africa\",\"variable\":\"Region\"}]",
+        "statement": "For the Middle East and Africa region, the observed group is composed of thirteen rectangle marks that together make up this categorical segment."
+      },
+      "claimIds": [
+        "entity:insight_Composition_4"
+      ]
+    },
+    {
+      "id": "insight_Composition_5",
+      "label": "Composition 5",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Eastern_Europe\",\"variable\":\"Region\"}]",
+        "statement": "Within the Eastern Europe region category, the observed grouping is composed of seven rectangular marks that together make up the whole."
+      },
+      "claimIds": [
+        "entity:insight_Composition_5"
+      ]
+    },
+    {
+      "id": "insight_Composition_6",
+      "label": "Composition 6",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Western_Europe\",\"variable\":\"Region\"}]",
+        "statement": "Within the Western Europe region, the composition consists of twenty-nine observed rectangular marks, which together make up the entire declared selection."
+      },
+      "claimIds": [
+        "entity:insight_Composition_6"
+      ]
+    },
+    {
+      "id": "insight_Composition_7",
+      "label": "Composition 7",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Asia_Pacific\",\"variable\":\"Region\"},{\"valueRef\":\"Australasia\",\"variable\":\"Region\"},{\"valueRef\":\"Eastern_Europe\",\"variable\":\"Region\"},{\"valueRef\":\"Latin_America\",\"vari…",
+        "statement": "The global observed set of 101 rectangular marks is composed of elements distributed across the Region classifications, encompassing Asia Pacific, Australasia, Eastern Europe, Lat…"
+      },
+      "claimIds": [
+        "entity:insight_Composition_7"
+      ]
+    },
+    {
+      "id": "insight_Composition_8",
+      "label": "Composition 8",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"North_America\",\"variable\":\"Region\"}]",
+        "statement": "Within the Region category of North America, the selection is composed of nine rectangular marks that together constitute the observed grouping."
+      },
+      "claimIds": [
+        "entity:insight_Composition_8"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_HAS_VIEW",
+      "source": "chart",
+      "target": "other",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:other",
+        "entity:chart",
+        "entity:other"
+      ]
+    },
+    {
+      "id": "edge_203_COMPOSED_OF",
+      "source": "other",
+      "target": "rect_group",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:other:rect_group",
+        "entity:other",
+        "entity:rect_group"
+      ]
+    },
+    {
+      "id": "edge_204_HAS_VISUAL_ATTRIBUTE",
+      "source": "rect_group",
+      "target": "color",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:rect_group:color",
+        "entity:rect_group",
+        "entity:color"
+      ]
+    },
+    {
+      "id": "edge_205_HAS_VISUAL_ATTRIBUTE",
+      "source": "rect_group",
+      "target": "position",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:rect_group:position",
+        "entity:rect_group",
+        "entity:position"
+      ]
+    },
+    {
+      "id": "edge_206_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_0_168_204",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_0_168_204",
+        "entity:color",
+        "entity:rgb_0_168_204"
+      ]
+    },
+    {
+      "id": "edge_207_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_12_176_68",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_12_176_68",
+        "entity:color",
+        "entity:rgb_12_176_68"
+      ]
+    },
+    {
+      "id": "edge_208_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_181_57_111",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_181_57_111",
+        "entity:color",
+        "entity:rgb_181_57_111"
+      ]
+    },
+    {
+      "id": "edge_209_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_251_178_77",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_251_178_77",
+        "entity:color",
+        "entity:rgb_251_178_77"
+      ]
+    },
+    {
+      "id": "edge_210_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_255_0_246",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_0_246",
+        "entity:color",
+        "entity:rgb_255_0_246"
+      ]
+    },
+    {
+      "id": "edge_211_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_255_104_42",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_255_104_42",
+        "entity:color",
+        "entity:rgb_255_104_42"
+      ]
+    },
+    {
+      "id": "edge_212_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_43_102_124",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_43_102_124",
+        "entity:color",
+        "entity:rgb_43_102_124"
+      ]
+    },
+    {
+      "id": "edge_213_ENCODES",
+      "source": "color",
+      "target": "Region",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color:Region",
+        "entity:color",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_214_ENCODES",
+      "source": "rgb_0_168_204",
+      "target": "Asia_Pacific",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_0_168_204:Asia_Pacific",
+        "entity:rgb_0_168_204",
+        "entity:Asia_Pacific"
+      ]
+    },
+    {
+      "id": "edge_215_ENCODES",
+      "source": "rgb_12_176_68",
+      "target": "Eastern_Europe",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_12_176_68:Eastern_Europe",
+        "entity:rgb_12_176_68",
+        "entity:Eastern_Europe"
+      ]
+    },
+    {
+      "id": "edge_216_ENCODES",
+      "source": "rgb_181_57_111",
+      "target": "Latin_America",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_181_57_111:Latin_America",
+        "entity:rgb_181_57_111",
+        "entity:Latin_America"
+      ]
+    },
+    {
+      "id": "edge_217_ENCODES",
+      "source": "rgb_251_178_77",
+      "target": "Australasia",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_251_178_77:Australasia",
+        "entity:rgb_251_178_77",
+        "entity:Australasia"
+      ]
+    },
+    {
+      "id": "edge_218_ENCODES",
+      "source": "rgb_255_0_246",
+      "target": "Middle_East_and_Africa",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_255_0_246:Middle_East_and_Africa",
+        "entity:rgb_255_0_246",
+        "entity:Middle_East_and_Africa"
+      ]
+    },
+    {
+      "id": "edge_219_ENCODES",
+      "source": "rgb_255_104_42",
+      "target": "North_America",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_255_104_42:North_America",
+        "entity:rgb_255_104_42",
+        "entity:North_America"
+      ]
+    },
+    {
+      "id": "edge_220_ENCODES",
+      "source": "rgb_43_102_124",
+      "target": "Western_Europe",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_43_102_124:Western_Europe",
+        "entity:rgb_43_102_124",
+        "entity:Western_Europe"
+      ]
+    },
+    {
+      "id": "edge_221_VALUE_OF",
+      "source": "Asia_Pacific",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Asia_Pacific:Region",
+        "entity:Asia_Pacific",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_222_VALUE_OF",
+      "source": "Australasia",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Australasia:Region",
+        "entity:Australasia",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_223_VALUE_OF",
+      "source": "Eastern_Europe",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Eastern_Europe:Region",
+        "entity:Eastern_Europe",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_224_VALUE_OF",
+      "source": "Latin_America",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Latin_America:Region",
+        "entity:Latin_America",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_225_VALUE_OF",
+      "source": "Middle_East_and_Africa",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Middle_East_and_Africa:Region",
+        "entity:Middle_East_and_Africa",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_226_VALUE_OF",
+      "source": "North_America",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:North_America:Region",
+        "entity:North_America",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_227_VALUE_OF",
+      "source": "Western_Europe",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Western_Europe:Region",
+        "entity:Western_Europe",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_329_SUPPORTED_BY",
+      "source": "Composition",
+      "target": "bas_North_America_other_rect_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition:bas_North_America_other_rect_group",
+        "entity:Composition",
+        "entity:bas_North_America_other_rect_group"
+      ]
+    },
+    {
+      "id": "edge_330_SUPPORTED_BY",
+      "source": "Composition_2",
+      "target": "bas_Australasia_other_rect_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_2:bas_Australasia_other_rect_group",
+        "entity:Composition_2",
+        "entity:bas_Australasia_other_rect_group"
+      ]
+    },
+    {
+      "id": "edge_331_SUPPORTED_BY",
+      "source": "Composition_3",
+      "target": "bas_Asia_Pacific_other_rect_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_3:bas_Asia_Pacific_other_rect_group",
+        "entity:Composition_3",
+        "entity:bas_Asia_Pacific_other_rect_group"
+      ]
+    },
+    {
+      "id": "edge_334_SUPPORTED_BY",
+      "source": "Composition_6",
+      "target": "bas_Latin_America_other_rect_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_6:bas_Latin_America_other_rect_group",
+        "entity:Composition_6",
+        "entity:bas_Latin_America_other_rect_group"
+      ]
+    },
+    {
+      "id": "edge_335_SUPPORTED_BY",
+      "source": "Composition_7",
+      "target": "bas_Middle_East_and_Africa_other_rect_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_7:bas_Middle_East_and_Africa_other_rect_group",
+        "entity:Composition_7",
+        "entity:bas_Middle_East_and_Africa_other_rect_group"
+      ]
+    },
+    {
+      "id": "edge_336_SUPPORTED_BY",
+      "source": "Composition_8",
+      "target": "bas_Eastern_Europe_other_rect_group",
+      "relation": "SUPPORTED_BY",
+      "claimIds": [
+        "relation:SUPPORTED_BY:Composition_8:bas_Eastern_Europe_other_rect_group",
+        "entity:Composition_8",
+        "entity:bas_Eastern_Europe_other_rect_group"
+      ]
+    },
+    {
+      "id": "edge_337_DERIVED_FROM",
+      "source": "insight_Composition_1",
+      "target": "Composition_2",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_1:Composition_2",
+        "entity:insight_Composition_1",
+        "entity:Composition_2"
+      ]
+    },
+    {
+      "id": "edge_338_DERIVED_FROM",
+      "source": "insight_Composition_2",
+      "target": "Composition_3",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_2:Composition_3",
+        "entity:insight_Composition_2",
+        "entity:Composition_3"
+      ]
+    },
+    {
+      "id": "edge_339_DERIVED_FROM",
+      "source": "insight_Composition_3",
+      "target": "Composition_6",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_3:Composition_6",
+        "entity:insight_Composition_3",
+        "entity:Composition_6"
+      ]
+    },
+    {
+      "id": "edge_340_DERIVED_FROM",
+      "source": "insight_Composition_4",
+      "target": "Composition_7",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_4:Composition_7",
+        "entity:insight_Composition_4",
+        "entity:Composition_7"
+      ]
+    },
+    {
+      "id": "edge_341_DERIVED_FROM",
+      "source": "insight_Composition_5",
+      "target": "Composition_8",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_5:Composition_8",
+        "entity:insight_Composition_5",
+        "entity:Composition_8"
+      ]
+    },
+    {
+      "id": "edge_342_DERIVED_FROM",
+      "source": "insight_Composition_6",
+      "target": "Composition_5",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_6:Composition_5",
+        "entity:insight_Composition_6",
+        "entity:Composition_5"
+      ]
+    },
+    {
+      "id": "edge_343_DERIVED_FROM",
+      "source": "insight_Composition_7",
+      "target": "Composition_4",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_7:Composition_4",
+        "entity:insight_Composition_7",
+        "entity:Composition_4"
+      ]
+    },
+    {
+      "id": "edge_344_DERIVED_FROM",
+      "source": "insight_Composition_8",
+      "target": "Composition",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_8:Composition",
+        "entity:insight_Composition_8",
+        "entity:Composition"
+      ]
+    }
+  ],
+  "stats": {
+    "sourceNodeCount": 145,
+    "sourceEdgeCount": 345,
+    "visibleNodeCount": 42,
+    "visibleEdgeCount": 40,
+    "verificationStatus": "unverified",
+    "runStatus": "partial",
+    "communityCount": 8,
+    "retrievalEngine": "native-graphrag-v1"
+  }
+}

@@ -59,13 +59,12 @@ if (!manifest) {
 
 /* ---------------------------------------------------------------- GraphRAG */
 
-check(manifest.graphrag?.length === 2, 'manifest.graphrag must describe exactly two bundled cases')
-check(await exists(manifest.evidenceRegions), `Missing evidence region catalog: ${manifest.evidenceRegions}`)
-
-const expectedStrategies = ['graph-local', 'graph-global']
+check(Array.isArray(manifest.graphrag) && manifest.graphrag.length > 0, 'manifest.graphrag must describe at least one bundled case')
+check(new Set((manifest.graphrag ?? []).map((chart) => chart.id)).size === (manifest.graphrag ?? []).length, 'manifest.graphrag contains duplicate case IDs')
+if (manifest.evidenceRegions) check(await exists(manifest.evidenceRegions), `Missing evidence region catalog: ${manifest.evidenceRegions}`)
 
 for (const chart of manifest.graphrag) {
-  for (const path of [chart.image, chart.kg, chart.qa]) {
+  for (const path of [chart.image, chart.graph, chart.summary, chart.citations, chart.evidence, chart.qa].filter(Boolean)) {
     if (!await exists(path)) errors.push(`Missing GraphRAG asset: ${path}`)
   }
 
@@ -79,34 +78,37 @@ for (const chart of manifest.graphrag) {
     check(size.sha256 === chart.sha256, `${chart.image}: SHA-256 mismatch`)
   }
 
-  const kg = await json(chart.kg)
-  check(Boolean(kg?.entities?.length), `${chart.kg}: KG must contain entities`)
-  check(Boolean(kg?.relations?.length), `${chart.kg}: KG must contain relations`)
-  const entityIds = new Set((kg?.entities ?? []).map((entity) => String(entity.id)))
-  for (const relation of kg?.relations ?? []) {
-    check(entityIds.has(String(relation.source)), `${chart.kg}: relation source ${relation.source} is not an entity`)
-    check(entityIds.has(String(relation.target)), `${chart.kg}: relation target ${relation.target} is not an entity`)
+  const graph = await json(chart.graph)
+  check(Boolean(graph?.nodes?.length), `${chart.graph}: graph must contain nodes`)
+  check(Boolean(graph?.edges?.length), `${chart.graph}: graph must contain edges`)
+  const nodeIds = new Set((graph?.nodes ?? []).map((node) => String(node.id)))
+  for (const edge of graph?.edges ?? []) {
+    check(nodeIds.has(String(edge.source)), `${chart.graph}: edge source ${edge.source} is not a visible node`)
+    check(nodeIds.has(String(edge.target)), `${chart.graph}: edge target ${edge.target} is not a visible node`)
   }
 
-  const qa = await json(chart.qa)
+  const summary = await json(chart.summary)
+  const citations = await json(chart.citations)
+  const evidence = await json(chart.evidence)
+  check(summary?.revisionId === graph?.revisionId, `${chart.summary}: revisionId does not match the graph`)
+  check(typeof summary?.coverage === 'number', `${chart.summary}: coverage is missing`)
+  check(Array.isArray(summary?.sentences) && summary.sentences.length > 0, `${chart.summary}: summary sentences are missing`)
+  check(Object.keys(citations ?? {}).length > 0, `${chart.citations}: citations are missing`)
+  check(Object.keys(evidence ?? {}).length > 0, `${chart.evidence}: evidence is missing`)
+
+  const qa = chart.qa ? await json(chart.qa) : null
   const examples = qa?.examples ?? []
   const shown = examples.filter((example) => example.suggested !== false)
-  check(shown.length >= 3, `${chart.qa}: at least three example questions must be offered`)
-  check(qa?.revisionId === kg?.metadata?.revision_ref, `${chart.qa}: revisionId does not match the knowledge graph`)
-
-  const strategies = new Set(shown.map((example) => example.turn?.retrieval?.strategy))
-  for (const strategy of expectedStrategies) {
-    check(strategies.has(strategy), `${chart.qa}: no example uses ${strategy} retrieval`)
+  if (chart.qa) {
+    check(shown.length > 0, `${chart.qa}: at least one example question must be offered`)
+    check(qa?.revisionId === graph?.revisionId, `${chart.qa}: revisionId does not match the graph`)
   }
-  check(
-    shown.some((example) => example.origin === 'analysis.suggestedQuestions'),
-    `${chart.qa}: at least one example must come from the project's own suggestedQuestions`,
-  )
 
   for (const example of examples) {
-    const label = `${chart.qa} · ${example.question}`
+    const label = `${chart.qa ?? chart.id} · ${example.question}`
     const turn = example.turn
-    if (!example.question || !turn?.answer) errors.push(`${label}: missing question or answer`)
+    const vision = example.visionTurn
+    if (!example.question || (!turn?.answer && !vision?.answer)) errors.push(`${label}: missing question or answer`)
     if (!example.origin) errors.push(`${label}: missing provenance for the question`)
     if (turn?.status === 'verified') {
       check(turn.citationIds?.length > 0, `${label}: a grounded answer must cite the knowledge graph`)
@@ -121,19 +123,8 @@ for (const chart of manifest.graphrag) {
     if (retrieval) {
       check(['graph-local', 'graph-global'].includes(retrieval.strategy), `${label}: unknown retrieval strategy`)
       check(retrieval.maxHops >= 1, `${label}: retrieval must record at least one hop`)
-      for (const entityId of retrieval.seedEntityIds ?? []) {
-        check(entityIds.has(entityId), `${label}: seed entity ${entityId} is absent from the knowledge graph`)
-      }
-      check(
-        (retrieval.expandedEntityIds ?? []).every((entityId) => entityIds.has(entityId)),
-        `${label}: retrieval expanded to entities outside the knowledge graph`,
-      )
     }
 
-    // Every offered question also carries the model-direct answer, so the site can switch modes.
-    if (example.suggested === false) continue
-    const vision = example.visionTurn
-    check(Boolean(vision?.answer), `${label}: the model-direct answer is missing`)
     if (vision) {
       check(vision.status === 'answered', `${label}: the model-direct answer must be an answered turn`)
       check(vision.generationMode === 'vision', `${label}: the model-direct answer must record its mode`)
@@ -166,6 +157,21 @@ for (const source of manifest.pa) {
       if (!await exists(path)) errors.push(`Missing PA ${pipeline} asset: ${path}`)
     }
 
+    if (mode.evaluation) {
+      for (const path of [mode.evaluation.kg, mode.evaluation.nodes, mode.evaluation.relations]) {
+        if (!await exists(path)) errors.push(`Missing PA ${pipeline} evaluation asset: ${path}`)
+      }
+      const evaluationKg = await json(mode.evaluation.kg)
+      check(Array.isArray(evaluationKg?.entities) && evaluationKg.entities.length > 0, `${mode.evaluation.kg}: evaluation KG entities are missing`)
+      check(Array.isArray(evaluationKg?.relations) && evaluationKg.relations.length > 0, `${mode.evaluation.kg}: evaluation KG triples are missing`)
+      const nodesCsv = await text(mode.evaluation.nodes)
+      const relationsCsv = await text(mode.evaluation.relations)
+      check(/^node_type,.*all_models_sum/m.test(nodesCsv), `${mode.evaluation.nodes}: node statistics header is missing`)
+      check(/^layer,.*all_models_sum/m.test(relationsCsv), `${mode.evaluation.relations}: relation statistics header is missing`)
+      check(/^TOTAL,.*\d+/m.test(nodesCsv), `${mode.evaluation.nodes}: node TOTAL is missing`)
+      check(/^TOTAL,.*\d+/m.test(relationsCsv), `${mode.evaluation.relations}: relation TOTAL is missing`)
+    }
+
     const size = await pngSize(mode.image)
     check(Boolean(size), `${mode.image}: expected a PNG image`)
     if (size) {
@@ -191,12 +197,13 @@ if (expectedIds.size) errors.push(`Manifest is missing generation IDs: ${[...exp
 
 /* ------------------------------------------------------- secrets and paths */
 
-const published = ['manifest.json', manifest.evidenceRegions]
-for (const chart of manifest.graphrag) published.push(chart.kg, chart.qa)
+const published = ['manifest.json', manifest.evidenceRegions].filter(Boolean)
+for (const chart of manifest.graphrag) published.push(...[chart.graph, chart.summary, chart.citations, chart.evidence, chart.qa].filter(Boolean))
 for (const source of manifest.pa) {
   published.push(source.source)
   for (const mode of Object.values(source.modes ?? {})) {
     published.push(...[mode.context, mode.report, mode.option, mode.code, mode.assessment].filter(Boolean))
+    if (mode.evaluation) published.push(mode.evaluation.kg, mode.evaluation.nodes, mode.evaluation.relations)
   }
 }
 

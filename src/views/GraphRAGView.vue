@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { askStoredQuestion, loadStaticAnalysis, matchBundledImage, unsupportedImageMessage } from '../graphRepository'
 import type { QAStreamPhase } from '../graphRepository'
 import type { ConversationTurn, Evidence, GraphData, KGNode, QAMode, QAAnswer, QATurn, RunState, SummaryData } from '../types'
@@ -29,6 +29,7 @@ const focusedTurnId = ref<string | null>(null)
 const questionSuggestions = ref<string[]>([])
 const run = ref<RunState>({ status: 'idle', progress: 0, message: 'Ready' })
 let cases: Record<TestCaseId, GraphRagStaticCase> | null = null
+const sampleList = ref<GraphRagStaticCase[]>([])
 let workspaceEpoch = 0
 let analysisController: AbortController | null = null
 let qaController: AbortController | null = null
@@ -291,8 +292,11 @@ function selectNode(node: KGNode | null) {
 
 async function ensureCases() {
   cases ??= await loadGraphRagCases()
+  sampleList.value = Object.values(cases)
   return cases
 }
+
+onMounted(() => { void ensureCases() })
 
 function chooseFile(file: File) {
   if (!file.type.startsWith('image/')) { run.value = { status: 'failed', progress: 0, message: 'Please select an image' }; return }
@@ -423,6 +427,10 @@ function answerFromVision(result: QATurn): QAAnswer {
   }
 }
 
+function unavailableAnswer(message: string): QAAnswer {
+  return { ...emptyAnswer(), status: 'failed', error: message }
+}
+
 async function submitQuestion(question: string) {
   if (!graph.value || !imageUrl.value) return
   qaController?.abort()
@@ -468,11 +476,17 @@ async function submitQuestion(question: string) {
       ...pending,
       status: 'complete',
       answers: {
-        graphrag: answerFromResult(pair.graphrag, pending.answers.graphrag.process),
+        graphrag: pair.graphrag
+          ? answerFromResult(pair.graphrag, pending.answers.graphrag.process)
+          : unavailableAnswer('No GraphRAG answer is bundled for this question.'),
         vision: pair.vision
           ? answerFromVision(pair.vision)
-          : { ...emptyAnswer(), status: 'failed', error: 'No model-direct answer is bundled for this question.' },
+          : unavailableAnswer('No LLM answer is bundled for this question.'),
       },
+      availableModes: [
+        ...(pair.graphrag ? ['graphrag' as const] : []),
+        ...(pair.vision ? ['vision' as const] : []),
+      ],
     }))
   } catch (error) {
     if (isStale()) return
@@ -492,11 +506,6 @@ async function submitQuestion(question: string) {
   }
 }
 
-async function switchCase(id: TestCaseId) {
-  await loadSample(id)
-  await startAnalysis()
-}
-
 async function resetWorkspace() {
   cancelActiveOperations()
   releasePreviewUrl()
@@ -511,9 +520,9 @@ async function resetWorkspace() {
       :run="run"
       :file-name="fileName"
       :selected-sample-id="selectedSampleId"
+      :samples="sampleList"
       @file="chooseFile"
       @select-sample="loadSample"
-      @sample="switchCase"
       @start="startAnalysis"
       @reset="resetWorkspace"
     />
@@ -537,7 +546,7 @@ async function resetWorkspace() {
       </section>
       <div class="resize-handle resize-handle-horizontal" :class="{ active: splitterActive === 'center-right' }" role="separator" aria-label="Resize graph and question columns" aria-orientation="vertical" tabindex="0" @pointerdown="beginColumnResize('center-right', $event)" @keydown="onSplitterKey('center-right', $event)"><span></span></div>
       <section class="right-column">
-        <QAChat :turns="turns" :loading="qaLoading" :selected-citation-id="selectedCitationId" :graph-ready="run.status === 'ready'" :vision-ready="run.status === 'ready'" :focused-turn-id="focusedTurnId" :suggestions="questionSuggestions" static-demo @ask="submitQuestion" @cite="selectCitation" @answer-mode="selectAnswerMode" />
+        <QAChat :turns="turns" :loading="qaLoading" :selected-citation-id="selectedCitationId" :graph-ready="run.status === 'ready'" :vision-ready="run.status === 'ready' && questionSuggestions.length > 0" :qa-available="questionSuggestions.length > 0" :focused-turn-id="focusedTurnId" :suggestions="questionSuggestions" static-demo @ask="submitQuestion" @cite="selectCitation" @answer-mode="selectAnswerMode" />
       </section>
     </div>
     <div v-if="selectedCitation" class="provenance-toast"><span class="provenance-dot"></span><span><b>{{ selectedCitationId }}</b> selected · {{ selectedCitation.claimIds.length }} KG claims · {{ selectedCitation.evidenceIds.length }} evidence artifacts</span><button @click="selectedCitationId = null; selectedEvidenceId = null">×</button></div>

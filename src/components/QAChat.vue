@@ -12,6 +12,7 @@ const props = defineProps<{
   visionReady: boolean
   focusedTurnId: string | null
   suggestions: string[]
+  qaAvailable: boolean
   staticDemo?: boolean
 }>()
 const emit = defineEmits<{
@@ -24,10 +25,16 @@ const question = ref('')
 const chatScroll = ref<HTMLElement | null>(null)
 const collapsedProcesses = reactive(new Set<string>())
 const selectedModes = reactive<Record<string, QAMode>>({})
-const ready = () => props.graphReady && (props.staticDemo || props.visionReady)
+const ready = () => props.qaAvailable && props.graphReady && (props.staticDemo || props.visionReady)
+
+function modesFor(turn: ConversationTurn): QAMode[] {
+  return turn.availableModes?.length ? turn.availableModes : ['graphrag', 'vision']
+}
 
 function selectedMode(turn: ConversationTurn): QAMode {
-  return selectedModes[turn.id] ?? 'graphrag'
+  const available = modesFor(turn)
+  const selected = selectedModes[turn.id]
+  return selected && available.includes(selected) ? selected : available[0] ?? 'graphrag'
 }
 
 function answerFor(turn: ConversationTurn): QAAnswer {
@@ -124,16 +131,16 @@ watch(() => props.focusedTurnId, (id) => { if (id) scrollToTurn(id) })
 
     <div class="qa-readiness" aria-label="Dual answer readiness">
       <span :class="{ ready: graphReady }"><i></i> GraphRAG {{ graphReady ? 'ready' : 'run analysis' }}</span>
-      <span :class="{ ready: visionReady }"><i></i> Vision {{ visionReady ? 'ready' : 'select image' }}</span>
+      <span :class="{ ready: visionReady }"><i></i> Vision {{ visionReady ? 'ready' : qaAvailable ? 'select image' : 'not bundled' }}</span>
     </div>
 
     <div class="chat-view">
       <div ref="chatScroll" class="chat-scroll" :aria-busy="loading">
-        <div v-if="!props.turns.length" class="chat-empty">
-          <div class="chat-orbit">◎</div>
-          <h3>{{ staticDemo ? 'Explore previous GraphRAG examples' : 'Ask both engines at once' }}</h3>
-          <p>{{ staticDemo ? 'Select a question used by the original ChartKG++GraphRAG project to replay its graph-grounded answer.' : 'Every question is answered by GraphRAG and Vision LLM. GraphRAG is shown first; switch at the bottom of a response to compare.' }}</p>
-          <div v-if="!staticDemo" class="suggestions"><button v-for="item in suggestions" :key="item" :disabled="!ready()" @click="question = item, submit()">{{ item }}</button></div>
+          <div v-if="!props.turns.length" class="chat-empty">
+            <div class="chat-orbit">◎</div>
+            <h3>{{ !qaAvailable ? 'No bundled question-answer data' : staticDemo ? 'Explore previous GraphRAG examples' : 'Ask both engines at once' }}</h3>
+            <p>{{ !qaAvailable ? 'This chart snapshot contains summary data only.' : staticDemo ? 'Select a question used by the original ChartKG++GraphRAG project to replay its graph-grounded answer.' : 'Every question is answered by GraphRAG and Vision LLM. GraphRAG is shown first; switch at the bottom of a response to compare.' }}</p>
+            <div v-if="!staticDemo" class="suggestions"><button v-for="item in suggestions" :key="item" :disabled="!ready()" @click="question = item, submit()">{{ item }}</button></div>
         </div>
         <div v-for="turn in props.turns" :key="turn.id" class="turn" :class="{ focused: turn.id === focusedTurnId }" :data-turn-id="turn.id">
           <div class="question-bubble">{{ turn.question }}</div>
@@ -164,29 +171,29 @@ watch(() => props.focusedTurnId, (id) => { if (id) scrollToTurn(id) })
             <div v-else-if="answerFor(turn).status === 'answered'" class="answer-foot vision-foot"><span>Image-grounded response</span><code>{{ answerFor(turn).model || 'vision model' }}</code><span>No KG citations</span></div>
             <div v-else-if="answerFor(turn).error" class="answer-error">{{ answerFor(turn).error }}</div>
             <div class="answer-switcher" aria-label="Choose answer engine">
-              <button v-for="mode in (['graphrag', 'vision'] as QAMode[])" :key="mode" :class="{ active: selectedMode(turn) === mode, failed: turn.answers[mode].status === 'failed' }" @click="selectAnswer(turn, mode)">
+              <button v-for="mode in modesFor(turn)" :key="mode" :class="{ active: selectedMode(turn) === mode, failed: turn.answers[mode].status === 'failed' }" @click="selectAnswer(turn, mode)">
                 <i :class="mode"></i><span>{{ mode === 'graphrag' ? 'GraphRAG' : 'Vision LLM' }}</span><small>{{ statusLabel(turn.answers[mode], mode) }}</small>
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div v-if="staticDemo" class="static-question-picker">
+      <div v-if="staticDemo && qaAvailable" class="static-question-picker">
         <span class="picker-label">Example questions from the original project</span>
         <div class="suggestions">
           <button v-for="item in suggestions" :key="item" :disabled="!ready() || loading" @click="askExample(item)">{{ item }}</button>
         </div>
       </div>
-      <form class="question-form" @submit.prevent="submit">
+      <form v-if="!staticDemo || qaAvailable" class="question-form" @submit.prevent="submit">
         <input v-model="question" :disabled="staticDemo || !ready() || loading" :placeholder="staticDemo ? 'Live question input is unavailable in this static demo.' : 'Ask one question to both engines…'" aria-label="Ask a question about the chart" />
         <button class="send-button" type="submit" :disabled="staticDemo || !ready() || loading || !question.trim()">↑</button>
       </form>
-      <div v-if="staticDemo" class="qa-note static-backend-note">
+      <div v-if="staticDemo && qaAvailable" class="qa-note static-backend-note">
         <strong>Cloud backend status</strong>
         <span>The cloud backend is currently being provisioned. This static site provides previously generated GraphRAG question-answer examples from the original ChartKG++GraphRAG project.</span>
         <span>Select an example question above to inspect its grounded answer, knowledge-graph citations, retrieval paths, and visual evidence.</span>
       </div>
-      <div v-else class="qa-note">Each question runs GraphRAG retrieval and direct visual understanding in parallel.</div>
+      <div v-else-if="!staticDemo" class="qa-note">Each question runs GraphRAG retrieval and direct visual understanding in parallel.</div>
     </div>
   </section>
 </template>

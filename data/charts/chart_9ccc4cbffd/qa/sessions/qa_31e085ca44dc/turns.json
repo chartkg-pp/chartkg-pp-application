@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "sessionId": "qa_31e085ca44dc",
+  "turns": [
+    {
+      "id": "turn_pending_1790006847022",
+      "question": "What data variables are encoded in this chart?",
+      "status": "complete",
+      "createdAt": "2026-09-21T16:07:38.154785Z",
+      "preview": "The chart encodes five distinct data variables: gender, number of customers, Negative, Positive, and Uncertainty. [G52] [G53] [G54] [G49] [G50] [G51] gender is a categorical variable. [G52] [G53] number of customers is a quantitative variab",
+      "citationCount": 7,
+      "detailPath": "turns/turn_pending_1790006847022.json"
+    },
+    {
+      "id": "turn_pending_1790006883953",
+      "question": "What are the distribution characteristics ofmale and female customers?",
+      "status": "complete",
+      "createdAt": "2026-09-21T16:08:34.264454Z",
+      "preview": "Female customer opinion points form an elongated continuous curved band across the ternary domain, extending from higher Negative values through moderate Uncertainty toward Positive values. [G6] [G35] Male customer opinion points form an el",
+      "citationCount": 8,
+      "detailPath": "turns/turn_pending_1790006883953.json"
+    }
+  ]
+}

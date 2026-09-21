@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "chartId": "chart_afcfce8d7b",
+  "revisionId": "construction-kg-revision:group4037-year-insight-curation-v1",
+  "createdAt": "2026-09-21T17:20:03.305515Z",
+  "generation": {
+    "mode": "extractive",
+    "provider": null,
+    "model": null,
+    "prompt": {
+      "name": "graphrag-summary",
+      "version": "2.4",
+      "sha256": "6958e17cb27d64faf3920958a76ea387426eec35d32b9f800b1f5f68a4340c7d"
+    },
+    "retrieval": {
+      "strategy": "graph-global",
+      "communityCount": 6,
+      "subgraphNodeCount": 73,
+      "subgraphEdgeCount": 67
+    },
+    "layerRetrieval": [
+      {
+        "layer": "S1",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Journal_Articles_A-rated_reference_view",
+          "Journal_Articles_not_A-rated_reference_view",
+          "Total_reference_view"
+        ],
+        "subgraphNodeCount": 74,
+        "subgraphEdgeCount": 71,
+        "pathCount": 22,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S2",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Article_category",
+          "#Articles",
+          "Year"
+        ],
+        "subgraphNodeCount": 52,
+        "subgraphEdgeCount": 52,
+        "pathCount": 21,
+        "supportLayers": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S3",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "Similarity_3",
+          "Comparison_2",
+          "Similarity"
+        ],
+        "subgraphNodeCount": 50,
+        "subgraphEdgeCount": 47,
+        "pathCount": 23,
+        "supportLayers": [
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "layer": "S4",
+        "strategy": "graph-local",
+        "seedEntityIds": [
+          "insight_Similarity_3",
+          "insight_Composition_11",
+          "insight_Composition_12"
+        ],
+        "subgraphNodeCount": 42,
+        "subgraphEdgeCount": 41,
+        "pathCount": 19,
+        "supportLayers": [
+          "S1",
+          "S3",
+          "S4"
+        ]
+      }
+    ]
+  }
+}

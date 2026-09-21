@@ -1,0 +1,2836 @@
+[
+  {
+    "id": "ev_g1_1",
+    "label": "Comparison 2 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Among the compared buildings, *Burj Khalifa* attains the highest maximum Height at 828.0 m, exceeding the peak heights observed for Abraj Al-Bait Clock Tower (601.0 m), Ping An Finance Center (599.0 m), Lotte World Tower (555.0 m), One World Trade Center (541.0 m), Guangzhou CTF Finance Center Finance Center (530.0 m), Tianjin CTF (530.0 m), China Zun (528.0 m), *Taipei 101* (508.0 m), Shanghai World Financial Center (492.0 m), International Commerce Centre (484.0 m), Central Park Tower (472.0 m), Lakhta Center (462.0 m), and Landmark 81 (461.0 m). Visual support covers 14 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g2_1",
+    "label": "Comparison 3 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the compared regions, Asia has the lowest minimum Height with Landmark 81 at 461.0 m, compared to Europe's minimum of 462.0 m for Lakhta Center and North America's minimum of 472.0 m for Central Park Tower. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g2_2",
+    "label": "Comparison 3 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the compared regions, Asia has the lowest minimum Height with Landmark 81 at 461.0 m, compared to Europe's minimum of 462.0 m for Lakhta Center and North America's minimum of 472.0 m for Central Park Tower. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g2_3",
+    "label": "Comparison 3 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the compared regions, Asia has the lowest minimum Height with Landmark 81 at 461.0 m, compared to Europe's minimum of 462.0 m for Lakhta Center and North America's minimum of 472.0 m for Central Park Tower. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g3_1",
+    "label": "Comparison 4 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Among the compared building scopes, Landmark 81 has the lowest minimum Height at 461.0 m, below Lakhta Center (462.0 m), Central Park Tower (472.0 m), International Commerce Centre (484.0 m), Shanghai World Financial Center (492.0 m), *Taipei 101* (508.0 m), China Zun (528.0 m), Guangzhou CTF Finance Center Finance Center (530.0 m), Tianjin CTF (530.0 m), One World Trade Center (541.0 m), Lotte World Tower (555.0 m), Ping An Finance Center (599.0 m), Abraj Al-Bait Clock Tower (601.0 m), and *Burj Khalifa* (828.0 m). Visual support covers 14 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g4_1",
+    "label": "Composition 1 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Central Park Tower in the North America region, the composition consists of a single bar representing a Height of 472.0 m. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g5_1",
+    "label": "Composition 10 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The observed range consists of fifteen buildings: *Burj Khalifa*, Shanghai Tower, Abraj Al-Bait Clock Tower, Ping An Finance Center, Lotte World Tower, One World Trade Center, Guangzhou CTF Finance Center Finance Center, Tianjin CTF, China Zun, *Taipei 101*, Shanghai World Financial Center, International Commerce Centre, Central Park Tower, Lakhta Center, and Landmark 81. Visual support covers 15 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g6_1",
+    "label": "Composition 11 · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Shanghai World Financial Center in the Asia region, the observed entry consists of a single mark with a Height of 492.0 m. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g7_1",
+    "label": "Composition 12 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Within the Asia region, the observed selection is composed of twelve buildings: *Burj Khalifa*, Shanghai Tower, Abraj Al-Bait Clock Tower, Ping An Finance Center, Lotte World Tower, Guangzhou CTF Finance Center Finance Center, Tianjin CTF, China Zun, *Taipei 101*, Shanghai World Financial Center, International Commerce Centre, and Landmark 81, each constituting a part of the whole observed group. Visual support covers 12 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g8_1",
+    "label": "Composition 13 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Guangzhou CTF Finance Center Finance Center in Asia, the observed composition is constituted by a single bar mark with a Height of 530.0 m. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g9_1",
+    "label": "Composition 14 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Building Lakhta Center in the Europe region, the group is composed of a single element with a Height of 462.0 m. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g10_1",
+    "label": "Composition 15 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Tianjin CTF breakdown, the composition consists of a single bar mark representing the building in Asia with a Height of 530.0 m. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g11_1",
+    "label": "Composition 16 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For One World Trade Center in the North America region, the composition consists of a single bar mark with a Height of 541.0 m. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g12_1",
+    "label": "Composition 17 · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the International Commerce Centre in the Asia region, the selection is composed of a single bar mark with a Height of 484.0 m. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g13_1",
+    "label": "Composition 18 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Building Ping An Finance Center in the Asia Region, the scope is composed of a single bar mark with a Height of 599.0 m. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g14_1",
+    "label": "Composition 2 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the Europe Region, the observed group consists of Lakhta Center, which has a Height of 462.0 m. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g15_1",
+    "label": "Composition 3 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Building *Taipei 101*, the composition consists of a single bar mark representing *Taipei 101* in the Asia region, with a Height of 508.0 m. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g16_1",
+    "label": "Composition 4 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Building Abraj Al-Bait Clock Tower in Region Asia, the group is composed of a single bar mark with a Height of 601.0 m. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g17_1",
+    "label": "Composition 5 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the North America region, the observed composition consists of two buildings: Central Park Tower, with a Height of 472.0 m, and One World Trade Center, with a Height of 541.0 m. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g17_2",
+    "label": "Composition 5 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the North America region, the observed composition consists of two buildings: Central Park Tower, with a Height of 472.0 m, and One World Trade Center, with a Height of 541.0 m. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g18_1",
+    "label": "Composition 6 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Landmark 81 in Asia, the group composition is formed by a single bar mark corresponding to a Height of 461.0 m. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g19_1",
+    "label": "Composition 7 · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Lotte World Tower in Asia, the composition consists of a single mark representing a Height of 555.0 m. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g20_1",
+    "label": "Composition 8 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the China Zun entry in Asia, the group consists of a single mark with a Height of 528.0 m. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g21_1",
+    "label": "Composition 9 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Building *Burj Khalifa*, the observed composition consists of a single bar representing the building in the Asia region, with a recorded Height of 828.0 m. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g22_1",
+    "label": "Distribution 1 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "*Burj Khalifa* stands out as an outlier in the Height distribution at 828.0 m, separated by a substantial gap above the other observed buildings. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g23_1",
+    "label": "Distribution 2 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Asia, *Burj Khalifa* stands out as an outlier with a Height of 828.0 m, departing from the remaining observed Asian buildings population with a substantial vertical gap. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g24_1",
+    "label": "Distribution 3 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed buildings in Asia, *Burj Khalifa* holds a dominant magnitude advantage in Height at 828.0 m over the rest of the group. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g25_1",
+    "label": "Extreme 1 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Landmark 81 in Asia, the bar reaches the maximum Height of 461.0 m. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g26_1",
+    "label": "Extreme 10 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Region Asia, *Burj Khalifa* has the maximum Height among the observed members at 828.0 m. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g27_1",
+    "label": "Extreme 11 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For the Building China Zun in Region Asia, China Zun reaches the maximum Height of 528.0 m among the observed members. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g28_1",
+    "label": "Extreme 12 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Tianjin CTF has the minimum Height among the observed members, with a value of 530.0 m. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g29_1",
+    "label": "Extreme 13 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed selection for Building *Burj Khalifa*, *Burj Khalifa* has a Height of 828 m, representing the minimum Height. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g30_1",
+    "label": "Extreme 14 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within North America, One World Trade Center has the maximum Height at 541.0 m among the observed members. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g31_1",
+    "label": "Extreme 15 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for Ping An Finance Center, Ping An Finance Center reaches the maximum Height of 599.0 m. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g32_1",
+    "label": "Extreme 16 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for *Taipei 101*, *Taipei 101* has a minimum Height of 508.0 m. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g33_1",
+    "label": "Extreme 17 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Landmark 81, the bar reaches the minimum Height of 461.0 m within the observed scope. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g34_1",
+    "label": "Extreme 18 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed buildings, Landmark 81 in Asia has the minimum Height at 461.0 m. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g35_1",
+    "label": "Extreme 19 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for Guangzhou CTF Finance Center Finance Center, the bar reaches the minimum Height of 530.0 m. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g36_1",
+    "label": "Extreme 2 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Guangzhou CTF Finance Center Finance Center, the bar reaches the maximum Height of 530 m among the observed members. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g37_1",
+    "label": "Extreme 20 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "*Burj Khalifa* has the maximum Height among the observed buildings, with a value of 828.0 m. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g37_2",
+    "label": "Extreme 20 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "*Burj Khalifa* has the maximum Height among the observed buildings, with a value of 828.0 m. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g37_3",
+    "label": "Extreme 20 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "*Burj Khalifa* has the maximum Height among the observed buildings, with a value of 828.0 m. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g38_1",
+    "label": "Extreme 21 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Tianjin CTF has the maximum Height among the observed members, reaching 530.0 m. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g39_1",
+    "label": "Extreme 22 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Europe, Lakhta Center exhibits the minimum Height among the observed members at 462.0 m. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g40_1",
+    "label": "Extreme 23 · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for Lotte World Tower, Lotte World Tower reaches the maximum Height of 555.0 m. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g41_1",
+    "label": "Extreme 24 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within Europe, Lakhta Center has the maximum Height among the observed members at 462.0 m. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g42_1",
+    "label": "Extreme 25 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Lakhta Center in the Europe region, the bar mark records a minimum Height of 462.0 m. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g43_1",
+    "label": "Extreme 26 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Abraj Al-Bait Clock Tower, Height reaches a maximum of 601 m. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g44_1",
+    "label": "Extreme 27 · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for Lotte World Tower, the minimum Height is 555.0 m. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g45_1",
+    "label": "Extreme 28 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "One World Trade Center has an observed Height of 541 m, representing the minimum value within the observed scope. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g46_1",
+    "label": "Extreme 29 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For China Zun, the minimum Height is 528.0 m. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g47_1",
+    "label": "Extreme 3 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Among the observed buildings in Asia, Landmark 81 has the minimum Height at 461.0 m. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g48_1",
+    "label": "Extreme 30 · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Shanghai World Financial Center in the Asia region, the minimum Height is 492.0 m. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g49_1",
+    "label": "Extreme 31 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for Building = Abraj Al-Bait Clock Tower, Abraj Al-Bait Clock Tower records the minimum Height of 601.0 m. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g50_1",
+    "label": "Extreme 32 · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for International Commerce Centre, Height reaches a maximum value of 484.0 m. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g51_1",
+    "label": "Extreme 33 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For One World Trade Center in North America, the recorded Height reaches a maximum of 541.0 m. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g52_1",
+    "label": "Extreme 34 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Ping An Finance Center records the minimum Height of 599.0 m among the observed members for Building = Ping An Finance Center. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g53_1",
+    "label": "Extreme 35 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within North America, Central Park Tower has the minimum Height at 472.0 m among the observed members. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g54_1",
+    "label": "Extreme 36 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for Building = Central Park Tower, Central Park Tower has the maximum Height of 472.0 m. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g55_1",
+    "label": "Extreme 4 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Building Lakhta Center, the observed bar reaches the maximum Height of 462.0 m. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g56_1",
+    "label": "Extreme 5 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the observed scope for *Taipei 101*, *Taipei 101* reaches the maximum Height of 508 m. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g57_1",
+    "label": "Extreme 6 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For *Burj Khalifa* in Asia, the bar reaches the maximum Height of 828.0 m. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g58_1",
+    "label": "Extreme 7 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "For Central Park Tower in North America, the bar mark represents a minimum Height of 472.0 m within the observed breakdown. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g59_1",
+    "label": "Extreme 8 · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Shanghai World Financial Center has a maximum Height of 492.0 m among its observed members. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g60_1",
+    "label": "Extreme 9 · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "International Commerce Centre has a minimum Height of 484.0 m within its observed analytical scope. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g61_1",
+    "label": "Similarity 1 · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across all fourteen observed Building scopes—*Burj Khalifa*, *Taipei 101*, Abraj Al-Bait Clock Tower, Central Park Tower, China Zun, Guangzhou CTF Finance Center Finance Center, International Commerce Centre, Lakhta Center, Landmark 81, Lotte World Tower, One World Trade Center, Ping An Finance Center, Shanghai World Financial Center, and Tianjin CTF—each category shares an identical component structure consisting of a single bar mark encoding Height. Visual support covers 14 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g62_1",
+    "label": "Comparison: MaximumComparison · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the regional scopes of Asia, North America, and Europe, Asia exhibits the greatest maximum bar height. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g62_2",
+    "label": "Comparison: MaximumComparison · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the regional scopes of Asia, North America, and Europe, Asia exhibits the greatest maximum bar height. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g62_3",
+    "label": "Comparison: MaximumComparison · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Across the regional scopes of Asia, North America, and Europe, Asia exhibits the greatest maximum bar height. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g63_1",
+    "label": "Comparison: MaximumComparison · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Comparing the maximum height patterns across the building scopes, Burj Khalifa displays the greatest visible bar height. Visual support covers 14 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g64_1",
+    "label": "Comparison: MinimumComparison · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparing the regional minimum heights, Asia's minimum building (Landmark 81) is lower than the minimum buildings of Europe (Lakhta Center) and North America (Central Park Tower). Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g64_2",
+    "label": "Comparison: MinimumComparison · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparing the regional minimum heights, Asia's minimum building (Landmark 81) is lower than the minimum buildings of Europe (Lakhta Center) and North America (Central Park Tower). Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g64_3",
+    "label": "Comparison: MinimumComparison · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Comparing the regional minimum heights, Asia's minimum building (Landmark 81) is lower than the minimum buildings of Europe (Lakhta Center) and North America (Central Park Tower). Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g65_1",
+    "label": "Comparison: MinimumComparison · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Comparing the minimum height patterns across the building scopes, Landmark 81 displays the lowest visible bar height. Visual support covers 14 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g66_1",
+    "label": "Similarity: SimilarComposition · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Across all fourteen available building scopes, each analytical scope consists of a single bar mark representing the building's height. Visual support covers 14 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g67_1",
+    "label": "Composition: Composition · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_12. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g68_1",
+    "label": "Composition: Composition · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_1. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g69_1",
+    "label": "Composition: Composition · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_7. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g70_1",
+    "label": "Composition: Composition · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_9. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g71_1",
+    "label": "Composition: Composition · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 12 marks: bar_1, bar_10, bar_11, bar_12, bar_15, bar_2, bar_3, bar_4, bar_5, bar_7, bar_8, bar_9. Visual support covers 12 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g72_1",
+    "label": "Composition: Composition · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "The range consists of 15 marks: bar_1, bar_10, bar_11, bar_12, bar_13, bar_14, bar_15, bar_2, bar_3, bar_4, bar_5, bar_6, bar_7, bar_8, bar_9. Visual support covers 15 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g73_1",
+    "label": "Composition: Composition · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_5. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g74_1",
+    "label": "Composition: Composition · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_10. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g75_1",
+    "label": "Composition: Composition · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_13. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g76_1",
+    "label": "Composition: Composition · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_15. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g77_1",
+    "label": "Composition: Composition · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_4. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g78_1",
+    "label": "Composition: Composition · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_14. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g79_1",
+    "label": "Composition: Composition · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_3. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g80_1",
+    "label": "Composition: Composition · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_6. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g81_1",
+    "label": "Composition: Composition · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_8. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g82_1",
+    "label": "Composition: Composition · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_14. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g83_1",
+    "label": "Composition: Composition · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_11. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g84_1",
+    "label": "Composition: Composition · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 1 marks: bar_2. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 11.09649,
+      "y": 41.05839,
+      "width": 2.45614,
+      "height": 42.88321
+    }
+  },
+  {
+    "id": "ev_g85_1",
+    "label": "Composition: Composition · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_13, bar_6. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g85_2",
+    "label": "Composition: Composition · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The range consists of 2 marks: bar_13, bar_6. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g86_1",
+    "label": "Distribution: Outlier · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Burj Khalifa (bar_1) stands out as an outlier with a substantial gap above the rest of the buildings. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g87_1",
+    "label": "Distribution: Outlier · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_1 (*Burj Khalifa*) departs from the remaining Asian buildings population with a substantial vertical gap. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g88_1",
+    "label": "Distribution: Dominance · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_1 (*Burj Khalifa*) holds a clear magnitude advantage in Height over the comparison population of Asian buildings. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g89_1",
+    "label": "Extreme: Maximum · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_12 exhibits the maximum visible bar height for Height within the single-member analytical scope. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g90_1",
+    "label": "Extreme: Minimum · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar mark bar_8 exhibits the minimum height among the members of this BAS. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g91_1",
+    "label": "Extreme: Maximum · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In the single-member scope for Lakhta Center, bar mark bar_14 displays the maximum visible Height encoding with no other member exceeding it. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g92_1",
+    "label": "Extreme: Minimum · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "In the single-member scope for Lakhta Center, bar mark bar_14 displays the minimum visible Height encoding with no other member below it. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g93_1",
+    "label": "Extreme: Maximum · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Shanghai World Financial Center (bar_11) has the greatest visible height in the single-member scope. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g94_1",
+    "label": "Extreme: Minimum · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Shanghai World Financial Center (bar_11) has the least visible height in the single-member scope. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g95_1",
+    "label": "Extreme: Minimum · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Central Park Tower (bar_13) has the minimum Height in this BAS. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g96_1",
+    "label": "Extreme: Maximum · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "One World Trade Center (bar_6) has the maximum Height in this BAS. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g97_1",
+    "label": "Extreme: Maximum · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the single-member BAS for *Burj Khalifa*, bar bar_1 exhibits the maximum height encoding for Height. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g98_1",
+    "label": "Extreme: Minimum · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the single-member BAS for *Burj Khalifa*, bar bar_1 exhibits the minimum height encoding for Height. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g99_1",
+    "label": "Extreme: Maximum · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the single-member analytical scope for Guangzhou CTF Finance Center, bar bar_7 represents the greatest visible height encoding. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g100_1",
+    "label": "Extreme: Minimum · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_12 exhibits the minimum visible bar height for Height within the single-member analytical scope. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g101_1",
+    "label": "Extreme: Minimum · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Within the single-member analytical scope for Guangzhou CTF Finance Center, bar bar_7 represents the least visible height encoding. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g102_1",
+    "label": "Extreme: Maximum · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Bar bar_9 has the greatest visible height in the single-member BAS. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g103_1",
+    "label": "Extreme: Minimum · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Bar bar_9 has the least visible height in the single-member BAS. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g104_1",
+    "label": "Extreme: Maximum · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Burj Khalifa (bar_1) has the greatest visible height among all buildings in the chart. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g104_2",
+    "label": "Extreme: Maximum · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Burj Khalifa (bar_1) has the greatest visible height among all buildings in the chart. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g104_3",
+    "label": "Extreme: Maximum · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Burj Khalifa (bar_1) has the greatest visible height among all buildings in the chart. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g105_1",
+    "label": "Extreme: Maximum · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Bar bar_5 represents the maximum Height within the single-member Lotte World Tower scope. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g106_1",
+    "label": "Extreme: Minimum · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Landmark 81 (bar_15) has the least visible height among all buildings in the chart. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g107_1",
+    "label": "Extreme: Minimum · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Bar bar_5 represents the minimum Height within the single-member Lotte World Tower scope. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g108_1",
+    "label": "Extreme: Maximum · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_1 (*Burj Khalifa*) represents the maximum height among all Asian buildings in this scope. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g109_1",
+    "label": "Extreme: Minimum · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_15 (Landmark 81) represents the minimum height among all Asian buildings in this scope. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g110_1",
+    "label": "Extreme: Maximum · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The single bar mark representing Central Park Tower exhibits the maximum visible height within this single-member BAS. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g111_1",
+    "label": "Extreme: Maximum · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Mark bar_3 represents Abraj Al-Bait Clock Tower with the greatest visible bar height encoding Height within this single-member scope. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g112_1",
+    "label": "Extreme: Minimum · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The single bar mark representing Central Park Tower exhibits the minimum visible height within this single-member BAS. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g113_1",
+    "label": "Extreme: Maximum · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar bar_10 represents the maximum encoded Height within the single-member analytical scope for Taipei 101. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g114_1",
+    "label": "Extreme: Minimum · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar bar_10 represents the minimum encoded Height within the single-member analytical scope for Taipei 101. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g115_1",
+    "label": "Extreme: Maximum · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The single bar bar_15 shows the greatest visible height encoding within the fixed single-building analytical scope. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g116_1",
+    "label": "Extreme: Minimum · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The single bar bar_15 shows the least visible height encoding within the fixed single-building analytical scope. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g117_1",
+    "label": "Extreme: Maximum · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar bar_4 (Ping An Finance Center) holds the greatest visible height in the single-member BAS under the Height measure. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g118_1",
+    "label": "Extreme: Minimum · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar bar_4 (Ping An Finance Center) holds the least visible height in the single-member BAS under the Height measure. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g119_1",
+    "label": "Extreme: Minimum · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Mark bar_3 represents Abraj Al-Bait Clock Tower with the least visible bar height encoding Height within this single-member scope. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g120_1",
+    "label": "Extreme: Maximum · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_14 (Lakhta Center) exhibits the maximum bar height within the Europe category analytical scope. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g121_1",
+    "label": "Extreme: Minimum · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar_14 (Lakhta Center) exhibits the minimum bar height within the Europe category analytical scope. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g122_1",
+    "label": "Extreme: Maximum · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "One World Trade Center (bar_6) represents the maximum visible height in this single-member scope. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g123_1",
+    "label": "Extreme: Minimum · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "One World Trade Center (bar_6) represents the minimum visible height in this single-member scope. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g124_1",
+    "label": "Extreme: Maximum · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "The bar mark bar_8 exhibits the maximum height among the members of this BAS. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g125_1",
+    "label": "Building · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Building (Data Variable): name: Building; variableType: Categorical. Visual support covers 15 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g126_1",
+    "label": "Height · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Height (Data Variable): name: Height; unit: m; variableType: Quantitative. Visual support covers 15 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g127_1",
+    "label": "Region · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Region (Data Variable): name: Region; variableType: Categorical. Visual support covers 15 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g128_1",
+    "label": "*Burj Khalifa* · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "*Burj Khalifa* (Variable Value): value: *Burj Khalifa*. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g129_1",
+    "label": "*Taipei 101* · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "*Taipei 101* (Variable Value): value: *Taipei 101*. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g130_1",
+    "label": "Abraj Al-Bait Clock Tower · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Abraj Al-Bait Clock Tower (Variable Value): value: Abraj Al-Bait Clock Tower. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g131_1",
+    "label": "Asia · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "Asia (Variable Value): value: Asia. Visual support covers 12 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g132_1",
+    "label": "Central Park Tower · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Central Park Tower (Variable Value): value: Central Park Tower. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g133_1",
+    "label": "China Zun · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "China Zun (Variable Value): value: China Zun. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g134_1",
+    "label": "Europe · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Europe (Variable Value): value: Europe. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g135_1",
+    "label": "Guangzhou CTF Finance Center Finance Center · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Guangzhou CTF Finance Center Finance Center (Variable Value): value: Guangzhou CTF Finance Center Finance Center. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g136_1",
+    "label": "International Commerce Centre · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "International Commerce Centre (Variable Value): value: International Commerce Centre. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g137_1",
+    "label": "Lakhta Center · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Lakhta Center (Variable Value): value: Lakhta Center. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g138_1",
+    "label": "Landmark 81 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Landmark 81 (Variable Value): value: Landmark 81. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g139_1",
+    "label": "Lotte World Tower · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Lotte World Tower (Variable Value): value: Lotte World Tower. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g140_1",
+    "label": "North America · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "North America (Variable Value): value: North America. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g140_2",
+    "label": "North America · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "North America (Variable Value): value: North America. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g141_1",
+    "label": "One World Trade Center · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "One World Trade Center (Variable Value): value: One World Trade Center. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g142_1",
+    "label": "Ping An Finance Center · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Ping An Finance Center (Variable Value): value: Ping An Finance Center. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g143_1",
+    "label": "Shanghai Tower · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Shanghai Tower (Variable Value): value: Shanghai Tower. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 11.09649,
+      "y": 41.05839,
+      "width": 2.45614,
+      "height": 42.88321
+    }
+  },
+  {
+    "id": "ev_g144_1",
+    "label": "Shanghai World Financial Center · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Shanghai World Financial Center (Variable Value): value: Shanghai World Financial Center. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g145_1",
+    "label": "Tianjin CTF · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "Tianjin CTF (Variable Value): value: Tianjin CTF. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g146_1",
+    "label": "cartesian bar · view",
+    "kind": "image-region",
+    "confidence": 0.78,
+    "detail": "cartesian bar (View): chartType: cartesian_bar. Visual provenance resolves to the complete cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g147_1",
+    "label": "bas *Burj Khalifa* cartesian bar bar group · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas *Burj Khalifa* cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"*Burj_Khalifa*\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g148_1",
+    "label": "bas *Taipei 101* cartesian bar bar group · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas *Taipei 101* cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"*Taipei_101*\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g149_1",
+    "label": "bas Abraj Al-Bait Clock Tower cartesian bar bar group · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Abraj Al-Bait Clock Tower cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Abraj_Al-Bait_Clock_Tower\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g150_1",
+    "label": "bas Asia cartesian bar bar group · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas Asia cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Asia\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support covers 12 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g151_1",
+    "label": "bas Central Park Tower cartesian bar bar group · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Central Park Tower cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Central_Park_Tower\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g152_1",
+    "label": "bas China Zun cartesian bar bar group · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas China Zun cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"China_Zun\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  },
+  {
+    "id": "ev_g153_1",
+    "label": "bas Europe cartesian bar bar group · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Europe cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Europe\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g154_1",
+    "label": "bas Guangzhou CTF Finance Center Finance Center cartesian bar bar group · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Guangzhou CTF Finance Center Finance Center cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Guangzhou_CTF_Finance_Center_Finance_Center\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g155_1",
+    "label": "bas International Commerce Centre cartesian bar bar group · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas International Commerce Centre cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"International_Commerce_Centre\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g156_1",
+    "label": "bas Lakhta Center cartesian bar bar group · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Lakhta Center cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Lakhta_Center\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g157_1",
+    "label": "bas Landmark 81 cartesian bar bar group · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Landmark 81 cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Landmark_81\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g158_1",
+    "label": "bas Lotte World Tower cartesian bar bar group · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Lotte World Tower cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Lotte_World_Tower\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g159_1",
+    "label": "bas North America cartesian bar bar group · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas North America cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g159_2",
+    "label": "bas North America cartesian bar bar group · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas North America cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"North_America\",\"variableRef\":\"Region\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g160_1",
+    "label": "bas One World Trade Center cartesian bar bar group · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas One World Trade Center cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"One_World_Trade_Center\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g161_1",
+    "label": "bas Ping An Finance Center cartesian bar bar group · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Ping An Finance Center cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Ping_An_Finance_Center\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g162_1",
+    "label": "bas Shanghai Tower cartesian bar bar group · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Shanghai Tower cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Shanghai_Tower\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 11.09649,
+      "y": 41.05839,
+      "width": 2.45614,
+      "height": 42.88321
+    }
+  },
+  {
+    "id": "ev_g163_1",
+    "label": "bas Shanghai World Financial Center cartesian bar bar group · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Shanghai World Financial Center cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Shanghai_World_Financial_Center\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g164_1",
+    "label": "bas Tianjin CTF cartesian bar bar group · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bas Tianjin CTF cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selection\":{\"valueRef\":\"Tianjin_CTF\",\"variableRef\":\"Building\"},\"selectionMode\":\"single_category_breakdown\",\"viewRef\":\"cartesian_bar\"}]. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g165_1",
+    "label": "bas all cartesian bar bar group · bar scope",
+    "kind": "image-region",
+    "confidence": 0.84,
+    "detail": "bas all cartesian bar bar group (Basic Analytical Scope): sources: [{\"groupRef\":\"bar_group\",\"selectionMode\":\"global\",\"viewRef\":\"cartesian_bar\"}]. Visual support covers 15 bar marks reached through the KG scope.",
+    "region": {
+      "x": 4.28684,
+      "y": 26.99599,
+      "width": 92.43509,
+      "height": 57.59562
+    }
+  },
+  {
+    "id": "ev_g166_1",
+    "label": "bar group · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "bar group (Graphical Mark Group): markType: Bar. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g167_1",
+    "label": "color · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "color (Visual Attribute): attributeType: color. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g168_1",
+    "label": "height · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "height (Visual Attribute): attributeType: height. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g169_1",
+    "label": "text label · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "text label (Visual Attribute): attributeType: textLabel. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g170_1",
+    "label": "x position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "x position (Visual Attribute): attributeType: xPosition. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g171_1",
+    "label": "*Burj Khalifa* position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "*Burj Khalifa* position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[136.0,918.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g172_1",
+    "label": "*Taipei 101* position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "*Taipei 101* position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[1441.5,918.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g173_1",
+    "label": "Abraj Al-Bait Clock Tower position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Abraj Al-Bait Clock Tower position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[425.5,944.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g174_1",
+    "label": "Central Park Tower position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Central Park Tower position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[1878.0,944.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g175_1",
+    "label": "China Zun position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "China Zun position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[1296.0,918.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g176_1",
+    "label": "Guangzhou CTF Finance Center Finance Center position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Guangzhou CTF Finance Center Finance Center position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[1077.0,943.5]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g177_1",
+    "label": "International Commerce Centre position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "International Commerce Centre position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[1732.0,955.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g178_1",
+    "label": "Lakhta Center position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Lakhta Center position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[2023.0,918.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g179_1",
+    "label": "Landmark 81 position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Landmark 81 position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[2162.0,918.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g180_1",
+    "label": "Lotte World Tower position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Lotte World Tower position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[715.0,943.5]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g181_1",
+    "label": "One World Trade Center position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "One World Trade Center position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[862.0,944.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g182_1",
+    "label": "Ping An Finance Center position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Ping An Finance Center position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[570.5,943.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g183_1",
+    "label": "Shanghai Tower position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Shanghai Tower position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[280.5,943.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g184_1",
+    "label": "Shanghai World Financial Center position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Shanghai World Financial Center position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[1587.5,954.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g185_1",
+    "label": "Tianjin CTF position · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "Tianjin CTF position (Visual Attribute Value): value: {\"kind\":\"position\",\"position\":[1134.0,918.0]}. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g186_1",
+    "label": "rgb 136 207 227 · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 136 207 227 (Visual Attribute Value): value: {\"fill_rgb\":[136,207,227],\"kind\":\"color\"}; colorName: light blue. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g187_1",
+    "label": "rgb 231 86 34 · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 231 86 34 (Visual Attribute Value): value: {\"fill_rgb\":[231,86,34],\"kind\":\"color\"}; colorName: orange. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g188_1",
+    "label": "rgb 248 173 0 · cartesian_bar",
+    "kind": "image-region",
+    "confidence": 0.72,
+    "detail": "rgb 248 173 0 (Visual Attribute Value): value: {\"fill_rgb\":[248,173,0],\"kind\":\"color\"}; colorName: golden yellow. No mark-level geometry was available; provenance falls back to the containing cartesian_bar view.",
+    "region": {
+      "x": 3.42105,
+      "y": 3.64964,
+      "width": 94.03509,
+      "height": 93.33942
+    }
+  },
+  {
+    "id": "ev_g189_1",
+    "label": "chart · chart view",
+    "kind": "image-region",
+    "confidence": 0.62,
+    "detail": "chart (Complex Chart) is connected by HAS_VIEW to cartesian bar. The individual mark mask is unavailable; provenance falls back to the union of the chart's data views.",
+    "region": {
+      "x": 2.97105,
+      "y": 2.99964,
+      "width": 94.93509,
+      "height": 94.63942
+    }
+  },
+  {
+    "id": "ev_g190_1",
+    "label": "bar 1 · bar_1",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 1 (Graphical Mark): markType: Bar; data values: Height = 828.0. Visual support resolved through KG provenance to bar_1 (mask_bbox).",
+    "region": {
+      "x": 4.73684,
+      "y": 27.64599,
+      "width": 2.45614,
+      "height": 56.29562
+    }
+  },
+  {
+    "id": "ev_g191_1",
+    "label": "bar 10 · bar_10",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 10 (Graphical Mark): markType: Bar; data values: Height = 508.0. Visual support resolved through KG provenance to bar_10 (mask_bbox).",
+    "region": {
+      "x": 61.97368,
+      "y": 49.45255,
+      "width": 2.5,
+      "height": 34.48905
+    }
+  },
+  {
+    "id": "ev_g192_1",
+    "label": "bar 11 · bar_11",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 11 (Graphical Mark): markType: Bar; data values: Height = 492.0. Visual support resolved through KG provenance to bar_11 (mask_bbox).",
+    "region": {
+      "x": 68.37719,
+      "y": 50.54745,
+      "width": 2.45614,
+      "height": 33.39416
+    }
+  },
+  {
+    "id": "ev_g193_1",
+    "label": "bar 12 · bar_12",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 12 (Graphical Mark): markType: Bar; data values: Height = 484.0. Visual support resolved through KG provenance to bar_12 (mask_bbox).",
+    "region": {
+      "x": 74.73684,
+      "y": 51.09489,
+      "width": 2.45614,
+      "height": 32.84672
+    }
+  },
+  {
+    "id": "ev_g194_1",
+    "label": "bar 13 · bar_13",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 13 (Graphical Mark): markType: Bar; data values: Height = 472.0. Visual support resolved through KG provenance to bar_13 (mask_bbox).",
+    "region": {
+      "x": 81.09649,
+      "y": 51.91606,
+      "width": 2.45614,
+      "height": 31.93431
+    }
+  },
+  {
+    "id": "ev_g195_1",
+    "label": "bar 14 · bar_14",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 14 (Graphical Mark): markType: Bar; data values: Height = 462.0. Visual support resolved through KG provenance to bar_14 (mask_bbox).",
+    "region": {
+      "x": 87.45614,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.20438
+    }
+  },
+  {
+    "id": "ev_g196_1",
+    "label": "bar 15 · bar_15",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 15 (Graphical Mark): markType: Bar; data values: Height = 461.0. Visual support resolved through KG provenance to bar_15 (mask_bbox).",
+    "region": {
+      "x": 93.81579,
+      "y": 52.64599,
+      "width": 2.45614,
+      "height": 31.29562
+    }
+  },
+  {
+    "id": "ev_g197_1",
+    "label": "bar 2 · bar_2",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 2 (Graphical Mark): markType: Bar; data values: Height = 632.0. Visual support resolved through KG provenance to bar_2 (mask_bbox).",
+    "region": {
+      "x": 11.09649,
+      "y": 41.05839,
+      "width": 2.45614,
+      "height": 42.88321
+    }
+  },
+  {
+    "id": "ev_g198_1",
+    "label": "bar 3 · bar_3",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 3 (Graphical Mark): markType: Bar; data values: Height = 601.0. Visual support resolved through KG provenance to bar_3 (mask_bbox).",
+    "region": {
+      "x": 17.45614,
+      "y": 43.15693,
+      "width": 2.45614,
+      "height": 40.78467
+    }
+  },
+  {
+    "id": "ev_g199_1",
+    "label": "bar 4 · bar_4",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 4 (Graphical Mark): markType: Bar; data values: Height = 599.0. Visual support resolved through KG provenance to bar_4 (mask_bbox).",
+    "region": {
+      "x": 23.81579,
+      "y": 43.24818,
+      "width": 2.45614,
+      "height": 40.69343
+    }
+  },
+  {
+    "id": "ev_g200_1",
+    "label": "bar 5 · bar_5",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 5 (Graphical Mark): markType: Bar; data values: Height = 555.0. Visual support resolved through KG provenance to bar_5 (mask_bbox).",
+    "region": {
+      "x": 30.17544,
+      "y": 46.35036,
+      "width": 2.5,
+      "height": 37.59124
+    }
+  },
+  {
+    "id": "ev_g201_1",
+    "label": "bar 6 · bar_6",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 6 (Graphical Mark): markType: Bar; data values: Height = 541.0. Visual support resolved through KG provenance to bar_6 (mask_bbox).",
+    "region": {
+      "x": 36.53509,
+      "y": 47.26277,
+      "width": 2.45614,
+      "height": 36.58759
+    }
+  },
+  {
+    "id": "ev_g202_1",
+    "label": "bar 7 · bar_7",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 7 (Graphical Mark): markType: Bar; data values: Height = 530.0. Visual support resolved through KG provenance to bar_7 (mask_bbox).",
+    "region": {
+      "x": 42.89474,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g203_1",
+    "label": "bar 8 · bar_8",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 8 (Graphical Mark): markType: Bar; data values: Height = 530.0. Visual support resolved through KG provenance to bar_8 (mask_bbox).",
+    "region": {
+      "x": 49.25439,
+      "y": 47.9927,
+      "width": 2.5,
+      "height": 35.94891
+    }
+  },
+  {
+    "id": "ev_g204_1",
+    "label": "bar 9 · bar_9",
+    "kind": "image-region",
+    "confidence": 0.96,
+    "detail": "bar 9 (Graphical Mark): markType: Bar; data values: Height = 528.0. Visual support resolved through KG provenance to bar_9 (mask_bbox).",
+    "region": {
+      "x": 55.61404,
+      "y": 48.08394,
+      "width": 2.5,
+      "height": 35.85766
+    }
+  }
+]

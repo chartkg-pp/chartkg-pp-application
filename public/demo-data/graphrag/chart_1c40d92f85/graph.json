@@ -1,0 +1,1176 @@
+{
+  "revisionId": "construction-kg-revision:3fa6ffd0418655469042",
+  "ontologyRef": "chartkg-plus-plus-schema:v5.1",
+  "nodes": [
+    {
+      "id": "chart",
+      "label": "chart",
+      "type": "Complex_Chart",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Complex_Chart"
+      },
+      "claimIds": [
+        "entity:chart"
+      ]
+    },
+    {
+      "id": "donut",
+      "label": "donut",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "donut"
+      },
+      "claimIds": [
+        "entity:donut"
+      ]
+    },
+    {
+      "id": "pie",
+      "label": "pie",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "pie"
+      },
+      "claimIds": [
+        "entity:pie"
+      ]
+    },
+    {
+      "id": "sector_group_donut",
+      "label": "sector group donut",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Sector"
+      },
+      "claimIds": [
+        "entity:sector_group_donut"
+      ]
+    },
+    {
+      "id": "angularSpan_sector_group_donut",
+      "label": "angularSpan sector group donut",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "angularSpan"
+      },
+      "claimIds": [
+        "entity:angularSpan_sector_group_donut"
+      ]
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color"
+      ]
+    },
+    {
+      "id": "color_sector_group_donut",
+      "label": "color sector group donut",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color_sector_group_donut"
+      ]
+    },
+    {
+      "id": "text_label_sector_group_donut",
+      "label": "text label sector group donut",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "textLabel"
+      },
+      "claimIds": [
+        "entity:text_label_sector_group_donut"
+      ]
+    },
+    {
+      "id": "rgb_0_114_188",
+      "label": "rgb 0 114 188",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[0,114,188],\"kind\":\"color\"}",
+        "colorName": "blue"
+      },
+      "claimIds": [
+        "entity:rgb_0_114_188"
+      ]
+    },
+    {
+      "id": "rgb_113_173_71",
+      "label": "rgb 113 173 71",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[113,173,71],\"kind\":\"color\"}",
+        "colorName": "light green"
+      },
+      "claimIds": [
+        "entity:rgb_113_173_71"
+      ]
+    },
+    {
+      "id": "rgb_158_72_14",
+      "label": "rgb 158 72 14",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[158,72,14],\"kind\":\"color\"}",
+        "colorName": "brown"
+      },
+      "claimIds": [
+        "entity:rgb_158_72_14"
+      ]
+    },
+    {
+      "id": "rgb_21_53_85",
+      "label": "rgb 21 53 85",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[21,53,85],\"kind\":\"color\"}",
+        "colorName": "dark navy blue"
+      },
+      "claimIds": [
+        "entity:rgb_21_53_85"
+      ]
+    },
+    {
+      "id": "Destination",
+      "label": "Destination",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Destination",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "Export_share_percentage",
+      "label": "Export share percentage",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Export share percentage",
+        "unit": "%",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Export_share_percentage"
+      ]
+    },
+    {
+      "id": "export_share_of_value",
+      "label": "export share of value",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "export share of value",
+        "unit": "%",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:export_share_of_value"
+      ]
+    },
+    {
+      "id": "Developing_East_Asia",
+      "label": "Developing East Asia",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Developing East Asia"
+      },
+      "claimIds": [
+        "entity:Developing_East_Asia"
+      ]
+    },
+    {
+      "id": "Europe_and_Central_Asia",
+      "label": "Europe and Central Asia",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Europe and Central Asia"
+      },
+      "claimIds": [
+        "entity:Europe_and_Central_Asia"
+      ]
+    },
+    {
+      "id": "High_income_Asia_and_Pacific",
+      "label": "High income Asia and Pacific",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "High income Asia and Pacific"
+      },
+      "claimIds": [
+        "entity:High_income_Asia_and_Pacific"
+      ]
+    },
+    {
+      "id": "Middle_East_and_North_Africa",
+      "label": "Middle East and North Africa",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Middle East and North Africa"
+      },
+      "claimIds": [
+        "entity:Middle_East_and_North_Africa"
+      ]
+    },
+    {
+      "id": "North_America",
+      "label": "North America",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "North America"
+      },
+      "claimIds": [
+        "entity:North_America"
+      ]
+    },
+    {
+      "id": "South_America_and_Caribbean",
+      "label": "South America and Caribbean",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "South America and Caribbean"
+      },
+      "claimIds": [
+        "entity:South_America_and_Caribbean"
+      ]
+    },
+    {
+      "id": "South_Asia",
+      "label": "South Asia",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "South Asia"
+      },
+      "claimIds": [
+        "entity:South_Asia"
+      ]
+    },
+    {
+      "id": "Sub-Saharan_Africa",
+      "label": "Sub-Saharan Africa",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Sub-Saharan Africa"
+      },
+      "claimIds": [
+        "entity:Sub-Saharan_Africa"
+      ]
+    },
+    {
+      "id": "Composition",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: sector_group_sector_7.",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"sector_group_sector_7\"]"
+      },
+      "claimIds": [
+        "entity:Composition"
+      ]
+    },
+    {
+      "id": "Composition_12",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: sector_group_sector_8.",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"sector_group_sector_8\"]"
+      },
+      "claimIds": [
+        "entity:Composition_12"
+      ]
+    },
+    {
+      "id": "Composition_19",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: sector_group_sector_6.",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"sector_group_sector_6\"]"
+      },
+      "claimIds": [
+        "entity:Composition_19"
+      ]
+    },
+    {
+      "id": "Composition_20",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: sector_group_sector_1.",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"sector_group_sector_1\"]"
+      },
+      "claimIds": [
+        "entity:Composition_20"
+      ]
+    },
+    {
+      "id": "Comparison",
+      "label": "Comparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "Middle East and North Africa exhibits a higher maximum export share than South Asia, displaying a larger angular span.",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": "[\"Extreme_3\"]"
+      },
+      "claimIds": [
+        "entity:Comparison"
+      ]
+    },
+    {
+      "id": "Comparison_10",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "bas_all_donut_sector_group_donut",
+        "description": "Comparing the minimum export share across all destination categories, South Asia occupies the narrowest angular sector in the outer ring.",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison"
+      },
+      "claimIds": [
+        "entity:Comparison_10"
+      ]
+    },
+    {
+      "id": "Comparison_13",
+      "label": "Comparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "North America exhibits the largest sector angular span among destination categories in the outer donut chart.",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": "[\"Extreme_47\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_13"
+      ]
+    },
+    {
+      "id": "Comparison_14",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "South Asia exhibits the smallest sector angular span among destination categories in the outer donut chart.",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": "[\"Extreme_36\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_14"
+      ]
+    },
+    {
+      "id": "Comparison_15",
+      "label": "Comparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "bas_all_pie_sector_group",
+        "description": "Among the subgroup maxima, High income Asia and Pacific exhibits the largest angular span compared to North America, Europe and Central Asia, and Middle East and North Africa.",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:Comparison_15"
+      ]
+    },
+    {
+      "id": "Comparison_16",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "Among the subgroup minima, Middle East and North Africa exhibits the smallest angular span compared to Europe and Central Asia, North America, and High income Asia and Pacific.",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": "[\"Extreme_26\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_16"
+      ]
+    },
+    {
+      "id": "Comparison_19",
+      "label": "Comparison: ComparableCorrespondence",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "description": "Comparable semantic-anchor Correspondence patterns share the same cross-view analytical structure.",
+        "patternType": "Comparison",
+        "subtype": "ComparableCorrespondence"
+      },
+      "claimIds": [
+        "entity:Comparison_19"
+      ]
+    },
+    {
+      "id": "Comparison_2",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "South Asia exhibits a lower minimum export share than Middle East and North Africa, displaying a narrower angular span.",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": "[\"Extreme_6\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_2"
+      ]
+    },
+    {
+      "id": "Comparison_8",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "bas_all_donut_sector_group_donut",
+        "description": "Among the destination subgroups, South Asia exhibits the smallest angular span compared to all other destination minimums.",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison"
+      },
+      "claimIds": [
+        "entity:Comparison_8"
+      ]
+    },
+    {
+      "id": "Similarity_7",
+      "label": "Similarity: SimilarComposition",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "commonFeature": "single sector mark composition",
+        "comparisonFamily": "Composition",
+        "comparisonFeature": "component_structure",
+        "description": "Europe and Central Asia, High income Asia and Pacific, Middle East and North Africa, and North America each comprise an individual sector mark representing export share of value.",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "patternType": "Similarity",
+        "subtype": "SimilarComposition"
+      },
+      "claimIds": [
+        "entity:Similarity_7"
+      ]
+    },
+    {
+      "id": "insight_Comparison_1",
+      "label": "Comparison 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Middle_East_and_North_Africa\",\"variable\":\"Destination\"},{\"valueRef\":\"South_Asia\",\"variable\":\"Destination\"}]",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "statement": "Between the compared destinations, Middle East and North Africa has the higher maximum Export share percentage at 5.0%, compared to South Asia at 1.0%."
+      },
+      "claimIds": [
+        "entity:insight_Comparison_1"
+      ]
+    },
+    {
+      "id": "insight_Comparison_10",
+      "label": "Comparison 10",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Developing_East_Asia\",\"variable\":\"Destination\"},{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variable\":\"Destination\"},{\"valueRef\":\"Middle_East_and_North_Africa\",\"vari…",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "statement": "South Asia has the lowest minimum Export share percentage (1.0%) among the compared Destination groups of Sub-Saharan Africa (2.0%), Middle East and North Africa (5.0%), High inco…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_10"
+      ]
+    },
+    {
+      "id": "insight_Comparison_11",
+      "label": "Comparison 11",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Europe_and_Central_Asia\",\"variable\":\"Destination\"},{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variable\":\"Destination\"},{\"valueRef\":\"Middle_East_and_North_Africa\",\"v…",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "statement": "High income Asia and Pacific is the visually supported global export share of value maximum at 33.0% from the subgroup comparisons against North America (22.0%), Europe and Centra…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_11"
+      ]
+    },
+    {
+      "id": "insight_Comparison_12",
+      "label": "Comparison 12",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Europe_and_Central_Asia\",\"variable\":\"Destination\"},{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variable\":\"Destination\"},{\"valueRef\":\"Middle_East_and_North_Africa\",\"v…",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "statement": "Middle East and North Africa has the lowest minimum export share of value at 6.0% among the compared Destination groups Europe and Central Asia (20.0%), North America (22.0%), and…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_12"
+      ]
+    },
+    {
+      "id": "insight_Comparison_2",
+      "label": "Comparison 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Middle_East_and_North_Africa\",\"variable\":\"Destination\"},{\"valueRef\":\"South_Asia\",\"variable\":\"Destination\"}]",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "statement": "South Asia has a lower minimum Export share percentage (1.0%) than Middle East and North Africa (5.0%) among the compared destinations."
+      },
+      "claimIds": [
+        "entity:insight_Comparison_2"
+      ]
+    },
+    {
+      "id": "insight_Comparison_3",
+      "label": "Comparison 3",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Europe_and_Central_Asia\",\"variable\":\"Destination\"},{\"valueRef\":\"Middle_East_and_North_Africa\",\"variable\":\"Destination\"},{\"valueRef\":\"South_Asia\",\"variable\":\"Destinat…",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "statement": "South Asia is the visually supported global Export share percentage minimum from the subgroup comparisons at 1.0%, lower than Sub-Saharan Africa at 2.0%, Middle East and North Afr…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_3"
+      ]
+    },
+    {
+      "id": "insight_Comparison_4",
+      "label": "Comparison 4",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Europe_and_Central_Asia\",\"variable\":\"Destination\"},{\"valueRef\":\"Middle_East_and_North_Africa\",\"variable\":\"Destination\"},{\"valueRef\":\"South_Asia\",\"variable\":\"Destinat…",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "statement": "Europe and Central Asia has the highest maximum Export share percentage at 11.0% among the compared destinations Europe and Central Asia, Middle East and North Africa (5.0%), Sub-…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_4"
+      ]
+    },
+    {
+      "id": "insight_Comparison_6",
+      "label": "Comparison 6",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Europe_and_Central_Asia\",\"variable\":\"Destination\"},{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variable\":\"Destination\"},{\"valueRef\":\"Middle_East_and_North_Africa\",\"v…",
+        "measure": "[{\"variable\":\"Export_share_percentage\"}]",
+        "statement": "South Asia has an Export share percentage of 1.0%, making it the visually supported global Export share percentage minimum from the destination subgroup comparisons, which also in…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_6"
+      ]
+    },
+    {
+      "id": "insight_Similarity_5",
+      "label": "Similarity 5",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Europe_and_Central_Asia\",\"variable\":\"Destination\"},{\"valueRef\":\"High_income_Asia_and_Pacific\",\"variable\":\"Destination\"},{\"valueRef\":\"Middle_East_and_North_Africa\",\"v…",
+        "measure": "[{\"variable\":\"export_share_of_value\"}]",
+        "statement": "Across the Destination categories of High income Asia and Pacific, Europe and Central Asia, Middle East and North Africa, and North America, each displays a similar component stru…"
+      },
+      "claimIds": [
+        "entity:insight_Similarity_5"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_COMPOSED_WITH",
+      "source": "donut",
+      "target": "pie",
+      "relation": "COMPOSED_WITH",
+      "claimIds": [
+        "relation:COMPOSED_WITH:donut:pie",
+        "entity:donut",
+        "entity:pie"
+      ]
+    },
+    {
+      "id": "edge_1_HAS_VIEW",
+      "source": "chart",
+      "target": "donut",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:donut",
+        "entity:chart",
+        "entity:donut"
+      ]
+    },
+    {
+      "id": "edge_2_HAS_VIEW",
+      "source": "chart",
+      "target": "pie",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:pie",
+        "entity:chart",
+        "entity:pie"
+      ]
+    },
+    {
+      "id": "edge_140_COMPOSED_OF",
+      "source": "Similarity_7",
+      "target": "Composition",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_7:Composition",
+        "entity:Similarity_7",
+        "entity:Composition"
+      ]
+    },
+    {
+      "id": "edge_141_COMPOSED_OF",
+      "source": "Similarity_7",
+      "target": "Composition_12",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_7:Composition_12",
+        "entity:Similarity_7",
+        "entity:Composition_12"
+      ]
+    },
+    {
+      "id": "edge_142_COMPOSED_OF",
+      "source": "Similarity_7",
+      "target": "Composition_19",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_7:Composition_19",
+        "entity:Similarity_7",
+        "entity:Composition_19"
+      ]
+    },
+    {
+      "id": "edge_143_COMPOSED_OF",
+      "source": "Similarity_7",
+      "target": "Composition_20",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_7:Composition_20",
+        "entity:Similarity_7",
+        "entity:Composition_20"
+      ]
+    },
+    {
+      "id": "edge_189_COMPOSED_OF",
+      "source": "donut",
+      "target": "sector_group_donut",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:donut:sector_group_donut",
+        "entity:donut",
+        "entity:sector_group_donut"
+      ]
+    },
+    {
+      "id": "edge_193_HAS_VISUAL_ATTRIBUTE",
+      "source": "sector_group_donut",
+      "target": "angularSpan_sector_group_donut",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:sector_group_donut:angularSpan_sector_group_donut",
+        "entity:sector_group_donut",
+        "entity:angularSpan_sector_group_donut"
+      ]
+    },
+    {
+      "id": "edge_194_HAS_VISUAL_ATTRIBUTE",
+      "source": "sector_group_donut",
+      "target": "color_sector_group_donut",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:sector_group_donut:color_sector_group_donut",
+        "entity:sector_group_donut",
+        "entity:color_sector_group_donut"
+      ]
+    },
+    {
+      "id": "edge_196_HAS_ANNOTATION",
+      "source": "sector_group_donut",
+      "target": "text_label_sector_group_donut",
+      "relation": "HAS_ANNOTATION",
+      "claimIds": [
+        "relation:HAS_ANNOTATION:sector_group_donut:text_label_sector_group_donut",
+        "entity:sector_group_donut",
+        "entity:text_label_sector_group_donut"
+      ]
+    },
+    {
+      "id": "edge_197_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_0_114_188",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_0_114_188",
+        "entity:color",
+        "entity:rgb_0_114_188"
+      ]
+    },
+    {
+      "id": "edge_198_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_113_173_71",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_113_173_71",
+        "entity:color",
+        "entity:rgb_113_173_71"
+      ]
+    },
+    {
+      "id": "edge_199_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_158_72_14",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_158_72_14",
+        "entity:color",
+        "entity:rgb_158_72_14"
+      ]
+    },
+    {
+      "id": "edge_200_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_21_53_85",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_21_53_85",
+        "entity:color",
+        "entity:rgb_21_53_85"
+      ]
+    },
+    {
+      "id": "edge_205_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_sector_group_donut",
+      "target": "rgb_0_114_188",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_0_114_188",
+        "entity:color_sector_group_donut",
+        "entity:rgb_0_114_188"
+      ]
+    },
+    {
+      "id": "edge_206_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_sector_group_donut",
+      "target": "rgb_113_173_71",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_113_173_71",
+        "entity:color_sector_group_donut",
+        "entity:rgb_113_173_71"
+      ]
+    },
+    {
+      "id": "edge_207_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_sector_group_donut",
+      "target": "rgb_158_72_14",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_158_72_14",
+        "entity:color_sector_group_donut",
+        "entity:rgb_158_72_14"
+      ]
+    },
+    {
+      "id": "edge_208_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_sector_group_donut",
+      "target": "rgb_21_53_85",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_sector_group_donut:rgb_21_53_85",
+        "entity:color_sector_group_donut",
+        "entity:rgb_21_53_85"
+      ]
+    },
+    {
+      "id": "edge_214_ENCODES",
+      "source": "angularSpan_sector_group_donut",
+      "target": "Export_share_percentage",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:angularSpan_sector_group_donut:Export_share_percentage",
+        "entity:angularSpan_sector_group_donut",
+        "entity:Export_share_percentage"
+      ]
+    },
+    {
+      "id": "edge_215_ENCODES",
+      "source": "color",
+      "target": "Destination",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color:Destination",
+        "entity:color",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_216_ENCODES",
+      "source": "color_sector_group_donut",
+      "target": "Destination",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color_sector_group_donut:Destination",
+        "entity:color_sector_group_donut",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_217_ENCODES",
+      "source": "rgb_0_114_188",
+      "target": "Developing_East_Asia",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_0_114_188:Developing_East_Asia",
+        "entity:rgb_0_114_188",
+        "entity:Developing_East_Asia"
+      ]
+    },
+    {
+      "id": "edge_218_ENCODES",
+      "source": "rgb_113_173_71",
+      "target": "South_Asia",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_113_173_71:South_Asia",
+        "entity:rgb_113_173_71",
+        "entity:South_Asia"
+      ]
+    },
+    {
+      "id": "edge_219_ENCODES",
+      "source": "rgb_158_72_14",
+      "target": "Middle_East_and_North_Africa",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_158_72_14:Middle_East_and_North_Africa",
+        "entity:rgb_158_72_14",
+        "entity:Middle_East_and_North_Africa"
+      ]
+    },
+    {
+      "id": "edge_220_ENCODES",
+      "source": "rgb_21_53_85",
+      "target": "Sub-Saharan_Africa",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_21_53_85:Sub-Saharan_Africa",
+        "entity:rgb_21_53_85",
+        "entity:Sub-Saharan_Africa"
+      ]
+    },
+    {
+      "id": "edge_226_ENCODES",
+      "source": "text_label_sector_group_donut",
+      "target": "Export_share_percentage",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:text_label_sector_group_donut:Export_share_percentage",
+        "entity:text_label_sector_group_donut",
+        "entity:Export_share_percentage"
+      ]
+    },
+    {
+      "id": "edge_227_VALUE_OF",
+      "source": "Developing_East_Asia",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Developing_East_Asia:Destination",
+        "entity:Developing_East_Asia",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_228_VALUE_OF",
+      "source": "Europe_and_Central_Asia",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Europe_and_Central_Asia:Destination",
+        "entity:Europe_and_Central_Asia",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_229_VALUE_OF",
+      "source": "High_income_Asia_and_Pacific",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:High_income_Asia_and_Pacific:Destination",
+        "entity:High_income_Asia_and_Pacific",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_230_VALUE_OF",
+      "source": "Middle_East_and_North_Africa",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Middle_East_and_North_Africa:Destination",
+        "entity:Middle_East_and_North_Africa",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_231_VALUE_OF",
+      "source": "North_America",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:North_America:Destination",
+        "entity:North_America",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_232_VALUE_OF",
+      "source": "South_America_and_Caribbean",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:South_America_and_Caribbean:Destination",
+        "entity:South_America_and_Caribbean",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_233_VALUE_OF",
+      "source": "South_Asia",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:South_Asia:Destination",
+        "entity:South_Asia",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_234_VALUE_OF",
+      "source": "Sub-Saharan_Africa",
+      "target": "Destination",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Sub-Saharan_Africa:Destination",
+        "entity:Sub-Saharan_Africa",
+        "entity:Destination"
+      ]
+    },
+    {
+      "id": "edge_342_DERIVED_FROM",
+      "source": "insight_Comparison_1",
+      "target": "Comparison",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_1:Comparison",
+        "entity:insight_Comparison_1",
+        "entity:Comparison"
+      ]
+    },
+    {
+      "id": "edge_343_DERIVED_FROM",
+      "source": "insight_Comparison_10",
+      "target": "Comparison_14",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_10:Comparison_14",
+        "entity:insight_Comparison_10",
+        "entity:Comparison_14"
+      ]
+    },
+    {
+      "id": "edge_344_DERIVED_FROM",
+      "source": "insight_Comparison_11",
+      "target": "Comparison_15",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_11:Comparison_15",
+        "entity:insight_Comparison_11",
+        "entity:Comparison_15"
+      ]
+    },
+    {
+      "id": "edge_345_DERIVED_FROM",
+      "source": "insight_Comparison_12",
+      "target": "Comparison_16",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_12:Comparison_16",
+        "entity:insight_Comparison_12",
+        "entity:Comparison_16"
+      ]
+    },
+    {
+      "id": "edge_346_DERIVED_FROM",
+      "source": "insight_Comparison_2",
+      "target": "Comparison_2",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2",
+        "entity:insight_Comparison_2",
+        "entity:Comparison_2"
+      ]
+    },
+    {
+      "id": "edge_350_DERIVED_FROM",
+      "source": "insight_Comparison_6",
+      "target": "Comparison_8",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_6:Comparison_8",
+        "entity:insight_Comparison_6",
+        "entity:Comparison_8"
+      ]
+    },
+    {
+      "id": "edge_392_DERIVED_FROM",
+      "source": "insight_Similarity_5",
+      "target": "Similarity_7",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Similarity_5:Similarity_7",
+        "entity:insight_Similarity_5",
+        "entity:Similarity_7"
+      ]
+    }
+  ],
+  "stats": {
+    "sourceNodeCount": 231,
+    "sourceEdgeCount": 399,
+    "visibleNodeCount": 46,
+    "visibleEdgeCount": 42,
+    "verificationStatus": "unverified",
+    "runStatus": "partial",
+    "communityCount": 53,
+    "retrievalEngine": "native-graphrag-v1"
+  }
+}

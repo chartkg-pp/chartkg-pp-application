@@ -1,0 +1,46 @@
+{
+  "id": "summary_construction-kg-revision:group4037-year-insight-curation-v1",
+  "revisionId": "construction-kg-revision:group4037-year-insight-curation-v1",
+  "sentences": [
+    {
+      "id": "ss1",
+      "layer": "S1",
+      "text": "reference line (View): chartType: reference_line. The color encoding maps Article category values as follows: salmon orange represents Journal Articles A-rated; light blue represents Journal Articles not A-rated; and light gray represents Total.",
+      "citations": [
+        "G115",
+        "G176",
+        "G174",
+        "G175"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss2",
+      "layer": "S2",
+      "text": "Article category (Data Variable): name: Article category; variableType: Categorical.",
+      "citations": [
+        "G94"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss3",
+      "layer": "S3",
+      "text": "Across 2000–2015, all yearly analytical scopes share the same category structure: one A-rated bar, one not-A-rated bar, and one Total bar.",
+      "citations": [
+        "G51"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss4",
+      "layer": "S4",
+      "text": "Across 2000–2015, every yearly analytical scope uses the same three category roles: Journal Articles A-rated, Journal Articles not A-rated, and Total. This states shared structure only, not equal values or contribution profiles.",
+      "citations": [
+        "G40"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "coverage": 1.0
+}

@@ -6,9 +6,10 @@
   "packageManager": "npm@11.9.0",
   "scripts": {
     "dev": "vite",
+    "sync:graphrag": "node scripts/sync-graphrag-data.mjs",
     "typecheck": "vue-tsc --noEmit -p tsconfig.app.json",
     "validate:data": "node scripts/validate-static-data.mjs",
-    "build": "npm run validate:data && npm run typecheck && vite build",
+    "build": "npm run sync:graphrag && npm run validate:data && npm run typecheck && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

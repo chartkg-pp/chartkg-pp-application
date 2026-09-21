@@ -1,0 +1,51 @@
+{
+  "id": "summary_construction-kg-revision:3fa6ffd0418655469042",
+  "revisionId": "construction-kg-revision:3fa6ffd0418655469042",
+  "sentences": [
+    {
+      "id": "ss1",
+      "layer": "S1",
+      "text": "donut (View): chartType: donut. The color encoding maps destination categories as follows: blue represents Developing East Asia; cyan represents Europe and Central Asia; orange represents High income Asia and Pacific; brown represents Middle East and North Africa; green represents North America; golden yellow represents South America and Caribbean; light green represents South Asia; and dark navy blue represents Sub-Saharan Africa.",
+      "citations": [
+        "G173",
+        "G207",
+        "G213",
+        "G211",
+        "G209",
+        "G214",
+        "G212",
+        "G208",
+        "G210"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss2",
+      "layer": "S2",
+      "text": "Export share percentage (Data Variable): name: Export share percentage; unit: %; variableType: Quantitative.",
+      "citations": [
+        "G163"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss3",
+      "layer": "S3",
+      "text": "Europe and Central Asia, High income Asia and Pacific, Middle East and North Africa, and North America each comprise an individual sector mark representing export share of value.",
+      "citations": [
+        "G82"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss4",
+      "layer": "S4",
+      "text": "South Asia has an Export share percentage of 1.0%, making it the visually supported global Export share percentage minimum from the destination subgroup comparisons, which also include Sub-Saharan Africa at 2.0%, Middle East and North Africa at 5.0%, South America and Caribbean at 10.0%, Europe and Central Asia at 11.0%, High income Asia and Pacific at 20.0%, and North America at 28.0%.",
+      "citations": [
+        "G9"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "coverage": 1.0
+}

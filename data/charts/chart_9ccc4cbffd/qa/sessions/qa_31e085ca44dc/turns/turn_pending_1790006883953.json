@@ -1,0 +1,554 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790006883953",
+  "sessionId": "qa_31e085ca44dc",
+  "chartId": "chart_9ccc4cbffd",
+  "revisionId": "construction-kg-revision:4bcab0ab899177046c9f",
+  "question": "What are the distribution characteristics ofmale and female customers?",
+  "status": "complete",
+  "createdAt": "2026-09-21T16:08:34.264454Z",
+  "completedAt": "2026-09-21T16:08:45.263019Z",
+  "answers": {
+    "vision": {
+      "answer": "Male and female customers are broadly distributed across the opinion space, with substantial overlap. Female customers appear somewhat more numerous and have several larger concentrations toward the positive/right side and the negative/lower-left side, while male customers are generally more evenly scattered and represented by smaller bars.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_9ccc4cbffd",
+        "imageSha256": "1c7aeb55a145759648e2bf3edf29f3995f9eb7479548596f5111c57c0cd191ef",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "Female customer opinion points form an elongated continuous curved band across the ternary domain, extending from higher Negative values through moderate Uncertainty toward Positive values. [G6] [G35] Male customer opinion points form an elongated band-like arrangement spanning the Negative–Uncertainty and Uncertainty–Positive legs of the ternary plot. [G7] [G36] Overall, the Female and Male categories have a similar band-like cluster structure running from higher Negative values through moderate Uncertainty toward higher Positive values. [G24] [G33] In the radial stacked bar view, the greatest visible Female segment is in the upper-right Positive opinion sector and has a radial height of 93.9 px. [G4] For Male customers, the maximum visible customer-count bar has a radial height of 79.9 px. [G3]",
+      "citationIds": [
+        "G6",
+        "G35",
+        "G7",
+        "G36",
+        "G24",
+        "G33",
+        "G4",
+        "G3"
+      ],
+      "status": "verified",
+      "generationMode": "llm",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "Female customer opinion points form an elongated continuous curved band across the ternary domain, extending from higher Negative values through moderate Uncertainty toward Positive values.",
+          "recordIds": [
+            "entity:insight_Distribution_2",
+            "entity:Distribution_2"
+          ],
+          "citationIds": [
+            "G6",
+            "G35"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_2",
+          "text": "Male customer opinion points form an elongated band-like arrangement spanning the Negative–Uncertainty and Uncertainty–Positive legs of the ternary plot.",
+          "recordIds": [
+            "entity:insight_Distribution_3",
+            "entity:Distribution_3"
+          ],
+          "citationIds": [
+            "G7",
+            "G36"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_3",
+          "text": "Overall, the Female and Male categories have a similar band-like cluster structure running from higher Negative values through moderate Uncertainty toward higher Positive values.",
+          "recordIds": [
+            "entity:insight_Similarity_1",
+            "entity:Similarity"
+          ],
+          "citationIds": [
+            "G24",
+            "G33"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_4",
+          "text": "In the radial stacked bar view, the greatest visible Female segment is in the upper-right Positive opinion sector and has a radial height of 93.9 px.",
+          "recordIds": [
+            "entity:insight_Correspondence_3"
+          ],
+          "citationIds": [
+            "G4"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_5",
+          "text": "For Male customers, the maximum visible customer-count bar has a radial height of 79.9 px.",
+          "recordIds": [
+            "entity:insight_Correspondence_2"
+          ],
+          "citationIds": [
+            "G3"
+          ],
+          "claimType": "observed"
+        }
+      ],
+      "citations": {
+        "G6": {
+          "id": "G6",
+          "claimIds": [
+            "entity:insight_Distribution_2",
+            "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+          ],
+          "entityIds": [
+            "insight_Distribution_2",
+            "Distribution_2"
+          ],
+          "evidenceIds": [
+            "ev_g6_1"
+          ],
+          "graphPath": [
+            "Distribution 2",
+            "DERIVED_FROM",
+            "Distribution: BandLike"
+          ]
+        },
+        "G35": {
+          "id": "G35",
+          "claimIds": [
+            "entity:Distribution_2",
+            "relation:COMPOSED_OF:Correspondence_3:Distribution_2",
+            "relation:COMPOSED_OF:Similarity:Distribution_2",
+            "relation:HAS_SCOPE:Distribution_2:point_group_bas_Female",
+            "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+          ],
+          "entityIds": [
+            "Distribution_2",
+            "Correspondence_3",
+            "Similarity",
+            "point_group_bas_Female",
+            "insight_Distribution_2"
+          ],
+          "evidenceIds": [
+            "ev_g35_1"
+          ],
+          "graphPath": [
+            "Correspondence: SharedSemanticAnchor",
+            "COMPOSED_OF",
+            "Distribution: BandLike"
+          ]
+        },
+        "G7": {
+          "id": "G7",
+          "claimIds": [
+            "entity:insight_Distribution_3",
+            "relation:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+          ],
+          "entityIds": [
+            "insight_Distribution_3",
+            "Distribution_3"
+          ],
+          "evidenceIds": [
+            "ev_g7_1"
+          ],
+          "graphPath": [
+            "Distribution 3",
+            "DERIVED_FROM",
+            "Distribution: BandLike"
+          ]
+        },
+        "G36": {
+          "id": "G36",
+          "claimIds": [
+            "entity:Distribution_3",
+            "relation:COMPOSED_OF:Correspondence_2:Distribution_3",
+            "relation:COMPOSED_OF:Similarity:Distribution_3",
+            "relation:HAS_SCOPE:Distribution_3:point_group_bas_Male",
+            "relation:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+          ],
+          "entityIds": [
+            "Distribution_3",
+            "Correspondence_2",
+            "Similarity",
+            "point_group_bas_Male",
+            "insight_Distribution_3"
+          ],
+          "evidenceIds": [
+            "ev_g36_1"
+          ],
+          "graphPath": [
+            "Correspondence: SharedSemanticAnchor",
+            "COMPOSED_OF",
+            "Distribution: BandLike"
+          ]
+        },
+        "G24": {
+          "id": "G24",
+          "claimIds": [
+            "entity:insight_Similarity_1",
+            "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+          ],
+          "entityIds": [
+            "insight_Similarity_1",
+            "Similarity"
+          ],
+          "evidenceIds": [
+            "ev_g24_1"
+          ],
+          "graphPath": [
+            "Similarity 1",
+            "DERIVED_FROM",
+            "Similarity: SimilarDistribution"
+          ]
+        },
+        "G33": {
+          "id": "G33",
+          "claimIds": [
+            "entity:Similarity",
+            "relation:COMPOSED_OF:Similarity:Distribution_2",
+            "relation:COMPOSED_OF:Similarity:Distribution_3",
+            "relation:COMPOSED_OF:Similarity:Distribution_4",
+            "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+          ],
+          "entityIds": [
+            "Similarity",
+            "Distribution_2",
+            "Distribution_3",
+            "Distribution_4",
+            "insight_Similarity_1"
+          ],
+          "evidenceIds": [
+            "ev_g33_1"
+          ],
+          "graphPath": [
+            "Similarity: SimilarDistribution",
+            "COMPOSED_OF",
+            "Distribution: BandLike"
+          ]
+        },
+        "G4": {
+          "id": "G4",
+          "claimIds": [
+            "entity:insight_Correspondence_3",
+            "relation:DERIVED_FROM:insight_Correspondence_3:Correspondence_3"
+          ],
+          "entityIds": [
+            "insight_Correspondence_3",
+            "Correspondence_3"
+          ],
+          "evidenceIds": [
+            "ev_g4_1"
+          ],
+          "graphPath": [
+            "Correspondence 3",
+            "DERIVED_FROM",
+            "Correspondence: SharedSemanticAnchor"
+          ]
+        },
+        "G3": {
+          "id": "G3",
+          "claimIds": [
+            "entity:insight_Correspondence_2",
+            "relation:DERIVED_FROM:insight_Correspondence_2:Correspondence_2"
+          ],
+          "entityIds": [
+            "insight_Correspondence_2",
+            "Correspondence_2"
+          ],
+          "evidenceIds": [
+            "ev_g3_1"
+          ],
+          "graphPath": [
+            "Correspondence 2",
+            "DERIVED_FROM",
+            "Correspondence: SharedSemanticAnchor"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-local",
+        "planner": "llm",
+        "maxHops": 3,
+        "seedEntityIds": [
+          "insight_Distribution_2",
+          "insight_Distribution_3",
+          "Female_gender_value",
+          "Distribution_2",
+          "Distribution_3",
+          "insight_Similarity_1"
+        ],
+        "communityIds": [
+          "community:13:point_group_bas_Female",
+          "community:3:Correspondence_3",
+          "community:8:Similarity",
+          "community:2:Correspondence",
+          "community:7:ExtremumComparison_4",
+          "community:14:point_group_bas_Male"
+        ],
+        "expandedEntityIds": [
+          "insight_Distribution_2",
+          "insight_Distribution_3",
+          "Female_gender_value",
+          "Distribution_2",
+          "Distribution_3",
+          "insight_Similarity_1",
+          "Correspondence_3",
+          "insight_Correspondence_3",
+          "Similarity",
+          "Correspondence_2",
+          "insight_Correspondence_2",
+          "Distribution_4",
+          "insight_Distribution_4",
+          "insight_Distribution_1",
+          "insight_Distribution_5",
+          "Distribution",
+          "Distribution_5"
+        ],
+        "relationIds": [
+          "relation:15:COMPOSED_OF:Correspondence_3:Distribution_2",
+          "relation:663:DERIVED_FROM:insight_Correspondence_3:Correspondence_3",
+          "relation:683:DERIVED_FROM:insight_Similarity_1:Similarity",
+          "relation:10:COMPOSED_OF:Correspondence_2:Distribution_3",
+          "relation:662:DERIVED_FROM:insight_Correspondence_2:Correspondence_2",
+          "relation:28:COMPOSED_OF:Similarity:Distribution_4",
+          "relation:667:DERIVED_FROM:insight_Distribution_4:Distribution_4",
+          "relation:665:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+          "relation:666:DERIVED_FROM:insight_Distribution_3:Distribution_3",
+          "relation:26:COMPOSED_OF:Similarity:Distribution_2",
+          "relation:27:COMPOSED_OF:Similarity:Distribution_3",
+          "relation:664:DERIVED_FROM:insight_Distribution_1:Distribution",
+          "relation:668:DERIVED_FROM:insight_Distribution_5:Distribution_5"
+        ],
+        "paths": [
+          {
+            "source": "Distribution_2",
+            "target": "insight_Correspondence_3",
+            "nodeIds": [
+              "Distribution_2",
+              "Correspondence_3",
+              "insight_Correspondence_3"
+            ],
+            "relationIds": [
+              "relation:15:COMPOSED_OF:Correspondence_3:Distribution_2",
+              "relation:663:DERIVED_FROM:insight_Correspondence_3:Correspondence_3"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_2",
+                "relation": "COMPOSED_OF",
+                "to": "Correspondence_3",
+                "direction": "reverse"
+              },
+              {
+                "from": "Correspondence_3",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Correspondence_3",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "insight_Similarity_1",
+            "target": "Similarity",
+            "nodeIds": [
+              "insight_Similarity_1",
+              "Similarity"
+            ],
+            "relationIds": [
+              "relation:683:DERIVED_FROM:insight_Similarity_1:Similarity"
+            ],
+            "hops": [
+              {
+                "from": "insight_Similarity_1",
+                "relation": "DERIVED_FROM",
+                "to": "Similarity",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "Distribution_3",
+            "target": "insight_Correspondence_2",
+            "nodeIds": [
+              "Distribution_3",
+              "Correspondence_2",
+              "insight_Correspondence_2"
+            ],
+            "relationIds": [
+              "relation:10:COMPOSED_OF:Correspondence_2:Distribution_3",
+              "relation:662:DERIVED_FROM:insight_Correspondence_2:Correspondence_2"
+            ],
+            "hops": [
+              {
+                "from": "Distribution_3",
+                "relation": "COMPOSED_OF",
+                "to": "Correspondence_2",
+                "direction": "reverse"
+              },
+              {
+                "from": "Correspondence_2",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Correspondence_2",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "insight_Similarity_1",
+            "target": "insight_Distribution_4",
+            "nodeIds": [
+              "insight_Similarity_1",
+              "Similarity",
+              "Distribution_4",
+              "insight_Distribution_4"
+            ],
+            "relationIds": [
+              "relation:683:DERIVED_FROM:insight_Similarity_1:Similarity",
+              "relation:28:COMPOSED_OF:Similarity:Distribution_4",
+              "relation:667:DERIVED_FROM:insight_Distribution_4:Distribution_4"
+            ],
+            "hops": [
+              {
+                "from": "insight_Similarity_1",
+                "relation": "DERIVED_FROM",
+                "to": "Similarity",
+                "direction": "forward"
+              },
+              {
+                "from": "Similarity",
+                "relation": "COMPOSED_OF",
+                "to": "Distribution_4",
+                "direction": "forward"
+              },
+              {
+                "from": "Distribution_4",
+                "relation": "DERIVED_FROM",
+                "to": "insight_Distribution_4",
+                "direction": "reverse"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "insight_Distribution_2",
+            "type": "Insight",
+            "score": 1.21,
+            "lexicalScore": 26.85843,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Distribution_3",
+            "type": "Insight",
+            "score": 1.1488,
+            "lexicalScore": 23.92321,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Distribution_2",
+            "type": "Basic_Pattern",
+            "score": 0.992762,
+            "lexicalScore": 21.830248,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Similarity_1",
+            "type": "Insight",
+            "score": 0.953775,
+            "lexicalScore": 14.56951,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Distribution_3",
+            "type": "Basic_Pattern",
+            "score": 0.872103,
+            "lexicalScore": 16.043243,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Female_gender_value",
+            "type": "Variable_Value",
+            "score": 0.775173,
+            "lexicalScore": 16.708478,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "insight_Correspondence_3",
+            "type": "Insight",
+            "score": 0.723215,
+            "lexicalScore": 14.955969,
+            "distance": 1.17,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Distribution_1",
+            "type": "Insight",
+            "score": 0.722213,
+            "lexicalScore": 21.449003,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "Similarity",
+            "type": "Relational_Pattern",
+            "score": 0.682979,
+            "lexicalScore": 15.934893,
+            "distance": 0.55,
+            "hops": 1
+          },
+          {
+            "entityId": "insight_Correspondence_2",
+            "type": "Insight",
+            "score": 0.673824,
+            "lexicalScore": 12.587085,
+            "distance": 1.17,
+            "hops": 2
+          },
+          {
+            "entityId": "insight_Distribution_4",
+            "type": "Insight",
+            "score": 0.66973,
+            "lexicalScore": 20.80799,
+            "distance": 1.72,
+            "hops": 3
+          },
+          {
+            "entityId": "insight_Distribution_5",
+            "type": "Insight",
+            "score": 0.620486,
+            "lexicalScore": 20.406928,
+            "distance": null,
+            "hops": null
+          }
+        ]
+      }
+    }
+  }
+}

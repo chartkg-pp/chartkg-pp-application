@@ -1,0 +1,1247 @@
+{
+  "revisionId": "construction-kg-revision:group4037-year-insight-curation-v1",
+  "ontologyRef": "chartkg-plus-plus-schema:v5.1",
+  "nodes": [
+    {
+      "id": "chart",
+      "label": "chart",
+      "type": "Complex_Chart",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Complex_Chart"
+      },
+      "claimIds": [
+        "entity:chart"
+      ]
+    },
+    {
+      "id": "Journal_Articles_A-rated_reference_view",
+      "label": "reference line",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "reference_line"
+      },
+      "claimIds": [
+        "entity:Journal_Articles_A-rated_reference_view"
+      ]
+    },
+    {
+      "id": "cartesian_bar",
+      "label": "cartesian bar",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "cartesian_bar"
+      },
+      "claimIds": [
+        "entity:cartesian_bar"
+      ]
+    },
+    {
+      "id": "Journal_Articles_A-rated_reference_group",
+      "label": "Journal Articles A-rated reference group",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Line"
+      },
+      "claimIds": [
+        "entity:Journal_Articles_A-rated_reference_group"
+      ]
+    },
+    {
+      "id": "2000_Journal_Articles_A-rated_bar",
+      "label": "2000 Journal Articles A-rated bar",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar"
+      },
+      "claimIds": [
+        "entity:2000_Journal_Articles_A-rated_bar"
+      ]
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color"
+      ]
+    },
+    {
+      "id": "color_Journal_Articles_A-rated_reference_view",
+      "label": "color Journal Articles A-rated reference view",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color_Journal_Articles_A-rated_reference_view"
+      ]
+    },
+    {
+      "id": "color_Journal_Articles_not_A-rated_reference_view",
+      "label": "color Journal Articles not A-rated reference view",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color_Journal_Articles_not_A-rated_reference_view"
+      ]
+    },
+    {
+      "id": "color_Total_reference_view",
+      "label": "color Total reference view",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color_Total_reference_view"
+      ]
+    },
+    {
+      "id": "rgb_109_168_206",
+      "label": "rgb 109 168 206",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "[109,168,206]",
+        "colorName": "light blue"
+      },
+      "claimIds": [
+        "entity:rgb_109_168_206"
+      ]
+    },
+    {
+      "id": "rgb_187_187_187",
+      "label": "rgb 187 187 187",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "[187,187,187]",
+        "colorName": "light gray"
+      },
+      "claimIds": [
+        "entity:rgb_187_187_187"
+      ]
+    },
+    {
+      "id": "rgb_236_139_100",
+      "label": "rgb 236 139 100",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "[236,139,100]",
+        "colorName": "salmon orange"
+      },
+      "claimIds": [
+        "entity:rgb_236_139_100"
+      ]
+    },
+    {
+      "id": "#Articles",
+      "label": "#Articles",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "#Articles",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:#Articles"
+      ]
+    },
+    {
+      "id": "Article_category",
+      "label": "Article category",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Article category",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "Year",
+      "label": "Year",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Year",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Year"
+      ]
+    },
+    {
+      "id": "2000",
+      "label": "2000",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "2000"
+      },
+      "claimIds": [
+        "entity:2000"
+      ]
+    },
+    {
+      "id": "2001",
+      "label": "2001",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "2001"
+      },
+      "claimIds": [
+        "entity:2001"
+      ]
+    },
+    {
+      "id": "2002",
+      "label": "2002",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "2002"
+      },
+      "claimIds": [
+        "entity:2002"
+      ]
+    },
+    {
+      "id": "2003",
+      "label": "2003",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "2003"
+      },
+      "claimIds": [
+        "entity:2003"
+      ]
+    },
+    {
+      "id": "2004",
+      "label": "2004",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "2004"
+      },
+      "claimIds": [
+        "entity:2004"
+      ]
+    },
+    {
+      "id": "2005",
+      "label": "2005",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "2005"
+      },
+      "claimIds": [
+        "entity:2005"
+      ]
+    },
+    {
+      "id": "Journal_Articles_A-rated",
+      "label": "Journal Articles A-rated",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Journal Articles A-rated"
+      },
+      "claimIds": [
+        "entity:Journal_Articles_A-rated"
+      ]
+    },
+    {
+      "id": "Journal_Articles_not_A-rated",
+      "label": "Journal Articles not A-rated",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Journal Articles not A-rated"
+      },
+      "claimIds": [
+        "entity:Journal_Articles_not_A-rated"
+      ]
+    },
+    {
+      "id": "Total",
+      "label": "Total",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Total"
+      },
+      "claimIds": [
+        "entity:Total"
+      ]
+    },
+    {
+      "id": "Composition_11",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2000, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2000_Journal_Articles_A-rated_bar\",\"2000_Journal_Articles_not_A-rated_bar\",\"2000_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_11"
+      ]
+    },
+    {
+      "id": "Composition_12",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2001, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2001_Journal_Articles_A-rated_bar\",\"2001_Journal_Articles_not_A-rated_bar\",\"2001_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_12"
+      ]
+    },
+    {
+      "id": "Composition_13",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2002, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2002_Journal_Articles_A-rated_bar\",\"2002_Journal_Articles_not_A-rated_bar\",\"2002_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_13"
+      ]
+    },
+    {
+      "id": "Composition_14",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2003, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2003_Journal_Articles_A-rated_bar\",\"2003_Journal_Articles_not_A-rated_bar\",\"2003_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_14"
+      ]
+    },
+    {
+      "id": "Composition_15",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2004, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2004_Journal_Articles_A-rated_bar\",\"2004_Journal_Articles_not_A-rated_bar\",\"2004_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_15"
+      ]
+    },
+    {
+      "id": "Composition_16",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2005, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2005_Journal_Articles_A-rated_bar\",\"2005_Journal_Articles_not_A-rated_bar\",\"2005_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_16"
+      ]
+    },
+    {
+      "id": "Composition_17",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2006, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2006_Journal_Articles_A-rated_bar\",\"2006_Journal_Articles_not_A-rated_bar\",\"2006_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_17"
+      ]
+    },
+    {
+      "id": "Composition_18",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2007, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2007_Journal_Articles_A-rated_bar\",\"2007_Journal_Articles_not_A-rated_bar\",\"2007_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_18"
+      ]
+    },
+    {
+      "id": "Composition_19",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2008, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2008_Journal_Articles_A-rated_bar\",\"2008_Journal_Articles_not_A-rated_bar\",\"2008_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_19"
+      ]
+    },
+    {
+      "id": "Composition_20",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2009, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2009_Journal_Articles_A-rated_bar\",\"2009_Journal_Articles_not_A-rated_bar\",\"2009_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_20"
+      ]
+    },
+    {
+      "id": "Composition_21",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2010, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2010_Journal_Articles_A-rated_bar\",\"2010_Journal_Articles_not_A-rated_bar\",\"2010_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_21"
+      ]
+    },
+    {
+      "id": "Composition_22",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2011, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2011_Journal_Articles_A-rated_bar\",\"2011_Journal_Articles_not_A-rated_bar\",\"2011_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_22"
+      ]
+    },
+    {
+      "id": "Composition_23",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "For 2012, the selected analytical scope contains the Journal Articles A-rated, Journal Articles not A-rated, and Total bars under the same yearly category structure.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"2012_Journal_Articles_A-rated_bar\",\"2012_Journal_Articles_not_A-rated_bar\",\"2012_Total_bar\"]"
+      },
+      "claimIds": [
+        "entity:Composition_23"
+      ]
+    },
+    {
+      "id": "Similarity_3",
+      "label": "Similarity: SimilarComposition",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "commonFeature": "Every yearly scope contains the same three category roles: Journal Articles A-rated, Journal Articles not A-rated, and Total.",
+        "comparisonFamily": "Composition",
+        "comparisonFeature": "component_structure",
+        "description": "Across 2000–2015, all yearly analytical scopes share the same category structure: one A-rated bar, one not-A-rated bar, and one Total bar.",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "patternType": "Similarity",
+        "subtype": "SimilarComposition"
+      },
+      "claimIds": [
+        "entity:Similarity_3"
+      ]
+    },
+    {
+      "id": "insight_Comparison_1",
+      "label": "Comparison 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Journal_Articles_A-rated\",\"variable\":\"Article_category\"},{\"valueRef\":\"Journal_Articles_not_A-rated\",\"variable\":\"Article_category\"},{\"valueRef\":\"Total\",\"variable\":\"Ar…",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "Among the compared Journal Articles A-rated, Journal Articles not A-rated, and Total categories, Total has the highest maximum #Articles value."
+      },
+      "claimIds": [
+        "entity:insight_Comparison_1"
+      ]
+    },
+    {
+      "id": "insight_Comparison_2",
+      "label": "Comparison 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Journal_Articles_A-rated\",\"variable\":\"Article_category\"},{\"valueRef\":\"Journal_Articles_not_A-rated\",\"variable\":\"Article_category\"},{\"valueRef\":\"Total\",\"variable\":\"Ar…",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "The minimum for each compared category occurs in 2015, and Journal Articles A-rated has the lowest minimum #Articles value among them."
+      },
+      "claimIds": [
+        "entity:insight_Comparison_2"
+      ]
+    },
+    {
+      "id": "insight_Composition_1",
+      "label": "Composition 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "The selected range contains 48 bars spanning Journal Articles A-rated, Journal Articles not A-rated, and Total across the observed years."
+      },
+      "claimIds": [
+        "entity:insight_Composition_1"
+      ]
+    },
+    {
+      "id": "insight_Composition_10",
+      "label": "Composition 10",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Total\",\"variable\":\"Article_category\"}]",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "The selected Total range consists of the yearly Total bars from 2000 through 2015 together with the Total reference line."
+      },
+      "claimIds": [
+        "entity:insight_Composition_10"
+      ]
+    },
+    {
+      "id": "insight_Composition_11",
+      "label": "Composition 11",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"2000\",\"variable\":\"Year\"}]",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "For 2000, the selected analytical scope contains one Journal Articles A-rated bar, one Journal Articles not A-rated bar, and one Total bar under the same yearly category structure."
+      },
+      "claimIds": [
+        "entity:insight_Composition_11"
+      ]
+    },
+    {
+      "id": "insight_Composition_12",
+      "label": "Composition 12",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"2001\",\"variable\":\"Year\"}]",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "For 2001, the selected analytical scope contains one Journal Articles A-rated bar, one Journal Articles not A-rated bar, and one Total bar under the same yearly category structure."
+      },
+      "claimIds": [
+        "entity:insight_Composition_12"
+      ]
+    },
+    {
+      "id": "insight_Composition_13",
+      "label": "Composition 13",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"2002\",\"variable\":\"Year\"}]",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "For 2002, the selected analytical scope contains one Journal Articles A-rated bar, one Journal Articles not A-rated bar, and one Total bar under the same yearly category structure."
+      },
+      "claimIds": [
+        "entity:insight_Composition_13"
+      ]
+    },
+    {
+      "id": "insight_Composition_14",
+      "label": "Composition 14",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"2003\",\"variable\":\"Year\"}]",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "For 2003, the selected analytical scope contains one Journal Articles A-rated bar, one Journal Articles not A-rated bar, and one Total bar under the same yearly category structure."
+      },
+      "claimIds": [
+        "entity:insight_Composition_14"
+      ]
+    },
+    {
+      "id": "insight_Similarity_3",
+      "label": "Similarity 3",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "measure": "[{\"variable\":\"#Articles\"}]",
+        "statement": "Across 2000–2015, every yearly analytical scope uses the same three category roles: Journal Articles A-rated, Journal Articles not A-rated, and Total. This states shared structure…"
+      },
+      "claimIds": [
+        "entity:insight_Similarity_3"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_COMPOSED_WITH",
+      "source": "2000_Journal_Articles_A-rated_bar",
+      "target": "Journal_Articles_A-rated_reference_view",
+      "relation": "COMPOSED_WITH",
+      "claimIds": [
+        "relation:COMPOSED_WITH:2000_Journal_Articles_A-rated_bar:Journal_Articles_A-rated_reference_view",
+        "entity:2000_Journal_Articles_A-rated_bar",
+        "entity:Journal_Articles_A-rated_reference_view"
+      ]
+    },
+    {
+      "id": "edge_48_COMPOSED_WITH",
+      "source": "cartesian_bar",
+      "target": "Journal_Articles_A-rated_reference_view",
+      "relation": "COMPOSED_WITH",
+      "claimIds": [
+        "relation:COMPOSED_WITH:cartesian_bar:Journal_Articles_A-rated_reference_view",
+        "entity:cartesian_bar",
+        "entity:Journal_Articles_A-rated_reference_view"
+      ]
+    },
+    {
+      "id": "edge_51_HAS_VIEW",
+      "source": "chart",
+      "target": "Journal_Articles_A-rated_reference_view",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:Journal_Articles_A-rated_reference_view",
+        "entity:chart",
+        "entity:Journal_Articles_A-rated_reference_view"
+      ]
+    },
+    {
+      "id": "edge_54_HAS_VIEW",
+      "source": "chart",
+      "target": "cartesian_bar",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:cartesian_bar",
+        "entity:chart",
+        "entity:cartesian_bar"
+      ]
+    },
+    {
+      "id": "edge_61_COMPOSED_OF",
+      "source": "Journal_Articles_A-rated_reference_view",
+      "target": "Journal_Articles_A-rated_reference_group",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Journal_Articles_A-rated_reference_view:Journal_Articles_A-rated_reference_group",
+        "entity:Journal_Articles_A-rated_reference_view",
+        "entity:Journal_Articles_A-rated_reference_group"
+      ]
+    },
+    {
+      "id": "edge_68_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_11",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_11",
+        "entity:Similarity_3",
+        "entity:Composition_11"
+      ]
+    },
+    {
+      "id": "edge_69_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_12",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_12",
+        "entity:Similarity_3",
+        "entity:Composition_12"
+      ]
+    },
+    {
+      "id": "edge_70_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_13",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_13",
+        "entity:Similarity_3",
+        "entity:Composition_13"
+      ]
+    },
+    {
+      "id": "edge_71_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_14",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_14",
+        "entity:Similarity_3",
+        "entity:Composition_14"
+      ]
+    },
+    {
+      "id": "edge_72_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_15",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_15",
+        "entity:Similarity_3",
+        "entity:Composition_15"
+      ]
+    },
+    {
+      "id": "edge_73_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_16",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_16",
+        "entity:Similarity_3",
+        "entity:Composition_16"
+      ]
+    },
+    {
+      "id": "edge_74_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_17",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_17",
+        "entity:Similarity_3",
+        "entity:Composition_17"
+      ]
+    },
+    {
+      "id": "edge_75_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_18",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_18",
+        "entity:Similarity_3",
+        "entity:Composition_18"
+      ]
+    },
+    {
+      "id": "edge_76_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_19",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_19",
+        "entity:Similarity_3",
+        "entity:Composition_19"
+      ]
+    },
+    {
+      "id": "edge_77_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_20",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_20",
+        "entity:Similarity_3",
+        "entity:Composition_20"
+      ]
+    },
+    {
+      "id": "edge_78_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_21",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_21",
+        "entity:Similarity_3",
+        "entity:Composition_21"
+      ]
+    },
+    {
+      "id": "edge_79_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_22",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_22",
+        "entity:Similarity_3",
+        "entity:Composition_22"
+      ]
+    },
+    {
+      "id": "edge_80_COMPOSED_OF",
+      "source": "Similarity_3",
+      "target": "Composition_23",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity_3:Composition_23",
+        "entity:Similarity_3",
+        "entity:Composition_23"
+      ]
+    },
+    {
+      "id": "edge_284_HAS_VISUAL_ATTRIBUTE",
+      "source": "Journal_Articles_A-rated_reference_group",
+      "target": "color_Journal_Articles_A-rated_reference_view",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:Journal_Articles_A-rated_reference_group:color_Journal_Articles_A-rated_reference_view",
+        "entity:Journal_Articles_A-rated_reference_group",
+        "entity:color_Journal_Articles_A-rated_reference_view"
+      ]
+    },
+    {
+      "id": "edge_293_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_109_168_206",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_109_168_206",
+        "entity:color",
+        "entity:rgb_109_168_206"
+      ]
+    },
+    {
+      "id": "edge_294_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_187_187_187",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_187_187_187",
+        "entity:color",
+        "entity:rgb_187_187_187"
+      ]
+    },
+    {
+      "id": "edge_295_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_236_139_100",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_236_139_100",
+        "entity:color",
+        "entity:rgb_236_139_100"
+      ]
+    },
+    {
+      "id": "edge_296_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_Journal_Articles_A-rated_reference_view",
+      "target": "rgb_236_139_100",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_Journal_Articles_A-rated_reference_view:rgb_236_139_100",
+        "entity:color_Journal_Articles_A-rated_reference_view",
+        "entity:rgb_236_139_100"
+      ]
+    },
+    {
+      "id": "edge_297_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_Journal_Articles_not_A-rated_reference_view",
+      "target": "rgb_109_168_206",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_Journal_Articles_not_A-rated_reference_view:rgb_109_168_206",
+        "entity:color_Journal_Articles_not_A-rated_reference_view",
+        "entity:rgb_109_168_206"
+      ]
+    },
+    {
+      "id": "edge_298_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color_Total_reference_view",
+      "target": "rgb_187_187_187",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color_Total_reference_view:rgb_187_187_187",
+        "entity:color_Total_reference_view",
+        "entity:rgb_187_187_187"
+      ]
+    },
+    {
+      "id": "edge_331_ENCODES",
+      "source": "color",
+      "target": "Article_category",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color:Article_category",
+        "entity:color",
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "edge_332_ENCODES",
+      "source": "color_Journal_Articles_A-rated_reference_view",
+      "target": "Article_category",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color_Journal_Articles_A-rated_reference_view:Article_category",
+        "entity:color_Journal_Articles_A-rated_reference_view",
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "edge_333_ENCODES",
+      "source": "color_Journal_Articles_not_A-rated_reference_view",
+      "target": "Article_category",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color_Journal_Articles_not_A-rated_reference_view:Article_category",
+        "entity:color_Journal_Articles_not_A-rated_reference_view",
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "edge_334_ENCODES",
+      "source": "color_Total_reference_view",
+      "target": "Article_category",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color_Total_reference_view:Article_category",
+        "entity:color_Total_reference_view",
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "edge_336_ENCODES",
+      "source": "rgb_109_168_206",
+      "target": "Journal_Articles_not_A-rated",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_109_168_206:Journal_Articles_not_A-rated",
+        "entity:rgb_109_168_206",
+        "entity:Journal_Articles_not_A-rated"
+      ]
+    },
+    {
+      "id": "edge_337_ENCODES",
+      "source": "rgb_187_187_187",
+      "target": "Total",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_187_187_187:Total",
+        "entity:rgb_187_187_187",
+        "entity:Total"
+      ]
+    },
+    {
+      "id": "edge_338_ENCODES",
+      "source": "rgb_236_139_100",
+      "target": "Journal_Articles_A-rated",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_236_139_100:Journal_Articles_A-rated",
+        "entity:rgb_236_139_100",
+        "entity:Journal_Articles_A-rated"
+      ]
+    },
+    {
+      "id": "edge_343_VALUE_OF",
+      "source": "2000",
+      "target": "Year",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2000:Year",
+        "entity:2000",
+        "entity:Year"
+      ]
+    },
+    {
+      "id": "edge_344_VALUE_OF",
+      "source": "2000_Journal_Articles_A-rated_bar",
+      "target": "#Articles",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2000_Journal_Articles_A-rated_bar:#Articles",
+        "entity:2000_Journal_Articles_A-rated_bar",
+        "entity:#Articles"
+      ]
+    },
+    {
+      "id": "edge_345_VALUE_OF",
+      "source": "2000_Journal_Articles_A-rated_bar",
+      "target": "2000",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2000_Journal_Articles_A-rated_bar:2000",
+        "entity:2000_Journal_Articles_A-rated_bar",
+        "entity:2000"
+      ]
+    },
+    {
+      "id": "edge_346_VALUE_OF",
+      "source": "2000_Journal_Articles_A-rated_bar",
+      "target": "Journal_Articles_A-rated",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2000_Journal_Articles_A-rated_bar:Journal_Articles_A-rated",
+        "entity:2000_Journal_Articles_A-rated_bar",
+        "entity:Journal_Articles_A-rated"
+      ]
+    },
+    {
+      "id": "edge_353_VALUE_OF",
+      "source": "2001",
+      "target": "Year",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2001:Year",
+        "entity:2001",
+        "entity:Year"
+      ]
+    },
+    {
+      "id": "edge_363_VALUE_OF",
+      "source": "2002",
+      "target": "Year",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2002:Year",
+        "entity:2002",
+        "entity:Year"
+      ]
+    },
+    {
+      "id": "edge_373_VALUE_OF",
+      "source": "2003",
+      "target": "Year",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2003:Year",
+        "entity:2003",
+        "entity:Year"
+      ]
+    },
+    {
+      "id": "edge_383_VALUE_OF",
+      "source": "2004",
+      "target": "Year",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2004:Year",
+        "entity:2004",
+        "entity:Year"
+      ]
+    },
+    {
+      "id": "edge_393_VALUE_OF",
+      "source": "2005",
+      "target": "Year",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:2005:Year",
+        "entity:2005",
+        "entity:Year"
+      ]
+    },
+    {
+      "id": "edge_503_VALUE_OF",
+      "source": "Journal_Articles_A-rated",
+      "target": "Article_category",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Journal_Articles_A-rated:Article_category",
+        "entity:Journal_Articles_A-rated",
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "edge_506_VALUE_OF",
+      "source": "Journal_Articles_not_A-rated",
+      "target": "Article_category",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Journal_Articles_not_A-rated:Article_category",
+        "entity:Journal_Articles_not_A-rated",
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "edge_509_VALUE_OF",
+      "source": "Total",
+      "target": "Article_category",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Total:Article_category",
+        "entity:Total",
+        "entity:Article_category"
+      ]
+    },
+    {
+      "id": "edge_557_DERIVED_FROM",
+      "source": "insight_Composition_11",
+      "target": "Composition_11",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_11:Composition_11",
+        "entity:insight_Composition_11",
+        "entity:Composition_11"
+      ]
+    },
+    {
+      "id": "edge_558_DERIVED_FROM",
+      "source": "insight_Composition_12",
+      "target": "Composition_12",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_12:Composition_12",
+        "entity:insight_Composition_12",
+        "entity:Composition_12"
+      ]
+    },
+    {
+      "id": "edge_559_DERIVED_FROM",
+      "source": "insight_Composition_13",
+      "target": "Composition_13",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_13:Composition_13",
+        "entity:insight_Composition_13",
+        "entity:Composition_13"
+      ]
+    },
+    {
+      "id": "edge_560_DERIVED_FROM",
+      "source": "insight_Composition_14",
+      "target": "Composition_14",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_14:Composition_14",
+        "entity:insight_Composition_14",
+        "entity:Composition_14"
+      ]
+    },
+    {
+      "id": "edge_592_DERIVED_FROM",
+      "source": "insight_Similarity_3",
+      "target": "Similarity_3",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Similarity_3:Similarity_3",
+        "entity:insight_Similarity_3",
+        "entity:Similarity_3"
+      ]
+    }
+  ],
+  "stats": {
+    "sourceNodeCount": 228,
+    "sourceEdgeCount": 599,
+    "visibleNodeCount": 47,
+    "visibleEdgeCount": 49,
+    "verificationStatus": "unverified",
+    "runStatus": "partial",
+    "communityCount": 15,
+    "retrievalEngine": "native-graphrag-v1"
+  }
+}

@@ -1,0 +1,1202 @@
+{
+  "revisionId": "construction-kg-revision:e014882979ce20002f5c",
+  "ontologyRef": "chartkg-plus-plus-schema:v5.1",
+  "nodes": [
+    {
+      "id": "chart",
+      "label": "chart",
+      "type": "Complex_Chart",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Complex_Chart"
+      },
+      "claimIds": [
+        "entity:chart"
+      ]
+    },
+    {
+      "id": "cartesian_bar",
+      "label": "cartesian bar",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "cartesian_bar"
+      },
+      "claimIds": [
+        "entity:cartesian_bar"
+      ]
+    },
+    {
+      "id": "bar_group",
+      "label": "bar group",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Bar"
+      },
+      "claimIds": [
+        "entity:bar_group"
+      ]
+    },
+    {
+      "id": "bar_1",
+      "label": "bar 1",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar"
+      },
+      "claimIds": [
+        "entity:bar_1"
+      ]
+    },
+    {
+      "id": "bar_10",
+      "label": "bar 10",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar"
+      },
+      "claimIds": [
+        "entity:bar_10"
+      ]
+    },
+    {
+      "id": "bar_11",
+      "label": "bar 11",
+      "type": "Graphical_Mark",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark",
+        "markType": "Bar"
+      },
+      "claimIds": [
+        "entity:bar_11"
+      ]
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color"
+      ]
+    },
+    {
+      "id": "height",
+      "label": "height",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "height"
+      },
+      "claimIds": [
+        "entity:height"
+      ]
+    },
+    {
+      "id": "text_label",
+      "label": "text label",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "textLabel"
+      },
+      "claimIds": [
+        "entity:text_label"
+      ]
+    },
+    {
+      "id": "rgb_136_207_227",
+      "label": "rgb 136 207 227",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[136,207,227],\"kind\":\"color\"}",
+        "colorName": "light blue"
+      },
+      "claimIds": [
+        "entity:rgb_136_207_227"
+      ]
+    },
+    {
+      "id": "rgb_231_86_34",
+      "label": "rgb 231 86 34",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[231,86,34],\"kind\":\"color\"}",
+        "colorName": "orange"
+      },
+      "claimIds": [
+        "entity:rgb_231_86_34"
+      ]
+    },
+    {
+      "id": "rgb_248_173_0",
+      "label": "rgb 248 173 0",
+      "type": "Visual_Attribute_Value",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute_Value",
+        "value": "{\"fill_rgb\":[248,173,0],\"kind\":\"color\"}",
+        "colorName": "golden yellow"
+      },
+      "claimIds": [
+        "entity:rgb_248_173_0"
+      ]
+    },
+    {
+      "id": "Building",
+      "label": "Building",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Building",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Building"
+      ]
+    },
+    {
+      "id": "Height",
+      "label": "Height",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Height",
+        "unit": "m",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Height"
+      ]
+    },
+    {
+      "id": "Region",
+      "label": "Region",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Region",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "*Burj_Khalifa*",
+      "label": "*Burj Khalifa*",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "*Burj Khalifa*"
+      },
+      "claimIds": [
+        "entity:*Burj_Khalifa*"
+      ]
+    },
+    {
+      "id": "*Taipei_101*",
+      "label": "*Taipei 101*",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "*Taipei 101*"
+      },
+      "claimIds": [
+        "entity:*Taipei_101*"
+      ]
+    },
+    {
+      "id": "Abraj_Al-Bait_Clock_Tower",
+      "label": "Abraj Al-Bait Clock Tower",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Abraj Al-Bait Clock Tower"
+      },
+      "claimIds": [
+        "entity:Abraj_Al-Bait_Clock_Tower"
+      ]
+    },
+    {
+      "id": "Asia",
+      "label": "Asia",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Asia"
+      },
+      "claimIds": [
+        "entity:Asia"
+      ]
+    },
+    {
+      "id": "Central_Park_Tower",
+      "label": "Central Park Tower",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Central Park Tower"
+      },
+      "claimIds": [
+        "entity:Central_Park_Tower"
+      ]
+    },
+    {
+      "id": "China_Zun",
+      "label": "China Zun",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "China Zun"
+      },
+      "claimIds": [
+        "entity:China_Zun"
+      ]
+    },
+    {
+      "id": "Europe",
+      "label": "Europe",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Europe"
+      },
+      "claimIds": [
+        "entity:Europe"
+      ]
+    },
+    {
+      "id": "Guangzhou_CTF_Finance_Center_Finance_Center",
+      "label": "Guangzhou CTF Finance Center Finance Center",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Guangzhou CTF Finance Center Finance Center"
+      },
+      "claimIds": [
+        "entity:Guangzhou_CTF_Finance_Center_Finance_Center"
+      ]
+    },
+    {
+      "id": "North_America",
+      "label": "North America",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "North America"
+      },
+      "claimIds": [
+        "entity:North_America"
+      ]
+    },
+    {
+      "id": "Composition",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: bar_12.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_12\"]"
+      },
+      "claimIds": [
+        "entity:Composition"
+      ]
+    },
+    {
+      "id": "Composition_10",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: bar_1.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_1\"]"
+      },
+      "claimIds": [
+        "entity:Composition_10"
+      ]
+    },
+    {
+      "id": "Composition_11",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: bar_7.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_7\"]"
+      },
+      "claimIds": [
+        "entity:Composition_11"
+      ]
+    },
+    {
+      "id": "Composition_12",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 1 marks: bar_9.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_9\"]"
+      },
+      "claimIds": [
+        "entity:Composition_12"
+      ]
+    },
+    {
+      "id": "Composition_13",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 12 marks: bar_1, bar_10, bar_11, bar_12, bar_15, bar_2, bar_3, bar_4, bar_5, bar_7, bar_8, bar_9.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_1\",\"bar_10\",\"bar_11\",\"bar_12\",\"bar_15\",\"bar_2\",\"bar_3\",\"bar_4\",\"bar_5\",\"bar_7\",\"bar_8\",\"bar_9\"]"
+      },
+      "claimIds": [
+        "entity:Composition_13"
+      ]
+    },
+    {
+      "id": "Composition_14",
+      "label": "Composition: Composition",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The range consists of 15 marks: bar_1, bar_10, bar_11, bar_12, bar_13, bar_14, bar_15, bar_2, bar_3, bar_4, bar_5, bar_6, bar_7, bar_8, bar_9.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Composition",
+        "subtype": "Composition",
+        "supportMemberRefs": "[\"bar_1\",\"bar_10\",\"bar_11\",\"bar_12\",\"bar_13\",\"bar_14\",\"bar_15\",\"bar_2\",\"bar_3\",\"bar_4\",\"bar_5\",\"bar_6\",\"bar_7\",\"bar_8\",\"bar_9\"]"
+      },
+      "claimIds": [
+        "entity:Composition_14"
+      ]
+    },
+    {
+      "id": "Extreme_15",
+      "label": "Extreme: Minimum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Central Park Tower (bar_13) has the minimum Height in this BAS.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": "[\"bar_13\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_15"
+      ]
+    },
+    {
+      "id": "Extreme_28",
+      "label": "Extreme: Minimum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "bar_15 (Landmark 81) represents the minimum height among all Asian buildings in this scope.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": "[\"bar_15\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_28"
+      ]
+    },
+    {
+      "id": "Extreme_6",
+      "label": "Extreme: Minimum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "bar_14 (Lakhta Center) exhibits the minimum bar height within the Europe category analytical scope.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": "[\"bar_14\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_6"
+      ]
+    },
+    {
+      "id": "Comparison",
+      "label": "Comparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "bas_all_cartesian_bar_bar_group",
+        "description": "Across the regional scopes of Asia, North America, and Europe, Asia exhibits the greatest maximum bar height.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:Comparison"
+      ]
+    },
+    {
+      "id": "Comparison_2",
+      "label": "Comparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "Comparing the maximum height patterns across the building scopes, Burj Khalifa displays the greatest visible bar height.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": "[\"Extreme_17\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_2"
+      ]
+    },
+    {
+      "id": "Comparison_4",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "Comparing the regional minimum heights, Asia's minimum building (Landmark 81) is lower than the minimum buildings of Europe (Lakhta Center) and North America (Central Park Tower).",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": "[\"Extreme_28\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_4"
+      ]
+    },
+    {
+      "id": "Comparison_5",
+      "label": "Comparison: MinimumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "Comparing the minimum height patterns across the building scopes, Landmark 81 displays the lowest visible bar height.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": "[\"Extreme_34\"]"
+      },
+      "claimIds": [
+        "entity:Comparison_5"
+      ]
+    },
+    {
+      "id": "Similarity",
+      "label": "Similarity: SimilarComposition",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "commonFeature": "single bar mark structure",
+        "comparisonFamily": "Composition",
+        "comparisonFeature": "component_structure",
+        "description": "Across all fourteen available building scopes, each analytical scope consists of a single bar mark representing the building's height.",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "patternType": "Similarity",
+        "subtype": "SimilarComposition"
+      },
+      "claimIds": [
+        "entity:Similarity"
+      ]
+    },
+    {
+      "id": "insight_Comparison_2",
+      "label": "Comparison 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"*Burj_Khalifa*\",\"variable\":\"Building\"},{\"valueRef\":\"*Taipei_101*\",\"variable\":\"Building\"},{\"valueRef\":\"Abraj_Al-Bait_Clock_Tower\",\"variable\":\"Building\"},{\"valueRef\":\"…",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "Among the compared buildings, *Burj Khalifa* attains the highest maximum Height at 828.0 m, exceeding the peak heights observed for Abraj Al-Bait Clock Tower (601.0 m), Ping An Fi…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_2"
+      ]
+    },
+    {
+      "id": "insight_Comparison_3",
+      "label": "Comparison 3",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Central_Park_Tower\",\"variable\":\"Building\"},{\"valueRef\":\"Lakhta_Center\",\"variable\":\"Building\"},{\"valueRef\":\"Landmark_81\",\"variable\":\"Building\"},{\"valueRef\":\"Asia\",\"va…",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "Among the compared regions, Asia has the lowest minimum Height with Landmark 81 at 461.0 m, compared to Europe's minimum of 462.0 m for Lakhta Center and North America's minimum o…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_3"
+      ]
+    },
+    {
+      "id": "insight_Comparison_4",
+      "label": "Comparison 4",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"*Burj_Khalifa*\",\"variable\":\"Building\"},{\"valueRef\":\"*Taipei_101*\",\"variable\":\"Building\"},{\"valueRef\":\"Abraj_Al-Bait_Clock_Tower\",\"variable\":\"Building\"},{\"valueRef\":\"…",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "Among the compared building scopes, Landmark 81 has the lowest minimum Height at 461.0 m, below Lakhta Center (462.0 m), Central Park Tower (472.0 m), International Commerce Centr…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_4"
+      ]
+    },
+    {
+      "id": "insight_Composition_1",
+      "label": "Composition 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Central_Park_Tower\",\"variable\":\"Building\"},{\"valueRef\":\"North_America\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "For Central Park Tower in the North America region, the composition consists of a single bar representing a Height of 472.0 m."
+      },
+      "claimIds": [
+        "entity:insight_Composition_1"
+      ]
+    },
+    {
+      "id": "insight_Composition_10",
+      "label": "Composition 10",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "The observed range consists of fifteen buildings: *Burj Khalifa*, Shanghai Tower, Abraj Al-Bait Clock Tower, Ping An Finance Center, Lotte World Tower, One World Trade Center, Gua…"
+      },
+      "claimIds": [
+        "entity:insight_Composition_10"
+      ]
+    },
+    {
+      "id": "insight_Composition_11",
+      "label": "Composition 11",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Shanghai_World_Financial_Center\",\"variable\":\"Building\"},{\"valueRef\":\"Asia\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "For the Shanghai World Financial Center in the Asia region, the observed entry consists of a single mark with a Height of 492.0 m."
+      },
+      "claimIds": [
+        "entity:insight_Composition_11"
+      ]
+    },
+    {
+      "id": "insight_Composition_12",
+      "label": "Composition 12",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"*Burj_Khalifa*\",\"variable\":\"Building\"},{\"valueRef\":\"*Taipei_101*\",\"variable\":\"Building\"},{\"valueRef\":\"Abraj_Al-Bait_Clock_Tower\",\"variable\":\"Building\"},{\"valueRef\":\"…",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "Within the Asia region, the observed selection is composed of twelve buildings: *Burj Khalifa*, Shanghai Tower, Abraj Al-Bait Clock Tower, Ping An Finance Center, Lotte World Towe…"
+      },
+      "claimIds": [
+        "entity:insight_Composition_12"
+      ]
+    },
+    {
+      "id": "insight_Composition_13",
+      "label": "Composition 13",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Guangzhou_CTF_Finance_Center_Finance_Center\",\"variable\":\"Building\"},{\"valueRef\":\"Asia\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "For Guangzhou CTF Finance Center Finance Center in Asia, the observed composition is constituted by a single bar mark with a Height of 530.0 m."
+      },
+      "claimIds": [
+        "entity:insight_Composition_13"
+      ]
+    },
+    {
+      "id": "insight_Composition_14",
+      "label": "Composition 14",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Lakhta_Center\",\"variable\":\"Building\"},{\"valueRef\":\"Europe\",\"variable\":\"Region\"}]",
+        "measure": "[{\"variable\":\"Height\"}]",
+        "statement": "For the Building Lakhta Center in the Europe region, the group is composed of a single element with a Height of 462.0 m."
+      },
+      "claimIds": [
+        "entity:insight_Composition_14"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_HAS_VIEW",
+      "source": "chart",
+      "target": "cartesian_bar",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:cartesian_bar",
+        "entity:chart",
+        "entity:cartesian_bar"
+      ]
+    },
+    {
+      "id": "edge_18_COMPOSED_OF",
+      "source": "Comparison_4",
+      "target": "Extreme_15",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Comparison_4:Extreme_15",
+        "entity:Comparison_4",
+        "entity:Extreme_15"
+      ]
+    },
+    {
+      "id": "edge_19_COMPOSED_OF",
+      "source": "Comparison_4",
+      "target": "Extreme_28",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Comparison_4:Extreme_28",
+        "entity:Comparison_4",
+        "entity:Extreme_28"
+      ]
+    },
+    {
+      "id": "edge_20_COMPOSED_OF",
+      "source": "Comparison_4",
+      "target": "Extreme_6",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Comparison_4:Extreme_6",
+        "entity:Comparison_4",
+        "entity:Extreme_6"
+      ]
+    },
+    {
+      "id": "edge_35_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Composition",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Composition",
+        "entity:Similarity",
+        "entity:Composition"
+      ]
+    },
+    {
+      "id": "edge_36_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Composition_10",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Composition_10",
+        "entity:Similarity",
+        "entity:Composition_10"
+      ]
+    },
+    {
+      "id": "edge_37_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Composition_11",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Composition_11",
+        "entity:Similarity",
+        "entity:Composition_11"
+      ]
+    },
+    {
+      "id": "edge_38_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Composition_12",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Composition_12",
+        "entity:Similarity",
+        "entity:Composition_12"
+      ]
+    },
+    {
+      "id": "edge_94_COMPOSED_OF",
+      "source": "cartesian_bar",
+      "target": "bar_group",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:cartesian_bar:bar_group",
+        "entity:cartesian_bar",
+        "entity:bar_group"
+      ]
+    },
+    {
+      "id": "edge_95_HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "color",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color",
+        "entity:bar_group",
+        "entity:color"
+      ]
+    },
+    {
+      "id": "edge_96_HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "height",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+        "entity:bar_group",
+        "entity:height"
+      ]
+    },
+    {
+      "id": "edge_98_HAS_ANNOTATION",
+      "source": "bar_group",
+      "target": "text_label",
+      "relation": "HAS_ANNOTATION",
+      "claimIds": [
+        "relation:HAS_ANNOTATION:bar_group:text_label",
+        "entity:bar_group",
+        "entity:text_label"
+      ]
+    },
+    {
+      "id": "edge_99_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_136_207_227",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_136_207_227",
+        "entity:color",
+        "entity:rgb_136_207_227"
+      ]
+    },
+    {
+      "id": "edge_100_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_231_86_34",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_231_86_34",
+        "entity:color",
+        "entity:rgb_231_86_34"
+      ]
+    },
+    {
+      "id": "edge_101_HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_248_173_0",
+      "relation": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_248_173_0",
+        "entity:color",
+        "entity:rgb_248_173_0"
+      ]
+    },
+    {
+      "id": "edge_132_ENCODES",
+      "source": "color",
+      "target": "Region",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color:Region",
+        "entity:color",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_133_ENCODES",
+      "source": "height",
+      "target": "Height",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:height:Height",
+        "entity:height",
+        "entity:Height"
+      ]
+    },
+    {
+      "id": "edge_134_ENCODES",
+      "source": "rgb_136_207_227",
+      "target": "Asia",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_136_207_227:Asia",
+        "entity:rgb_136_207_227",
+        "entity:Asia"
+      ]
+    },
+    {
+      "id": "edge_135_ENCODES",
+      "source": "rgb_231_86_34",
+      "target": "North_America",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_231_86_34:North_America",
+        "entity:rgb_231_86_34",
+        "entity:North_America"
+      ]
+    },
+    {
+      "id": "edge_136_ENCODES",
+      "source": "rgb_248_173_0",
+      "target": "Europe",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:rgb_248_173_0:Europe",
+        "entity:rgb_248_173_0",
+        "entity:Europe"
+      ]
+    },
+    {
+      "id": "edge_137_ENCODES",
+      "source": "text_label",
+      "target": "Height",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:text_label:Height",
+        "entity:text_label",
+        "entity:Height"
+      ]
+    },
+    {
+      "id": "edge_139_VALUE_OF",
+      "source": "*Burj_Khalifa*",
+      "target": "Building",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:*Burj_Khalifa*:Building",
+        "entity:*Burj_Khalifa*",
+        "entity:Building"
+      ]
+    },
+    {
+      "id": "edge_140_VALUE_OF",
+      "source": "*Taipei_101*",
+      "target": "Building",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:*Taipei_101*:Building",
+        "entity:*Taipei_101*",
+        "entity:Building"
+      ]
+    },
+    {
+      "id": "edge_141_VALUE_OF",
+      "source": "Abraj_Al-Bait_Clock_Tower",
+      "target": "Building",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Abraj_Al-Bait_Clock_Tower:Building",
+        "entity:Abraj_Al-Bait_Clock_Tower",
+        "entity:Building"
+      ]
+    },
+    {
+      "id": "edge_142_VALUE_OF",
+      "source": "Asia",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Asia:Region",
+        "entity:Asia",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_143_VALUE_OF",
+      "source": "Central_Park_Tower",
+      "target": "Building",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Central_Park_Tower:Building",
+        "entity:Central_Park_Tower",
+        "entity:Building"
+      ]
+    },
+    {
+      "id": "edge_144_VALUE_OF",
+      "source": "China_Zun",
+      "target": "Building",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:China_Zun:Building",
+        "entity:China_Zun",
+        "entity:Building"
+      ]
+    },
+    {
+      "id": "edge_145_VALUE_OF",
+      "source": "Europe",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Europe:Region",
+        "entity:Europe",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_146_VALUE_OF",
+      "source": "Guangzhou_CTF_Finance_Center_Finance_Center",
+      "target": "Building",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Guangzhou_CTF_Finance_Center_Finance_Center:Building",
+        "entity:Guangzhou_CTF_Finance_Center_Finance_Center",
+        "entity:Building"
+      ]
+    },
+    {
+      "id": "edge_151_VALUE_OF",
+      "source": "North_America",
+      "target": "Region",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:North_America:Region",
+        "entity:North_America",
+        "entity:Region"
+      ]
+    },
+    {
+      "id": "edge_157_VALUE_OF",
+      "source": "bar_1",
+      "target": "*Burj_Khalifa*",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_1:*Burj_Khalifa*",
+        "entity:bar_1",
+        "entity:*Burj_Khalifa*"
+      ]
+    },
+    {
+      "id": "edge_158_VALUE_OF",
+      "source": "bar_1",
+      "target": "Asia",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_1:Asia",
+        "entity:bar_1",
+        "entity:Asia"
+      ]
+    },
+    {
+      "id": "edge_159_VALUE_OF",
+      "source": "bar_1",
+      "target": "Height",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_1:Height",
+        "entity:bar_1",
+        "entity:Height"
+      ]
+    },
+    {
+      "id": "edge_160_VALUE_OF",
+      "source": "bar_10",
+      "target": "*Taipei_101*",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_10:*Taipei_101*",
+        "entity:bar_10",
+        "entity:*Taipei_101*"
+      ]
+    },
+    {
+      "id": "edge_161_VALUE_OF",
+      "source": "bar_10",
+      "target": "Asia",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_10:Asia",
+        "entity:bar_10",
+        "entity:Asia"
+      ]
+    },
+    {
+      "id": "edge_162_VALUE_OF",
+      "source": "bar_10",
+      "target": "Height",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_10:Height",
+        "entity:bar_10",
+        "entity:Height"
+      ]
+    },
+    {
+      "id": "edge_163_VALUE_OF",
+      "source": "bar_11",
+      "target": "Asia",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_11:Asia",
+        "entity:bar_11",
+        "entity:Asia"
+      ]
+    },
+    {
+      "id": "edge_164_VALUE_OF",
+      "source": "bar_11",
+      "target": "Height",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:bar_11:Height",
+        "entity:bar_11",
+        "entity:Height"
+      ]
+    },
+    {
+      "id": "edge_260_DERIVED_FROM",
+      "source": "insight_Comparison_2",
+      "target": "Comparison_2",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2",
+        "entity:insight_Comparison_2",
+        "entity:Comparison_2"
+      ]
+    },
+    {
+      "id": "edge_261_DERIVED_FROM",
+      "source": "insight_Comparison_3",
+      "target": "Comparison_4",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_3:Comparison_4",
+        "entity:insight_Comparison_3",
+        "entity:Comparison_4"
+      ]
+    },
+    {
+      "id": "edge_262_DERIVED_FROM",
+      "source": "insight_Comparison_4",
+      "target": "Comparison_5",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Comparison_4:Comparison_5",
+        "entity:insight_Comparison_4",
+        "entity:Comparison_5"
+      ]
+    },
+    {
+      "id": "edge_264_DERIVED_FROM",
+      "source": "insight_Composition_10",
+      "target": "Composition_14",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_10:Composition_14",
+        "entity:insight_Composition_10",
+        "entity:Composition_14"
+      ]
+    },
+    {
+      "id": "edge_266_DERIVED_FROM",
+      "source": "insight_Composition_12",
+      "target": "Composition_13",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_12:Composition_13",
+        "entity:insight_Composition_12",
+        "entity:Composition_13"
+      ]
+    },
+    {
+      "id": "edge_267_DERIVED_FROM",
+      "source": "insight_Composition_13",
+      "target": "Composition_11",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Composition_13:Composition_11",
+        "entity:insight_Composition_13",
+        "entity:Composition_11"
+      ]
+    }
+  ],
+  "stats": {
+    "sourceNodeCount": 204,
+    "sourceEdgeCount": 322,
+    "visibleNodeCount": 47,
+    "visibleEdgeCount": 44,
+    "verificationStatus": "unverified",
+    "runStatus": "partial",
+    "communityCount": 11,
+    "retrievalEngine": "native-graphrag-v1"
+  }
+}

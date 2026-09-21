@@ -5,8 +5,11 @@ export interface GraphRagManifestEntry {
   title: string
   filename: string
   image: string
-  kg: string
-  qa: string
+  graph: string
+  summary: string
+  citations: string
+  evidence: string
+  qa?: string
   width: number
   height: number
   sha256: string
@@ -20,6 +23,11 @@ export interface PaManifestMode {
   option?: string
   assessment?: string
   report: string
+  evaluation?: {
+    kg: string
+    nodes: string
+    relations: string
+  }
   width: number
   height: number
   sha256: string

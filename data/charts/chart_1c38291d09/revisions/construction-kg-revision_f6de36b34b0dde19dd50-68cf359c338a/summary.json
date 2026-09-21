@@ -1,0 +1,91 @@
+{
+  "id": "summary_construction-kg-revision:f6de36b34b0dde19dd50",
+  "revisionId": "construction-kg-revision:f6de36b34b0dde19dd50",
+  "sentences": [
+    {
+      "id": "ss1",
+      "layer": "S1",
+      "text": "The chart has an “other” view containing a group of rectangular marks, with color encoding the categorical variable Region. Cyan blue represents Asia Pacific, golden orange Australasia, green Eastern Europe, berry Latin America, bright magenta Middle East and Africa, orange North America, and dark teal blue Western Europe.",
+      "citations": [
+        "G25",
+        "G34",
+        "G35",
+        "G37",
+        "G40",
+        "G38",
+        "G39",
+        "G41",
+        "G42",
+        "G43",
+        "G17"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss2",
+      "layer": "S2",
+      "text": "The observed set contains 101 rectangular marks across seven Region categories: Asia Pacific 35, Western Europe 29, Middle East and Africa 13, North America 9, Eastern Europe 7, Latin America 6, and Australasia 2.",
+      "citations": [
+        "G17",
+        "G18",
+        "G24",
+        "G22",
+        "G23",
+        "G20",
+        "G21",
+        "G19",
+        "G12",
+        "G11",
+        "G13",
+        "G15",
+        "G9",
+        "G16",
+        "G14",
+        "G10"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss3",
+      "layer": "S3",
+      "text": "Across the global scope of 101 marks, Asia Pacific has the largest regional composition at 35 marks, followed by Western Europe at 29; Australasia is the smallest at 2. The remaining regional scopes range from 6 marks for Latin America to 13 for Middle East and Africa.",
+      "citations": [
+        "G12",
+        "G11",
+        "G13",
+        "G10",
+        "G14",
+        "G15",
+        "G33",
+        "G26",
+        "G32",
+        "G27",
+        "G17"
+      ],
+      "status": "grounded"
+    },
+    {
+      "id": "ss4",
+      "layer": "S4",
+      "text": "The 101 color-coded rectangular marks are distributed across seven Region classifications, led by Asia Pacific and Western Europe with 35 and 29 marks, respectively; together they comprise 64 marks, while Australasia has only 2.",
+      "citations": [
+        "G7",
+        "G2",
+        "G6",
+        "G1",
+        "G12",
+        "G11",
+        "G13",
+        "G10",
+        "G17",
+        "G18",
+        "G24",
+        "G19",
+        "G34",
+        "G35"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "coverage": 1.0
+}

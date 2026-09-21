@@ -1,0 +1,1175 @@
+{
+  "caseId": "chart_a219235b8b",
+  "sourceProject": "ChartKG++GraphRAG",
+  "revisionId": "construction-kg-revision:e014882979ce20002f5c",
+  "examples": [
+    {
+      "id": "turn_pending_1790010995377",
+      "question": "What overall regional patterns are visible in the distribution of the world’s tallest buildings?",
+      "origin": "qa-session",
+      "suggested": true,
+      "createdAt": 1790011003637,
+      "turn": {
+        "answer": "Asia occupies both regional extremes: it has the greatest maximum Height among Asia, North America, and Europe, while its minimum Height is the lowest of the three regions. [G62] [G64] The regional minimum Heights are 461.0 m for Landmark 81 in Asia, 462.0 m for Lakhta Center in Europe, and 472.0 m for Central Park Tower in North America. [G2] Within Asia, *Burj Khalifa* is an outlier at 828.0 m, with a substantial vertical gap above the other observed Asian buildings. [G23] [G87] North America’s observed composition contains two buildings: Central Park Tower at 472.0 m and One World Trade Center at 541.0 m. [G17] One World Trade Center is the observed North American maximum at 541.0 m. [G30]",
+        "citationIds": [
+          "G62",
+          "G64",
+          "G2",
+          "G23",
+          "G87",
+          "G17",
+          "G30"
+        ],
+        "status": "verified",
+        "generationMode": "llm",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "graphrag-answer",
+          "version": "2.0",
+          "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+        },
+        "claims": [
+          {
+            "id": "claim_1",
+            "text": "Asia occupies both regional extremes: it has the greatest maximum Height among Asia, North America, and Europe, while its minimum Height is the lowest of the three regions.",
+            "recordIds": [
+              "entity:Comparison",
+              "entity:Comparison_4"
+            ],
+            "citationIds": [
+              "G62",
+              "G64"
+            ],
+            "claimType": "derived"
+          },
+          {
+            "id": "claim_2",
+            "text": "The regional minimum Heights are 461.0 m for Landmark 81 in Asia, 462.0 m for Lakhta Center in Europe, and 472.0 m for Central Park Tower in North America.",
+            "recordIds": [
+              "entity:insight_Comparison_3"
+            ],
+            "citationIds": [
+              "G2"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_3",
+            "text": "Within Asia, *Burj Khalifa* is an outlier at 828.0 m, with a substantial vertical gap above the other observed Asian buildings.",
+            "recordIds": [
+              "entity:insight_Distribution_2",
+              "entity:Distribution_2"
+            ],
+            "citationIds": [
+              "G23",
+              "G87"
+            ],
+            "claimType": "interpretation"
+          },
+          {
+            "id": "claim_4",
+            "text": "North America’s observed composition contains two buildings: Central Park Tower at 472.0 m and One World Trade Center at 541.0 m.",
+            "recordIds": [
+              "entity:insight_Composition_5"
+            ],
+            "citationIds": [
+              "G17"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_5",
+            "text": "One World Trade Center is the observed North American maximum at 541.0 m.",
+            "recordIds": [
+              "entity:insight_Extreme_14"
+            ],
+            "citationIds": [
+              "G30"
+            ],
+            "claimType": "observed"
+          }
+        ],
+        "citations": {
+          "G62": {
+            "id": "G62",
+            "claimIds": [
+              "entity:Comparison",
+              "relation:COMPOSED_OF:Comparison:Extreme_16",
+              "relation:COMPOSED_OF:Comparison:Extreme_27",
+              "relation:COMPOSED_OF:Comparison:Extreme_5",
+              "relation:INFERRED_FROM:Extreme_23:Comparison"
+            ],
+            "entityIds": [
+              "Comparison",
+              "Extreme_16",
+              "Extreme_27",
+              "Extreme_5",
+              "Extreme_23"
+            ],
+            "evidenceIds": [
+              "ev_g62_1",
+              "ev_g62_2",
+              "ev_g62_3"
+            ],
+            "graphPath": [
+              "Comparison: MaximumComparison",
+              "COMPOSED_OF",
+              "Extreme: Maximum"
+            ]
+          },
+          "G64": {
+            "id": "G64",
+            "claimIds": [
+              "entity:Comparison_4",
+              "relation:COMPOSED_OF:Comparison_4:Extreme_15",
+              "relation:COMPOSED_OF:Comparison_4:Extreme_28",
+              "relation:COMPOSED_OF:Comparison_4:Extreme_6",
+              "relation:DERIVED_FROM:insight_Comparison_3:Comparison_4"
+            ],
+            "entityIds": [
+              "Comparison_4",
+              "Extreme_15",
+              "Extreme_28",
+              "Extreme_6",
+              "insight_Comparison_3"
+            ],
+            "evidenceIds": [
+              "ev_g64_1",
+              "ev_g64_2",
+              "ev_g64_3"
+            ],
+            "graphPath": [
+              "Comparison: MinimumComparison",
+              "COMPOSED_OF",
+              "Extreme: Minimum"
+            ]
+          },
+          "G2": {
+            "id": "G2",
+            "claimIds": [
+              "entity:insight_Comparison_3",
+              "relation:DERIVED_FROM:insight_Comparison_3:Comparison_4"
+            ],
+            "entityIds": [
+              "insight_Comparison_3",
+              "Comparison_4"
+            ],
+            "evidenceIds": [
+              "ev_g2_1",
+              "ev_g2_2",
+              "ev_g2_3"
+            ],
+            "graphPath": [
+              "Comparison 3",
+              "DERIVED_FROM",
+              "Comparison: MinimumComparison"
+            ]
+          },
+          "G23": {
+            "id": "G23",
+            "claimIds": [
+              "entity:insight_Distribution_2",
+              "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+            ],
+            "entityIds": [
+              "insight_Distribution_2",
+              "Distribution_2"
+            ],
+            "evidenceIds": [
+              "ev_g23_1"
+            ],
+            "graphPath": [
+              "Distribution 2",
+              "DERIVED_FROM",
+              "Distribution: Outlier"
+            ]
+          },
+          "G87": {
+            "id": "G87",
+            "claimIds": [
+              "entity:Distribution_2",
+              "relation:SUPPORTED_BY:Distribution_2:bas_Asia_cartesian_bar_bar_group",
+              "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+            ],
+            "entityIds": [
+              "Distribution_2",
+              "bas_Asia_cartesian_bar_bar_group",
+              "insight_Distribution_2"
+            ],
+            "evidenceIds": [
+              "ev_g87_1"
+            ],
+            "graphPath": [
+              "Distribution: Outlier",
+              "SUPPORTED_BY",
+              "bas Asia cartesian bar bar group"
+            ]
+          },
+          "G17": {
+            "id": "G17",
+            "claimIds": [
+              "entity:insight_Composition_5",
+              "relation:DERIVED_FROM:insight_Composition_5:Composition_9"
+            ],
+            "entityIds": [
+              "insight_Composition_5",
+              "Composition_9"
+            ],
+            "evidenceIds": [
+              "ev_g17_1",
+              "ev_g17_2"
+            ],
+            "graphPath": [
+              "Composition 5",
+              "DERIVED_FROM",
+              "Composition: Composition"
+            ]
+          },
+          "G30": {
+            "id": "G30",
+            "claimIds": [
+              "entity:insight_Extreme_14",
+              "relation:DERIVED_FROM:insight_Extreme_14:Extreme_16"
+            ],
+            "entityIds": [
+              "insight_Extreme_14",
+              "Extreme_16"
+            ],
+            "evidenceIds": [
+              "ev_g30_1"
+            ],
+            "graphPath": [
+              "Extreme 14",
+              "DERIVED_FROM",
+              "Extreme: Maximum"
+            ]
+          }
+        },
+        "retrieval": {
+          "strategy": "graph-global",
+          "planner": "llm",
+          "maxHops": 5,
+          "seedEntityIds": [
+            "Comparison",
+            "Comparison_4",
+            "insight_Distribution_1",
+            "insight_Distribution_2",
+            "insight_Distribution_3",
+            "insight_Composition_5"
+          ],
+          "communityIds": [
+            "community:1:Comparison",
+            "community:3:Comparison_4",
+            "community:9:bas_North_America_cartesian_bar_bar_group",
+            "community:7:bas_Asia_cartesian_bar_bar_group",
+            "community:8:bas_Europe_cartesian_bar_bar_group",
+            "community:6:bas_*Burj_Khalifa*_cartesian_bar_bar_group"
+          ],
+          "expandedEntityIds": [
+            "Comparison",
+            "Comparison_4",
+            "insight_Distribution_1",
+            "insight_Distribution_2",
+            "insight_Distribution_3",
+            "insight_Composition_5",
+            "insight_Comparison_3",
+            "Extreme_16",
+            "insight_Extreme_14",
+            "bas_North_America_cartesian_bar_bar_group",
+            "bar_6",
+            "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+            "Extreme_7",
+            "insight_Extreme_33",
+            "Distribution_2",
+            "Distribution_3",
+            "Distribution",
+            "Extreme_15",
+            "Extreme_28",
+            "Extreme_6",
+            "Extreme_27",
+            "Extreme_23",
+            "Extreme_5",
+            "Composition_9"
+          ],
+          "relationIds": [
+            "relation:261:DERIVED_FROM:insight_Comparison_3:Comparison_4",
+            "relation:1:COMPOSED_OF:Comparison:Extreme_16",
+            "relation:289:DERIVED_FROM:insight_Extreme_14:Extreme_16",
+            "relation:73:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_6",
+            "relation:74:COMPOSED_OF:bas_One_World_Trade_Center_cartesian_bar_bar_group:bar_6",
+            "relation:257:SUPPORTED_BY:Extreme_7:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+            "relation:310:DERIVED_FROM:insight_Extreme_33:Extreme_7",
+            "relation:282:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+            "relation:283:DERIVED_FROM:insight_Distribution_3:Distribution_3",
+            "relation:281:DERIVED_FROM:insight_Distribution_1:Distribution",
+            "relation:18:COMPOSED_OF:Comparison_4:Extreme_15",
+            "relation:19:COMPOSED_OF:Comparison_4:Extreme_28",
+            "relation:20:COMPOSED_OF:Comparison_4:Extreme_6",
+            "relation:2:COMPOSED_OF:Comparison:Extreme_27",
+            "relation:321:INFERRED_FROM:Extreme_23:Comparison",
+            "relation:3:COMPOSED_OF:Comparison:Extreme_5",
+            "relation:276:DERIVED_FROM:insight_Composition_5:Composition_9"
+          ],
+          "paths": [
+            {
+              "source": "Comparison_4",
+              "target": "insight_Comparison_3",
+              "nodeIds": [
+                "Comparison_4",
+                "insight_Comparison_3"
+              ],
+              "relationIds": [
+                "relation:261:DERIVED_FROM:insight_Comparison_3:Comparison_4"
+              ],
+              "hops": [
+                {
+                  "from": "Comparison_4",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Comparison_3",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Comparison",
+              "target": "insight_Extreme_14",
+              "nodeIds": [
+                "Comparison",
+                "Extreme_16",
+                "insight_Extreme_14"
+              ],
+              "relationIds": [
+                "relation:1:COMPOSED_OF:Comparison:Extreme_16",
+                "relation:289:DERIVED_FROM:insight_Extreme_14:Extreme_16"
+              ],
+              "hops": [
+                {
+                  "from": "Comparison",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme_16",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Extreme_16",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Extreme_14",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_North_America_cartesian_bar_bar_group",
+              "target": "insight_Extreme_33",
+              "nodeIds": [
+                "bas_North_America_cartesian_bar_bar_group",
+                "bar_6",
+                "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+                "Extreme_7",
+                "insight_Extreme_33"
+              ],
+              "relationIds": [
+                "relation:73:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_6",
+                "relation:74:COMPOSED_OF:bas_One_World_Trade_Center_cartesian_bar_bar_group:bar_6",
+                "relation:257:SUPPORTED_BY:Extreme_7:bas_One_World_Trade_Center_cartesian_bar_bar_group",
+                "relation:310:DERIVED_FROM:insight_Extreme_33:Extreme_7"
+              ],
+              "hops": [
+                {
+                  "from": "bas_North_America_cartesian_bar_bar_group",
+                  "relation": "COMPOSED_OF",
+                  "to": "bar_6",
+                  "direction": "forward"
+                },
+                {
+                  "from": "bar_6",
+                  "relation": "COMPOSED_OF",
+                  "to": "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "bas_One_World_Trade_Center_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Extreme_7",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Extreme_7",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Extreme_33",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "insight_Distribution_2",
+              "target": "Distribution_2",
+              "nodeIds": [
+                "insight_Distribution_2",
+                "Distribution_2"
+              ],
+              "relationIds": [
+                "relation:282:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Distribution_2",
+                  "relation": "DERIVED_FROM",
+                  "to": "Distribution_2",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "insight_Distribution_3",
+              "target": "Distribution_3",
+              "nodeIds": [
+                "insight_Distribution_3",
+                "Distribution_3"
+              ],
+              "relationIds": [
+                "relation:283:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Distribution_3",
+                  "relation": "DERIVED_FROM",
+                  "to": "Distribution_3",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "insight_Distribution_1",
+              "target": "Distribution",
+              "nodeIds": [
+                "insight_Distribution_1",
+                "Distribution"
+              ],
+              "relationIds": [
+                "relation:281:DERIVED_FROM:insight_Distribution_1:Distribution"
+              ],
+              "hops": [
+                {
+                  "from": "insight_Distribution_1",
+                  "relation": "DERIVED_FROM",
+                  "to": "Distribution",
+                  "direction": "forward"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Distribution_3",
+              "type": "Insight",
+              "score": 1.205055,
+              "lexicalScore": 20.947923,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Distribution_2",
+              "type": "Insight",
+              "score": 1.19195,
+              "lexicalScore": 20.453318,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Distribution_1",
+              "type": "Insight",
+              "score": 1.055,
+              "lexicalScore": 21.134546,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Comparison_4",
+              "type": "Relational_Pattern",
+              "score": 1.010648,
+              "lexicalScore": 17.430254,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "Comparison",
+              "type": "Relational_Pattern",
+              "score": 1.00861,
+              "lexicalScore": 17.353337,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Composition_5",
+              "type": "Insight",
+              "score": 0.959836,
+              "lexicalScore": 11.693287,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Comparison_3",
+              "type": "Insight",
+              "score": 0.769059,
+              "lexicalScore": 11.968308,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "insight_Extreme_14",
+              "type": "Insight",
+              "score": 0.762462,
+              "lexicalScore": 13.24982,
+              "distance": 1.17,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Extreme_33",
+              "type": "Insight",
+              "score": 0.733393,
+              "lexicalScore": 13.599918,
+              "distance": 2.49,
+              "hops": 4
+            },
+            {
+              "entityId": "Distribution_2",
+              "type": "Basic_Pattern",
+              "score": 0.73003,
+              "lexicalScore": 14.73735,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution_3",
+              "type": "Basic_Pattern",
+              "score": 0.68907,
+              "lexicalScore": 13.191527,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "Distribution",
+              "type": "Basic_Pattern",
+              "score": 0.685771,
+              "lexicalScore": 13.067004,
+              "distance": 0.55,
+              "hops": 1
+            }
+          ]
+        }
+      },
+      "visionTurn": {
+        "answer": "Asia overwhelmingly dominates the ranking, accounting for 12 of the 15 buildings and all five tallest, with a strong concentration in China and the Middle East. North America has only two entries, while Europe has one, and neither region appears near the very top.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "chart-vision-answer",
+          "version": "1.2",
+          "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+        },
+        "provenance": {
+          "sourceType": "chart-image",
+          "chartId": "chart_a219235b8b",
+          "imageSha256": "2a3311379615b9d24b07ca7990691e054a42d74803a7a1e193eb31622349e0cf",
+          "mediaType": "image/png",
+          "provenanceLevel": "image"
+        }
+      }
+    },
+    {
+      "id": "turn_pending_1790011070025",
+      "question": "What does the chart suggest about the geographic concentration of modern skyscraper development?",
+      "origin": "qa-session",
+      "suggested": true,
+      "createdAt": 1790011077000,
+      "turn": {
+        "answer": "Among the observed buildings in Asia, *Burj Khalifa* holds a dominant magnitude advantage in Height at 828.0 m over the rest of the group. [G24] Within Asia, *Burj Khalifa* stands out as an outlier with a Height of 828.0 m, departing from the remaining observed Asian buildings population with a substantial vertical gap. [G23] Among the compared regions, Asia has the lowest minimum Height with Landmark 81 at 461.0 m, compared to Europe's minimum of 462.0 m for Lakhta Center and North America's minimum of 472.0 m for Central Park Tower. [G2]",
+        "citationIds": [
+          "G24",
+          "G23",
+          "G2"
+        ],
+        "status": "verified",
+        "generationMode": "extractive",
+        "provider": null,
+        "model": null,
+        "prompt": {
+          "name": "graphrag-answer",
+          "version": "2.0",
+          "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+        },
+        "claims": [
+          {
+            "id": "claim_1",
+            "text": "Among the observed buildings in Asia, *Burj Khalifa* holds a dominant magnitude advantage in Height at 828.0 m over the rest of the group.",
+            "recordIds": [
+              "entity:insight_Distribution_3"
+            ],
+            "citationIds": [
+              "G24"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_2",
+            "text": "Within Asia, *Burj Khalifa* stands out as an outlier with a Height of 828.0 m, departing from the remaining observed Asian buildings population with a substantial vertical gap.",
+            "recordIds": [
+              "entity:insight_Distribution_2"
+            ],
+            "citationIds": [
+              "G23"
+            ],
+            "claimType": "observed"
+          },
+          {
+            "id": "claim_3",
+            "text": "Among the compared regions, Asia has the lowest minimum Height with Landmark 81 at 461.0 m, compared to Europe's minimum of 462.0 m for Lakhta Center and North America's minimum of 472.0 m for Central Park Tower.",
+            "recordIds": [
+              "entity:insight_Comparison_3"
+            ],
+            "citationIds": [
+              "G2"
+            ],
+            "claimType": "observed"
+          }
+        ],
+        "citations": {
+          "G24": {
+            "id": "G24",
+            "claimIds": [
+              "entity:insight_Distribution_3",
+              "relation:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+            ],
+            "entityIds": [
+              "insight_Distribution_3",
+              "Distribution_3"
+            ],
+            "evidenceIds": [
+              "ev_g24_1"
+            ],
+            "graphPath": [
+              "Distribution 3",
+              "DERIVED_FROM",
+              "Distribution: Dominance"
+            ]
+          },
+          "G23": {
+            "id": "G23",
+            "claimIds": [
+              "entity:insight_Distribution_2",
+              "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+            ],
+            "entityIds": [
+              "insight_Distribution_2",
+              "Distribution_2"
+            ],
+            "evidenceIds": [
+              "ev_g23_1"
+            ],
+            "graphPath": [
+              "Distribution 2",
+              "DERIVED_FROM",
+              "Distribution: Outlier"
+            ]
+          },
+          "G2": {
+            "id": "G2",
+            "claimIds": [
+              "entity:insight_Comparison_3",
+              "relation:DERIVED_FROM:insight_Comparison_3:Comparison_4"
+            ],
+            "entityIds": [
+              "insight_Comparison_3",
+              "Comparison_4"
+            ],
+            "evidenceIds": [
+              "ev_g2_1",
+              "ev_g2_2",
+              "ev_g2_3"
+            ],
+            "graphPath": [
+              "Comparison 3",
+              "DERIVED_FROM",
+              "Comparison: MinimumComparison"
+            ]
+          }
+        },
+        "retrieval": {
+          "strategy": "graph-global",
+          "planner": "llm",
+          "maxHops": 3,
+          "seedEntityIds": [],
+          "communityIds": [
+            "community:9:bas_North_America_cartesian_bar_bar_group",
+            "community:7:bas_Asia_cartesian_bar_bar_group",
+            "community:3:Comparison_4",
+            "community:8:bas_Europe_cartesian_bar_bar_group",
+            "community:5:Similarity",
+            "community:6:bas_*Burj_Khalifa*_cartesian_bar_bar_group"
+          ],
+          "expandedEntityIds": [
+            "bas_Asia_cartesian_bar_bar_group",
+            "Distribution_3",
+            "insight_Distribution_3",
+            "Distribution_2",
+            "insight_Distribution_2",
+            "Comparison_4",
+            "insight_Comparison_3",
+            "bas_North_America_cartesian_bar_bar_group",
+            "bar_13",
+            "North_America",
+            "Extreme_16",
+            "Comparison",
+            "Extreme_15",
+            "insight_Extreme_35",
+            "Similarity",
+            "Composition_17",
+            "insight_Composition_1",
+            "Composition_4",
+            "insight_Composition_16",
+            "insight_Extreme_14",
+            "Composition_9",
+            "insight_Composition_5",
+            "Extreme_28",
+            "Extreme_6",
+            "Extreme_27",
+            "Extreme_23",
+            "Extreme_5"
+          ],
+          "relationIds": [
+            "relation:223:SUPPORTED_BY:Distribution_3:bas_Asia_cartesian_bar_bar_group",
+            "relation:283:DERIVED_FROM:insight_Distribution_3:Distribution_3",
+            "relation:222:SUPPORTED_BY:Distribution_2:bas_Asia_cartesian_bar_bar_group",
+            "relation:282:DERIVED_FROM:insight_Distribution_2:Distribution_2",
+            "relation:261:DERIVED_FROM:insight_Comparison_3:Comparison_4",
+            "relation:72:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_13",
+            "relation:171:VALUE_OF:bar_13:North_America",
+            "relation:231:SUPPORTED_BY:Extreme_16:bas_North_America_cartesian_bar_bar_group",
+            "relation:1:COMPOSED_OF:Comparison:Extreme_16",
+            "relation:18:COMPOSED_OF:Comparison_4:Extreme_15",
+            "relation:312:DERIVED_FROM:insight_Extreme_35:Extreme_15",
+            "relation:41:COMPOSED_OF:Similarity:Composition_17",
+            "relation:263:DERIVED_FROM:insight_Composition_1:Composition_17",
+            "relation:45:COMPOSED_OF:Similarity:Composition_4",
+            "relation:270:DERIVED_FROM:insight_Composition_16:Composition_4",
+            "relation:289:DERIVED_FROM:insight_Extreme_14:Extreme_16",
+            "relation:220:SUPPORTED_BY:Composition_9:bas_North_America_cartesian_bar_bar_group",
+            "relation:276:DERIVED_FROM:insight_Composition_5:Composition_9",
+            "relation:19:COMPOSED_OF:Comparison_4:Extreme_28",
+            "relation:20:COMPOSED_OF:Comparison_4:Extreme_6",
+            "relation:2:COMPOSED_OF:Comparison:Extreme_27",
+            "relation:321:INFERRED_FROM:Extreme_23:Comparison",
+            "relation:3:COMPOSED_OF:Comparison:Extreme_5"
+          ],
+          "paths": [
+            {
+              "source": "bas_Asia_cartesian_bar_bar_group",
+              "target": "insight_Distribution_3",
+              "nodeIds": [
+                "bas_Asia_cartesian_bar_bar_group",
+                "Distribution_3",
+                "insight_Distribution_3"
+              ],
+              "relationIds": [
+                "relation:223:SUPPORTED_BY:Distribution_3:bas_Asia_cartesian_bar_bar_group",
+                "relation:283:DERIVED_FROM:insight_Distribution_3:Distribution_3"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Asia_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Distribution_3",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Distribution_3",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Distribution_3",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Asia_cartesian_bar_bar_group",
+              "target": "insight_Distribution_2",
+              "nodeIds": [
+                "bas_Asia_cartesian_bar_bar_group",
+                "Distribution_2",
+                "insight_Distribution_2"
+              ],
+              "relationIds": [
+                "relation:222:SUPPORTED_BY:Distribution_2:bas_Asia_cartesian_bar_bar_group",
+                "relation:282:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Asia_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Distribution_2",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Distribution_2",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Distribution_2",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Comparison_4",
+              "target": "insight_Comparison_3",
+              "nodeIds": [
+                "Comparison_4",
+                "insight_Comparison_3"
+              ],
+              "relationIds": [
+                "relation:261:DERIVED_FROM:insight_Comparison_3:Comparison_4"
+              ],
+              "hops": [
+                {
+                  "from": "Comparison_4",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Comparison_3",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_North_America_cartesian_bar_bar_group",
+              "target": "North_America",
+              "nodeIds": [
+                "bas_North_America_cartesian_bar_bar_group",
+                "bar_13",
+                "North_America"
+              ],
+              "relationIds": [
+                "relation:72:COMPOSED_OF:bas_North_America_cartesian_bar_bar_group:bar_13",
+                "relation:171:VALUE_OF:bar_13:North_America"
+              ],
+              "hops": [
+                {
+                  "from": "bas_North_America_cartesian_bar_bar_group",
+                  "relation": "COMPOSED_OF",
+                  "to": "bar_13",
+                  "direction": "forward"
+                },
+                {
+                  "from": "bar_13",
+                  "relation": "VALUE_OF",
+                  "to": "North_America",
+                  "direction": "forward"
+                }
+              ]
+            },
+            {
+              "source": "bas_North_America_cartesian_bar_bar_group",
+              "target": "Comparison",
+              "nodeIds": [
+                "bas_North_America_cartesian_bar_bar_group",
+                "Extreme_16",
+                "Comparison"
+              ],
+              "relationIds": [
+                "relation:231:SUPPORTED_BY:Extreme_16:bas_North_America_cartesian_bar_bar_group",
+                "relation:1:COMPOSED_OF:Comparison:Extreme_16"
+              ],
+              "hops": [
+                {
+                  "from": "bas_North_America_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Extreme_16",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Extreme_16",
+                  "relation": "COMPOSED_OF",
+                  "to": "Comparison",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Comparison_4",
+              "target": "insight_Extreme_35",
+              "nodeIds": [
+                "Comparison_4",
+                "Extreme_15",
+                "insight_Extreme_35"
+              ],
+              "relationIds": [
+                "relation:18:COMPOSED_OF:Comparison_4:Extreme_15",
+                "relation:312:DERIVED_FROM:insight_Extreme_35:Extreme_15"
+              ],
+              "hops": [
+                {
+                  "from": "Comparison_4",
+                  "relation": "COMPOSED_OF",
+                  "to": "Extreme_15",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Extreme_15",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Extreme_35",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "insight_Composition_1",
+              "nodeIds": [
+                "Similarity",
+                "Composition_17",
+                "insight_Composition_1"
+              ],
+              "relationIds": [
+                "relation:41:COMPOSED_OF:Similarity:Composition_17",
+                "relation:263:DERIVED_FROM:insight_Composition_1:Composition_17"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_17",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_17",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_1",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "Similarity",
+              "target": "insight_Composition_16",
+              "nodeIds": [
+                "Similarity",
+                "Composition_4",
+                "insight_Composition_16"
+              ],
+              "relationIds": [
+                "relation:45:COMPOSED_OF:Similarity:Composition_4",
+                "relation:270:DERIVED_FROM:insight_Composition_16:Composition_4"
+              ],
+              "hops": [
+                {
+                  "from": "Similarity",
+                  "relation": "COMPOSED_OF",
+                  "to": "Composition_4",
+                  "direction": "forward"
+                },
+                {
+                  "from": "Composition_4",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_16",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_North_America_cartesian_bar_bar_group",
+              "target": "insight_Extreme_14",
+              "nodeIds": [
+                "bas_North_America_cartesian_bar_bar_group",
+                "Extreme_16",
+                "insight_Extreme_14"
+              ],
+              "relationIds": [
+                "relation:231:SUPPORTED_BY:Extreme_16:bas_North_America_cartesian_bar_bar_group",
+                "relation:289:DERIVED_FROM:insight_Extreme_14:Extreme_16"
+              ],
+              "hops": [
+                {
+                  "from": "bas_North_America_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Extreme_16",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Extreme_16",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Extreme_14",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_North_America_cartesian_bar_bar_group",
+              "target": "insight_Composition_5",
+              "nodeIds": [
+                "bas_North_America_cartesian_bar_bar_group",
+                "Composition_9",
+                "insight_Composition_5"
+              ],
+              "relationIds": [
+                "relation:220:SUPPORTED_BY:Composition_9:bas_North_America_cartesian_bar_bar_group",
+                "relation:276:DERIVED_FROM:insight_Composition_5:Composition_9"
+              ],
+              "hops": [
+                {
+                  "from": "bas_North_America_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Composition_9",
+                  "direction": "reverse"
+                },
+                {
+                  "from": "Composition_9",
+                  "relation": "DERIVED_FROM",
+                  "to": "insight_Composition_5",
+                  "direction": "reverse"
+                }
+              ]
+            },
+            {
+              "source": "bas_Asia_cartesian_bar_bar_group",
+              "target": "Distribution_2",
+              "nodeIds": [
+                "bas_Asia_cartesian_bar_bar_group",
+                "Distribution_2"
+              ],
+              "relationIds": [
+                "relation:222:SUPPORTED_BY:Distribution_2:bas_Asia_cartesian_bar_bar_group"
+              ],
+              "hops": [
+                {
+                  "from": "bas_Asia_cartesian_bar_bar_group",
+                  "relation": "SUPPORTED_BY",
+                  "to": "Distribution_2",
+                  "direction": "reverse"
+                }
+              ]
+            }
+          ],
+          "rankedEvidence": [
+            {
+              "entityId": "insight_Distribution_3",
+              "type": "Insight",
+              "score": 0.863733,
+              "lexicalScore": 15.662753,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Distribution_2",
+              "type": "Insight",
+              "score": 0.855819,
+              "lexicalScore": 15.390897,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "Comparison_4",
+              "type": "Relational_Pattern",
+              "score": 0.779548,
+              "lexicalScore": 12.048745,
+              "distance": 0,
+              "hops": 0
+            },
+            {
+              "entityId": "insight_Comparison_3",
+              "type": "Insight",
+              "score": 0.743188,
+              "lexicalScore": 10.004971,
+              "distance": 0.55,
+              "hops": 1
+            },
+            {
+              "entityId": "North_America",
+              "type": "Variable_Value",
+              "score": 0.729197,
+              "lexicalScore": 19.236857,
+              "distance": 1.67,
+              "hops": 2
+            },
+            {
+              "entityId": "Comparison",
+              "type": "Relational_Pattern",
+              "score": 0.65436,
+              "lexicalScore": 12.048209,
+              "distance": 1.32,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Extreme_35",
+              "type": "Insight",
+              "score": 0.640554,
+              "lexicalScore": 7.872386,
+              "distance": 1.17,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Composition_1",
+              "type": "Insight",
+              "score": 0.637676,
+              "lexicalScore": 7.773536,
+              "distance": 1.17,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Composition_16",
+              "type": "Insight",
+              "score": 0.632134,
+              "lexicalScore": 7.583163,
+              "distance": 1.17,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Extreme_14",
+              "type": "Insight",
+              "score": 0.631266,
+              "lexicalScore": 7.677159,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "insight_Composition_5",
+              "type": "Insight",
+              "score": 0.618553,
+              "lexicalScore": 7.240452,
+              "distance": 1.25,
+              "hops": 2
+            },
+            {
+              "entityId": "Distribution_2",
+              "type": "Basic_Pattern",
+              "score": 0.564305,
+              "lexicalScore": 8.151401,
+              "distance": 0.7,
+              "hops": 1
+            }
+          ]
+        }
+      },
+      "visionTurn": {
+        "answer": "Modern skyscraper development is heavily concentrated in Asia, which accounts for 12 of the 15 tallest buildings shown and includes nearly all of the highest-ranked towers. North America has only two entries and Europe one, suggesting that today’s supertall-building boom is predominantly Asian.",
+        "citationIds": [],
+        "status": "answered",
+        "generationMode": "vision",
+        "qaMode": "vision",
+        "provider": "openai-compatible",
+        "model": "gpt-5.6-sol",
+        "prompt": {
+          "name": "chart-vision-answer",
+          "version": "1.2",
+          "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+        },
+        "provenance": {
+          "sourceType": "chart-image",
+          "chartId": "chart_a219235b8b",
+          "imageSha256": "2a3311379615b9d24b07ca7990691e054a42d74803a7a1e193eb31622349e0cf",
+          "mediaType": "image/png",
+          "provenanceLevel": "image"
+        }
+      }
+    }
+  ]
+}

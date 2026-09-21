@@ -1,0 +1,1133 @@
+{
+  "revisionId": "construction-kg-revision:4bcab0ab899177046c9f",
+  "ontologyRef": "chartkg-plus-plus-schema:v1.8",
+  "nodes": [
+    {
+      "id": "chart",
+      "label": "chart",
+      "type": "Complex_Chart",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Complex_Chart"
+      },
+      "claimIds": [
+        "entity:chart"
+      ]
+    },
+    {
+      "id": "radial_stacked_bar",
+      "label": "radial stacked bar",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "radial_stacked_bar"
+      },
+      "claimIds": [
+        "entity:radial_stacked_bar"
+      ]
+    },
+    {
+      "id": "ternary_scatter",
+      "label": "ternary scatter",
+      "type": "View",
+      "layer": "S1",
+      "details": {
+        "sourceType": "View",
+        "chartType": "ternary_scatter"
+      },
+      "claimIds": [
+        "entity:ternary_scatter"
+      ]
+    },
+    {
+      "id": "bar_group",
+      "label": "bar group",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Bar"
+      },
+      "claimIds": [
+        "entity:bar_group"
+      ]
+    },
+    {
+      "id": "point_group",
+      "label": "point group",
+      "type": "Graphical_Mark_Group",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Graphical_Mark_Group",
+        "markType": "Point"
+      },
+      "claimIds": [
+        "entity:point_group"
+      ]
+    },
+    {
+      "id": "angular_position",
+      "label": "angular position",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "angularPosition"
+      },
+      "claimIds": [
+        "entity:angular_position"
+      ]
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color"
+      ]
+    },
+    {
+      "id": "color_bar_group",
+      "label": "color bar group",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "color"
+      },
+      "claimIds": [
+        "entity:color_bar_group"
+      ]
+    },
+    {
+      "id": "height",
+      "label": "height",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "height"
+      },
+      "claimIds": [
+        "entity:height"
+      ]
+    },
+    {
+      "id": "nPosition",
+      "label": "nPosition",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "nPosition"
+      },
+      "claimIds": [
+        "entity:nPosition"
+      ]
+    },
+    {
+      "id": "pPosition",
+      "label": "pPosition",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "pPosition"
+      },
+      "claimIds": [
+        "entity:pPosition"
+      ]
+    },
+    {
+      "id": "uPosition",
+      "label": "uPosition",
+      "type": "Visual_Attribute",
+      "layer": "S1",
+      "details": {
+        "sourceType": "Visual_Attribute",
+        "attributeType": "uPosition"
+      },
+      "claimIds": [
+        "entity:uPosition"
+      ]
+    },
+    {
+      "id": "Negative",
+      "label": "Negative",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Negative",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Negative"
+      ]
+    },
+    {
+      "id": "Positive",
+      "label": "Positive",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Positive",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Positive"
+      ]
+    },
+    {
+      "id": "Uncertainty",
+      "label": "Uncertainty",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "Uncertainty",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:Uncertainty"
+      ]
+    },
+    {
+      "id": "gender",
+      "label": "gender",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "gender",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:gender"
+      ]
+    },
+    {
+      "id": "gender_color_point_group",
+      "label": "gender",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "gender",
+        "variableType": "Categorical"
+      },
+      "claimIds": [
+        "entity:gender_color_point_group"
+      ]
+    },
+    {
+      "id": "number_of_customers",
+      "label": "number of customers",
+      "type": "Data_Variable",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Data_Variable",
+        "name": "number of customers",
+        "variableType": "Quantitative"
+      },
+      "claimIds": [
+        "entity:number_of_customers"
+      ]
+    },
+    {
+      "id": "Female",
+      "label": "Female",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Female"
+      },
+      "claimIds": [
+        "entity:Female"
+      ]
+    },
+    {
+      "id": "Female_gender_value",
+      "label": "Female",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Female"
+      },
+      "claimIds": [
+        "entity:Female_gender_value"
+      ]
+    },
+    {
+      "id": "Male",
+      "label": "Male",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Male"
+      },
+      "claimIds": [
+        "entity:Male"
+      ]
+    },
+    {
+      "id": "Male_gender_value",
+      "label": "Male",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "Male"
+      },
+      "claimIds": [
+        "entity:Male_gender_value"
+      ]
+    },
+    {
+      "id": "NONE",
+      "label": "NONE",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "NONE"
+      },
+      "claimIds": [
+        "entity:NONE"
+      ]
+    },
+    {
+      "id": "NONE_gender_value",
+      "label": "NONE",
+      "type": "Variable_Value",
+      "layer": "S2",
+      "details": {
+        "sourceType": "Variable_Value",
+        "value": "NONE"
+      },
+      "claimIds": [
+        "entity:NONE_gender_value"
+      ]
+    },
+    {
+      "id": "Distribution_2",
+      "label": "Distribution: BandLike",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The Female customer opinion points form an elongated continuous curved band across the ternary domain from higher Negative values through moderate Uncertainty towards Positive val…",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"}]",
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      },
+      "claimIds": [
+        "entity:Distribution_2"
+      ]
+    },
+    {
+      "id": "Distribution_3",
+      "label": "Distribution: BandLike",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Points in the ternary plot form an elongated band-like arrangement spanning along the Negative-Uncertainty and Uncertainty-Positive legs.",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"}]",
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      },
+      "claimIds": [
+        "entity:Distribution_3"
+      ]
+    },
+    {
+      "id": "Distribution_4",
+      "label": "Distribution: BandLike",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The NONE category points form an elongated, curved band across the ternary coordinate frame spanning from high Negative/low Uncertainty up toward moderate Uncertainty and down tow…",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"}]",
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      },
+      "claimIds": [
+        "entity:Distribution_4"
+      ]
+    },
+    {
+      "id": "Extreme",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The bar segment bar_16 in the upper-right Positive opinion sector has the greatest visible height encoding number of customers among all Female bar segments.",
+        "measure": "[{\"variable\":\"number_of_customers\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"bar_16\"]"
+      },
+      "claimIds": [
+        "entity:Extreme"
+      ]
+    },
+    {
+      "id": "Extreme_10",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Mark point_78 exhibits the maximum visible Negative coordinate among the marks in the NONE category.",
+        "measure": "[{\"variable\":\"Negative\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"point_78\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_10"
+      ]
+    },
+    {
+      "id": "Extreme_2",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "The bar segment bar_8 has the greatest visible height encoding the number of customers among all Male bar marks in the scope.",
+        "measure": "[{\"variable\":\"number_of_customers\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"bar_8\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_2"
+      ]
+    },
+    {
+      "id": "Extreme_3",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Mark bar_7 exhibits the maximum bar height encoding the number of customers within the gender=NONE breakdown.",
+        "measure": "[{\"variable\":\"number_of_customers\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"bar_7\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_3"
+      ]
+    },
+    {
+      "id": "Extreme_4",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Bar segment bar_16 exhibits the maximum radial height (number of customers) among all bar marks across the BAS.",
+        "measure": "[{\"variable\":\"number_of_customers\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"bar_16\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_4"
+      ]
+    },
+    {
+      "id": "Extreme_5",
+      "label": "Extreme: Maximum",
+      "type": "Basic_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Basic_Pattern",
+        "description": "Point point_1 has the maximum visible Uncertainty value among the Male points.",
+        "measure": "[{\"variable\":\"Uncertainty\"}]",
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": "[\"point_1\"]"
+      },
+      "claimIds": [
+        "entity:Extreme_5"
+      ]
+    },
+    {
+      "id": "ExtremumComparison",
+      "label": "ExtremumComparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing the maximum Negative values between the Male and NONE subgroups, the NONE category point reaches a higher Negative coordinate towards the bottom-left vertex than the Mal…",
+        "measure": "[{\"variable\":\"Negative\"}]",
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:ExtremumComparison"
+      ]
+    },
+    {
+      "id": "ExtremumComparison_2",
+      "label": "ExtremumComparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing the maximum Positive values between the Male and NONE subgroups, the NONE category point reaches a higher Positive coordinate towards the bottom-right vertex than the Ma…",
+        "measure": "[{\"variable\":\"Positive\"}]",
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:ExtremumComparison_2"
+      ]
+    },
+    {
+      "id": "ExtremumComparison_3",
+      "label": "ExtremumComparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Comparing the maximum Uncertainty values between the Male and NONE subgroups, the Male category point reaches a higher Uncertainty coordinate towards the top vertex than the NONE …",
+        "measure": "[{\"variable\":\"Uncertainty\"}]",
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:ExtremumComparison_3"
+      ]
+    },
+    {
+      "id": "ExtremumComparison_4",
+      "label": "ExtremumComparison: MaximumComparison",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "bar_group_bas_all",
+        "description": "Among the gender categories, the maximum bar segment for Female exhibits a greater radial height than the maximum bar segments for Male and NONE.",
+        "measure": "[{\"variable\":\"number_of_customers\"}]",
+        "patternType": "ExtremumComparison",
+        "subtype": "MaximumComparison"
+      },
+      "claimIds": [
+        "entity:ExtremumComparison_4"
+      ]
+    },
+    {
+      "id": "Similarity",
+      "label": "Similarity: SimilarDistribution",
+      "type": "Relational_Pattern",
+      "layer": "S3",
+      "details": {
+        "sourceType": "Relational_Pattern",
+        "commonFeature": "continuous curved band across the ternary domain from higher Negative values through moderate Uncertainty towards higher Positive values",
+        "comparisonFamily": "Distribution",
+        "comparisonFeature": "cluster_structure",
+        "description": "Across all gender categories (Female, Male, NONE), the customer opinion points share a similar band-like cluster structure, forming an elongated curved distribution across the ter…",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"}]",
+        "patternType": "Similarity",
+        "subtype": "SimilarDistribution"
+      },
+      "claimIds": [
+        "entity:Similarity"
+      ]
+    },
+    {
+      "id": "insight_Comparison_1",
+      "label": "Comparison 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Male\",\"variable\":\"gender\"},{\"valueRef\":\"NONE\",\"variable\":\"gender\"},{\"valueRef\":\"Male_gender_value\",\"variable\":\"gender_color_point_group\"},{\"valueRef\":\"NONE_gender_va…",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"},{\"variable\":\"number_of_customers\"}]",
+        "statement": "The Male and NONE gender categories exhibit comparable cross-view correspondence structures, linking customer count measurements in the radial stacked bar view to Negative, Positi…"
+      },
+      "claimIds": [
+        "entity:insight_Comparison_1"
+      ]
+    },
+    {
+      "id": "insight_Correspondence_1",
+      "label": "Correspondence 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"NONE\",\"variable\":\"gender\"},{\"valueRef\":\"NONE_gender_value\",\"variable\":\"gender_color_point_group\"}]",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"},{\"variable\":\"number_of_customers\"}]",
+        "statement": "For the shared gender category NONE, the radial stacked bar view features a bar mark with the maximum radial height of 80.2 px encoding number of customers, while in the ternary s…"
+      },
+      "claimIds": [
+        "entity:insight_Correspondence_1"
+      ]
+    },
+    {
+      "id": "insight_Correspondence_2",
+      "label": "Correspondence 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Male\",\"variable\":\"gender\"},{\"valueRef\":\"Male_gender_value\",\"variable\":\"gender_color_point_group\"}]",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"},{\"variable\":\"number_of_customers\"}]",
+        "statement": "For Male across both views, a bar mark in the radial stacked bar chart exhibits the maximum visible number of customers with a radial height of 79.9 px, while in the ternary scatt…"
+      },
+      "claimIds": [
+        "entity:insight_Correspondence_2"
+      ]
+    },
+    {
+      "id": "insight_Extreme_9",
+      "label": "Extreme 9",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"NONE_gender_value\",\"variable\":\"gender_color_point_group\"}]",
+        "measure": "[{\"variable\":\"Uncertainty\"}]",
+        "statement": "Among the observed points where gender is NONE, the point with the maximum Uncertainty reaches a value of 0.5006826134805336."
+      },
+      "claimIds": [
+        "entity:insight_Extreme_9"
+      ]
+    },
+    {
+      "id": "insight_ExtremumComparison_1",
+      "label": "ExtremumComparison 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Male_gender_value\",\"variable\":\"gender_color_point_group\"},{\"valueRef\":\"NONE_gender_value\",\"variable\":\"gender_color_point_group\"}]",
+        "measure": "[{\"variable\":\"Negative\"}]",
+        "statement": "Among the compared gender groups NONE and Male, the NONE category attains the highest maximum Negative coordinate, exceeding the maximum observed in the Male group."
+      },
+      "claimIds": [
+        "entity:insight_ExtremumComparison_1"
+      ]
+    },
+    {
+      "id": "insight_ExtremumComparison_2",
+      "label": "ExtremumComparison 2",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Male_gender_value\",\"variable\":\"gender_color_point_group\"},{\"valueRef\":\"NONE_gender_value\",\"variable\":\"gender_color_point_group\"}]",
+        "measure": "[{\"variable\":\"Positive\"}]",
+        "statement": "Between the observed Male and NONE gender groups, the NONE group exhibits the higher maximum Positive value, with its maximum point reaching a higher Positive level than the maxim…"
+      },
+      "claimIds": [
+        "entity:insight_ExtremumComparison_2"
+      ]
+    },
+    {
+      "id": "insight_ExtremumComparison_3",
+      "label": "ExtremumComparison 3",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Male_gender_value\",\"variable\":\"gender_color_point_group\"},{\"valueRef\":\"NONE_gender_value\",\"variable\":\"gender_color_point_group\"}]",
+        "measure": "[{\"variable\":\"Uncertainty\"}]",
+        "statement": "Among the observed points in the Male and NONE gender groups, the Male category exhibits the highest maximum Uncertainty, surpassing the maximum Uncertainty of 0.5006826134805336 …"
+      },
+      "claimIds": [
+        "entity:insight_ExtremumComparison_3"
+      ]
+    },
+    {
+      "id": "insight_ExtremumComparison_4",
+      "label": "ExtremumComparison 4",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Female\",\"variable\":\"gender\"},{\"valueRef\":\"Male\",\"variable\":\"gender\"},{\"valueRef\":\"NONE\",\"variable\":\"gender\"}]",
+        "measure": "[{\"variable\":\"number_of_customers\"}]",
+        "statement": "Female is the visually supported global number of customers maximum from the subgroup comparisons across gender breakdowns. The maximum Female bar segment has a radial height of 9…"
+      },
+      "claimIds": [
+        "entity:insight_ExtremumComparison_4"
+      ]
+    },
+    {
+      "id": "insight_Similarity_1",
+      "label": "Similarity 1",
+      "type": "Insight",
+      "layer": "S4",
+      "details": {
+        "sourceType": "Insight",
+        "category": "[{\"valueRef\":\"Female_gender_value\",\"variable\":\"gender_color_point_group\"},{\"valueRef\":\"Male_gender_value\",\"variable\":\"gender_color_point_group\"},{\"valueRef\":\"NONE_gender_value\",\"v…",
+        "measure": "[{\"variable\":\"Negative\"},{\"variable\":\"Positive\"},{\"variable\":\"Uncertainty\"}]",
+        "statement": "Across the Female, Male, and NONE gender categories, customer opinion points exhibit a similar band-like cluster structure, each forming an elongated continuous curved distributio…"
+      },
+      "claimIds": [
+        "entity:insight_Similarity_1"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_COMPOSED_WITH",
+      "source": "radial_stacked_bar",
+      "target": "ternary_scatter",
+      "relation": "COMPOSED_WITH",
+      "claimIds": [
+        "relation:COMPOSED_WITH:radial_stacked_bar:ternary_scatter",
+        "entity:radial_stacked_bar",
+        "entity:ternary_scatter"
+      ]
+    },
+    {
+      "id": "edge_1_HAS_VIEW",
+      "source": "chart",
+      "target": "radial_stacked_bar",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:radial_stacked_bar",
+        "entity:chart",
+        "entity:radial_stacked_bar"
+      ]
+    },
+    {
+      "id": "edge_2_HAS_VIEW",
+      "source": "chart",
+      "target": "ternary_scatter",
+      "relation": "HAS_VIEW",
+      "claimIds": [
+        "relation:HAS_VIEW:chart:ternary_scatter",
+        "entity:chart",
+        "entity:ternary_scatter"
+      ]
+    },
+    {
+      "id": "edge_17_COMPOSED_OF",
+      "source": "ExtremumComparison",
+      "target": "Extreme_10",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison:Extreme_10",
+        "entity:ExtremumComparison",
+        "entity:Extreme_10"
+      ]
+    },
+    {
+      "id": "edge_21_COMPOSED_OF",
+      "source": "ExtremumComparison_3",
+      "target": "Extreme_5",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_3:Extreme_5",
+        "entity:ExtremumComparison_3",
+        "entity:Extreme_5"
+      ]
+    },
+    {
+      "id": "edge_23_COMPOSED_OF",
+      "source": "ExtremumComparison_4",
+      "target": "Extreme",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_4:Extreme",
+        "entity:ExtremumComparison_4",
+        "entity:Extreme"
+      ]
+    },
+    {
+      "id": "edge_24_COMPOSED_OF",
+      "source": "ExtremumComparison_4",
+      "target": "Extreme_2",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_4:Extreme_2",
+        "entity:ExtremumComparison_4",
+        "entity:Extreme_2"
+      ]
+    },
+    {
+      "id": "edge_25_COMPOSED_OF",
+      "source": "ExtremumComparison_4",
+      "target": "Extreme_3",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ExtremumComparison_4:Extreme_3",
+        "entity:ExtremumComparison_4",
+        "entity:Extreme_3"
+      ]
+    },
+    {
+      "id": "edge_26_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Distribution_2",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Distribution_2",
+        "entity:Similarity",
+        "entity:Distribution_2"
+      ]
+    },
+    {
+      "id": "edge_27_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Distribution_3",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Distribution_3",
+        "entity:Similarity",
+        "entity:Distribution_3"
+      ]
+    },
+    {
+      "id": "edge_28_COMPOSED_OF",
+      "source": "Similarity",
+      "target": "Distribution_4",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:Similarity:Distribution_4",
+        "entity:Similarity",
+        "entity:Distribution_4"
+      ]
+    },
+    {
+      "id": "edge_29_COMPOSED_OF",
+      "source": "radial_stacked_bar",
+      "target": "bar_group",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:radial_stacked_bar:bar_group",
+        "entity:radial_stacked_bar",
+        "entity:bar_group"
+      ]
+    },
+    {
+      "id": "edge_30_COMPOSED_OF",
+      "source": "ternary_scatter",
+      "target": "point_group",
+      "relation": "COMPOSED_OF",
+      "claimIds": [
+        "relation:COMPOSED_OF:ternary_scatter:point_group",
+        "entity:ternary_scatter",
+        "entity:point_group"
+      ]
+    },
+    {
+      "id": "edge_31_HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "angular_position",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:bar_group:angular_position",
+        "entity:bar_group",
+        "entity:angular_position"
+      ]
+    },
+    {
+      "id": "edge_32_HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "color_bar_group",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color_bar_group",
+        "entity:bar_group",
+        "entity:color_bar_group"
+      ]
+    },
+    {
+      "id": "edge_33_HAS_VISUAL_ATTRIBUTE",
+      "source": "bar_group",
+      "target": "height",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+        "entity:bar_group",
+        "entity:height"
+      ]
+    },
+    {
+      "id": "edge_34_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "color",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:color",
+        "entity:point_group",
+        "entity:color"
+      ]
+    },
+    {
+      "id": "edge_35_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "nPosition",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:nPosition",
+        "entity:point_group",
+        "entity:nPosition"
+      ]
+    },
+    {
+      "id": "edge_36_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "pPosition",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:pPosition",
+        "entity:point_group",
+        "entity:pPosition"
+      ]
+    },
+    {
+      "id": "edge_37_HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "uPosition",
+      "relation": "HAS_VISUAL_ATTRIBUTE",
+      "claimIds": [
+        "relation:HAS_VISUAL_ATTRIBUTE:point_group:uPosition",
+        "entity:point_group",
+        "entity:uPosition"
+      ]
+    },
+    {
+      "id": "edge_44_ENCODES",
+      "source": "color",
+      "target": "gender_color_point_group",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color:gender_color_point_group",
+        "entity:color",
+        "entity:gender_color_point_group"
+      ]
+    },
+    {
+      "id": "edge_45_ENCODES",
+      "source": "color_bar_group",
+      "target": "gender",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:color_bar_group:gender",
+        "entity:color_bar_group",
+        "entity:gender"
+      ]
+    },
+    {
+      "id": "edge_46_ENCODES",
+      "source": "height",
+      "target": "number_of_customers",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:height:number_of_customers",
+        "entity:height",
+        "entity:number_of_customers"
+      ]
+    },
+    {
+      "id": "edge_47_ENCODES",
+      "source": "nPosition",
+      "target": "Negative",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:nPosition:Negative",
+        "entity:nPosition",
+        "entity:Negative"
+      ]
+    },
+    {
+      "id": "edge_48_ENCODES",
+      "source": "pPosition",
+      "target": "Positive",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:pPosition:Positive",
+        "entity:pPosition",
+        "entity:Positive"
+      ]
+    },
+    {
+      "id": "edge_55_ENCODES",
+      "source": "uPosition",
+      "target": "Uncertainty",
+      "relation": "ENCODES",
+      "claimIds": [
+        "relation:ENCODES:uPosition:Uncertainty",
+        "entity:uPosition",
+        "entity:Uncertainty"
+      ]
+    },
+    {
+      "id": "edge_56_VALUE_OF",
+      "source": "Female",
+      "target": "gender",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Female:gender",
+        "entity:Female",
+        "entity:gender"
+      ]
+    },
+    {
+      "id": "edge_57_VALUE_OF",
+      "source": "Female_gender_value",
+      "target": "gender_color_point_group",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Female_gender_value:gender_color_point_group",
+        "entity:Female_gender_value",
+        "entity:gender_color_point_group"
+      ]
+    },
+    {
+      "id": "edge_58_VALUE_OF",
+      "source": "Male",
+      "target": "gender",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Male:gender",
+        "entity:Male",
+        "entity:gender"
+      ]
+    },
+    {
+      "id": "edge_59_VALUE_OF",
+      "source": "Male_gender_value",
+      "target": "gender_color_point_group",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:Male_gender_value:gender_color_point_group",
+        "entity:Male_gender_value",
+        "entity:gender_color_point_group"
+      ]
+    },
+    {
+      "id": "edge_60_VALUE_OF",
+      "source": "NONE",
+      "target": "gender",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:NONE:gender",
+        "entity:NONE",
+        "entity:gender"
+      ]
+    },
+    {
+      "id": "edge_61_VALUE_OF",
+      "source": "NONE_gender_value",
+      "target": "gender_color_point_group",
+      "relation": "VALUE_OF",
+      "claimIds": [
+        "relation:VALUE_OF:NONE_gender_value:gender_color_point_group",
+        "entity:NONE_gender_value",
+        "entity:gender_color_point_group"
+      ]
+    },
+    {
+      "id": "edge_679_DERIVED_FROM",
+      "source": "insight_ExtremumComparison_1",
+      "target": "ExtremumComparison",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_ExtremumComparison_1:ExtremumComparison",
+        "entity:insight_ExtremumComparison_1",
+        "entity:ExtremumComparison"
+      ]
+    },
+    {
+      "id": "edge_680_DERIVED_FROM",
+      "source": "insight_ExtremumComparison_2",
+      "target": "ExtremumComparison_2",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_ExtremumComparison_2:ExtremumComparison_2",
+        "entity:insight_ExtremumComparison_2",
+        "entity:ExtremumComparison_2"
+      ]
+    },
+    {
+      "id": "edge_681_DERIVED_FROM",
+      "source": "insight_ExtremumComparison_3",
+      "target": "ExtremumComparison_3",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_ExtremumComparison_3:ExtremumComparison_3",
+        "entity:insight_ExtremumComparison_3",
+        "entity:ExtremumComparison_3"
+      ]
+    },
+    {
+      "id": "edge_682_DERIVED_FROM",
+      "source": "insight_ExtremumComparison_4",
+      "target": "ExtremumComparison_4",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_ExtremumComparison_4:ExtremumComparison_4",
+        "entity:insight_ExtremumComparison_4",
+        "entity:ExtremumComparison_4"
+      ]
+    },
+    {
+      "id": "edge_683_DERIVED_FROM",
+      "source": "insight_Similarity_1",
+      "target": "Similarity",
+      "relation": "DERIVED_FROM",
+      "claimIds": [
+        "relation:DERIVED_FROM:insight_Similarity_1:Similarity",
+        "entity:insight_Similarity_1",
+        "entity:Similarity"
+      ]
+    },
+    {
+      "id": "edge_684_INFERRED_FROM",
+      "source": "Extreme_4",
+      "target": "ExtremumComparison_4",
+      "relation": "INFERRED_FROM",
+      "claimIds": [
+        "relation:INFERRED_FROM:Extreme_4:ExtremumComparison_4",
+        "entity:Extreme_4",
+        "entity:ExtremumComparison_4"
+      ]
+    }
+  ],
+  "stats": {
+    "sourceNodeCount": 232,
+    "sourceEdgeCount": 685,
+    "visibleNodeCount": 47,
+    "visibleEdgeCount": 38,
+    "verificationStatus": "unverified",
+    "runStatus": "partial",
+    "communityCount": 16,
+    "retrievalEngine": "native-graphrag-v1"
+  }
+}

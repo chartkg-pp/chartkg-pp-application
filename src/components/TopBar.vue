@@ -1,17 +1,21 @@
 <script setup lang="ts">
 import type { RunState } from '../types'
+import type { GraphRagStaticCase } from '../staticCases'
+import { isTestCaseId, type TestCaseId } from '../testData'
 import SystemSwitcher from './SystemSwitcher.vue'
+
+const datasetDownloadUrl = `${import.meta.env.BASE_URL}dataset.zip`
 
 defineProps<{
   run: RunState
   fileName: string
-  selectedSampleId: '' | 'countries-health-wealth' | 'case2-opinionseer'
+  selectedSampleId: string
+  samples: GraphRagStaticCase[]
 }>()
 const emit = defineEmits<{
   file: [file: File]
   start: []
-  selectSample: [id: 'countries-health-wealth' | 'case2-opinionseer']
-  sample: [id: 'countries-health-wealth' | 'case2-opinionseer']
+  selectSample: [id: TestCaseId]
   reset: []
 }>()
 
@@ -23,7 +27,7 @@ function onFile(event: Event) {
 
 function onSampleSelect(event: Event) {
   const id = (event.target as HTMLSelectElement).value
-  if (id === 'countries-health-wealth' || id === 'case2-opinionseer') emit('selectSample', id)
+  if (isTestCaseId(id)) emit('selectSample', id)
 }
 </script>
 
@@ -42,8 +46,7 @@ function onSampleSelect(event: Event) {
           @change="onSampleSelect"
         >
           <option value="" disabled>{{ fileName || 'Select a chart image' }}</option>
-          <option value="countries-health-wealth">Countries · Health and Wealth</option>
-          <option value="case2-opinionseer">Case2 · OpinionSeer</option>
+          <option v-for="sample in samples" :key="sample.id" :value="sample.id">{{ sample.label }}</option>
         </select>
         <label class="field-upload-btn" title="Upload chart image">
           <svg viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M5 20h14" /></svg>
@@ -58,14 +61,10 @@ function onSampleSelect(event: Event) {
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" /><path d="m10 8 6 4-6 4z" /></svg>
         {{ run.status === 'extracting' || run.status === 'validating' ? 'Running…' : 'Start' }}
       </button>
-      <button class="topbar-button btn-sample" @click="emit('sample', 'countries-health-wealth')">
-        <svg viewBox="0 0 24 24"><path d="M9 3h6M10 3v5l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3M8 14h8" /></svg>
-        Countries
-      </button>
-      <button class="topbar-button btn-sample" @click="emit('sample', 'case2-opinionseer')">
-        <svg viewBox="0 0 24 24"><path d="M9 3h6M10 3v5l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3M8 14h8" /></svg>
-        Case2
-      </button>
+      <a class="topbar-button btn-download" :href="datasetDownloadUrl" download="dataset.zip" title="Download dataset">
+        <svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg>
+        Download
+      </a>
       <button class="topbar-button btn-redo" @click="emit('reset')">
         <svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2-5.3M4 4v6h6" /></svg>
         Redo

@@ -1,0 +1,472 @@
+{
+  "schemaVersion": "1.0",
+  "id": "turn_pending_1790007062443",
+  "sessionId": "qa_5b74f1a687a1",
+  "chartId": "chart_16d3425553",
+  "revisionId": "construction-kg-revision:0f9d7653eb1cb840880d",
+  "question": "What data does the chart provide for UK?",
+  "status": "complete",
+  "createdAt": "2026-09-21T16:11:33.793548Z",
+  "completedAt": "2026-09-21T16:12:16.369445Z",
+  "answers": {
+    "vision": {
+      "answer": "The UK is shown as a European country in Income Level 4, with income of roughly **$55,000 per person per year**, life expectancy of about **81 years**, and a population of around **70 million**.",
+      "citationIds": [],
+      "status": "answered",
+      "generationMode": "vision",
+      "qaMode": "vision",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "chart-vision-answer",
+        "version": "1.2",
+        "sha256": "4c3b0afeaa3ad81b39745b54ada81c93e74939aae9b30d748a2774d383fddb2a"
+      },
+      "provenance": {
+        "sourceType": "chart-image",
+        "chartId": "chart_16d3425553",
+        "imageSha256": "7f79d2b5e877f8d79ff6b171f1cbc6699fc760dafad81c6dc933ce6a5c0d6bc9",
+        "mediaType": "image/png",
+        "provenanceLevel": "image"
+      }
+    },
+    "graphrag": {
+      "answer": "For UK, Income is 53984.13274328814 GDP per capita, $ per year, price adjusted. [G304] [G431] [G141] For UK, Lifespan is 81.30510952176405 years. [G304] [G431] [G143]",
+      "citationIds": [
+        "G304",
+        "G431",
+        "G141",
+        "G143"
+      ],
+      "status": "verified",
+      "generationMode": "llm",
+      "provider": "openai-compatible",
+      "model": "gpt-5.6-sol",
+      "prompt": {
+        "name": "graphrag-answer",
+        "version": "2.0",
+        "sha256": "60899470d981d49e66d355c4030622fc54b96f73617e18cefd5da9a418bf7a0e"
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "For UK, Income is 53984.13274328814 GDP per capita, $ per year, price adjusted.",
+          "recordIds": [
+            "entity:UK",
+            "entity:point_28",
+            "entity:Income"
+          ],
+          "citationIds": [
+            "G304",
+            "G431",
+            "G141"
+          ],
+          "claimType": "observed"
+        },
+        {
+          "id": "claim_2",
+          "text": "For UK, Lifespan is 81.30510952176405 years.",
+          "recordIds": [
+            "entity:UK",
+            "entity:point_28",
+            "entity:Lifespan"
+          ],
+          "citationIds": [
+            "G304",
+            "G431",
+            "G143"
+          ],
+          "claimType": "observed"
+        }
+      ],
+      "citations": {
+        "G304": {
+          "id": "G304",
+          "claimIds": [
+            "entity:UK",
+            "relation:VALUE_OF:UK:country",
+            "relation:VALUE_OF:point_28:UK"
+          ],
+          "entityIds": [
+            "UK",
+            "country",
+            "point_28"
+          ],
+          "evidenceIds": [
+            "ev_g304_1"
+          ],
+          "graphPath": [
+            "UK",
+            "VALUE_OF",
+            "country"
+          ]
+        },
+        "G431": {
+          "id": "G431",
+          "claimIds": [
+            "entity:point_28",
+            "relation:VALUE_OF:point_28:Europe",
+            "relation:VALUE_OF:point_28:Income",
+            "relation:VALUE_OF:point_28:LEVEL_4",
+            "relation:VALUE_OF:point_28:Lifespan",
+            "relation:VALUE_OF:point_28:UK",
+            "relation:CONTAINS:point_group_bas_Europe:point_28",
+            "relation:CONTAINS:point_group_bas_LEVEL_4:point_28",
+            "relation:CONTAINS:point_group_bas_all:point_28"
+          ],
+          "entityIds": [
+            "point_28",
+            "Europe",
+            "Income",
+            "LEVEL_4",
+            "Lifespan",
+            "UK",
+            "point_group_bas_Europe",
+            "point_group_bas_LEVEL_4",
+            "point_group_bas_all"
+          ],
+          "evidenceIds": [
+            "ev_g431_1"
+          ],
+          "graphPath": [
+            "point 28",
+            "VALUE_OF",
+            "Europe"
+          ]
+        },
+        "G141": {
+          "id": "G141",
+          "claimIds": [
+            "entity:Income",
+            "relation:ENCODES:x_position:Income",
+            "relation:VALUE_OF:point_1:Income",
+            "relation:VALUE_OF:point_10:Income",
+            "relation:VALUE_OF:point_100:Income",
+            "relation:VALUE_OF:point_101:Income",
+            "relation:VALUE_OF:point_102:Income",
+            "relation:VALUE_OF:point_103:Income",
+            "relation:VALUE_OF:point_104:Income",
+            "relation:VALUE_OF:point_105:Income",
+            "relation:VALUE_OF:point_106:Income",
+            "relation:VALUE_OF:point_107:Income",
+            "relation:VALUE_OF:point_108:Income",
+            "relation:VALUE_OF:point_109:Income",
+            "relation:VALUE_OF:point_11:Income",
+            "relation:VALUE_OF:point_110:Income",
+            "relation:VALUE_OF:point_111:Income",
+            "relation:VALUE_OF:point_112:Income",
+            "relation:VALUE_OF:point_113:Income",
+            "relation:VALUE_OF:point_114:Income",
+            "relation:VALUE_OF:point_115:Income"
+          ],
+          "entityIds": [
+            "Income",
+            "x_position",
+            "point_1",
+            "point_10",
+            "point_100",
+            "point_101",
+            "point_102",
+            "point_103",
+            "point_104",
+            "point_105",
+            "point_106",
+            "point_107",
+            "point_108",
+            "point_109",
+            "point_11",
+            "point_110",
+            "point_111",
+            "point_112",
+            "point_113",
+            "point_114",
+            "point_115"
+          ],
+          "evidenceIds": [
+            "ev_g141_1"
+          ],
+          "graphPath": [
+            "x position",
+            "ENCODES",
+            "Income"
+          ]
+        },
+        "G143": {
+          "id": "G143",
+          "claimIds": [
+            "entity:Lifespan",
+            "relation:ENCODES:y_position:Lifespan",
+            "relation:VALUE_OF:point_1:Lifespan",
+            "relation:VALUE_OF:point_10:Lifespan",
+            "relation:VALUE_OF:point_100:Lifespan",
+            "relation:VALUE_OF:point_101:Lifespan",
+            "relation:VALUE_OF:point_102:Lifespan",
+            "relation:VALUE_OF:point_103:Lifespan",
+            "relation:VALUE_OF:point_104:Lifespan",
+            "relation:VALUE_OF:point_105:Lifespan",
+            "relation:VALUE_OF:point_106:Lifespan",
+            "relation:VALUE_OF:point_107:Lifespan",
+            "relation:VALUE_OF:point_108:Lifespan",
+            "relation:VALUE_OF:point_109:Lifespan",
+            "relation:VALUE_OF:point_11:Lifespan",
+            "relation:VALUE_OF:point_110:Lifespan",
+            "relation:VALUE_OF:point_111:Lifespan",
+            "relation:VALUE_OF:point_112:Lifespan",
+            "relation:VALUE_OF:point_113:Lifespan",
+            "relation:VALUE_OF:point_114:Lifespan",
+            "relation:VALUE_OF:point_115:Lifespan"
+          ],
+          "entityIds": [
+            "Lifespan",
+            "y_position",
+            "point_1",
+            "point_10",
+            "point_100",
+            "point_101",
+            "point_102",
+            "point_103",
+            "point_104",
+            "point_105",
+            "point_106",
+            "point_107",
+            "point_108",
+            "point_109",
+            "point_11",
+            "point_110",
+            "point_111",
+            "point_112",
+            "point_113",
+            "point_114",
+            "point_115"
+          ],
+          "evidenceIds": [
+            "ev_g143_1"
+          ],
+          "graphPath": [
+            "y position",
+            "ENCODES",
+            "Lifespan"
+          ]
+        }
+      },
+      "retrieval": {
+        "strategy": "graph-local",
+        "planner": "llm",
+        "maxHops": 2,
+        "seedEntityIds": [
+          "UK"
+        ],
+        "communityIds": [
+          "community:16:point_group_bas_INCOME_LEVEL_1",
+          "community:19:point_group_bas_LEVEL_4",
+          "community:17:point_group_bas_LEVEL_2",
+          "community:4:ExtremumComparison_4",
+          "community:18:point_group_bas_LEVEL_3",
+          "community:8:Similarity"
+        ],
+        "expandedEntityIds": [
+          "UK",
+          "point_28",
+          "Lifespan",
+          "Income",
+          "Income_Level",
+          "Region",
+          "Population",
+          "insight_Distribution_35",
+          "insight_Distribution_39",
+          "insight_Similarity_1",
+          "insight_Distribution_36",
+          "insight_Distribution_34",
+          "Distribution_29",
+          "Distribution_33",
+          "Similarity",
+          "Distribution_30",
+          "Distribution_28"
+        ],
+        "relationIds": [
+          "relation:673:VALUE_OF:point_28:UK",
+          "relation:672:VALUE_OF:point_28:Lifespan",
+          "relation:670:VALUE_OF:point_28:Income",
+          "relation:1633:DERIVED_FROM:insight_Distribution_35:Distribution_29",
+          "relation:1637:DERIVED_FROM:insight_Distribution_39:Distribution_33",
+          "relation:1675:DERIVED_FROM:insight_Similarity_1:Similarity",
+          "relation:1634:DERIVED_FROM:insight_Distribution_36:Distribution_30",
+          "relation:1632:DERIVED_FROM:insight_Distribution_34:Distribution_28"
+        ],
+        "paths": [
+          {
+            "source": "UK",
+            "target": "point_28",
+            "nodeIds": [
+              "UK",
+              "point_28"
+            ],
+            "relationIds": [
+              "relation:673:VALUE_OF:point_28:UK"
+            ],
+            "hops": [
+              {
+                "from": "UK",
+                "relation": "VALUE_OF",
+                "to": "point_28",
+                "direction": "reverse"
+              }
+            ]
+          },
+          {
+            "source": "UK",
+            "target": "Lifespan",
+            "nodeIds": [
+              "UK",
+              "point_28",
+              "Lifespan"
+            ],
+            "relationIds": [
+              "relation:673:VALUE_OF:point_28:UK",
+              "relation:672:VALUE_OF:point_28:Lifespan"
+            ],
+            "hops": [
+              {
+                "from": "UK",
+                "relation": "VALUE_OF",
+                "to": "point_28",
+                "direction": "reverse"
+              },
+              {
+                "from": "point_28",
+                "relation": "VALUE_OF",
+                "to": "Lifespan",
+                "direction": "forward"
+              }
+            ]
+          },
+          {
+            "source": "UK",
+            "target": "Income",
+            "nodeIds": [
+              "UK",
+              "point_28",
+              "Income"
+            ],
+            "relationIds": [
+              "relation:673:VALUE_OF:point_28:UK",
+              "relation:670:VALUE_OF:point_28:Income"
+            ],
+            "hops": [
+              {
+                "from": "UK",
+                "relation": "VALUE_OF",
+                "to": "point_28",
+                "direction": "reverse"
+              },
+              {
+                "from": "point_28",
+                "relation": "VALUE_OF",
+                "to": "Income",
+                "direction": "forward"
+              }
+            ]
+          }
+        ],
+        "rankedEvidence": [
+          {
+            "entityId": "point_28",
+            "type": "Graphical_Mark",
+            "score": 1.487805,
+            "lexicalScore": 0.0,
+            "distance": 1.05,
+            "hops": 1
+          },
+          {
+            "entityId": "UK",
+            "type": "Variable_Value",
+            "score": 0.955535,
+            "lexicalScore": 25.295015,
+            "distance": 0.0,
+            "hops": 0
+          },
+          {
+            "entityId": "Income_Level",
+            "type": "Data_Variable",
+            "score": 0.6552,
+            "lexicalScore": 26.790769,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "Lifespan",
+            "type": "Data_Variable",
+            "score": 0.601744,
+            "lexicalScore": 20.882101,
+            "distance": 2.140547,
+            "hops": 2
+          },
+          {
+            "entityId": "Income",
+            "type": "Data_Variable",
+            "score": 0.579289,
+            "lexicalScore": 19.807817,
+            "distance": 2.140547,
+            "hops": 2
+          },
+          {
+            "entityId": "Region",
+            "type": "Data_Variable",
+            "score": 0.573064,
+            "lexicalScore": 22.86132,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "Population",
+            "type": "Data_Variable",
+            "score": 0.565262,
+            "lexicalScore": 22.488057,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "insight_Distribution_35",
+            "type": "Insight",
+            "score": 0.560425,
+            "lexicalScore": 11.980484,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "insight_Distribution_39",
+            "type": "Insight",
+            "score": 0.553906,
+            "lexicalScore": 11.668637,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "insight_Similarity_1",
+            "type": "Insight",
+            "score": 0.507158,
+            "lexicalScore": 9.432166,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "insight_Distribution_36",
+            "type": "Insight",
+            "score": 0.50041,
+            "lexicalScore": 9.109359,
+            "distance": null,
+            "hops": null
+          },
+          {
+            "entityId": "insight_Distribution_34",
+            "type": "Insight",
+            "score": 0.496178,
+            "lexicalScore": 8.906861,
+            "distance": null,
+            "hops": null
+          }
+        ]
+      }
+    }
+  }
+}

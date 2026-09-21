@@ -1,0 +1,2540 @@
+{
+  "G1": {
+    "id": "G1",
+    "claimIds": [
+      "entity:insight_Comparison_1",
+      "relation:DERIVED_FROM:insight_Comparison_1:Comparison"
+    ],
+    "entityIds": [
+      "insight_Comparison_1",
+      "Comparison"
+    ],
+    "evidenceIds": [
+      "ev_g1_1",
+      "ev_g1_2"
+    ],
+    "graphPath": [
+      "Comparison 1",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G2": {
+    "id": "G2",
+    "claimIds": [
+      "entity:insight_Comparison_2",
+      "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+    ],
+    "entityIds": [
+      "insight_Comparison_2",
+      "Comparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g2_1",
+      "ev_g2_2"
+    ],
+    "graphPath": [
+      "Comparison 2",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G3": {
+    "id": "G3",
+    "claimIds": [
+      "entity:insight_Comparison_3",
+      "relation:DERIVED_FROM:insight_Comparison_3:Comparison_3"
+    ],
+    "entityIds": [
+      "insight_Comparison_3",
+      "Comparison_3"
+    ],
+    "evidenceIds": [
+      "ev_g3_1",
+      "ev_g3_2",
+      "ev_g3_3"
+    ],
+    "graphPath": [
+      "Comparison 3",
+      "DERIVED_FROM",
+      "Comparison: MaximumComparison"
+    ]
+  },
+  "G4": {
+    "id": "G4",
+    "claimIds": [
+      "entity:insight_Comparison_4",
+      "relation:DERIVED_FROM:insight_Comparison_4:Comparison_5"
+    ],
+    "entityIds": [
+      "insight_Comparison_4",
+      "Comparison_5"
+    ],
+    "evidenceIds": [
+      "ev_g4_1",
+      "ev_g4_2",
+      "ev_g4_3"
+    ],
+    "graphPath": [
+      "Comparison 4",
+      "DERIVED_FROM",
+      "Comparison: MinimumComparison"
+    ]
+  },
+  "G5": {
+    "id": "G5",
+    "claimIds": [
+      "entity:insight_Composition_1",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_2"
+    ],
+    "entityIds": [
+      "insight_Composition_1",
+      "Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g5_1",
+      "ev_g5_2"
+    ],
+    "graphPath": [
+      "Composition 1",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G6": {
+    "id": "G6",
+    "claimIds": [
+      "entity:insight_Composition_2",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_3"
+    ],
+    "entityIds": [
+      "insight_Composition_2",
+      "Composition_3"
+    ],
+    "evidenceIds": [
+      "ev_g6_1",
+      "ev_g6_2",
+      "ev_g6_3"
+    ],
+    "graphPath": [
+      "Composition 2",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G7": {
+    "id": "G7",
+    "claimIds": [
+      "entity:insight_Composition_3",
+      "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+    ],
+    "entityIds": [
+      "insight_Composition_3",
+      "Composition_6"
+    ],
+    "evidenceIds": [
+      "ev_g7_1",
+      "ev_g7_2",
+      "ev_g7_3"
+    ],
+    "graphPath": [
+      "Composition 3",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G8": {
+    "id": "G8",
+    "claimIds": [
+      "entity:insight_Composition_4",
+      "relation:DERIVED_FROM:insight_Composition_4:Composition_5"
+    ],
+    "entityIds": [
+      "insight_Composition_4",
+      "Composition_5"
+    ],
+    "evidenceIds": [
+      "ev_g8_1",
+      "ev_g8_2",
+      "ev_g8_3",
+      "ev_g8_4"
+    ],
+    "graphPath": [
+      "Composition 4",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G9": {
+    "id": "G9",
+    "claimIds": [
+      "entity:insight_Composition_5",
+      "relation:DERIVED_FROM:insight_Composition_5:Composition_4"
+    ],
+    "entityIds": [
+      "insight_Composition_5",
+      "Composition_4"
+    ],
+    "evidenceIds": [
+      "ev_g9_1"
+    ],
+    "graphPath": [
+      "Composition 5",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G10": {
+    "id": "G10",
+    "claimIds": [
+      "entity:insight_Composition_6",
+      "relation:DERIVED_FROM:insight_Composition_6:Composition"
+    ],
+    "entityIds": [
+      "insight_Composition_6",
+      "Composition"
+    ],
+    "evidenceIds": [
+      "ev_g10_1",
+      "ev_g10_2",
+      "ev_g10_3",
+      "ev_g10_4"
+    ],
+    "graphPath": [
+      "Composition 6",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G11": {
+    "id": "G11",
+    "claimIds": [
+      "entity:insight_Contrast_1",
+      "relation:DERIVED_FROM:insight_Contrast_1:Contrast"
+    ],
+    "entityIds": [
+      "insight_Contrast_1",
+      "Contrast"
+    ],
+    "evidenceIds": [
+      "ev_g11_1"
+    ],
+    "graphPath": [
+      "Contrast 1",
+      "DERIVED_FROM",
+      "Contrast: DifferentComposition"
+    ]
+  },
+  "G12": {
+    "id": "G12",
+    "claimIds": [
+      "entity:insight_Contrast_2",
+      "relation:DERIVED_FROM:insight_Contrast_2:Contrast_2"
+    ],
+    "entityIds": [
+      "insight_Contrast_2",
+      "Contrast_2"
+    ],
+    "evidenceIds": [
+      "ev_g12_1"
+    ],
+    "graphPath": [
+      "Contrast 2",
+      "DERIVED_FROM",
+      "Contrast: DifferentComposition"
+    ]
+  },
+  "G13": {
+    "id": "G13",
+    "claimIds": [
+      "entity:insight_Distribution_1",
+      "relation:DERIVED_FROM:insight_Distribution_1:Distribution"
+    ],
+    "entityIds": [
+      "insight_Distribution_1",
+      "Distribution"
+    ],
+    "evidenceIds": [
+      "ev_g13_1"
+    ],
+    "graphPath": [
+      "Distribution 1",
+      "DERIVED_FROM",
+      "Distribution: Dominance"
+    ]
+  },
+  "G14": {
+    "id": "G14",
+    "claimIds": [
+      "entity:insight_Distribution_2",
+      "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+    ],
+    "entityIds": [
+      "insight_Distribution_2",
+      "Distribution_2"
+    ],
+    "evidenceIds": [
+      "ev_g14_1",
+      "ev_g14_2",
+      "ev_g14_3"
+    ],
+    "graphPath": [
+      "Distribution 2",
+      "DERIVED_FROM",
+      "Distribution: Dominance"
+    ]
+  },
+  "G15": {
+    "id": "G15",
+    "claimIds": [
+      "entity:insight_Extreme_1",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme_11"
+    ],
+    "entityIds": [
+      "insight_Extreme_1",
+      "Extreme_11"
+    ],
+    "evidenceIds": [
+      "ev_g15_1"
+    ],
+    "graphPath": [
+      "Extreme 1",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G16": {
+    "id": "G16",
+    "claimIds": [
+      "entity:insight_Extreme_10",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_4"
+    ],
+    "entityIds": [
+      "insight_Extreme_10",
+      "Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g16_1"
+    ],
+    "graphPath": [
+      "Extreme 10",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G17": {
+    "id": "G17",
+    "claimIds": [
+      "entity:insight_Extreme_11",
+      "relation:DERIVED_FROM:insight_Extreme_11:Extreme"
+    ],
+    "entityIds": [
+      "insight_Extreme_11",
+      "Extreme"
+    ],
+    "evidenceIds": [
+      "ev_g17_1"
+    ],
+    "graphPath": [
+      "Extreme 11",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G18": {
+    "id": "G18",
+    "claimIds": [
+      "entity:insight_Extreme_12",
+      "relation:DERIVED_FROM:insight_Extreme_12:Extreme_7"
+    ],
+    "entityIds": [
+      "insight_Extreme_12",
+      "Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g18_1"
+    ],
+    "graphPath": [
+      "Extreme 12",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G19": {
+    "id": "G19",
+    "claimIds": [
+      "entity:insight_Extreme_2",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_2"
+    ],
+    "entityIds": [
+      "insight_Extreme_2",
+      "Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g19_1"
+    ],
+    "graphPath": [
+      "Extreme 2",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G20": {
+    "id": "G20",
+    "claimIds": [
+      "entity:insight_Extreme_3",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_10"
+    ],
+    "entityIds": [
+      "insight_Extreme_3",
+      "Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g20_1"
+    ],
+    "graphPath": [
+      "Extreme 3",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G21": {
+    "id": "G21",
+    "claimIds": [
+      "entity:insight_Extreme_4",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_6"
+    ],
+    "entityIds": [
+      "insight_Extreme_4",
+      "Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g21_1"
+    ],
+    "graphPath": [
+      "Extreme 4",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G22": {
+    "id": "G22",
+    "claimIds": [
+      "entity:insight_Extreme_5",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_9"
+    ],
+    "entityIds": [
+      "insight_Extreme_5",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g22_1",
+      "ev_g22_2",
+      "ev_g22_3"
+    ],
+    "graphPath": [
+      "Extreme 5",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G23": {
+    "id": "G23",
+    "claimIds": [
+      "entity:insight_Extreme_6",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_5"
+    ],
+    "entityIds": [
+      "insight_Extreme_6",
+      "Extreme_5"
+    ],
+    "evidenceIds": [
+      "ev_g23_1"
+    ],
+    "graphPath": [
+      "Extreme 6",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G24": {
+    "id": "G24",
+    "claimIds": [
+      "entity:insight_Extreme_7",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_12"
+    ],
+    "entityIds": [
+      "insight_Extreme_7",
+      "Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g24_1"
+    ],
+    "graphPath": [
+      "Extreme 7",
+      "DERIVED_FROM",
+      "Extreme: Maximum"
+    ]
+  },
+  "G25": {
+    "id": "G25",
+    "claimIds": [
+      "entity:insight_Extreme_8",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_3"
+    ],
+    "entityIds": [
+      "insight_Extreme_8",
+      "Extreme_3"
+    ],
+    "evidenceIds": [
+      "ev_g25_1"
+    ],
+    "graphPath": [
+      "Extreme 8",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G26": {
+    "id": "G26",
+    "claimIds": [
+      "entity:insight_Extreme_9",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_8"
+    ],
+    "entityIds": [
+      "insight_Extreme_9",
+      "Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g26_1"
+    ],
+    "graphPath": [
+      "Extreme 9",
+      "DERIVED_FROM",
+      "Extreme: Minimum"
+    ]
+  },
+  "G27": {
+    "id": "G27",
+    "claimIds": [
+      "entity:insight_Global_App_Market_Summary",
+      "relation:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+    ],
+    "entityIds": [
+      "insight_Global_App_Market_Summary",
+      "Composition_4"
+    ],
+    "evidenceIds": [
+      "ev_g27_1"
+    ],
+    "graphPath": [
+      "Global App Market Summary",
+      "DERIVED_FROM",
+      "Composition: Composition"
+    ]
+  },
+  "G28": {
+    "id": "G28",
+    "claimIds": [
+      "entity:insight_Similarity_1",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "insight_Similarity_1",
+      "Similarity"
+    ],
+    "evidenceIds": [
+      "ev_g28_1"
+    ],
+    "graphPath": [
+      "Similarity 1",
+      "DERIVED_FROM",
+      "Similarity: SimilarComposition"
+    ]
+  },
+  "G29": {
+    "id": "G29",
+    "claimIds": [
+      "entity:Comparison",
+      "relation:COMPOSED_OF:Comparison:Extreme_12",
+      "relation:COMPOSED_OF:Comparison:Extreme_4",
+      "relation:DERIVED_FROM:insight_Comparison_1:Comparison"
+    ],
+    "entityIds": [
+      "Comparison",
+      "Extreme_12",
+      "Extreme_4",
+      "insight_Comparison_1"
+    ],
+    "evidenceIds": [
+      "ev_g29_1",
+      "ev_g29_2"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G30": {
+    "id": "G30",
+    "claimIds": [
+      "entity:Comparison_2",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_3",
+      "relation:DERIVED_FROM:insight_Comparison_2:Comparison_2"
+    ],
+    "entityIds": [
+      "Comparison_2",
+      "Extreme_11",
+      "Extreme_3",
+      "insight_Comparison_2"
+    ],
+    "evidenceIds": [
+      "ev_g30_1",
+      "ev_g30_2"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G31": {
+    "id": "G31",
+    "claimIds": [
+      "entity:Comparison_3",
+      "relation:COMPOSED_OF:Comparison_3:Extreme",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_5",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_7",
+      "relation:DERIVED_FROM:insight_Comparison_3:Comparison_3"
+    ],
+    "entityIds": [
+      "Comparison_3",
+      "Extreme",
+      "Extreme_5",
+      "Extreme_7",
+      "insight_Comparison_3"
+    ],
+    "evidenceIds": [
+      "ev_g31_1",
+      "ev_g31_2",
+      "ev_g31_3"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G32": {
+    "id": "G32",
+    "claimIds": [
+      "entity:Comparison_5",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_2",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_6",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_8",
+      "relation:DERIVED_FROM:insight_Comparison_4:Comparison_5",
+      "relation:INFERRED_FROM:Extreme_9:Comparison_5"
+    ],
+    "entityIds": [
+      "Comparison_5",
+      "Extreme_2",
+      "Extreme_6",
+      "Extreme_8",
+      "insight_Comparison_4",
+      "Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g32_1",
+      "ev_g32_2",
+      "ev_g32_3"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G33": {
+    "id": "G33",
+    "claimIds": [
+      "entity:Contrast",
+      "relation:COMPOSED_OF:Contrast:Composition_3",
+      "relation:COMPOSED_OF:Contrast:Composition_6",
+      "relation:DERIVED_FROM:insight_Contrast_1:Contrast"
+    ],
+    "entityIds": [
+      "Contrast",
+      "Composition_3",
+      "Composition_6",
+      "insight_Contrast_1"
+    ],
+    "evidenceIds": [
+      "ev_g33_1"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G34": {
+    "id": "G34",
+    "claimIds": [
+      "entity:Contrast_2",
+      "relation:COMPOSED_OF:Contrast_2:Composition",
+      "relation:COMPOSED_OF:Contrast_2:Composition_2",
+      "relation:COMPOSED_OF:Contrast_2:Composition_5",
+      "relation:DERIVED_FROM:insight_Contrast_2:Contrast_2"
+    ],
+    "entityIds": [
+      "Contrast_2",
+      "Composition",
+      "Composition_2",
+      "Composition_5",
+      "insight_Contrast_2"
+    ],
+    "evidenceIds": [
+      "ev_g34_1"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G35": {
+    "id": "G35",
+    "claimIds": [
+      "entity:Similarity",
+      "relation:COMPOSED_OF:Similarity:Composition_3",
+      "relation:COMPOSED_OF:Similarity:Composition_6",
+      "relation:DERIVED_FROM:insight_Similarity_1:Similarity"
+    ],
+    "entityIds": [
+      "Similarity",
+      "Composition_3",
+      "Composition_6",
+      "insight_Similarity_1"
+    ],
+    "evidenceIds": [
+      "ev_g35_1"
+    ],
+    "graphPath": [
+      "Similarity: SimilarComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G36": {
+    "id": "G36",
+    "claimIds": [
+      "entity:Composition",
+      "relation:COMPOSED_OF:Contrast_2:Composition",
+      "relation:SUPPORTED_BY:Composition:bas_Google_Play_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_6:Composition"
+    ],
+    "entityIds": [
+      "Composition",
+      "Contrast_2",
+      "bas_Google_Play_stacked_bar_bar_group",
+      "insight_Composition_6"
+    ],
+    "evidenceIds": [
+      "ev_g36_1",
+      "ev_g36_2",
+      "ev_g36_3",
+      "ev_g36_4"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G37": {
+    "id": "G37",
+    "claimIds": [
+      "entity:Composition_2",
+      "relation:COMPOSED_OF:Contrast_2:Composition_2",
+      "relation:SUPPORTED_BY:Composition_2:bas_Third_Party_Android_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_1:Composition_2"
+    ],
+    "entityIds": [
+      "Composition_2",
+      "Contrast_2",
+      "bas_Third_Party_Android_stacked_bar_bar_group",
+      "insight_Composition_1"
+    ],
+    "evidenceIds": [
+      "ev_g37_1",
+      "ev_g37_2"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G38": {
+    "id": "G38",
+    "claimIds": [
+      "entity:Composition_3",
+      "relation:COMPOSED_OF:Contrast:Composition_3",
+      "relation:COMPOSED_OF:Similarity:Composition_3",
+      "relation:SUPPORTED_BY:Composition_3:bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_2:Composition_3"
+    ],
+    "entityIds": [
+      "Composition_3",
+      "Contrast",
+      "Similarity",
+      "bas_Asia_Pacific_stacked_bar_bar_group",
+      "insight_Composition_2"
+    ],
+    "evidenceIds": [
+      "ev_g38_1",
+      "ev_g38_2",
+      "ev_g38_3"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G39": {
+    "id": "G39",
+    "claimIds": [
+      "entity:Composition_4",
+      "relation:SUPPORTED_BY:Composition_4:bas_all_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_5:Composition_4",
+      "relation:DERIVED_FROM:insight_Global_App_Market_Summary:Composition_4"
+    ],
+    "entityIds": [
+      "Composition_4",
+      "bas_all_stacked_bar_bar_group",
+      "insight_Composition_5",
+      "insight_Global_App_Market_Summary"
+    ],
+    "evidenceIds": [
+      "ev_g39_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas all stacked bar bar group"
+    ]
+  },
+  "G40": {
+    "id": "G40",
+    "claimIds": [
+      "entity:Composition_5",
+      "relation:COMPOSED_OF:Contrast_2:Composition_5",
+      "relation:SUPPORTED_BY:Composition_5:bas_iOS_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_4:Composition_5"
+    ],
+    "entityIds": [
+      "Composition_5",
+      "Contrast_2",
+      "bas_iOS_stacked_bar_bar_group",
+      "insight_Composition_4"
+    ],
+    "evidenceIds": [
+      "ev_g40_1",
+      "ev_g40_2",
+      "ev_g40_3",
+      "ev_g40_4"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G41": {
+    "id": "G41",
+    "claimIds": [
+      "entity:Composition_6",
+      "relation:COMPOSED_OF:Contrast:Composition_6",
+      "relation:COMPOSED_OF:Similarity:Composition_6",
+      "relation:SUPPORTED_BY:Composition_6:bas_Worldwide_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Composition_3:Composition_6"
+    ],
+    "entityIds": [
+      "Composition_6",
+      "Contrast",
+      "Similarity",
+      "bas_Worldwide_stacked_bar_bar_group",
+      "insight_Composition_3"
+    ],
+    "evidenceIds": [
+      "ev_g41_1",
+      "ev_g41_2",
+      "ev_g41_3"
+    ],
+    "graphPath": [
+      "Contrast: DifferentComposition",
+      "COMPOSED_OF",
+      "Composition: Composition"
+    ]
+  },
+  "G42": {
+    "id": "G42",
+    "claimIds": [
+      "entity:Composition_7",
+      "relation:SUPPORTED_BY:Composition_7:bas_Americas_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "Composition_7",
+      "bas_Americas_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g42_1",
+      "ev_g42_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Americas stacked bar bar group"
+    ]
+  },
+  "G43": {
+    "id": "G43",
+    "claimIds": [
+      "entity:Composition_8",
+      "relation:SUPPORTED_BY:Composition_8:bas_EMEA_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "Composition_8",
+      "bas_EMEA_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g43_1",
+      "ev_g43_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas EMEA stacked bar bar group"
+    ]
+  },
+  "G44": {
+    "id": "G44",
+    "claimIds": [
+      "entity:Distribution",
+      "relation:SUPPORTED_BY:Distribution:bas_all_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Distribution_1:Distribution"
+    ],
+    "entityIds": [
+      "Distribution",
+      "bas_all_stacked_bar_bar_group",
+      "insight_Distribution_1"
+    ],
+    "evidenceIds": [
+      "ev_g44_1"
+    ],
+    "graphPath": [
+      "Distribution: Dominance",
+      "SUPPORTED_BY",
+      "bas all stacked bar bar group"
+    ]
+  },
+  "G45": {
+    "id": "G45",
+    "claimIds": [
+      "entity:Distribution_2",
+      "relation:SUPPORTED_BY:Distribution_2:bas_Worldwide_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Distribution_2:Distribution_2"
+    ],
+    "entityIds": [
+      "Distribution_2",
+      "bas_Worldwide_stacked_bar_bar_group",
+      "insight_Distribution_2"
+    ],
+    "evidenceIds": [
+      "ev_g45_1",
+      "ev_g45_2",
+      "ev_g45_3"
+    ],
+    "graphPath": [
+      "Distribution: Dominance",
+      "SUPPORTED_BY",
+      "bas Worldwide stacked bar bar group"
+    ]
+  },
+  "G46": {
+    "id": "G46",
+    "claimIds": [
+      "entity:Extreme",
+      "relation:COMPOSED_OF:Comparison_3:Extreme",
+      "relation:SUPPORTED_BY:Extreme:bas_Third_Party_Android_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_11:Extreme"
+    ],
+    "entityIds": [
+      "Extreme",
+      "Comparison_3",
+      "bas_Third_Party_Android_stacked_bar_bar_group",
+      "insight_Extreme_11"
+    ],
+    "evidenceIds": [
+      "ev_g46_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G47": {
+    "id": "G47",
+    "claimIds": [
+      "entity:Extreme_10",
+      "relation:SUPPORTED_BY:Extreme_10:bas_all_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_3:Extreme_10"
+    ],
+    "entityIds": [
+      "Extreme_10",
+      "bas_all_stacked_bar_bar_group",
+      "insight_Extreme_3"
+    ],
+    "evidenceIds": [
+      "ev_g47_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas all stacked bar bar group"
+    ]
+  },
+  "G48": {
+    "id": "G48",
+    "claimIds": [
+      "entity:Extreme_11",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_11",
+      "relation:SUPPORTED_BY:Extreme_11:bas_Worldwide_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_1:Extreme_11"
+    ],
+    "entityIds": [
+      "Extreme_11",
+      "Comparison_2",
+      "bas_Worldwide_stacked_bar_bar_group",
+      "insight_Extreme_1"
+    ],
+    "evidenceIds": [
+      "ev_g48_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G49": {
+    "id": "G49",
+    "claimIds": [
+      "entity:Extreme_12",
+      "relation:COMPOSED_OF:Comparison:Extreme_12",
+      "relation:SUPPORTED_BY:Extreme_12:bas_Worldwide_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_7:Extreme_12"
+    ],
+    "entityIds": [
+      "Extreme_12",
+      "Comparison",
+      "bas_Worldwide_stacked_bar_bar_group",
+      "insight_Extreme_7"
+    ],
+    "evidenceIds": [
+      "ev_g49_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G50": {
+    "id": "G50",
+    "claimIds": [
+      "entity:Extreme_13",
+      "relation:SUPPORTED_BY:Extreme_13:bas_Americas_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "Extreme_13",
+      "bas_Americas_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g50_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas Americas stacked bar bar group"
+    ]
+  },
+  "G51": {
+    "id": "G51",
+    "claimIds": [
+      "entity:Extreme_14",
+      "relation:SUPPORTED_BY:Extreme_14:bas_Americas_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "Extreme_14",
+      "bas_Americas_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g51_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas Americas stacked bar bar group"
+    ]
+  },
+  "G52": {
+    "id": "G52",
+    "claimIds": [
+      "entity:Extreme_15",
+      "relation:SUPPORTED_BY:Extreme_15:bas_EMEA_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "Extreme_15",
+      "bas_EMEA_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g52_1"
+    ],
+    "graphPath": [
+      "Extreme: Maximum",
+      "SUPPORTED_BY",
+      "bas EMEA stacked bar bar group"
+    ]
+  },
+  "G53": {
+    "id": "G53",
+    "claimIds": [
+      "entity:Extreme_16",
+      "relation:SUPPORTED_BY:Extreme_16:bas_EMEA_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "Extreme_16",
+      "bas_EMEA_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g53_1"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas EMEA stacked bar bar group"
+    ]
+  },
+  "G54": {
+    "id": "G54",
+    "claimIds": [
+      "entity:Extreme_2",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_2",
+      "relation:SUPPORTED_BY:Extreme_2:bas_Third_Party_Android_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_2:Extreme_2"
+    ],
+    "entityIds": [
+      "Extreme_2",
+      "Comparison_5",
+      "bas_Third_Party_Android_stacked_bar_bar_group",
+      "insight_Extreme_2"
+    ],
+    "evidenceIds": [
+      "ev_g54_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G55": {
+    "id": "G55",
+    "claimIds": [
+      "entity:Extreme_3",
+      "relation:COMPOSED_OF:Comparison_2:Extreme_3",
+      "relation:SUPPORTED_BY:Extreme_3:bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_8:Extreme_3"
+    ],
+    "entityIds": [
+      "Extreme_3",
+      "Comparison_2",
+      "bas_Asia_Pacific_stacked_bar_bar_group",
+      "insight_Extreme_8"
+    ],
+    "evidenceIds": [
+      "ev_g55_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G56": {
+    "id": "G56",
+    "claimIds": [
+      "entity:Extreme_4",
+      "relation:COMPOSED_OF:Comparison:Extreme_4",
+      "relation:SUPPORTED_BY:Extreme_4:bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_10:Extreme_4"
+    ],
+    "entityIds": [
+      "Extreme_4",
+      "Comparison",
+      "bas_Asia_Pacific_stacked_bar_bar_group",
+      "insight_Extreme_10"
+    ],
+    "evidenceIds": [
+      "ev_g56_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G57": {
+    "id": "G57",
+    "claimIds": [
+      "entity:Extreme_5",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_5",
+      "relation:SUPPORTED_BY:Extreme_5:bas_Google_Play_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_6:Extreme_5"
+    ],
+    "entityIds": [
+      "Extreme_5",
+      "Comparison_3",
+      "bas_Google_Play_stacked_bar_bar_group",
+      "insight_Extreme_6"
+    ],
+    "evidenceIds": [
+      "ev_g57_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G58": {
+    "id": "G58",
+    "claimIds": [
+      "entity:Extreme_6",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_6",
+      "relation:SUPPORTED_BY:Extreme_6:bas_Google_Play_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_4:Extreme_6"
+    ],
+    "entityIds": [
+      "Extreme_6",
+      "Comparison_5",
+      "bas_Google_Play_stacked_bar_bar_group",
+      "insight_Extreme_4"
+    ],
+    "evidenceIds": [
+      "ev_g58_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G59": {
+    "id": "G59",
+    "claimIds": [
+      "entity:Extreme_7",
+      "relation:COMPOSED_OF:Comparison_3:Extreme_7",
+      "relation:SUPPORTED_BY:Extreme_7:bas_iOS_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_12:Extreme_7"
+    ],
+    "entityIds": [
+      "Extreme_7",
+      "Comparison_3",
+      "bas_iOS_stacked_bar_bar_group",
+      "insight_Extreme_12"
+    ],
+    "evidenceIds": [
+      "ev_g59_1"
+    ],
+    "graphPath": [
+      "Comparison: MaximumComparison",
+      "COMPOSED_OF",
+      "Extreme: Maximum"
+    ]
+  },
+  "G60": {
+    "id": "G60",
+    "claimIds": [
+      "entity:Extreme_8",
+      "relation:COMPOSED_OF:Comparison_5:Extreme_8",
+      "relation:SUPPORTED_BY:Extreme_8:bas_iOS_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_9:Extreme_8"
+    ],
+    "entityIds": [
+      "Extreme_8",
+      "Comparison_5",
+      "bas_iOS_stacked_bar_bar_group",
+      "insight_Extreme_9"
+    ],
+    "evidenceIds": [
+      "ev_g60_1"
+    ],
+    "graphPath": [
+      "Comparison: MinimumComparison",
+      "COMPOSED_OF",
+      "Extreme: Minimum"
+    ]
+  },
+  "G61": {
+    "id": "G61",
+    "claimIds": [
+      "entity:Extreme_9",
+      "relation:SUPPORTED_BY:Extreme_9:bas_all_stacked_bar_bar_group",
+      "relation:DERIVED_FROM:insight_Extreme_5:Extreme_9",
+      "relation:INFERRED_FROM:Extreme_9:Comparison_5"
+    ],
+    "entityIds": [
+      "Extreme_9",
+      "bas_all_stacked_bar_bar_group",
+      "insight_Extreme_5",
+      "Comparison_5"
+    ],
+    "evidenceIds": [
+      "ev_g61_1",
+      "ev_g61_2",
+      "ev_g61_3"
+    ],
+    "graphPath": [
+      "Extreme: Minimum",
+      "SUPPORTED_BY",
+      "bas all stacked bar bar group"
+    ]
+  },
+  "G62": {
+    "id": "G62",
+    "claimIds": [
+      "entity:Market_Value_USD_Billions",
+      "relation:VALUE_OF:bar_10:Market_Value_USD_Billions"
+    ],
+    "entityIds": [
+      "Market_Value_USD_Billions",
+      "bar_10"
+    ],
+    "evidenceIds": [
+      "ev_g62_1"
+    ],
+    "graphPath": [
+      "bar 10",
+      "VALUE_OF",
+      "Market value"
+    ]
+  },
+  "G63": {
+    "id": "G63",
+    "claimIds": [
+      "entity:Percentage",
+      "relation:ENCODES:height:Percentage",
+      "relation:ENCODES:text_label:Percentage",
+      "relation:ENCODES:y_position:Percentage",
+      "relation:VALUE_OF:bar_1:Percentage",
+      "relation:VALUE_OF:bar_2:Percentage",
+      "relation:VALUE_OF:bar_3:Percentage",
+      "relation:VALUE_OF:bar_4:Percentage",
+      "relation:VALUE_OF:bar_5:Percentage",
+      "relation:VALUE_OF:bar_6:Percentage",
+      "relation:VALUE_OF:bar_7:Percentage",
+      "relation:VALUE_OF:bar_8:Percentage",
+      "relation:VALUE_OF:bar_9:Percentage",
+      "relation:VALUE_OF:bar_10:Percentage"
+    ],
+    "entityIds": [
+      "Percentage",
+      "height",
+      "text_label",
+      "y_position",
+      "bar_1",
+      "bar_2",
+      "bar_3",
+      "bar_4",
+      "bar_5",
+      "bar_6",
+      "bar_7",
+      "bar_8",
+      "bar_9",
+      "bar_10"
+    ],
+    "evidenceIds": [
+      "ev_g63_1"
+    ],
+    "graphPath": [
+      "height",
+      "ENCODES",
+      "Percentage"
+    ]
+  },
+  "G64": {
+    "id": "G64",
+    "claimIds": [
+      "entity:Platform",
+      "relation:ENCODES:color:Platform",
+      "relation:VALUE_OF:Google_Play:Platform",
+      "relation:VALUE_OF:Third_Party_Android:Platform",
+      "relation:VALUE_OF:iOS:Platform"
+    ],
+    "entityIds": [
+      "Platform",
+      "color",
+      "Google_Play",
+      "Third_Party_Android",
+      "iOS"
+    ],
+    "evidenceIds": [
+      "ev_g64_1"
+    ],
+    "graphPath": [
+      "color",
+      "ENCODES",
+      "Platform"
+    ]
+  },
+  "G65": {
+    "id": "G65",
+    "claimIds": [
+      "entity:Region",
+      "relation:ENCODES:x_position:Region",
+      "relation:VALUE_OF:Americas:Region",
+      "relation:VALUE_OF:Asia_Pacific:Region",
+      "relation:VALUE_OF:EMEA:Region",
+      "relation:VALUE_OF:Worldwide:Region"
+    ],
+    "entityIds": [
+      "Region",
+      "x_position",
+      "Americas",
+      "Asia_Pacific",
+      "EMEA",
+      "Worldwide"
+    ],
+    "evidenceIds": [
+      "ev_g65_1"
+    ],
+    "graphPath": [
+      "x position",
+      "ENCODES",
+      "Region"
+    ]
+  },
+  "G66": {
+    "id": "G66",
+    "claimIds": [
+      "entity:Americas",
+      "relation:ENCODES:Americas_position_interval:Americas",
+      "relation:VALUE_OF:Americas:Region",
+      "relation:VALUE_OF:bar_4:Americas",
+      "relation:VALUE_OF:bar_10:Americas"
+    ],
+    "entityIds": [
+      "Americas",
+      "Americas_position_interval",
+      "Region",
+      "bar_4",
+      "bar_10"
+    ],
+    "evidenceIds": [
+      "ev_g66_1",
+      "ev_g66_2"
+    ],
+    "graphPath": [
+      "Americas position interval",
+      "ENCODES",
+      "Americas"
+    ]
+  },
+  "G67": {
+    "id": "G67",
+    "claimIds": [
+      "entity:Asia_Pacific",
+      "relation:ENCODES:Asia_Pacific_position_interval:Asia_Pacific",
+      "relation:VALUE_OF:Asia_Pacific:Region",
+      "relation:VALUE_OF:bar_1:Asia_Pacific",
+      "relation:VALUE_OF:bar_2:Asia_Pacific",
+      "relation:VALUE_OF:bar_3:Asia_Pacific"
+    ],
+    "entityIds": [
+      "Asia_Pacific",
+      "Asia_Pacific_position_interval",
+      "Region",
+      "bar_1",
+      "bar_2",
+      "bar_3"
+    ],
+    "evidenceIds": [
+      "ev_g67_1",
+      "ev_g67_2",
+      "ev_g67_3"
+    ],
+    "graphPath": [
+      "Asia Pacific position interval",
+      "ENCODES",
+      "Asia Pacific"
+    ]
+  },
+  "G68": {
+    "id": "G68",
+    "claimIds": [
+      "entity:EMEA",
+      "relation:ENCODES:EMEA_position:EMEA",
+      "relation:VALUE_OF:EMEA:Region",
+      "relation:VALUE_OF:bar_5:EMEA",
+      "relation:VALUE_OF:bar_6:EMEA"
+    ],
+    "entityIds": [
+      "EMEA",
+      "EMEA_position",
+      "Region",
+      "bar_5",
+      "bar_6"
+    ],
+    "evidenceIds": [
+      "ev_g68_1",
+      "ev_g68_2"
+    ],
+    "graphPath": [
+      "EMEA position",
+      "ENCODES",
+      "EMEA"
+    ]
+  },
+  "G69": {
+    "id": "G69",
+    "claimIds": [
+      "entity:Google_Play",
+      "relation:ENCODES:rgb_169_207_65:Google_Play",
+      "relation:VALUE_OF:Google_Play:Platform",
+      "relation:VALUE_OF:bar_2:Google_Play",
+      "relation:VALUE_OF:bar_4:Google_Play",
+      "relation:VALUE_OF:bar_6:Google_Play",
+      "relation:VALUE_OF:bar_8:Google_Play"
+    ],
+    "entityIds": [
+      "Google_Play",
+      "rgb_169_207_65",
+      "Platform",
+      "bar_2",
+      "bar_4",
+      "bar_6",
+      "bar_8"
+    ],
+    "evidenceIds": [
+      "ev_g69_1",
+      "ev_g69_2",
+      "ev_g69_3",
+      "ev_g69_4"
+    ],
+    "graphPath": [
+      "rgb 169 207 65",
+      "ENCODES",
+      "Google Play"
+    ]
+  },
+  "G70": {
+    "id": "G70",
+    "claimIds": [
+      "entity:Third_Party_Android",
+      "relation:ENCODES:rgb_134_149_189:Third_Party_Android",
+      "relation:VALUE_OF:Third_Party_Android:Platform",
+      "relation:VALUE_OF:bar_1:Third_Party_Android",
+      "relation:VALUE_OF:bar_7:Third_Party_Android"
+    ],
+    "entityIds": [
+      "Third_Party_Android",
+      "rgb_134_149_189",
+      "Platform",
+      "bar_1",
+      "bar_7"
+    ],
+    "evidenceIds": [
+      "ev_g70_1",
+      "ev_g70_2"
+    ],
+    "graphPath": [
+      "rgb 134 149 189",
+      "ENCODES",
+      "Third Party Android"
+    ]
+  },
+  "G71": {
+    "id": "G71",
+    "claimIds": [
+      "entity:Worldwide",
+      "relation:ENCODES:Worldwide_position:Worldwide",
+      "relation:VALUE_OF:Worldwide:Region",
+      "relation:VALUE_OF:bar_7:Worldwide",
+      "relation:VALUE_OF:bar_8:Worldwide",
+      "relation:VALUE_OF:bar_9:Worldwide"
+    ],
+    "entityIds": [
+      "Worldwide",
+      "Worldwide_position",
+      "Region",
+      "bar_7",
+      "bar_8",
+      "bar_9"
+    ],
+    "evidenceIds": [
+      "ev_g71_1",
+      "ev_g71_2",
+      "ev_g71_3"
+    ],
+    "graphPath": [
+      "Worldwide position",
+      "ENCODES",
+      "Worldwide"
+    ]
+  },
+  "G72": {
+    "id": "G72",
+    "claimIds": [
+      "entity:iOS",
+      "relation:ENCODES:rgb_67_194_209:iOS",
+      "relation:VALUE_OF:bar_3:iOS",
+      "relation:VALUE_OF:bar_5:iOS",
+      "relation:VALUE_OF:bar_9:iOS",
+      "relation:VALUE_OF:iOS:Platform",
+      "relation:VALUE_OF:bar_10:iOS"
+    ],
+    "entityIds": [
+      "iOS",
+      "rgb_67_194_209",
+      "bar_3",
+      "bar_5",
+      "bar_9",
+      "Platform",
+      "bar_10"
+    ],
+    "evidenceIds": [
+      "ev_g72_1",
+      "ev_g72_2",
+      "ev_g72_3",
+      "ev_g72_4"
+    ],
+    "graphPath": [
+      "rgb 67 194 209",
+      "ENCODES",
+      "iOS"
+    ]
+  },
+  "G73": {
+    "id": "G73",
+    "claimIds": [
+      "entity:stacked_bar",
+      "relation:HAS_VIEW:chart:stacked_bar",
+      "relation:COMPOSED_OF:stacked_bar:bar_group"
+    ],
+    "entityIds": [
+      "stacked_bar",
+      "chart",
+      "bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g73_1"
+    ],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "stacked bar"
+    ]
+  },
+  "G74": {
+    "id": "G74",
+    "claimIds": [
+      "entity:bas_Americas_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Americas_stacked_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_Americas_stacked_bar_bar_group:bar_10",
+      "relation:SUPPORTED_BY:Composition_7:bas_Americas_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_13:bas_Americas_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_14:bas_Americas_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_Americas_stacked_bar_bar_group",
+      "bar_4",
+      "bar_10",
+      "Composition_7",
+      "Extreme_13",
+      "Extreme_14"
+    ],
+    "evidenceIds": [
+      "ev_g74_1",
+      "ev_g74_2"
+    ],
+    "graphPath": [
+      "bas Americas stacked bar bar group",
+      "COMPOSED_OF",
+      "bar 4"
+    ]
+  },
+  "G75": {
+    "id": "G75",
+    "claimIds": [
+      "entity:bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Composition_3:bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_3:bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_4:bas_Asia_Pacific_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_3"
+    ],
+    "entityIds": [
+      "bas_Asia_Pacific_stacked_bar_bar_group",
+      "Composition_3",
+      "Extreme_3",
+      "Extreme_4",
+      "bar_1",
+      "bar_2",
+      "bar_3"
+    ],
+    "evidenceIds": [
+      "ev_g75_1",
+      "ev_g75_2",
+      "ev_g75_3"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Asia Pacific stacked bar bar group"
+    ]
+  },
+  "G76": {
+    "id": "G76",
+    "claimIds": [
+      "entity:bas_EMEA_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_EMEA_stacked_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_EMEA_stacked_bar_bar_group:bar_6",
+      "relation:SUPPORTED_BY:Composition_8:bas_EMEA_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_15:bas_EMEA_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_16:bas_EMEA_stacked_bar_bar_group"
+    ],
+    "entityIds": [
+      "bas_EMEA_stacked_bar_bar_group",
+      "bar_5",
+      "bar_6",
+      "Composition_8",
+      "Extreme_15",
+      "Extreme_16"
+    ],
+    "evidenceIds": [
+      "ev_g76_1",
+      "ev_g76_2"
+    ],
+    "graphPath": [
+      "bas EMEA stacked bar bar group",
+      "COMPOSED_OF",
+      "bar 5"
+    ]
+  },
+  "G77": {
+    "id": "G77",
+    "claimIds": [
+      "entity:bas_Google_Play_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Composition:bas_Google_Play_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_5:bas_Google_Play_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_6:bas_Google_Play_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_6",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_8"
+    ],
+    "entityIds": [
+      "bas_Google_Play_stacked_bar_bar_group",
+      "Composition",
+      "Extreme_5",
+      "Extreme_6",
+      "bar_2",
+      "bar_4",
+      "bar_6",
+      "bar_8"
+    ],
+    "evidenceIds": [
+      "ev_g77_1",
+      "ev_g77_2",
+      "ev_g77_3",
+      "ev_g77_4"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Google Play stacked bar bar group"
+    ]
+  },
+  "G78": {
+    "id": "G78",
+    "claimIds": [
+      "entity:bas_Third_Party_Android_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Composition_2:bas_Third_Party_Android_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme:bas_Third_Party_Android_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_2:bas_Third_Party_Android_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Third_Party_Android_stacked_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_Third_Party_Android_stacked_bar_bar_group:bar_7"
+    ],
+    "entityIds": [
+      "bas_Third_Party_Android_stacked_bar_bar_group",
+      "Composition_2",
+      "Extreme",
+      "Extreme_2",
+      "bar_1",
+      "bar_7"
+    ],
+    "evidenceIds": [
+      "ev_g78_1",
+      "ev_g78_2"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Third Party Android stacked bar bar group"
+    ]
+  },
+  "G79": {
+    "id": "G79",
+    "claimIds": [
+      "entity:bas_Worldwide_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Composition_6:bas_Worldwide_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Distribution_2:bas_Worldwide_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_11:bas_Worldwide_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_12:bas_Worldwide_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_9"
+    ],
+    "entityIds": [
+      "bas_Worldwide_stacked_bar_bar_group",
+      "Composition_6",
+      "Distribution_2",
+      "Extreme_11",
+      "Extreme_12",
+      "bar_7",
+      "bar_8",
+      "bar_9"
+    ],
+    "evidenceIds": [
+      "ev_g79_1",
+      "ev_g79_2",
+      "ev_g79_3"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas Worldwide stacked bar bar group"
+    ]
+  },
+  "G80": {
+    "id": "G80",
+    "claimIds": [
+      "entity:bas_all_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Composition_4:bas_all_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Distribution:bas_all_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_10:bas_all_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_9:bas_all_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_6",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_10"
+    ],
+    "entityIds": [
+      "bas_all_stacked_bar_bar_group",
+      "Composition_4",
+      "Distribution",
+      "Extreme_10",
+      "Extreme_9",
+      "bar_1",
+      "bar_2",
+      "bar_3",
+      "bar_4",
+      "bar_5",
+      "bar_6",
+      "bar_7",
+      "bar_8",
+      "bar_9",
+      "bar_10"
+    ],
+    "evidenceIds": [
+      "ev_g80_1"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas all stacked bar bar group"
+    ]
+  },
+  "G81": {
+    "id": "G81",
+    "claimIds": [
+      "entity:bas_iOS_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Composition_5:bas_iOS_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_7:bas_iOS_stacked_bar_bar_group",
+      "relation:SUPPORTED_BY:Extreme_8:bas_iOS_stacked_bar_bar_group",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_9",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_10"
+    ],
+    "entityIds": [
+      "bas_iOS_stacked_bar_bar_group",
+      "Composition_5",
+      "Extreme_7",
+      "Extreme_8",
+      "bar_3",
+      "bar_5",
+      "bar_9",
+      "bar_10"
+    ],
+    "evidenceIds": [
+      "ev_g81_1",
+      "ev_g81_2",
+      "ev_g81_3",
+      "ev_g81_4"
+    ],
+    "graphPath": [
+      "Composition: Composition",
+      "SUPPORTED_BY",
+      "bas iOS stacked bar bar group"
+    ]
+  },
+  "G82": {
+    "id": "G82",
+    "claimIds": [
+      "entity:bar_group",
+      "relation:COMPOSED_OF:stacked_bar:bar_group",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:width",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:x_position",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:y_position",
+      "relation:HAS_ANNOTATION:bar_group:text_label"
+    ],
+    "entityIds": [
+      "bar_group",
+      "stacked_bar",
+      "color",
+      "height",
+      "width",
+      "x_position",
+      "y_position",
+      "text_label"
+    ],
+    "evidenceIds": [
+      "ev_g82_1"
+    ],
+    "graphPath": [
+      "stacked bar",
+      "COMPOSED_OF",
+      "bar group"
+    ]
+  },
+  "G83": {
+    "id": "G83",
+    "claimIds": [
+      "entity:color",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:color",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_134_149_189",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_169_207_65",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_67_194_209",
+      "relation:ENCODES:color:Platform"
+    ],
+    "entityIds": [
+      "color",
+      "bar_group",
+      "rgb_134_149_189",
+      "rgb_169_207_65",
+      "rgb_67_194_209",
+      "Platform"
+    ],
+    "evidenceIds": [
+      "ev_g83_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "color"
+    ]
+  },
+  "G84": {
+    "id": "G84",
+    "claimIds": [
+      "entity:height",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:height",
+      "relation:ENCODES:height:Percentage"
+    ],
+    "entityIds": [
+      "height",
+      "bar_group",
+      "Percentage"
+    ],
+    "evidenceIds": [
+      "ev_g84_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "height"
+    ]
+  },
+  "G85": {
+    "id": "G85",
+    "claimIds": [
+      "entity:text_label",
+      "relation:HAS_ANNOTATION:bar_group:text_label",
+      "relation:ENCODES:text_label:Percentage"
+    ],
+    "entityIds": [
+      "text_label",
+      "bar_group",
+      "Percentage"
+    ],
+    "evidenceIds": [
+      "ev_g85_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_ANNOTATION",
+      "text label"
+    ]
+  },
+  "G86": {
+    "id": "G86",
+    "claimIds": [
+      "entity:width",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:width"
+    ],
+    "entityIds": [
+      "width",
+      "bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g86_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "width"
+    ]
+  },
+  "G87": {
+    "id": "G87",
+    "claimIds": [
+      "entity:x_position",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:x_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Americas_position_interval",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Asia_Pacific_position_interval",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:EMEA_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Worldwide_position",
+      "relation:ENCODES:x_position:Region"
+    ],
+    "entityIds": [
+      "x_position",
+      "bar_group",
+      "Americas_position_interval",
+      "Asia_Pacific_position_interval",
+      "EMEA_position",
+      "Worldwide_position",
+      "Region"
+    ],
+    "evidenceIds": [
+      "ev_g87_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "x position"
+    ]
+  },
+  "G88": {
+    "id": "G88",
+    "claimIds": [
+      "entity:y_position",
+      "relation:HAS_VISUAL_ATTRIBUTE:bar_group:y_position",
+      "relation:ENCODES:y_position:Percentage"
+    ],
+    "entityIds": [
+      "y_position",
+      "bar_group",
+      "Percentage"
+    ],
+    "evidenceIds": [
+      "ev_g88_1"
+    ],
+    "graphPath": [
+      "bar group",
+      "HAS_VISUAL_ATTRIBUTE",
+      "y position"
+    ]
+  },
+  "G89": {
+    "id": "G89",
+    "claimIds": [
+      "entity:Americas_position_interval",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Americas_position_interval",
+      "relation:ENCODES:Americas_position_interval:Americas"
+    ],
+    "entityIds": [
+      "Americas_position_interval",
+      "x_position",
+      "Americas"
+    ],
+    "evidenceIds": [
+      "ev_g89_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Americas position interval"
+    ]
+  },
+  "G90": {
+    "id": "G90",
+    "claimIds": [
+      "entity:Asia_Pacific_position_interval",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Asia_Pacific_position_interval",
+      "relation:ENCODES:Asia_Pacific_position_interval:Asia_Pacific"
+    ],
+    "entityIds": [
+      "Asia_Pacific_position_interval",
+      "x_position",
+      "Asia_Pacific"
+    ],
+    "evidenceIds": [
+      "ev_g90_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Asia Pacific position interval"
+    ]
+  },
+  "G91": {
+    "id": "G91",
+    "claimIds": [
+      "entity:EMEA_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:EMEA_position",
+      "relation:ENCODES:EMEA_position:EMEA"
+    ],
+    "entityIds": [
+      "EMEA_position",
+      "x_position",
+      "EMEA"
+    ],
+    "evidenceIds": [
+      "ev_g91_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "EMEA position"
+    ]
+  },
+  "G92": {
+    "id": "G92",
+    "claimIds": [
+      "entity:Worldwide_position",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:x_position:Worldwide_position",
+      "relation:ENCODES:Worldwide_position:Worldwide"
+    ],
+    "entityIds": [
+      "Worldwide_position",
+      "x_position",
+      "Worldwide"
+    ],
+    "evidenceIds": [
+      "ev_g92_1"
+    ],
+    "graphPath": [
+      "x position",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "Worldwide position"
+    ]
+  },
+  "G93": {
+    "id": "G93",
+    "claimIds": [
+      "entity:rgb_134_149_189",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_134_149_189",
+      "relation:ENCODES:rgb_134_149_189:Third_Party_Android"
+    ],
+    "entityIds": [
+      "rgb_134_149_189",
+      "color",
+      "Third_Party_Android"
+    ],
+    "evidenceIds": [
+      "ev_g93_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 134 149 189"
+    ]
+  },
+  "G94": {
+    "id": "G94",
+    "claimIds": [
+      "entity:rgb_169_207_65",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_169_207_65",
+      "relation:ENCODES:rgb_169_207_65:Google_Play"
+    ],
+    "entityIds": [
+      "rgb_169_207_65",
+      "color",
+      "Google_Play"
+    ],
+    "evidenceIds": [
+      "ev_g94_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 169 207 65"
+    ]
+  },
+  "G95": {
+    "id": "G95",
+    "claimIds": [
+      "entity:rgb_67_194_209",
+      "relation:HAS_VISUAL_ATTRIBUTE_VALUE:color:rgb_67_194_209",
+      "relation:ENCODES:rgb_67_194_209:iOS"
+    ],
+    "entityIds": [
+      "rgb_67_194_209",
+      "color",
+      "iOS"
+    ],
+    "evidenceIds": [
+      "ev_g95_1"
+    ],
+    "graphPath": [
+      "color",
+      "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "rgb 67 194 209"
+    ]
+  },
+  "G96": {
+    "id": "G96",
+    "claimIds": [
+      "entity:chart",
+      "relation:HAS_VIEW:chart:stacked_bar"
+    ],
+    "entityIds": [
+      "chart",
+      "stacked_bar"
+    ],
+    "evidenceIds": [],
+    "graphPath": [
+      "chart",
+      "HAS_VIEW",
+      "stacked bar"
+    ]
+  },
+  "G97": {
+    "id": "G97",
+    "claimIds": [
+      "entity:bar_1",
+      "relation:VALUE_OF:bar_1:Asia_Pacific",
+      "relation:VALUE_OF:bar_1:Percentage",
+      "relation:VALUE_OF:bar_1:Third_Party_Android",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_1",
+      "relation:COMPOSED_OF:bas_Third_Party_Android_stacked_bar_bar_group:bar_1"
+    ],
+    "entityIds": [
+      "bar_1",
+      "Asia_Pacific",
+      "Percentage",
+      "Third_Party_Android",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Asia_Pacific_stacked_bar_bar_group",
+      "bas_Third_Party_Android_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g97_1"
+    ],
+    "graphPath": [
+      "bar 1",
+      "VALUE_OF",
+      "Asia Pacific"
+    ]
+  },
+  "G98": {
+    "id": "G98",
+    "claimIds": [
+      "entity:bar_10",
+      "relation:VALUE_OF:bar_10:iOS",
+      "relation:VALUE_OF:bar_10:Americas",
+      "relation:VALUE_OF:bar_10:Percentage",
+      "relation:VALUE_OF:bar_10:Market_Value_USD_Billions",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_10",
+      "relation:COMPOSED_OF:bas_Americas_stacked_bar_bar_group:bar_10",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_10"
+    ],
+    "entityIds": [
+      "bar_10",
+      "iOS",
+      "Americas",
+      "Percentage",
+      "Market_Value_USD_Billions",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Americas_stacked_bar_bar_group",
+      "bas_iOS_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g98_1"
+    ],
+    "graphPath": [
+      "bar 10",
+      "VALUE_OF",
+      "iOS"
+    ]
+  },
+  "G99": {
+    "id": "G99",
+    "claimIds": [
+      "entity:bar_2",
+      "relation:VALUE_OF:bar_2:Asia_Pacific",
+      "relation:VALUE_OF:bar_2:Google_Play",
+      "relation:VALUE_OF:bar_2:Percentage",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_2",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_2"
+    ],
+    "entityIds": [
+      "bar_2",
+      "Asia_Pacific",
+      "Google_Play",
+      "Percentage",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Asia_Pacific_stacked_bar_bar_group",
+      "bas_Google_Play_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g99_1"
+    ],
+    "graphPath": [
+      "bar 2",
+      "VALUE_OF",
+      "Asia Pacific"
+    ]
+  },
+  "G100": {
+    "id": "G100",
+    "claimIds": [
+      "entity:bar_3",
+      "relation:VALUE_OF:bar_3:Asia_Pacific",
+      "relation:VALUE_OF:bar_3:Percentage",
+      "relation:VALUE_OF:bar_3:iOS",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_Asia_Pacific_stacked_bar_bar_group:bar_3",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_3"
+    ],
+    "entityIds": [
+      "bar_3",
+      "Asia_Pacific",
+      "Percentage",
+      "iOS",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Asia_Pacific_stacked_bar_bar_group",
+      "bas_iOS_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g100_1"
+    ],
+    "graphPath": [
+      "bar 3",
+      "VALUE_OF",
+      "Asia Pacific"
+    ]
+  },
+  "G101": {
+    "id": "G101",
+    "claimIds": [
+      "entity:bar_4",
+      "relation:VALUE_OF:bar_4:Google_Play",
+      "relation:VALUE_OF:bar_4:Percentage",
+      "relation:VALUE_OF:bar_4:Americas",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_Americas_stacked_bar_bar_group:bar_4",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_4"
+    ],
+    "entityIds": [
+      "bar_4",
+      "Google_Play",
+      "Percentage",
+      "Americas",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Americas_stacked_bar_bar_group",
+      "bas_Google_Play_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g101_1"
+    ],
+    "graphPath": [
+      "bar 4",
+      "VALUE_OF",
+      "Google Play"
+    ]
+  },
+  "G102": {
+    "id": "G102",
+    "claimIds": [
+      "entity:bar_5",
+      "relation:VALUE_OF:bar_5:Percentage",
+      "relation:VALUE_OF:bar_5:iOS",
+      "relation:VALUE_OF:bar_5:EMEA",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_EMEA_stacked_bar_bar_group:bar_5",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_5"
+    ],
+    "entityIds": [
+      "bar_5",
+      "Percentage",
+      "iOS",
+      "EMEA",
+      "bas_all_stacked_bar_bar_group",
+      "bas_EMEA_stacked_bar_bar_group",
+      "bas_iOS_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g102_1"
+    ],
+    "graphPath": [
+      "bar 5",
+      "VALUE_OF",
+      "Percentage"
+    ]
+  },
+  "G103": {
+    "id": "G103",
+    "claimIds": [
+      "entity:bar_6",
+      "relation:VALUE_OF:bar_6:Google_Play",
+      "relation:VALUE_OF:bar_6:Percentage",
+      "relation:VALUE_OF:bar_6:EMEA",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_6",
+      "relation:COMPOSED_OF:bas_EMEA_stacked_bar_bar_group:bar_6",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_6"
+    ],
+    "entityIds": [
+      "bar_6",
+      "Google_Play",
+      "Percentage",
+      "EMEA",
+      "bas_all_stacked_bar_bar_group",
+      "bas_EMEA_stacked_bar_bar_group",
+      "bas_Google_Play_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g103_1"
+    ],
+    "graphPath": [
+      "bar 6",
+      "VALUE_OF",
+      "Google Play"
+    ]
+  },
+  "G104": {
+    "id": "G104",
+    "claimIds": [
+      "entity:bar_7",
+      "relation:VALUE_OF:bar_7:Percentage",
+      "relation:VALUE_OF:bar_7:Third_Party_Android",
+      "relation:VALUE_OF:bar_7:Worldwide",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_7",
+      "relation:COMPOSED_OF:bas_Third_Party_Android_stacked_bar_bar_group:bar_7"
+    ],
+    "entityIds": [
+      "bar_7",
+      "Percentage",
+      "Third_Party_Android",
+      "Worldwide",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Worldwide_stacked_bar_bar_group",
+      "bas_Third_Party_Android_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g104_1"
+    ],
+    "graphPath": [
+      "bar 7",
+      "VALUE_OF",
+      "Percentage"
+    ]
+  },
+  "G105": {
+    "id": "G105",
+    "claimIds": [
+      "entity:bar_8",
+      "relation:VALUE_OF:bar_8:Google_Play",
+      "relation:VALUE_OF:bar_8:Percentage",
+      "relation:VALUE_OF:bar_8:Worldwide",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_8",
+      "relation:COMPOSED_OF:bas_Google_Play_stacked_bar_bar_group:bar_8"
+    ],
+    "entityIds": [
+      "bar_8",
+      "Google_Play",
+      "Percentage",
+      "Worldwide",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Worldwide_stacked_bar_bar_group",
+      "bas_Google_Play_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g105_1"
+    ],
+    "graphPath": [
+      "bar 8",
+      "VALUE_OF",
+      "Google Play"
+    ]
+  },
+  "G106": {
+    "id": "G106",
+    "claimIds": [
+      "entity:bar_9",
+      "relation:VALUE_OF:bar_9:Percentage",
+      "relation:VALUE_OF:bar_9:Worldwide",
+      "relation:VALUE_OF:bar_9:iOS",
+      "relation:COMPOSED_OF:bas_all_stacked_bar_bar_group:bar_9",
+      "relation:COMPOSED_OF:bas_Worldwide_stacked_bar_bar_group:bar_9",
+      "relation:COMPOSED_OF:bas_iOS_stacked_bar_bar_group:bar_9"
+    ],
+    "entityIds": [
+      "bar_9",
+      "Percentage",
+      "Worldwide",
+      "iOS",
+      "bas_all_stacked_bar_bar_group",
+      "bas_Worldwide_stacked_bar_bar_group",
+      "bas_iOS_stacked_bar_bar_group"
+    ],
+    "evidenceIds": [
+      "ev_g106_1"
+    ],
+    "graphPath": [
+      "bar 9",
+      "VALUE_OF",
+      "Percentage"
+    ]
+  }
+}

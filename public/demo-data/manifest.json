@@ -3,26 +3,102 @@
   "evidenceRegions": "graphrag/evidence-regions.json",
   "graphrag": [
     {
-      "id": "countries-health-wealth",
+      "id": "chart_16d3425553",
       "title": "Countries · Health and Wealth",
       "filename": "countries_health_wealth_2025.png",
-      "image": "graphrag/countries/image.png",
-      "kg": "graphrag/countries/readable-kg.json",
-      "qa": "graphrag/countries/qa-examples.json",
+      "image": "graphrag/chart_16d3425553/image.png",
+      "graph": "graphrag/chart_16d3425553/graph.json",
+      "summary": "graphrag/chart_16d3425553/summary.json",
+      "citations": "graphrag/chart_16d3425553/citations.json",
+      "evidence": "graphrag/chart_16d3425553/evidence.json",
+      "qa": "graphrag/chart_16d3425553/qa.json",
       "width": 4000,
       "height": 2653,
       "sha256": "7f79d2b5e877f8d79ff6b171f1cbc6699fc760dafad81c6dc933ce6a5c0d6bc9"
     },
     {
-      "id": "case2-opinionseer",
-      "title": "Case2 · Radial Bar and Ternary Scatter",
+      "id": "chart_1c38291d09",
+      "title": "Waffe Chart",
+      "filename": "waffe chart.png",
+      "image": "graphrag/chart_1c38291d09/image.png",
+      "graph": "graphrag/chart_1c38291d09/graph.json",
+      "summary": "graphrag/chart_1c38291d09/summary.json",
+      "citations": "graphrag/chart_1c38291d09/citations.json",
+      "evidence": "graphrag/chart_1c38291d09/evidence.json",
+      "qa": "graphrag/chart_1c38291d09/qa.json",
+      "width": 595,
+      "height": 413,
+      "sha256": "f69d3ce591c9e20f332ea811f6310b8304295974bf7aff0343ba27c386a00f1d"
+    },
+    {
+      "id": "chart_1c40d92f85",
+      "title": "Donut Chart",
+      "filename": "donutchart.png",
+      "image": "graphrag/chart_1c40d92f85/image.png",
+      "graph": "graphrag/chart_1c40d92f85/graph.json",
+      "summary": "graphrag/chart_1c40d92f85/summary.json",
+      "citations": "graphrag/chart_1c40d92f85/citations.json",
+      "evidence": "graphrag/chart_1c40d92f85/evidence.json",
+      "qa": "graphrag/chart_1c40d92f85/qa.json",
+      "width": 831,
+      "height": 760,
+      "sha256": "2ed896e22310a1d3670071717ec6eb31eb8d7cb6f9af96245cceb8809998ce96"
+    },
+    {
+      "id": "chart_9ccc4cbffd",
+      "title": "Case2 · OpinionSeer",
       "filename": "case2_final.png",
-      "image": "graphrag/case2/image.png",
-      "kg": "graphrag/case2/readable-kg.json",
-      "qa": "graphrag/case2/qa-examples.json",
+      "image": "graphrag/chart_9ccc4cbffd/image.png",
+      "graph": "graphrag/chart_9ccc4cbffd/graph.json",
+      "summary": "graphrag/chart_9ccc4cbffd/summary.json",
+      "citations": "graphrag/chart_9ccc4cbffd/citations.json",
+      "evidence": "graphrag/chart_9ccc4cbffd/evidence.json",
+      "qa": "graphrag/chart_9ccc4cbffd/qa.json",
       "width": 1940,
       "height": 1304,
       "sha256": "1c7aeb55a145759648e2bf3edf29f3995f9eb7479548596f5111c57c0cd191ef"
+    },
+    {
+      "id": "chart_a219235b8b",
+      "title": "Bar4",
+      "filename": "bar4.png",
+      "image": "graphrag/chart_a219235b8b/image.png",
+      "graph": "graphrag/chart_a219235b8b/graph.json",
+      "summary": "graphrag/chart_a219235b8b/summary.json",
+      "citations": "graphrag/chart_a219235b8b/citations.json",
+      "evidence": "graphrag/chart_a219235b8b/evidence.json",
+      "qa": "graphrag/chart_a219235b8b/qa.json",
+      "width": 2280,
+      "height": 1096,
+      "sha256": "2a3311379615b9d24b07ca7990691e054a42d74803a7a1e193eb31622349e0cf"
+    },
+    {
+      "id": "chart_afcfce8d7b",
+      "title": "Group4037",
+      "filename": "group4037.png",
+      "image": "graphrag/chart_afcfce8d7b/image.png",
+      "graph": "graphrag/chart_afcfce8d7b/graph.json",
+      "summary": "graphrag/chart_afcfce8d7b/summary.json",
+      "citations": "graphrag/chart_afcfce8d7b/citations.json",
+      "evidence": "graphrag/chart_afcfce8d7b/evidence.json",
+      "qa": "graphrag/chart_afcfce8d7b/qa.json",
+      "width": 7288,
+      "height": 3756,
+      "sha256": "8f7de19b1d5851a7f50ff0c796b5949bd7083a0ee9602a82766575dbcf518f8b"
+    },
+    {
+      "id": "chart_b8429ce809",
+      "title": "Global App Market",
+      "filename": "global_app_market.png",
+      "image": "graphrag/chart_b8429ce809/image.png",
+      "graph": "graphrag/chart_b8429ce809/graph.json",
+      "summary": "graphrag/chart_b8429ce809/summary.json",
+      "citations": "graphrag/chart_b8429ce809/citations.json",
+      "evidence": "graphrag/chart_b8429ce809/evidence.json",
+      "qa": "graphrag/chart_b8429ce809/qa.json",
+      "width": 960,
+      "height": 720,
+      "sha256": "c10a09a161ff791ef573698c9ba7f2561bbd4a677ec4be09986349fb710a95d4"
     }
   ],
   "pa": [
@@ -53,7 +129,12 @@
           "report": "pa/gapminder/native/report.json",
           "width": 1600,
           "height": 1000,
-          "sha256": "6d3ac168cf8ce87690487aa159fb3831d5f9613da0f5882cafec3cb2bd8a1661"
+          "sha256": "6d3ac168cf8ce87690487aa159fb3831d5f9613da0f5882cafec3cb2bd8a1661",
+          "evaluation": {
+            "kg": "pa/gapminder/native/world health kg.json",
+            "nodes": "pa/gapminder/native/nodes.csv",
+            "relations": "pa/gapminder/native/relations.csv"
+          }
         }
       }
     },
