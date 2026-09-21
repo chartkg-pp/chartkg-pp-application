@@ -17,11 +17,9 @@ const rows = computed(() => {
 </script>
 
 <template>
-  <div v-if="!report" class="empty-inline">Run KG inspection to view coverage.</div>
+  <div v-if="!report" class="empty-inline">Run KG inspection to view evaluation metrics.</div>
   <div v-else class="coverage-wrap">
     <div class="coverage-summary">
-      <div><span>Entities</span><strong>{{ report.entity_count }}</strong></div>
-      <div><span>Relations</span><strong>{{ report.relation_count }}</strong></div>
       <div><span>Mark</span><strong>{{ report.mark_count }}</strong></div>
       <div><span>Ternary Coordinates</span><strong>{{ report.derived_ternary_record_count }}</strong></div>
     </div>

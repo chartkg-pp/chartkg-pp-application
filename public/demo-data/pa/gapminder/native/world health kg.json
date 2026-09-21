@@ -1,0 +1,2867 @@
+{
+  "metadata": {
+    "contract_ref": "readable-kg:v2",
+    "ontology_ref": "chartkg-plus-plus-schema:v5.0",
+    "mode": "construction_only",
+    "verification_status": "unverified",
+    "production_write": false,
+    "run_id": "core-v8-construction_only-20260921T153514Z",
+    "run_status": "partial",
+    "source_ref": "artifact://s1-three-stage/eeba720542b106cf",
+    "source_sha256": "eeba720542b106cf9532f82b19d4f78f589c12781515edf75f55ee5f8f7fe05b",
+    "scope_ref": "scope:eeba720542b106cf",
+    "snapshot_ref": "runs/core-v8-construction_only-20260921T153514Z/summaries/construction-kg.json",
+    "revision_ref": "construction-kg-revision:347fcc1ac5c5be304dd5",
+    "snapshot_hash": "7a0e42b7977cecd6a827a8041a40566bce8afeb2ef926fb489c39b8fb99bfaba"
+  },
+  "entities": [
+    {
+      "id": "chart",
+      "type": "Complex_Chart",
+      "properties": {}
+    },
+    {
+      "id": "bubblechart",
+      "type": "View",
+      "properties": {
+        "chartType": "cartesian_point"
+      }
+    },
+    {
+      "id": "point_group",
+      "type": "Graphical_Mark_Group",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_1",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_10",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_11",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_12",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_13",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_14",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_15",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_16",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_17",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_18",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_19",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_2",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_20",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_21",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_22",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_23",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_24",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_25",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_26",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_27",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_28",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_29",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_3",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_30",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_31",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_32",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_4",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_5",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_6",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_7",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_8",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "point_9",
+      "type": "Graphical_Mark",
+      "properties": {
+        "markType": "Point"
+      }
+    },
+    {
+      "id": "color",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "color"
+      }
+    },
+    {
+      "id": "size",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "size"
+      }
+    },
+    {
+      "id": "x_position",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "xPosition"
+      }
+    },
+    {
+      "id": "y_position",
+      "type": "Visual_Attribute",
+      "properties": {
+        "attributeType": "yPosition"
+      }
+    },
+    {
+      "id": "rgb_202_122_165",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            202,
+            122,
+            165
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_212_95_1",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            212,
+            95,
+            1
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_3_113_178",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            3,
+            113,
+            178
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "rgb_3_157_114",
+      "type": "Visual_Attribute_Value",
+      "properties": {
+        "value": {
+          "fill_rgb": [
+            3,
+            157,
+            114
+          ],
+          "kind": "color"
+        }
+      }
+    },
+    {
+      "id": "income_per_person_ppp_usd",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "income_per_person_ppp_usd",
+        "unit": "ppp_usd",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "life_expectancy_years",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "life_expectancy_years",
+        "unit": "years",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "population",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "population",
+        "variableType": "Quantitative"
+      }
+    },
+    {
+      "id": "region",
+      "type": "Data_Variable",
+      "properties": {
+        "name": "region",
+        "variableType": "Categorical"
+      }
+    },
+    {
+      "id": "africa",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "africa"
+      }
+    },
+    {
+      "id": "americas",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "americas"
+      }
+    },
+    {
+      "id": "asia",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "asia"
+      }
+    },
+    {
+      "id": "europe",
+      "type": "Variable_Value",
+      "properties": {
+        "value": "europe"
+      }
+    },
+    {
+      "id": "point_group_bas_africa",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "sources": [
+          {
+            "groupRef": "point_group",
+            "selection": {
+              "valueRef": "africa",
+              "variableRef": "region"
+            },
+            "selectionMode": "single_category_breakdown",
+            "viewRef": "bubblechart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "point_group_bas_all",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "sources": [
+          {
+            "groupRef": "point_group",
+            "selectionMode": "global",
+            "viewRef": "bubblechart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "point_group_bas_americas",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "sources": [
+          {
+            "groupRef": "point_group",
+            "selection": {
+              "valueRef": "americas",
+              "variableRef": "region"
+            },
+            "selectionMode": "single_category_breakdown",
+            "viewRef": "bubblechart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "point_group_bas_asia",
+      "type": "Basic_Analytical_Scope",
+      "properties": {
+        "sources": [
+          {
+            "groupRef": "point_group",
+            "selection": {
+              "valueRef": "asia",
+              "variableRef": "region"
+            },
+            "selectionMode": "single_category_breakdown",
+            "viewRef": "bubblechart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Correlation",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "A linear arrangement between income_per_person_ppp_usd and life_expectancy_years across the plot.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Correlation",
+        "subtype": "LinearRelation"
+      }
+    },
+    {
+      "id": "Correlation_2",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "A clear positive correlation between income_per_person_ppp_usd and life_expectancy_years, where higher income levels consistently accompany higher life expectancy.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Correlation",
+        "subtype": "PositiveCorrelation"
+      }
+    },
+    {
+      "id": "Correlation_3",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Income per person and life expectancy show a clear positive correlation across the asia points, where higher income is accompanied by higher life expectancy.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Correlation",
+        "subtype": "PositiveCorrelation"
+      }
+    },
+    {
+      "id": "Distribution",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_31 departs downward in life expectancy relative to the rest of the African cohort despite having a relatively high income.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "Outlier",
+        "supportMemberRefs": [
+          "point_31"
+        ]
+      }
+    },
+    {
+      "id": "Distribution_2",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The African points gather densely in the lower-income and mid-range life expectancy area.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "Concentration"
+      }
+    },
+    {
+      "id": "Distribution_3",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "An elongated band-like distribution of marks stretching diagonally across income_per_person_ppp_usd and life_expectancy_years.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      }
+    },
+    {
+      "id": "Distribution_4",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "The asia points form an elongated band-like distribution extending from lower-left to upper-right across income and life expectancy.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Distribution",
+        "subtype": "BandLike"
+      }
+    },
+    {
+      "id": "Extreme",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_14 exhibits the highest visible income per person among the African cohort.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_14"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_10",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_3 represents the maximum life expectancy (years) in the Americas subgroup.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_3"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_11",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_6 represents the minimum income per person (PPP USD) in the Americas subgroup.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_6"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_12",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_6 represents the minimum life expectancy (years) in the Americas subgroup.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_6"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_13",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_1 has the maximum life expectancy among the asia group.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_1"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_14",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_2 has the maximum income per person among the asia group.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_2"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_15",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_25 has the minimum income per person among the asia group.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_25"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_16",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_25 has the minimum life expectancy among the asia group.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_25"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_2",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_14 exhibits the highest visible life expectancy among the African cohort.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_14"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_3",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_22 exhibits the lowest visible income per person among the African cohort.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_22"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_4",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_31 exhibits the lowest visible life expectancy among the African cohort.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_31"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_5",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Maximum income_per_person_ppp_usd in the BAS, located at the far right.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_3"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_6",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Maximum life_expectancy_years in the BAS, located at the top of the distribution.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_1"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_7",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Minimum income_per_person_ppp_usd in the BAS, located at the far left.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_32"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_8",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "Minimum life_expectancy_years in the BAS, located at the bottom of the distribution.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Minimum",
+        "supportMemberRefs": [
+          "point_32"
+        ]
+      }
+    },
+    {
+      "id": "Extreme_9",
+      "type": "Basic_Pattern",
+      "properties": {
+        "description": "point_3 represents the maximum income per person (PPP USD) in the Americas subgroup.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Extreme",
+        "subtype": "Maximum",
+        "supportMemberRefs": [
+          "point_3"
+        ]
+      }
+    },
+    {
+      "id": "Comparison",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Among the regional subgroup maximum income points, the Americas maximum is positioned furthest to the right along the income axis, higher than both the Asia and Africa maximums.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": [
+          "Extreme_9"
+        ]
+      }
+    },
+    {
+      "id": "Comparison_2",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "comparisonScopeRef": "point_group_bas_all",
+        "description": "Among the regional subgroup maximum life expectancy points, the Asia maximum is positioned highest along the vertical life expectancy axis, exceeding the Americas and Africa maximums.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Comparison",
+        "subtype": "MaximumComparison",
+        "winnerPatternRefs": [
+          "Extreme_13"
+        ]
+      }
+    },
+    {
+      "id": "Comparison_3",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "Among the regional subgroup minimum income points, the Africa minimum is located furthest to the left along the income axis, lower than both the Asia and Americas minimums.",
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": [
+          "Extreme_3"
+        ]
+      }
+    },
+    {
+      "id": "Comparison_4",
+      "type": "Relational_Pattern",
+      "properties": {
+        "comparisonFamily": "Extreme",
+        "comparisonFeature": "extreme_level",
+        "description": "Among the regional subgroup minimum life expectancy points, the Africa minimum is located lowest along the life expectancy axis, below both the Asia and Americas minimums.",
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "patternType": "Comparison",
+        "subtype": "MinimumComparison",
+        "winnerPatternRefs": [
+          "Extreme_4"
+        ]
+      }
+    },
+    {
+      "id": "insight_Comparison_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          },
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          },
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among the regional subgroup comparisons, the point representing the maximum income per person in the americas (78250.87184833438 ppp_usd) is the highest, exceeding the maximum points observed in asia (54595.66963487851 ppp_usd) and africa (17507.23477068166 ppp_usd), making it the visually supported global maximum income per person across the evaluated groups."
+      }
+    },
+    {
+      "id": "insight_Comparison_2",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          },
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          },
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Among the regional maximums for life expectancy (years), the point representing the Asia maximum at 85.51980971173326 years is the visually supported global maximum from the subgroup comparisons, exceeding the maximum points in the Americas (79.75866880698601 years) and Africa (71.91352383625565 years)."
+      }
+    },
+    {
+      "id": "insight_Comparison_3",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          },
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          },
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Africa has the lowest minimum income_per_person_ppp_usd at 1559.19026880822 ppp_usd among the compared regions of africa, americas, and asia, compared to minimums of 2084.144709857285 ppp_usd in asia and 20530.988629070296 ppp_usd in americas."
+      }
+    },
+    {
+      "id": "insight_Comparison_4",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          },
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          },
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Africa has the lowest minimum life expectancy (years) among the compared regions of Africa, Asia, and Americas, with an observed minimum of 59.47260436648902 years compared to 65.073370216661 years in Asia and 77.01939474847461 years in Americas."
+      }
+    },
+    {
+      "id": "insight_Correlation_1",
+      "type": "Insight",
+      "properties": {
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Across the observed marks, income_per_person_ppp_usd and life_expectancy_years exhibit a linear relationship."
+      }
+    },
+    {
+      "id": "insight_Correlation_2",
+      "type": "Insight",
+      "properties": {
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Higher income_per_person_ppp_usd consistently accompanies higher life_expectancy_years across the observed marks."
+      }
+    },
+    {
+      "id": "insight_Correlation_3",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Across the observed Asia region, higher income per person tends to accompany higher life expectancy, exhibiting a positive correlation between the two measures."
+      }
+    },
+    {
+      "id": "insight_Distribution_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "In the africa region, a point stands out as an outlier with an income_per_person_ppp_usd of 11036.331629211774 ppp_usd and a life_expectancy_years of 59.47260436648902 years, departing downward in life expectancy relative to the observed African cohort despite having a relatively high income."
+      }
+    },
+    {
+      "id": "insight_Distribution_2",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Among the observed Africa region, the distribution shows a concentration in the lower income per person and mid-range life expectancy area."
+      }
+    },
+    {
+      "id": "insight_Distribution_3",
+      "type": "Insight",
+      "properties": {
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "The observed marks form an elongated band stretching diagonally across income_per_person_ppp_usd and life_expectancy_years across the partially observed population."
+      }
+    },
+    {
+      "id": "insight_Distribution_4",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          },
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "For the observed population in the asia region, observations form an elongated band-like distribution extending from lower values to higher values across both income_per_person_ppp_usd and life_expectancy_years."
+      }
+    },
+    {
+      "id": "insight_Extreme_1",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Within region africa, the maximum income_per_person_ppp_usd among the observed members is reached by a point mark with a value of 17507.23477068166 ppp_usd."
+      }
+    },
+    {
+      "id": "insight_Extreme_10",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Among the observed members in the americas region, the point with the maximum life_expectancy_years reaches 79.75866880698601 years."
+      }
+    },
+    {
+      "id": "insight_Extreme_11",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among the observed members in the americas region, the point marking the minimum income_per_person_ppp_usd records a value of approximately 20530.99 ppp_usd."
+      }
+    },
+    {
+      "id": "insight_Extreme_12",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Within the observed members of the americas region, the point with the minimum life_expectancy_years has a value of 77.01939474847461 years."
+      }
+    },
+    {
+      "id": "insight_Extreme_13",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Within the asia region, a point reaches the maximum life_expectancy_years of 85.51980971173326 years among the observed members."
+      }
+    },
+    {
+      "id": "insight_Extreme_14",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among observed members in the asia region, the point mark with the maximum income_per_person_ppp_usd reaches 54595.66963487851 ppp_usd."
+      }
+    },
+    {
+      "id": "insight_Extreme_15",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among the observed members in the asia region, a point records the minimum income_per_person_ppp_usd at 2084.144709857285 ppp_usd."
+      }
+    },
+    {
+      "id": "insight_Extreme_16",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Within the observed members of the asia region, the point mark with the minimum life_expectancy_years has a value of 65.073370216661 years."
+      }
+    },
+    {
+      "id": "insight_Extreme_2",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Within africa, a point mark records the maximum life_expectancy_years among the observed members at 71.91352383625565 years."
+      }
+    },
+    {
+      "id": "insight_Extreme_3",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among observed members in the africa region, a point mark accounts for the minimum income_per_person_ppp_usd at 1559.19026880822 ppp_usd."
+      }
+    },
+    {
+      "id": "insight_Extreme_4",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "africa",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Among the observed members in the africa region, a point marks the minimum life_expectancy_years of 59.47260436648902 years."
+      }
+    },
+    {
+      "id": "insight_Extreme_5",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among the observed marks, a point in the americas region has the maximum income_per_person_ppp_usd at 78250.87184833438 ppp_usd."
+      }
+    },
+    {
+      "id": "insight_Extreme_6",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "asia",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Among the observed marks, a point representing asia attains the maximum life_expectancy_years at 85.51980971173326 years."
+      }
+    },
+    {
+      "id": "insight_Extreme_7",
+      "type": "Insight",
+      "properties": {
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among the observed marks, a point mark records the minimum income_per_person_ppp_usd at 1125.9030627716431 ppp_usd, located at the far left of the chart."
+      }
+    },
+    {
+      "id": "insight_Extreme_8",
+      "type": "Insight",
+      "properties": {
+        "measure": [
+          {
+            "variable": "life_expectancy_years"
+          }
+        ],
+        "statement": "Among the observed marks, a point has the minimum life_expectancy_years of 53.50249071430571 years."
+      }
+    },
+    {
+      "id": "insight_Extreme_9",
+      "type": "Insight",
+      "properties": {
+        "category": [
+          {
+            "valueRef": "americas",
+            "variable": "region"
+          }
+        ],
+        "measure": [
+          {
+            "variable": "income_per_person_ppp_usd"
+          }
+        ],
+        "statement": "Among the observed members in the americas region, the point representing the maximum income per person (PPP USD) reaches approximately 78,250.87 ppp_usd."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "HAS_VIEW",
+      "source": "chart",
+      "target": "bubblechart"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison",
+      "target": "Extreme"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison",
+      "target": "Extreme_14"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison",
+      "target": "Extreme_9"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_2",
+      "target": "Extreme_10"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_2",
+      "target": "Extreme_13"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_2",
+      "target": "Extreme_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_3",
+      "target": "Extreme_11"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_3",
+      "target": "Extreme_15"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_3",
+      "target": "Extreme_3"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_4",
+      "target": "Extreme_12"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_4",
+      "target": "Extreme_16"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "Comparison_4",
+      "target": "Extreme_4"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "bubblechart",
+      "target": "point_group"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_14"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_15"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_17"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_18"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_20"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_21"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_22"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_23"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_24"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_26"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_27"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_28"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_29"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_30"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_africa",
+      "target": "point_31"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_1"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_10"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_11"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_12"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_13"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_14"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_15"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_16"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_17"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_18"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_19"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_20"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_21"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_22"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_23"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_24"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_25"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_26"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_27"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_28"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_29"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_3"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_30"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_31"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_32"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_4"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_5"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_6"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_7"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_8"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_all",
+      "target": "point_9"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_americas",
+      "target": "point_3"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_americas",
+      "target": "point_6"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_1"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_10"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_11"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_12"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_13"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_16"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_19"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_2"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_25"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_4"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_5"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_7"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_8"
+    },
+    {
+      "type": "COMPOSED_OF",
+      "source": "point_group_bas_asia",
+      "target": "point_9"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "color"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "size"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "x_position"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE",
+      "source": "point_group",
+      "target": "y_position"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_202_122_165"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_212_95_1"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_3_113_178"
+    },
+    {
+      "type": "HAS_VISUAL_ATTRIBUTE_VALUE",
+      "source": "color",
+      "target": "rgb_3_157_114"
+    },
+    {
+      "type": "ENCODES",
+      "source": "color",
+      "target": "region"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_202_122_165",
+      "target": "europe"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_212_95_1",
+      "target": "africa"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_3_113_178",
+      "target": "asia"
+    },
+    {
+      "type": "ENCODES",
+      "source": "rgb_3_157_114",
+      "target": "americas"
+    },
+    {
+      "type": "ENCODES",
+      "source": "size",
+      "target": "population"
+    },
+    {
+      "type": "ENCODES",
+      "source": "x_position",
+      "target": "income_per_person_ppp_usd"
+    },
+    {
+      "type": "ENCODES",
+      "source": "y_position",
+      "target": "life_expectancy_years"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "africa",
+      "target": "region"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "americas",
+      "target": "region"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "asia",
+      "target": "region"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "europe",
+      "target": "region"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_1",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_1",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 47690.64291683414
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_1",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 85.51980971173326
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_10",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_10",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 5308.6778352822475
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_10",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 72.8635813981002
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_11",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_11",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 11087.78293352735
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_11",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 72.4106762244863
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_12",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_12",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 10580.31380702495
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_12",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 72.33485211741078
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_13",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_13",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 15347.023867562904
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_13",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 72.18662075402784
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_14",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_14",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 17507.23477068166
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_14",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 71.91352383625565
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_15",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_15",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 1857.707991096879
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_15",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 71.15549918584776
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_16",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_16",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 7398.624227672826
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_16",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 70.96477040284189
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_17",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_17",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 3097.8808219851308
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_17",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 70.62569701083149
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_18",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_18",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 3905.686877408417
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_18",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 68.53878101476741
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_19",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_19",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 5694.573372591243
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_19",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 66.65818258363736
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_2",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_2",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 54595.66963487851
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_2",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 83.5603496413463
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_20",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_20",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 2994.704896001241
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_20",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 66.42966378470264
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_21",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_21",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 7451.176353647331
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_21",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 66.26012708869743
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_22",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_22",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 1559.19026880822
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_22",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 66.21774291469615
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_23",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_23",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 5828.3326657631505
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_23",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 66.02446618312769
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_24",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_24",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 13841.675010342178
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_24",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 65.89341184407748
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_25",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_25",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 2084.144709857285
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_25",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 65.073370216661
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_26",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_26",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 5084.35364767169
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_26",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 64.47999178064278
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_27",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_27",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 3937.9388608646104
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_27",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 64.2172099018347
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_28",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_28",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 3027.4335667045298
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_28",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 63.21906260410406
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_29",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_29",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 2651.1818665296114
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_29",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 62.911777342594625
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_3",
+      "target": "americas"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_3",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 78250.87184833438
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_3",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 79.75866880698601
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_30",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_30",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 2634.347336410404
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_30",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 61.52157643535194
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_31",
+      "target": "africa"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_31",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 11036.331629211774
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_31",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 59.47260436648902
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_32",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 1125.9030627716431
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_32",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 53.50249071430571
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_4",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_4",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 16500.64281790534
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_4",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 79.01776346308917
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_5",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_5",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 25449.582073354522
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_5",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 78.7313866178331
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_6",
+      "target": "americas"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_6",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 20530.988629070296
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_6",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 77.01939474847461
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_7",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_7",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 8916.275315292993
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_7",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 76.23213126114982
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_8",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_8",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 35883.57176637236
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_8",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 75.97607568181931
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_9",
+      "target": "asia"
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_9",
+      "target": "income_per_person_ppp_usd",
+      "properties": {
+        "value": 15392.059346761129
+      }
+    },
+    {
+      "type": "VALUE_OF",
+      "source": "point_9",
+      "target": "life_expectancy_years",
+      "properties": {
+        "value": 75.387466820369
+      }
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Correlation",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Correlation_2",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Correlation_3",
+      "target": "point_group_bas_asia"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Distribution",
+      "target": "point_group_bas_africa"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Distribution_2",
+      "target": "point_group_bas_africa"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Distribution_3",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Distribution_4",
+      "target": "point_group_bas_asia"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme",
+      "target": "point_group_bas_africa"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_10",
+      "target": "point_group_bas_americas"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_11",
+      "target": "point_group_bas_americas"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_12",
+      "target": "point_group_bas_americas"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_13",
+      "target": "point_group_bas_asia"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_14",
+      "target": "point_group_bas_asia"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_15",
+      "target": "point_group_bas_asia"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_16",
+      "target": "point_group_bas_asia"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_2",
+      "target": "point_group_bas_africa"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_3",
+      "target": "point_group_bas_africa"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_4",
+      "target": "point_group_bas_africa"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_5",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_6",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_7",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_8",
+      "target": "point_group_bas_all"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "source": "Extreme_9",
+      "target": "point_group_bas_americas"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Comparison_1",
+      "target": "Comparison"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Comparison_2",
+      "target": "Comparison_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Comparison_3",
+      "target": "Comparison_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Comparison_4",
+      "target": "Comparison_4"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Correlation_1",
+      "target": "Correlation"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Correlation_2",
+      "target": "Correlation_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Correlation_3",
+      "target": "Correlation_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_1",
+      "target": "Distribution"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_2",
+      "target": "Distribution_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_3",
+      "target": "Distribution_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Distribution_4",
+      "target": "Distribution_4"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_1",
+      "target": "Extreme"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_10",
+      "target": "Extreme_10"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_11",
+      "target": "Extreme_11"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_12",
+      "target": "Extreme_12"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_13",
+      "target": "Extreme_13"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_14",
+      "target": "Extreme_14"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_15",
+      "target": "Extreme_15"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_16",
+      "target": "Extreme_16"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_2",
+      "target": "Extreme_2"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_3",
+      "target": "Extreme_3"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_4",
+      "target": "Extreme_4"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_5",
+      "target": "Extreme_5"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_6",
+      "target": "Extreme_6"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_7",
+      "target": "Extreme_7"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_8",
+      "target": "Extreme_8"
+    },
+    {
+      "type": "DERIVED_FROM",
+      "source": "insight_Extreme_9",
+      "target": "Extreme_9"
+    },
+    {
+      "type": "INFERRED_FROM",
+      "source": "Extreme_5",
+      "target": "Comparison"
+    },
+    {
+      "type": "INFERRED_FROM",
+      "source": "Extreme_6",
+      "target": "Comparison_2"
+    }
+  ]
+}

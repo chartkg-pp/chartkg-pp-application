@@ -4,27 +4,26 @@ import { useWorkspaceStore } from '../stores/workspace'
 import { chartApi } from '../data/snapshotRepository'
 import SourcePanel from '../components/SourcePanel.vue'
 import HistoryPanel from '../components/HistoryPanel.vue'
-import JobTimeline from '../components/JobTimeline.vue'
 import ChartPreview from '../components/ChartPreview.vue'
 import CoverageTable from '../components/CoverageTable.vue'
 import OptionEditor from '../components/OptionEditor.vue'
 
-type Splitter = 'outer-left' | 'outer-right' | 'left-inner' | 'center-inner'
+type Splitter = 'outer-left' | 'outer-right' | 'left-inner'
 
 const store = useWorkspaceStore()
 const workspaceRef = ref<HTMLElement | null>(null)
 const context = computed(() => store.inspectResult?.context)
 const report = computed(() => store.inspectResult?.extraction || null)
+const evaluation = computed(() => store.generation?.evaluation || null)
 const imageSize = computed(() => store.imageSize)
 const workspaceRatios = ref(loadRatios())
 const leftStackRatio = ref(loadNumber('chartkg.left-stack-ratio', 52))
-const centerStackRatio = ref(loadNumber('chartkg.center-stack-ratio', 68))
 const dragging = ref<Splitter | null>(null)
-const dragStart = ref({ x: 0, y: 0, left: 24, center: 46, right: 30, leftStack: 52, centerStack: 68 })
+const dragStart = ref({ x: 0, y: 0, left: 24, center: 46, right: 30, leftStack: 52 })
 
 function loadRatios() {
   try {
-    const saved = JSON.parse(localStorage.getItem('chartkg.workspace-ratios') || '')
+    const saved = JSON.parse(localStorage.getItem('chartkg.workspace-ratios-v3') || '')
     if (saved && saved.left && saved.center && saved.right) return saved
   } catch {
     // Use the balanced default layout when local storage is unavailable.
@@ -41,12 +40,10 @@ const workspaceStyle = computed(() => ({
   gridTemplateColumns: `minmax(260px, ${workspaceRatios.value.left}fr) 9px minmax(500px, ${workspaceRatios.value.center}fr) 9px minmax(340px, ${workspaceRatios.value.right}fr)`,
 }))
 const leftColumnStyle = computed(() => ({ gridTemplateRows: `${leftStackRatio.value}% 9px 1fr` }))
-const centerColumnStyle = computed(() => ({ gridTemplateRows: `${centerStackRatio.value}% 9px 1fr` }))
 
 function persistLayout() {
-  localStorage.setItem('chartkg.workspace-ratios', JSON.stringify(workspaceRatios.value))
+  localStorage.setItem('chartkg.workspace-ratios-v3', JSON.stringify(workspaceRatios.value))
   localStorage.setItem('chartkg.left-stack-ratio', String(leftStackRatio.value))
-  localStorage.setItem('chartkg.center-stack-ratio', String(centerStackRatio.value))
 }
 
 function clamp(value: number, min: number, max: number) {
@@ -63,7 +60,6 @@ function startResize(kind: Splitter, event: PointerEvent) {
     center: workspaceRatios.value.center,
     right: workspaceRatios.value.right,
     leftStack: leftStackRatio.value,
-    centerStack: centerStackRatio.value,
   }
   window.addEventListener('pointermove', resize)
   window.addEventListener('pointerup', stopResize, { once: true })
@@ -74,8 +70,6 @@ function resize(event: PointerEvent) {
   const bounds = workspaceRef.value.getBoundingClientRect()
   if (dragging.value === 'left-inner') {
     leftStackRatio.value = clamp(dragStart.value.leftStack + ((event.clientY - dragStart.value.y) / bounds.height) * 100, 24, 76)
-  } else if (dragging.value === 'center-inner') {
-    centerStackRatio.value = clamp(dragStart.value.centerStack + ((event.clientY - dragStart.value.y) / bounds.height) * 100, 35, 86)
   } else {
     const delta = ((event.clientX - dragStart.value.x) / bounds.width) * 100
     if (dragging.value === 'outer-left') {
@@ -138,10 +132,7 @@ async function copyOutputPath() {
   }
 }
 
-onMounted(async () => {
-  // Present the default snapshot fully on first paint; the Source panel switches datasets and modes.
-  if (!store.generation) await store.loadDefaultSnapshot()
-})
+onMounted(() => { void store.refreshDatasets() })
 onBeforeUnmount(() => {
   stopResize()
   store.clearJobListeners()
@@ -158,7 +149,7 @@ onBeforeUnmount(() => {
 
     <div class="resize-handle horizontal" aria-label="Resize left panel width" @pointerdown="startResize('outer-left', $event)"></div>
 
-    <main class="center-column" :style="centerColumnStyle">
+    <main class="center-column">
       <section class="panel chart-panel">
         <div class="panel-heading">
           <div>
@@ -182,31 +173,6 @@ onBeforeUnmount(() => {
         />
       </section>
 
-      <div class="resize-handle vertical" aria-label="Resize center panels vertically" @pointerdown="startResize('center-inner', $event)"></div>
-
-      <section class="panel summary-panel">
-        <div class="panel-heading compact">
-          <div>
-            <span class="eyebrow">SUMMARY</span>
-            <h2>Data Summary</h2>
-          </div>
-          <span v-if="store.isReady" class="valid-badge">VALID</span>
-        </div>
-        <div class="summary-scroll">
-          <div v-if="store.error" class="error-box">{{ store.error }}</div>
-          <div v-if="!store.inspectResult" class="empty-inline">Upload a file or load a sample to see KG extraction details and generation progress.</div>
-          <template v-else>
-            <div class="summary-meta">
-              <div><span>File</span><strong>{{ store.inspectResult.filename }}</strong></div>
-              <div><span>Schema</span><strong>{{ context?.schema }}</strong></div>
-              <div><span>Views</span><strong>{{ context?.views.length || 0 }}</strong></div>
-              <div><span>Variables</span><strong>{{ context?.variables.length || 0 }}</strong></div>
-            </div>
-            <CoverageTable :report="report" />
-            <JobTimeline />
-          </template>
-        </div>
-      </section>
     </main>
 
     <div class="resize-handle horizontal" aria-label="Resize right panel width" @pointerdown="startResize('outer-right', $event)"></div>
@@ -220,11 +186,12 @@ onBeforeUnmount(() => {
           </div>
           <span v-if="store.isReady" class="valid-badge">VALID</span>
         </div>
+        <div v-if="store.error" class="error-box inspector-error">{{ store.error }}</div>
         <div v-if="!store.inspectResult" class="empty-inline">Run KG inspection to view structure, variables, and generated artifacts.</div>
         <template v-else>
           <div class="tab-row">
             <button :class="{ active: store.activePanel === 'overview' }" @click="store.activePanel = 'overview'">Overview</button>
-            <button :class="{ active: store.activePanel === 'coverage' }" @click="store.activePanel = 'coverage'">Coverage</button>
+            <button :class="{ active: store.activePanel === 'coverage' }" @click="store.activePanel = 'coverage'">Evaluation</button>
             <button :class="{ active: store.activePanel === 'option' }" @click="store.activePanel = 'option'">{{ store.generation?.pipeline === 'agentic' ? 'Code' : 'Option' }}</button>
             <button :class="{ active: store.activePanel === 'report' }" @click="store.activePanel = 'report'">Report</button>
           </div>
@@ -237,7 +204,20 @@ onBeforeUnmount(() => {
             <div class="overview-title">Variables</div>
             <div class="tag-cloud"><span v-for="variable in context?.variables" :key="variable.id" class="data-tag">{{ variable.id }}</span></div>
           </div>
-          <CoverageTable v-else-if="store.activePanel === 'coverage'" :report="report" />
+          <div v-else-if="store.activePanel === 'coverage'" class="inspector-coverage-panel">
+            <div v-if="evaluation" class="evaluation-stats">
+              <div><span>Entities</span><strong>{{ evaluation.entityCount }}</strong></div>
+              <div><span>Relations</span><strong>{{ evaluation.relationCount }}</strong><small>relation types</small></div>
+              <div><span>Triples</span><strong>{{ evaluation.tripleCount }}</strong></div>
+            </div>
+            <div class="summary-meta">
+              <div><span>File</span><strong>{{ store.inspectResult.filename }}</strong></div>
+              <div><span>Schema</span><strong>{{ context?.schema }}</strong></div>
+              <div><span>Views</span><strong>{{ context?.views.length || 0 }}</strong></div>
+              <div><span>Variables</span><strong>{{ context?.variables.length || 0 }}</strong></div>
+            </div>
+            <CoverageTable :report="report" />
+          </div>
           <OptionEditor v-else-if="store.activePanel === 'option'" />
           <div v-else class="report-panel">
             <div v-if="store.generation?.outputDir" class="output-location">

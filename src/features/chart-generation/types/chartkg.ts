@@ -143,9 +143,22 @@ export interface GenerationResponse {
   code?: string
   artifacts: ArtifactMap
   report: Record<string, unknown>
+  evaluation?: GenerationEvaluation
   pipeline?: string
   /** Pixel size of the stored result image, used to lay out very tall Agentic results. */
   width?: number
   height?: number
   qualityScore?: number | null
+}
+
+export interface GenerationEvaluation {
+  entityCount: number
+  relationCount: number
+  tripleCount: number
+  relationTypes: number
+  sources: {
+    kg: string
+    nodes: string
+    relations: string
+  }
 }

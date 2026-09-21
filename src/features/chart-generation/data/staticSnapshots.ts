@@ -2,6 +2,7 @@ import { demoAsset } from '../../../shared/assetUrl'
 import type {
   ChartContext,
   ExtractionReport,
+  GenerationEvaluation,
   GenerationListItem,
   GenerationRequest,
   GenerationResponse,
@@ -21,6 +22,11 @@ interface StaticMode {
   option?: string
   assessment?: string
   report: string
+  evaluation?: {
+    kg: string
+    nodes: string
+    relations: string
+  }
   width: number
   height: number
   qualityScore?: number
@@ -51,6 +57,31 @@ async function fetchText(path: string): Promise<string> {
   const response = await fetch(demoAsset(path))
   if (!response.ok) throw new Error(`Static asset could not be loaded: ${path}`)
   return response.text()
+}
+
+function csvTotal(csv: string): number {
+  const rows = csv.trim().split(/\r?\n/).map((line) => line.split(','))
+  const header = rows.shift() ?? []
+  const totalIndex = header.findIndex((cell) => cell.trim() === 'all_models_sum')
+  const totalRow = rows.find((row) => row[0]?.trim() === 'TOTAL')
+  return Number(totalRow?.[totalIndex] ?? 0)
+}
+
+async function loadEvaluation(mode: StaticMode): Promise<GenerationEvaluation | undefined> {
+  if (!mode.evaluation) return undefined
+  const [kg, nodesCsv, relationsCsv] = await Promise.all([
+    fetchJson<{ entities?: unknown[]; relations?: Array<{ type?: string }> }>(mode.evaluation.kg),
+    fetchText(mode.evaluation.nodes),
+    fetchText(mode.evaluation.relations),
+  ])
+  const relationTypes = new Set((kg.relations ?? []).map((relation) => relation.type).filter(Boolean)).size
+  return {
+    entityCount: csvTotal(nodesCsv) || kg.entities?.length || 0,
+    relationCount: relationTypes,
+    tripleCount: csvTotal(relationsCsv) || kg.relations?.length || 0,
+    relationTypes,
+    sources: mode.evaluation,
+  }
 }
 
 async function manifest(): Promise<StaticManifest> {
@@ -144,10 +175,11 @@ export async function mockGetGeneration(jobId: string): Promise<GenerationRespon
   if (!source) throw new Error('Static generation snapshot not found')
   const pipeline: StaticPipeline = source.modes.agentic.generationId === jobId ? 'agentic' : 'native'
   const mode = source.modes[pipeline]
-  const [report, option, code] = await Promise.all([
+  const [report, option, code, evaluation] = await Promise.all([
     fetchJson<Record<string, unknown>>(mode.report),
     mode.option ? fetchJson<Record<string, unknown>>(mode.option) : Promise.resolve(null),
     mode.code ? fetchText(mode.code) : Promise.resolve(undefined),
+    loadEvaluation(mode),
   ])
   return {
     id: jobId,
@@ -169,6 +201,7 @@ export async function mockGetGeneration(jobId: string): Promise<GenerationRespon
       report: demoAsset(mode.report),
     },
     report,
+    evaluation,
   }
 }
 

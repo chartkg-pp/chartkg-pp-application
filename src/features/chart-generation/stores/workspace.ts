@@ -209,13 +209,6 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     }
   }
 
-  /** Open the first bundled Agentic snapshot; the workspace shows a result rather than a blank page. */
-  async function loadDefaultSnapshot() {
-    await Promise.all([refreshHistory(), refreshDatasets()])
-    const first = history.value.find((item) => item.pipeline === 'agentic') ?? history.value[0]
-    if (first) await selectSnapshot(first.id, first.pipeline ?? 'agentic')
-  }
-
   async function refreshDatasets() {
     try {
       datasets.value = await chartApi.listSamples()
@@ -279,7 +272,6 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     inspectSource,
     startGeneration,
     selectSnapshot,
-    loadDefaultSnapshot,
     refreshDatasets,
     selectDataset,
     selectPipeline,
