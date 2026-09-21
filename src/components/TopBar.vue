@@ -63,7 +63,7 @@ function onSampleSelect(event: Event) {
       </button>
       <a class="topbar-button btn-download" :href="datasetDownloadUrl" download="dataset.zip" title="Download dataset">
         <svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg>
-        Download
+        Dataset
       </a>
       <button class="topbar-button btn-redo" @click="emit('reset')">
         <svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2-5.3M4 4v6h6" /></svg>
