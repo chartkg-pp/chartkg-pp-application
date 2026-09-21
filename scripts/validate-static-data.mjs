@@ -139,8 +139,6 @@ for (const chart of manifest.graphrag) {
 const expectedIds = new Set([
   '971e482de71b45b69bbb33046b890962',
   '58528121e7d1427cbb7e697970e87213',
-  '14760e6a9ca743a8b47127b6a4e98b3a',
-  '2237855e979445268d33e4eacb322d89',
 ])
 
 for (const source of manifest.pa) {

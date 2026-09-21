@@ -147,7 +147,18 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     }
   }
 
-  /** Load one of the four bundled snapshots directly, as the History list does. */
+  /** Load the default Gapminder snapshot directly when the workspace opens. */
+  async function loadDefaultSnapshot() {
+    if (generation.value || isGenerating.value) return
+    try {
+      const item = (await chartApi.listGenerations()).find((entry) => entry.datasetId === 'static-gapminder' && entry.pipeline === 'agentic')
+      if (item) await selectSnapshot(item.id, 'agentic')
+    } catch (cause) {
+      error.value = cause instanceof Error ? cause.message : 'Failed to load the default snapshot'
+      isGenerating.value = false
+    }
+  }
+
   async function selectSnapshot(jobId: string, pipeline: 'agentic' | 'native' = 'agentic') {
     clearJobListeners()
     error.value = ''
@@ -271,6 +282,7 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     loadSample,
     inspectSource,
     startGeneration,
+    loadDefaultSnapshot,
     selectSnapshot,
     refreshDatasets,
     selectDataset,

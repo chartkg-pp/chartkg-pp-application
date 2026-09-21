@@ -31,14 +31,13 @@ async function generate() {
     <div class="upload-box static-source-box">
       <span class="upload-icon">◇</span>
       <strong>Pre-generated static snapshots</strong>
-      <span>Select one of the two source datasets below.</span>
+      <span>Select the bundled source dataset below.</span>
     </div>
 
     <div class="sample-block">
       <div class="section-label">Quick Samples</div>
       <div class="sample-buttons">
         <button class="sample-button" @click="chooseSample('gapminder')">Gapminder</button>
-        <button class="sample-button" @click="chooseSample('case2')">Case2 KG</button>
       </div>
     </div>
 

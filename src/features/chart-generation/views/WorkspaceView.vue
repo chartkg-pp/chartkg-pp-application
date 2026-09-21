@@ -132,7 +132,10 @@ async function copyOutputPath() {
   }
 }
 
-onMounted(() => { void store.refreshDatasets() })
+onMounted(() => {
+  void store.refreshDatasets()
+  void store.loadDefaultSnapshot()
+})
 onBeforeUnmount(() => {
   stopResize()
   store.clearJobListeners()

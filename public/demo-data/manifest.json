@@ -116,6 +116,11 @@
           "code": "pa/gapminder/agentic/generated-code.py",
           "assessment": "pa/gapminder/agentic/visual-assessment.json",
           "report": "pa/gapminder/agentic/report.json",
+          "evaluation": {
+            "kg": "pa/gapminder/agentic/kg.json",
+            "nodes": "pa/gapminder/agentic/nodes.csv",
+            "relations": "pa/gapminder/agentic/relations.csv"
+          },
           "width": 4004,
           "height": 6704,
           "sha256": "61f8ef99f9d9508c0afffa0d7929b15932580532fbe5e447beaa5af1982ae7b9",
@@ -135,37 +140,6 @@
             "nodes": "pa/gapminder/native/nodes.csv",
             "relations": "pa/gapminder/native/relations.csv"
           }
-        }
-      }
-    },
-    {
-      "id": "case2",
-      "title": "Case2 KG · Radial Bar and Ternary Scatter",
-      "shortTitle": "Case2 KG",
-      "filename": "kg(1).json",
-      "source": "pa/case2/source/kg.json",
-      "modes": {
-        "agentic": {
-          "generationId": "2237855e979445268d33e4eacb322d89",
-          "image": "pa/case2/agentic/image.png",
-          "context": "pa/case2/agentic/context.json",
-          "code": "pa/case2/agentic/generated-code.py",
-          "assessment": "pa/case2/agentic/visual-assessment.json",
-          "report": "pa/case2/agentic/report.json",
-          "width": 1705,
-          "height": 1540,
-          "sha256": "75ac8a644838381e4aeee6522725c9289e70574cbd0d4f9cf45878dfdadc758b",
-          "qualityScore": 0.8167
-        },
-        "native": {
-          "generationId": "14760e6a9ca743a8b47127b6a4e98b3a",
-          "image": "pa/case2/native/image.png",
-          "context": "pa/case2/native/context.json",
-          "option": "pa/case2/native/option.json",
-          "report": "pa/case2/native/report.json",
-          "width": 1600,
-          "height": 1000,
-          "sha256": "5add9e3654c4926724cbd466cf6d8f01e191d10053e1fcd2421c3252ddeb670e"
         }
       }
     }
