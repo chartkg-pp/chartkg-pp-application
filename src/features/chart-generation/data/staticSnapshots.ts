@@ -11,7 +11,7 @@ import type {
   SampleInfo,
 } from '../types/chartkg'
 
-type StaticSourceId = 'gapminder' | 'case2'
+type StaticSourceId = 'gapminder'
 type StaticPipeline = 'agentic' | 'native'
 
 interface StaticMode {
@@ -95,16 +95,16 @@ async function sourceById(id: string): Promise<StaticSource> {
   return source
 }
 
-function sourceIdFromFilename(filename: string): StaticSourceId {
-  return filename.toLowerCase().endsWith('.json') || filename.toLowerCase().includes('case2') ? 'case2' : 'gapminder'
+function sourceIdFromFilename(_filename: string): StaticSourceId {
+  return 'gapminder'
 }
 
 function datasetId(sourceId: StaticSourceId): string {
   return `static-${sourceId}`
 }
 
-function sourceIdFromDataset(value?: string): StaticSourceId {
-  return value?.includes('case2') ? 'case2' : 'gapminder'
+function sourceIdFromDataset(_value?: string): StaticSourceId {
+  return 'gapminder'
 }
 
 export async function mockInspect(fileName: string): Promise<InspectResponse> {
