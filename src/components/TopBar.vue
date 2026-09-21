@@ -2,10 +2,15 @@
 import type { RunState } from '../types'
 import SystemSwitcher from './SystemSwitcher.vue'
 
-defineProps<{ run: RunState; fileName: string }>()
+defineProps<{
+  run: RunState
+  fileName: string
+  selectedSampleId: '' | 'countries-health-wealth' | 'case2-opinionseer'
+}>()
 const emit = defineEmits<{
   file: [file: File]
   start: []
+  selectSample: [id: 'countries-health-wealth' | 'case2-opinionseer']
   sample: [id: 'countries-health-wealth' | 'case2-opinionseer']
   reset: []
 }>()
@@ -14,6 +19,11 @@ function onFile(event: Event) {
   const file = (event.target as HTMLInputElement).files?.[0]
   if (file) emit('file', file)
   ;(event.target as HTMLInputElement).value = ''
+}
+
+function onSampleSelect(event: Event) {
+  const id = (event.target as HTMLSelectElement).value
+  if (id === 'countries-health-wealth' || id === 'case2-opinionseer') emit('selectSample', id)
 }
 </script>
 
@@ -24,10 +34,17 @@ function onFile(event: Event) {
     <div class="topbar-actions">
       <div class="field-group file-field">
         <span class="field-label">File</span>
-        <span class="field-select" :title="fileName || 'No chart selected'">
-          <span>{{ fileName || 'chart image name.jpg' }}</span>
-          <svg viewBox="0 0 24 24"><path d="m7 10 5 5 5-5" /></svg>
-        </span>
+        <select
+          class="field-select file-select"
+          :value="selectedSampleId"
+          :title="fileName || 'No chart selected'"
+          aria-label="Select a bundled chart image"
+          @change="onSampleSelect"
+        >
+          <option value="" disabled>{{ fileName || 'Select a chart image' }}</option>
+          <option value="countries-health-wealth">Countries · Health and Wealth</option>
+          <option value="case2-opinionseer">Case2 · OpinionSeer</option>
+        </select>
         <label class="field-upload-btn" title="Upload chart image">
           <svg viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M5 20h14" /></svg>
           <input type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/svg+xml" @change="onFile" />
@@ -37,7 +54,7 @@ function onFile(event: Event) {
         <span class="field-label">Model</span>
         <span class="field-select model-select"><span>Static GraphRAG</span><svg viewBox="0 0 24 24"><path d="m7 10 5 5 5-5" /></svg></span>
       </div>
-      <button class="topbar-button btn-start" :disabled="run.status === 'extracting' || run.status === 'validating'" @click="emit('start')">
+      <button class="topbar-button btn-start" :disabled="!fileName || run.status === 'extracting' || run.status === 'validating'" @click="emit('start')">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" /><path d="m10 8 6 4-6 4z" /></svg>
         {{ run.status === 'extracting' || run.status === 'validating' ? 'Running…' : 'Start' }}
       </button>

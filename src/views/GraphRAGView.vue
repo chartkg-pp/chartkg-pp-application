@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, ref } from 'vue'
 import { askStoredQuestion, loadStaticAnalysis, matchBundledImage, unsupportedImageMessage } from '../graphRepository'
 import type { QAStreamPhase } from '../graphRepository'
 import type { ConversationTurn, Evidence, GraphData, KGNode, QAMode, QAAnswer, QATurn, RunState, SummaryData } from '../types'
@@ -254,6 +254,9 @@ onBeforeUnmount(() => {
 })
 
 const selectedCitation = computed(() => summary.value?.citations[selectedCitationId.value ?? ''] ?? null)
+const selectedSampleId = computed<TestCaseId | ''>(() => (
+  imageUrl.value && !selectedFile.value && isTestCaseId(chartId.value) ? chartId.value : ''
+))
 
 function setEvidence(id: string) {
   selectedEvidenceId.value = id
@@ -332,11 +335,13 @@ async function loadSample(id: TestCaseId = defaultCaseId) {
   selectedNode.value = null
   questionSuggestions.value = []
   run.value = { status: 'queued', progress: 12, message: 'Bundled case ready' }
-  questionSuggestions.value = await storedExampleQuestions(id)
 }
 
 async function startAnalysis() {
-  if (!imageUrl.value) await loadSample(defaultCaseId)
+  if (!imageUrl.value) {
+    run.value = { status: 'failed', progress: 0, message: 'Please select an image first' }
+    return
+  }
   cancelActiveOperations()
   turns.value = []
   focusedTurnId.value = null
@@ -498,17 +503,20 @@ async function resetWorkspace() {
   chartId.value = defaultCaseId; graph.value = null; summary.value = null; turns.value = []; focusedTurnId.value = null; evidence.value = []; questionSuggestions.value = []; selectedCitationId.value = null; selectedEvidenceId.value = null; selectedNode.value = null; imageUrl.value = ''; selectedFile.value = null; fileName.value = ''; run.value = { status: 'idle', progress: 0, message: 'Ready' }
 }
 
-onMounted(async () => {
-  // A showcase page should present the default case fully on first paint: image, knowledge
-  // graph, layered summary, and image evidence.
-  await loadSample(defaultCaseId)
-  await startAnalysis()
-})
 </script>
 
 <template>
   <main class="app-shell module-graphrag">
-    <TopBar :run="run" :file-name="fileName" @file="chooseFile" @sample="switchCase" @start="startAnalysis" @reset="resetWorkspace" />
+    <TopBar
+      :run="run"
+      :file-name="fileName"
+      :selected-sample-id="selectedSampleId"
+      @file="chooseFile"
+      @select-sample="loadSample"
+      @sample="switchCase"
+      @start="startAnalysis"
+      @reset="resetWorkspace"
+    />
     <div ref="workspaceRef" class="workspace" :style="workspaceStyle">
       <aside class="left-column" :style="leftColumnStyle">
         <EvidenceViewer :image-src="imageUrl" :evidence="evidence" :selected-evidence-id="selectedEvidenceId" :active-evidence-ids="selectedCitation?.evidenceIds ?? []" @select="setEvidence" />
